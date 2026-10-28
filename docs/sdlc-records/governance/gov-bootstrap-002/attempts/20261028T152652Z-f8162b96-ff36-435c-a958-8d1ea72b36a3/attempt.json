@@ -1,0 +1,98 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "process_attempt",
+    "record_identity":  "20261028T152652Z-f8162b96-ff36-435c-a958-8d1ea72b36a3",
+    "work_id":  "gov-bootstrap-002",
+    "feature_identity":  "gov-bootstrap-002",
+    "creator":  {
+                    "name":  "SDLC Governance Audit",
+                    "role":  "Governance Audit actor",
+                    "account":  "Copilot agent execution"
+                },
+    "created_at_utc":  "2026-10-28T15:26:52.2933008Z",
+    "creation_clock_basis":  "System UTC clock sampled while preparing this record; not asserted as exact filesystem publication time.",
+    "repository":  {
+                       "canonical":  "https://github.com/ScalableParimal/SupportIQ",
+                       "local_path":  "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+                       "branch":  "sdlc-framework-onboarding",
+                       "commit":  "1e5c0bfca119f41974ce9d666f200fb663b142a1",
+                       "working_tree":  "clean immediately before publication",
+                       "commit_pushed":  true
+                   },
+    "persistence":  {
+                        "root":  "docs/sdlc-records/governance/",
+                        "root_adoption":  "authorized by external first-use decision",
+                        "actor_owned_record_scope":  "docs/sdlc-records/governance/gov-bootstrap-002/",
+                        "product_root_adopted":  false,
+                        "publication_route":  "Atomic no-overwrite local filesystem CreateNew, durable flush, read-back hash validation"
+                    },
+    "invocation":  {
+                       "process":  "Initial complete SDLC Governance Audit",
+                       "stage":  "Governance Audit",
+                       "status":  "in_progress",
+                       "scope":  "Audit candidate SDLC Governance Framework in target repository only; full 52-core catalog and seven separately reported mechanisms",
+                       "exclusions":  [
+                                          "No baseline adoption",
+                                          "No product-root adoption",
+                                          "No product work",
+                                          "No portability assessment",
+                                          "No remediation, investigation, or corrective change",
+                                          "No commit or push"
+                                      ]
+                   },
+    "human_authorization":  {
+                                "source":  "GitHub issue comment",
+                                "issue_url":  "https://github.com/ScalableParimal/SupportIQ/issues/1",
+                                "comment_id":  "6473000256",
+                                "permalink":  "https://github.com/ScalableParimal/SupportIQ/issues/1#issuecomment-6473000256",
+                                "api_url":  "https://api.github.com/repos/ScalableParimal/SupportIQ/issues/comments/6473000256",
+                                "author":  "ScalableParimal",
+                                "author_association":  "OWNER",
+                                "repository_owner":  "ScalableParimal",
+                                "created_at_utc":  "2026-10-28T15:21:29Z",
+                                "comment_body_sha256":  "6947D5707742990D54B8BFC4FF003CBB3BABB3BA8B67DB03208B48ADE252C1B6",
+                                "validated_at_utc":  "2026-10-28T15:26:52.2933008Z",
+                                "validated_http_status":  200,
+                                "master_sha256":  {
+                                                      "docs/ai/sdlc/SDLC_GOVERNANCE.md":  "A89A0E74B9201496F03749AA7A1764380D7E483A0A158956B29CE8B746C1E014",
+                                                      "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md":  "D7879C0552EAA9449017B132469FC2B74237E859DA6AA43A09F64A896D9F415C",
+                                                      "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md":  "86EC0B35B723E6EAD868707945D9B425B781863A9520BB916792477D76703B13"
+                                                  },
+                                "authorized_work_id":  "gov-bootstrap-002",
+                                "authorized_actor":  "SDLC Governance Audit",
+                                "authorized_scope":  "docs\\sdlc-records\\governance\\gov-bootstrap-002\\",
+                                "recovery_history":  {
+                                                         "prior_work_id":  "gov-bootstrap-001",
+                                                         "prior_attempt_id":  "20261028T150357Z-e5aa3039-1e13-4e61-bf25-91c077dd98ea",
+                                                         "status":  "ABANDONED",
+                                                         "human_decision":  "Do not continue or reconstruct; prior record disappeared, cause unknown; disclose in this attempt and audit report."
+                                                     }
+                            },
+    "stage_start":  {
+                        "source":  "Fresh human instruction in this session",
+                        "human":  "Parimal Shere",
+                        "evidence_text":  "The human invocation states: “Fresh human stage-start approval given by Parimal Shere in this session” and directs the initial complete SDLC Governance Audit.",
+                        "scope":  "Start this Audit invocation only; not a Human Approval, baseline adoption, or authorization for another stage."
+                    },
+    "capability_preflight":  {
+                                 "effective_identity":  "INT-SCL-010\\Parimal",
+                                 "permission_evidence":  "Non-mutating ACL inspection of docs\\sdlc-records showed NT AUTHORITY\\Authenticated Users Modify; current identity is in the authenticated-user access context; actor publication route is the authorized local filesystem.",
+                                 "publication_capability":  "No-overwrite attempt publication followed by durable flush and read-back integrity validation",
+                                 "result":  "Available, subject to publication/readback success"
+                             },
+    "preflight":  {
+                      "target_commit_verified":  true,
+                      "target_branch_verified":  true,
+                      "working_tree_clean_before_publication":  true,
+                      "remote_branch_matches_authorized_commit":  true,
+                      "master_fingerprints_match":  true,
+                      "work_id_collision_checked_in_governance_and_product_roots":  true,
+                      "collision_result":  "No matching work ID path or structured work/feature identity found",
+                      "rechecked_immediately_before_publication":  true
+                  },
+    "source_context":  {
+                           "framework_reference_repository":  "https://github.com/ScalableParimal/Governed-SDLC-Process",
+                           "framework_reference_commit":  "066771a23eb99c1357aa6f22c8f521802906fa22",
+                           "not_authoritative_for_target_baseline":  true
+                       }
+}

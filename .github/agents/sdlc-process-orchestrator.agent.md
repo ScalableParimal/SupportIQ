@@ -365,7 +365,7 @@ Therefore, every transition into a process follows:
             ↓
     PROCESS_INITIATION_APPROVAL_PENDING
             ↓
-    Explicit Human Approval
+    Fresh Process Initiation response (not formal Human Approval)
             ↓
     Invoke Process
             ↓
@@ -1039,11 +1039,11 @@ Human authority must never be simulated by the Orchestrator.
 
 ### O5.0 Notification-only approval-checkpoint alarm
 
-After the integration is effective under `docs/tools/ApprovalAlarm.md`, immediately before presenting a newly reached, explicit human decision, approval, or acceptance request under O5.1–O5.5, O6.2, O17.2 steps 8, 9, 25, or 33, O21.1–O21.4, or O3.15 when an explicit commit/push authorization is actually required, invoke `powershell.exe -NoProfile -File ".\scripts\ApprovalAlarm.ps1" -Action Start` from the repository root. Then immediately present the unchanged required package and question, using the available question tool where required, and wait for the actual response. Do not wait for playback, poll Status, or delay the question. Include the guide's manual Stop command with the request.
+Only if an approval-alarm integration is installed in the current repository (both `docs/tools/ApprovalAlarm.md` and `scripts/ApprovalAlarm.ps1` exist) and is effective under that guide, immediately before presenting a newly reached, explicit human decision, approval, or acceptance request under O5.1–O5.5, O6.2, O17.2 steps 8, 9, 25, or 33, O21.1–O21.4, or O3.15 when an explicit commit/push authorization is actually required, invoke `powershell.exe -NoProfile -File ".\scripts\ApprovalAlarm.ps1" -Action Start` from the repository root. Then immediately present the unchanged required package and question, using the available question tool where required, and wait for the actual response. Do not wait for playback, poll Status, or delay the question. Include the guide's manual Stop command with the request. If either file is absent, skip this step entirely: the absence is not a blocker, does not skip or weaken any Human Gate, and no alarm is invoked.
 
 Use one Start per genuinely new explicit checkpoint. Re-presenting or clarifying the same unanswered request does not restart it; a new request requiring a distinct decision does. The alarm is shared for this checkout: a new checkpoint restarts the shared five-minute window, and manual Stop silences that shared alarm. Do not trigger for an ordinary question, clarification, audit/finding/result/completion message, tool or Agent activity, or blocker without an existing explicit human decision/approval request. If launch is unavailable, fails, or is denied, disclose that and still present the existing request and wait; obey tool permissions and never bypass them. Starting, failing, expiring, or stopping the alarm supplies no decision, approval, acceptance, or authority to continue. Until the integration is effective, do not automatically invoke it; only existing explicit per-invocation opt-in instructions may enable the standalone notification.
 
-The detailed trigger map, shared-window behavior, limitations, and narrowly bounded runtime operations are in `docs/tools/ApprovalAlarm.md`. This is notification only and adds no gate or state.
+Where installed, the detailed trigger map, shared-window behavior, limitations, and narrowly bounded runtime operations are in `docs/tools/ApprovalAlarm.md`. This is notification only and adds no gate or state.
 
 The following are mandatory human gates where applicable.
 
