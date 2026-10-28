@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc-governance-remediation-terminal-handoff-result",
+  "record_identity": "20261028T162710Z-7ec33218-1fc2-4b68-b050-d7794ac9a59b",
+  "work_id": "gov-bootstrap-003",
+  "feature_identity": "gov-bootstrap-003",
+  "attempt_identity": "20261028T162710Z-3ca18764-a2b9-46ac-8a6b-5f64a1602a51",
+  "creator": {"name": "SDLC Governance Remediation", "role": "Governance Remediation terminal-handoff actor", "execution_identity": "INT-SCL-010\\Parimal"},
+  "created_at_utc": "2026-10-28T16:29:13.9726569Z",
+  "creation_clock_basis": "System UTC sampled after report publication and read-back, during result preparation; not asserted as exact publication time.",
+  "process": "Authorized post-Audit terminal handoff only",
+  "execution_status": "completed",
+  "governed_outcome": "COMPLETE",
+  "completion_scope": "Terminal reporting and integrity handoff only; no remediation cycle started.",
+  "target_repository": "https://github.com/ScalableParimal/SupportIQ",
+  "target_branch": "sdlc-framework-onboarding",
+  "authorized_head_commit": "9564ab85d04c1161c9636b112ad98518b59170ea",
+  "audit_source_commit": "50f300ab79b384c88cfd08af7dad9d71403eaefd",
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/gov-bootstrap-003/attempts/20261028T162710Z-3ca18764-a2b9-46ac-8a6b-5f64a1602a51/report.md",
+    "identity": "remediation-report:20261028T162710Z-3ca18764-a2b9-46ac-8a6b-5f64a1602a51",
+    "sha256": "232EDC72491FC0A1C75148FBC8FD7D08020E3250AA1D99C18079B3C0F3FB63CA"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/gov-bootstrap-003/attempts/20261028T162710Z-3ca18764-a2b9-46ac-8a6b-5f64a1602a51/attempt.json",
+    "identity": "20261028T162710Z-3ca18764-a2b9-46ac-8a6b-5f64a1602a51",
+    "sha256": "E4A099F8B799C545C3D1205CCD576CCF157558F78741E1AE692F2A32AEFE7E22"
+  },
+  "final_audit": {
+    "process": "SDLC Governance Audit",
+    "attempt_identity": "20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e",
+    "report": {
+      "path": "docs/sdlc-records/governance/gov-bootstrap-003/attempts/20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e/report.md",
+      "identity": "audit-report:20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e",
+      "sha256": "40E84594D5562CFD7033294ACF272D36C9A1140337A82A290440EEC519FACB31"
+    },
+    "result": {
+      "path": "docs/sdlc-records/governance/gov-bootstrap-003/attempts/20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e/result.json",
+      "identity": "20261028T160729Z-79189ecf-29cf-4309-93e3-ea9b916ae28d",
+      "recomputed_sha256": "79F1DE05064A79CF4BB6C88937BBE258CFEC86C483F0646807C52E825B19E1DB"
+    },
+    "validation_outcome": "PASS",
+    "validation_details": "Stored result SHA-256 independently recomputed; final report/result paths, identities, Work ID, repository and outcomes validated. Result binds the final report and all 78 evidence entries by exact identities and hashes. All seven mechanism evidence bindings validated. Empty findings explicitly supported by report and zero counts.",
+    "evidence_validation": {"total": 78, "local": 77, "external": 1, "matched": 78},
+    "applicability_to_authorized_head": "PASS: Git diff from Audit source commit to authorized HEAD contains only its three published Audit records; no audited source changed and all local evidence fingerprints still match. Audit source identity remains historical and unmodified.",
+    "overall_audit_result": "CONSISTENT",
+    "findings": [],
+    "finding_counts": {"critical": 0, "high": 0, "medium": 0, "low": 0, "ambiguities": 0, "missing_governance_controls": 0, "unsupported_governance_controls": 0, "broken_references": 0},
+    "core_catalog": {"expected": 52, "found": 52, "audited": 52},
+    "mechanism_groups": [
+      {"name": "Governance Audit", "expected": 5, "found": 5, "assessed": 5, "result": "PASS"},
+      {"name": "Governance Remediation", "expected": 14, "found": 14, "assessed": 14, "result": "PASS"},
+      {"name": "SDLC Process Orchestration", "expected": 5, "found": 5, "assessed": 5, "result": "PASS"},
+      {"name": "SDLC Portability Assessment", "expected": 8, "found": 8, "assessed": 8, "result": "PASS"},
+      {"name": "Governance Amendment Application", "expected": 8, "found": 8, "assessed": 8, "result": "PASS - definitions"},
+      {"name": "Independent Governance Verification", "expected": 8, "found": 8, "assessed": 8, "result": "PASS - definitions"},
+      {"name": "Independent Governance Review", "expected": 8, "found": 8, "assessed": 8, "result": "PASS - definitions"}
+    ],
+    "runtime_boundary": "Only upstream Audit was invoked. Mechanism definition/source alignment is not runtime assurance. This invocation performs terminal reporting only."
+  },
+  "authorization": {
+    "uri": "https://github.com/ScalableParimal/SupportIQ/issues/1#issuecomment-6474538391",
+    "identity": "issuecomment-6474538391",
+    "body_utf8_sha256": "8FDB391A3166E7E5EE59842919F51C9253D433F5DA2DCE5D44A49F7C1C4532BE",
+    "author": "ScalableParimal",
+    "author_association": "OWNER",
+    "decision": "APPROVED - ScalableParimal",
+    "fresh_stage_start": "Parimal Shere's current session instruction; source and scope referenced in invocation."
+  },
+  "evidence_records": [
+    {"path": "docs/sdlc-records/governance/gov-bootstrap-003/attempts/20261028T162710Z-3ca18764-a2b9-46ac-8a6b-5f64a1602a51/attempt.json", "identity": "20261028T162710Z-3ca18764-a2b9-46ac-8a6b-5f64a1602a51", "sha256": "E4A099F8B799C545C3D1205CCD576CCF157558F78741E1AE692F2A32AEFE7E22"},
+    {"path": "docs/sdlc-records/governance/gov-bootstrap-003/attempts/20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e/attempt.json", "identity": "20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e", "sha256": "B5FDAC3BEA4641C04E20C29C32160F301D5ADBA3FEC84D5806585F09C360AD22"},
+    {"path": "docs/sdlc-records/governance/gov-bootstrap-003/attempts/20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e/report.md", "identity": "audit-report:20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e", "sha256": "40E84594D5562CFD7033294ACF272D36C9A1140337A82A290440EEC519FACB31"},
+    {"path": "docs/sdlc-records/governance/gov-bootstrap-003/attempts/20261028T155812Z-52eb8055-731c-47b7-9cdf-9f9ab43c885e/result.json", "identity": "20261028T160729Z-79189ecf-29cf-4309-93e3-ea9b916ae28d", "sha256": "79F1DE05064A79CF4BB6C88937BBE258CFEC86C483F0646807C52E825B19E1DB"},
+    {"path": "https://github.com/ScalableParimal/SupportIQ/issues/1#issuecomment-6474538391", "identity": "issuecomment-6474538391", "sha256": "8FDB391A3166E7E5EE59842919F51C9253D433F5DA2DCE5D44A49F7C1C4532BE"},
+    {"path": "https://github.com/ScalableParimal/SupportIQ/issues/1#issuecomment-6473817764", "identity": "issuecomment-6473817764", "sha256": "EDECA20B42CE36D9F8DF0E8A0FB15AA18209505A4500422868496E6C257E939A"}
+  ],
+  "remediation_cycle_started": false,
+  "corrections_applied": [],
+  "independent_governance_verification": {"status": "NOT APPLICABLE", "reason": "No correction applied; integrity handoff validation is not a separate Verification invocation."},
+  "independent_governance_review": {"status": "NOT APPLICABLE", "reason": "No correction cycle; no separate Review stage claimed."},
+  "unresolved_findings": [],
+  "blockers": [],
+  "publication": {
+    "route": "UTF-8 .partial validated and flushed, same-directory atomic File.Move without overwrite, then read-back SHA-256. Invocation before execution; report before result.",
+    "report_publication_evidence": "Prior tool operation returned REPORT_PUBLISHED_READBACK_VALIDATED SHA256=232EDC72491FC0A1C75148FBC8FD7D08020E3250AA1D99C18079B3C0F3FB63CA before result preparation.",
+    "exact_publication_timestamp": "Not captured or asserted; operation order and read-back establish publication sequence.",
+    "local_only": true,
+    "commit_or_push_performed": false
+  },
+  "handoff": {
+    "same_work_id": "gov-bootstrap-003",
+    "next_permitted_process": "Stop after terminal result publication/read-back. Any prospective Master-baseline adoption requires its own separate attributable Human decision/process. Product-root adoption and any later Portability Assessment/product stage require separate authorization/initiation.",
+    "pending_decisions_for_this_handoff": [],
+    "authority_boundary": "No baseline or product-root adoption, Human Acceptance, new Audit, remediation, investigation, correction, assessment, product work, commit, or push authorized or performed."
+  }
+}
