@@ -1,0 +1,36 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "portability-assessment-result",
+    "record_identity":  "20261028T171644Z-9650dbb9-1f3a-45a4-81aa-95799778d530",
+    "work_id":  "supportiq-portability-001",
+    "attempt_id":  "20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b",
+    "assessment_type":  "material-change reassessment",
+    "target_repository":  "ScalableParimal/SupportIQ",
+    "target_commit":  "be652c0b6f22f3f3d2ce24085ce3fb154d80259c",
+    "source_repository":  "ScalableParimal/Governed-SDLC-Process",
+    "source_commit":  "53dbd76bd061468faf14ee9d87a810e34c25d556",
+    "overall_determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+    "execution_status":  "completed",
+    "possible_blocker_ids":  [
+
+                             ],
+    "common_workspace_disposition":  "PA-001 applies; common multi-root workspace not selected",
+    "target_only_workspace":  "human-reported, not runtime-verified",
+    "report":  {
+                   "path":  "docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/report.md",
+                   "sha256":  "6F525B168F05637BE2F52DD120FC5C57D150182D960F91B3C324E974B732FBD6",
+                   "identity":  "portability-report:20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b"
+               },
+    "attempt":  {
+                    "path":  "docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/attempt.json",
+                    "sha256":  "FB536EA6811D9136DA76A109DCF0122AE40FCDA5C8F68D3648A3FA63717E9680",
+                    "identity":  "20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b"
+                },
+    "next_permitted_process":  "Requirement Analysis, after separate Request, actor output-scope authorization, and fresh stage-start",
+    "limitations":  [
+                        "Static assessment only",
+                        "VS Code/Copilot runtime discovery not tested",
+                        "Three target governance Skills omit source YAML metadata",
+                        "Source commit is local and one commit ahead of origin"
+                    ]
+}

@@ -1,0 +1,101 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "requirement-update-result",
+    "record_identity":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd:result",
+    "work_id":  "supportiq-product-baseline",
+    "feature_id":  "supportiq-product-baseline",
+    "attempt_id":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd",
+    "created_at_utc":  "2026-10-28T18:21:32.0214957Z",
+    "clock_basis":  "host UTC clock sampled during terminal result preparation; not asserted as exact publication time",
+    "process":  "Requirement Update",
+    "execution_status":  "blocked",
+    "governed_outcome":  "REQUIREMENT_UPDATE_APPLIED_BUT_FINAL_REPOSITORY_RECONCILIATION_BLOCKED",
+    "current_sdlc_state":  "BLOCKED; Requirement Update artifact was applied and validated at publication, but current repository reconciliation failed",
+    "repository":  {
+                       "canonical_identity":  "ScalableParimal/SupportIQ",
+                       "branch":  "sdlc-framework-onboarding",
+                       "head":  "be652c0b6f22f3f3d2ce24085ce3fb154d80259c",
+                       "root":  "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+                   },
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+                               "original_sha256":  "EE752A1B0541EAC55027A3A61CB5485996CB3BD5484E4CE4348B8829DE5CF7FA",
+                               "last_successfully_validated_sha256":  "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5",
+                               "current_sha256":  "unavailable",
+                               "current_read":  "blocked by Windows sharing violation; current bytes cannot be reconciled",
+                               "source_modified_by_this_attempt":  true
+                           },
+    "process_initiation":  {
+                               "actual_wording":  "initiate_exact_scope",
+                               "source":  "Current user message",
+                               "process":  "Requirement Update only",
+                               "formal_human_approval":  false
+                           },
+    "attempt":  {
+                    "path":  "docs/sdlc-records/product/supportiq-product-baseline/attempts/20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd/attempt.json",
+                    "sha256":  "99EF9075D7FA80157C7208BAD5844EE54B8E6CEF2EC97BAEE0BCAD34061554C7",
+                    "identity":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd:attempt"
+                },
+    "checkpoints":  [
+                        {
+                            "path":  "docs/sdlc-records/product/supportiq-product-baseline/attempts/20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd/checkpoint-0001.json",
+                            "sha256":  "C07CE1CE7AC716D1E8A6E14AE7F32FD52FFE4CFBE8760CA2519EE0734571EED0",
+                            "identity":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd:checkpoint-0001"
+                        },
+                        {
+                            "path":  "docs/sdlc-records/product/supportiq-product-baseline/attempts/20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd/checkpoint-0002.json",
+                            "sha256":  "80BAC42807A52974FE02818459A51500D11726D66B5A5FC7C98751BE844FBD7C",
+                            "identity":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd:checkpoint-0002"
+                        },
+                        {
+                            "path":  "docs/sdlc-records/product/supportiq-product-baseline/attempts/20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd/checkpoint-0003.json",
+                            "sha256":  "D81F689ED0CD39BE5795836336FE7ACE9D1B535835CDA57DDEFE31C2BC4FB2CB",
+                            "identity":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd:checkpoint-0003"
+                        }
+                    ],
+    "report":  {
+                   "path":  "docs/sdlc-records/product/supportiq-product-baseline/attempts/20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd/report.md",
+                   "sha256":  "F5250FBD7474DF4B3B9AF7F9404CF35BBF2F321F8705D34A706DCE75E580ED88",
+                   "identity":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd:report",
+                   "status":  "Published before access lock; describes update and validation at the then-known output hash"
+               },
+    "decision_processing":  {
+                                "approved_decisions_applied":  [
+                                                                   "Q1 identity and authorization",
+                                                                   "Q2 knowledge lifecycle and privacy",
+                                                                   "Q3 ticket taxonomy/routing",
+                                                                   "Q4 retain Azure AI; defer exact deployment selection",
+                                                                   "Q5 initial evaluation targets; human-approved thresholds",
+                                                                   "Q6 read-only integrations/drafts/no sends",
+                                                                   "Q7 deterministic synthetic seed"
+                                                               ],
+                                "open_questions":  [
+                                                       "Exact Azure AI model/deployment/region pending validation",
+                                                       "Numeric quality-threshold values pending explicit human approval before release"
+                                                   ]
+                            },
+    "approval_status":  {
+                            "requirement":  "Draft Updated at last verified publication state",
+                            "human_requirement_approval":  "not granted",
+                            "human_acceptance":  "not granted",
+                            "implementation_authorized":  false
+                        },
+    "reconciliation":  {
+                           "status":  "BLOCKED",
+                           "evidence":  "Terminal Get-FileHash/read access failed with Windows reporting the PRD in use by another process; file metadata showed 49,936 bytes",
+                           "current_digest":  "unavailable",
+                           "interpretation":  "Cannot determine whether the lock is transient or a concurrent change occurred; no further source read/write was attempted."
+                       },
+    "not_performed":  [
+                          "Requirement Analysis refresh",
+                          "Requirement Analysis Verification",
+                          "Human Requirement Approval",
+                          "Planning",
+                          "Implementation",
+                          "Commit",
+                          "Push"
+                      ],
+    "next_permitted_action":  "Human/repository owner should resolve the PRD access lock and reconcile its current bytes with the last successfully validated hash before any resume. No downstream process was invoked.",
+    "repository_effects":  "PRD was atomically updated and validated at the recorded hash before the later read lock. No further source write occurred after the lock was observed. This actor published only its own records under the authorized attempt path; no other actor records, human-gates, commit, or push.",
+    "result_applicability":  "The report/result bind the last successfully validated update bytes. They do not establish that the currently locked repository path still contains those bytes."
+}

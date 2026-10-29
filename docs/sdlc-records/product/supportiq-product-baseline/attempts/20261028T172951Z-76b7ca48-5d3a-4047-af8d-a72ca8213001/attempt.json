@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "record_type": "orchestrator-attempt",
+  "record_identity": "20261028T172951Z-76b7ca48-5d3a-4047-af8d-a72ca8213001",
+  "work_id": "supportiq-product-baseline",
+  "feature_id": "supportiq-product-baseline",
+  "creator": {
+    "actor": "SDLC Process Orchestrator (AI)",
+    "role": "Orchestrator",
+    "initiating_human": "Parimal Shere (source: current user request)"
+  },
+  "created_at_utc": "2026-10-28T17:29:51.269819Z",
+  "clock_basis": "system UTC clock sampled during record preparation; not publication time",
+  "process": "Initial product-baseline Orchestrator setup and governed-state determination",
+  "attempt_id": "20261028T172951Z-76b7ca48-5d3a-4047-af8d-a72ca8213001",
+  "scope": "Orchestrator-owned target binding, current governance/record reconciliation, portability applicability check, and state determination only. No Requirement Analysis or other next process invocation.",
+  "target": {
+    "repository": "ScalableParimal/SupportIQ",
+    "local_root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "branch": "sdlc-framework-onboarding",
+    "head": "be652c0b6f22f3f3d2ce24085ce3fb154d80259c",
+    "tracked_working_tree": "clean",
+    "preexisting_untracked_scope": [
+      "?? docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T164751Z-e96380c8-17a1-4bf9-943a-dd7dd4d8a113/attempt.json",
+      "?? docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T164751Z-e96380c8-17a1-4bf9-943a-dd7dd4d8a113/report.md",
+      "?? docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T164751Z-e96380c8-17a1-4bf9-943a-dd7dd4d8a113/result.json",
+      "?? docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/attempt.json",
+      "?? docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/report.md",
+      "?? docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/result.json"
+    ]
+  },
+  "requirement": {
+    "identity": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+    "sha256": "EE752A1B0541EAC55027A3A61CB5485996CB3BD5484E4CE4348B8829DE5CF7FA",
+    "content_read_or_analyzed": false,
+    "role": "source Requirement reference only"
+  },
+  "plan": {
+    "status": "not established/not applicable",
+    "identity": null
+  },
+  "governing_sources": {
+    "docs/ai/sdlc/SDLC_GOVERNANCE.md": "A89A0E74B9201496F03749AA7A1764380D7E483A0A158956B29CE8B746C1E014",
+    "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md": "86EC0B35B723E6EAD868707945D9B425B781863A9520BB916792477D76703B13",
+    "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md": "D7879C0552EAA9449017B132469FC2B74237E859DA6AA43A09F64A896D9F415C"
+  },
+  "authorization": {
+    "product_root_adoption": {
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/1#issuecomment-6474774004",
+      "author": "ScalableParimal",
+      "author_association": "OWNER",
+      "scope": "adopts docs/sdlc-records/product/; original actor-specific output grant was portability assessment only"
+    },
+    "orchestrator_record_scope": {
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/1#issuecomment-6475806580",
+      "author": "ScalableParimal",
+      "author_association": "OWNER",
+      "scope": "only this Orchestrator own attempt/checkpoints/report/result/necessary attachments under docs/sdlc-records/product/supportiq-product-baseline/attempts/<attempt-id>/"
+    },
+    "fresh_process_initiation_interlock": {
+      "response_verbatim": "approve",
+      "source": "current user message",
+      "subject": "start the Orchestrator within this exact scope only",
+      "scope": "Orchestrator setup/state determination; not Requirement Analysis initiation and not any formal governance approval"
+    },
+    "formal_human_gate": "none claimed or established"
+  },
+  "portability_assessment": {
+    "attempt_id": "20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b",
+    "result_path": "docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/result.json",
+    "result_sha256": "98B9AE184C36A24D94A48684491AC31292F9F1D42910BF5DE626BA910C31EE51",
+    "report_path": "docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/report.md",
+    "report_sha256": "6F525B168F05637BE2F52DD120FC5C57D150182D960F91B3C324E974B732FBD6",
+    "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+    "possible_blocker_ids": [],
+    "applicability": "target SupportIQ, exact current HEAD, single-folder target-only context; human-reported active workspace identity remains a stated limitation",
+    "human_disposition": "PA-001 applies only to common multi-root workspace; human chose SupportIQ-only workspace, recorded in issue comment 6475548091"
+  },
+  "declared_capability": {
+    "repository_read": "available",
+    "local_sha256": "available",
+    "record_publication": "explicitly authorized only within this attempt scope"
+  },
+  "observed_capability_before_publication": {
+    "root_and_git_identity": "validated via repository commands",
+    "record_scope_absent_and_collision_checked": true,
+    "recording_tool": "PowerShell/Python local filesystem APIs available; write authority observed only by publishing this authorized attempt record"
+  },
+  "invocation_authorization_metadata": {
+    "interlock": "Process Initiation response for Orchestrator only",
+    "actual_response": "approve",
+    "attributable_source": "current user request",
+    "formal_approval": false
+  },
+  "expected_result": "Orchestrator setup determination and safe handoff; no process-agent invocation",
+  "next_permitted_process": "Requirement Analysis is the lifecycle next process, but invocation is BLOCKED pending separate Requirement Analysis actor output-scope authorization and a fresh exact Requirement Analysis stage-start response",
+  "status": "invocation published; Orchestrator-owned state determination in progress"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_type": "orchestrator-checkpoint",
+  "record_identity": "20261028T172951Z-76b7ca48-5d3a-4047-af8d-a72ca8213001:checkpoint-0001",
+  "work_id": "supportiq-product-baseline",
+  "feature_id": "supportiq-product-baseline",
+  "attempt_id": "20261028T172951Z-76b7ca48-5d3a-4047-af8d-a72ca8213001",
+  "sequence": "0001",
+  "created_at_utc": "2026-10-28T17:30:36.339088Z",
+  "clock_basis": "system UTC clock sampled during record preparation; not publication time",
+  "last_confirmed_boundary": "Orchestrator completed target binding, current governance review, repository/durable-record reconciliation, portability applicability check, and state determination. No next SDLC Process Agent or Skill was invoked.",
+  "repository": {
+    "repository": "ScalableParimal/SupportIQ",
+    "head": "be652c0b6f22f3f3d2ce24085ce3fb154d80259c",
+    "branch": "sdlc-framework-onboarding",
+    "tracked_working_tree": "clean",
+    "preexisting_untracked_records": "six files under docs/sdlc-records/product/supportiq-portability-001/; left untouched"
+  },
+  "requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+    "sha256": "EE752A1B0541EAC55027A3A61CB5485996CB3BD5484E4CE4348B8829DE5CF7FA",
+    "content_read_or_analyzed": false
+  },
+  "portability_assessment": {
+    "result": "docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/result.json",
+    "result_sha256": "98B9AE184C36A24D94A48684491AC31292F9F1D42910BF5DE626BA910C31EE51",
+    "report": "docs/sdlc-records/product/supportiq-portability-001/attempts/20261028T171518Z-6e5499c7-83f6-4f92-abc9-27fd2adeee4b/report.md",
+    "report_sha256": "6F525B168F05637BE2F52DD120FC5C57D150182D960F91B3C324E974B732FBD6",
+    "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+    "possible_blocker_ids": [],
+    "PA-001 disposition": "applies to common multi-root workspace; human selected SupportIQ-only workspace"
+  },
+  "pending_gate": {
+    "state": "Requirement Analysis not started",
+    "required_before_invocation": [
+      "separate human authorization for Requirement Analysis actor-owned output scope",
+      "fresh exact Requirement Analysis stage-start / Process Initiation response"
+    ],
+    "current_response_applies_to": "Orchestrator setup only",
+    "current_response_does_not_apply_to": "Requirement Analysis or any formal Human Governance Gate"
+  },
+  "unfinished_work": "Do not read/analyze PRD or invoke Requirement Analysis; resume only after both actor-scope authorization and a fresh exact Requirement Analysis initiation response are established.",
+  "attempt_record": {
+    "path": "docs/sdlc-records/product/supportiq-product-baseline/attempts/20261028T172951Z-76b7ca48-5d3a-4047-af8d-a72ca8213001/attempt.json",
+    "sha256": "E347F927094C55BB2EBF7B7837A01698EF6EBD4983648A3CDACF224939BDC46A"
+  }
+}

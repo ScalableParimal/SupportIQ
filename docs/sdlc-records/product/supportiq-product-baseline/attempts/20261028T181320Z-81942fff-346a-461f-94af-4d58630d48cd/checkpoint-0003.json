@@ -1,0 +1,23 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "requirement-update-checkpoint",
+    "record_identity":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd:checkpoint-0003",
+    "attempt_id":  "20261028T181320Z-81942fff-346a-461f-94af-4d58630d48cd",
+    "sequence":  3,
+    "created_at_utc":  "2026-10-28T18:21:16.0510472Z",
+    "clock_basis":  "host UTC clock sampled during checkpoint preparation",
+    "last_confirmed_boundary":  "Updated DOCX was atomically replaced and structurally/text validated at recorded hash; subsequent terminal repository reconciliation could not read the DOCX because Windows reported it was being used by another process",
+    "last_successfully_validated_source":  {
+                                               "path":  "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+                                               "sha256":  "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5",
+                                               "validation":  "DOCX ZIP and XML parse passed; accepted decision phrases and lifecycle state text validated before lock was observed"
+                                           },
+    "reconciliation":  {
+                           "status":  "BLOCKED",
+                           "current_sha256":  "unavailable",
+                           "observed":  "Get-FileHash and read access failed with Windows sharing violation; file metadata reported 49,936 bytes",
+                           "conclusion":  "Cannot establish whether the access failure is transient or whether a concurrent writer changed the source. Do not infer either; no further source write attempted."
+                       },
+    "next_action":  "Stop Requirement Update continuation and report that final repository reconciliation is blocked; do not invoke Requirement Analysis refresh or any downstream process.",
+    "process_initiation_response_not_reused":  true
+}

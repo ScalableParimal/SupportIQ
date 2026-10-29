@@ -1,0 +1,37 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "requirement-analysis-checkpoint",
+    "record_identity":  "20261028T173927Z-caec8459-e14b-46bf-a687-c557e521e419:checkpoint-0002",
+    "attempt_id":  "20261028T173927Z-caec8459-e14b-46bf-a687-c557e521e419",
+    "sequence":  2,
+    "created_at_utc":  "2026-10-28T17:47:33.5803107Z",
+    "clock_basis":  "host clock sampled during checkpoint preparation",
+    "last_confirmed_boundary":  "Complete initial analysis and required report published; terminal result binding is next",
+    "report":  {
+                   "path":  "docs/sdlc-records/product/supportiq-product-baseline/attempts/20261028T173927Z-caec8459-e14b-46bf-a687-c557e521e419/report.md",
+                   "identity":  "20261028T173927Z-caec8459-e14b-46bf-a687-c557e521e419:report",
+                   "sha256":  "DBD4A95F1BAED523A256D3A342F94A96CE0CA8AE8A676D41D1353BEC87281866",
+                   "validated":  true
+               },
+    "prior_checkpoint":  {
+                             "path":  "docs/sdlc-records/product/supportiq-product-baseline/attempts/20261028T173927Z-caec8459-e14b-46bf-a687-c557e521e419/checkpoint-0001.json",
+                             "sha256":  "4693ACB6313FC355310BF59420FDA50BD30A0BFB68D69CB3F564C382A1A57022"
+                         },
+    "analysis_outcome":  "Complete; unresolved human decisions; no Human Approval, Verification, implementation authorization, or Acceptance",
+    "blocking_questions":  [
+                               "Q1 identity and authorization",
+                               "Q2 knowledge lifecycle and privacy"
+                           ],
+    "other_questions":  [
+                            "Q3 ticket business rules",
+                            "Q4 AI deployment",
+                            "Q5 evaluation acceptance",
+                            "Q6 tool write scope",
+                            "Q7 ticket data seed"
+                        ],
+    "repository_effects":  "No governed source/product artifacts modified; only authorized actor-owned records in exact attempt directory",
+    "unfinished":  [
+                       "Publish result.json binding report, attempt, checkpoints and source/predecessor evidence"
+                   ],
+    "safe_resume":  "Validate referenced digests and publish terminal result.json without overwriting existing records."
+}
