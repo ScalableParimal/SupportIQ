@@ -352,9 +352,17 @@ The Approved Requirement is the business source of truth for downstream implemen
 
 ### 8.3 Supersession
 
-When a new Requirement version is approved, the previous approved version becomes superseded.
+When a new Requirement version is approved, the previous approved version becomes superseded but remains preserved as a separate immutable artifact; it is not physically removed.
 
 Downstream artifacts must be evaluated for impact.
+
+### 8.4 Immutable Requirement Versions
+
+Each Requirement Update creates a new, separately identifiable Requirement artifact under `docs/requirement/`. Never overwrite, edit in place, or physically remove a created Requirement version. Freeze the Requirement content bytes at creation. Creating a version is not approval.
+
+Use the existing governed process records to record each version's status (`Draft`, `Pending Human Approval`, `Approved`, `Rejected`, or `Superseded`) and any status transition, bound to the version ID and SHA-256. Do not change the frozen Requirement bytes to change a status, and do not create a separate status registry for this purpose.
+
+For each new version, the existing records must bind: a unique immutable version ID; the source/predecessor version ID and SHA-256; the resulting version ID and SHA-256; timestamp and change summary; supersession links; references to the original Requirement, amendments, analysis, clarifications, decisions, and approvals; traceability to related analysis, design, plan, implementation, and test artifacts as applicable; and the responsible actor and role. Before downstream handoff, verify by preservation/read-back that the source version remains unchanged and retrievable and that the resulting bytes match the recorded result identity and SHA-256. Record that verification in the existing process record.
 
 ---
 

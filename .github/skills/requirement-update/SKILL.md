@@ -32,12 +32,13 @@ Do not duplicate, reinterpret, or override their instructions in this Skill.
 Before updating:
 
 1. Load the governing Guideline, Prompt, and Request.
-2. Resolve the Requirement document specified by the Request.
-3. Resolve the relevant analysis findings/questions.
-4. Resolve the explicit human decisions.
-5. Resolve recommendations explicitly approved by the human.
-6. Confirm that the decisions required for the requested update are sufficiently clear.
-7. If a material decision remains unresolved or ambiguous, stop and request clarification.
+2. Establish the subject type and resolve the current approved Requirement version, immutable version ID, and SHA-256.
+3. For a human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8; do not invent a Finding.
+4. Resolve the relevant analysis findings/questions, where applicable.
+5. Resolve the explicit human decisions.
+6. Resolve recommendations explicitly approved by the human.
+7. Confirm that the decisions required for the requested update are sufficiently clear.
+8. If a material decision remains unresolved or ambiguous, stop and request clarification.
 
 Only explicitly approved human decisions may drive the Requirement Update.
 
@@ -45,25 +46,26 @@ Only explicitly approved human decisions may drive the Requirement Update.
 
 Execute the following sequence:
 
-1. Establish the current Requirement as the source document to be updated.
-2. Establish the analysis findings/questions addressed by the update.
-3. Establish the explicit human decisions and approved recommendations.
-4. Apply only those approved decisions to the affected Requirement content.
-5. Inspect related sections affected by each decision.
-6. Preserve valid unrelated Requirement content.
-7. Perform the consistency and validation activities required by the governing Guideline.
-8. Produce the required change summary.
-9. Identify remaining open questions and material assumptions.
-10. Clearly state the resulting approval status.
-11. Stop at the Requirement Update process boundary.
+1. Establish the current approved Requirement version as the immutable source and record its ID and SHA-256.
+2. Establish whether the update is Finding-led or a human-requested non-finding amendment.
+3. Establish the analysis findings/questions addressed by the update, where applicable.
+4. Establish the explicit human decisions and approved recommendations.
+5. Apply only those approved decisions to a new Requirement version artifact under `docs/requirement/`; never edit, overwrite, or remove the source version.
+6. Inspect related sections affected by each decision and preserve valid unrelated Requirement content in the new version.
+7. Record source/result version IDs and SHA-256 values, required traceability, status, actor/role, and change summary in existing process records.
+8. Perform the consistency and validation activities required by the governing Guideline, including preservation/read-back verification before handoff.
+9. Produce the required change summary.
+10. Identify remaining open questions and material assumptions.
+11. Clearly state the resulting approval status in the existing process record; do not mutate Requirement bytes to change status.
+12. Stop at the Requirement Update process boundary.
 
 The detailed rules for applying decisions, preserving requirements, controlling scope, and validating consistency remain defined by the Guideline.
 
 ## 5. Artifact Modification Boundary
 
-Requirement Update is the governed process that may modify the specified Requirement document when the execution context explicitly requests the update.
+Requirement Update is the governed process that creates a new immutable Requirement version under `docs/requirement/` when the execution context explicitly requests an approved update.
 
-Modify only the designated Requirement document as the subject of the explicitly approved update. Own-output record publication does not authorize additional substantive artifact changes.
+Never modify, overwrite, or remove the source or any previously created Requirement version. Create only the new version required by the explicitly approved update. Own-output record publication does not authorize additional substantive artifact changes.
 
 Do not modify:
 

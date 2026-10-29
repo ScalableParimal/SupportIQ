@@ -317,7 +317,7 @@ Every implementation task should be explainable in terms of:
 
 A material Requirement change must not be introduced directly through implementation.
 
-The governed path is:
+The following Finding-led path applies when a Requirement change is caused by a Finding:
 
     Requirement Finding
        ↓
@@ -348,6 +348,16 @@ The governed path is:
     Human Plan Approval
        ↓
     Implementation
+
+### Human-Requested Requirement Amendment (Non-Finding)
+
+A request to amend a product Requirement that is not caused by a Finding remains separate from the Finding-led path. Any authorized project stakeholder, Product Owner, Business Analyst, Project Architect, developer, tester, reviewer, or SDLC AI agent may raise or recommend a request. AI records the source and rationale but does not decide business scope. A project-authorized human (normally the Product Owner, Repository Owner, Business Owner, or explicitly delegated Requirement Decision Authority) decides to accept, reject, defer, or request clarification and records the rationale.
+
+Use the existing Requirement Update Request and process records to capture a unique request ID, date, requester and origin, rationale, current Requirement version and affected Requirement IDs, requested outcomes, criteria and constraints, dependencies, risks, impacts, and evidence. Classify the request as in-scope, out-of-scope, or needing clarification. If essential information is incomplete, keep it pending clarification. Do not create a Finding for this route; handle any separately identified Finding through the existing Finding process.
+
+Hold potentially affected work while the request is unresolved. Unrelated work may continue only when its independence is assessed and recorded; if impact is uncertain, hold the potentially affected work. After a decision or Requirement change, preserve partial and completed work and its records. Assess each potentially affected artifact and result as valid, partially valid, invalidated, or pending; repeat only affected work; do not reuse stale approvals or results; and retain unrelated work when its independence and applicability are established. Release held work only after reconciliation and permission from the responsible authority.
+
+For an accepted request, create a new immutable Requirement version under SDLC_ARTIFACT_GOVERNANCE.md section 8.4 and follow the existing Requirement Update sequence: reanalyse the resulting version, complete Requirement Analysis Verification, resolve findings and decisions, obtain Human Requirement Approval, perform Plan Impact Evaluation, and complete required planning and plan gates before resuming downstream work. Impact-targeted rework does not replace or narrow any complete-scope verification requirement. Resume only from current approved artifacts. Route any correction needed through the existing Corrective Change Decision and authorization controls. Use the existing processes, actors, records, and gates; this route adds no new process, agent, artifact category, or approval authority.
 
 The new Requirement becomes the current Approved Requirement only after the required approval gate is completed.
 

@@ -482,6 +482,8 @@ When the governed corrective decision determines that the Requirement must be up
 
 The Orchestrator must invoke the Requirement Update Skill only when the governed process authorizes a Requirement change.
 
+For a human-requested product Requirement amendment not caused by a Finding, use the separate non-finding route in SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8 at any active SDLC stage. Use the existing Requirement Update Request and Skill; do not create a Finding or route the request through Finding Investigation / Corrective Change Decision unless a separate Finding exists. The responsible human decision and the O6.1 Process Initiation interlock are distinct; apply O6.1 immediately before each process invocation. After an accepted request, invoke the existing Requirement Update Skill and follow the existing complete Requirement Analysis Verification, Human Requirement Approval, Plan Impact Evaluation, and required plan gates. This route adds no process, agent, record category, or approval authority.
+
 The Orchestrator must not directly edit the Requirement as a shortcut.
 
 ---
@@ -1568,6 +1570,8 @@ For example:
     Verification / Review if required
 
 The Orchestrator must propagate only the necessary impact.
+
+For a Requirement amendment, preserve partial and completed work and records. Assess each potentially affected artifact and result as valid, partially valid, invalidated, or pending; repeat only affected work; do not reuse stale approvals or results; and retain unrelated work when its independence and applicability are established. If impact is uncertain, hold the potentially affected work. Release held work only after reconciliation and permission from the responsible authority. Impact-targeted rework does not replace or narrow a complete-scope verification requirement.
 
 It must not unnecessarily invalidate unrelated downstream artifacts.
 

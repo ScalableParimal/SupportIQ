@@ -14,10 +14,12 @@ These guidelines govern **applying approved decisions to the requirement**. Requ
 
 Before updating, AI must have:
 
-1. The current requirement document.
-2. The relevant analysis findings/questions.
+1. The current approved Requirement version and its version ID and SHA-256.
+2. The relevant analysis findings/questions, where applicable.
 3. The human's answers and explicit decisions.
 4. Any recommendations explicitly approved by the human.
+5. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment. For a non-finding request, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
+6. The affected Requirement IDs and the request details required by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8, where applicable.
 
 If a material decision is still unresolved, do not silently decide it.
 
@@ -101,16 +103,14 @@ Never silently convert an assumption into an approved requirement.
 
 ## 7. Conflicts and Superseded Requirements
 
-If an approved decision changes an existing requirement:
+If an approved decision changes an existing Requirement:
 
-- Revise the old requirement.
-- Check dependent statements.
-- Remove contradictions.
-- Preserve unrelated requirements.
+- Never revise, overwrite, edit in place, or remove the source Requirement version.
+- Create a new, separately identifiable immutable Requirement version under `docs/requirement/` and bind it to the source version using the metadata and verification required by SDLC_ARTIFACT_GOVERNANCE.md section 8.4.
+- Check dependent statements in the new version, remove contradictions from that version, and preserve unrelated requirements.
+- Record status changes in the existing governed process records; do not mutate the frozen Requirement bytes to change a status.
 
-If it is unclear whether the human intended to change an existing requirement, ask before modifying it.
-
-The final requirement must not contain two contradictory statements describing the same behavior.
+If it is unclear whether the human intended to change an existing Requirement, ask before creating a new version. Creating a version does not approve it. The resulting version remains subject to complete Requirement Analysis Verification and Human Requirement Approval. The final version must not contain two contradictory statements describing the same behavior.
 
 ---
 
@@ -230,16 +230,18 @@ AI must never label the requirement "Approved" on its own.
 
 ## 14. File Modification Rules
 
-When explicitly asked to update the requirement:
+When explicitly asked to update a Requirement:
 
-- Modify only the specified requirement document as the subject of the approved update. Own-output record publication is permitted only under section 33.1 of SDLC_ARTIFACT_GOVERNANCE.md and section 30.1 of SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md; it does not authorize additional substantive artifact changes.
+- Create only the new immutable Requirement version required for the approved update under `docs/requirement/`; do not modify, overwrite, or remove the source or any previously created version.
+- Bind the new version and source version using the existing process records and metadata required by SDLC_ARTIFACT_GOVERNANCE.md section 8.4. Record status changes in those records, not in the frozen Requirement bytes.
+- Modify no other Requirement artifact or product artifact without separate authorization. Own-output record publication is permitted only under section 33.1 of SDLC_ARTIFACT_GOVERNANCE.md and section 30.1 of SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md; it does not authorize additional substantive artifact changes.
 - Do not modify source code.
 - Do not create an implementation plan unless explicitly requested.
 - Do not create tests.
 - Do not modify unrelated documentation.
 - Do not modify the AI guidelines or prompts.
 
-If the user requests only a proposed update/draft, do not modify the requirement file.
+If the user requests only a proposed update/draft, do not create or modify any Requirement version.
 
 ---
 
@@ -282,6 +284,8 @@ Update Affected Sections
 Consistency Review
         ↓
 Final Validation
+        ↓
+Create new immutable Requirement version and verify source preservation/read-back
         ↓
 Change Summary
         ↓

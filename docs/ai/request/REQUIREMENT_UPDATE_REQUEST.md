@@ -1,16 +1,31 @@
 Read and follow:
 docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md
 
-Requirement document:
-[PATH TO REQUIREMENT DOCUMENT]
+Subject Type:
+[FINDING-LED CORRECTIVE UPDATE / HUMAN-REQUESTED REQUIREMENT AMENDMENT (NON-FINDING)]
 
-Relevant analysis findings/questions:
-[Identify the findings/questions this update addresses.]
+Current approved Requirement version:
+[PATH / IMMUTABLE VERSION ID / SHA-256]
 
-Human decisions:
+Affected Requirement IDs:
+[LIST]
+
+Relevant analysis findings/questions, where applicable:
+[IDENTIFY]
+
+Human decisions and approved recommendations:
 1. ...
 2. ...
 3. ...
 
-Approved recommendations:
-[List any recommendations explicitly approved by the human for incorporation.]
+For a human-requested non-finding amendment, complete the existing request details:
+- Unique request ID / date / requester / origin: ...
+- Rationale: ...
+- Requested outcomes / criteria / constraints: ...
+- Dependencies / risks / impacts / evidence: ...
+- Scope classification (in-scope / out-of-scope / needs clarification): ...
+- Responsible human decision authority / disposition / rationale: ...
+- Affected work and independence assessment / hold status: ...
+- Affected artifact/result disposition and re-entry permission: ...
+
+Do not create a Finding for a non-finding request. Incomplete essential information remains pending clarification.

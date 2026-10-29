@@ -389,6 +389,10 @@ If a finding requires a Requirement change:
 
 A Requirement change must not be introduced directly through implementation.
 
+### Human-Requested Requirement Amendment (Non-Finding)
+
+A human-requested product Requirement amendment that is not caused by a Finding is a separate route and must not be classified as or routed through the Finding-led path. Follow the request, decision-authority, affected-work hold, impact, and re-entry requirements in SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8. An accepted request uses the existing Requirement Update path and required downstream approval gates. It does not authorize implementation against an unapproved Requirement or bypass complete-scope Requirement Analysis Verification, Human Requirement Approval, Plan Impact Evaluation, or required plan gates. No new stage, agent, or approval gate is added to this route.
+
 ---
 
 ## 13. Implementation Plan Change Path
