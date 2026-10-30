@@ -89,7 +89,7 @@ If a material decision is required before implementation can safely proceed, ide
 
 The primary output of this Skill is a candidate Implementation Plan.
 
-The Skill may create or update the designated planning artifact when the execution context explicitly authorizes creation of that artifact.
+The Skill may create a new candidate Implementation Plan, or update a specifically identified unapproved, non-superseded candidate Plan, only when the execution context explicitly authorizes that operation within the current attempt. Before updating, the actor must establish the target Plan's lifecycle status; if its status or update authorization is missing or conflicting, stop without writing. The Skill must not modify a current Approved or superseded Implementation Plan. Any change to a current Approved Implementation Plan must follow the governed corrective-change route and remain unapplied until required Human Approval; after application, complete full Implementation Plan Verification, resolve remaining findings and decisions, obtain Human Review Approval, and obtain separate Human Plan Approval before implementation resumes.
 
 It must not modify:
 

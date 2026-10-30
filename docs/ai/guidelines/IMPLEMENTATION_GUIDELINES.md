@@ -404,7 +404,6 @@ Recommended implementation statuses:
 - `In Progress`
 - `Blocked`
 - `Implemented – Implementation Verification Pending`
-- `Implemented – Implementation Verification Passed`
 - `Implementation Verification Required`
 - `Implementation Review Required`
 - `Human Acceptance Pending`
@@ -413,6 +412,8 @@ Recommended implementation statuses:
 AI must not mark the implementation as human-approved or accepted.
 
 Implementation Verification, Implementation Review, and Human Acceptance are separate controlled stages and must not be represented by a single implementation status.
+
+The `Completion Status` field in §20 records the Implementation actor's own implementation work and handoff; it must not use a status that asserts a formal Implementation Verification pass. The Implementation actor must not state `Implemented – Implementation Verification Passed` or otherwise claim in its Implementation report that formal Implementation Verification has passed. Only the independent Implementation Verification process may establish and report a passing result in its own report/result, bound to the exact repository state and complete implementation it examined. A later summary may state that Implementation Verification passed only by citing that independent result and identifying the same implementation state. If the implementation changes, the prior passing result does not establish a pass for the changed state; complete Implementation Verification must be repeated.
 
 ---
 
