@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "record_type": "governance_patch_proposal",
+  "record_id": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5:governance_patch_proposal",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "creator": {
+    "role": "Corrective Change Decision",
+    "actor_identity": "local-corrective-change-decision:20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+    "runtime_agent_id_observed": "0939dcbe-f104-454a-a8bd-62e36810ccd3",
+    "identity_limit": "Runtime roster association, not authenticated platform identity"
+  },
+  "created_at_utc": "2026-11-02T10:58:27.687077+00:00",
+  "clock_basis": "Host UTC sample during record preparation; not publication timestamp",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-002",
+  "status": "UNAPPROVED; NOT APPLIED",
+  "target_paths": [
+    ".github/agents/sdlc-governance-remediation.agent.md"
+  ],
+  "base": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 48379,
+    "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+  },
+  "expected_after": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 49225,
+    "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+  },
+  "encoding": "UTF-8 without BOM",
+  "target_newline": "CRLF, preserved exactly; final newline unchanged",
+  "replacement": {
+    "occurrences_required": 1,
+    "before": "2. **Commit/Push Authorization (YES/NO):** Commit/Push authorization is a separate human decision, not Human Acceptance. It must identify the exact reviewed staged diff by an unambiguous content fingerprint, the exact staged file list, the Work ID, and the action or actions authorized. After creating an authorized commit, append the full resulting commit identity to this same authorization record. A Push is permitted only if the record expressly authorizes Push, the resulting commit identity has been bound in the record, and the commit being pushed matches that identity.",
+    "after": "2. **Commit/Push Authorization (YES/NO):** Commit/Push authorization is a separate human decision, not Human Acceptance. It must identify the exact reviewed staged diff by an unambiguous content fingerprint, the exact staged file list, the Work ID, and the action or actions authorized. Preserve the published authorization record unchanged. After creating an authorized commit, the actor performing that authorized action must publish new immutable evidence within its own authorized attempt under the same Work ID, following section 33.1 of SDLC_ARTIFACT_GOVERNANCE.md and section 30.1 of SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md. Link the original authorization by canonical path, record ID, and SHA-256; record the full resulting commit identity and evidence that it matches the exact authorized staged diff and file list. Retain the original Work ID, scope, conditions, and permitted-action bindings. This later evidence records execution only; it does not alter or supersede the Human decision, authorize a different diff or commit, or grant or expand Push authorization. A Push is permitted only if the unchanged original authorization expressly authorizes Push, the linked evidence binds the resulting commit to that authorization and exact staged content, and the commit being pushed matches that identity. Publish this evidence after the commit; that commit need not contain its own identity or the later evidence.",
+    "method": "Exact UTF-8 byte-string replacement once; no newline normalization"
+  },
+  "patch": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/proposed.patch",
+    "bytes": 4115,
+    "sha256": "BD0AC70966CE8F97330719A2E156F3C2D4DFAD559AFAAF052F9726067B53C024"
+  },
+  "scope": "Section 43 Optional Post-Completion Commit item 2 only; all other target bytes unchanged",
+  "exclusions": [
+    "All other source paths",
+    "Masters",
+    "Historical records",
+    "Product work",
+    "Staging",
+    "Commit",
+    "Push",
+    "Adoption"
+  ],
+  "roles": {
+    "preparer": {
+      "path": ".github/agents/corrective-change-decision.agent.md",
+      "bytes": 5163,
+      "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+    },
+    "proposed_one_time_applier": {
+      "path": ".github/agents/governance-amendment-application.agent.md",
+      "bytes": 1636,
+      "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+    },
+    "planned_verifier_identity_only": {
+      "path": ".github/agents/independent-governance-verification.agent.md",
+      "bytes": 1393,
+      "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+    },
+    "planned_reviewer_identity_only": {
+      "path": ".github/agents/independent-governance-review.agent.md",
+      "bytes": 1284,
+      "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+    },
+    "excluded_orchestrator": {
+      "path": ".github/agents/sdlc-process-orchestrator.agent.md",
+      "bytes": 97823,
+      "sha256": "048DA0B64B162638A113D9049EF845F4530CBE9556345C0C8C7E7E202FBF23B3"
+    },
+    "excluded_active_remediation": {
+      "path": ".github/agents/sdlc-governance-remediation.agent.md",
+      "bytes": 48379,
+      "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+    }
+  },
+  "preparer_attempt": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attempt.json",
+    "bytes": 102241,
+    "sha256": "4599570487520A7741F0528CD9A3779548269DB61867930F87243F41955BFDBF"
+  },
+  "application_route": "Proposed qualified one-time initial applier, subject to exact Human Approval/designation and separately fresh Application start. No standing authority inferred; old one-time designations not reusable.",
+  "planned_role_limit": "Applier/verifier/reviewer bindings are proposals/identity-only, not current runtime capabilities or started attempts; future actors publish their own attempts only after predecessor gates and fresh starts.",
+  "required_assurance": [
+    "Authorized exact application",
+    "Independent Verification PASS",
+    "Independent Review PASS",
+    "Complete Governance Audit CONSISTENT with all issue counts zero and all seven mechanisms assessed"
+  ],
+  "master_adoption": "Not required for this non-Master amendment; target Master baseline and product root remain unadopted",
+  "residual_risks": [
+    "Procedural nonmutation, not sandbox enforced",
+    "Endpoint hashes cannot exclude transient writes or same-principal tampering",
+    "No exhaustive trusted event log"
+  ],
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/report.md",
+    "identity": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5:decision_report"
+  }
+}

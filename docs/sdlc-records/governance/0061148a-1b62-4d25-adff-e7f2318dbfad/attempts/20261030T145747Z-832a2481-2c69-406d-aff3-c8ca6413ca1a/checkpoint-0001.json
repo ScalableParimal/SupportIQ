@@ -1,0 +1,34 @@
+{
+  "schema": "sdlc-process-checkpoint-v1",
+  "record_type": "sdlc_process_checkpoint",
+  "record_identity": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a:checkpoint-0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a",
+  "sequence": 1,
+  "created_utc": "2026-10-30T15:02:00Z",
+  "status": "Investigation complete; canonical report and evidence published and readback/hash validated. Terminal result not yet published.",
+  "outcome": "FINDING CONFIRMED",
+  "finding_id": "IGV-FIND-001",
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/report.md",
+    "bytes": 16664,
+    "sha256": "4CA6CC42F1D37A84B061B89F8EE0084C1CE5A16EC15F7DDFD06FF323AE19A89F"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/evidence/investigation-evidence.json",
+    "bytes": 9769,
+    "sha256": "B3FF7EEB65E2A05A94BEBA58256704A8067D5C39CA1183C75E99EE0CDA34A03A"
+  },
+  "validated_publication": {
+    "attempt_path_sha256": "5AEEAFA205570616BBCC2FF92B0313094F5A3370003651C2233617D5E94D682D",
+    "attempt_readback_valid": true,
+    "report_readback_valid": true,
+    "evidence_readback_valid_json": true,
+    "report_evidence_hashes_match": true
+  },
+  "limits": [
+    "No correction or authorization to correct was produced.",
+    "No original Application, Verification, proposal, or Audit record was changed.",
+    "No product test, build, runtime, Review, Verification retry, or Audit rerun was performed."
+  ]
+}

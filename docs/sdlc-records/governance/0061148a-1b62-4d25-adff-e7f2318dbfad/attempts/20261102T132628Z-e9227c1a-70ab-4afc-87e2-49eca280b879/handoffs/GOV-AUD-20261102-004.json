@@ -1,0 +1,174 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "finding_investigation_handoff",
+    "record_id":  "20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879:investigation_handoff:GOV-AUD-20261102-004",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "creator":  {
+                    "identity":  "Governance Remediation invocation; attempt ID is local record identity only",
+                    "role":  "SDLC Governance Remediation"
+                },
+    "created_at_utc":  "2026-11-02T13:33:56.4028719Z",
+    "subject_type":  "FINDING",
+    "finding_id":  "GOV-AUD-20261102-004",
+    "source_process":  "SDLC Governance Audit",
+    "status":  "AUDIT_REPORTED_ONLY_NOT_ACCEPTED_NOT_CONFIRMED_NOT_INVESTIGATED",
+    "audit_source":  {
+                         "attempt_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f",
+                         "report":  {
+                                        "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+                                        "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_report",
+                                        "bytes":  95024,
+                                        "sha256":  "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576"
+                                    },
+                         "result":  {
+                                        "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+                                        "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_result",
+                                        "bytes":  61780,
+                                        "sha256":  "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70"
+                                    },
+                         "evidence":  {
+                                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+                                          "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence",
+                                          "bytes":  393511,
+                                          "sha256":  "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88"
+                                      },
+                         "final_readback":  {
+                                                "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0003.json",
+                                                "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_final_readback",
+                                                "bytes":  5875,
+                                                "sha256":  "2F1346F1F46954DA8FB7B72A1F0D8E97F7264F0BE99CE1AD66301ADF0AB86B31",
+                                                "outcome":  "PASS"
+                                            }
+                     },
+    "finding_as_reported":  {
+                                "id":  "GOV-AUD-20261102-004",
+                                "severity":  "Medium",
+                                "category":  "Ambiguity",
+                                "title":  "Enhancement Corrective Request does not distinguish current actor attempts from planned future assurance identities",
+                                "source_document":  "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                                "source_section":  "Actor and Human Approval fields (enhancement only), line 5",
+                                "related_document":  "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+                                "related_section":  "Preconditions, line 7; corresponding Application Prompt and Request stage-boundary controls",
+                                "issue":  "The enhancement Request instructs that preparer, applier, verifier and reviewer role hashes are \u0027each bound to that actor\u0027s own unique attempt record\u0027 and asks for current runtime/qualification fields without a planned-future-stage qualifier. The Application Guideline expressly permits only planned verifier/reviewer path/hash bindings before Application and forbids requiring their attempts before predecessor gates. The Request does not say whether its all-four-attempt fields are later-stage placeholders or required proposal-stage inputs. This is an unresolved stage-timing ambiguity, not proof that any actor actually started early.",
+                                "evidence":  [
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                                                                    "bytes":  2985,
+                                                                    "sha256":  "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038"
+                                                                },
+                                                     "lines":  [
+                                                                   1,
+                                                                   5
+                                                               ],
+                                                     "text":  "Read and follow:\ndocs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md\nSubject Type [FINDING / HUMAN-REQUESTED GOVERNANCE ENHANCEMENT (NON-FINDING)]. For FINDING, complete the Finding Source and Finding Investigation fields below. For a governance enhancement, do not create or imply a finding; complete these separate Enhancement Request fields and identify the non-finding investigation result. RESERVED STABLE WORK ID (per SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1). Enhancement Investigation: [FINDING INVESTIGATION REPORT PATH/RESULT; IDENTIFY AS NON-FINDING; EVIDENCE THAT REQUEST SOURCE, AUTHORIZATION, SCOPE, AFFECTED GOVERNANCE ARTIFACTS, AND CONSTRAINTS WERE ESTABLISHED]. Proposed Governance Amendment: [CANONICAL PROCESS-OWNED REPORT PATH/ID/SHA-256; EXACT PER-FILE CONTENT OR UNAMBIGUOUS DIFF; TARGET PATHS; BASE AND EXPECTED-AFTER SHA-256; SCOPE; EXCLUSIONS; NOT-APPLIED STATE].\n\nActor and Human Approval fields (enhancement only): for proposal preparer, one-time initial applier [identity/environment/one-time scope], verifier, and reviewer, record the role/Agent definition repository-relative path and content SHA-256, each bound to that actor\u0027s own unique attempt record; record current runtime identity/environment separately. Check distinctness using the actor-identity bindings, not display name alone. Different OS identities, hosts, or repositories are not required unless an applicable, explicitly approved security boundary requires them. Qualification evidence [record path/ID/SHA-256 and capability observations]; approval decision/source/time; approved report fingerprint and exact targets. Each Application, Verification, Review, and Audit request must separately record its fresh attributable stage-start instruction; this is not part of or a substitute for patch approval."
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+                                                                    "bytes":  5890,
+                                                                    "sha256":  "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790"
+                                                                },
+                                                     "lines":  [
+                                                                   5,
+                                                                   9
+                                                               ],
+                                                     "text":  "\n## Preconditions\nResolve the stable work ID, proposal report, exact approved paths and content, each base and expected-after SHA-256, scope, exclusions, approval record, and named application actor. Verify the approval is explicit, attributable, current, and binds this exact proposal and route. The preparer, applier, verifier, and reviewer must be distinct process actors. Additionally, the applier must be distinct from the SDLC Process Orchestrator and from any Governance Remediation actor barred from self-edit during its active cycle; these two additional exclusions apply to the applier only. Establish the proposal preparer\u0027s and applier\u0027s identities from their repository-relative role/Agent definition paths and content SHA-256 values, and bind each to that actor\u0027s own unique attempt record. Before Application, record the intended verifier\u0027s and reviewer\u0027s planned actor identities using only each role/Agent definition path and content SHA-256; label these as planned identity-only bindings, not as actor-owned attempts, current runtime identities, current capabilities, or evidence that either future stage has started. Use the four identity bindings to confirm that the preparer, applier, verifier, and reviewer are distinct, and separately establish the applier\u0027s exclusion from the SDLC Process Orchestrator and any Governance Remediation actor barred from self-edit during its active cycle; a display name alone is insufficient. Do not require, create, or publish verifier/reviewer attempt records before their predecessor gates. The actual verifier must publish its own attempt and establish current identity, permissions, and Verification capability only after successful Application and a fresh Verification stage-start. The actual reviewer must do so only after passing Verification and a fresh Review stage-start. Each actual verifier/reviewer definition path and fingerprint must match its approved planned binding; on mismatch, stop before that stage and obtain an updated attributable Human decision and exact approval. Record runtime identity, permissions, and execution environment separately as current-invocation capability evidence. A shared OS identity, host, or repository does not by itself defeat actor separation, and different runtime environments are not required unless an applicable, explicitly approved security boundary requires them. Reusing one actor identity or another actor\u0027s attempt record does not establish a distinct actor. No proposal-preparation, continuation, or process-initiation response is approval.\n\n## Controlled application"
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                                                    "bytes":  54243,
+                                                                    "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+                                                                },
+                                                     "lines":  [
+                                                                   1171,
+                                                                   1175
+                                                               ],
+                                                     "text":  "#### Universal current-invocation qualification and first publication\n\nFor every governed AI process actor and every invocation, before consequential work the actor must establish and record: the canonical repository and exact source state; the applicable adopted persistence root (or the narrowly authorized first-use governance-root bootstrap under section 30.1 of SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md); stable Work ID; actor identity; authorized process/stage and output scope; current effective identity, permissions, and role-specific capabilities; and all required Human authorization, fresh stage-start, and predecessor gates. Capability evidence must be specific to the current environment and invocation, obtained through non-mutating checks, and include the permitted publication route for the actor\u0027s own records. A role/name, declared tool, prior successful invocation, or another actor\u0027s evidence is not sufficient. Prior same-actor success is not required when current evidence establishes capability, and historical evidence alone never establishes current capability.\n\nBefore consequential work, the actor must publish its own invocation attempt record within the authorized scope using the applicable no-overwrite publication contract, then read back and integrity-check it. A collision, mismatch, missing capability/authorization, or publication/validation failure stops the invocation before consequential work; do not overwrite, perform source actions, or publish a success result. This rule grants no standing authority, Human Approval, stage-start, predecessor result, or effectiveness, and does not relax role-specific read/write, independence, or approval boundaries."
+                                                 }
+                                             ],
+                                "impact":  "An enhancement requester/preparer can reasonably read the template as requiring premature future actor attempts or as an impossible prerequisite. Another reader may defer those fields, but that timing is not specified. This affects the enhancement-to-Application definition relationship, not the valid finding-led GOV-AUD-20261102-002 Application or its scoped PASS assurance.",
+                                "recommended_resolution":  "Investigate and decide explicit stage-specific fields: bind actual current preparer/applier attempts where applicable, mark future verifier/reviewer definitions planned identity-only, and require each future actor\u0027s fresh attempt/current capability only after its predecessor and fresh Human start. Obtain exact Human Approval before any template correction.",
+                                "human_decision_required":  "Yes",
+                                "human_decision_reason":  "Stage-specific normative template correction and any exact amendment approval belong to the governed corrective route; the Audit may not silently supply the missing interpretation."
+                            },
+    "current_source_fingerprints":  [
+                                        {
+                                            "path":  "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                                            "bytes":  2985,
+                                            "sha256":  "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+                                            "reported_sha256":  "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+                                            "matches":  true
+                                        },
+                                        {
+                                            "path":  "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+                                            "bytes":  5890,
+                                            "sha256":  "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790",
+                                            "reported_sha256":  "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790",
+                                            "matches":  true
+                                        },
+                                        {
+                                            "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                            "bytes":  54243,
+                                            "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                            "reported_sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                            "matches":  true
+                                        }
+                                    ],
+    "investigation_request":  {
+                                  "requested_subject_type":  "FINDING",
+                                  "scope":  "Investigate only GOV-AUD-20261102-004; do not bundle or validate the other finding as part of this handoff.",
+                                  "objective":  "Independently determine whether this audit-reported finding is confirmed, its root cause and impact where evidence permits, viable corrective options, human decision/approval needs, uncertainties, and recommended next process.",
+                                  "required_process_inputs":  [
+                                                                  {
+                                                                      "path":  "docs/ai/guidelines/FINDING_INVESTIGATION_GUIDELINES.md",
+                                                                      "bytes":  14928,
+                                                                      "sha256":  "14844FB1FA9865AB870CA1E3E8A50CD319756B2C8EA45231199B09368CC31BD2"
+                                                                  },
+                                                                  {
+                                                                      "path":  "docs/ai/prompts/FINDING_INVESTIGATION_PROMPT.md",
+                                                                      "bytes":  3596,
+                                                                      "sha256":  "7550968BAAD60A9214C1E1C7E5476D6270EF99FE3D17E4F85E5D20CAD26D8175"
+                                                                  },
+                                                                  {
+                                                                      "path":  "docs/ai/request/FINDING_INVESTIGATION_REQUEST.md",
+                                                                      "bytes":  1854,
+                                                                      "sha256":  "836F79EE60357C502A2181E8CB4B04D500C351219358E484C0639A9FD275C120"
+                                                                  },
+                                                                  {
+                                                                      "path":  ".github/skills/finding-investigation/SKILL.md",
+                                                                      "bytes":  10312,
+                                                                      "sha256":  "800D316A3AA97BFB3B2A3581FE16F8474C6DA2A199E3EB9CF397D3B7B2081448"
+                                                                  },
+                                                                  {
+                                                                      "path":  ".github/agents/finding-investigation.agent.md",
+                                                                      "bytes":  4011,
+                                                                      "sha256":  "BECE1D3F5C20DD10B975E1536BB816232A47C2B43FDAAD76B13C4328DA84B218"
+                                                                  }
+                                                              ],
+                                  "fresh_human_start_required":  true,
+                                  "current_remediation_start_does_not_authorize_investigation":  true,
+                                  "execution_authorized":  false,
+                                  "corrective_change_decision_started":  false,
+                                  "correction_approval_received":  false,
+                                  "correction_applied":  false,
+                                  "product_work_prohibited":  true
+                              },
+    "evidence_classification":  {
+                                    "audit_finding":  "Reported evidence from the stored complete Audit",
+                                    "current_fingerprint_checks":  "Executed metadata verification only; does not itself validate the finding",
+                                    "source_content_analysis":  "Not performed by this handoff",
+                                    "investigation_conclusion":  "None"
+                                },
+    "non_goals":  [
+                      "Do not infer acceptance or confirmation from the audit finding.",
+                      "Do not perform Corrective Change Decision \u0026 Plan Update.",
+                      "Do not approve or apply any correction.",
+                      "Do not modify governance source or product artifacts.",
+                      "Do not extend to other finding IDs."
+                  ]
+}

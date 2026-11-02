@@ -1,0 +1,161 @@
+{
+  "record_type": "independent_fresh_process_invocation_readback",
+  "process_id": 103860,
+  "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+  "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+  "observed_at_utc": "2026-11-02T15:26:39.021721+00:00",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/invocation.json",
+    "bytes": 14141,
+    "sha256": "C9CF23A531D8C2772930DE2C8E62C3205F54EBFF24A6C694C252D0E54EC50286"
+  },
+  "manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/manifest.json",
+    "bytes": 254753,
+    "sha256": "798F4686A3304EE12E28A28B46C5EF6E830C683EB19E5AD69591664ABA9E64A1"
+  },
+  "invocation_strict_parse": true,
+  "manifest_strict_parse": true,
+  "input_snapshot_matches": true,
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:38.440190+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "ls-files",
+        "-z"
+      ],
+      "stdout_sha256": "7DBA28382315E2384C5AB894C4DAC385E255D11FC3DFA439D43BDF14CF1DEB7F",
+      "returncode": 0
+    },
+    {
+      "sequence": 2,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:38.716526+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "rev-parse",
+        "HEAD"
+      ],
+      "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+      "returncode": 0
+    },
+    {
+      "sequence": 3,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:38.780644+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "branch",
+        "--show-current"
+      ],
+      "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+      "returncode": 0
+    },
+    {
+      "sequence": 4,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:38.863794+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=all"
+      ],
+      "stdout_sha256": "C94D69AE6CC59F67AD03AA3D160BBFFB0790105A03F7A9F1F0E2E602C7CC05CF",
+      "returncode": 0
+    },
+    {
+      "sequence": 5,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:38.933409+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "diff",
+        "--cached",
+        "--binary",
+        "--no-ext-diff"
+      ],
+      "stdout_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "returncode": 0
+    },
+    {
+      "sequence": 6,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:39.020431+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "diff",
+        "--binary",
+        "--no-ext-diff"
+      ],
+      "stdout_sha256": "AD3E80B6DCF7CA66D42EB0FA473CF0E11D501EF211F71867F3DD4D876A77C638",
+      "returncode": 0
+    },
+    {
+      "sequence": 7,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:39.021577+00:00",
+      "operation": "hidden-inclusive bounded inventory, SHA256 and Git state",
+      "paths": [
+        "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+      ],
+      "outcome": "OK",
+      "files": 490,
+      "path_set_sha256": "2C3027AA6FB30CC65FF79DDE0D91D359A89781392C46811196BF1FB27E168572"
+    }
+  ],
+  "schema_version": "1.0",
+  "record_id": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818:invocation-readback.json",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature": "Governance-only F003/F004; product feature N/A",
+  "attempt_id": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Independent Governance Verification",
+  "creator": {
+    "role": "Independent Governance Verification",
+    "runtime_agent_id": "8e0bf478-bfeb-461b-90ed-64033f60f8d5"
+  },
+  "created_at_utc": "2026-11-02T15:26:39.022676+00:00",
+  "clock_basis": "UTC record preparation, not exact publication time"
+}

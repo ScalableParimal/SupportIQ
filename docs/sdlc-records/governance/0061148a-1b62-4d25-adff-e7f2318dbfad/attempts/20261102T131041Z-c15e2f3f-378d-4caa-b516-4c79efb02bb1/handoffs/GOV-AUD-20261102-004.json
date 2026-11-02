@@ -1,0 +1,175 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "remediation_investigation_handoff",
+    "record_id":  "GOV-AUD-20261102-004",
+    "creator":  {
+                    "identity":  "Governance Remediation Agent; invocation identified by attempt ID",
+                    "role":  "SDLC Governance Remediation"
+                },
+    "created_at_utc":  "2026-11-02T13:18:06.1160402+00:00",
+    "clock_basis":  "PowerShell UTC preparation clock, not exact publication time",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "handoff_scope":  "This finding only; no other finding or process stage",
+    "subject_type":  "FINDING",
+    "status":  "AUDIT-REPORTED ONLY; NOT INVESTIGATED OR CONFIRMED",
+    "finding":  {
+                    "id":  "GOV-AUD-20261102-004",
+                    "severity":  "Medium",
+                    "category":  "Ambiguity",
+                    "secondary_categories":  [
+                                                 null
+                                             ],
+                    "title":  "Enhancement Corrective Request does not distinguish current actor attempts from planned future assurance identities",
+                    "reported_issue":  "The enhancement Request instructs that preparer, applier, verifier and reviewer role hashes are \u0027each bound to that actor\u0027s own unique attempt record\u0027 and asks for current runtime/qualification fields without a planned-future-stage qualifier. The Application Guideline expressly permits only planned verifier/reviewer path/hash bindings before Application and forbids requiring their attempts before predecessor gates. The Request does not say whether its all-four-attempt fields are later-stage placeholders or required proposal-stage inputs. This is an unresolved stage-timing ambiguity, not proof that any actor actually started early.",
+                    "source_document":  "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                    "source_section":  "Actor and Human Approval fields (enhancement only), line 5",
+                    "related_document":  "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+                    "related_section":  "Preconditions, line 7; corresponding Application Prompt and Request stage-boundary controls",
+                    "original_id_preserved":  true,
+                    "disposition":  "No Finding Investigation conclusion exists. Do not accept/reject/confirm based on this handoff."
+                },
+    "origin":  {
+                   "process":  "SDLC Governance Audit",
+                   "attempt_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f",
+                   "report":  {
+                                  "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+                                  "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_report",
+                                  "bytes":  95024,
+                                  "sha256":  "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576"
+                              },
+                   "result":  {
+                                  "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+                                  "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_result",
+                                  "bytes":  61780,
+                                  "sha256":  "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70",
+                                  "recomputed_sha256":  "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70",
+                                  "outcome":  "INCONSISTENT"
+                              },
+                   "evidence":  {
+                                    "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+                                    "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence",
+                                    "bytes":  393511,
+                                    "sha256":  "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88"
+                                },
+                   "audit_result_pointer":  "/findings/1",
+                   "final_readback":  {
+                                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0003.json",
+                                          "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_final_readback",
+                                          "bytes":  5875,
+                                          "sha256":  "2F1346F1F46954DA8FB7B72A1F0D8E97F7264F0BE99CE1AD66301ADF0AB86B31",
+                                          "outcome":  "PASS",
+                                          "result_sha256":  "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70"
+                                      },
+                   "finding_source_fingerprints":  [
+                                                       {
+                                                           "path":  "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                                                           "bytes":  2985,
+                                                           "sha256":  "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+                                                           "lines":  [
+                                                                         1,
+                                                                         5
+                                                                     ]
+                                                       },
+                                                       {
+                                                           "path":  "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+                                                           "bytes":  5890,
+                                                           "sha256":  "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790",
+                                                           "lines":  [
+                                                                         5,
+                                                                         9
+                                                                     ]
+                                                       },
+                                                       {
+                                                           "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                                           "bytes":  54243,
+                                                           "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                                           "lines":  [
+                                                                         1171,
+                                                                         1175
+                                                                     ]
+                                                       }
+                                                   ]
+               },
+    "request":  {
+                    "feature_or_implementation":  "N/A — governance framework subject",
+                    "task_ids":  "N/A",
+                    "finding_source":  "SDLC Governance Audit",
+                    "affected_artifact":  "Governance artifact",
+                    "affected_components":  [
+                                                "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                                                "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md"
+                                            ],
+                    "current_approved_requirement":  "Not applicable; no product Requirement is in scope.",
+                    "current_approved_implementation_plan":  "Not applicable; no product Implementation Plan is in scope.",
+                    "relevant_governance_sources":  [
+                                                        {
+                                                            "path":  "docs/ai/guidelines/FINDING_INVESTIGATION_GUIDELINES.md",
+                                                            "bytes":  14928,
+                                                            "sha256":  "14844FB1FA9865AB870CA1E3E8A50CD319756B2C8EA45231199B09368CC31BD2"
+                                                        },
+                                                        {
+                                                            "path":  "docs/ai/prompts/FINDING_INVESTIGATION_PROMPT.md",
+                                                            "bytes":  3596,
+                                                            "sha256":  "7550968BAAD60A9214C1E1C7E5476D6270EF99FE3D17E4F85E5D20CAD26D8175"
+                                                        },
+                                                        {
+                                                            "path":  "docs/ai/request/FINDING_INVESTIGATION_REQUEST.md",
+                                                            "bytes":  1854,
+                                                            "sha256":  "836F79EE60357C502A2181E8CB4B04D500C351219358E484C0639A9FD275C120"
+                                                        },
+                                                        {
+                                                            "path":  ".github/skills/finding-investigation/SKILL.md",
+                                                            "bytes":  10312,
+                                                            "sha256":  "800D316A3AA97BFB3B2A3581FE16F8474C6DA2A199E3EB9CF397D3B7B2081448"
+                                                        },
+                                                        {
+                                                            "path":  ".github/agents/finding-investigation.agent.md",
+                                                            "bytes":  4011,
+                                                            "sha256":  "BECE1D3F5C20DD10B975E1536BB816232A47C2B43FDAAD76B13C4328DA84B218"
+                                                        },
+                                                        {
+                                                            "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                                                            "bytes":  30926,
+                                                            "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+                                                        },
+                                                        {
+                                                            "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                                            "bytes":  54243,
+                                                            "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+                                                        },
+                                                        {
+                                                            "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                                                            "bytes":  89025,
+                                                            "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+                                                        }
+                                                    ],
+                    "affected_implementation":  "None; product implementation expressly excluded.",
+                    "observed_evidence":  "Reported evidence in the Audit-owned report/result/evidence only; the Investigation actor must inspect the current repository and relevant source artifacts independently.",
+                    "investigation_objective":  "Validate this specific audit-reported finding; establish expected versus observed governance behavior, confirmation status, affected artifacts, root cause where possible, impact, viable corrective options, unresolved uncertainty, any Human decision/approval need, and next process.",
+                    "additional_context":  [
+                                               "The latest Audit reports 52/52 core artifacts and 7 separately assessed mechanism groups; it is INCONSISTENT.",
+                                               "The Audit input manifest and current file comparison independently match 413/413 recorded inputs; relevant finding evidence source fingerprints match current files.",
+                                               "Current Audit invocation records the Master baseline as candidate/unadopted; independently resolve applicable authority and report uncertainty rather than assuming adoption.",
+                                               "Prior investigations/decisions in this Work ID concerned other finding IDs; this finding has not been investigated in the prior durable history."
+                                           ]
+                },
+    "boundaries":  {
+                       "governance_only":  true,
+                       "no_product_artifacts":  true,
+                       "no_scope_expansion":  true,
+                       "do_not_start_corrective_change_decision":  true,
+                       "do_not_approve_or_apply":  true,
+                       "read_only_governed_sources":  true,
+                       "do_not_treat_audit_recommendation_as_decision":  true,
+                       "no_human_stage_start_yet":  true
+                   },
+    "next_process":  "Fresh Finding Investigation for this exact finding only",
+    "stage_start":  {
+                        "required":  true,
+                        "status":  "PENDING",
+                        "not_satisfied_by_current_Remediation_start":  true,
+                        "copy_ready":  "Yes, initiate a fresh Finding Investigation for GOV-AUD-20261102-004 only under Work ID 0061148a-1b62-4d25-adff-e7f2318dbfad and Cycle 1 using handoff docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T131041Z-c15e2f3f-378d-4caa-b516-4c79efb02bb1/handoffs/GOV-AUD-20261102-004.json; no other finding or stage."
+                    }
+}

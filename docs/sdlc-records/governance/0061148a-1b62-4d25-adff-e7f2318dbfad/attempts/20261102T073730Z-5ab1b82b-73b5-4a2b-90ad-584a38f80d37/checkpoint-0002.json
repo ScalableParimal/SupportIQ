@@ -1,0 +1,59 @@
+{
+    "schemaVersion":  "1.0",
+    "recordType":  "CorrectiveChangeDecisionPublicationOrderCheckpoint",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37",
+    "createdAtUtc":  "2026-11-02T07:38:38.0947408Z",
+    "orderedLedger":  [
+                          {
+                              "sequence":  "Q",
+                              "event":  "Invocation qualification",
+                              "status":  "PASS; precedes all publication"
+                          },
+                          {
+                              "sequence":  "P-001",
+                              "event":  "attempt.json no-overwrite publication",
+                              "status":  "PASS",
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37/attempt.json",
+                              "sha256":  "1657392F2D85C4AF2CD802C710DFF90082AF47128DE1E4BD313ABEFF7630862B",
+                              "byteCount":  12669
+                          },
+                          {
+                              "sequence":  "P-002",
+                              "event":  "attempt.json readback/parse/hash and all 16 machine-derived bindings",
+                              "status":  "PASS",
+                              "attemptSha256":  "1657392F2D85C4AF2CD802C710DFF90082AF47128DE1E4BD313ABEFF7630862B",
+                              "inputBindingCount":  16
+                          },
+                          {
+                              "sequence":  "P-003",
+                              "event":  "publication-boundary ledger checkpoint-0001 no-overwrite publication",
+                              "status":  "PASS",
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37/checkpoint-0001.json",
+                              "sha256":  "9E55E24DB63352087A9971288141F396B8A7E6C4E665CE07D05E82A5C5B6F13D",
+                              "byteCount":  2489
+                          },
+                          {
+                              "sequence":  "P-004",
+                              "event":  "publication-boundary ledger readback/parse/hash validation",
+                              "status":  "PASS",
+                              "checkpointSha256":  "9E55E24DB63352087A9971288141F396B8A7E6C4E665CE07D05E82A5C5B6F13D",
+                              "validatedAtUtc":  "2026-11-02T07:38:38.0900753Z"
+                          },
+                          {
+                              "sequence":  "S-001",
+                              "event":  "first substantive inspection of controlling Investigation and affected artifact contents",
+                              "status":  "NOT STARTED; next permitted only after this checkpoint readback validation"
+                          }
+                      ],
+    "boundAttempt":  {
+                         "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37/attempt.json",
+                         "sha256":  "1657392F2D85C4AF2CD802C710DFF90082AF47128DE1E4BD313ABEFF7630862B"
+                     },
+    "boundPublicationBoundaryLedger":  {
+                                           "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37/checkpoint-0001.json",
+                                           "sha256":  "9E55E24DB63352087A9971288141F396B8A7E6C4E665CE07D05E82A5C5B6F13D",
+                                           "byteCount":  2489
+                                       },
+    "noSourceWrites":  true
+}

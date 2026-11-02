@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "record_type": "audit_terminal_readback",
+  "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_terminal_readback",
+  "feature": "Governance framework only; no product feature",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "SDLC Governance Audit",
+  "creator": {
+    "identity": "f39a6108-fbf1-47b2-b95a-8267a3f07530",
+    "role": "SDLC Governance Audit",
+    "runtime_agent_id": "f39a6108-fbf1-47b2-b95a-8267a3f07530",
+    "copilot_agent_session_id": "97a481e7-4e39-416d-95af-55d3f5c16240",
+    "session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "identity_basis": "Current sole running same-task Audit in visible harness registry; not cryptographic external identity"
+  },
+  "created_at_utc": "2026-11-02T16:16:36.532381+00:00",
+  "clock_basis": "Python timezone-aware system UTC at record preparation; not exact publication time",
+  "gate": {
+    "applicability": "No formal human gate created by Audit"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/result.json",
+      "bytes": 37941,
+      "sha256": "CF073B8E08EDF728B6AB1B1CC300C842D3FEF15F512A084C85B7A7E8EF199222",
+      "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_result"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/report.md",
+      "bytes": 122315,
+      "sha256": "C72AF2A1761610365C36A249E8892B08C7A23BA2D9A7C1F47749C3BFEC796256",
+      "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_report"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/evidence/audit-evidence.json",
+      "bytes": 550499,
+      "sha256": "9F0519457976E8D57E5C9F5A7C9DFFD7D03E5492529032D836F2FEAD66F00DF1",
+      "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_evidence"
+    }
+  ],
+  "task_context": "No product task; existing governance cycle 1",
+  "execution_status": "COMPLETED",
+  "outcome": "PASS",
+  "sequence": 2,
+  "result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/result.json",
+    "bytes": 37941,
+    "sha256": "CF073B8E08EDF728B6AB1B1CC300C842D3FEF15F512A084C85B7A7E8EF199222",
+    "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_result"
+  },
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/report.md",
+    "bytes": 122315,
+    "sha256": "C72AF2A1761610365C36A249E8892B08C7A23BA2D9A7C1F47749C3BFEC796256",
+    "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_report"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/evidence/audit-evidence.json",
+    "bytes": 550499,
+    "sha256": "9F0519457976E8D57E5C9F5A7C9DFFD7D03E5492529032D836F2FEAD66F00DF1",
+    "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_evidence"
+  },
+  "final_input_comparison": {
+    "outcome": "PASS",
+    "inputs": 518,
+    "all_bytes_and_path_set_unchanged": true,
+    "repository_head_branch_status_index_unchanged": true
+  },
+  "canonical_complete_report_validated": true,
+  "all_76_source_hashes_and_record_catalog_rechecked": true,
+  "actual_complete_native_objects_schema_and_roundtrip_validated": true,
+  "independent_process": "Fresh separate Python command after result publication; not a new Audit invocation",
+  "publication_order": "Initial invocation -> separate invocation readback -> complete assessment -> checkpoint -> evidence -> canonical report -> terminal result -> this fresh terminal readback",
+  "no_downstream_start": true,
+  "source_writes": false,
+  "other_actor_record_writes": false,
+  "limitations": [
+    "Procedural nonmutation, not sandbox-enforced source-write exclusion. Writable tools and inherited ACLs confer no authority to alter sources, inputs, product artifacts or another actor's records.",
+    "Endpoint fingerprints establish observed bytes, not continuous absence of transient mutation/reversion or same-principal tampering.",
+    "No exhaustive trusted OS event log, coordinated no-edit interval, source lock, or complete external-writer visibility is available. The visible harness registry showed only this Audit running at qualification; idle and failed historical actors are not live-writer evidence.",
+    "Harness runtime attribution is not external cryptographic identity. The shared host-session title is not proof of process role or independence.",
+    "Actual supplied Human wording and package presentation bindings are retained. Authenticated conversation message IDs, authenticated Human author IDs and original decision times are unavailable and are not invented.",
+    "System UTC fields record preparation time, not an exact publication timestamp. Observed publication/readback operation sequence establishes ordering.",
+    "This is a governance-definition and invoked-governance-record consistency audit, not a product audit, target-project Portability Assessment, product Orchestrator execution, repeat Application, or independent execution of previous actors' operations."
+  ]
+}

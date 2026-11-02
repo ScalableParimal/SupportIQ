@@ -1,0 +1,248 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "remediation_audit_validation",
+    "record_id":  "20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879:audit_validation",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "creator":  {
+                    "identity":  "Governance Remediation invocation; attempt ID is local record identity only",
+                    "role":  "SDLC Governance Remediation"
+                },
+    "created_at_utc":  "2026-11-02T13:33:56.4028719Z",
+    "subject":  "Independent integrity and binding validation of the latest complete Governance Audit; finding conclusions remain audit-reported and are not accepted/confirmed by this record",
+    "audit":  {
+                  "attempt_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f",
+                  "attempt_record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_invocation",
+                  "attempt_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/attempt.json",
+                  "attempt_bytes":  7882,
+                  "attempt_sha256":  "2B3C61D91296B9497CB3BE46E04FE368B2101BFF60C244F384412A0D475F97E6",
+                  "result_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+                  "result_record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_result",
+                  "result_bytes":  61780,
+                  "result_sha256":  "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70",
+                  "report_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+                  "report_record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_report",
+                  "report_bytes":  95024,
+                  "report_sha256":  "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576",
+                  "evidence_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+                  "evidence_record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence",
+                  "evidence_bytes":  393511,
+                  "evidence_sha256":  "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88",
+                  "final_readback_checkpoint":  {
+                                                    "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0003.json",
+                                                    "bytes":  5875,
+                                                    "sha256":  "2F1346F1F46954DA8FB7B72A1F0D8E97F7264F0BE99CE1AD66301ADF0AB86B31",
+                                                    "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_final_readback"
+                                                }
+              },
+    "binding_checks":  {
+                           "work_id":  true,
+                           "cycle_id":  true,
+                           "execution_status":  true,
+                           "result_record_id":  true,
+                           "report_binding":  true,
+                           "evidence_binding":  true,
+                           "final_readback_checkpoint_binding":  true,
+                           "checkpoint_records":  [
+                                                      {
+                                                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0001.json",
+                                                          "bytes":  2717,
+                                                          "sha256":  "2F37DB68749AC6BD20C1E339D0EA213B21F7F3A302A9C13939E9A063140F5604",
+                                                          "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_checkpoint"
+                                                      },
+                                                      {
+                                                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0002.json",
+                                                          "bytes":  2690,
+                                                          "sha256":  "2D49CD83C4179422964D35DCE29CF4231C677986B51F151CEE4C05C499EDEC9F",
+                                                          "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_checkpoint"
+                                                      },
+                                                      {
+                                                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0003.json",
+                                                          "bytes":  5875,
+                                                          "sha256":  "2F1346F1F46954DA8FB7B72A1F0D8E97F7264F0BE99CE1AD66301ADF0AB86B31",
+                                                          "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_final_readback"
+                                                      }
+                                                  ],
+                           "final_readback_pass":  true
+                       },
+    "scope":  {
+                  "core_expected":  52,
+                  "core_found":  52,
+                  "core_audited":  52,
+                  "source_inventory":  76,
+                  "source_inventory_entries":  76,
+                  "current_fingerprint_matches":  true,
+                  "current_fingerprint_mismatches":  0,
+                  "mechanism_groups":  [
+                                           {
+                                               "name":  "Governance Audit",
+                                               "expected":  1,
+                                               "found":  1,
+                                               "assessed":  1,
+                                               "result":  "PASS"
+                                           },
+                                           {
+                                               "name":  "Governance Remediation",
+                                               "expected":  1,
+                                               "found":  1,
+                                               "assessed":  1,
+                                               "result":  "PASS"
+                                           },
+                                           {
+                                               "name":  "SDLC Process Orchestration",
+                                               "expected":  1,
+                                               "found":  1,
+                                               "assessed":  1,
+                                               "result":  "FAIL"
+                                           },
+                                           {
+                                               "name":  "SDLC Portability Assessment",
+                                               "expected":  1,
+                                               "found":  1,
+                                               "assessed":  1,
+                                               "result":  "PASS"
+                                           },
+                                           {
+                                               "name":  "Governance Amendment Application",
+                                               "expected":  1,
+                                               "found":  1,
+                                               "assessed":  1,
+                                               "result":  "FAIL"
+                                           },
+                                           {
+                                               "name":  "Independent Governance Verification",
+                                               "expected":  1,
+                                               "found":  1,
+                                               "assessed":  1,
+                                               "result":  "PASS"
+                                           },
+                                           {
+                                               "name":  "Independent Governance Review",
+                                               "expected":  1,
+                                               "found":  1,
+                                               "assessed":  1,
+                                               "result":  "PASS"
+                                           }
+                                       ]
+              },
+    "counts":  {
+                   "Critical":  0,
+                   "High":  0,
+                   "Medium":  2,
+                   "Low":  0,
+                   "Ambiguities":  1,
+                   "Broken References":  0,
+                   "Missing Governance Controls":  0,
+                   "Unsupported Governance Controls":  1
+               },
+    "findings":  [
+                     {
+                         "id":  "GOV-AUD-20261102-003",
+                         "severity":  "Medium",
+                         "category":  "Lifecycle Inconsistency",
+                         "secondary_categories":  [
+                                                      "Unsupported Governance"
+                                                  ],
+                         "title":  "Requirement Update\u0027s unconditional approved-source prerequisite excludes the initial clarification path",
+                         "source_document":  "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+                         "source_section":  "2 Required Inputs, item 1 (line 17)",
+                         "human_decision_required":  "Yes"
+                     },
+                     {
+                         "id":  "GOV-AUD-20261102-004",
+                         "severity":  "Medium",
+                         "category":  "Ambiguity",
+                         "secondary_categories":  null,
+                         "title":  "Enhancement Corrective Request does not distinguish current actor attempts from planned future assurance identities",
+                         "source_document":  "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                         "source_section":  "Actor and Human Approval fields (enhancement only), line 5",
+                         "human_decision_required":  "Yes"
+                     }
+                 ],
+    "finding_source_current_fingerprints":  [
+                                                {
+                                                    "path":  "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+                                                    "reported_bytes":  11022,
+                                                    "reported_sha256":  "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1",
+                                                    "current_bytes":  11022,
+                                                    "current_sha256":  "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1",
+                                                    "matches":  true
+                                                },
+                                                {
+                                                    "path":  "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+                                                    "reported_bytes":  2254,
+                                                    "reported_sha256":  "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2",
+                                                    "current_bytes":  2254,
+                                                    "current_sha256":  "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2",
+                                                    "matches":  true
+                                                },
+                                                {
+                                                    "path":  "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+                                                    "reported_bytes":  1089,
+                                                    "reported_sha256":  "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C",
+                                                    "current_bytes":  1089,
+                                                    "current_sha256":  "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C",
+                                                    "matches":  true
+                                                },
+                                                {
+                                                    "path":  ".github/skills/requirement-update/SKILL.md",
+                                                    "reported_bytes":  6786,
+                                                    "reported_sha256":  "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC",
+                                                    "current_bytes":  6786,
+                                                    "current_sha256":  "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC",
+                                                    "matches":  true
+                                                },
+                                                {
+                                                    "path":  "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+                                                    "reported_bytes":  16826,
+                                                    "reported_sha256":  "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F",
+                                                    "current_bytes":  16826,
+                                                    "current_sha256":  "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F",
+                                                    "matches":  true
+                                                },
+                                                {
+                                                    "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                                                    "reported_bytes":  30926,
+                                                    "reported_sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                                                    "current_bytes":  30926,
+                                                    "current_sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                                                    "matches":  true
+                                                },
+                                                {
+                                                    "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                                    "reported_bytes":  54243,
+                                                    "reported_sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                                    "current_bytes":  54243,
+                                                    "current_sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                                    "matches":  true
+                                                },
+                                                {
+                                                    "path":  "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                                                    "reported_bytes":  2985,
+                                                    "reported_sha256":  "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+                                                    "current_bytes":  2985,
+                                                    "current_sha256":  "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+                                                    "matches":  true
+                                                },
+                                                {
+                                                    "path":  "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+                                                    "reported_bytes":  5890,
+                                                    "reported_sha256":  "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790",
+                                                    "current_bytes":  5890,
+                                                    "current_sha256":  "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790",
+                                                    "matches":  true
+                                                }
+                                            ],
+    "active_remediation_agent":  {
+                                     "path":  ".github/agents/sdlc-governance-remediation.agent.md",
+                                     "bytes":  49225,
+                                     "sha256":  "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F",
+                                     "expected_sha256":  "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F",
+                                     "matches":  true
+                                 },
+    "outcome":  "INCONSISTENT",
+    "finding_status":  "AUDIT-REPORTED ONLY; not accepted, rejected, confirmed, or investigated by Governance Remediation",
+    "method":  "Recomputed local SHA-256/byte counts, parsed native JSON, compared result-\u003ereport/evidence and final checkpoint-\u003einvocation/result/report/evidence bindings, and compared every audit inventory and finding evidence source fingerprint to current bytes."
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "record_type": "final_validation_checkpoint",
+  "record_id": "20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42:final_validation_checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "creator": "20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42",
+  "role": "Corrective Change Decision",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:13:31.024672+00:00",
+  "clock_basis": "Current host UTC record-preparation sample, not exact publication time",
+  "sequence": "0002",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42/attempt.json",
+    "sha256": "49A69FA05DF4F5E0973A7F2AFB5D59F3A1C3648FABF7DFC4B7B2DB640F94DD95",
+    "bytes": 85134
+  },
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42/report.md",
+    "sha256": "581358B61D54BE3A44C9636DDEFB8D5A53DA1411160FCB23E57C42D6FF671D38",
+    "bytes": 24481
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42/evidence/finalized-decision-evidence.json",
+    "sha256": "2B0A6B9103B139A045C28E4F2481DCBE90243C42C89F4DA4E737B0A633C9A2E4",
+    "bytes": 367650
+  },
+  "approval_request": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42/attachments/exact-approval-request.json",
+    "sha256": "3B2F66B892C04D7B74675E7BE3E0E0E24E91EE9851BC3308460B44131683BAF7",
+    "bytes": 16981
+  },
+  "prior_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42/checkpoint-0001.json",
+    "sha256": "6E465DA4F6E9B1CE7E2F37F3D8E8BB8C32BE2C690CCDDBD32526BCE19203A551",
+    "bytes": 2911
+  },
+  "last_confirmed_boundary": "Separate-process report/evidence actual-content and 1208-reference/20-citation validation PASS; approval request separately read back and matched exact report/scope/wording/base; decision continuation complete",
+  "request_and_evidence_actual_reference_checks": 930,
+  "canonical_report_fields": 10,
+  "exact_payload": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T090405Z-a7fe416c-9a1d-4153-9c46-180a65e86436/attachments/proposed-linked-clarification.md",
+    "sha256": "8887DC81719F3D3E044323A1D32C1CA93D9102F03FD6F28CB79DC5608D3C8FFA",
+    "bytes": 3438
+  },
+  "payload_bytes": 3438,
+  "payload_encoding": "UTF-8 without BOM; ASCII-only; LF; one final LF",
+  "final_target_base": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T090912Z-6020e838-a5e7-4bf0-9f6e-f24fcd1d1e31/attachments/GOV-AUD-20261102-001-linked-clarification.md",
+    "presence": "ABSENT",
+    "base_sha256": null,
+    "base_bytes": null,
+    "base_semantics": "No existing bytes; not an empty-file fingerprint",
+    "application_attempt_path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T090912Z-6020e838-a5e7-4bf0-9f6e-f24fcd1d1e31",
+    "application_attempt_presence": "ABSENT",
+    "observation_method": "Current non-mutating os.path.lexists on exact target and designated Application attempt; both false",
+    "condition": "Recheck the entire target set immediately before any approved Application write; same-filesystem no-overwrite publication; any collision/drift requires stop, not alternate target",
+    "not_a_reservation": true
+  },
+  "human_approval_granted": false,
+  "application_started": false,
+  "execution_termination": "COMPLETED bounded decision continuation; no application",
+  "preservation": {
+    "files_compared": 279,
+    "all_bytes_paths_head_branch_status_match": true,
+    "only_excluded_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42",
+    "future_application_still_absent": true,
+    "limitations": "Endpoint observations only; cannot exclude transient same-principal tampering, unobserved external writers or prove exhaustive execution history"
+  },
+  "pending_gate": "Exact Human Approval only; STOP",
+  "next_safe_boundary": "After exact approval, require separate fresh Human Application stage-start and designated actor current-invocation qualification/readback before application publication",
+  "unfinished_work": "Publish terminal result after independent readback of this checkpoint; no downstream stage",
+  "limits": "Write-capable shared OS principal, no enforced sandbox, exhaustive execution log, coordinated no-edit window, repository lock or continuous writer observation. Endpoint hashes cannot exclude transient same-principal tampering.",
+  "publication_time": "Exact filesystem publication time not captured; host creation times are preparation samples only"
+}

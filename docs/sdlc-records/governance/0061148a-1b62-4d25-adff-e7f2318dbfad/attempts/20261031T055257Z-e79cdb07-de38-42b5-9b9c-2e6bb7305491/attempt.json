@@ -1,0 +1,106 @@
+{
+  "schema_version": "sdlc-governance-remediation-attempt/v1",
+  "record_type": "sdlc_governance_remediation_attempt",
+  "record_identity": "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491",
+  "created_at_utc": "2026-10-31T05:52:57.955194Z",
+  "process": "SDLC Governance Remediation",
+  "stage": "Bounded reconciliation retry: preflight, admissibility assessment, coordination report",
+  "status": "in_progress",
+  "remediation_cycle_id": null,
+  "cycle_admission": "not determined at attempt publication; no cycle identity allocated or inferred",
+  "actor": {
+    "role": "SDLC Governance Remediation Agent",
+    "invocation": "current Copilot agent invocation (no nested agents)",
+    "os_identity": "int-scl-010\\parimal",
+    "windows_sid": "S-1-5-21-2809803128-1021655904-3966773769-1002",
+    "definition": {
+      "path": ".github/agents/sdlc-governance-remediation.agent.md",
+      "identity": "sdlc-governance-remediation.agent.md",
+      "byte_count": 48379,
+      "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153",
+      "role": "active Remediation Agent definition (matches Audit manifest)"
+    }
+  },
+  "stage_start": {
+    "text": "Yes, initiate bounded Remediation retry with machine-derived evidence hashes and complete prepublication binding validation",
+    "source": "current parent-conversation user message (actual fresh retry authorization)",
+    "fresh": true,
+    "external_message_id": "not asserted",
+    "authenticated_external_event_time": "not asserted"
+  },
+  "authorization": {
+    "scope": "Read relevant governance sources and Work ID records; publish only this actor's own attempt, checkpoints, report, result, and evidence within this attempt scope",
+    "exclusions": [
+      "nested agents",
+      "Finding Investigation, Corrective Change Decision, Application, Verification, Review, or Audit invocation",
+      "source changes or adoption",
+      "portability assessment",
+      "product inspection, work, tests, runtime",
+      "commit or push",
+      "human-gate record publication",
+      "modification of any prior record"
+    ]
+  },
+  "persistence": {
+    "root": "docs/sdlc-records/governance/",
+    "root_adoption_source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+    "comment_id": 6522916236,
+    "author": "ScalableParimal",
+    "author_association": "OWNER",
+    "created_at": "2026-10-30T12:31:51Z",
+    "decision_body_sha256_recomputed_live": "CCD3904C70DE6692A310CC7E451460A1188D0121DB8C29E12FA935CF9C78C3C9",
+    "decision_body_matches_audit_evidence": true,
+    "adoption_scope_note": "The comment adopts the governance root and authorized the initial Audit only; it does not authorize this retry. The current fresh user start is the invocation authority.",
+    "product_root_present": false,
+    "attempt_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/",
+    "publication_route": "exclusive-create temp file in same directory, rename that refuses an existing destination, byte readback"
+  },
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "local_root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "tracked_modified": [
+      "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+      "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+      "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+      "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+    ],
+    "staged": [],
+    "untracked_count": 127,
+    "untracked_outside_work_root": []
+  },
+  "masters": [
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "identity": "SDLC_GOVERNANCE.md",
+      "byte_count": 30926,
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+      "role": "Master Governance document (candidate/unadopted)"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "identity": "SDLC_ARTIFACT_GOVERNANCE.md",
+      "byte_count": 54243,
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+      "role": "Master Governance document (candidate/unadopted)"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "identity": "SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "byte_count": 89025,
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C",
+      "role": "Master Governance document (candidate/unadopted)"
+    }
+  ],
+  "predecessor_failed_attempt": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031053750Z-5a67f304-e4e5-4045-8721-235a47779233/attempt.json",
+    "identity": "20261031053750Z-5a67f304-e4e5-4045-8721-235a47779233",
+    "byte_count": 7743,
+    "sha256": "C9E9498A1E7451902413AEFF24F61B0FB9C0B0CD5CDA049598877439CC3C5FC4",
+    "role": "invalid/incomplete predecessor Remediation attempt; retained unchanged"
+  }
+}

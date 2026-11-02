@@ -1,0 +1,56 @@
+{
+    "schemaVersion":  "1.0",
+    "recordType":  "CorrectiveChangeDecisionResult",
+    "recordIdentity":  "20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37:result",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37",
+    "prospectiveCycleId":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "process":  "Corrective Change Decision \u0026 Plan Update",
+    "subjectType":  "FINDING",
+    "executionTermination":  "COMPLETED",
+    "createdAtUtc":  "2026-11-02T07:51:31.9629728Z",
+    "repository":  {
+                       "canonical":  "ScalableParimal/SupportIQ",
+                       "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "branch":  "sdlc-framework-onboarding"
+                   },
+    "findingOutcomes":  [
+                            {
+                                "findingId":  "GOV-001",
+                                "decisionStatus":  "FINDING ACCEPTED — NO PLAN CHANGE REQUIRED"
+                            },
+                            {
+                                "findingId":  "GOV-002",
+                                "decisionStatus":  "FINDING ACCEPTED — NO PLAN CHANGE REQUIRED"
+                            }
+                        ],
+    "investigationAdmissible":  true,
+    "planChangeRequired":  "NO",
+    "productRequirement":  "NOT APPLICABLE",
+    "approvedProductImplementationPlan":  "NOT APPLICABLE",
+    "humanApprovalRequiredForNewCorrection":  false,
+    "humanApprovalGranted":  false,
+    "implementationReadiness":  "WAITING FOR COMPLETE GOVERNANCE AUDIT",
+    "nextPermittedProcess":  "Human-initiated SDLC Governance Remediation continuation, then separately stage-started complete Governance Audit",
+    "nextProcessStarted":  false,
+    "formalEffectivityEstablished":  false,
+    "masterAdoptionEstablished":  false,
+    "sourceWritesByThisActor":  0,
+    "priorRecordsModified":  false,
+    "reportBinding":  {
+                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37/report.md",
+                          "sha256":  "797566DC7A0C7A39186095A226986D59E4F46A75123E9C0133F388E042663E94",
+                          "byteCount":  10314,
+                          "canonical":  true
+                      },
+    "evidenceBinding":  {
+                            "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37/evidence/decision-evidence.json",
+                            "sha256":  "AE52146D321B58C9B41C708D26D9B54B5FF83186167FED7875C23D13AD08C16F",
+                            "byteCount":  38456
+                        },
+    "nonActions":  [
+                       "No tests or runtime",
+                       "No Application, Verification, Review, Audit, or adoption",
+                       "No commit, push, source write, prior-record change, or nested agent"
+                   ]
+}

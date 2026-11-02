@@ -1,0 +1,55 @@
+{
+    "schema_version":  "sdlc-finding-investigation-checkpoint/v1",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_identity":  "-0002",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a",
+    "sequence":  2,
+    "recorded_at_utc":  "2026-11-02T06:05:29.3302177Z",
+    "process":  "Finding Investigation",
+    "status":  "complete; terminal result publication pending",
+    "remediation_cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "finding_outcomes":  [
+                             {
+                                 "finding_id":  "GOV-001",
+                                 "outcome":  "FINDING CONFIRMED",
+                                 "current_text":  "P1 addresses identified ambiguity; formal effectiveness pending full Audit CONSISTENT"
+                             },
+                             {
+                                 "finding_id":  "GOV-002",
+                                 "outcome":  "FINDING CONFIRMED",
+                                 "current_text":  "P2-P5 address identified condition; formal effectiveness pending full Audit CONSISTENT"
+                             }
+                         ],
+    "attempt_binding":  {
+                            "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a/attempt.json",
+                            "identity":  "20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a",
+                            "byte_count":  23275,
+                            "sha256":  "E8233F6338945B80AF640102150CC8E2BEDA97D31E4B6C656DDB4088CAC75830"
+                        },
+    "evidence_binding":  {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a/evidence/investigation-evidence.json",
+                             "identity":  "-evidence",
+                             "byte_count":  71984,
+                             "sha256":  "1FF017363F8EB8B683EE25A190086973A0E0ABBC140295C30AA9BB8E66CA1378"
+                         },
+    "report_binding":  {
+                           "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a/report.md",
+                           "identity":  "",
+                           "byte_count":  12952,
+                           "sha256":  "84E09D88AB2C5D89BB17BEB1E3D7B6678080DBA298E115E3444AB7528D074FF0"
+                       },
+    "predecessor_checkpoint_binding":  {
+                                           "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a/checkpoint-0001.json",
+                                           "identity":  "-0001",
+                                           "byte_count":  2604,
+                                           "sha256":  "C3ECF6F9D93B3A75BEC3F50B7660521F36E5002F45C2FF25C2CD0D0481494012"
+                                       },
+    "limitations":  [
+                        "Masters are candidate/unadopted; no adopted-baseline violation is asserted",
+                        "Historical assurance applies only to P1-P5 and linked IGV-FIND-001 correction, not this cycle",
+                        "Pre-attempt read-only preflight inspection is disclosed; strict record-first substantive inspection is not established",
+                        "No product inspection, tests, runtime, or source changes",
+                        "Formal effectiveness awaits full Audit CONSISTENT"
+                    ]
+}

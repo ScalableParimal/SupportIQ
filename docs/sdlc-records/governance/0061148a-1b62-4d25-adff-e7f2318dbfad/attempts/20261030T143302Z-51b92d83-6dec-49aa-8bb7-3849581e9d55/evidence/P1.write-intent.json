@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "record_type": "application_operation_intent",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:P1-write-intent",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:35:25.630865Z",
+  "process": "Governance Amendment Application",
+  "operation": {
+    "operation": "P1",
+    "finding_id": "GOV-001",
+    "target_path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+    "base_sha256": "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E",
+    "expected_after_sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+    "expected_after_bytes": 2108,
+    "old_utf8": "- Work ID / request identity: [stable repository-unique ID or not assigned]",
+    "new_utf8": "- Work ID / request identity: [stable repository-unique Work ID; 'not assigned' is draft-only]\n\nAn executable request requires a reserved stable Work ID under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1. Continue an existing authorized same-work reservation unchanged. For new work, allocate and collision-check the ID before invocation; the first authorized no-overwrite attempt.json publication itself reserves the ID, so no separate prior reservation record is required. 'not assigned' is draft-only and blocks invocation and record publication. All other invocation and publication prerequisites remain required.\n"
+  },
+  "last_confirmed_target_state": "Exact approved base",
+  "file_identity": {
+    "device": 7972088113085002079,
+    "inode": 16325548650536701
+  },
+  "prewrite_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/checkpoint-0002.json",
+    "sha256": "15B990686F8F66CF50A7ED2E18FC858F5EC7C3CE6E8ABCB78DFBEDBEF622DC45",
+    "bytes": 9208
+  },
+  "proposed_write_bytes": 2108,
+  "proposed_write_sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+  "stop_behavior": "On failure stop immediately; no rollback; intent alone does not establish a successful write"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "record_type": "application_operation_intent",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:P3-write-intent",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:35:25.704399Z",
+  "process": "Governance Amendment Application",
+  "operation": {
+    "operation": "P3",
+    "finding_id": "GOV-002",
+    "target_path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+    "base_sha256": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+    "expected_after_sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+    "expected_after_bytes": 5718,
+    "old_utf8": "The exact proposal and Human Approval must expressly acknowledge these material residual risks.",
+    "new_utf8": "The exact proposal must disclose these material residual risks, and the Verification or Review report and evidence must retain that disclosure. Residual-risk acknowledgement is disclosure, not an additional Human Approval validity condition; all existing approval bindings remain required."
+  },
+  "last_confirmed_target_state": "Exact approved base",
+  "file_identity": {
+    "device": 7972088113085002079,
+    "inode": 5066549581999401
+  },
+  "prewrite_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/checkpoint-0002.json",
+    "sha256": "15B990686F8F66CF50A7ED2E18FC858F5EC7C3CE6E8ABCB78DFBEDBEF622DC45",
+    "bytes": 9208
+  },
+  "proposed_write_bytes": 5718,
+  "proposed_write_sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+  "stop_behavior": "On failure stop immediately; no rollback; intent alone does not establish a successful write"
+}

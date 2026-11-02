@@ -1,0 +1,265 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "finding_investigation_handoff",
+    "record_id":  "20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879:investigation_handoff:GOV-AUD-20261102-003",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "creator":  {
+                    "identity":  "Governance Remediation invocation; attempt ID is local record identity only",
+                    "role":  "SDLC Governance Remediation"
+                },
+    "created_at_utc":  "2026-11-02T13:33:56.4028719Z",
+    "subject_type":  "FINDING",
+    "finding_id":  "GOV-AUD-20261102-003",
+    "source_process":  "SDLC Governance Audit",
+    "status":  "AUDIT_REPORTED_ONLY_NOT_ACCEPTED_NOT_CONFIRMED_NOT_INVESTIGATED",
+    "audit_source":  {
+                         "attempt_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f",
+                         "report":  {
+                                        "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+                                        "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_report",
+                                        "bytes":  95024,
+                                        "sha256":  "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576"
+                                    },
+                         "result":  {
+                                        "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+                                        "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_result",
+                                        "bytes":  61780,
+                                        "sha256":  "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70"
+                                    },
+                         "evidence":  {
+                                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+                                          "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence",
+                                          "bytes":  393511,
+                                          "sha256":  "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88"
+                                      },
+                         "final_readback":  {
+                                                "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0003.json",
+                                                "record_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_final_readback",
+                                                "bytes":  5875,
+                                                "sha256":  "2F1346F1F46954DA8FB7B72A1F0D8E97F7264F0BE99CE1AD66301ADF0AB86B31",
+                                                "outcome":  "PASS"
+                                            }
+                     },
+    "finding_as_reported":  {
+                                "id":  "GOV-AUD-20261102-003",
+                                "severity":  "Medium",
+                                "category":  "Lifecycle Inconsistency",
+                                "secondary_categories":  [
+                                                             "Unsupported Governance"
+                                                         ],
+                                "title":  "Requirement Update\u0027s unconditional approved-source prerequisite excludes the initial clarification path",
+                                "source_document":  "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+                                "source_section":  "2 Required Inputs, item 1 (line 17)",
+                                "related_document":  "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+                                "related_section":  "14 Requirement Update Rules (lines 294-318); 17 Suggested AI Execution Flow, Phases 5-10 (lines 416 onward)",
+                                "issue":  "The Requirement Update bundle requires an already approved source Requirement in every invocation. Requirement Analysis explicitly routes initial, Human-decided clarifications through that separate process before complete Analysis Verification and Human Requirement Approval. There is no initial-unapproved-source branch in the Update inputs or execution procedure. Approval of clarification decisions is not approval of the source Requirement.",
+                                "evidence":  [
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+                                                                    "bytes":  11022,
+                                                                    "sha256":  "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1"
+                                                                },
+                                                     "lines":  [
+                                                                   15,
+                                                                   23
+                                                               ],
+                                                     "text":  "Before updating, AI must have:\n\n1. The current approved Requirement version and its version ID and SHA-256.\n2. The relevant analysis findings/questions, where applicable.\n3. The human\u0027s answers and explicit decisions.\n4. Any recommendations explicitly approved by the human.\n5. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment. For a non-finding request, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.\n6. The affected Requirement IDs and the request details required by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8, where applicable.\n"
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+                                                                    "bytes":  2254,
+                                                                    "sha256":  "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2"
+                                                                },
+                                                     "lines":  [
+                                                                   10,
+                                                                   16
+                                                               ],
+                                                     "text":  "\n1. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment.\n2. The current approved Requirement version path, immutable version ID, and SHA-256.\n3. The human decisions and approved clarifications to incorporate.\n4. The relevant analysis findings/questions being addressed, where applicable.\n5. Any recommendations explicitly approved by the human.\n6. For a human-requested non-finding amendment, the existing request details and responsible human decision, including scope, disposition, and rationale, as specified by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8."
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+                                                                    "bytes":  1089,
+                                                                    "sha256":  "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C"
+                                                                },
+                                                     "lines":  [
+                                                                   1,
+                                                                   14
+                                                               ],
+                                                     "text":  "Read and follow:\ndocs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md\n\nSubject Type:\n[FINDING-LED CORRECTIVE UPDATE / HUMAN-REQUESTED REQUIREMENT AMENDMENT (NON-FINDING)]\n\nCurrent approved Requirement version:\n[PATH / IMMUTABLE VERSION ID / SHA-256]\n\nAffected Requirement IDs:\n[LIST]\n\nRelevant analysis findings/questions, where applicable:\n[IDENTIFY]"
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  ".github/skills/requirement-update/SKILL.md",
+                                                                    "bytes":  6786,
+                                                                    "sha256":  "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC"
+                                                                },
+                                                     "lines":  [
+                                                                   31,
+                                                                   50
+                                                               ],
+                                                     "text":  "\nBefore updating:\n\n1. Load the governing Guideline, Prompt, and Request.\n2. Establish the subject type and resolve the current approved Requirement version, immutable version ID, and SHA-256.\n3. For a human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8; do not invent a Finding.\n4. Resolve the relevant analysis findings/questions, where applicable.\n5. Resolve the explicit human decisions.\n6. Resolve recommendations explicitly approved by the human.\n7. Confirm that the decisions required for the requested update are sufficiently clear.\n8. If a material decision remains unresolved or ambiguous, stop and request clarification.\n\nOnly explicitly approved human decisions may drive the Requirement Update.\n\n## 4. Execution Procedure\n\nExecute the following sequence:\n\n1. Establish the current approved Requirement version as the immutable source and record its ID and SHA-256.\n2. Establish whether the update is Finding-led or a human-requested non-finding amendment."
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+                                                                    "bytes":  16826,
+                                                                    "sha256":  "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+                                                                },
+                                                     "lines":  [
+                                                                   294,
+                                                                   318
+                                                               ],
+                                                     "text":  "The sequence is:\n\n```text\nSource Requirement\n    â†“\nInitial Requirement Analysis\n    â†“\nAI Questions\n    â†“\nHuman Decisions\n    â†“\nUpdated Requirement\n    â†“\nPost-Requirement-Update Requirement Analysis / Analysis Refresh\n    â†“\nRequirement Analysis Verification\n    â†“\nResolve Verification Findings / Decisions\n    â†“\nHuman Requirement Approval\n```\n\nOnly after the human has resolved the identified questions should AI prepare an updated requirement. Following a Requirement Update, perform Requirement Analysis or refresh the analysis against the resulting updated Requirement before complete Requirement Analysis Verification.\n\nThe updated requirement must then be independently verified against the authoritative source requirement before it is presented for final human approval."
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+                                                                    "bytes":  16826,
+                                                                    "sha256":  "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+                                                                },
+                                                     "lines":  [
+                                                                   416,
+                                                                   432
+                                                               ],
+                                                     "text":  "### Phase 5 â€” Human Decisions\n\nWait for the human to resolve the questions.\n\n### Phase 6 â€” Update Requirement\n\nPrepare the revised requirement using the approved decisions.\n\nThis phase is performed through the separate Requirement Update process (see `REQUIREMENT_UPDATE_GUIDELINES.md`), only when the human has explicitly requested the update and supplied the approved decisions. It does not authorize modifying the authoritative requirement during the initial analysis, and it does not constitute Human Requirement Approval.\n\n### Phase 7 â€” Post-Requirement-Update Requirement Analysis / Analysis Refresh\n\nAfter the Requirement is updated, analyze or refresh the Requirement Analysis against the resulting updated Requirement and the approved decisions. This post-update analysis is required before complete Requirement Analysis Verification.\n\n### Phase 8 â€” Requirement Analysis Verification\n\nIndependently verify the complete current requirement analysis and updated requirement against the authoritative source requirement."
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                                                                    "bytes":  30926,
+                                                                    "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+                                                                },
+                                                     "lines":  [
+                                                                   145,
+                                                                   157
+                                                               ],
+                                                     "text":  "### 4.3 Requirement Analysis Verification\n\nRequirement Analysis Verification independently verifies the complete current Requirement Analysis and resulting updated Requirement against the source Requirement and applicable decisions.\n\nVerification must consider the complete current artifact, not only recently changed sections.\n\nAI verification does not constitute Human Requirement Approval.\n\n### 4.4 Human Requirement Approval\n\nHuman Requirement Approval is the formal business approval gate.\n\nThe Requirement must not proceed to implementation planning as an approved Requirement until the required verification findings and decisions have been resolved and the human approval has been obtained."
+                                                 },
+                                                 {
+                                                     "source":  {
+                                                                    "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                                                    "bytes":  54243,
+                                                                    "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+                                                                },
+                                                     "lines":  [
+                                                                   359,
+                                                                   365
+                                                               ],
+                                                     "text":  "### 8.4 Immutable Requirement Versions\n\nEach Requirement Update creates a new, separately identifiable Requirement artifact under `docs/requirement/`. Never overwrite, edit in place, or physically remove a created Requirement version. Freeze the Requirement content bytes at creation. Creating a version is not approval.\n\nUse the existing governed process records to record each version\u0027s status (`Draft`, `Pending Human Approval`, `Approved`, `Rejected`, or `Superseded`) and any status transition, bound to the version ID and SHA-256. Do not change the frozen Requirement bytes to change a status, and do not create a separate status registry for this purpose.\n\nFor each new version, the existing records must bind: a unique immutable version ID; the source/predecessor version ID and SHA-256; the resulting version ID and SHA-256; timestamp and change summary; supersession links; references to the original Requirement, amendments, analysis, clarifications, decisions, and approvals; traceability to related analysis, design, plan, implementation, and test artifacts as applicable; and the responsible actor and role. Before downstream handoff, verify by preservation/read-back that the source version remains unchanged and retrievable and that the resulting bytes match the recorded result identity and SHA-256. Record that verification in the existing process record."
+                                                 }
+                                             ],
+                                "impact":  "A first Requirement that needs decisions incorporated cannot satisfy both detailed routes without an unavailable prior Requirement approval or an unauthorized interpretation of \u0027approved\u0027. This can block correct lifecycle execution or encourage conflating approved decisions with formal Requirement Approval. No actual product execution or gate bypass is asserted.",
+                                "recommended_resolution":  "Through Investigation and Corrective Change Decision, reconcile the source-status prerequisites across the Update Guideline, Prompt, Request and Skill with the initial analysis/update route. Preserve immutable version identity, explicitly approved decisions, reanalysis, complete Verification and separate Human Requirement Approval. Do not waive approval or grant analysis write authority.",
+                                "human_decision_required":  "Yes",
+                                "human_decision_reason":  "The auditor cannot choose or amend normative lifecycle wording. Any correction requires the governed decision, exact Human Approval and authorized application route."
+                            },
+    "current_source_fingerprints":  [
+                                        {
+                                            "path":  "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+                                            "bytes":  11022,
+                                            "sha256":  "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1",
+                                            "reported_sha256":  "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1",
+                                            "matches":  true
+                                        },
+                                        {
+                                            "path":  "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+                                            "bytes":  2254,
+                                            "sha256":  "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2",
+                                            "reported_sha256":  "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2",
+                                            "matches":  true
+                                        },
+                                        {
+                                            "path":  "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+                                            "bytes":  1089,
+                                            "sha256":  "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C",
+                                            "reported_sha256":  "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C",
+                                            "matches":  true
+                                        },
+                                        {
+                                            "path":  ".github/skills/requirement-update/SKILL.md",
+                                            "bytes":  6786,
+                                            "sha256":  "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC",
+                                            "reported_sha256":  "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC",
+                                            "matches":  true
+                                        },
+                                        {
+                                            "path":  "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+                                            "bytes":  16826,
+                                            "sha256":  "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F",
+                                            "reported_sha256":  "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F",
+                                            "matches":  true
+                                        },
+                                        {
+                                            "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                                            "bytes":  30926,
+                                            "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                                            "reported_sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                                            "matches":  true
+                                        },
+                                        {
+                                            "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                            "bytes":  54243,
+                                            "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                            "reported_sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                            "matches":  true
+                                        }
+                                    ],
+    "investigation_request":  {
+                                  "requested_subject_type":  "FINDING",
+                                  "scope":  "Investigate only GOV-AUD-20261102-003; do not bundle or validate the other finding as part of this handoff.",
+                                  "objective":  "Independently determine whether this audit-reported finding is confirmed, its root cause and impact where evidence permits, viable corrective options, human decision/approval needs, uncertainties, and recommended next process.",
+                                  "required_process_inputs":  [
+                                                                  {
+                                                                      "path":  "docs/ai/guidelines/FINDING_INVESTIGATION_GUIDELINES.md",
+                                                                      "bytes":  14928,
+                                                                      "sha256":  "14844FB1FA9865AB870CA1E3E8A50CD319756B2C8EA45231199B09368CC31BD2"
+                                                                  },
+                                                                  {
+                                                                      "path":  "docs/ai/prompts/FINDING_INVESTIGATION_PROMPT.md",
+                                                                      "bytes":  3596,
+                                                                      "sha256":  "7550968BAAD60A9214C1E1C7E5476D6270EF99FE3D17E4F85E5D20CAD26D8175"
+                                                                  },
+                                                                  {
+                                                                      "path":  "docs/ai/request/FINDING_INVESTIGATION_REQUEST.md",
+                                                                      "bytes":  1854,
+                                                                      "sha256":  "836F79EE60357C502A2181E8CB4B04D500C351219358E484C0639A9FD275C120"
+                                                                  },
+                                                                  {
+                                                                      "path":  ".github/skills/finding-investigation/SKILL.md",
+                                                                      "bytes":  10312,
+                                                                      "sha256":  "800D316A3AA97BFB3B2A3581FE16F8474C6DA2A199E3EB9CF397D3B7B2081448"
+                                                                  },
+                                                                  {
+                                                                      "path":  ".github/agents/finding-investigation.agent.md",
+                                                                      "bytes":  4011,
+                                                                      "sha256":  "BECE1D3F5C20DD10B975E1536BB816232A47C2B43FDAAD76B13C4328DA84B218"
+                                                                  }
+                                                              ],
+                                  "fresh_human_start_required":  true,
+                                  "current_remediation_start_does_not_authorize_investigation":  true,
+                                  "execution_authorized":  false,
+                                  "corrective_change_decision_started":  false,
+                                  "correction_approval_received":  false,
+                                  "correction_applied":  false,
+                                  "product_work_prohibited":  true
+                              },
+    "evidence_classification":  {
+                                    "audit_finding":  "Reported evidence from the stored complete Audit",
+                                    "current_fingerprint_checks":  "Executed metadata verification only; does not itself validate the finding",
+                                    "source_content_analysis":  "Not performed by this handoff",
+                                    "investigation_conclusion":  "None"
+                                },
+    "non_goals":  [
+                      "Do not infer acceptance or confirmation from the audit finding.",
+                      "Do not perform Corrective Change Decision \u0026 Plan Update.",
+                      "Do not approve or apply any correction.",
+                      "Do not modify governance source or product artifacts.",
+                      "Do not extend to other finding IDs."
+                  ]
+}

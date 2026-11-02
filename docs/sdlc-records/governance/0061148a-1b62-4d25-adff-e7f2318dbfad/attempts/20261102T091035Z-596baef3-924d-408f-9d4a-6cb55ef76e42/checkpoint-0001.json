@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "record_type": "publication_boundary_checkpoint",
+  "record_id": "20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42:publication_boundary_checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "creator": "20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42",
+  "role": "Corrective Change Decision",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:12:51.316161+00:00",
+  "clock_basis": "Current host UTC record-preparation sample, not exact publication time",
+  "sequence": "0001",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42/attempt.json",
+    "sha256": "49A69FA05DF4F5E0973A7F2AFB5D59F3A1C3648FABF7DFC4B7B2DB640F94DD95",
+    "bytes": 85134
+  },
+  "last_confirmed_boundary": "Own qualified invocation durably published and independent readback of all 294 invocation bindings PASS before substantive comparison",
+  "ordered_ledger": [
+    "Q1: refresh unchanged governance, nonmutating current qualification, resolve OWNER root-adoption comment",
+    "Q2: continuation.py qualify validates predecessor hashes, metadata/designation/base absence and publishes own attempt.json with .partial/parse/flush/fsync/no-overwrite rename",
+    "Q3: separate Python invocation reads back attempt, all 294 references and 279 prior-file/path-set/HEAD/branch/status bindings; PASS",
+    "S1: inspect exact prior final report/payload, designated actor and application/assurance boundaries",
+    "S2: finalize_package.py compares prior result/evidence/report/validation and complete associated structured bindings; derives unchanged exact payload and fixed target/ABSENT base"
+  ],
+  "publication_timestamp": "Not captured; preparation timestamps not represented as exact publication time",
+  "effects": "Only this continuation's own drafts/invocation; future Application attempt remains absent",
+  "unfinished_work": "Publish finalized evidence/report/package approval request; independent readback; terminal result",
+  "pending_gate": "Exact Human Approval; designation is established but does not approve or start Application",
+  "preservation": {
+    "files_compared": 279,
+    "all_bytes_paths_head_branch_status_match": true,
+    "only_excluded_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T091035Z-596baef3-924d-408f-9d4a-6cb55ef76e42",
+    "future_application_still_absent": true,
+    "limitations": "Endpoint observations only; cannot exclude transient same-principal tampering, unobserved external writers or prove exhaustive execution history"
+  }
+}

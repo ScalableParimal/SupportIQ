@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d:checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Corrective Change Decision & Plan Update",
+  "creator": {
+    "role": "Corrective Change Decision Agent",
+    "runtime_agent_id": "4d0c3747-fde6-48c7-b125-5adb2af5b80c",
+    "copilot_agent_session_id": "1684b491-8eea-41fb-864d-541e7920e172"
+  },
+  "created_at_utc": "2026-11-02T15:02:00.894353+00:00",
+  "clock_basis": "Current UTC at record preparation; no exact publication timestamp claimed",
+  "sequence": 1,
+  "phase": "ASSESSMENT_AND_PROPOSAL_PREPARATION_COMPLETE",
+  "last_confirmed_boundary": "Invocation separately fresh-read and validated before substantive assessment; now separate decisions and in-memory exact proposal reviewed",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attempt.json",
+    "bytes": 11870,
+    "sha256": "B5244B2C7C6A5F439E9C3694EC298F160FC15D023B02CBBD7660F30B2E5BEB85"
+  },
+  "input_manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/evidence/input-manifest.json",
+    "bytes": 125122,
+    "sha256": "14B069EF1BA05457F65E8B5313DAC80903D2E1ED1EF87E36485C350D71DD86C3"
+  },
+  "observed_evidence": {
+    "pre_existing_inputs": 463,
+    "nested_bindings_validated": 56,
+    "proposal_target_count": 5,
+    "exact_reconstruction_and_reverse_selftests": "PASS"
+  },
+  "partial_effects": "Own invocation/manifest/helpers only; no source or upstream writes",
+  "unfinished_work": [
+    "Publish exact proposal, evidence, canonical report and terminal result",
+    "Fresh terminal readback"
+  ],
+  "pending_gate": "Exact Human Approval and fresh one-time applier designation; no later stage authorized",
+  "safe_continuation": "This actor may finish only its own decision records"
+}

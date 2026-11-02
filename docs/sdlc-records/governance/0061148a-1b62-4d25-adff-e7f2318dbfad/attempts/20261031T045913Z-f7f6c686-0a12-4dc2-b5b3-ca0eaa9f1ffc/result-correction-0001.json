@@ -1,0 +1,51 @@
+{
+  "schema": "sdlc-process-result-correction-v1",
+  "record_type": "sdlc_process_result_integrity_correction",
+  "record_identity": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:result-correction-0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc",
+  "created_utc": "2026-10-31T05:30:06.526960Z",
+  "correction_scope": "Append-only correction of the current Audit actor own terminal result report binding and report supersession metadata; no audit finding, evidence, assessment conclusion, human decision, or source artifact is changed.",
+  "prior_terminal_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/result.json",
+    "sha256": "8568839BBAA176B463E2B0AA8D4075619186F40E08094825AE1D7527FEBE814E",
+    "immutable": true
+  },
+  "incorrect_binding_in_prior_result": {
+    "json_pointer": "/report_binding",
+    "recorded_path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report-revision-0001.md",
+    "recorded_identity": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report-revision-0001",
+    "recorded_sha256": "28BAD9718EC2DADEA75565CCF73A8C75DEF021EC4810E4755C9DF8416C61D9DE",
+    "reason": "Canonical report revision 0002 superseded report revision 0001 after the original result was durably published; report revision 0002 is the final canonical report."
+  },
+  "correct_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report-revision-0002.md",
+    "identity": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report-revision-0002",
+    "byte_count": 65217,
+    "sha256": "0ACCEBB7508C403B0057CCCF3519584755CBDE2E3297631E802D1E0064BD3715",
+    "format": "UTF-8 Markdown",
+    "canonical": true,
+    "verified_currently": true
+  },
+  "additional_corrected_pointer": {
+    "json_pointer": "/superseded_records",
+    "value": [
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report.md",
+        "identity": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report",
+        "sha256": "D150F4EC3561B98D2C10B63F621A1923E0039849166E7D21986D8B68E0F495A5",
+        "superseded_by": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report-revision-0001",
+        "reason": "Typographic substitutions and incomplete mechanism evidence/check detail; immutable original retained."
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report-revision-0001.md",
+        "identity": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report-revision-0001",
+        "sha256": "28BAD9718EC2DADEA75565CCF73A8C75DEF021EC4810E4755C9DF8416C61D9DE",
+        "superseded_by": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report-revision-0002",
+        "reason": "Corrected canonical report/result binding descriptions after result publication; immutable revision retained."
+      }
+    ]
+  },
+  "supersession_effect": "This correction supersedes only the prior result report binding and superseded-report metadata. All other result values, including the completed execution, CANNOT COMPLETE AUDIT outcome, zero current source findings, mechanism results, evidence bindings, and limitations, remain unchanged. The original result is retained unchanged and must be read with this linked correction.",
+  "decision_boundary": "Mechanical correction to this actor own record metadata under the actor-owned publication scope; no new substantive decision and no authority for changes to other actors records or governance sources."
+}

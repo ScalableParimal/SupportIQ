@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_result",
+  "record_identity": "20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d",
+  "process": "Corrective Change Decision & Plan Update",
+  "stage": "Bounded corrective-decision proposal finalization for IGV-FIND-001",
+  "created_utc": "2026-10-30T15:25:21.991406Z",
+  "clock_basis": "Local system UTC clock sampled while preparing terminal result; not exact publication time.",
+  "execution_status": "COMPLETED",
+  "outcome": "FINDING ACCEPTED - OTHER GOVERNED ARTIFACT CHANGE REQUIRED; exact record-only proposal finalized; NOT APPROVED; NOT APPLIED.",
+  "finding_id": "IGV-FIND-001",
+  "decision_status": "FINDING ACCEPTED — OTHER GOVERNED ARTIFACT CHANGE REQUIRED",
+  "implementation_readiness": "WAITING FOR GOVERNANCE CHANGE APPROVAL",
+  "human_approval_required": true,
+  "human_approval_granted": false,
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/report.md",
+    "bytes": 15984,
+    "sha256": "8E299D41A613D9CBDDB2F6F4D7072BF2017A5EE58BD3A712FC881AE1267501F3"
+  },
+  "attempt_record": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/attempt.json",
+    "bytes": 9306,
+    "sha256": "470D5B429057A7CDE6B95BF8795CB042E3B06D17A40A83417511E4001F347AC5"
+  },
+  "checkpoints": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/checkpoint-0001.json",
+      "bytes": 1953,
+      "sha256": "74645DFFBDF4DA0A1A6274D27CF3D524AB83BF945D0028A7FF3FDD28B452A0FF"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/checkpoint-0002.json",
+      "bytes": 2753,
+      "sha256": "4280DB5184153E6E1563E072890EF6AF144F7B92A2DB65699BFDC92168C74022"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/evidence/proposed-correction.md",
+      "bytes": 4212,
+      "sha256": "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/evidence/proposal-finalization-evidence.json",
+      "bytes": 10467,
+      "sha256": "CC72221338982971970C43F333F4BF7785C136B9103E447BF6AF12FF61CB88D6"
+    }
+  ],
+  "proposed_application_target": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attachments/IGV-FIND-001-approval-transcription-correction.md",
+    "candidate_attempt_id": "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694",
+    "candidate_attempt_created": false,
+    "target_created": false,
+    "base_state": "ABSENT; no base bytes and no SHA-256; do not use empty-file hash.",
+    "expected_after_bytes": 4212,
+    "expected_after_sha256": "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2",
+    "reservation": "Not reserved. Exact target may be used only if Human Approval adopts it; collision requires stop and revised approval."
+  },
+  "actual_effects": "Only this corrective-decision actor own invocation, evidence, checkpoint and report records were published in its own attempt. No correction attachment was published; no old record, source, product, test, config or Master artifact was changed.",
+  "evidence_summary": {
+    "executed": "Identity/host/ACL/Git state, linked content hashes, UTF-8/codepoint checks, exact target absence and own-record atomic publication/readback were executed.",
+    "source_inspection": "Current Skill/Guideline/Prompt/Request, Agent definitions, predecessor reports/results/evidence, original Application report and approval-context, and SDLC sections 30.1/33.1 inspected.",
+    "reported": "Original approval response and separate original Application start were supplied from parent conversation; current user supplied the exact stage-start/designation wording.",
+    "unverified": "Future runtime identity/capability, Human correction approval, future Application start/outcome, subsequent independent assurance and effectiveness are not established."
+  },
+  "unresolved_items": [
+    "Human Approval of exact report fingerprint, payload, target path, ABSENT base, expected-after hash, actor role definition, scope and exclusions.",
+    "Separate fresh Application stage-start after approval.",
+    "Future actor own current-invocation identity, permissions, role capability and own-record publication checks.",
+    "Subsequent independently initiated Verification, Review and complete Governance Audit under their own gates."
+  ],
+  "next_permitted_action": "Human decides the exact package. If approved, a separate fresh explicit Application stage-start is required for the designated one-time record-only actor. No automatic transition is authorized.",
+  "source_state": {
+    "repository": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "status_at_preflight": "Five tracked governance files modified and governance records untracked; no source write in this invocation."
+  },
+  "publication_timestamp": "Not captured as an exact filesystem event; tool sequence and successful readback establish record availability, no exact publication instant is asserted."
+}

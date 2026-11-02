@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "record_type": "post_terminal_readback_receipt",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1",
+  "created_at_utc": "2026-11-02T09:43:39.297095+00:00",
+  "canonical_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/result.json",
+    "bytes": 19616,
+    "sha256": "D3F3680DA22EA8538482D1E5F7B6FACFD0A41A7C2D89E2E0369981311B4DFB43"
+  },
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/report.md",
+    "bytes": 15150,
+    "sha256": "A1388E49A5F107443FAF3E5E32D4FDFB5B9C8CBC5EA4D4EBD4B56967E695B7E0"
+  },
+  "canonical_evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/evidence/verification-evidence.json",
+    "bytes": 2487127,
+    "sha256": "24DE9E1B99BE8B35C57E3B1FA4759357185FF7BBAB1B8983B55ED63D6A060BFB"
+  },
+  "fresh_process_pid": 83436,
+  "tool": "functions.powershell fresh Python -B import",
+  "operation": "Independently reopen/strict-parse terminal result, complete native serialize-parse equality, verify exact report/evidence/result hashes and all 311 evaluated-input/path-set/index/external-state fingerprints; publish only own non-authoritative receipt",
+  "arguments_integrity_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/verification.py",
+    "bytes": 51599,
+    "sha256": "7A1587C620CFF3ACFF4821F7CBEFFFEEBF2F25C975B0D0978B6D955073CA811C"
+  },
+  "outcome": "PASS",
+  "unchanged_input_snapshot_digest": "DFD81D6D43F06EB88149ECD154DDA80FB091E912A9BC34D42EDB51C2B96C8978",
+  "canonical_status_not_revised": true,
+  "no_downstream_process_started": true,
+  "limitations": "Procedural non-mutation; shared write-capable OS principal and tools, not enforced read-only. Actor-visible tool transcript and script events only; no exhaustive trusted OS event stream, lock, coordinated no-edit window, or continuous observation. Matching endpoint fingerprints cannot prove absence of transient writes or same-principal tampering. Terminal old attempts are not evidence of live competing writers. No authenticated parent message IDs/times are exposed; none invented."
+}

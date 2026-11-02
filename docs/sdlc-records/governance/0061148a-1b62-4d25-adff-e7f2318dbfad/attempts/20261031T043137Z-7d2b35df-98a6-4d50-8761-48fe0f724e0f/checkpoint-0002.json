@@ -1,0 +1,105 @@
+{
+    "schema":  "independent-governance-review-checkpoint/v1",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+    "checkpoint":  2,
+    "phase":  "connected-portability-context-pre-read-baseline",
+    "capturedAt":  "2026-10-31T04:36:33.5030913Z",
+    "previousCheckpoint":  {
+                               "path":  "checkpoint-0001.json",
+                               "sha256":  "D5A703B60B195173EF0B8479A4BBE0AA43F404FF56F5F9D6271B199E5E6F5FE5",
+                               "baselineManifest":  129,
+                               "contentMismatches":  0,
+                               "priorAttemptPathSet":  105,
+                               "pathsetChanges":  0
+                           },
+    "scopeExtension":  "P1 connected request-contract sources added before reading",
+    "addedInputs":  [
+                        {
+                            "path":  "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md",
+                            "presence":  "present",
+                            "tracked":  true,
+                            "bytes":  8422,
+                            "sha256":  "6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88",
+                            "aclOwner":  "INT-SCL-010\\Parimal",
+                            "acl":  "BUILTIN\\Administrators Allow  FullControl\nNT AUTHORITY\\SYSTEM Allow  FullControl\nBUILTIN\\Users Allow  ReadAndExecute, Synchronize\nNT AUTHORITY\\Authenticated Users Allow  Modify, Synchronize"
+                        },
+                        {
+                            "path":  "docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md",
+                            "presence":  "present",
+                            "tracked":  true,
+                            "bytes":  1573,
+                            "sha256":  "1E4BDE2D46758989CB26B943258F0F86C138B7A4BE5E7CEE162F201C85D45C09",
+                            "aclOwner":  "INT-SCL-010\\Parimal",
+                            "acl":  "BUILTIN\\Administrators Allow  FullControl\nNT AUTHORITY\\SYSTEM Allow  FullControl\nBUILTIN\\Users Allow  ReadAndExecute, Synchronize\nNT AUTHORITY\\Authenticated Users Allow  Modify, Synchronize"
+                        },
+                        {
+                            "path":  ".github/skills/portability-assessment/SKILL.md",
+                            "presence":  "present",
+                            "tracked":  true,
+                            "bytes":  2607,
+                            "sha256":  "4098E4C679985E3713E9E2E8F01A7B2A664590D341D2F211F360BCDB5FF7038A",
+                            "aclOwner":  "INT-SCL-010\\Parimal",
+                            "acl":  "BUILTIN\\Administrators Allow  FullControl\nNT AUTHORITY\\SYSTEM Allow  FullControl\nBUILTIN\\Users Allow  ReadAndExecute, Synchronize\nNT AUTHORITY\\Authenticated Users Allow  Modify, Synchronize"
+                        },
+                        {
+                            "path":  ".github/agents/portability-assessment.agent.md",
+                            "presence":  "present",
+                            "tracked":  true,
+                            "bytes":  1875,
+                            "sha256":  "5FB6F0F8C8331CA88A925A2192EB8D07319E62D83BF84926BA232D67483FBD26",
+                            "aclOwner":  "INT-SCL-010\\Parimal",
+                            "acl":  "BUILTIN\\Administrators Allow  FullControl\nNT AUTHORITY\\SYSTEM Allow  FullControl\nBUILTIN\\Users Allow  ReadAndExecute, Synchronize\nNT AUTHORITY\\Authenticated Users Allow  Modify, Synchronize"
+                        }
+                    ],
+    "repository":  {
+                       "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "branch":  "sdlc-framework-onboarding",
+                       "status":  [
+                                      " M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                      " M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                      " M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                      " M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                      " M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                                      "?? docs/sdlc-records/"
+                                  ],
+                       "indexDiff":  [
+
+                                     ],
+                       "worktreeDiff":  [
+                                            "M\tdocs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                            "M\tdocs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                            "M\tdocs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                            "M\tdocs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                            "M\tdocs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+                                        ]
+                   },
+    "externalAuthoritySource":  {
+                                    "url":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+                                    "apiUrl":  "https://api.github.com/repos/ScalableParimal/SupportIQ/issues/comments/6522916236",
+                                    "id":  6522916236,
+                                    "author":  "ScalableParimal",
+                                    "authorId":  226102895,
+                                    "association":  "OWNER",
+                                    "createdAt":  "2026-10-30T12:31:51Z",
+                                    "decision":  "one-time adoption of governance root and initial Governance Audit only; not this Review stage-start",
+                                    "observedFrom":  "web_fetch response; no authenticated browser session claim"
+                                },
+    "concurrency":  "No coordinated no-edit interval; final exact input recheck required; no trusted exhaustive OS event source.",
+    "operationEvents":  [
+                            {
+                                "order":  7,
+                                "operation":  "recompute baseline",
+                                "tool":  "PowerShell/Get-FileHash/Git",
+                                "outcome":  "PASS",
+                                "details":  "129 manifest items rechecked; content mismatches=0; prior Work-ID pathset changes=0; added 4 connected portability files before reading."
+                            },
+                            {
+                                "order":  8,
+                                "operation":  "resolve root authorization",
+                                "tool":  "functions.web_fetch",
+                                "outcome":  "comment API returned matching canonical repository, HEAD, root, work ID, initial actor/scope, author ScalableParimal (ID 226102895), association OWNER",
+                                "details":  "External decision authorized initial Audit only; fresh current Review start is separate."
+                            }
+                        ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "record_type": "audit_invocation_readback",
+  "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_invocation_readback",
+  "feature": "Governance framework only; no product feature",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "SDLC Governance Audit",
+  "creator": {
+    "identity": "f39a6108-fbf1-47b2-b95a-8267a3f07530",
+    "role": "SDLC Governance Audit",
+    "runtime_agent_id": "f39a6108-fbf1-47b2-b95a-8267a3f07530",
+    "copilot_agent_session_id": "97a481e7-4e39-416d-95af-55d3f5c16240",
+    "session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "identity_basis": "Current sole running same-task Audit in visible harness registry; not cryptographic external identity"
+  },
+  "created_at_utc": "2026-11-02T16:04:04.151284+00:00",
+  "clock_basis": "Python timezone-aware system UTC at record preparation; not exact publication time",
+  "gate": {
+    "applicability": "No formal human gate created by Audit"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/attempt.json",
+      "bytes": 16305,
+      "sha256": "A002883D8784ECDB76E27B46DE63F1E8D3547BA9080033CC238ED9C6D2DA147D"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/evidence/input-manifest.json",
+      "bytes": 141880,
+      "sha256": "5F7FDB6A820662B9C0B3C28BD21D5E5131A08D04926B728C14AAF7E51288BE12"
+    }
+  ],
+  "task_context": "No product task; existing governance cycle 1",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/attempt.json",
+    "bytes": 16305,
+    "sha256": "A002883D8784ECDB76E27B46DE63F1E8D3547BA9080033CC238ED9C6D2DA147D"
+  },
+  "manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/evidence/input-manifest.json",
+    "bytes": 141880,
+    "sha256": "5F7FDB6A820662B9C0B3C28BD21D5E5131A08D04926B728C14AAF7E51288BE12"
+  },
+  "all_input_files_unchanged": 518,
+  "outcome": "PASS",
+  "validation": "Fresh separate Python process reopens stored invocation, strict-parses entire native objects, validates common and invocation schema and every input binding before substantive assessment",
+  "publication_sequence": "Publisher command returned final invocation hash; this subsequent command independently reread it"
+}

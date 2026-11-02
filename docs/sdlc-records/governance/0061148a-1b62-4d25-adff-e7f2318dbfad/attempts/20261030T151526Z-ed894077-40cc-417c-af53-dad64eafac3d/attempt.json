@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_attempt",
+  "record_identity": "20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d",
+  "creator": {
+    "identity": "int-scl-010\\parimal",
+    "host": "INT-SCL-010",
+    "role": "Corrective Change Decision Agent",
+    "role_definition": ".github/agents/corrective-change-decision.agent.md",
+    "role_definition_sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+  },
+  "record_created_utc": "2026-10-30T15:17:01.288802Z",
+  "clock_basis": "Local system UTC clock sampled while preparing attempt.json; this is not an exact publication timestamp.",
+  "process": "Corrective Change Decision & Plan Update",
+  "stage": "Bounded corrective-decision proposal finalization for finding IGV-FIND-001",
+  "requested_scope": "Finalize the exact, hash-bound NOT-APPLIED record-correction proposal and Human Approval handoff for IGV-FIND-001 only. Publish this actor own invocation, evidence, report and result only.",
+  "invocation_authorization": {
+    "source": "Current parent-conversation user message",
+    "actual_wording": "I designate a separate one-time record-only Governance Amendment Application actor, limited to its own linked correction records, and initiate corrective proposal finalization for IGV-FIND-001; no correction publication is authorized",
+    "provenance": "Supplied as the current user response in this conversation; no external message identifier or independently authenticated timestamp is available.",
+    "scope": "Starts proposal finalization only; designates a distinct one-time record-only future Application actor limited to its own linked correction records.",
+    "explicit_exclusions": [
+      "No correction publication/application",
+      "No source changes",
+      "No old-record edits",
+      "No P1-P5 reapplication",
+      "No Verification, Review, Audit, baseline adoption, product work/tests/runtime, commit or push",
+      "No other agent or process-stage invocation"
+    ]
+  },
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head_commit": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "working_tree_observed": "Five tracked governance files modified and pre-existing untracked governance records; no source write is authorized."
+  },
+  "persistence": {
+    "root": "docs/sdlc-records/governance/",
+    "work_scope": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "actor_owned_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/",
+    "root_authorization": {
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+      "bootstrap_attempt": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/attempt.json",
+        "sha256": "3FD36342F3CAC94781CBD8C5D1824D893DEDC376D6660DADE1BBA213B37CF618",
+        "bytes": 4761
+      },
+      "scope_note": "Issue decision adopted the governance record root and authorized the original complete Audit only; it is not authority for this new stage. Current stage start is the current user response above."
+    }
+  },
+  "inputs": {
+    "skill": {
+      "path": ".github/skills/corrective-change-decision/SKILL.md",
+      "sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3",
+      "bytes": 10999
+    },
+    "guideline": {
+      "path": "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md",
+      "sha256": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203",
+      "bytes": 28121
+    },
+    "prompt": {
+      "path": "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md",
+      "sha256": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7",
+      "bytes": 3873
+    },
+    "request": {
+      "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+      "sha256": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+      "bytes": 2985
+    },
+    "application_role_definition": {
+      "path": ".github/agents/governance-amendment-application.agent.md",
+      "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D",
+      "bytes": 1636
+    },
+    "prior_decision_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/report.md",
+      "sha256": "DD224055E39F884F389CFEAFEB4F22082D5BE96E7DB4AA5DA979F71FB150CF33",
+      "bytes": 23251
+    },
+    "prior_decision_result": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/result.json",
+      "sha256": "06DA600FC551C901FE0EF56EED17C3F10382D144E4F210E70D58F12F68FF8CA7",
+      "bytes": 8633
+    },
+    "prior_decision_evidence": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/evidence/decision-evidence.json",
+      "sha256": "6B9E709801133E2E3643C17D1C4C8F8BE89C84862442832F6CB40EDE2EC0783F",
+      "bytes": 8094
+    },
+    "prior_proposal": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/evidence/record-correction-proposal.json",
+      "sha256": "65CE82D1DD8F8C16ED588B4051BCE35C5B0A20FC0F2218D721B5B8F4208A4FB3",
+      "bytes": 8693
+    },
+    "investigation_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/report.md",
+      "sha256": "4CA6CC42F1D37A84B061B89F8EE0084C1CE5A16EC15F7DDFD06FF323AE19A89F",
+      "bytes": 16664
+    },
+    "investigation_result": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/result.json",
+      "sha256": "32B77A49A835EE41FDA1EFC62211C2D7CD789C84872593A36A2A2AEF513F3DB8",
+      "bytes": 5570
+    },
+    "verification_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/report.md",
+      "sha256": "9F6301EBBF38B7DA8B4C46AEDB90FFFE17463C2E92B94E8F36B367FC39185908",
+      "bytes": 13529
+    },
+    "verification_result": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/result.json",
+      "sha256": "00A4CA551BFA963406BB6D4F0CEB622D3EB69915B0EE186A970D5F462737137F",
+      "bytes": 7202
+    },
+    "original_application_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/report.md",
+      "sha256": "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF",
+      "bytes": 15640
+    },
+    "original_application_result": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/result.json",
+      "sha256": "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497",
+      "bytes": 34763
+    },
+    "proposal_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/report.md",
+      "sha256": "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A",
+      "bytes": 39437
+    }
+  },
+  "capability_preflight": {
+    "identity_observed": "int-scl-010\\parimal",
+    "host_observed": "INT-SCL-010",
+    "read_and_hash": "Observed by successful repository reads and SHA-256 checks of the actor definition and linked records.",
+    "permissions": "Governance-root ACL grants Modify to Authenticated Users; identity membership/effective token not separately asserted.",
+    "publication_route": "Authorized actor-owned filesystem record scope under the adopted governance root; available atomic no-overwrite publication via same-filesystem partial-and-move, subject to this attempt publication and readback check.",
+    "declared_tools": [
+      "PowerShell file/repository inspection",
+      "SHA-256 hashing",
+      "same-filesystem atomic no-overwrite own-record publication"
+    ],
+    "evidence_boundary": "Filesystem publication and readback capability is not claimed complete until verified below; no source-write capability is used or claimed."
+  },
+  "predecessor_integrity": "Supplied decision, investigation, verification, application and proposal record hashes were checked against actual bytes before publication; one expected hash string was initially mistyped in a check command, actual byte hash matches the canonical supplied anchor. No predecessor bytes were edited.",
+  "termination_state": "IN_PROGRESS; no decision finalization yet. This record only establishes invocation scope and preflight."
+}

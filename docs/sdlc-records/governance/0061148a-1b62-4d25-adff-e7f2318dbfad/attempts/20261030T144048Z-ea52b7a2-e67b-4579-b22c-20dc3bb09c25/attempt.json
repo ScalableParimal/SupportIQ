@@ -1,0 +1,18 @@
+{
+    "schema":  "IGV-attempt-v1",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25",
+    "created_utc":  "2026-10-30T14:40:48.2035450+00:00",
+    "actor":  "Independent Governance Verification Agent; runtime principal int-scl-010\\parimal",
+    "repository":  "ScalableParimal/SupportIQ",
+    "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch":  "sdlc-framework-onboarding",
+    "stage":  "Independent Governance Verification",
+    "human_stage_start":  "Yes, initiate independent Governance Verification of the applied P1–P5 package",
+    "input_manifest_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/evidence/prepublication-input-manifest.json",
+    "input_manifest_sha256":  "E6C1B1347B197926741B10040EDC07F10C0762EE5BAA950E1EEC744987C276F3",
+    "agent_definition_sha256":  "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958",
+    "attempt_publication_scope":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/ only",
+    "authorization":  "Own invocation metadata, report, result, evidence only; no evaluated-source writes",
+    "readback_validation":  "Initial attempt and manifest must be independently read back and hash checked before substantive verification."
+}

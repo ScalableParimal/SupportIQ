@@ -1,0 +1,179 @@
+{
+  "schema": "independent-governance-verification-result-v1",
+  "record_type": "sdlc_process_result",
+  "record_identity": "20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f",
+  "process": "Independent Governance Verification",
+  "created_utc": "2026-10-30T17:22:31.154024+00:00",
+  "outcome": "PASS",
+  "execution_termination": "COMPLETED",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding"
+  },
+  "human_stage_start": "Yes, initiate new independent Governance Verification of P1–P5 and the linked IGV-FIND-001 correction",
+  "actor": "Independent Governance Verification Agent; runtime principal INT-SCL-010\\parimal",
+  "agent_definition_sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958",
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/report.md",
+    "bytes": 9336,
+    "sha256": "12E05DFCC7E2314952B9FF59CBCFF28E729DEAEEC3E2960AF7A78F5FDCA72085",
+    "readback_validated": true,
+    "method": "exclusive partial; flush/fsync; readback; no-overwrite rename; final hash"
+  },
+  "evidence": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/precheck-manifest.json",
+      "bytes": 116724,
+      "sha256": "81ECD574750AFC3E06BC23DFE4103535CD2F3484D52032E2C46380CD2BEB6B43"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/verification-evidence.json",
+      "bytes": 23655,
+      "sha256": "2EE04181FFE020B816BFBBEE0C4FBBD3B255962A12A50AA92C3E04EEF2B7C064"
+    }
+  ],
+  "criteria": {
+    "fresh_start_runtime_capability_and_independence": "PASS",
+    "proposal_approval_application_binding": "PASS_WITH_PROVENANCE_LIMITATION_DISCLOSED",
+    "P1_P5_exact_bytes_paths_base_after_current_fingerprints": "PASS",
+    "complete_changed_path_and_unapproved_change_scope": "PASS",
+    "linked_IGV_FIND_001_append_only_correction": "PASS",
+    "cross_document_seven_mechanism_52_core_authority": "PASS",
+    "history_effectiveness_adoption_boundaries": "PASS"
+  },
+  "P1_P5_targets": [
+    {
+      "operation": "P1",
+      "finding_id": "GOV-001",
+      "path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+      "base_sha256": "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E",
+      "expected_after_sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+      "before_bytes": 1554,
+      "current_bytes": 2108,
+      "current_sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+      "unique_old_fragment": true,
+      "reconstruction_equals_captured_after_and_current": true,
+      "format": "UTF-8 without BOM; CRLF only; final CRLF"
+    },
+    {
+      "operation": "P2",
+      "finding_id": "GOV-002",
+      "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "base_sha256": "0495F43A8AFC8ECBBB7BA59FB0FEBCAF0A3276EB95EF16AE3B907636690645A7",
+      "expected_after_sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8",
+      "before_bytes": 5579,
+      "current_bytes": 5773,
+      "current_sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8",
+      "unique_old_fragment": true,
+      "reconstruction_equals_captured_after_and_current": true,
+      "format": "UTF-8 without BOM; CRLF only; final CRLF"
+    },
+    {
+      "operation": "P3",
+      "finding_id": "GOV-002",
+      "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+      "base_sha256": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+      "expected_after_sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+      "before_bytes": 5524,
+      "current_bytes": 5718,
+      "current_sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+      "unique_old_fragment": true,
+      "reconstruction_equals_captured_after_and_current": true,
+      "format": "UTF-8 without BOM; CRLF only; final CRLF"
+    },
+    {
+      "operation": "P4",
+      "finding_id": "GOV-002",
+      "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+      "base_sha256": "19950013220CB93E88FFBA0606763E8FA93A8A60950E57360C50F9ACFCC9132A",
+      "expected_after_sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97",
+      "before_bytes": 2007,
+      "current_bytes": 2076,
+      "current_sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97",
+      "unique_old_fragment": true,
+      "reconstruction_equals_captured_after_and_current": true,
+      "format": "UTF-8 without BOM; CRLF only; final CRLF"
+    },
+    {
+      "operation": "P5",
+      "finding_id": "GOV-002",
+      "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+      "base_sha256": "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79",
+      "expected_after_sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+      "before_bytes": 2029,
+      "current_bytes": 2098,
+      "current_sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+      "unique_old_fragment": true,
+      "reconstruction_equals_captured_after_and_current": true,
+      "format": "UTF-8 without BOM; CRLF only; final CRLF"
+    }
+  ],
+  "finding_disposition": {
+    "id": "IGV-FIND-001",
+    "status": "LIMITED_TRANSCRIPTION_QUALIFICATION_PRESERVED; historical FINDINGS remains immutable",
+    "underlying_approval_validity": "NOT DETERMINED",
+    "original_records_rewritten": false,
+    "approval_reissued": false,
+    "whole_application_result_superseded": false
+  },
+  "historical_outcomes": {
+    "prior_verification": "FINDINGS",
+    "prior_governance_audit": "CANNOT COMPLETE AUDIT"
+  },
+  "pre_result_snapshot": {
+    "checked_at_utc": "2026-10-30T17:22:31.153785+00:00",
+    "evaluated_input_count": 116,
+    "presence_counts": {
+      "PRESENT": 116,
+      "ABSENT": 0
+    },
+    "present_fingerprints_checked": 116,
+    "mismatches": [],
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "status_entries_expected_actual": [
+      102,
+      102
+    ],
+    "porcelain_pathset_match": true,
+    "records_root_pathset_expected_actual": [
+      97,
+      97
+    ],
+    "records_root_pathset_match": true,
+    "exact_own_output_exclusions": [
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/attempt.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/checkpoint-0001.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/checkpoint-0002.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/checkpoint-0003.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/precheck-manifest.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/verification-evidence.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/report.md",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/result.json"
+    ],
+    "pass": true
+  },
+  "assurance": {
+    "mode": "procedural non-mutation",
+    "enforced_source_read_only": false,
+    "write_capable_tools_and_writable_acl": true,
+    "source_write_count": 0,
+    "write_probe_count": 0,
+    "no_exhaustive_OS_event_stream": true,
+    "no_coordinated_no_edit_interval": true,
+    "endpoint_hashes_do_not_prove_no_transient_write_or_same_principal_tampering": true
+  },
+  "non_authorizations": [
+    "No source/evaluated-input write or correction",
+    "No approval or Review",
+    "No Governance Audit rerun",
+    "No Master baseline/product-root adoption",
+    "No product work/tests/build/runtime",
+    "No commit or push",
+    "No effectiveness/product-readiness claim"
+  ],
+  "next_permitted_process": "Independent Governance Review, only after separate fresh human stage-start; not invoked."
+}

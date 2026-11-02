@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:checkpoint-0003",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:35:25.816263Z",
+  "process": "Governance Amendment Application",
+  "sequence": 3,
+  "last_confirmed_boundary": "All five approved targets written, fsynced and read back with exact expected-after bytes/hashes while all five write-denying handles remained held",
+  "source_effects": [
+    "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+    "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+    "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md"
+  ],
+  "operation_observations": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P1.observation.json",
+      "sha256": "74B276E75E20A40BB863F13CDE2C88CF95AA6469998D29DE2ABC286812B41FE4",
+      "bytes": 1804
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P2.observation.json",
+      "sha256": "6D0585568ECD3B60FB5C85E09705F3477C81C9BD9A8CBF686105A4C008E09A91",
+      "bytes": 1823
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P3.observation.json",
+      "sha256": "4051272A72AC7B0D83E1874D07A5D626074222E1ABEA52A2DBFF1650CAB4707D",
+      "bytes": 1816
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P4.observation.json",
+      "sha256": "C214A8B88CEBDC5D138F1A2D4D6BAFA2BBAC6F73248003984890C3FE89213810",
+      "bytes": 1817
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P5.observation.json",
+      "sha256": "A59D21290DA8241D46874E9284699AABCCDD65F6FF3EAD44774AF350A33FABBF",
+      "bytes": 1811
+    }
+  ],
+  "unfinished_work": "Final full-path/non-target/prior-record inventory check and evidence/report/result publication; no more source writes",
+  "blockers": [],
+  "safe_continuation_prerequisites": "All final bytes remain exact and all other initial files/records remain unchanged. No independent stage authorized."
+}

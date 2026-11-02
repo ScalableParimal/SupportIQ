@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5:checkpoint-0002",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "creator": {
+    "role": "Corrective Change Decision",
+    "actor_identity": "local-corrective-change-decision:20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+    "runtime_agent_id_observed": "0939dcbe-f104-454a-a8bd-62e36810ccd3",
+    "identity_limit": "Runtime roster association, not authenticated platform identity"
+  },
+  "created_at_utc": "2026-11-02T10:58:50.821440+00:00",
+  "clock_basis": "Host UTC sample during record preparation; not publication timestamp",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-002",
+  "sequence": 2,
+  "last_confirmed_boundary": "Independent fresh-process final readback completed after report/result publication; proposal-only process terminal records valid",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/report.md",
+    "bytes": 21659,
+    "sha256": "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3",
+    "identity": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5:decision_report"
+  },
+  "result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/result.json",
+    "bytes": 7339,
+    "sha256": "DD24CBD8B366CE920DB28E4699CB27B53651FA85445F250D517D20160493D0A9"
+  },
+  "proposal": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/proposal.json",
+    "bytes": 7208,
+    "sha256": "E797F4233E7382DCD493395CDA4C3689B2A55FB39CE9E59B563CA18B13C54D2C"
+  },
+  "patch": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/proposed.patch",
+    "bytes": 4115,
+    "sha256": "BD0AC70966CE8F97330719A2E156F3C2D4DFAD559AFAAF052F9726067B53C024"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/evidence.json",
+    "bytes": 93411,
+    "sha256": "4F471AB0A135B53B418B355AF47A36A97437D908BAED7F2B281045D5F91D7021"
+  },
+  "validation": {
+    "status": "PASS record integrity, not a governance Verification stage",
+    "baseline_files": 357,
+    "canonical_input_files": 9,
+    "upstream_binding_occurrences_in_evidence": 185,
+    "all_report_result_evidence_proposal_patch_bindings": true,
+    "exact_diff_and_expected_after_recomputed_in_memory": true,
+    "target_still_base": true,
+    "source_and_prior_record_content_path_sets": "UNCHANGED",
+    "head_branch_status": "UNCHANGED",
+    "native_complete_object_roundtrips": true,
+    "no_unresolved_templates_backtick_n_or_replacement_characters": true,
+    "no_partial_files": true
+  },
+  "pending_gates": [
+    "Exact Human approval of report/proposal/patch/target fingerprints/scope/route",
+    "Fresh scoped one-time applier designation",
+    "Separate future stage starts and required independent assurance/full Audit"
+  ],
+  "limitations": [
+    "Procedural nonmutation, not sandbox enforced",
+    "Endpoint checks do not exclude transient writes or same-principal tampering",
+    "No exhaustive trusted event log"
+  ],
+  "next_permitted_process": "Await Human exact decision/designation only; no application or other stage initiated"
+}

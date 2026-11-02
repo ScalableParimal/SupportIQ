@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "record_type": "finding_investigation_publication_boundary_evidence",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0",
+  "operations": [
+    {
+      "sequence": 1,
+      "operation_id": "Q-001",
+      "description": "Governing process and Master controls read; target content not read"
+    },
+    {
+      "sequence": 2,
+      "operation_id": "Q-002",
+      "description": "Repository/root/Work ID/current actor/role/ACL/capability/collision/state checks"
+    },
+    {
+      "sequence": 3,
+      "operation_id": "Q-003",
+      "description": "Predecessor hashes and structured metadata only"
+    },
+    {
+      "sequence": 4,
+      "operation_id": "Q-004",
+      "description": "PowerShell PID variable error before publication"
+    },
+    {
+      "sequence": 5,
+      "operation_id": "Q-005/Q-006",
+      "description": "Predecessor ID typo corrected by exact directory listing before publication"
+    },
+    {
+      "sequence": 6,
+      "operation_id": "Q-007",
+      "description": "PowerShell Test-Path syntax error before publication"
+    },
+    {
+      "sequence": 7,
+      "operation_id": "P-001",
+      "description": "Attempt serialized, flushed, and atomically published without overwrite",
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/attempt.json",
+      "utc": "2026-11-02T07:24:48.844050+00:00",
+      "bytes": 28990,
+      "sha256": "0F17FD97F30592467E762D3CB9634D5BD176952A052291FA0C54377AA231FD48"
+    },
+    {
+      "sequence": 8,
+      "operation_id": "P-002",
+      "description": "Independent attempt readback; parse and source/predecessor byte/hash bindings validated",
+      "bytes": 28990,
+      "sha256": "0F17FD97F30592467E762D3CB9634D5BD176952A052291FA0C54377AA231FD48",
+      "all_bindings": "match"
+    },
+    {
+      "sequence": 9,
+      "operation_id": "P-003",
+      "description": "Boundary ledger publication and readback"
+    },
+    {
+      "sequence": 10,
+      "operation_id": "S-001",
+      "description": "First substantive source/report inspection",
+      "status": "not yet executed; next only after P-003 readback"
+    }
+  ],
+  "first_substantive_operation": {
+    "operation_id": "S-001",
+    "not_yet_executed": true,
+    "condition": "After this ledger is independently read back and validated"
+  },
+  "attempt": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/attempt.json",
+    "sha256": "0F17FD97F30592467E762D3CB9634D5BD176952A052291FA0C54377AA231FD48",
+    "bytes": 28990,
+    "readback_sha256": "0F17FD97F30592467E762D3CB9634D5BD176952A052291FA0C54377AA231FD48",
+    "readback_bytes": 28990
+  },
+  "actor_agent_id": "f508bb00-a78f-41f5-9c62-8131ab52e48f"
+}

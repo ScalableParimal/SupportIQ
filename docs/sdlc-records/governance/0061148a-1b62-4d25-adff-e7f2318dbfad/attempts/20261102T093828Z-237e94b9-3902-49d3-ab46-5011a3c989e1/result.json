@@ -1,0 +1,340 @@
+{
+  "schema_version": "1.0",
+  "record_type": "independent_governance_verification_result",
+  "record_id": "20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1",
+  "creator": "20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1",
+  "role": "Independent Governance Verification",
+  "process": "Independent Governance Verification",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:43:29.342725+00:00",
+  "execution_status": "COMPLETED",
+  "execution_termination": "COMPLETED",
+  "outcome": "PASS",
+  "assurance_mode": "PROCEDURAL NON-MUTATION",
+  "actor_identity": {
+    "role": "Independent Governance Verification",
+    "definition": {
+      "path": ".github/agents/independent-governance-verification.agent.md",
+      "bytes": 1393,
+      "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+    },
+    "runtime_session": "923a55cc-499e-4d83-8923-11f097bbcb71",
+    "runtime_agent": "github_copilot_vscode_agent",
+    "invocation_identity": "20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1",
+    "OS_token": "USER INFORMATION\r\n----------------\r\n\r\nUser Name           SID                                           \r\n=================== ==============================================\r\nint-scl-010\\parimal S-1-5-21-2809803128-1021655904-3966773769-1002",
+    "pid_at_qualification": 82512,
+    "independence": "Distinct current verifier definition/invocation; not preparer, publisher or planned reviewer. Shared OS principal not claimed isolated.",
+    "approved_four_role_bindings": {
+      "preparer": {
+        "definition": {
+          "path": ".github/agents/corrective-change-decision.agent.md",
+          "bytes": 5163,
+          "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+        },
+        "attempt": {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attempt.json",
+          "bytes": 87496,
+          "sha256": "8EDA2344DB8D5312AF43CBBED844F21D6349798CC62CD6EA739E99E9CF1EDE34"
+        },
+        "status": "CURRENT RECOVERY PROPOSAL PREPARER; not retry publisher"
+      },
+      "publisher": {
+        "definition": {
+          "path": ".github/agents/governance-amendment-application.agent.md",
+          "bytes": 1636,
+          "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+        },
+        "proposed_attempt_identity": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+        "proposed_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+        "status": "PROPOSED FRESH ONE-TIME DESIGNATION ONLY; prior one-time approval not transferred"
+      },
+      "verifier": {
+        "definition": {
+          "path": ".github/agents/independent-governance-verification.agent.md",
+          "bytes": 1393,
+          "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+        },
+        "status": "PLANNED DEFINITION ONLY; own attempt/current capability after completed Application and fresh Verification start"
+      },
+      "reviewer": {
+        "definition": {
+          "path": ".github/agents/independent-governance-review.agent.md",
+          "bytes": 1284,
+          "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+        },
+        "status": "PLANNED DEFINITION ONLY; own attempt/current capability after PASS Verification and fresh Review start"
+      }
+    }
+  },
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/report.md",
+    "bytes": 15150,
+    "sha256": "A1388E49A5F107443FAF3E5E32D4FDFB5B9C8CBC5EA4D4EBD4B56967E695B7E0"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/evidence/verification-evidence.json",
+    "bytes": 2487127,
+    "sha256": "24DE9E1B99BE8B35C57E3B1FA4759357185FF7BBAB1B8983B55ED63D6A060BFB"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/attempt.json",
+    "bytes": 59534,
+    "sha256": "C731B1F6F96C511E6A615693B88DE979F493D7919444725BDF49880B67A1C3F7"
+  },
+  "qualification": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/evidence/qualification.json",
+    "bytes": 154094,
+    "sha256": "29BE46B20A828189E0FD0F31F53F2F3475155C9165240257773765B5EDAB2DD4"
+  },
+  "record_first_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/checkpoint-0001.json",
+    "bytes": 1721,
+    "sha256": "6D438BC1726535F31625A7A0B14E7EB2B61AC8889737314DDB78E6B1AE0C16DE"
+  },
+  "completed_comparison_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/checkpoint-0002.json",
+    "bytes": 2342,
+    "sha256": "B90B5639218DC82831F7134F6F63297167AF6AC774E48FCD25AACF01EE407C65"
+  },
+  "human_stage_start": {
+    "wording": "Yes, initiate Independent Governance Verification for the GOV-AUD-20261102-001 clarification Application only",
+    "source": "Actual Human current conversation user instruction, supplied 2026-11-02; message ID/time not authenticated or exposed",
+    "scope": "Completed GOV-AUD-20261102-001 linked clarification Application only",
+    "not_substantive_approval": true
+  },
+  "predecessor_application_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/report.md",
+    "bytes": 6380,
+    "sha256": "26EEC34BAB50AD8A67FEBDAC262D9A723700807C5BA27FBD932668CE16AB2B88"
+  },
+  "predecessor_application_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/result.json",
+    "bytes": 33474,
+    "sha256": "8F9AEF423A96167C8A6247266F26989A22AB331FB033D7280AB8C46127359CD9"
+  },
+  "canonical_approved_package": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/report.md",
+    "bytes": 21731,
+    "sha256": "F96D1A37D0F9CE9C5D423C86B84531D80E7C27D945C52FE559586792491D196F"
+  },
+  "exact_approval_request": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attachments/exact-recovery-approval-request.json",
+    "bytes": 12552,
+    "sha256": "4938CCC6829B21AF4281CFB94D32DCBB4FC1F50D2C1AC16630B4D8C1A2C46097"
+  },
+  "approved_scope_complete": {
+    "status": "RECOVERY PROPOSAL ONLY; NO NEW DESIGNATION/APPROVAL/RETRY START",
+    "purpose": "Only recovery from failed Application of GOV-AUD-20261102-001; no new finding",
+    "one_substantive_target": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attachments/GOV-AUD-20261102-001-linked-clarification.md",
+    "base_condition": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attachments/GOV-AUD-20261102-001-linked-clarification.md",
+      "presence": "ABSENT",
+      "base_sha256": null,
+      "base_bytes": null,
+      "attempt_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+      "attempt_presence": "ABSENT",
+      "method": "Nonmutating os.path.lexists false for proposed attempt and exact target",
+      "semantics": "No base bytes; not an empty-file hash; observation not reservation. Recheck before any later approved write."
+    },
+    "payload_source": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T090405Z-a7fe416c-9a1d-4153-9c46-180a65e86436/attachments/proposed-linked-clarification.md",
+      "bytes": 3438,
+      "sha256": "8887DC81719F3D3E044323A1D32C1CA93D9102F03FD6F28CB79DC5608D3C8FFA"
+    },
+    "expected_after_sha256": "8887DC81719F3D3E044323A1D32C1CA93D9102F03FD6F28CB79DC5608D3C8FFA",
+    "expected_after_bytes": 3438,
+    "encoding": "UTF-8 without BOM; ASCII-only; LF only; one final LF",
+    "roles": {
+      "preparer": {
+        "definition": {
+          "path": ".github/agents/corrective-change-decision.agent.md",
+          "bytes": 5163,
+          "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+        },
+        "attempt": {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attempt.json",
+          "bytes": 87496,
+          "sha256": "8EDA2344DB8D5312AF43CBBED844F21D6349798CC62CD6EA739E99E9CF1EDE34"
+        },
+        "status": "CURRENT RECOVERY PROPOSAL PREPARER; not retry publisher"
+      },
+      "publisher": {
+        "definition": {
+          "path": ".github/agents/governance-amendment-application.agent.md",
+          "bytes": 1636,
+          "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+        },
+        "proposed_attempt_identity": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+        "proposed_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+        "status": "PROPOSED FRESH ONE-TIME DESIGNATION ONLY; prior one-time approval not transferred"
+      },
+      "verifier": {
+        "definition": {
+          "path": ".github/agents/independent-governance-verification.agent.md",
+          "bytes": 1393,
+          "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+        },
+        "status": "PLANNED DEFINITION ONLY; own attempt/current capability after completed Application and fresh Verification start"
+      },
+      "reviewer": {
+        "definition": {
+          "path": ".github/agents/independent-governance-review.agent.md",
+          "bytes": 1284,
+          "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+        },
+        "status": "PLANNED DEFINITION ONLY; own attempt/current capability after PASS Verification and fresh Review start"
+      }
+    },
+    "excluded_publisher_definitions": [
+      {
+        "path": ".github/agents/sdlc-process-orchestrator.agent.md",
+        "bytes": 97823,
+        "sha256": "048DA0B64B162638A113D9049EF845F4530CBE9556345C0C8C7E7E202FBF23B3"
+      },
+      {
+        "path": ".github/agents/sdlc-governance-remediation.agent.md",
+        "bytes": 48379,
+        "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+      }
+    ],
+    "application_route": "Fresh explicitly Human-redesignated distinct one-time Governance Amendment Application actor publishes exact approved payload in its own new retry attempt; own required execution records only in same new scope",
+    "no_reuse": "No new publication in failed attempt, no edits to historical scripts/final records, no silent transfer of designation/approval, no same-identity terminal attempt restart",
+    "tooling_direction": "In future fresh actor-owned script use JSON-native dict/list/scalar structures from construction. Self-test complete actual evidence objects with strict serialize/parse structural equality before any corresponding partial/final publication. Preserve exact-byte/hash/parse checks; do not weaken them, coerce away mismatches, edit failed script or claim old failed preflight evidence passed.",
+    "exclusions": "No source/historical/other-actor edits; no payload/content/newline change, broad punctuation normalization, GOV-001/GOV-002 reopening, P1-P5 reapplication, product work/alarm integration, standing authority, adoption, commit/push, verification eligibility from failed result or effectiveness claim",
+    "next_human_gate": "One combined attributable Human decision explicitly redesignating publisher/new attempt and approving this recovery package's exact target/ABSENT base/payload/roles/scope/route. Do not separately gate designation before exact package approval; both may be explicit in one decision.",
+    "later_separate_gate": "After combined designation/exact approval, require a fresh separate Human Application retry stage-start; old start is not reusable",
+    "qualification": "Fresh publisher own current nonmutating identity/permissions/capability evidence and no-overwrite invocation publication/readback before substantive work. Its new Application attempt may be first capability record; no pre-existing qualification record required. Missing/uncertain capability/approval/base/identity means CANNOT COMPLETE.",
+    "later_assurance": "Completed successful Application then separately Human-started independent Verification; PASS then separately started independent Review; PASS then separately started complete Governance Audit. No Master adoption required for non-Master record clarification.",
+    "risks": "Shared write-capable OS principal is not enforced sandbox. Endpoint hashes cannot exclude transient same-principal tampering/unobserved concurrent writes; no exhaustive execution log/no-edit window/continuous observation/repository lock. Disclosure is not a new approval-validity condition."
+  },
+  "criteria": [
+    {
+      "id": "V01",
+      "title": "Current independent verifier identity, capability and first publication",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V02",
+      "title": "Fresh actual Human Verification initiation after complete Application",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V03",
+      "title": "Exact package approval, one-time redesignation and separate Application start",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V04",
+      "title": "All caller-bound canonical input identities and fingerprints",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V05",
+      "title": "Complete structured input fingerprint bindings independently recomputed",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V06",
+      "title": "Exact target path, immutable source bytes, expected after hash and encoding",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V07",
+      "title": "ABSENT base, new-attempt/no-overwrite route and complete Application ordering",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V08",
+      "title": "Complete actual change set and all 302 preexisting files preserved",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V09",
+      "title": "Failed predecessor remains terminal, unchanged and ineligible; no tooling/payload conflation",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V10",
+      "title": "Linked correction addresses only original line 15 metadata and line 27 codepoint distinction",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V11",
+      "title": "Cross-document authority, seven mechanisms, 52-core and Master/non-Master boundaries unchanged",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V12",
+      "title": "Current repository/root/Work ID and scope authority",
+      "outcome": "PASS"
+    },
+    {
+      "id": "V13",
+      "title": "Meaningful-boundary and prepublication procedural non-mutation checkpoint",
+      "outcome": "PASS"
+    }
+  ],
+  "independent_final_readback": {
+    "tool": "functions.powershell fresh Python -B import",
+    "process_pid": 79992,
+    "start_utc": "2026-11-02T09:43:28.818430+00:00",
+    "completion_utc": "2026-11-02T09:43:29.344884+00:00",
+    "arguments_integrity_binding": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/verification.py",
+      "bytes": 51599,
+      "sha256": "7A1587C620CFF3ACFF4821F7CBEFFFEEBF2F25C975B0D0978B6D955073CA811C"
+    },
+    "operations": [
+      "Read all own JSON outputs; strict parse and complete native object structural equality",
+      "Check report exact regeneration from actual final evidence",
+      "Independently hash all own report/evidence/invocation/checkpoint records against publication fingerprints",
+      "Compare complete 311 evaluated files/directories/index/HEAD/branch/external status to before-substantive baseline",
+      "Reconcile all 4210 independently recomputed reference bindings against final current snapshot",
+      "Validate full result native structural serialize/parse equality before flushed atomic no-overwrite publication"
+    ],
+    "outcome": "PASS before terminal result publication",
+    "scope": "Actor-visible fresh-process independent readback, not a second Verification/Review actor"
+  },
+  "final_input_checkpoint": {
+    "evaluated_files": 311,
+    "input_path_and_state_digest": "DFD81D6D43F06EB88149ECD154DDA80FB091E912A9BC34D42EDB51C2B96C8978",
+    "baseline": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/evidence/qualification.json",
+      "bytes": 154094,
+      "sha256": "29BE46B20A828189E0FD0F31F53F2F3475155C9165240257773765B5EDAB2DD4"
+    },
+    "all_files_paths_directories_index_external_status_HEAD_branch_unchanged": true,
+    "exact_own_output_exclusions_only": true
+  },
+  "preservation": {
+    "all_302_Application_preexisting_files_preserved": true,
+    "only_nine_approved_Application_output_paths_added": true,
+    "original_Investigation_report_unchanged": true,
+    "failed_terminal_attempt_unchanged": true,
+    "old_failed_target_absent": true,
+    "no_source_or_other_actor_writes": true
+  },
+  "unresolved_verification_findings": [],
+  "limitations": "Procedural non-mutation; shared write-capable OS principal and tools, not enforced read-only. Actor-visible tool transcript and script events only; no exhaustive trusted OS event stream, lock, coordinated no-edit window, or continuous observation. Matching endpoint fingerprints cannot prove absence of transient writes or same-principal tampering. Terminal old attempts are not evidence of live competing writers. No authenticated parent message IDs/times are exposed; none invented.",
+  "effectiveness_established": false,
+  "Audit_status_changed": false,
+  "Master_adoption_established": false,
+  "product_readiness_established": false,
+  "next_gate": "Separate fresh actual Human initiation of Independent Governance Review matching approved planned definition; only after PASS separately initiated complete Governance Audit. No downstream stage started.",
+  "pending_assurance": [
+    "Independent Governance Review",
+    "New complete qualifying Governance Audit"
+  ],
+  "serializer_self_tests": {
+    "complete_actual_objects": "strict native equality before every publication",
+    "duplicate_keys": "rejected",
+    "NaN": "rejected",
+    "non_native_tuple": "rejected",
+    "Unicode_roundtrip": "PASS"
+  },
+  "post_terminal_receipt": "Own non-authoritative final-readback receipt may record later fresh-process result readback/hash; it does not revise this canonical result."
+}

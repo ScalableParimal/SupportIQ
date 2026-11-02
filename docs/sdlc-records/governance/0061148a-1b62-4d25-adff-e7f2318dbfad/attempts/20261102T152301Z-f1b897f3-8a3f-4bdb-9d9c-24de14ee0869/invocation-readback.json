@@ -1,0 +1,147 @@
+{
+  "record_type": "independent_fresh_process_invocation_readback",
+  "process_id": 104244,
+  "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+  "attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+  "observed_at_utc": "2026-11-02T15:24:11.593867+00:00",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869/invocation.json",
+    "bytes": 9471,
+    "sha256": "482905DBAB9C5C2052901290FC7DC5DFE67FFBB1A1235E27BB3461586475AC4F"
+  },
+  "manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869/manifest.json",
+    "bytes": 252016,
+    "sha256": "5085DB11F1C423BF40B496C86B3D67695FFEE15C8ADFCF82E40C6A1047E441B8"
+  },
+  "invocation_strict_parse": true,
+  "manifest_strict_parse": true,
+  "input_snapshot_matches": true,
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+      "observed_at_utc": "2026-11-02T15:24:10.977586+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "ls-files",
+        "-z"
+      ],
+      "stdout_sha256": "7DBA28382315E2384C5AB894C4DAC385E255D11FC3DFA439D43BDF14CF1DEB7F",
+      "returncode": 0
+    },
+    {
+      "sequence": 2,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+      "observed_at_utc": "2026-11-02T15:24:11.278011+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "rev-parse",
+        "HEAD"
+      ],
+      "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+      "returncode": 0
+    },
+    {
+      "sequence": 3,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+      "observed_at_utc": "2026-11-02T15:24:11.344546+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "branch",
+        "--show-current"
+      ],
+      "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+      "returncode": 0
+    },
+    {
+      "sequence": 4,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+      "observed_at_utc": "2026-11-02T15:24:11.436866+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=all"
+      ],
+      "stdout_sha256": "BCA0143167C5305C9C1CFF33A2842BCF9C85315F613EE796091DB869EBE3620A",
+      "returncode": 0
+    },
+    {
+      "sequence": 5,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+      "observed_at_utc": "2026-11-02T15:24:11.504847+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "diff",
+        "--cached",
+        "--binary",
+        "--no-ext-diff"
+      ],
+      "stdout_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "returncode": 0
+    },
+    {
+      "sequence": 6,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+      "observed_at_utc": "2026-11-02T15:24:11.591196+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "diff",
+        "--binary",
+        "--no-ext-diff"
+      ],
+      "stdout_sha256": "AD3E80B6DCF7CA66D42EB0FA473CF0E11D501EF211F71867F3DD4D876A77C638",
+      "returncode": 0
+    },
+    {
+      "sequence": 7,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+      "observed_at_utc": "2026-11-02T15:24:11.593606+00:00",
+      "operation": "hidden-inclusive bounded inventory, SHA256 and Git state",
+      "paths": [
+        "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+      ],
+      "outcome": "OK",
+      "files": 486,
+      "path_set_sha256": "696C81D1F5909A515FFE1BF177CF6D8A2635CE60C2B7AFAAC5642A59E1FE8BA2"
+    }
+  ]
+}

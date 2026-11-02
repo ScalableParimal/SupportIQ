@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.0",
+  "record_type": "exact_governance_proposal",
+  "record_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d:exact_governance_proposal",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Corrective Change Decision & Plan Update",
+  "creator": {
+    "role": "Corrective Change Decision Agent",
+    "runtime_agent_id": "4d0c3747-fde6-48c7-b125-5adb2af5b80c",
+    "copilot_agent_session_id": "1684b491-8eea-41fb-864d-541e7920e172"
+  },
+  "created_at_utc": "2026-11-02T15:02:00.938135+00:00",
+  "clock_basis": "Current UTC at record preparation; no exact publication timestamp claimed",
+  "subject_type": "FINDING",
+  "finding_ids": [
+    "GOV-AUD-20261102-003",
+    "GOV-AUD-20261102-004"
+  ],
+  "state": "PROPOSED_NOT_APPROVED_NOT_APPLIED",
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/report.md",
+    "record_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d:corrective_decision_report"
+  },
+  "investigation_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/report-revision-0002.md",
+    "bytes": 21951,
+    "sha256": "1B298794D8AA503E4C18AA3730754FA170D6196B7745160390BB9C68246D1365"
+  },
+  "investigation_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/result-revision-0002.json",
+    "bytes": 4974,
+    "sha256": "41F442FA05C1472939889612DF43307E39E91883F75404C90D6AA1965A5248EB"
+  },
+  "scope": "Five non-Master governance artifacts; F003 four-artifact Requirement Update bundle; F004 one enhancement actor-fields paragraph",
+  "exclusions": [
+    "source amendments",
+    "application",
+    "later stages",
+    "product work",
+    "Master adoption",
+    "reopening GOV-AUD-20261102-001/002 or historical GOV001/002",
+    "staging",
+    "commit",
+    "push"
+  ],
+  "targets": [
+    {
+      "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+      "finding_ids": [
+        "GOV-AUD-20261102-003"
+      ],
+      "encoding": "UTF-8",
+      "bom": false,
+      "newline": "CRLF",
+      "base_final_newline": false,
+      "expected_after_final_newline": false,
+      "base_bytes": 11022,
+      "base_sha256": "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1",
+      "expected_after_bytes": 12269,
+      "expected_after_sha256": "D265AA4EFC1D55E870BFC1D453059B11830116AE2E908C39CAD4BC52826C8850",
+      "operation": "Apply sequential exact single-occurrence UTF-8 byte replacements; preserve all other bytes",
+      "replacements": [
+        {
+          "before": "1. The current approved Requirement version and its version ID and SHA-256.",
+          "after": "1. The source Requirement path, immutable version ID, and SHA-256, with its lifecycle status and applicable approval evidence: either the identified unapproved source for initial analysis clarification before first Human Requirement Approval, or the current approved Requirement for an approved-source change.",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 473
+        },
+        {
+          "before": "5. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment. For a non-finding request, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.",
+          "after": "5. The update context: Initial Analysis Clarification (pre-approval), Finding-led corrective update, or human-requested, non-finding Requirement amendment. For an approved-source non-finding amendment, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 954
+        },
+        {
+          "before": "If a material decision is still unresolved, do not silently decide it.",
+          "after": "For Initial Analysis Clarification, bind the initial Requirement Analysis questions and explicit human answers/decisions, and require an explicit request to perform Requirement Update. Preserve the immutable source and version lineage under SDLC_ARTIFACT_GOVERNANCE.md section 8.4. The resulting version remains unapproved; approval of clarification decisions is not Human Requirement Approval. Follow section 16: subsequent Requirement Analysis, complete independent Requirement Analysis Verification, resolution of findings/decisions, then separate formal Human Requirement Approval before planning as approved. This branch neither permits implementation against an unapproved Requirement nor bypasses applicable finding-led corrective controls; a change to an already-approved Requirement must use the approved-source path. If source lifecycle status or applicable approval evidence cannot be established, stop and request clarification.\r\n\r\nIf a material decision is still unresolved, do not silently decide it.",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 1466
+        }
+      ]
+    },
+    {
+      "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+      "finding_ids": [
+        "GOV-AUD-20261102-003"
+      ],
+      "encoding": "UTF-8",
+      "bom": false,
+      "newline": "CRLF",
+      "base_final_newline": false,
+      "expected_after_final_newline": false,
+      "base_bytes": 2254,
+      "base_sha256": "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2",
+      "expected_after_bytes": 2845,
+      "expected_after_sha256": "0677A918CAC19E87C30B9CFA33EF167DE44219ECA5BD39CF3C3FA24D97599496",
+      "operation": "Apply sequential exact single-occurrence UTF-8 byte replacements; preserve all other bytes",
+      "replacements": [
+        {
+          "before": "1. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment.\r\n2. The current approved Requirement version path, immutable version ID, and SHA-256.",
+          "after": "1. The update context: Initial Analysis Clarification (pre-approval), Finding-led corrective update, or human-requested, non-finding Requirement amendment.\r\n2. The source Requirement path, immutable version ID, SHA-256, lifecycle status, and applicable approval evidence, qualified by the initial-clarification or approved-source path in Guideline section 2.",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 216
+        },
+        {
+          "before": "6. For a human-requested non-finding amendment, the existing request details and responsible human decision, including scope, disposition, and rationale, as specified by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.",
+          "after": "6. For an approved-source human-requested non-finding amendment, the existing request details and responsible human decision, including scope, disposition, and rationale, as specified by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.\r\n\r\nFor Initial Analysis Clarification, provide the initial analysis questions, explicit human answers/decisions, and explicit update request under Guideline section 2. Do not invent a Finding or formal Requirement Approval. The resulting immutable version remains unapproved and follows the separate downstream stages below; a change to an already-approved Requirement must retain the approved-source path.",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 782
+        }
+      ]
+    },
+    {
+      "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+      "finding_ids": [
+        "GOV-AUD-20261102-003"
+      ],
+      "encoding": "UTF-8",
+      "bom": false,
+      "newline": "CRLF",
+      "base_final_newline": false,
+      "expected_after_final_newline": false,
+      "base_bytes": 1089,
+      "base_sha256": "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C",
+      "expected_after_bytes": 1823,
+      "expected_after_sha256": "58A9274BA48C6F8C77C86B1BB09B9D4CB38172F6925774F73C0DA8EAAAAF3CA6",
+      "operation": "Apply sequential exact single-occurrence UTF-8 byte replacements; preserve all other bytes",
+      "replacements": [
+        {
+          "before": "Subject Type:\r\n[FINDING-LED CORRECTIVE UPDATE / HUMAN-REQUESTED REQUIREMENT AMENDMENT (NON-FINDING)]\r\n\r\nCurrent approved Requirement version:\r\n[PATH / IMMUTABLE VERSION ID / SHA-256]",
+          "after": "Update context:\r\n[INITIAL ANALYSIS CLARIFICATION (PRE-APPROVAL) / FINDING-LED CORRECTIVE UPDATE / HUMAN-REQUESTED REQUIREMENT AMENDMENT (NON-FINDING)]\r\n\r\nSource Requirement version:\r\n[PATH / IMMUTABLE VERSION ID / SHA-256 / LIFECYCLE STATUS]\r\n\r\nSource path and approval evidence:\r\n[INITIAL CLARIFICATION: IDENTIFIED IMMUTABLE UNAPPROVED SOURCE BEFORE FIRST FORMAL HUMAN REQUIREMENT APPROVAL; OR APPROVED-SOURCE CHANGE: CURRENT APPROVED REQUIREMENT AND ITS APPROVAL EVIDENCE. FOLLOW GUIDELINE SECTION 2; UNESTABLISHED STATUS BLOCKS UPDATE.]\r\n\r\nFor initial analysis clarification:\r\n[INITIAL ANALYSIS/QUESTION REFERENCES / EXPLICIT HUMAN ANSWERS AND DECISIONS / EXPLICIT REQUEST TO PERFORM UPDATE. CLARIFICATION DECISIONS ARE NOT FORMAL REQUIREMENT APPROVAL; RESULT REMAINS UNAPPROVED PENDING SUBSEQUENT ANALYSIS, COMPLETE INDEPENDENT VERIFICATION, RESOLUTION, AND SEPARATE HUMAN REQUIREMENT APPROVAL.]",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 66
+        },
+        {
+          "before": "For a human-requested non-finding amendment, complete the existing request details:",
+          "after": "For an approved-source human-requested non-finding amendment, complete the existing request details:",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 1150
+        }
+      ]
+    },
+    {
+      "path": ".github/skills/requirement-update/SKILL.md",
+      "finding_ids": [
+        "GOV-AUD-20261102-003"
+      ],
+      "encoding": "UTF-8",
+      "bom": false,
+      "newline": "CRLF",
+      "base_final_newline": false,
+      "expected_after_final_newline": false,
+      "base_bytes": 6786,
+      "base_sha256": "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC",
+      "expected_after_bytes": 7566,
+      "expected_after_sha256": "290CC575B16FA794A80D5469B22C4B7632FA89A72ABE0BE90D130D2654162758",
+      "operation": "Apply sequential exact single-occurrence UTF-8 byte replacements; preserve all other bytes",
+      "replacements": [
+        {
+          "before": "2. Establish the subject type and resolve the current approved Requirement version, immutable version ID, and SHA-256.\r\n3. For a human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8; do not invent a Finding.",
+          "after": "2. Establish the update context and source lifecycle path under Guideline section 2; resolve the source Requirement path, immutable version ID, SHA-256, lifecycle status, and applicable approval evidence. Use the identified unapproved source only for initial analysis clarification before first formal approval; retain the current approved source for an approved-source change.\r\n3. For Initial Analysis Clarification, resolve the initial analysis questions, explicit human answers/decisions, and explicit update request; do not invent a Finding or formal Requirement Approval. For an approved-source human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 1118
+        },
+        {
+          "before": "1. Establish the current approved Requirement version as the immutable source and record its ID and SHA-256.\r\n2. Establish whether the update is Finding-led or a human-requested non-finding amendment.",
+          "after": "1. Establish the lifecycle-qualified immutable source under Guideline section 2 and record its path, version ID, SHA-256, status, and applicable approval evidence; stop if that source status cannot be established.\r\n2. Establish whether the update is Initial Analysis Clarification (pre-approval), Finding-led, or an approved-source human-requested non-finding amendment. Preserve the initial result as unapproved through the downstream gates in section 8; approved clarification decisions do not constitute Human Requirement Approval.",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 2416
+        }
+      ]
+    },
+    {
+      "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+      "finding_ids": [
+        "GOV-AUD-20261102-004"
+      ],
+      "encoding": "UTF-8",
+      "bom": false,
+      "newline": "CRLF",
+      "base_final_newline": true,
+      "expected_after_final_newline": true,
+      "base_bytes": 2985,
+      "base_sha256": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+      "expected_after_bytes": 4629,
+      "expected_after_sha256": "A947610DC0BE33DCFF0F9CDFD794273B1BC90561CEF7EDA25CCF5AE417A37810",
+      "operation": "Apply sequential exact single-occurrence UTF-8 byte replacements; preserve all other bytes",
+      "replacements": [
+        {
+          "before": "Actor and Human Approval fields (enhancement only): for proposal preparer, one-time initial applier [identity/environment/one-time scope], verifier, and reviewer, record the role/Agent definition repository-relative path and content SHA-256, each bound to that actor's own unique attempt record; record current runtime identity/environment separately. Check distinctness using the actor-identity bindings, not display name alone. Different OS identities, hosts, or repositories are not required unless an applicable, explicitly approved security boundary requires them. Qualification evidence [record path/ID/SHA-256 and capability observations]; approval decision/source/time; approved report fingerprint and exact targets. Each Application, Verification, Review, and Audit request must separately record its fresh attributable stage-start instruction; this is not part of or a substitute for patch approval.",
+          "after": "Actor and Human Approval fields (enhancement only; stage-specific): record the proposal preparer, intended one-time initial applier [identity/environment/one-time scope], intended verifier, and intended reviewer by role/Agent definition repository-relative path and content SHA-256. At proposal preparation, bind only the actual preparer to its own current unique attempt and record its current runtime identity/environment and qualification evidence [record path/ID/SHA-256 and capability observations] separately. The intended applier requires fresh exact Human Approval and one-time designation; no separate pre-existing qualification attempt is required. After its separate fresh Application stage-start, the applier must publish and integrity-check its own current attempt, identity, permissions, and role-specific capability evidence before any source write; before Application source work, both preparer and applier must be bound to their own attempts. Record future verifier/reviewer bindings as planned identity-only paths and hashes, not attempts, current runtime identities, capabilities, or stage starts; do not require, create, or publish their attempts before predecessor gates. Only after complete successful Application and a fresh Verification stage-start may the actual verifier publish its own attempt and current qualification; only after passing independent Verification and a fresh Review stage-start may the actual reviewer do so. Each actual verifier/reviewer definition path and hash must match its approved planned binding; mismatch blocks that stage pending updated attributable Human decision and exact approval. Follow the Governance Amendment Application controls for these bindings and gates. Check all four actors' distinctness using actor-identity bindings, not display name alone; the applier must also differ from the SDLC Process Orchestrator and any Governance Remediation actor barred from self-edit in its active cycle. Different OS identities, hosts, or repositories are not required unless an applicable, explicitly approved security boundary requires them. Record the approval decision/source/time, approved report fingerprint, and exact targets without treating approval/designation as capability evidence. Each Application, Verification, Review, and Audit request must separately record its fresh attributable stage-start instruction and each actual actor must qualify in its own current invocation under SDLC_ARTIFACT_GOVERNANCE.md section 33.1; stage-start is not part of or a substitute for patch approval.",
+          "expected_occurrences": 1,
+          "sequential_input_byte_offset": 899
+        }
+      ]
+    }
+  ],
+  "actors": [
+    {
+      "role": "proposal_preparer",
+      "definition": {
+        "path": ".github/agents/corrective-change-decision.agent.md",
+        "bytes": 5163,
+        "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+      },
+      "binding_state": "ACTUAL_CURRENT_ATTEMPT",
+      "attempt": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attempt.json",
+        "bytes": 11870,
+        "sha256": "B5244B2C7C6A5F439E9C3694EC298F160FC15D023B02CBBD7660F30B2E5BEB85"
+      },
+      "runtime_identity": {
+        "role": "Corrective Change Decision Agent",
+        "runtime_agent_id": "4d0c3747-fde6-48c7-b125-5adb2af5b80c",
+        "runtime_agent_id_basis": "Only running agent in list_agents all-scope registry matches this assigned invocation; registry identity distinguished from current host session and OS principal. Role authority comes from current developer assignment and hashed definition, not display title.",
+        "copilot_agent_session_id": "1684b491-8eea-41fb-864d-541e7920e172",
+        "host_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+        "effective_windows_principal": "int-scl-010\\parimal",
+        "agent_definition": {
+          "path": ".github/agents/corrective-change-decision.agent.md",
+          "bytes": 5163,
+          "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+        },
+        "skill": {
+          "path": ".github/skills/corrective-change-decision/SKILL.md",
+          "bytes": 10999,
+          "sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3"
+        }
+      }
+    },
+    {
+      "role": "intended_one_time_applier",
+      "definition": {
+        "path": ".github/agents/governance-amendment-application.agent.md",
+        "bytes": 1636,
+        "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+      },
+      "binding_state": "PROPOSED_IDENTITY_ONLY_PENDING_FRESH_HUMAN_DESIGNATION",
+      "actual_attempt": null,
+      "current_runtime_identity": null,
+      "current_capability_evidence": null,
+      "fresh_stage_start": null,
+      "note": "No future attempt or current qualification is asserted or created"
+    },
+    {
+      "role": "planned_verifier",
+      "definition": {
+        "path": ".github/agents/independent-governance-verification.agent.md",
+        "bytes": 1393,
+        "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+      },
+      "binding_state": "PLANNED_IDENTITY_ONLY",
+      "actual_attempt": null,
+      "current_runtime_identity": null,
+      "current_capability_evidence": null,
+      "fresh_stage_start": null,
+      "note": "No future attempt or current qualification is asserted or created"
+    },
+    {
+      "role": "planned_reviewer",
+      "definition": {
+        "path": ".github/agents/independent-governance-review.agent.md",
+        "bytes": 1284,
+        "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+      },
+      "binding_state": "PLANNED_IDENTITY_ONLY",
+      "actual_attempt": null,
+      "current_runtime_identity": null,
+      "current_capability_evidence": null,
+      "fresh_stage_start": null,
+      "note": "No future attempt or current qualification is asserted or created"
+    }
+  ],
+  "patch_publication_path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/minimal.patch",
+  "approval_route": "Fresh exact Human Approval and fresh explicit one-time applier designation may be combined in one attributable decision. Neither is supplied. Every later process needs its own fresh start; no pre-existing applier qualification record or future assurance attempt is required.",
+  "byte_contract": "Exact sequential replacements and byte/hash fields are binding; unified diff is the corresponding minimal presentation patch. All target UTF-8/CRLF/BOM/final-newline properties preserved.",
+  "no_master_change": true,
+  "no_product_change": true
+}

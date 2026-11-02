@@ -1,0 +1,20 @@
+{
+  "record_id": "20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22:record-first-readback",
+  "actor": "independent-governance-verification:20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22",
+  "time_utc": "2026-11-02T11:09:22.949578+00:00",
+  "attempt": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attempt.json",
+    "bytes": 175807,
+    "sha256": "EFCFAAB870B4800B96D3BEC4032537E488C9D960C35EEE88A510E2483C79AE7E"
+  },
+  "complete_native_object_equality": true,
+  "canonical_serializer_equality": true,
+  "input_snapshot_unchanged": true,
+  "script": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attachments/verifier.py",
+    "bytes": 10073,
+    "sha256": "3E913D46E5FD3F58A5080CB094C4BDB7EE12A81F6C0D37D75460387CBA93F49C"
+  },
+  "outcome": "PASS",
+  "operation": "fresh separate Python process reads actual published invocation and recomputes all bounded inputs before substantive checks"
+}

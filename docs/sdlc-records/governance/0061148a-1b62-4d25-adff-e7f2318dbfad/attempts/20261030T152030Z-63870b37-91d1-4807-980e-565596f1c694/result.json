@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_result",
+  "record_identity": "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694",
+  "process": "Governance Amendment Application",
+  "creator": "Current separate one-time record-only Governance Amendment Application invocation",
+  "role": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T16:06:32.025253Z",
+  "clock_basis": "Current system UTC at record preparation, not exact publication time",
+  "exact_publication_time": null,
+  "execution_termination": "COMPLETED",
+  "application_outcome": "APPLIED - EXACT APPROVED RECORD-ONLY CORRECTION",
+  "completion_meaning": "Only exact authorized attachment publication and own evidence/report completed; not independent assurance or finding resolution.",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "local_root": "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "initial_state": "Exactly five previously applied tracked governance modifications and untracked docs/sdlc-records/; no source amendment authorized by this invocation."
+  },
+  "actor": {
+    "definition_path": ".github/agents/governance-amendment-application.agent.md",
+    "definition_sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D",
+    "invocation_identity": "Current role-bound direct invocation / 20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694",
+    "actor_owned_attempt": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attempt.json",
+    "effective_principal": "INT-SCL-010\\Parimal",
+    "sid": "S-1-5-21-2809803128-1021655904-3966773769-1002",
+    "host": "INT-SCL-010",
+    "runtime_identity_basis": "Active current Application role instructions and current exact human designation bind this unique invocation; WindowsIdentity.GetCurrent observed principal and SID separately. No externally authenticated AI principal is claimed.",
+    "authority": "Exact current one-time record-only approval and separate fresh stage-start; no standing correction authority inferred."
+  },
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/report.md",
+    "sha256": "D4E34D91737025AEC08A50A5971D58AEF57B9FFD35D439EF04FE423A563B0FBD",
+    "bytes": 17785,
+    "identity": "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694:report"
+  },
+  "required_evidence_and_records": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attachments/IGV-FIND-001-approval-transcription-correction.md",
+      "sha256": "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2",
+      "bytes": 4212
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attempt.json",
+      "sha256": "A94DEBE86515D4CE18E98491E92AF3AAB885EC61BA2CF3C1856B84C814C699EE",
+      "bytes": 10920
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/checkpoint-0001.json",
+      "sha256": "32C3799A3329B61B1F6BB467A052384A3CCABB24D23C4F24EADA5C68267D0BCE",
+      "bytes": 2287
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/checkpoint-0002.json",
+      "sha256": "CDB3768546CC0DE84B96F2882596A9C394A490885716F65463B6CEE30A96EFCC",
+      "bytes": 1953
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/application-evidence.json",
+      "sha256": "94E5319191AA795EDF3B5202D67CD2BDFB3402EF20455DFE89D3153971BB4D4C",
+      "bytes": 15386
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/approval-context.json",
+      "sha256": "979A339878F2C304D587EB2D2517603AF34812C6088881D97041B24654C60BCE",
+      "bytes": 12651
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/preflight.json",
+      "sha256": "D2F83EAFFC060D6875C423522082BCAA722069B8186C5491306AD5D9CABC805C",
+      "bytes": 86614
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/publication-procedure.py",
+      "sha256": "20418402EB54E4715DD21F6C348E2CDB08CFB9A4CFE86FE07334763C2934269C",
+      "bytes": 29694
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/report.md",
+      "sha256": "D4E34D91737025AEC08A50A5971D58AEF57B9FFD35D439EF04FE423A563B0FBD",
+      "bytes": 17785
+    }
+  ],
+  "approved_target": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attachments/IGV-FIND-001-approval-transcription-correction.md",
+    "payload_source": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/evidence/proposed-correction.md",
+    "base_state": "ABSENT",
+    "base_sha256": null,
+    "expected_after_bytes": 4212,
+    "expected_after_sha256": "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2",
+    "format": "UTF-8 without BOM, LF only, exactly one final LF; copy approved bytes unchanged",
+    "absence_evidence": "Read-only preflight confirmed exact candidate attempt directory and destination absent before this own attempt partial was prepared; no alternative destination or overwrite allowed."
+  },
+  "actual_correction": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attachments/IGV-FIND-001-approval-transcription-correction.md",
+    "sha256": "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2",
+    "bytes": 4212
+  },
+  "approval_context": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/approval-context.json",
+    "sha256": "979A339878F2C304D587EB2D2517603AF34812C6088881D97041B24654C60BCE",
+    "bytes": 12651
+  },
+  "predecessor_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/report.md",
+    "sha256": "8E299D41A613D9CBDDB2F6F4D7072BF2017A5EE58BD3A712FC881AE1267501F3",
+    "bytes": 15984
+  },
+  "predecessor_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/result.json",
+    "sha256": "9FA47FDDB6087960B727676570BB54123F2FF9CF39FAE153FB65B28A6AFF6AD1",
+    "bytes": 5768
+  },
+  "preterminal_separate_readback": "Separate command/process reloaded and rehashed report, every bound evidence/output, approved bytes and all protected inputs; exact decoded decisions checked against supplied values before terminal publication.",
+  "exact_evaluated_state": {
+    "protected_manifest": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/preflight.json",
+      "sha256": "D2F83EAFFC060D6875C423522082BCAA722069B8186C5491306AD5D9CABC805C",
+      "bytes": 86614
+    },
+    "protected_state_unchanged": true,
+    "source_writes": 0
+  },
+  "original_verification_outcome_unchanged": "FINDINGS",
+  "original_audit_outcome_unchanged": "CANNOT COMPLETE AUDIT",
+  "unresolved_items": [
+    "Precise technical lossy-transcription cause unknown",
+    "Parent-message IDs and independently authenticated approval-event timestamps unavailable",
+    "Separate independent Verification, Review and Audit gates remain pending"
+  ],
+  "residual_risks": "Endpoint hashes cannot prove no transient writes or same-principal tampering; no independent OS isolation or continuous filesystem attestation asserted.",
+  "planned_independent_verifier": {
+    "definition_path": ".github/agents/independent-governance-verification.agent.md",
+    "definition_sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958",
+    "binding_type": "Planned identity only, retained route; no new attempt, runtime, capabilities or stage-start asserted"
+  },
+  "planned_independent_reviewer": {
+    "definition_path": ".github/agents/independent-governance-review.agent.md",
+    "definition_sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E",
+    "binding_type": "Planned identity only, retained route; no attempt, runtime, capabilities or stage-start asserted"
+  },
+  "next_permitted_process": "Independent Governance Verification only after separate fresh human stage-start and new independent current qualification/attempt; not invoked",
+  "not_claimed": [
+    "Finding resolution",
+    "Whole-result supersession",
+    "New underlying approval",
+    "P1-P5 reapplication",
+    "Review",
+    "Audit",
+    "Effectiveness",
+    "Master/product-root adoption",
+    "Human Acceptance",
+    "Commit",
+    "Push"
+  ]
+}

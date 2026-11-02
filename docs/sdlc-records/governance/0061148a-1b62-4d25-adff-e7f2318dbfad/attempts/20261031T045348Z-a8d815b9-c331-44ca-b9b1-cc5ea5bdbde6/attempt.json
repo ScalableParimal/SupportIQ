@@ -1,0 +1,136 @@
+{
+    "schema":  "sdlc-governance-audit-attempt/v1",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261031T045348Z-a8d815b9-c331-44ca-b9b1-cc5ea5bdbde6",
+    "role":  "SDLC Governance Audit",
+    "status":  "in_progress",
+    "creation_time_utc":  "2026-10-31T04:53:49.3981414Z",
+    "clock_basis":  "Windows DateTime.UtcNow at record preparation; not asserted as exact publication time",
+    "actor":  {
+                  "role":  "SDLC Governance Audit Agent",
+                  "repository":  "ScalableParimal/SupportIQ",
+                  "os_identity":  "int-scl-010\\parimal",
+                  "os_sid":  "S-1-5-21-2809803128-1021655904-3966773769-1002",
+                  "agent_definition_path":  ".github/agents/sdlc-governance-audit.agent.md",
+                  "agent_definition_sha256":  "66E669A820290D99C398E932F3DFA8848740C26B6ABFD07E2294B36116197488",
+                  "skill_path":  ".github/skills/sdlc-governance-audit/SKILL.md",
+                  "skill_sha256":  "50FBD8B326E6AAE8E50F9437E56C58E6ADEA01C73982516CA8CC0D1826E084D2"
+              },
+    "repository":  {
+                       "canonical":  "ScalableParimal/SupportIQ",
+                       "origin":  "https://github.com/ScalableParimal/SupportIQ.git",
+                       "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "branch":  "sdlc-framework-onboarding",
+                       "approved_tracked_changes":  [
+                                                        "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                                        "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                                        "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                                        "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                                        "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+                                                    ],
+                       "staged_changes":  [
+
+                                          ]
+                   },
+    "authorization":  {
+                          "persistence_root":  "docs/sdlc-records/governance/",
+                          "root_adoption_source":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+                          "root_authority":  "GitHub issue comment author association OWNER; exact three Master SHA-256 values match; scope authorizes root and initial Audit only",
+                          "fresh_stage_start":  "Yes, initiate the complete Governance Audit of the current framework and assurance chain",
+                          "stage_start_source":  "current parent user message",
+                          "external_message_id":  "not asserted",
+                          "authenticated_external_event_time":  "not asserted",
+                          "scope":  "complete read-only SDLC Governance Audit, all 52 core artifacts and seven separately reported mechanism groups",
+                          "exclusions":  [
+                                             "product artifacts",
+                                             "remediation invocation",
+                                             "source edits",
+                                             "adoption",
+                                             "portability assessment",
+                                             "product work/tests/runtime",
+                                             "commit/push",
+                                             "other agent"
+                                         ]
+                      },
+    "masters":  [
+                    {
+                        "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                        "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+                    },
+                    {
+                        "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                        "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+                    },
+                    {
+                        "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                        "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+                    }
+                ],
+    "approved_amendment_targets":  [
+                                       {
+                                           "path":  "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                                           "sha256":  "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208"
+                                       },
+                                       {
+                                           "path":  "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                           "sha256":  "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8"
+                                       },
+                                       {
+                                           "path":  "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                           "sha256":  "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902"
+                                       },
+                                       {
+                                           "path":  "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                           "sha256":  "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97"
+                                       },
+                                       {
+                                           "path":  "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                           "sha256":  "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA"
+                                       }
+                                   ],
+    "predecessor_review":  {
+                               "attempt_id":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+                               "outcome":  "PASS",
+                               "report_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/report.md",
+                               "report_sha256":  "27F896E26C90FFC846F51530B2FD5B9E196292B4EEDA433CADFE339C331C4ED4",
+                               "result_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/result.json",
+                               "result_sha256":  "C0B81B198E9E33904AEBA2FAFE7169ECD8E1DA2B67A7B67264C6930CCCF52D9F",
+                               "evidence_sha256":  "C5E85298818969C30F15CC309FC53D1C7FF99E21267028A05510B5F588E7B9D5",
+                               "binding_validation":  "independently recomputed and matched"
+                           },
+    "publication":  {
+                        "authorized_scope":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261031T045348Z-a8d815b9-c331-44ca-b9b1-cc5ea5bdbde6",
+                        "no_overwrite":  true,
+                        "publisher":  "PowerShell/.NET same-filesystem FileStream CreateNew + File.Move",
+                        "scope_acl_owner":  "INT-SCL-010\\Parimal",
+                        "scope_acl":  [
+                                          "BUILTIN\\Administrators|FullControl|Allow|inherited=True",
+                                          "NT AUTHORITY\\SYSTEM|FullControl|Allow|inherited=True",
+                                          "BUILTIN\\Users|ReadAndExecute, Synchronize|Allow|inherited=True",
+                                          "NT AUTHORITY\\Authenticated Users|Modify, Synchronize|Allow|inherited=True",
+                                          "NT AUTHORITY\\Authenticated Users|-536805376|Allow|inherited=True"
+                                      ],
+                        "write_capability":  "declared write-capable; demonstrated only by this authorized actor-owned attempt publication",
+                        "read_hash_capability":  "observed read, SHA-256 and JSON validation",
+                        "source_write_probe":  false
+                    },
+    "required_terminal_artifacts":  [
+                                        "report.md",
+                                        "result.json",
+                                        "evidence/audit-evidence.json"
+                                    ],
+    "read_only_boundary":  "No governance source, evaluated artifact, product artifact, or another actor record may be modified; only this attempt own records",
+    "limitations":  [
+                        "Same-principal/write-capable tools and inherited ACL mean procedural, not technically enforced, non-mutation.",
+                        "No exhaustive trusted OS event stream or coordinated no-edit interval; transient concurrent writes cannot be ruled out.",
+                        "Endpoint fingerprints do not prove absence of transient writes or same-principal tampering."
+                    ],
+    "review_preflight_stops":  [
+                                   "Review checkpoint 4 records first result precheck stopped before result partial due invalid -or parameter; no result path/partial was created.",
+                                   "Review checkpoint 5 records second precheck stopped before result partial due tab-vs-space comparison; follow-up name-only check succeeded. Both are disclosed and were checked against actual checkpoints/results."
+                               ],
+    "scope_count":  {
+                        "core_artifacts_expected":  52,
+                        "mechanism_groups_expected":  7
+                    }
+}`n

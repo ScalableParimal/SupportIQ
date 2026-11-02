@@ -1,0 +1,103 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_identity":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6:result",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6",
+    "process":  "Corrective Change Decision \u0026 Plan Update",
+    "subject_type":  "FINDING",
+    "created_at_utc":  "2026-10-30T14:03:52.7401964Z",
+    "execution_termination":  "completed",
+    "decision_outcome":  "ADDITIONAL EVIDENCE REQUIRED",
+    "completion_note":  "The bounded decision stage completed, with separate ADDITIONAL EVIDENCE REQUIRED decisions for GOV-001 and GOV-002. The textual concerns are supported, but no adopted Master baseline is established and required source-status/human policy decisions remain unresolved. No correction is approved or applied.",
+    "repository":  {
+                       "tracked_modifications":  "None observed",
+                       "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "canonical":  "ScalableParimal/SupportIQ",
+                       "record_scope":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6"
+                   },
+    "authorization":  {
+                          "scope":  "Corrective Change Decision \u0026 Plan Update only for GOV-001 and GOV-002",
+                          "fresh_stage_start":  "Yes, initiate for GOV-001 and GOV-002.",
+                          "source":  "Current user message",
+                          "approval":  "No correction approval; no proposal application, verification, review, Audit rerun, Orchestrator, or subsequent stage authorized"
+                      },
+    "findings":  [
+                     {
+                         "implementation_readiness":  "WAITING FOR ADDITIONAL EVIDENCE",
+                         "id":  "GOV-001",
+                         "investigation_result":  "Textual ambiguity substantiated; formal approved-source classification Cannot Determine",
+                         "decision_status":  "ADDITIONAL EVIDENCE REQUIRED",
+                         "human_choice":  "Mandatory executable Work ID vs explicitly draft-only not-assigned state",
+                         "approved_source_violation":  "Not concluded",
+                         "plan_change":  "N/A",
+                         "affected_artifact":  "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                         "human_approval_required_before_correction":  true
+                     },
+                     {
+                         "implementation_readiness":  "WAITING FOR ADDITIONAL EVIDENCE",
+                         "id":  "GOV-002",
+                         "affected_artifacts":  [
+                                                    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                                    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                                    "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                                    "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md"
+                                                ],
+                         "decision_status":  "ADDITIONAL EVIDENCE REQUIRED",
+                         "human_choice":  "Disclosure-only treatment vs explicit Master-governed additional approval-content rule",
+                         "approved_source_violation":  "Not concluded",
+                         "plan_change":  "N/A",
+                         "investigation_result":  "Textual difference substantiated; formal approved-source classification Cannot Determine",
+                         "human_approval_required_before_correction":  true
+                     }
+                 ],
+    "baseline_status":  "Three Masters are fingerprint-bound comparison sources only; no adopted target Master baseline established",
+    "audit_outcome":  "CANNOT COMPLETE AUDIT",
+    "investigation_outcome":  "REQUIREMENT OR PLAN CLARIFICATION REQUIRED",
+    "plan":  {
+                 "amendment_prepared":  false,
+                 "plan_change":  "N/A",
+                 "product_requirement":  "N/A: governance concerns",
+                 "approved_implementation_plan":  "N/A: no applicable approved product Implementation Plan established"
+             },
+    "human_approval":  "Not supplied; current stage-init is not approval",
+    "next_process":  "Additional evidence and attributable human clarification, followed only by a fresh separately authorized governed stage",
+    "bindings":  {
+                     "attempt":  {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/attempt.json",
+                                     "sha256":  "72B5E6A3A578CAD0B8FB036FC51863D5AE5BE4BE58200B88490FD333A2890037",
+                                     "identity":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6"
+                                 },
+                     "predecessors":  [
+                                          {
+                                              "sha256":  "ABD95B964E9C04602BBD876619C0C97DE95E6D9252EBA913634652FD5746D7B0",
+                                              "report":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/report-revision-0001.md"
+                                          },
+                                          {
+                                              "sha256":  "C1089ED3868ADDD84913F983D117C5EF5EADC6A1D30CA22FE6D030FE515D33D8",
+                                              "report":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535/report.md"
+                                          }
+                                      ],
+                     "evidence":  {
+                                      "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/evidence/decision-evidence.json",
+                                      "sha256":  "AE6127C13ED5510B3E94AABF956CF83F6A04FAEA4B3853415D60468BE332B348",
+                                      "identity":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6:decision-evidence"
+                                  },
+                     "checkpoint":  {
+                                        "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/checkpoint-0001.json",
+                                        "sha256":  "56CDAADA3C9C5018081CC3EE181E647E25E9572EC84CBB5AE1EA468815315C6E",
+                                        "identity":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6:checkpoint-0001"
+                                    },
+                     "report":  {
+                                    "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/report.md",
+                                    "sha256":  "36330207C81DCE2FB30853FD4AFAB36438302EF6F8A9BD7D276D02971AA61AF2",
+                                    "identity":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6:report"
+                                }
+                 },
+    "limitations":  [
+                        "No tests/build/runtime executed",
+                        "No source, requirement, plan, or other governed artifact modified",
+                        "No proposal, approval, application, independent assurance, or audit rerun",
+                        "No framework effectiveness or upgrade claimed"
+                    ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_result",
+  "record_identity": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "creator": "Corrective Change Decision Agent, current new invocation",
+  "role": "Corrective Change Decision",
+  "created_at_utc": "2026-10-30T14:13:36.9067006Z",
+  "clock_basis": "Current environment UTC sample after canonical report publication and readback; result preparation time, not exact publication time",
+  "exact_publication_time": "Not captured",
+  "execution_termination": "COMPLETED",
+  "completion_note": "Bounded decision analysis and canonical report completed with unresolved evidence outcomes; not remediation success, approval, application, or readiness for implementation",
+  "decision_outcome": "ADDITIONAL EVIDENCE REQUIRED",
+  "finding_outcomes": [
+    {"finding_id": "GOV-001", "decision_status": "ADDITIONAL EVIDENCE REQUIRED", "readiness": "WAITING FOR ADDITIONAL EVIDENCE", "canonical_decision_section": "report.md section 4"},
+    {"finding_id": "GOV-002", "decision_status": "ADDITIONAL EVIDENCE REQUIRED", "readiness": "WAITING FOR ADDITIONAL EVIDENCE", "canonical_decision_section": "report.md section 5"}
+  ],
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head_commit": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "state": "No tracked modifications observed; existing and new governance records remain untracked under docs/sdlc-records/",
+    "evaluated_state_manifest": "evidence/decision-evidence.json source_inspection plus invocation predecessor bindings",
+    "pre_report_revalidation": "All 14 directly relied-upon source hashes and all nine predecessor report/result/evidence hashes matched; HEAD unchanged and no tracked modifications"
+  },
+  "authorization": {
+    "source": "Current actual user message in this conversation",
+    "fresh_stage_start": "Yes, initiate a new Corrective Change Decision invocation for these two findings.",
+    "scope": "Only this new decision invocation and own records for GOV-001 and GOV-002 under existing Work ID",
+    "human_policy_clarifications": "Verbatim attributable wording retained in attempt.json, evidence/decision-evidence.json and canonical report section 2; not exact Human Approval",
+    "application_authority": "Not supplied",
+    "exact_amendment_approval": "Not supplied",
+    "baseline_adoption": "Not supplied"
+  },
+  "report_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/report.md",
+    "identity": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88:report",
+    "sha256": "B377605E792D992FCE481EFD7A04C069CA0D521556F3FC422F3A38690255CB57"
+  },
+  "evidence_bindings": [
+    {"path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/attempt.json", "identity": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88", "sha256": "C1E4317145E28B8F96A2D55F4BC4A5397802735A8020CD8772E0EE92EAF89C89"},
+    {"path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/checkpoint-0001.json", "identity": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88:checkpoint-0001", "sha256": "F736D6EF6F468805262897FD4D6C3A097DA645C7065833CE0FB67D30EA3CA474"},
+    {"path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/evidence/decision-evidence.json", "identity": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88:decision-evidence", "sha256": "BDB530C993F1E77A00970632B77B031680D9FE570D10583E84CC17281E02D725"}
+  ],
+  "predecessors": "All original report/result/evidence identities and SHA-256 bindings are in attempt.json predecessors; original findings remain Audit report plus GOV-001 and GOV-002",
+  "baseline_status": "Unadopted Master comparison sources; approved-source authority unresolved",
+  "audit_outcome_unchanged": "CANNOT COMPLETE AUDIT",
+  "investigation_outcome_unchanged": "REQUIREMENT OR PLAN CLARIFICATION REQUIRED for each finding",
+  "plan": {
+    "approved_requirement": "N/A: governance subjects",
+    "approved_implementation_plan": "N/A: governance subjects",
+    "plan_validity": "N/A",
+    "plan_change_required": "N/A",
+    "plan_impact": "N/A to product plans; prospective governance assurance described in canonical report",
+    "proposed_plan_amendment": "N/A"
+  },
+  "human_approval_required_before_governance_application": true,
+  "exact_proposal_prepared": false,
+  "unresolved_items": [
+    "Applicable authoritative source-status evidence or qualifying baseline/assurance evidence; new policy intent alone does not establish adoption",
+    "Any later exact correction remains subject to separate authorized proposal work, exact Human Approval and qualified separately initiated application/verification/review/Audit"
+  ],
+  "next_process": "Additional Evidence Collection",
+  "safe_continuation": "Resolve source authority without retroactive adoption or Audit upgrade, then require fresh explicit initiation of the applicable decision/proposal process; no other stage started",
+  "next_process_started": false,
+  "prior_records": "Preserved immutably; new invocation does not assert formal supersession",
+  "non_actions": "No product inspection, source edits, exact patch generation, tests/build/runtime, correction application, independent assurance, Audit rerun, Orchestrator, commit or push",
+  "terminal_result_hash": "Not self-embedded; returned externally after final no-overwrite publication and readback"
+}

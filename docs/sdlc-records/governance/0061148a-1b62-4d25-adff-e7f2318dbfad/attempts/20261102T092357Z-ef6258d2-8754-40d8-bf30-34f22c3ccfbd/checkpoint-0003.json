@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd:checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+  "creator": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+  "role": "Governance Amendment Application",
+  "process": "Governance Amendment Application",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:35:51.958570+00:00",
+  "clock_basis": "Host UTC record preparation sample, not publication time",
+  "sequence": 3,
+  "boundary": "Fresh-process independent exact attachment/report/evidence readback and all references PASS; required outputs durable before terminal result",
+  "readback_process_pid": 61524,
+  "durable_outputs": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attachments/GOV-AUD-20261102-001-linked-clarification.md",
+      "bytes": 3438,
+      "sha256": "8887DC81719F3D3E044323A1D32C1CA93D9102F03FD6F28CB79DC5608D3C8FFA"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attempt.json",
+      "bytes": 106025,
+      "sha256": "CB800999F16029447ECED6EB4178BB813EF7E93F852AFFC7886790435A45AA29"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/checkpoint-0001.json",
+      "bytes": 1988,
+      "sha256": "50741296D8A607413FC1FB85FB83C5A52BDCB3F7229E92B35EA3B44606385E25"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/checkpoint-0002.json",
+      "bytes": 1943,
+      "sha256": "B35B88A7D2242A7B52A8891C90F173A6340470C67423F83C1D6E23A83145A328"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/evidence/application-evidence.json",
+      "bytes": 31888,
+      "sha256": "1559E3C712F7E1439746087896649154E9061299917A61FE69DA3083162BD3AE"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/evidence/preflight-evidence.json",
+      "bytes": 805198,
+      "sha256": "29A80628417F01D6BAA41DED684EC384D07D4F1F389512988E79DB33C5D85A51"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/report.md",
+      "bytes": 6380,
+      "sha256": "26EEC34BAB50AD8A67FEBDAC262D9A723700807C5BA27FBD932668CE16AB2B88"
+    }
+  ],
+  "checked_structured_refs": 2430,
+  "preflight_all_bindings_rechecked": 2010,
+  "complete_actual_objects_strict_serialize_parse_equality": "PASS",
+  "all_302_preexisting_files_path_set_head_branch_status": "PASS",
+  "actual_substantive_paths": [
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attachments/GOV-AUD-20261102-001-linked-clarification.md"
+  ],
+  "blockers": [],
+  "unfinished": [
+    "Publish terminal result binding final report and evidence; independently read back result"
+  ],
+  "pending_gate": "After completed result only: separate fresh Human-started independent Verification; no automatic stage",
+  "safe_continuation": "Only own immutable terminal result publication; no further application/source work"
+}

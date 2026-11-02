@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "record_identity": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4:decision-evidence",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4",
+  "finding_id": "IGV-FIND-001",
+  "scope": "Corrective decision only, not repeated Investigation or independent assurance",
+  "executed_evidence": {
+    "preflight": "Own attempt published through flushed same-volume Windows no-overwrite rename and validated by readback before consequential decision analysis; actual bytes 7204, SHA-256 D60D6A6D63EE61C90DD6B2058A70F1C68F1296B5D5D86FA656B68CAF56450B79. Identity, ACL, root decision and source observations are retained in that attempt.",
+    "predecessor_bindings": [
+      {"result_attempt": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55", "recursive_path_sha256_occurrences": 46, "hash_mismatches": 0, "byte_mismatches": 0},
+      {"result_attempt": "20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25", "recursive_path_sha256_occurrences": 12, "hash_mismatches": 0, "byte_mismatches": 0},
+      {"result_attempt": "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a", "recursive_path_sha256_occurrences": 5, "hash_mismatches": 0, "byte_mismatches": 0},
+      {"result_attempt": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a", "recursive_path_sha256_occurrences": 4, "hash_mismatches": 0, "byte_mismatches": 1, "exception": "/checkpoint/bytes records 1762; actual 1743. Linked result-correction-0001.json supersedes that field alone, retains same checkpoint SHA-256 BD0EEC2AF56ED397C82839B04F6C1E5E25D6AAB49CBD5B8F910D12601061F6A3. Original result unchanged."}
+    ],
+    "binding_count_interpretation": "Recursive occurrences include repeated nested bindings and are not unique-record counts. Prior Application reports 30 required evidence/record bindings; this invocation's recursive count 46 is not contradictory.",
+    "normative_subject": "Parsed actual proposal report section 7 JSON operations list; exact equality to all five structured approval-context operations. This is decision input checking, not an independent Verification rerun.",
+    "current_targets": [
+      {"operation": "P1", "path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md", "bytes": 2108, "sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208"},
+      {"operation": "P2", "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md", "bytes": 5773, "sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8"},
+      {"operation": "P3", "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md", "bytes": 5718, "sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902"},
+      {"operation": "P4", "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md", "bytes": 2076, "sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97"},
+      {"operation": "P5", "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md", "bytes": 2098, "sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA"}
+    ],
+    "current_target_conclusion": "All five match the structured approved after-hashes/counts; no source write, reapplication or independent-assurance claim.",
+    "unicode": {
+      "actual_response_characters": 133,
+      "actual_response_utf8_bytes": 133,
+      "actual_response_utf8_sha256": "B56EFD8E79335C945F829E267E977398B0E685347B86019A18ABE3A48573DE19",
+      "supplied_response_characters": 133,
+      "supplied_response_utf8_bytes": 135,
+      "supplied_response_utf8_sha256": "F64D83824A1A31FA470FAC6FC36631F5687B468F6EC9DA777C2EFD0253ECF085",
+      "differences": [{"offset_zero_based": 27, "stored": "U+003F", "supplied": "U+00A7"}, {"offset_zero_based": 42, "stored": "U+003F", "supplied": "U+00A7"}],
+      "method": "Strict UTF-8 decode, JSON parse and full-string comparison to Python explicit Unicode escapes; no reliance on PowerShell console encoding."
+    }
+  },
+  "source_inspection_evidence": {
+    "governing_bundle": [
+      {"path": "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md", "bytes": 28121, "sha256": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203"},
+      {"path": "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md", "bytes": 3873, "sha256": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7"},
+      {"path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md", "bytes": 2985, "sha256": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038"}
+    ],
+    "binding_context": "All supplied predecessor hashes independently matched; their exact attempt identities and digests are retained in attempt.json and the canonical report. Application approval-context is 9399 bytes / 853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B; application-evidence is 50575 bytes / 66E9194F37BACD10627D1D7F35F3E02DE2E3908E408CBCDED3D6A3C5402949A5.",
+    "actual_master_controls": [
+      "SDLC_ARTIFACT_GOVERNANCE.md section 33.1: existing record representations; own-scope only; current-invocation qualification; no other actor's records; actual supplied Human response only",
+      "SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1: canonical records, actual Human wording/provenance, no-overwrite publication, explicit limited supersession, maintained-lifetime retention",
+      "SDLC_GOVERNANCE.md section 3 lines 62-64: bootstrap findings use ordinary corrective lifecycle before adoption",
+      "SDLC_GOVERNANCE.md section 24 line 766: non-Master amendment does not require Master-baseline adoption",
+      "Corrective Change Guideline sections 7.3, 17 and 18: other governed artifact change, exact proposal, Human Approval before application"
+    ],
+    "predecessor_metadata_limitations": [
+      "Investigation attempt/evidence refer to section 766; actual reference is line 766 in section 24. The report's reference is correct. No correction to those records is performed or included in this proposal.",
+      "Investigation evidence unicode_comparison.reported_expected contains literal backslash-u00a7 text after JSON parsing, not actual U+00A7. It is not usable as an independently validated verbatim string; its report correctly renders section signs. This decision derives expected characters from the current supplied actual response and explicit Unicode construction, not that literal-escape field.",
+      "No conclusion that all predecessor metadata fields are valid follows from matching hashes."
+    ]
+  },
+  "reported_evidence": {
+    "original_response": "I approve the exact report \u00a77 package and \u00a78 one-time actor designation/route as identified above; this does not initiate Application",
+    "separate_application_start": "Yes, initiate the scoped Governance Amendment Application stage",
+    "source": "Actual current user supplied the prior parent-conversation responses and explicit retention authorization; not a new substantive approval in this invocation",
+    "prior_findings": "Investigation FINDING CONFIRMED; Verification FINDINGS; original Audit CANNOT COMPLETE AUDIT"
+  },
+  "unverified_information": [
+    "Original parent-message ID, authenticated original event time and independently authenticated amendment-approval channel",
+    "Exact technical transport/encoding/serialization cause",
+    "Future publishing actor designation, current capabilities, exact destination/envelope, final new-record fingerprint and approval/start",
+    "Future assurance outcomes; no Review is currently allowed"
+  ],
+  "procedural_limits": "Write-capable tooling and ACLs; procedural source nonmutation only, not technical exclusion. No exhaustive trusted write-event trace or exclusive no-edit interval. Endpoint hashes cannot prove absence of transient writes or same-principal tampering. No product inspection, tests/build/runtime, corrective publication, follow-on actor, commit/push or adoption."
+}

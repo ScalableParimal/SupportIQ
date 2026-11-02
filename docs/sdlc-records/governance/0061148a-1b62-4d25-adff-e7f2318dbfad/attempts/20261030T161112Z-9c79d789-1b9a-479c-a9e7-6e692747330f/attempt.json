@@ -1,0 +1,22 @@
+{
+    "schema":  "igv-attempt-v1",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f",
+    "started_utc":  "2026-10-30T16:11:12.7071733Z",
+    "repository":  "ScalableParimal/SupportIQ",
+    "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch":  "sdlc-framework-onboarding",
+    "actor":  "Independent Governance Verification Agent",
+    "role_definition_path":  ".github/agents/independent-governance-verification.agent.md",
+    "role_definition_sha256":  "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958",
+    "runtime_principal":  "int-scl-010\\parimal",
+    "process_id":  46252,
+    "human_stage_start":  "Yes, initiate new independent Governance Verification of P1–P5 and the linked IGV-FIND-001 correction",
+    "predecessor_application":  "Successful original Application and record-only correction Application claimed by named records; to be independently resolved before substantive verification",
+    "publication_scope":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f",
+    "precheck_manifest_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/precheck-manifest.json",
+    "precheck_manifest_bytes":  116724,
+    "precheck_manifest_sha256":  "81ECD574750AFC3E06BC23DFE4103535CD2F3484D52032E2C46380CD2BEB6B43",
+    "capability":  "Read/hash commands observed; root ACL grants Authenticated Users Modify; no write probe; publishing only this invocation records; publication validated by CreateNew/Flush/readback/Move-no-overwrite.",
+    "limitations":  "Tool-visible operations only; no exhaustive trusted OS event stream; endpoint fingerprints cannot prove no transient write or same-principal tampering."
+}

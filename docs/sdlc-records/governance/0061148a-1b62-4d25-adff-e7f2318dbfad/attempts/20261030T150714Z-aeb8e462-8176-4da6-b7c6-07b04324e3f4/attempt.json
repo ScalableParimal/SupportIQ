@@ -1,0 +1,110 @@
+{
+  "schema": "sdlc-process-invocation-v1",
+  "record_type": "sdlc_process_invocation",
+  "record_identity": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4:attempt",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4",
+  "created_utc": "2026-10-30T15:07:14Z",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "IGV-FIND-001",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+    "local_root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "tracked_modifications": [
+      "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+      "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+      "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+      "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+    ],
+    "untracked_scope": "docs/sdlc-records/",
+    "source_actions_authorized": false
+  },
+  "actor": {
+    "role": "Corrective Change Decision Agent",
+    "invocation_identity": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4",
+    "runtime_environment": "Current Copilot SDK conversation; Windows_NT local workspace",
+    "effective_principal": "int-scl-010\\parimal",
+    "agent_definition": ".github/agents/corrective-change-decision.agent.md",
+    "agent_definition_sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D",
+    "skill": ".github/skills/corrective-change-decision/SKILL.md",
+    "skill_sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3",
+    "claim_of_original_application_actor_identity": false
+  },
+  "authorization": {
+    "source": "Actual current user request in this invocation; no external message identifier or authenticated decision timestamp supplied",
+    "fresh_stage_start": "Yes, initiate the scoped corrective decision and record-correction proposal preparation for IGV-FIND-001",
+    "scope": "Relevant governance/process evidence reads and own decision records, including a NOT-APPLIED append-only correction proposal if admissible; stop at human decision handoff",
+    "not_authorized": [
+      "Corrective publication or old-record edits",
+      "Source edits or P1-P5 reapplication",
+      "Another agent or process start",
+      "Verification, Review, Audit",
+      "Master-baseline adoption",
+      "Product inspection, tests, builds, runtime",
+      "Commit or push"
+    ]
+  },
+  "persistence": {
+    "adopted_root": "docs/sdlc-records/governance/",
+    "root_adoption_source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+    "independently_resolved_author": "ScalableParimal",
+    "author_association": "OWNER",
+    "source_created_at": "2026-10-30T12:31:51Z",
+    "source_updated_at": "2026-10-30T12:31:51Z",
+    "authorized_commit": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "master_sha256": {
+      "docs/ai/sdlc/SDLC_GOVERNANCE.md": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+      "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+      "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    },
+    "root_only_authority": "Owner decision establishes adopted root and original bootstrap, not current stage authorization; this invocation relies on the fresh current user instruction and normal sections 30.1/33.1",
+    "output_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/",
+    "retained_work_id": true,
+    "candidate_master_baseline": "unadopted"
+  },
+  "current_invocation_preflight": {
+    "nonmutating_checks": [
+      "git status --short, rev-parse HEAD, remote get-url origin",
+      "whoami and Get-Acl on adopted governance root",
+      "Read and SHA-256 of current Agent, Skill, three Masters and selected predecessor reports/results/evidence",
+      "Directory/terminal-result/partial-file inspection: eight prior attempts each have terminal result; zero partial files observed",
+      "Python 3.14.7 available; os.rename and os.fsync available; authorized attempts parent on same volume with os.access W_OK true"
+    ],
+    "permissions_observed": "Root owner INT-SCL-010\\Parimal; Authenticated Users have Modify/Synchronize; effective user int-scl-010\\parimal",
+    "role_capability": "Current tools successfully read governance/evidence bytes, parse UTF-8 JSON, compute SHA-256, inspect effective identity/ACL and resolve owner root decision through GitHub issue_read",
+    "own_publication_route": "apply_patch creates only own new .partial records; parse/validate, fsync, then Windows same-filesystem os.rename without overwrite; read back and compare actual bytes/hash before consequential work",
+    "no_prior_invocation_capability_inferred": true,
+    "no_concurrent_invocation_observed": "All eight existing attempts have terminal results; no incomplete/partial attempt found. No claim that a start record alone proves termination."
+  },
+  "inputs": {
+    "finding_investigation": {
+      "attempt_id": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a",
+      "report_sha256": "4CA6CC42F1D37A84B061B89F8EE0084C1CE5A16EC15F7DDFD06FF323AE19A89F",
+      "evidence_sha256": "B3FF7EEB65E2A05A94BEBA58256704A8067D5C39CA1183C75E99EE0CDA34A03A",
+      "result_sha256": "32B77A49A835EE41FDA1EFC62211C2D7CD789C84872593A36A2A2AEF513F3DB8",
+      "result_correction_sha256": "28A95FCC52585961D50100D71F2C4F12932C26E182A6B1EC2C6511532BA5C4E0"
+    },
+    "verification": {
+      "attempt_id": "20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25",
+      "report_sha256": "9F6301EBBF38B7DA8B4C46AEDB90FFFE17463C2E92B94E8F36B367FC39185908",
+      "result_sha256": "00A4CA551BFA963406BB6D4F0CEB622D3EB69915B0EE186A970D5F462737137F"
+    },
+    "application": {
+      "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+      "report_sha256": "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF",
+      "result_sha256": "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497"
+    },
+    "proposal": {
+      "attempt_id": "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a",
+      "report_sha256": "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A",
+      "result_sha256": "B4A39B5A8862138F2AF04CB80520C15B2F86E5430D4D867938FBB91E0F6E19FA"
+    },
+    "binding_validation": "All ten supplied predecessor report/result/evidence/correction hashes independently matched actual bytes before invocation publication; detailed remaining field/binding assessment occurs after invocation validation.",
+    "product_requirement": "N/A: governance process-record subject",
+    "product_plan": "N/A: governance process-record subject"
+  }
+}

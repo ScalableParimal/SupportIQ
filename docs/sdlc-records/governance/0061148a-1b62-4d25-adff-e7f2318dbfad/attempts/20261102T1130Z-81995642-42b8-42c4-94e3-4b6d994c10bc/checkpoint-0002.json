@@ -1,0 +1,28 @@
+{
+    "schema_version":  1,
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T1130Z-81995642-42b8-42c4-94e3-4b6d994c10bc",
+    "checkpoint":  "0002",
+    "record_type":  "post_substantive_review_input_comparison",
+    "pre_manifest_sha256":  "E22925DFBD8E2E003FE6FC6C43BC2B50073CAFC13F27E5AC42FF1E8F3BE5B26F",
+    "file_count":  361,
+    "directory_count":  95,
+    "changed_input_paths":  [
+
+                            ],
+    "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch":  "sdlc-framework-onboarding",
+    "index_sha256":  "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6",
+    "git_status":  [
+                       "## sdlc-framework-onboarding...origin/sdlc-framework-onboarding",
+                       " M .github/agents/sdlc-governance-remediation.agent.md",
+                       " M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                       " M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                       " M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                       " M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                       " M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                       "?? docs/sdlc-records/"
+                   ],
+    "criteria_work_completed":  "Reviewed exact proposal, approval/application, passing Verification, affected target and applicable Master clauses; no Audit performed",
+    "observed_utc":  "2026-11-02T11:32:42.9942607Z"
+}

@@ -1,0 +1,47 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_attempt",
+    "record_identity":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6",
+    "process":  "Corrective Change Decision \u0026 Plan Update",
+    "subject_type":  "FINDING",
+    "subjects":  [
+                     "GOV-001",
+                     "GOV-002"
+                 ],
+    "repository":  {
+                       "canonical":  "ScalableParimal/SupportIQ",
+                       "root":  "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+                       "head_commit":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "working_tree":  "No tracked changes; existing actor records under docs/sdlc-records/governance are untracked"
+                   },
+    "actor":  {
+                  "role":  "Corrective Change Decision Agent",
+                  "definition_path":  ".github/agents/corrective-change-decision.agent.md",
+                  "definition_sha256":  "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D",
+                  "runtime":  "Current Copilot invocation",
+                  "effective_identity":  "INT-SCL-010\\Parimal",
+                  "computer":  "INT-SCL-010",
+                  "powershell":  "5.1.26100.9711"
+              },
+    "authorization":  {
+                          "kind":  "fresh explicit Human Process Initiation",
+                          "supplied_wording":  "Yes, initiate for GOV-001 and GOV-002.",
+                          "source":  "Current user message in this conversation",
+                          "scope":  "Corrective Change Decision \u0026 Plan Update only, GOV-001 and GOV-002, existing Work ID; no correction approval, application, verification, review, audit rerun, orchestration, or subsequent stage",
+                          "human_approval":  "Not supplied"
+                      },
+    "publication":  {
+                        "record_root":  "docs/sdlc-records/governance/",
+                        "own_record_scope":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/",
+                        "route":  "No-overwrite .NET file publication and readback SHA-256",
+                        "parent_acl":  "Current effective modify path observed on attempt parent via ACL allow rule applying to current identity/group; no ACL changes or write probe",
+                        "reserved_work_id":  "Existing Work ID retained; attempt directory collision checked"
+                    },
+    "state":  {
+                  "started_at_utc":  "2026-10-30T14:00:37.8266090Z",
+                  "status":  "in_progress",
+                  "terminal_record_not_yet_published":  true
+              }
+}

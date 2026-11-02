@@ -1,0 +1,276 @@
+{
+    "schema_version":  1,
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "finding_id":  "GOV-AUD-20261102-002",
+    "attempt_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+    "record_type":  "independent_governance_review_evidence",
+    "outcome":  "CANNOT COMPLETE",
+    "assurance_mode":  "procedural non-mutation",
+    "identity":  {
+                     "actor_label":  "independent-governance-review:20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+                     "attempt_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+                     "current_session_uri":  "agent-host-session://ahp-session/3b5a7ec7-0668-474f-be38-020f06af1c60",
+                     "session_title":  "SDLC Orchestrator readiness evaluation",
+                     "session_status":  "inProgress",
+                     "runtime_agent_uuid":  "Unavailable",
+                     "windows_principal":  "INT-SCL-010\\Parimal",
+                     "powershell_process_id_observed_prepublication":  87972,
+                     "independence":  "Preparer/applier/verifier attempts and roles are distinct; current session context is associated with Orchestrator readiness evaluation and no separate authenticated reviewer runtime identity is exposed. Cannot establish reviewer is not the Orchestrator."
+                 },
+    "human_stage_start":  {
+                              "actual_wording":  "Yes, initiate Independent Governance Review for the GOV-AUD-20261102-002 amendment and its passing Verification only",
+                              "source":  "current caller message",
+                              "message_id":  "not exposed",
+                              "authenticated_time":  "not exposed",
+                              "scope":  "this finding and its passing Verification only"
+                          },
+    "predecessors":  {
+                         "proposal":  {
+                                          "attempt_id":  "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+                                          "report_sha256":  "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3",
+                                          "result_sha256":  "DD24CBD8B366CE920DB28E4699CB27B53651FA85445F250D517D20160493D0A9",
+                                          "proposal_sha256":  "E797F4233E7382DCD493395CDA4C3689B2A55FB39CE9E59B563CA18B13C54D2C",
+                                          "patch_sha256":  "BD0AC70966CE8F97330719A2E156F3C2D4DFAD559AFAAF052F9726067B53C024"
+                                      },
+                         "application":  {
+                                             "attempt_id":  "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+                                             "report_sha256":  "FE784908BD9A7F5B193D830538F7DA7AE1EAB949987A63F3FC6E53A95F4AF627",
+                                             "result_sha256":  "C18F9CE97C385DBD3FDBC506AB63395A963809C4BAF77287D7392FC2F85072AF",
+                                             "evidence_sha256":  "1E8A110E6BC4AE984CB264216FE937767B7487989CA38C408BAE004985174C33",
+                                             "target_before_sha256":  "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153",
+                                             "target_after_sha256":  "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+                                         },
+                         "verification":  {
+                                              "attempt_id":  "20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22",
+                                              "outcome":  "PASS",
+                                              "report_sha256":  "02E8B7CD6AD7F599E9F9C4A411DC1A7C5DA535C366A218CD7BB3D633CF173825",
+                                              "result_sha256":  "B3FE365B38492FF67E017CA1048F2BFBEB9442795AF1939FA209D1A06EA75C40",
+                                              "evidence_sha256":  "1766A1DA5DF764E5A6D9B3EF573763381C80394EE8D590185CE04D3F23842C96",
+                                              "criteria":  "14 verification criteria reported PASS; final readback reported PASS; no re-verification performed"
+                                          },
+                         "current_readback":  "All listed role, guideline, prompt, request, governing documents, proposal, application, verification records, and exact target-before evidence read and locally SHA-256 verified; hashes match supplied record bindings."
+                     },
+    "runtime_capability":  {
+                               "sha256_known_vector":  "PASS; abc -\u003e BA7816BF8F01CFEA414140DE5DAE2223B00361A396177A9CB410FF61F20015AD",
+                               "read_and_hash":  "PASS",
+                               "nonmutating_checks":  "PASS; PowerShell file hashes, Get-Acl, git status, file/path set comparison",
+                               "publication":  "PASS; attempt.json CreateNew and independent-process readback; reviewer attempt-scoped output only",
+                               "permissions":  "Attempts-root ACL includes Authenticated Users Modify; no write probe; no enforced read-only exclusion",
+                               "operation_evidence":  "Actor-visible tool names/arguments/outcomes and repository observations; no exhaustive event stream"
+                           },
+    "manifest":  {
+                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186/attachments/input-manifest-0001.json",
+                     "sha256":  "2FBE4E4D1D6E6BF5CD7B06465F8BAB3D58510AAD21DCAFAC46B94659F3B9B957",
+                     "bytes":  98093,
+                     "files":  354,
+                     "directories":  93,
+                     "coverage":  "All repository worktree files/directories except .git internals and this exact own attempt directory; expected product-root absence and output absences; HEAD/branch/index/working-tree state",
+                     "final_comparison":  {
+                                              "changed_paths":  [
+
+                                                                ],
+                                              "file_count":  354,
+                                              "directories_unchanged":  true,
+                                              "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                                              "branch":  "sdlc-framework-onboarding",
+                                              "index_sha256":  "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6"
+                                          }
+                 },
+    "input_hashes":  [
+                         {
+                             "path":  ".github/skills/independent-governance-review/SKILL.md",
+                             "bytes":  1990,
+                             "sha256":  "1E5DDB5BC37E7F8531635D6C28B052B6BFE2645B7C42FB79BCA9A2E4E7329A76"
+                         },
+                         {
+                             "path":  ".github/agents/independent-governance-review.agent.md",
+                             "bytes":  1284,
+                             "sha256":  "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+                         },
+                         {
+                             "path":  "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                             "bytes":  5718,
+                             "sha256":  "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902"
+                         },
+                         {
+                             "path":  "docs/ai/prompts/INDEPENDENT_GOVERNANCE_REVIEW_PROMPT.md",
+                             "bytes":  1312,
+                             "sha256":  "9D01635FABC7AAB12A2C16F7C7C17E8B185E4CA4E87193E5E38808231CF5CC08"
+                         },
+                         {
+                             "path":  "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                             "bytes":  2098,
+                             "sha256":  "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA"
+                         },
+                         {
+                             "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                             "bytes":  30926,
+                             "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+                         },
+                         {
+                             "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                             "bytes":  54243,
+                             "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+                         },
+                         {
+                             "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                             "bytes":  89025,
+                             "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/report.md",
+                             "bytes":  21659,
+                             "sha256":  "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/result.json",
+                             "bytes":  7339,
+                             "sha256":  "DD24CBD8B366CE920DB28E4699CB27B53651FA85445F250D517D20160493D0A9"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/proposal.json",
+                             "bytes":  7208,
+                             "sha256":  "E797F4233E7382DCD493395CDA4C3689B2A55FB39CE9E59B563CA18B13C54D2C"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/proposed.patch",
+                             "bytes":  4115,
+                             "sha256":  "BD0AC70966CE8F97330719A2E156F3C2D4DFAD559AFAAF052F9726067B53C024"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/report.md",
+                             "bytes":  12446,
+                             "sha256":  "FE784908BD9A7F5B193D830538F7DA7AE1EAB949987A63F3FC6E53A95F4AF627"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/result.json",
+                             "bytes":  55787,
+                             "sha256":  "C18F9CE97C385DBD3FDBC506AB63395A963809C4BAF77287D7392FC2F85072AF"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/evidence.json",
+                             "bytes":  59479,
+                             "sha256":  "1E8A110E6BC4AE984CB264216FE937767B7487989CA38C408BAE004985174C33"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/report.md",
+                             "bytes":  17306,
+                             "sha256":  "02E8B7CD6AD7F599E9F9C4A411DC1A7C5DA535C366A218CD7BB3D633CF173825"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/result.json",
+                             "bytes":  16341,
+                             "sha256":  "B3FE365B38492FF67E017CA1048F2BFBEB9442795AF1939FA209D1A06EA75C40"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attachments/evidence.json",
+                             "bytes":  219333,
+                             "sha256":  "1766A1DA5DF764E5A6D9B3EF573763381C80394EE8D590185CE04D3F23842C96"
+                         },
+                         {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/target-before.bin",
+                             "bytes":  48379,
+                             "sha256":  "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+                         },
+                         {
+                             "path":  ".github/agents/corrective-change-decision.agent.md",
+                             "bytes":  5163,
+                             "sha256":  "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+                         },
+                         {
+                             "path":  ".github/agents/governance-amendment-application.agent.md",
+                             "bytes":  1636,
+                             "sha256":  "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+                         },
+                         {
+                             "path":  ".github/agents/independent-governance-verification.agent.md",
+                             "bytes":  1393,
+                             "sha256":  "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+                         },
+                         {
+                             "path":  ".github/agents/sdlc-process-orchestrator.agent.md",
+                             "bytes":  97823,
+                             "sha256":  "048DA0B64B162638A113D9049EF845F4530CBE9556345C0C8C7E7E202FBF23B3"
+                         }
+                     ],
+    "ordered_operation_evidence":  [
+                                       {
+                                           "outcome":  "read; prerequisite and scope discovery; some preliminary evidence inspection disclosed",
+                                           "step":  1,
+                                           "mutating":  false,
+                                           "operation":  "read role, Skill, Guideline, Prompt, Request, initial verification/application/proposal materials"
+                                       },
+                                       {
+                                           "outcome":  "succeeded after initial compatibility correction from unavailable SHA256.HashData to SHA256.ComputeHash",
+                                           "step":  2,
+                                           "mutating":  false,
+                                           "operation":  "PowerShell runtime identity/capability/Get-Acl/git status/SHA-256 known vector"
+                                       },
+                                       {
+                                           "outcome":  "succeeded; no overwrite",
+                                           "step":  3,
+                                           "operation":  "publish own attempt.json using FileMode.CreateNew"
+                                       },
+                                       {
+                                           "outcome":  "PASS; 4026 bytes; SHA256 CD49F807C1AC04E7B2614252612710EE77EFE21101D265D2C93E6298A8317FAC",
+                                           "step":  4,
+                                           "operation":  "separate PowerShell process readback of attempt.json"
+                                       },
+                                       {
+                                           "outcome":  "PASS; 354 files/93 dirs; no differing inputs; HEAD/branch/index unchanged",
+                                           "step":  5,
+                                           "operation":  "capture full bounded worktree manifest; compare final state"
+                                       },
+                                       {
+                                           "outcome":  "session is titled SDLC Orchestrator readiness evaluation; agent UUID not exposed; distinctness from Orchestrator cannot be established",
+                                           "step":  6,
+                                           "operation":  "get_current_session/get_session_context"
+                                       }
+                                   ],
+    "review_criteria":  [
+                            {
+                                "outcome":  "PASS",
+                                "evidence":  "Exact supplied wording retained.",
+                                "id":  "Fresh human start"
+                            },
+                            {
+                                "outcome":  "PASS",
+                                "evidence":  "Current report/result/evidence hashes match; report/result state PASS; no re-verification.",
+                                "id":  "Passing independent Verification"
+                            },
+                            {
+                                "outcome":  "PARTIAL",
+                                "evidence":  "Role hash matches preapproved planned reviewer role; separate attempt; no runtime reviewer UUID exposed.",
+                                "id":  "Reviewer distinct from preparer/applier/verifier"
+                            },
+                            {
+                                "outcome":  "CANNOT COMPLETE",
+                                "evidence":  "Current session title/summary identifies SDLC Orchestrator readiness evaluation; no actor UUID or independently attributable reviewer runtime evidence to disambiguate.",
+                                "id":  "Reviewer distinct from active Orchestrator"
+                            },
+                            {
+                                "outcome":  "PASS",
+                                "evidence":  "354 worktree-file manifest, hashes, repo state and authorized own-attempt publication/readback.",
+                                "id":  "Bounded input and publication capability"
+                            },
+                            {
+                                "outcome":  "NOT DETERMINED",
+                                "evidence":  "No formal conclusion because reviewer independence from Orchestrator is unresolved.",
+                                "id":  "Substantive correctness/coherence"
+                            }
+                        ],
+    "residual_risks":  [
+                           "Procedural non-mutation only; tools and ACLs are write-capable.",
+                           "No exhaustive trusted OS event stream or no-edit lock.",
+                           "Endpoint hashes cannot prove no transient write or same-principal tampering.",
+                           "Authenticated reviewer runtime identity and exact Human message ID/time are unavailable."
+                       ],
+    "notes":  [
+                  "Initial prerequisite discovery reads preceded invocation publication; detailed comparison proceeded after attempt record readback and manifest capture.",
+                  "No source, evaluated input, or other actor record modified.",
+                  "No Audit, approval, application, adoption, product work, staging, commit, or push performed.",
+                  "Do not treat this CANNOT COMPLETE result as a Review PASS or handoff to Audit."
+              ]
+}

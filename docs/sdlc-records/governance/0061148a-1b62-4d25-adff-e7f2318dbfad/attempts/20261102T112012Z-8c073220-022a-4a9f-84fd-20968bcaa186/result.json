@@ -1,0 +1,79 @@
+{
+    "schema_version":  1,
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "finding_id":  "GOV-AUD-20261102-002",
+    "attempt_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+    "creator":  {
+                    "identity":  "independent-governance-review:20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+                    "role":  "Independent Governance Review",
+                    "runtime_agent_id":  "Unavailable; no separate authenticated reviewer runtime identity exposed",
+                    "attempt_record_sha256":  "CD49F807C1AC04E7B2614252612710EE77EFE21101D265D2C93E6298A8317FAC"
+                },
+    "record_type":  "independent_governance_review_result",
+    "execution_status":  "CANNOT COMPLETE",
+    "outcome":  "CANNOT COMPLETE",
+    "assurance_mode":  "procedural non-mutation",
+    "report":  {
+                   "path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186/report.md",
+                   "record_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186:independent_governance_review_report",
+                   "bytes":  14010,
+                   "sha256":  "3CB571524C2BD6D6C0954A6FD7BAE3DBA08FD05DF515530198015D2FEBC0FD82"
+               },
+    "evidence":  {
+                     "path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186/attachments/review-evidence.json",
+                     "record_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186:independent_governance_review_evidence",
+                     "bytes":  20818,
+                     "sha256":  "D6077C81EDB1F7EE583AB8550DE880A510F8B2952A847537C040FA7726CD0758"
+                 },
+    "predecessors":  {
+                         "proposal_report_sha256":  "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3",
+                         "proposal_result_sha256":  "DD24CBD8B366CE920DB28E4699CB27B53651FA85445F250D517D20160493D0A9",
+                         "application_report_sha256":  "FE784908BD9A7F5B193D830538F7DA7AE1EAB949987A63F3FC6E53A95F4AF627",
+                         "application_result_sha256":  "C18F9CE97C385DBD3FDBC506AB63395A963809C4BAF77287D7392FC2F85072AF",
+                         "verification_report_sha256":  "02E8B7CD6AD7F599E9F9C4A411DC1A7C5DA535C366A218CD7BB3D633CF173825",
+                         "verification_result_sha256":  "B3FE365B38492FF67E017CA1048F2BFBEB9442795AF1939FA209D1A06EA75C40",
+                         "verification_outcome":  "PASS"
+                     },
+    "stage_start":  "Yes, initiate Independent Governance Review for the GOV-AUD-20261102-002 amendment and its passing Verification only",
+    "identity_gate":  {
+                          "outcome":  "UNRESOLVED",
+                          "reason":  "Current session is titled SDLC Orchestrator readiness evaluation; runtime exposes no separate authenticated reviewer agent ID, so distinctness from Orchestrator cannot be established."
+                      },
+    "manifest":  {
+                     "path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186/attachments/input-manifest-0001.json",
+                     "bytes":  98093,
+                     "sha256":  "2FBE4E4D1D6E6BF5CD7B06465F8BAB3D58510AAD21DCAFAC46B94659F3B9B957",
+                     "file_count":  354,
+                     "directory_count":  93,
+                     "changed_paths":  [
+
+                                       ],
+                     "directories_unchanged":  true,
+                     "head_unchanged":  true,
+                     "branch_unchanged":  true,
+                     "index_unchanged":  true,
+                     "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                     "branch":  "sdlc-framework-onboarding",
+                     "index_sha256":  "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6"
+                 },
+    "criteria":  {
+                     "fresh_human_start":  "PASS",
+                     "passing_verification":  "PASS",
+                     "capability_and_publication":  "PASS",
+                     "distinct_from_preparer_applier_verifier":  "PARTIAL",
+                     "distinct_from_orchestrator":  "CANNOT COMPLETE",
+                     "substantive_governance_conclusion":  "NOT DETERMINED"
+                 },
+    "next_gate":  "Do not hand off to Audit. Establish an attributable distinct reviewer runtime and obtain a fresh Human stage-start for a new Independent Governance Review.",
+    "non_authorities":  [
+                            "No approval",
+                            "No application",
+                            "No replacement Verification",
+                            "No Governance Audit",
+                            "No effectiveness",
+                            "No adoption",
+                            "No product or commit/push action"
+                        ]
+}

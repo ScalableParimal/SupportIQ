@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb:checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+  "creator": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+  "role": "Independent Governance Review",
+  "process": "Independent Governance Review",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:52:05.963920+00:00",
+  "clock_basis": "Host UTC record-preparation sample, not publication time",
+  "sequence": 2,
+  "last_confirmed_boundary": "Independent substantive Review complete before evidence/report publication",
+  "input_comparison": {
+    "outcome": "PASS",
+    "input_count": 320,
+    "snapshot_sha256": "CB654204B972EF36FDFD1E59AE926D7B5D11F2D39A391CF60AB014208CBEFEB1",
+    "baseline": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+      "bytes": 168810,
+      "sha256": "894E60B34FF6FB57C58C819A45B6AA7D514879A12C6A989D15C9CC4BE91D95A2"
+    },
+    "comparisons": "files/bytes/hashes/directories/HEAD/branch/origin/index/status identical",
+    "expected_absences": [
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0001.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0002.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0003.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/review-evidence.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/final-readback.json",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md",
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json"
+    ],
+    "limits": "PROCEDURAL NON-MUTATION, not enforced read-only or a sandbox. Shared write-capable OS principal and tools. Actor-visible tool transcript and instrumented checks/publications only; no exhaustive trusted OS event stream, continuous observation, lock or coordinated no-edit window. Matching endpoint fingerprints cannot prove absence of transient writes or same-principal tampering. Parent message platform IDs/times are not authenticated/exposed; none invented. Host clock samples describe preparation or operation observations, not exact filesystem publication times."
+  },
+  "criteria": {
+    "R01": "PASS",
+    "R02": "PASS",
+    "R03": "PASS",
+    "R04": "PASS",
+    "R05": "PASS",
+    "R06": "PASS",
+    "R07": "PASS",
+    "R08": "PASS",
+    "R09": "PASS",
+    "R10": "PASS",
+    "R11": "PASS",
+    "R12": "PASS"
+  },
+  "partial_effects": "Own records only; inputs unchanged",
+  "unfinished": "Report/evidence publication then separate final readback/input comparison/result",
+  "blockers": [],
+  "safe_continuation": "Own Review completion only",
+  "operations": [
+    {
+      "sequence": 1,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+        "bytes": 168810,
+        "sha256": "894E60B34FF6FB57C58C819A45B6AA7D514879A12C6A989D15C9CC4BE91D95A2"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:04.418977+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 2,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+        "bytes": 168810,
+        "sha256": "894E60B34FF6FB57C58C819A45B6AA7D514879A12C6A989D15C9CC4BE91D95A2"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:04.423101+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 3,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "ls-files",
+        "--stage"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:04.741181+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "659C8E3BCBBFA3F1ABE778C6E149F0A493838B96EF0CB1ECF82BEE43E931519C",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 4,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=all"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:04.824018+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "AEE0296135F43AFDFF1E7252C3BD773362F24A009556798676D652E428F15A14",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 5,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "rev-parse",
+        "HEAD"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:04.891631+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 6,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "branch",
+        "--show-current"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:04.948904+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 7,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:05.008054+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "8C6DAE29EA6055EBF7BC98E09EF53DC8B37832A8A10B5EE679A01D8B6C679875",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 8,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "complete non-.git snapshot",
+      "arguments": {
+        "files": 320,
+        "exact_exclusions": [
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0001.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0001.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0002.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0002.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0003.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0003.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/final-readback.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/final-readback.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/review-evidence.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/review-evidence.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/review.py",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/review.py.partial"
+        ]
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.008088+00:00",
+      "outcome": "read/hash/path/index/status complete"
+    },
+    {
+      "sequence": 9,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/result.json",
+        "bytes": 19616,
+        "sha256": "D3F3680DA22EA8538482D1E5F7B6FACFD0A41A7C2D89E2E0369981311B4DFB43"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.011772+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 10,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/evidence/verification-evidence.json",
+        "bytes": 2487127,
+        "sha256": "24DE9E1B99BE8B35C57E3B1FA4759357185FF7BBAB1B8983B55ED63D6A060BFB"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.027028+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 11,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/result.json",
+        "bytes": 33474,
+        "sha256": "8F9AEF423A96167C8A6247266F26989A22AB331FB033D7280AB8C46127359CD9"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.028367+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 12,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attempt.json",
+        "bytes": 106025,
+        "sha256": "CB800999F16029447ECED6EB4178BB813EF7E93F852AFFC7886790435A45AA29"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.029645+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 13,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/evidence/application-evidence.json",
+        "bytes": 31888,
+        "sha256": "1559E3C712F7E1439746087896649154E9061299917A61FE69DA3083162BD3AE"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.030445+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 14,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attachments/exact-recovery-approval-request.json",
+        "bytes": 12552,
+        "sha256": "4938CCC6829B21AF4281CFB94D32DCBB4FC1F50D2C1AC16630B4D8C1A2C46097"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.031287+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 15,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/result.json",
+        "bytes": 20204,
+        "sha256": "9BAB54540B85A71567FACA3A3EBE1917C99367FC67EE58A9716DA2A637B8084E"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.032041+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 16,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T090912Z-6020e838-a5e7-4bf0-9f6e-f24fcd1d1e31/result.json",
+        "bytes": 15923,
+        "sha256": "B866C146CF2060E0CD12A0E085C9B252C14A8F131ADF820E6D154BA70D92D260"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.219234+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 17,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/result.json",
+        "bytes": 3945,
+        "sha256": "080C02F1FD262C1690261A0E74505C7AEC6EA9ACBBDFFFDF58BAB91759826F54"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.463911+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 18,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/approval-context.json",
+        "bytes": 9399,
+        "sha256": "853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.466419+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 19,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/result.json",
+        "bytes": 18324,
+        "sha256": "5D1F2BDC3E235CDD6C3A95F06838B7AFAC63A6C0FA9D7F96730FD2D6A81D8056"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.471734+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 20,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "Independent Review comparisons",
+      "arguments": {
+        "canonical_bindings": [
+          {
+            "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/report.md",
+            "bytes": 15150,
+            "sha256": "A1388E49A5F107443FAF3E5E32D4FDFB5B9C8CBC5EA4D4EBD4B56967E695B7E0"
+          },
+          {
+            "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/result.json",
+            "bytes": 19616,
+            "sha256": "D3F3680DA22EA8538482D1E5F7B6FACFD0A41A7C2D89E2E0369981311B4DFB43"
+          },
+          {
+            "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/evidence/verification-evidence.json",
+            "bytes": 2487127,
+            "sha256": "24DE9E1B99BE8B35C57E3B1FA4759357185FF7BBAB1B8983B55ED63D6A060BFB"
+          },
+          {
+            "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/report.md",
+            "bytes": 6380,
+            "sha256": "26EEC34BAB50AD8A67FEBDAC262D9A723700807C5BA27FBD932668CE16AB2B88"
+          },
+          {
+            "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/result.json",
+            "bytes": 33474,
+            "sha256": "8F9AEF423A96167C8A6247266F26989A22AB331FB033D7280AB8C46127359CD9"
+          },
+          {
+            "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/report.md",
+            "bytes": 21731,
+            "sha256": "F96D1A37D0F9CE9C5D423C86B84531D80E7C27D945C52FE559586792491D196F"
+          },
+          {
+            "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/result.json",
+            "bytes": 20204,
+            "sha256": "9BAB54540B85A71567FACA3A3EBE1917C99367FC67EE58A9716DA2A637B8084E"
+          },
+          {
+            "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attachments/exact-recovery-approval-request.json",
+            "bytes": 12552,
+            "sha256": "4938CCC6829B21AF4281CFB94D32DCBB4FC1F50D2C1AC16630B4D8C1A2C46097"
+          }
+        ],
+        "structured_current_binding_occurrences": 413,
+        "arguments": "strict JSON; native scope equality; actual decisions; single target/binary encoding; original metadata and native Unicode; 302 and311 manifests; four roles; current Master and Audit bounds"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.472263+00:00",
+      "outcome": "PASS; no upstream code executed"
+    },
+    {
+      "sequence": 21,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+        "bytes": 168810,
+        "sha256": "894E60B34FF6FB57C58C819A45B6AA7D514879A12C6A989D15C9CC4BE91D95A2"
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.501588+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 22,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "ls-files",
+        "--stage"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:05.730626+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "659C8E3BCBBFA3F1ABE778C6E149F0A493838B96EF0CB1ECF82BEE43E931519C",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 23,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=all"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:05.796748+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "AEE0296135F43AFDFF1E7252C3BD773362F24A009556798676D652E428F15A14",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 24,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "rev-parse",
+        "HEAD"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:05.855815+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 25,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "branch",
+        "--show-current"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:05.909477+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 26,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "completion_observed_utc": "2026-11-02T09:52:05.960853+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "8C6DAE29EA6055EBF7BC98E09EF53DC8B37832A8A10B5EE679A01D8B6C679875",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 27,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "complete non-.git snapshot",
+      "arguments": {
+        "files": 320,
+        "exact_exclusions": [
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0001.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0001.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0002.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0002.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0003.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0003.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/final-readback.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/final-readback.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/review-evidence.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/review-evidence.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/review.py",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/review.py.partial"
+        ]
+      },
+      "completion_observed_utc": "2026-11-02T09:52:05.960887+00:00",
+      "outcome": "read/hash/path/index/status complete"
+    }
+  ]
+}

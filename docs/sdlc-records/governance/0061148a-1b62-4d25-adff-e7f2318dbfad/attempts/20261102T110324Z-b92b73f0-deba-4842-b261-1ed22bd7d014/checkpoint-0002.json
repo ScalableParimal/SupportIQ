@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014:checkpoint-0002",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "finding_id": "GOV-AUD-20261102-002",
+  "creator": {
+    "role": "Governance Amendment Application",
+    "actor_identity": "local-governance-amendment-application:20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+    "role_path": ".github/agents/governance-amendment-application.agent.md",
+    "role_sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D",
+    "runtime_agent_id_observed": "7282643f-d89b-4b2d-b082-475ffc440fce",
+    "identity_basis": "Only running matching Application actor in current runtime roster; association is not authenticated platform identity"
+  },
+  "created_at_utc": "2026-11-02T11:06:43.168558+00:00",
+  "clock_basis": "Host UTC sample during preparation after separate-process readback; not publication time",
+  "process": "Governance Amendment Application",
+  "sequence": 2,
+  "last_confirmed_boundary": "Fresh separate-process final readback PASS: native strict JSON parsing, report/result/evidence references, actual approval quote preservation, all input/governing references, approved exact target after, inverse preimage/replacement, 367-file path/content preservation with only approved target different, index/HEAD/branch unchanged",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/report.md",
+    "bytes": 12446,
+    "sha256": "FE784908BD9A7F5B193D830538F7DA7AE1EAB949987A63F3FC6E53A95F4AF627"
+  },
+  "result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/result.json",
+    "bytes": 55787,
+    "sha256": "C18F9CE97C385DBD3FDBC506AB63395A963809C4BAF77287D7392FC2F85072AF"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/evidence.json",
+    "bytes": 59479,
+    "sha256": "1E8A110E6BC4AE984CB264216FE937767B7487989CA38C408BAE004985174C33"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attempt.json",
+    "bytes": 50324,
+    "sha256": "794330611A93B55BF4B0DA8A5A66CC78B4CE9319CCD86B63B39B64B45794750F"
+  },
+  "actual_target": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 49225,
+    "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+  },
+  "preservation": {
+    "baseline_file_count": 367,
+    "other_files_unchanged": 366,
+    "path_set_unchanged_outside_own_attempt": true,
+    "index_unchanged": true,
+    "head_unchanged": true,
+    "branch_unchanged": true
+  },
+  "unresolved": [
+    "Fresh Human initiation then independent Governance Verification",
+    "Subsequent separate Review and complete Audit gates"
+  ],
+  "next_permitted_process": "Await separate fresh Human initiation of Independent Governance Verification",
+  "other_stage_started": false,
+  "source_writes_in_this_readback": 0,
+  "limits": [
+    "Procedural nonmutation, not sandbox enforced",
+    "Endpoint evidence cannot exclude transient/same-principal tampering",
+    "No exhaustive trusted event log",
+    "Decision message IDs and exact decision times not exposed; none invented"
+  ]
+}

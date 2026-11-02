@@ -1,0 +1,35 @@
+{
+    "schema":  "igv-checkpoint-v1",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f",
+    "checkpoint":  "0003",
+    "recorded_utc":  "2026-10-30T16:13:24.2899996Z",
+    "type":  "initial-input-boundary-and-own-output-scope-expansion",
+    "precheck_manifest_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/precheck-manifest.json",
+    "precheck_manifest_sha256":  "81ECD574750AFC3E06BC23DFE4103535CD2F3484D52032E2C46380CD2BEB6B43",
+    "comparison":  {
+                       "evaluated_input_count":  116,
+                       "changed_input_count":  0,
+                       "all_present_input_byte_counts_and_sha256_match":  true,
+                       "repository_head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "branch":  "sdlc-framework-onboarding",
+                       "tracked_changed_path_count":  5,
+                       "untracked_path_count":  101,
+                       "initial_records_path_count":  97,
+                       "new_nonowned_record_count":  0,
+                       "unexpected_path_differences":  0,
+                       "notes":  "Only verifier-owned attempt records created since manifest. checkpoint-0002 was added after the initial manifest due to an encoding-diagnostic correction; its exact path is now explicitly included in the verifier-owned output exclusions."
+                   },
+    "actor_owned_output_exclusions":  [
+                                          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/attempt.json",
+                                          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/checkpoint-0001.json",
+                                          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/checkpoint-0002.json",
+                                          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/checkpoint-0003.json",
+                                          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/report.md",
+                                          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/result.json",
+                                          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/precheck-manifest.json",
+                                          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/verification-evidence.json"
+                                      ],
+    "partial_paths":  "No partial files remain after each publication; no partial path will be excluded from input manifests.",
+    "assurance":  "Procedural non-mutation only. No write probe; no source write. Actor-visible operations are available in this invocation transcript and in this report; no exhaustive trusted OS event stream. Endpoint hashes do not prove absence of transient writes or same-principal tampering."
+}

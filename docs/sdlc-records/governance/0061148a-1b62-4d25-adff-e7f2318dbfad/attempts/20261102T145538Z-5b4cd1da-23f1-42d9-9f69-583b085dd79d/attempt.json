@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "record_type": "corrective_change_decision_invocation",
+  "record_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d:invocation",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_ids": [
+    "GOV-AUD-20261102-003",
+    "GOV-AUD-20261102-004"
+  ],
+  "creator": {
+    "role": "Corrective Change Decision Agent",
+    "runtime_agent_id": "4d0c3747-fde6-48c7-b125-5adb2af5b80c",
+    "runtime_agent_id_basis": "Only running agent in list_agents all-scope registry matches this assigned invocation; registry identity distinguished from current host session and OS principal. Role authority comes from current developer assignment and hashed definition, not display title.",
+    "copilot_agent_session_id": "1684b491-8eea-41fb-864d-541e7920e172",
+    "host_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "effective_windows_principal": "int-scl-010\\parimal",
+    "agent_definition": {
+      "path": ".github/agents/corrective-change-decision.agent.md",
+      "bytes": 5163,
+      "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+    },
+    "skill": {
+      "path": ".github/skills/corrective-change-decision/SKILL.md",
+      "bytes": 10999,
+      "sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3"
+    }
+  },
+  "created_at_utc": "2026-11-02T14:56:32.265314+00:00",
+  "clock_basis": "Python datetime.now UTC at record preparation; not publication time",
+  "repository_context": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "working_tree_status": "M .github/agents/sdlc-governance-remediation.agent.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md\n M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md\n?? docs/sdlc-records/",
+    "exact_source_manifest": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/evidence/input-manifest.json",
+      "bytes": 125122,
+      "sha256": "14B069EF1BA05457F65E8B5313DAC80903D2E1ED1EF87E36485C350D71DD86C3"
+    }
+  },
+  "persistence": {
+    "root": "docs/sdlc-records/governance/",
+    "actor_owned_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/**",
+    "existing_work_id": true,
+    "product_collision": false,
+    "root_adoption": {
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+      "validation": "Fresh GitHub issue_read get_comments returned author_association OWNER, user ScalableParimal id 226102895, comment id 6522916236; created/updated 2026-10-30T12:31:51Z. Exact repository/head/root/work and three Master bindings validated.",
+      "initial_audit_only": true,
+      "continuation_authority": "Current fresh Human start and existing Work ID, not reuse of initial bootstrap start",
+      "master_comparison_authority": "SDLC_GOVERNANCE section 3 normal findings lifecycle before prospective Master baseline adoption; no Master or product-root adoption claimed"
+    }
+  },
+  "human_stage_start": {
+    "actual_wording": "Yes, initiate Corrective Change Decision & Plan Update for these two findings only; prepare proposals without applying changes or starting later stages",
+    "source": "Actual Human response supplied in current user request, attributed to parent conversation; no authenticated message ID or original decision time exposed",
+    "decision_time": null,
+    "authenticated_author_id": null,
+    "presentation_binding": {
+      "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+      "cycle": 1,
+      "finding_ids": [
+        "GOV-AUD-20261102-003",
+        "GOV-AUD-20261102-004"
+      ],
+      "investigation_report": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/report-revision-0002.md",
+        "bytes": 21951,
+        "sha256": "1B298794D8AA503E4C18AA3730754FA170D6196B7745160390BB9C68246D1365"
+      },
+      "investigation_result": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/result-revision-0002.json",
+        "bytes": 4974,
+        "sha256": "41F442FA05C1472939889612DF43307E39E91883F75404C90D6AA1965A5248EB"
+      }
+    },
+    "scope": "Separate assessment of both findings; coordinated minimal proposal if lawful; no application or later stages",
+    "not_patch_approval": true
+  },
+  "human_selected_proposal_directions": [
+    {
+      "finding_id": "GOV-AUD-20261102-003",
+      "exact_selection": "Use the lifecycle-qualified initial-clarification and approved-source paths described above",
+      "binding": "Initial immutable but unapproved Requirement clarification remains unapproved, preserves lineage; subsequent Analysis, complete Verification and separate formal Human Requirement Approval; preserve approved-source update path"
+    },
+    {
+      "finding_id": "GOV-AUD-20261102-004",
+      "exact_selection": "Use stage-specific current attempts and planned-only future assurance identities as described above",
+      "binding": "Future verifier/reviewer planned identity-only; actual attempts/current capabilities/fresh starts at respective stages; preserve independence and assurance gates"
+    }
+  ],
+  "required_inputs_validated": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/report-revision-0002.md",
+      "bytes": 21951,
+      "sha256": "1B298794D8AA503E4C18AA3730754FA170D6196B7745160390BB9C68246D1365"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/result-revision-0002.json",
+      "bytes": 4974,
+      "sha256": "41F442FA05C1472939889612DF43307E39E91883F75404C90D6AA1965A5248EB"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/evidence/evidence-rev-1.json",
+      "bytes": 12658,
+      "sha256": "72B356B60629910EFC499D7E4693A32A764217C9C5642DBBE8D18E5B54A6BA05"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/checkpoint-0003.json",
+      "bytes": 4779,
+      "sha256": "910BBE2C56BF871DD8AD4BDF1EB9007D0BC3E369461B36C45FA429CF15D98277"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/evidence/input-manifest.json",
+      "bytes": 165221,
+      "sha256": "0E18596FBB7E41B56CD960234A3C39434ED7AD602AFF7DCAF925283B37419400"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/report-revision-0001.md",
+      "bytes": 7231,
+      "sha256": "5FE8350E49986DA8E910D591181243C4184D8EB303259ACEBA848D2E4E544C0C"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/result-revision-0002.json",
+      "bytes": 10561,
+      "sha256": "7A569DFDAE43885614BA9653AEBBB0FD6373297723037E8044CC417E2AD62D94"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/handoffs/GOV-AUD-20261102-003.json",
+      "bytes": 29500,
+      "sha256": "2FFA0524A31614B95E65279630FBA63AE06E6025380D1F58C757B4EC22CBC153"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/handoffs/GOV-AUD-20261102-004.json",
+      "bytes": 21828,
+      "sha256": "61FED7ADE5C3099CCF8EF8FA03D45372B1FD88BAD68539FB317482F2F6F78894"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+      "bytes": 95024,
+      "sha256": "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+      "bytes": 61780,
+      "sha256": "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+      "bytes": 393511,
+      "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88"
+    },
+    {
+      "path": ".github/agents/sdlc-governance-remediation.agent.md",
+      "bytes": 49225,
+      "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+    }
+  ],
+  "input_manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/evidence/input-manifest.json",
+    "bytes": 125122,
+    "sha256": "14B069EF1BA05457F65E8B5313DAC80903D2E1ED1EF87E36485C350D71DD86C3"
+  },
+  "qualification": {
+    "capabilities": {
+      "read": "All manifest inputs opened as bytes; hashes computed twice without source mutation",
+      "hash_check": "hashlib SHA-256 with exact size/digest checks against canonical handoff; canonical JSON native object strict serialization/parse equality",
+      "publication_route": "Current NTFS ACL on existing attempts parent: effective principal int-scl-010\\parimal; owner INT-SCL-010\\Parimal, Authenticated Users Modify; own-record publication only is permitted. Evidence manifest successfully flushed/validated and same-filesystem renamed without overwrite/read back.",
+      "runtime": "Python execution and read-only git identity/state commands succeeded in current environment",
+      "nonmutation": "Procedural, not sandbox-enforced; same-principal tampering/transient changes not excluded; no exhaustive event log"
+    },
+    "independence": "Proposal preparer only; no application, independent verification/review or audit performed. Future actors must be distinct.",
+    "competing_attempts": "all-scope agent registry shows this as sole running actor; 44 idle historical agents do not establish active conflicting writes. Existing records inventoried; registry not exhaustive system-wide proof."
+  },
+  "authorized_scope": {
+    "write": [
+      "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/**"
+    ],
+    "all_other_paths": "read-only",
+    "exclusions": [
+      "source amendments",
+      "application",
+      "later stages",
+      "product work",
+      "Master adoption",
+      "reopening GOV-AUD-20261102-001/002 or historical GOV001/002",
+      "staging",
+      "commit",
+      "push"
+    ]
+  },
+  "pre_assessment_state": "Qualification only; substantive finding assessment not started; must independently read back invocation before assessment"
+}

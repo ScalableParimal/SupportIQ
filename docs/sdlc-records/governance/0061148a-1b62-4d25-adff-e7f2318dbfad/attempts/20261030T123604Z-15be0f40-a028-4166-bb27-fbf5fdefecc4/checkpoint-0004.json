@@ -1,0 +1,38 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_identity":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:checkpoint-0004",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4",
+    "sequence":  "0004",
+    "creator":  "SDLC Governance Audit Agent (Copilot SDK invocation)",
+    "created_at_utc":  "2026-10-30T12:50:32.3023179Z",
+    "last_confirmed_boundary":  "Canonical report.md was published and integrity-checked; post-publication quality review identified a summary-placement omission, one incorrect core-guideline filename in the traceability summary, and typographic substitutions in generated rows. The immutable report is not overwritten.",
+    "supersession_plan":  {
+                              "new_report_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/report-revision-0001.md",
+                              "prior_report_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/report.md",
+                              "prior_report_sha256":  "DCF8C885B6C9528D7C2F51D292711E31F5A0D184F8686FB09BB82A16422EAFB7",
+                              "prior_report_identity":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:report",
+                              "new_report_identity":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:report-revision-0001",
+                              "prior_evidence_sha256":  "101726067C278C1CFC844B2436888CF55C7BED1AB37900F2DA1503A67E000CBD",
+                              "prior_evidence_identity":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:audit-evidence",
+                              "prior_evidence_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/evidence/audit-evidence.json",
+                              "new_evidence_identity":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:audit-evidence-revision-0001",
+                              "new_evidence_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/evidence/audit-evidence-revision-0001.json",
+                              "reason":  "Publish a linked corrected report with the required top-level summary counts and exact traceability paths; retain the earlier immutable report."
+                          },
+    "repository_effects":  "No evaluated source or product artifact was modified or inspected. Only this actor-owned checkpoint is published; prior report/evidence remain immutable.",
+    "unfinished_work":  [
+                            "Publish evidence revision linking the corrected report path and superseded records.",
+                            "Publish corrected report revision, preserving the original report unchanged.",
+                            "Publish result.json binding the corrected canonical report and required evidence records.",
+                            "Revalidate all source and actor-record hashes and read back final bindings."
+                        ],
+    "blockers":  [
+                     "Governance Remediation mechanism evidence remains unavailable under the current no-remediation authorization; overall audit result remains CANNOT COMPLETE AUDIT."
+                 ],
+    "pending_gates":  [
+                          "Fresh Human Process Initiation/authorization required before any downstream Finding Investigation/Governance Remediation."
+                      ],
+    "next_safe_action":  "Publish linked evidence and report revisions without overwriting prior final records; bind the corrected canonical report in the terminal result."
+}

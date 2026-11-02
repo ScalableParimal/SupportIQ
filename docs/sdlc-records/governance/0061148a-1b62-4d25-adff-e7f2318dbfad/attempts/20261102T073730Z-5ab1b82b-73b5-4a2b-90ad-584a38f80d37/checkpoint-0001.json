@@ -1,0 +1,40 @@
+{
+    "schemaVersion":  "1.0",
+    "recordType":  "CorrectiveChangeDecisionPublicationBoundary",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37",
+    "createdAtUtc":  "2026-11-02T07:38:19.1086516Z",
+    "orderedLedger":  [
+                          {
+                              "sequence":  "Q",
+                              "event":  "Invocation qualification",
+                              "status":  "validated before attempt publication",
+                              "scope":  "current authority, actor, identity, permission, route, root, work/cycle, repository/source-state, human stage-start, unique attempt path and input bindings"
+                          },
+                          {
+                              "sequence":  "P-001",
+                              "event":  "Attempt published using no-overwrite atomic move",
+                              "status":  "complete",
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37/attempt.json",
+                              "publishedAtUtc":  "2026-11-02T07:38:19.0565080Z",
+                              "sha256":  "1657392F2D85C4AF2CD802C710DFF90082AF47128DE1E4BD313ABEFF7630862B",
+                              "byteCount":  12669
+                          },
+                          {
+                              "sequence":  "P-002",
+                              "event":  "Attempt readback, JSON parse, hash, byte-count and every bound path/hash validation",
+                              "status":  "PASS",
+                              "readbackAtUtc":  "2026-11-02T07:38:19.0595050Z",
+                              "sha256":  "1657392F2D85C4AF2CD802C710DFF90082AF47128DE1E4BD313ABEFF7630862B",
+                              "byteCount":  12669,
+                              "bindingsValidated":  16
+                          },
+                          {
+                              "sequence":  "S-001",
+                              "event":  "First substantive inspection of controlling Investigation and affected artifact contents",
+                              "status":  "NOT STARTED at this publication boundary"
+                          }
+                      ],
+    "sourceWrites":  "None",
+    "substantiveInspectionBeforeAttemptReadback":  false
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "record_type": "invocation_independent_readback",
+  "record_id": "20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494:invocation_independent_readback",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Governance Amendment Application",
+  "creator": {
+    "role": "Governance Amendment Application",
+    "runtime_agent_id": "ec7a8339-a9b5-4710-bb5b-a8760309005d"
+  },
+  "created_at_utc": "2026-11-02T15:17:35.091182+00:00",
+  "clock_basis": "UTC record preparation, not exact publication time",
+  "outcome": "PASS",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494/attempt.json",
+    "bytes": 84246,
+    "sha256": "0C3A9E35C821149F6C7AAF3306FE2C580C8FBD90F780AE4AA2247851519F4FA4"
+  },
+  "manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494/evidence/input-manifest.json",
+    "bytes": 128542,
+    "sha256": "49597076E072051E6D43612F8BD22C7C00050A4A88EF89A357BC24EA82545FF8"
+  },
+  "checked_input_count": 474,
+  "ordering": "Fresh separate tool call/process after attempt publication; before substantive comparison/application"
+}

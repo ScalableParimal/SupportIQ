@@ -1,0 +1,135 @@
+{
+  "schema": "independent-governance-verification-result-v1",
+  "record_type": "sdlc_process_result",
+  "record_identity": "20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25",
+  "process": "Independent Governance Verification",
+  "created_utc": "2026-10-30T14:53:40.009353+00:00",
+  "outcome": "FINDINGS",
+  "execution_termination": "COMPLETED_WITH_FINDINGS",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding"
+  },
+  "human_stage_start": "Yes, initiate independent Governance Verification of the applied P1-P5 package",
+  "actor": "Independent Governance Verification Agent; runtime principal INT-SCL-010\\parimal",
+  "agent_definition_sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958",
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/report.md",
+    "bytes": 13529,
+    "sha256": "9F6301EBBF38B7DA8B4C46AEDB90FFFE17463C2E92B94E8F36B367FC39185908"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/checkpoint-0001.json",
+    "bytes": 1108,
+    "sha256": "83AF18CD34A31FCCF0447367899622D3AE786CFBE75C766223D9ABEBE47BB43B"
+  },
+  "evidence": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/evidence/verification-evidence.json",
+      "bytes": 44778,
+      "sha256": "A5C853CA62C715D5A075A611B2E6ED0DED09EE4E50EC9A17988B605B293F2769"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/evidence/prepublication-input-manifest.json",
+      "bytes": 72325,
+      "sha256": "E6C1B1347B197926741B10040EDC07F10C0762EE5BAA950E1EEC744987C276F3"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/evidence/final-input-manifest.json",
+      "bytes": 60087,
+      "sha256": "468B3050C28004A42763555027F190275C421A7ED33A40A56735F570B72F2046"
+    }
+  ],
+  "application_chain": {
+    "proposal_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/report.md",
+      "bytes": 39437,
+      "sha256": "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A"
+    },
+    "proposal_result": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/result.json",
+      "bytes": 10242,
+      "sha256": "B4A39B5A8862138F2AF04CB80520C15B2F86E5430D4D867938FBB91E0F6E19FA"
+    },
+    "application_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/report.md",
+      "bytes": 15640,
+      "sha256": "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF"
+    },
+    "application_result": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/result.json",
+      "bytes": 34763,
+      "sha256": "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497"
+    },
+    "approval_context": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/approval-context.json",
+      "bytes": 9399,
+      "sha256": "853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B"
+    },
+    "application_evidence": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/application-evidence.json",
+      "bytes": 50575,
+      "sha256": "66E9194F37BACD10627D1D7F35F3E02DE2E3908E408CBCDED3D6A3C5402949A5"
+    },
+    "required_application_record_bindings": 30,
+    "binding_mismatches": []
+  },
+  "criteria": {
+    "fresh_start_and_runtime_capability": "PASS",
+    "application_report/result/evidence_integrity": "PASS",
+    "exact_approved_P1_P5_bytes": "PASS",
+    "complete_changed_path_scope": "PASS",
+    "cross_document_and_authority_conformance": "PASS",
+    "verbatim_human_approval_record": "FINDING"
+  },
+  "finding": {
+    "id": "IGV-FIND-001",
+    "title": "Application records do not preserve exact Human Approval wording verbatim",
+    "expected_quote": "I approve the exact report \u00a77 package and \u00a78 one-time actor designation/route as identified above; this does not initiate Application",
+    "application_record_quote": "I approve the exact report ?7 package and ?8 one-time actor designation/route as identified above; this does not initiate Application",
+    "actual_record_contains_question_mark_references": true,
+    "structured_approval_bindings_and_applied_package_otherwise_match": true,
+    "underlying_approval_validity_determined": false
+  },
+  "pre_result_snapshot": {
+    "final_manifest": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/evidence/final-input-manifest.json",
+      "bytes": 60087,
+      "sha256": "468B3050C28004A42763555027F190275C421A7ED33A40A56735F570B72F2046"
+    },
+    "bounded_input_mismatches": [],
+    "nonown_work_id_pathset_matches_prepublication": true,
+    "tracked_changed_paths": [
+      "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+      "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+      "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+      "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+    ],
+    "staged_paths": [],
+    "untracked_paths_all_under_governance_root": true,
+    "untracked_path_count": 67,
+    "application_bound_record_mismatches": []
+  },
+  "assurance": {
+    "mode": "procedural non-mutation",
+    "enforced_source_read_only": false,
+    "write_capable_tools_and_writable_acl": true,
+    "no_source_write_or_write_probe": true,
+    "no_exhaustive_OS_event_stream": true,
+    "no_coordinated_no_edit_interval": true,
+    "endpoint_hashes_do_not_prove_no_transient_write_or_same_principal_tampering": true
+  },
+  "non_authorizations": [
+    "No source changes or correction",
+    "No Review invocation (Verification is not PASS)",
+    "No Governance Audit rerun",
+    "No Master baseline or product root adoption",
+    "No commit or push",
+    "No effectiveness/finding-resolution/product-readiness claim"
+  ],
+  "next_permitted_process": "Stop. No Review handoff because this result is FINDINGS; any follow-up requires applicable governed correction and fresh human stage-start."
+}

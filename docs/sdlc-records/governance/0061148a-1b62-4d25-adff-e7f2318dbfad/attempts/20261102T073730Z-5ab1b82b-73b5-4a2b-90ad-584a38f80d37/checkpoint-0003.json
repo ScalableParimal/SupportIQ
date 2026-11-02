@@ -1,0 +1,35 @@
+{
+    "schemaVersion":  "1.0",
+    "recordType":  "CorrectiveChangeDecisionSubstantiveWorkCheckpoint",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37",
+    "createdAtUtc":  "2026-11-02T07:39:00.6627482Z",
+    "orderedLedger":  [
+                          {
+                              "sequence":  "Q",
+                              "event":  "Qualification",
+                              "status":  "PASS"
+                          },
+                          {
+                              "sequence":  "P-001/P-002",
+                              "event":  "Attempt publication and full readback/hash validation",
+                              "status":  "PASS",
+                              "sha256":  "1657392F2D85C4AF2CD802C710DFF90082AF47128DE1E4BD313ABEFF7630862B"
+                          },
+                          {
+                              "sequence":  "P-003/P-004",
+                              "event":  "Publication-boundary ledger publication and readback/hash validation",
+                              "status":  "PASS",
+                              "sha256":  "9E55E24DB63352087A9971288141F396B8A7E6C4E665CE07D05E82A5C5B6F13D",
+                              "validationCheckpointSha256":  "6A7D879D30D39F354FE4D8F91953F7F6CC4C934B03E4ADCDF083F4C0949E0C74"
+                          },
+                          {
+                              "sequence":  "S-001",
+                              "event":  "First substantive inspection of controlling Investigation and affected artifact content",
+                              "status":  "AUTHORIZED TO BEGIN only after the prior checkpoint validation; this record is published before opening substantive content",
+                              "startingAtUtc":  "2026-11-02T07:39:00.6672230Z"
+                          }
+                      ],
+    "sourceWrites":  "None",
+    "noOtherProcessOrStageStarted":  true
+}

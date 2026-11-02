@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "record_type": "invocation_readback",
+  "record_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93:invocation_readback",
+  "feature": "Initial SupportIQ SDLC portability assessment",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-continuation-ecf830bf-c5f6-4920-b5ac-081cf5a03869",
+    "role": "SDLC Portability Assessment",
+    "identity_basis": "Current explicit assigned role/instructions and exact loaded assessment artifacts; local invocation UUID, not external authenticated platform identity",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "harness_identity_limit": "Previously resolved conversation harness context; no current external actor-ID authentication or session-title role proof claimed"
+  },
+  "created_at_utc": "2026-11-02T18:03:26.108059+00:00",
+  "clock_basis": "Python timezone-aware system UTC at record preparation; not original decision or filesystem publication time",
+  "gate": {
+    "applicability": "Assessment Human dispositions only; no Requirement/Plan approval, Acceptance or later process-start"
+  },
+  "related_records": [],
+  "task_context": "Bounded same-work disposition continuation; no product feature/Plan task allocated",
+  "sequence": "0001",
+  "last_confirmed_boundary": "Qualified invocation published and independently freshly read back before substantive continuation",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/attempt.json",
+    "bytes": 33140,
+    "sha256": "9B9ECC0BF287A3774CA9F001418C4313427A7713B68CF672CDA0A05CBE371653",
+    "record_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93:invocation"
+  },
+  "outcome": "PASS",
+  "observed_at_utc": "2026-11-02T18:03:26.108277+00:00",
+  "evidence_basis": "Separate command after invocation publication; full native object schema/roundtrip and all source/target/original attempt hashes checked before substantive continuation",
+  "unfinished_work": [
+    "Validate actual dispositions against original recommendations",
+    "Publish linked handoff/report/result and independently read back"
+  ],
+  "repository_effects": "Own invocation/helper only",
+  "next_process_started": false,
+  "blockers": [],
+  "pending_gate_references": [
+    "PB-01/PB-02 supplied decisions awaiting substantive validation and linked handoff"
+  ],
+  "safe_continuation_prerequisites": "Inputs unchanged, actual supplied responses only, own output scope, no later process"
+}

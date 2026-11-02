@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:checkpoint-0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:34:33.925666Z",
+  "process": "Governance Amendment Application",
+  "sequence": 1,
+  "last_confirmed_boundary": "Own invocation and current qualification/approval evidence atomically published and integrity-checked before ANY source write",
+  "attempt": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/attempt.json",
+    "sha256": "BE4DCCBC80F0E9E9DEAA8D183884731BDD20CF7478B7FB05C89BAA1F6D8FD2DD",
+    "bytes": 13335,
+    "identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:attempt"
+  },
+  "evidence": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/approval-context.json",
+      "sha256": "853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B",
+      "bytes": 9399,
+      "identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:approval-context"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/preflight.json",
+      "sha256": "7A8146B73ACEC11C2ECEEFAF69FF83FBAF44753E108A6BF6F95F0B7DEEEFAFEF",
+      "bytes": 56624,
+      "identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:preflight"
+    }
+  ],
+  "source_effects": [],
+  "unfinished_work": "Revalidate entire source state and all bases; hold all five write-denying handles before first approved replacement; exact write/readback then final own evidence/report/result",
+  "blockers": [],
+  "safe_continuation_prerequisites": "Same invocation only; input/definition/HEAD/base/path equality and no conflict, all five locks acquired, exact precomputed afters; any error stops without rollback."
+}

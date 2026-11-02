@@ -1,0 +1,539 @@
+{
+  "schema_version": "1.0",
+  "record_type": "decision_evidence",
+  "record_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d:decision_evidence",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Corrective Change Decision & Plan Update",
+  "creator": {
+    "role": "Corrective Change Decision Agent",
+    "runtime_agent_id": "4d0c3747-fde6-48c7-b125-5adb2af5b80c",
+    "copilot_agent_session_id": "1684b491-8eea-41fb-864d-541e7920e172"
+  },
+  "created_at_utc": "2026-11-02T15:02:00.970624+00:00",
+  "clock_basis": "Current UTC at record preparation; no exact publication timestamp claimed",
+  "input_manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/evidence/input-manifest.json",
+    "bytes": 125122,
+    "sha256": "14B069EF1BA05457F65E8B5313DAC80903D2E1ED1EF87E36485C350D71DD86C3"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attempt.json",
+    "bytes": 11870,
+    "sha256": "B5244B2C7C6A5F439E9C3694EC298F160FC15D023B02CBBD7660F30B2E5BEB85"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/checkpoint-0001.json",
+    "bytes": 2174,
+    "sha256": "593C42FC9E2AB3BCCACC19E5E0ABE41C181EDB8DF5DD0B9ACA4DABF29657B1C6"
+  },
+  "proposal": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/exact-proposal.json",
+    "bytes": 21495,
+    "sha256": "086D48C77EC7D6C052615498DC82B380493B2C0610F9AAF070D1FFF08580D29C"
+  },
+  "patch": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/minimal.patch",
+    "bytes": 13651,
+    "sha256": "DFE0F97EE5EC19D0194E6FFB9FC2C3CD5104F41B9B9DCA908837556E1E99F1DD"
+  },
+  "all_preexisting_input_count": 463,
+  "source_inspection": [
+    {
+      "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+      "bytes": 11022,
+      "sha256": "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1"
+    },
+    {
+      "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+      "bytes": 2254,
+      "sha256": "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2"
+    },
+    {
+      "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+      "bytes": 1089,
+      "sha256": "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C"
+    },
+    {
+      "path": ".github/skills/requirement-update/SKILL.md",
+      "bytes": 6786,
+      "sha256": "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC"
+    },
+    {
+      "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+      "bytes": 2985,
+      "sha256": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038"
+    },
+    {
+      "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+      "bytes": 16826,
+      "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+    },
+    {
+      "path": "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md",
+      "bytes": 28121,
+      "sha256": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203"
+    },
+    {
+      "path": "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md",
+      "bytes": 3873,
+      "sha256": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7"
+    },
+    {
+      "path": ".github/skills/corrective-change-decision/SKILL.md",
+      "bytes": 10999,
+      "sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3"
+    },
+    {
+      "path": ".github/agents/corrective-change-decision.agent.md",
+      "bytes": 5163,
+      "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+    },
+    {
+      "path": "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+      "bytes": 5890,
+      "sha256": "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790"
+    },
+    {
+      "path": "docs/ai/prompts/GOVERNANCE_AMENDMENT_APPLICATION_PROMPT.md",
+      "bytes": 2380,
+      "sha256": "A79DC98DF3842E42A11E02F4D9FABFEC0D2C6EC5A160AECA171EE78C7542A80D"
+    },
+    {
+      "path": "docs/ai/request/GOVERNANCE_AMENDMENT_APPLICATION_REQUEST.md",
+      "bytes": 3145,
+      "sha256": "2E0C1E05659093C2E6FE61D1EB88DB4588074E8B1A71453522D2965F964203A5"
+    },
+    {
+      "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "bytes": 5773,
+      "sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8"
+    },
+    {
+      "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+      "bytes": 5718,
+      "sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902"
+    },
+    {
+      "path": ".github/agents/governance-amendment-application.agent.md",
+      "bytes": 1636,
+      "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+    },
+    {
+      "path": ".github/agents/independent-governance-verification.agent.md",
+      "bytes": 1393,
+      "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+    },
+    {
+      "path": ".github/agents/independent-governance-review.agent.md",
+      "bytes": 1284,
+      "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+    },
+    {
+      "path": ".github/agents/sdlc-governance-remediation.agent.md",
+      "bytes": 49225,
+      "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "bytes": 30926,
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "bytes": 54243,
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "bytes": 89025,
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    }
+  ],
+  "upstream": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/report-revision-0002.md",
+      "bytes": 21951,
+      "sha256": "1B298794D8AA503E4C18AA3730754FA170D6196B7745160390BB9C68246D1365"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/result-revision-0002.json",
+      "bytes": 4974,
+      "sha256": "41F442FA05C1472939889612DF43307E39E91883F75404C90D6AA1965A5248EB"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/checkpoint-0003.json",
+      "bytes": 4779,
+      "sha256": "910BBE2C56BF871DD8AD4BDF1EB9007D0BC3E369461B36C45FA429CF15D98277"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/evidence/evidence-rev-1.json",
+      "bytes": 12658,
+      "sha256": "72B356B60629910EFC499D7E4693A32A764217C9C5642DBBE8D18E5B54A6BA05"
+    }
+  ],
+  "coordinator": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/report-revision-0001.md",
+      "bytes": 7231,
+      "sha256": "5FE8350E49986DA8E910D591181243C4184D8EB303259ACEBA848D2E4E544C0C"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/result-revision-0002.json",
+      "bytes": 10561,
+      "sha256": "7A569DFDAE43885614BA9653AEBBB0FD6373297723037E8044CC417E2AD62D94"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/handoffs/GOV-AUD-20261102-003.json",
+      "bytes": 29500,
+      "sha256": "2FFA0524A31614B95E65279630FBA63AE06E6025380D1F58C757B4EC22CBC153"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/handoffs/GOV-AUD-20261102-004.json",
+      "bytes": 21828,
+      "sha256": "61FED7ADE5C3099CCF8EF8FA03D45372B1FD88BAD68539FB317482F2F6F78894"
+    }
+  ],
+  "audit": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+      "bytes": 95024,
+      "sha256": "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+      "bytes": 61780,
+      "sha256": "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+      "bytes": 393511,
+      "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88"
+    }
+  ],
+  "executed_checks": {
+    "nested_bindings": [
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/report-revision-0002.md",
+        "bytes": 21951,
+        "sha256": "1B298794D8AA503E4C18AA3730754FA170D6196B7745160390BB9C68246D1365"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/evidence/evidence-rev-1.json",
+        "bytes": 12658,
+        "sha256": "72B356B60629910EFC499D7E4693A32A764217C9C5642DBBE8D18E5B54A6BA05"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/evidence/input-manifest.json",
+        "bytes": 165221,
+        "sha256": "0E18596FBB7E41B56CD960234A3C39434ED7AD602AFF7DCAF925283B37419400"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/attempt.json",
+        "bytes": 65298,
+        "sha256": "2D8B319F247E6F6639800055226B9659868D708C712543A783975906E0B78250"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/checkpoint-0001.json",
+        "bytes": 1761,
+        "sha256": "AC7E04DDDF80C8D82569B0B87361CCE3866C28D6D69B8F76ED89DED1D2190756"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/result-revision-0001.json",
+        "bytes": 4946,
+        "sha256": "83929A508AA98A9EAB82C891F2BFA53520AF428C2CF027B62876ED37B026969A"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/report-revision-0002.md",
+        "bytes": 21951,
+        "sha256": "1B298794D8AA503E4C18AA3730754FA170D6196B7745160390BB9C68246D1365"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/result-revision-0002.json",
+        "bytes": 4974,
+        "sha256": "41F442FA05C1472939889612DF43307E39E91883F75404C90D6AA1965A5248EB"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/evidence/evidence-rev-1.json",
+        "bytes": 12658,
+        "sha256": "72B356B60629910EFC499D7E4693A32A764217C9C5642DBBE8D18E5B54A6BA05"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/evidence/input-manifest.json",
+        "bytes": 165221,
+        "sha256": "0E18596FBB7E41B56CD960234A3C39434ED7AD602AFF7DCAF925283B37419400"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/attempt.json",
+        "bytes": 65298,
+        "sha256": "2D8B319F247E6F6639800055226B9659868D708C712543A783975906E0B78250"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/checkpoint-0001.json",
+        "bytes": 1761,
+        "sha256": "AC7E04DDDF80C8D82569B0B87361CCE3866C28D6D69B8F76ED89DED1D2190756"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/checkpoint-0002.json",
+        "bytes": 2572,
+        "sha256": "47DFDE73AAEEE5CC78032F86C4B22530E9C228EF8ADC12F2FFDCAFCBF7523177"
+      },
+      {
+        "path": ".github/agents/finding-investigation.agent.md",
+        "bytes": 4011,
+        "sha256": "BECE1D3F5C20DD10B975E1536BB816232A47C2B43FDAAD76B13C4328DA84B218"
+      },
+      {
+        "path": ".github/skills/finding-investigation/SKILL.md",
+        "bytes": 10312,
+        "sha256": "800D316A3AA97BFB3B2A3581FE16F8474C6DA2A199E3EB9CF397D3B7B2081448"
+      },
+      {
+        "path": "docs/ai/guidelines/FINDING_INVESTIGATION_GUIDELINES.md",
+        "bytes": 14928,
+        "sha256": "14844FB1FA9865AB870CA1E3E8A50CD319756B2C8EA45231199B09368CC31BD2"
+      },
+      {
+        "path": "docs/ai/prompts/FINDING_INVESTIGATION_PROMPT.md",
+        "bytes": 3596,
+        "sha256": "7550968BAAD60A9214C1E1C7E5476D6270EF99FE3D17E4F85E5D20CAD26D8175"
+      },
+      {
+        "path": "docs/ai/request/FINDING_INVESTIGATION_REQUEST.md",
+        "bytes": 1854,
+        "sha256": "836F79EE60357C502A2181E8CB4B04D500C351219358E484C0639A9FD275C120"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+        "bytes": 30926,
+        "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+        "bytes": 54243,
+        "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+        "bytes": 89025,
+        "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+      },
+      {
+        "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+        "bytes": 11022,
+        "sha256": "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1"
+      },
+      {
+        "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+        "bytes": 2254,
+        "sha256": "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2"
+      },
+      {
+        "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+        "bytes": 1089,
+        "sha256": "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C"
+      },
+      {
+        "path": ".github/skills/requirement-update/SKILL.md",
+        "bytes": 6786,
+        "sha256": "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC"
+      },
+      {
+        "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+        "bytes": 16826,
+        "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+      },
+      {
+        "path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+        "bytes": 2171,
+        "sha256": "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"
+      },
+      {
+        "path": "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+        "bytes": 322,
+        "sha256": "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275"
+      },
+      {
+        "path": ".github/skills/requirement-analysis/SKILL.md",
+        "bytes": 5662,
+        "sha256": "F5A40ED08CD7DFB52B906FE4A046B721BB6A84B5B2D28037BB780C48BDE143B7"
+      },
+      {
+        "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+        "bytes": 2985,
+        "sha256": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038"
+      },
+      {
+        "path": "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md",
+        "bytes": 3873,
+        "sha256": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7"
+      },
+      {
+        "path": "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md",
+        "bytes": 28121,
+        "sha256": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203"
+      },
+      {
+        "path": ".github/skills/corrective-change-decision/SKILL.md",
+        "bytes": 10999,
+        "sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3"
+      },
+      {
+        "path": ".github/agents/corrective-change-decision.agent.md",
+        "bytes": 5163,
+        "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+      },
+      {
+        "path": "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+        "bytes": 5890,
+        "sha256": "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790"
+      },
+      {
+        "path": "docs/ai/prompts/GOVERNANCE_AMENDMENT_APPLICATION_PROMPT.md",
+        "bytes": 2380,
+        "sha256": "A79DC98DF3842E42A11E02F4D9FABFEC0D2C6EC5A160AECA171EE78C7542A80D"
+      },
+      {
+        "path": "docs/ai/request/GOVERNANCE_AMENDMENT_APPLICATION_REQUEST.md",
+        "bytes": 3145,
+        "sha256": "2E0C1E05659093C2E6FE61D1EB88DB4588074E8B1A71453522D2965F964203A5"
+      },
+      {
+        "path": ".github/skills/governance-amendment-application/SKILL.md",
+        "bytes": 2000,
+        "sha256": "D471B3A59A9581D5DB108B837E7CB9571540DA029139385EF3D2C9055EB4D2C1"
+      },
+      {
+        "path": ".github/agents/governance-amendment-application.agent.md",
+        "bytes": 1636,
+        "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+        "bytes": 95024,
+        "sha256": "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+        "bytes": 61780,
+        "sha256": "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+        "bytes": 393511,
+        "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0003.json",
+        "bytes": 5875,
+        "sha256": "2F1346F1F46954DA8FB7B72A1F0D8E97F7264F0BE99CE1AD66301ADF0AB86B31"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T141609Z-4e74248e-a440-4617-8c17-61f31f2ff9c9/evidence/investigation-evidence.json",
+        "bytes": 11563,
+        "sha256": "76E1431C4BCA5308BF2A0D66235152C7F8EC3BB08E7D12C892FD29A8C4B3BC64"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/result-revision-0001.json",
+        "bytes": 9645,
+        "sha256": "39768A2C143626B67DF481CE28AE7AC558B15A237A82A207DE4A0996DD905511"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/report-revision-0001.md",
+        "bytes": 7231,
+        "sha256": "5FE8350E49986DA8E910D591181243C4184D8EB303259ACEBA848D2E4E544C0C"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/evidence/audit-validation.json",
+        "bytes": 19048,
+        "sha256": "47F1777BCBF28BF34593AADEB038FFC220021B207B389919D9274717A86B125B"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/evidence/history-reconciliation.json",
+        "bytes": 24767,
+        "sha256": "2366ECD8C4DE6B34A220B40ADD06034803B441A0E81B6077825749994ACC2E7B"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/handoffs/GOV-AUD-20261102-003.json",
+        "bytes": 29500,
+        "sha256": "2FFA0524A31614B95E65279630FBA63AE06E6025380D1F58C757B4EC22CBC153"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/handoffs/GOV-AUD-20261102-004.json",
+        "bytes": 21828,
+        "sha256": "61FED7ADE5C3099CCF8EF8FA03D45372B1FD88BAD68539FB317482F2F6F78894"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+        "bytes": 95024,
+        "sha256": "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+        "bytes": 61780,
+        "sha256": "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+        "bytes": 393511,
+        "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/attempt.json",
+        "bytes": 7882,
+        "sha256": "2B3C61D91296B9497CB3BE46E04FE368B2101BFF60C244F384412A0D475F97E6"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0003.json",
+        "bytes": 5875,
+        "sha256": "2F1346F1F46954DA8FB7B72A1F0D8E97F7264F0BE99CE1AD66301ADF0AB86B31"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T132628Z-e9227c1a-70ab-4afc-87e2-49eca280b879/evidence/history-reconciliation.json",
+        "bytes": 24767,
+        "sha256": "2366ECD8C4DE6B34A220B40ADD06034803B441A0E81B6077825749994ACC2E7B"
+      }
+    ],
+    "source_inventory_and_git_state": "PASS",
+    "strict_native_json_roundtrip": "PASS",
+    "exact_reconstruction_and_reverse": "PASS",
+    "single_occurrence_replacements": "PASS",
+    "encoding_newline_final_newline_preservation": "PASS",
+    "target_scope_exactly_five_non_Master_paths": "PASS"
+  },
+  "preparation_corrections": [
+    {
+      "phase": "Unpublished proposal helper preview",
+      "observed": "First strict nested-reference check encountered an existing path containing .. which Windows did not resolve as a readable long path",
+      "correction": "Normalize the existing path with Path.resolve, require it to remain within the repository, then require existence, exact size and hash. No check removed or weakened; rerun passed before proposal/report/result publication",
+      "authority_or_input_missing": false
+    }
+  ],
+  "helpers": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/preflight.py",
+      "bytes": 12315,
+      "sha256": "10D49E8FDC2A1365628F46B0D79F31A984E39C4E0F7A7A466F4EC4ABCCA250F6"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/prepare-proposal.py",
+      "bytes": 52204,
+      "sha256": "D24BDA7AE48C20CD5CDEC18DEE2390D56D0A178F639288776E92A819FAEB2055"
+    }
+  ],
+  "classifications": {
+    "executed": "Current integrity, native JSON, in-memory proposal reconstruction, publication and readback checks only; not independent governance Verification or Review",
+    "source_inspection": "Current source bytes and applicable process/approval controls",
+    "reported": "Human start and selections as supplied; upstream investigation and audit conclusions remain process-owned",
+    "unverified": "Actual product lifecycle execution, premature assurance invocation, future actor capabilities or approvals; none asserted"
+  },
+  "limitations": [
+    "Read-only boundary procedural, not sandbox-enforced; ACL permits Modify",
+    "No exhaustive trusted event log; same-principal tampering or transient mutation/reversion not excluded",
+    "Endpoint hashes establish observed bytes, not a continuous mutation-free history",
+    "Human chat decision source has no exposed authenticated message ID or original timestamp",
+    "Future actors' runtime identity/capability/attempt/start not yet available and not required before their stage"
+  ]
+}

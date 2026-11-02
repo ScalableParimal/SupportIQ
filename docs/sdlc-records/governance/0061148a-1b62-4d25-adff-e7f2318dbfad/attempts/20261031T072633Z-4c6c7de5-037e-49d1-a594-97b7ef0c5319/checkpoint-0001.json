@@ -1,0 +1,28 @@
+{
+    "schema_version":  "sdlc-governance-remediation-checkpoint/v1",
+    "record_identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319:checkpoint-0001",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319",
+    "sequence":  1,
+    "captured_at_utc":  "2026-10-31T07:26:34.4252515Z",
+    "stage":  "preflight and admission determination",
+    "outcome":  "preflight PASS; admission ESTABLISHED; cycle GOV-REMEDIATION-PROSPECTIVE-001 (Cycle 1) allocated; no stage started",
+    "remediation_cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle_admitted":  true,
+    "bindings":  [
+                     {
+                         "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/attempt.json",
+                         "identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319",
+                         "byte_count":  9643,
+                         "sha256":  "7FDFCA6293642AC7B4F059C5C330021EE4BD563C7A84EDDC6377AF18213709C7",
+                         "role":  "own attempt"
+                     },
+                     {
+                         "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/evidence/remediation-cycle-evidence.json",
+                         "identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319:remediation-cycle-evidence",
+                         "byte_count":  58700,
+                         "sha256":  "ADD8246DAC6AC423DC950A840465B492937A883816CB3D698B9E2C6979C97980",
+                         "role":  "own preflight, admission and binding evidence"
+                     }
+                 ]
+}

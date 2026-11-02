@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "record_type": "authority_boundary_independent_readback",
+  "record_id": "20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494:authority_boundary_independent_readback",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Governance Amendment Application",
+  "creator": {
+    "role": "Governance Amendment Application",
+    "runtime_agent_id": "ec7a8339-a9b5-4710-bb5b-a8760309005d"
+  },
+  "created_at_utc": "2026-11-02T15:18:55.914503+00:00",
+  "clock_basis": "UTC record preparation, not exact publication time",
+  "outcome": "PASS",
+  "boundary": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494/evidence/application-authority-boundary.json",
+    "bytes": 9636,
+    "sha256": "A9479AE378DE4C371786EE116571C60ADC68BC03169AC241B9934F528B25ED6B"
+  },
+  "unpublished_generated_helper_cache_removed": [
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494/attachments/__pycache__/application-tool.cpython-314.pyc"
+  ],
+  "source_writes_started": false
+}

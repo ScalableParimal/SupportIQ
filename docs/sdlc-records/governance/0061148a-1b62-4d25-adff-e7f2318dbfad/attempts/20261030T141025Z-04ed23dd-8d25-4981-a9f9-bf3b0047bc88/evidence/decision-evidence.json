@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence_manifest",
+  "record_identity": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88:decision-evidence",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88",
+  "process": "Corrective Change Decision & Plan Update",
+  "creator": "Corrective Change Decision Agent, current new invocation",
+  "role": "Corrective Change Decision",
+  "created_at_utc": "2026-10-30T14:11:51.0238309Z",
+  "clock_basis": "Environment UTC sample at preparation boundary, not publication time",
+  "repository": {"canonical": "ScalableParimal/SupportIQ", "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ", "head_commit": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c", "tracked_changes": "None observed", "untracked": "docs/sdlc-records/"},
+  "invocation": {"path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/attempt.json", "sha256": "C1E4317145E28B8F96A2D55F4BC4A5397802735A8020CD8772E0EE92EAF89C89"},
+  "predecessor_bindings": "The invocation's predecessors array supplies all nine original report/result/evidence fingerprints and attempt-relative locations. Each predecessor is under the common attempts parent of this invocation. All nine were recomputed and matched before invocation publication.",
+  "local_binding_validation": {
+    "method": "Read every JSON file in the three predecessor attempts; recursively inspect objects with path and sha256 for docs/ai/, docs/sdlc-records/ or .github/; require presence and exact SHA-256 match",
+    "matched_count_including_duplicates": 224,
+    "failures": 0,
+    "scope_limit": "Administrative integrity resolution only, not a fresh Audit or substantive assessment of all source bodies. Non-path references, external identities and substantive approvals are not proved by this calculation.",
+    "historical_checkpoint": "Audit checkpoint-0001 remains retained as malformed record identity/not relied upon; original Audit evidence links checkpoint-0002 correction. No historical records repaired."
+  },
+  "source_inspection": [
+    {"path": ".github/skills/corrective-change-decision/SKILL.md", "sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3"},
+    {"path": ".github/agents/corrective-change-decision.agent.md", "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"},
+    {"path": "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md", "sha256": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203"},
+    {"path": "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md", "sha256": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7"},
+    {"path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md", "sha256": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038"},
+    {"path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md", "sha256": "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E"},
+    {"path": "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md", "sha256": "6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88"},
+    {"path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md", "sha256": "0495F43A8AFC8ECBBB7BA59FB0FEBCAF0A3276EB95EF16AE3B907636690645A7"},
+    {"path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md", "sha256": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B"},
+    {"path": "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md", "sha256": "19950013220CB93E88FFBA0606763E8FA93A8A60950E57360C50F9ACFCC9132A"},
+    {"path": "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md", "sha256": "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79"},
+    {"path": "docs/ai/sdlc/SDLC_GOVERNANCE.md", "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"},
+    {"path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md", "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"},
+    {"path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md", "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"}
+  ],
+  "authority": {
+    "master_status": "Fingerprint-bound comparison sources and current requested procedure references only; no adopted/approved target baseline established",
+    "root": "Existing governance-root continuity supported by local initial attempt and Investigation root-decision evidence; current user explicitly authorizes this own-record scope",
+    "external_source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+    "external_status": "Not freshly resolved remotely in this invocation. Prior local evidence reports ScalableParimal, OWNER, 2026-10-30T12:31:51Z, decision body SHA-256 CCD3904C70DE6692A310CC7E451460A1188D0121DB8C29E12FA935CF9C78C3C9. That source authorized Audit only and excluded initial Master adoption and subsequent stage starts.",
+    "current_stage_start": "Yes, initiate a new Corrective Change Decision invocation for these two findings.",
+    "stage_start_source": "Actual current user message in conversation",
+    "human_direction": {
+      "GOV-001": "Require a reserved stable Work ID for every executable request; 'not assigned' is draft-only and blocks invocation/publication",
+      "GOV-002": "Keep residual-risk acknowledgement as disclosure, not an additional approval-validity condition"
+    },
+    "direction_source": "Current user message, newly supplied Human direction; verbatim transcription expressly requested",
+    "available_time": "User-supplied current_datetime 2026-10-30T19:39:37.575+05:30; not asserted as independently authenticated decision event time",
+    "not_approval": "No exact amendment approved; no application authority or baseline adoption supplied"
+  },
+  "evidence_classification": {
+    "executed_administrative": "Git state/origin/identity queries, current Windows token and ACL inspection, SHA-256 recomputation, own-record flush/move/readback; no substantive runtime evidence",
+    "source_inspection": "Current governed procedure and affected governance source sections, prior reports/results/evidence and relevant Master authority/approval/persistence/adoption sections",
+    "reported": "Current conversational Human directions and initiation; predecessor process conclusions and external authorization history retained as attributable reports, not a fresh remote verification",
+    "unverified": "Adopted target Master baseline; historical author intent; actual unassigned-ID execution, rejected approval, runtime harm, external security constraints or absence thereof"
+  },
+  "operation_order": [
+    "Preflight reads and nine supplied predecessor digest checks; no decision analysis",
+    "Prepare own attempt.json.partial, parse, flush, no-overwrite File.Move, readback hash confirmation C1E4317145E28B8F96A2D55F4BC4A5397802735A8020CD8772E0EE92EAF89C89",
+    "After publication confirmation, inspect prior reports/evidence and actual affected source sections",
+    "Resolve 224 local path/hash bindings and current 14 directly relied-upon source fingerprints",
+    "Prepare checkpoint and report/evidence; publish after validation; terminal result follows all referenced records"
+  ],
+  "negative_search": {"paths": "All three complete Master comparison files", "pattern": "acknowledg|residual risk|transient write|same-principal", "matches": 0, "meaning": "Corroboration only; full relevant source authority/approval sections also inspected"},
+  "limits": [
+    "No product content inspected. No tests, builds, runtime reproduction, Audit rerun, independent Verification/Review or other governed stage performed.",
+    "Current request template remains a placeholder; current user scope and predecessor chain supply this invocation's inputs without editing the template.",
+    "No exclusive no-edit interval or exhaustive trusted OS event stream; endpoint matches are not proof against transient/same-principal mutation.",
+    "A directory lookup for docs/ai/governance failed during preflight; actual Master sources were located at docs/ai/sdlc. No writes or source effects from that lookup.",
+    "Exact filesystem publication time is not captured; ordered operation confirmations establish invocation-before-analysis.",
+    "Prior decision is historical; this new report does not overwrite or assert formal supersession of it, repair Audit evidence or adopt a baseline."
+  ]
+}

@@ -1,0 +1,534 @@
+{
+    "schema":  "independent-governance-review-evidence/v1",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+    "outcome":  "PASS",
+    "human_stage_start":  {
+                              "text":  "Yes, initiate Independent Governance Review of P1Ã¢â‚¬â€œP5 and the linked IGV-FIND-001 correction",
+                              "source":  "current parent conversation",
+                              "timestamp":  "2026-10-31T10:01:37.939+05:30",
+                              "external_message_id":  "not asserted"
+                          },
+    "reviewer":  {
+                     "role":  "Independent Governance Review",
+                     "os_identity":  "int-scl-010\\parimal",
+                     "sid":  "S-1-5-21-2809803128-1021655904-3966773769-1002",
+                     "definition_sha256":  "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+                 },
+    "roles":  [
+                  {
+                      "role":  "preparer",
+                      "attempt":  "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a",
+                      "sha256":  "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+                  },
+                  {
+                      "role":  "applier",
+                      "attempt":  "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+                      "sha256":  "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+                  },
+                  {
+                      "role":  "correction preparer",
+                      "attempt":  "20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d",
+                      "sha256":  "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+                  },
+                  {
+                      "role":  "correction publisher",
+                      "attempt":  "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694",
+                      "sha256":  "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+                  },
+                  {
+                      "role":  "verifier",
+                      "attempt":  "20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f",
+                      "sha256":  "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+                  },
+                  {
+                      "role":  "reviewer",
+                      "attempt":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+                      "sha256":  "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+                  }
+              ],
+    "current_verification":  {
+                                 "outcome":  "PASS",
+                                 "attempt":  "20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f",
+                                 "report_sha256":  "12E05DFCC7E2314952B9FF59CBCFF28E729DEAEEC3E2960AF7A78F5FDCA72085",
+                                 "result_sha256":  "8BFBE2B5601136459B6D45E958B06FD41C782B52BDA1B46F89251F3928CCE943",
+                                 "evidence_sha256":  "2EE04181FFE020B816BFBBEE0C4FBBD3B255962A12A50AA92C3E04EEF2B7C064"
+                             },
+    "targets":  [
+                    {
+                        "op":  "P1",
+                        "path":  "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                        "base":  "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E",
+                        "after":  "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+                        "bytes":  2108
+                    },
+                    {
+                        "op":  "P2",
+                        "path":  "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                        "base":  "0495F43A8AFC8ECBBB7BA59FB0FEBCAF0A3276EB95EF16AE3B907636690645A7",
+                        "after":  "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8",
+                        "bytes":  5773
+                    },
+                    {
+                        "op":  "P3",
+                        "path":  "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                        "base":  "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+                        "after":  "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+                        "bytes":  5718
+                    },
+                    {
+                        "op":  "P4",
+                        "path":  "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                        "base":  "19950013220CB93E88FFBA0606763E8FA93A8A60950E57360C50F9ACFCC9132A",
+                        "after":  "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97",
+                        "bytes":  2076
+                    },
+                    {
+                        "op":  "P5",
+                        "path":  "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                        "base":  "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79",
+                        "after":  "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+                        "bytes":  2098
+                    }
+                ],
+    "target_scope_result":  "Only these five tracked changes; all current bytes/hashes match the exact approved after fingerprints.",
+    "predecessors":  [
+                         {
+                             "stage":  "proposal",
+                             "attempt":  "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a",
+                             "report":  "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A",
+                             "result":  "B4A39B5A8862138F2AF04CB80520C15B2F86E5430D4D867938FBB91E0F6E19FA"
+                         },
+                         {
+                             "stage":  "P1-P5 application",
+                             "attempt":  "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+                             "report":  "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF",
+                             "result":  "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497"
+                         },
+                         {
+                             "stage":  "IGV-FIND-001 investigation",
+                             "attempt":  "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a",
+                             "result":  "32B77A49A835EE41FDA1EFC62211C2D7CD789C84872593A36A2A2AEF513F3DB8"
+                         },
+                         {
+                             "stage":  "linked correction proposal",
+                             "attempt":  "20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d",
+                             "report":  "8E299D41A613D9CBDDB2F6F4D7072BF2017A5EE58BD3A712FC881AE1267501F3",
+                             "result":  "9FA47FDDB6087960B727676570BB54123F2FF9CF39FAE153FB65B28A6AFF6AD1"
+                         },
+                         {
+                             "stage":  "record-only correction application",
+                             "attempt":  "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694",
+                             "report":  "D4E34D91737025AEC08A50A5971D58AEF57B9FFD35D439EF04FE423A563B0FBD",
+                             "result":  "18C9BE66FFE8ACD85EDDBB00F8FB76C4B3AC0F6F4923442ACAB2D5054F162890"
+                         }
+                     ],
+    "correction":  {
+                       "id":  "IGV-FIND-001",
+                       "bytes":  4212,
+                       "sha256":  "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2",
+                       "payload_attachment_byte_equal":  true,
+                       "UTF8_noBOM_LF_only":  true,
+                       "offsets":  [
+                                       27,
+                                       42
+                                   ],
+                       "scope":  "append-only qualification only"
+                   },
+    "manifests":  [
+                      {
+                          "path":  "checkpoint-0001.json",
+                          "sha256":  "D5A703B60B195173EF0B8479A4BBE0AA43F404FF56F5F9D6271B199E5E6F5FE5",
+                          "items":  129
+                      },
+                      {
+                          "path":  "checkpoint-0002.json",
+                          "sha256":  "47137A61DFB036ED4FF7A172C127D2E173D30E62B511F3789781188E3774A558",
+                          "extra_inputs":  4
+                      },
+                      {
+                          "path":  "checkpoint-0003.json",
+                          "sha256":  "8E813DAED6E4566089BB74999E0D2BD876FE346359DE35349706C5358E4457CE",
+                          "total_inputs":  133,
+                          "tracked":  28,
+                          "untracked_prior_records":  105,
+                          "preliminary_drift":  0
+                      }
+                  ],
+    "root_authority":  {
+                           "url":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+                           "api_comment_id":  6522916236,
+                           "author":  "ScalableParimal",
+                           "author_association":  "OWNER",
+                           "scope":  "root adoption and initial Audit only"
+                       },
+    "review_criteria":  [
+                            {
+                                "criterion":  "fresh stage-start, current Verification PASS, distinct reviewer",
+                                "status":  "PASS",
+                                "reason":  "Current user start follows passing verifier; current role/attempt distinct from preparer, appliers, verifier."
+                            },
+                            {
+                                "criterion":  "approved scope, exact proposal/approval/application",
+                                "status":  "PASS",
+                                "reason":  "Reviewed proposal sections 7-8, approval evidence, exact five-file diff and linked record-only correction."
+                            },
+                            {
+                                "criterion":  "P1 stable Work ID and reservation",
+                                "status":  "PASS",
+                                "reason":  "Draft-only not-assigned; allocate/collision-check; authorized no-overwrite attempt reserves; same-work continuation; other prerequisites retained."
+                            },
+                            {
+                                "criterion":  "P2-P5 residual-risk consistency",
+                                "status":  "PASS",
+                                "reason":  "Disclosure retained in exact proposal and gate reports/evidence; no separate approval-validity acknowledgement; all exact approval bindings remain."
+                            },
+                            {
+                                "criterion":  "52-core/seven mechanism boundary",
+                                "status":  "PASS",
+                                "reason":  "Targets are non-Master files; assurance mechanisms remain distinct and outside 52; seven mechanism groups remain separate."
+                            },
+                            {
+                                "criterion":  "authority, lifecycle, effectivity",
+                                "status":  "PASS",
+                                "reason":  "Application, Verification, Review, complete Audit and where applicable adoption remain separate; no effectiveness/adoption claim."
+                            },
+                            {
+                                "criterion":  "IGV-FIND-001 linked qualification",
+                                "status":  "PASS",
+                                "reason":  "Approved append-only exact 4212-byte correction matches payload; qualification only, no old-record rewrite or P1-P5 reapplication."
+                            },
+                            {
+                                "criterion":  "runtime evidence and nonmutation",
+                                "status":  "PASS",
+                                "reason":  "Bounded manifest/checkpoint and actor-visible event evidence; procedural assurance and residual risks disclosed; no input changes observed."
+                            }
+                        ],
+    "findings":  [
+
+                 ],
+    "provenance":  "Original and correction decisions are attributed parent-conversation evidence; no original message IDs or authenticated external event times asserted.",
+    "assurance":  {
+                      "procedural_nonmutation":  true,
+                      "write_capable_tools":  [
+                                                  "PowerShell",
+                                                  "apply_patch"
+                                              ],
+                      "authenticated_users_modify_acl":  true,
+                      "write_probe":  false,
+                      "coordinated_no_edit_interval":  false,
+                      "trusted_exhaustive_os_events":  false,
+                      "concurrency":  "not fully observable",
+                      "endpoint_hashes":  "do not prove absence of transient writes or same-principal tampering",
+                      "temp_hash_helper":  "created and removed from system temp during checkpoint readback; not evaluated or published"
+                  },
+    "historical_limitations":  [
+                                   "legacy ?7/?8 route-reference metadata retained",
+                                   "literal backslash-u escape in reported_expected retained",
+                                   "section 766 means line 766 within SDLC_GOVERNANCE Ã‚Â§24",
+                                   "Investigation byte-count correction 1762 to actual 1743 is append-only",
+                                   "no old report/result rewrite or whole-result supersession"
+                               ],
+    "operation_events":  [
+                             {
+                                 "order":  1,
+                                 "tool":  "conversation",
+                                 "operation":  "fresh human stage start",
+                                 "outcome":  "observed",
+                                 "paths":  "none",
+                                 "details":  "Exact current user instruction and supplied current_datetime; external event ID/time not asserted."
+                             },
+                             {
+                                 "order":  2,
+                                 "tool":  "functions.skill",
+                                 "operation":  "load independent-governance-review",
+                                 "outcome":  "loader reported not found",
+                                 "paths":  ".github/skills/independent-governance-review/SKILL.md",
+                                 "details":  "No source change; read current repository Skill directly."
+                             },
+                             {
+                                 "order":  3,
+                                 "tool":  "functions.view",
+                                 "operation":  "read stage definition bundle",
+                                 "outcome":  "read",
+                                 "paths":  "Review Skill, Agent, Guideline, Prompt, Request",
+                                 "details":  "Bounded execution sources."
+                             },
+                             {
+                                 "order":  4,
+                                 "tool":  "PowerShell/Git",
+                                 "operation":  "identity and repo baseline",
+                                 "outcome":  "read",
+                                 "paths":  "repo HEAD/status/index/worktree; Work ID root",
+                                 "details":  "Observed whoami, current branch/HEAD, tree state, directories, ACLs."
+                             },
+                             {
+                                 "order":  5,
+                                 "tool":  "PowerShell/.NET",
+                                 "operation":  "SHA-256 API probe",
+                                 "outcome":  "failed non-mutating",
+                                 "paths":  "none",
+                                 "details":  "SHA256.HashData unavailable; fallback Get-FileHash -Algorithm SHA256."
+                             },
+                             {
+                                 "order":  6,
+                                 "tool":  "PowerShell/Git",
+                                 "operation":  "tracked path query",
+                                 "outcome":  "initial command error, fallback successful",
+                                 "paths":  "manifest paths",
+                                 "details":  "git ls-files --error-unmatch stderr treated as terminating; no changes; one git ls-files list used."
+                             },
+                             {
+                                 "order":  7,
+                                 "tool":  "PowerShell/.NET",
+                                 "operation":  "publish initial reviewer attempt/checkpoint",
+                                 "outcome":  "readback/hash validated",
+                                 "paths":  "own attempt.json; own checkpoint-0001.json",
+                                 "details":  "CreateNew .partial, flush, JSON validation, atomic no-overwrite move, readback. A temporary hash-helper file in system temp was created/deleted, not an input/record."
+                             },
+                             {
+                                 "order":  8,
+                                 "tool":  "PowerShell/Get-FileHash/Git",
+                                 "operation":  "recompute checkpoint-0001 inputs",
+                                 "outcome":  "PASS",
+                                 "paths":  "129 exact manifest inputs and prior attempts path set",
+                                 "details":  "129 fingerprints matched; 105 prior Work-ID record paths matched; zero drift."
+                             },
+                             {
+                                 "order":  9,
+                                 "tool":  "functions.view/functions.rg",
+                                 "operation":  "read affected sources/records",
+                                 "outcome":  "read",
+                                 "paths":  "three Masters; five targets; connected review/verification/portability process files; proposal, original/linked application, old/current verification and investigation/decision chain",
+                                 "details":  "Full five-target diff and relevant governance clauses reviewed; no Audit run."
+                             },
+                             {
+                                 "order":  10,
+                                 "tool":  "functions.web_fetch",
+                                 "operation":  "resolve governance root decision",
+                                 "outcome":  "read",
+                                 "paths":  "GitHub issue comment 3/6522916236 and comment API",
+                                 "details":  "Canonical repo/commit/root/Work ID and author association OWNER matched; comment authorized initial Audit only, not current Review."
+                             },
+                             {
+                                 "order":  11,
+                                 "tool":  "PowerShell/.NET",
+                                 "operation":  "publish input extension checkpoint",
+                                 "outcome":  "readback/hash validated",
+                                 "paths":  "own checkpoint-0002.json",
+                                 "details":  "Added four connected Portability Guideline/Prompt/Skill/Agent fingerprints before reading them; rechecked original inputs/path set with zero drift."
+                             },
+                             {
+                                 "order":  12,
+                                 "tool":  "PowerShell/Windows identity",
+                                 "operation":  "check current permissions/role fingerprints",
+                                 "outcome":  "read",
+                                 "paths":  "current token; own attempt ACL; four role definitions",
+                                 "details":  "Enabled Authenticated Users; inherited Modify observed; hashes matched role bindings; no write probe."
+                             },
+                             {
+                                 "order":  13,
+                                 "tool":  "PowerShell/Get-FileHash/byte compare",
+                                 "operation":  "verify current five targets and linked correction",
+                                 "outcome":  "PASS",
+                                 "paths":  "five exact targets; proposal payload and applied correction attachment",
+                                 "details":  "Expected target bytes/hashes matched; correction payload and attachment byte-equal."
+                             },
+                             {
+                                 "order":  14,
+                                 "tool":  "PowerShell/.NET",
+                                 "operation":  "publish substantive checkpoint",
+                                 "outcome":  "readback/hash validated",
+                                 "paths":  "own checkpoint-0003.json",
+                                 "details":  "Criterion-level review recorded before final report/evidence/result publication."
+                             },
+                             {
+                                 "order":  15,
+                                 "tool":  "PowerShell/Get-FileHash",
+                                 "operation":  "validate unpublished evidence draft",
+                                 "outcome":  "detected and corrected before publication",
+                                 "paths":  "own evidence/review-evidence.json.partial; applier definition; Application report",
+                                 "details":  "A malformed 66-character hash assertion and truncated role digest were detected in the own draft, recomputed from actual files and corrected; no source or prior record changed."
+                             }
+                         ],
+    "event_coverage":  "Actor-visible tool operation order from this conversation only; tool start/completion timestamps are not exposed; no exhaustive OS event stream.",
+    "next_gate":  "Complete Governance Audit only after separate fresh human stage-start; not invoked.",
+    "output_scope":  [
+                         "attempt.json",
+                         "checkpoint-0001.json",
+                         "checkpoint-0002.json",
+                         "checkpoint-0003.json",
+                         "report.md",
+                         "result.json",
+                         "evidence/review-evidence.json"
+                     ],
+    "prepublication_draft_validation":  {
+                                            "issue":  "Unpublished evidence draft contained a 62-character role digest and a malformed 66-character manually entered Application report digest.",
+                                            "action":  "Recomputed role definition and Application report hashes from current files (SHA-256); replaced only this reviewer-owned unpublished .partial evidence; final package is not published until revalidated.",
+                                            "correct_application_report_sha256":  "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF",
+                                            "source_effect":  "none"
+                                        },
+    "chain_records":  [
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/report.md",
+                              "bytes":  39437,
+                              "sha256":  "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/result.json",
+                              "bytes":  10242,
+                              "sha256":  "B4A39B5A8862138F2AF04CB80520C15B2F86E5430D4D867938FBB91E0F6E19FA"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/report.md",
+                              "bytes":  15640,
+                              "sha256":  "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/result.json",
+                              "bytes":  34763,
+                              "sha256":  "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/approval-context.json",
+                              "bytes":  9399,
+                              "sha256":  "853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/application-evidence.json",
+                              "bytes":  50575,
+                              "sha256":  "66E9194F37BACD10627D1D7F35F3E02DE2E3908E408CBCDED3D6A3C5402949A5"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/report.md",
+                              "bytes":  13529,
+                              "sha256":  "9F6301EBBF38B7DA8B4C46AEDB90FFFE17463C2E92B94E8F36B367FC39185908"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/result.json",
+                              "bytes":  7202,
+                              "sha256":  "00A4CA551BFA963406BB6D4F0CEB622D3EB69915B0EE186A970D5F462737137F"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/evidence/verification-evidence.json",
+                              "bytes":  44778,
+                              "sha256":  "A5C853CA62C715D5A075A611B2E6ED0DED09EE4E50EC9A17988B605B293F2769"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/report.md",
+                              "bytes":  16664,
+                              "sha256":  "4CA6CC42F1D37A84B061B89F8EE0084C1CE5A16EC15F7DDFD06FF323AE19A89F"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/result.json",
+                              "bytes":  5570,
+                              "sha256":  "32B77A49A835EE41FDA1EFC62211C2D7CD789C84872593A36A2A2AEF513F3DB8"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/evidence/investigation-evidence.json",
+                              "bytes":  9769,
+                              "sha256":  "B3FF7EEB65E2A05A94BEBA58256704A8067D5C39CA1183C75E99EE0CDA34A03A"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/result-correction-0001.json",
+                              "bytes":  2032,
+                              "sha256":  "28A95FCC52585961D50100D71F2C4F12932C26E182A6B1EC2C6511532BA5C4E0"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/report.md",
+                              "bytes":  23251,
+                              "sha256":  "DD224055E39F884F389CFEAFEB4F22082D5BE96E7DB4AA5DA979F71FB150CF33"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/result.json",
+                              "bytes":  8633,
+                              "sha256":  "06DA600FC551C901FE0EF56EED17C3F10382D144E4F210E70D58F12F68FF8CA7"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/evidence/decision-evidence.json",
+                              "bytes":  8094,
+                              "sha256":  "6B9E709801133E2E3643C17D1C4C8F8BE89C84862442832F6CB40EDE2EC0783F"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/report.md",
+                              "bytes":  15984,
+                              "sha256":  "8E299D41A613D9CBDDB2F6F4D7072BF2017A5EE58BD3A712FC881AE1267501F3"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/result.json",
+                              "bytes":  5768,
+                              "sha256":  "9FA47FDDB6087960B727676570BB54123F2FF9CF39FAE153FB65B28A6AFF6AD1"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/evidence/proposed-correction.md",
+                              "bytes":  4212,
+                              "sha256":  "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/report.md",
+                              "bytes":  17785,
+                              "sha256":  "D4E34D91737025AEC08A50A5971D58AEF57B9FFD35D439EF04FE423A563B0FBD"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/result.json",
+                              "bytes":  9991,
+                              "sha256":  "18C9BE66FFE8ACD85EDDBB00F8FB76C4B3AC0F6F4923442ACAB2D5054F162890"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/approval-context.json",
+                              "bytes":  12651,
+                              "sha256":  "979A339878F2C304D587EB2D2517603AF34812C6088881D97041B24654C60BCE"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/application-evidence.json",
+                              "bytes":  15386,
+                              "sha256":  "94E5319191AA795EDF3B5202D67CD2BDFB3402EF20455DFE89D3153971BB4D4C"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attachments/IGV-FIND-001-approval-transcription-correction.md",
+                              "bytes":  4212,
+                              "sha256":  "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/report.md",
+                              "bytes":  9336,
+                              "sha256":  "12E05DFCC7E2314952B9FF59CBCFF28E729DEAEEC3E2960AF7A78F5FDCA72085"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/result.json",
+                              "bytes":  8892,
+                              "sha256":  "8BFBE2B5601136459B6D45E958B06FD41C782B52BDA1B46F89251F3928CCE943"
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/verification-evidence.json",
+                              "bytes":  23655,
+                              "sha256":  "2EE04181FFE020B816BFBBEE0C4FBBD3B255962A12A50AA92C3E04EEF2B7C064"
+                          }
+                      ],
+    "masters":  [
+                    {
+                        "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                        "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                        "status":  "candidate/unadopted"
+                    },
+                    {
+                        "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                        "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                        "status":  "candidate/unadopted"
+                    },
+                    {
+                        "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                        "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C",
+                        "status":  "candidate/unadopted"
+                    }
+                ],
+    "investigation_byte_correction":  {
+                                          "record":  "attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/result-correction-0001.json",
+                                          "sha256":  "28A95FCC52585961D50100D71F2C4F12932C26E182A6B1EC2C6511532BA5C4E0",
+                                          "prior_reported":  1762,
+                                          "corrected_bytes":  1743,
+                                          "checkpoint_sha256":  "BD0EEC2AF56ED397C82839B04F6C1E5E25D6AAB49CBD5B8F910D12601061F6A3",
+                                          "scope":  "append-only correction to only /checkpoint/bytes; original result retained"
+                                      },
+    "application_report_sha256_recomputed":  "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF"
+}

@@ -1,0 +1,46 @@
+{
+    "schema":  "independent-governance-review-checkpoint/v1",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+    "checkpoint":  4,
+    "phase":  "post-report-evidence-publication-preterminal-result",
+    "capturedAt":  "2026-10-31T04:48:36.8121353Z",
+    "inputCount":  133,
+    "inputMismatches":  0,
+    "priorWorkIdPathCount":  105,
+    "unexpectedPaths":  0,
+    "missingPriorPaths":  0,
+    "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch":  "sdlc-framework-onboarding",
+    "trackedChanges":  [
+                           "M\tdocs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                           "M\tdocs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                           "M\tdocs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                           "M\tdocs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                           "M\tdocs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+                       ],
+    "stagedChanges":  [
+
+                      ],
+    "publishedOutputs":  [
+                             {
+                                 "path":  "report.md",
+                                 "bytes":  14134,
+                                 "sha256":  "27F896E26C90FFC846F51530B2FD5B9E196292B4EEDA433CADFE339C331C4ED4"
+                             },
+                             {
+                                 "path":  "evidence/review-evidence.json",
+                                 "bytes":  37414,
+                                 "sha256":  "C5E85298818969C30F15CC309FC53D1C7FF99E21267028A05510B5F588E7B9D5"
+                             }
+                         ],
+    "resultStatus":  "not yet published",
+    "operationEvent":  {
+                           "order":  16,
+                           "tool":  "PowerShell",
+                           "operation":  "first terminal publication attempt",
+                           "outcome":  "stopped before result partial",
+                           "details":  "Test-Path expression used invalid -or parameter; report/evidence were already atomically published and hash-validated; no result path or result partial was created; no evaluated input changed."
+                       },
+    "concurrency":  "No coordinated no-edit interval or exhaustive OS event stream; snapshot only."
+}

@@ -1,0 +1,47 @@
+{
+    "schema":  "independent-governance-review-checkpoint/v1",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+    "checkpoint":  5,
+    "phase":  "final-pre-result-reviewer-checkpoint",
+    "capturedAt":  "2026-10-31T04:49:24.6717392Z",
+    "inputCount":  133,
+    "inputMismatches":  0,
+    "priorRecordPaths":  105,
+    "unexpectedPaths":  0,
+    "missingPriorPaths":  0,
+    "repository":  {
+                       "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "branch":  "sdlc-framework-onboarding",
+                       "diffPaths":  [
+                                         "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                         "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                         "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                         "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                         "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+                                     ],
+                       "staged":  [
+
+                                  ]
+                   },
+    "report":  {
+                   "bytes":  14134,
+                   "sha256":  "27F896E26C90FFC846F51530B2FD5B9E196292B4EEDA433CADFE339C331C4ED4"
+               },
+    "evidence":  {
+                     "bytes":  37414,
+                     "sha256":  "C5E85298818969C30F15CC309FC53D1C7FF99E21267028A05510B5F588E7B9D5"
+                 },
+    "priorCheckpoint":  {
+                            "path":  "checkpoint-0004.json",
+                            "sha256":  "1BD27C03D5CD669ED804A0CD01FB564DD77BC89660E8E0195E73FE7B87F25308"
+                        },
+    "operationEvent":  {
+                           "order":  17,
+                           "tool":  "PowerShell/Git",
+                           "operation":  "second terminal-result precheck",
+                           "outcome":  "stopped before result partial; no input changes",
+                           "details":  "A comparison of git diff --name-status against space-delimited expected values falsely failed because Git emits tab delimiters. Follow-up nonmutating check confirmed 133 input fingerprints, 105 prior paths, exact five diff paths using --name-only, no staged changes, no result or partial. Final check now uses name-only path set."
+                       },
+    "concurrency":  "No coordinated no-edit interval or exhaustive OS event stream; snapshot only."
+}

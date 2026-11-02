@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "record_type": "final_validation_checkpoint",
+  "record_id": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:final_validation_checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "attempt_id": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824",
+  "creator": "Finding Investigation Agent / current direct conversation invocation",
+  "role": "Finding Investigation",
+  "process": "Finding Investigation",
+  "created_at_utc": "2026-11-02T08:54:39.237037+00:00",
+  "clock_basis": "Current host UTC preparation sample, not publication time",
+  "ordered_ledger": [
+    {
+      "sequence": "S005a",
+      "event": "Separate-process validation stopped at an investigator-written unsupported minimum of 15 report anchors; actual report has 13. No checkpoint/result/partial publication occurred; inspected actual fields and anchor inventory; no report defect or missing reference found."
+    },
+    {
+      "sequence": "S005b",
+      "event": "Replaced only in-memory validator minimum with exact observed-anchor coverage; all 13 textual anchor bindings and every nested JSON binding independently rechecked. Strict UTF-8, exact 14 headings, absence of unresolved report substitutions, Human quote codepoints, historical exact codepoint distinction, all source/old-record snapshot hashes PASS. Published report/evidence unchanged."
+    }
+  ],
+  "bindings": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/attempt.json",
+      "sha256": "E9332DCBF1E58C45BC5CD33505D0549CA72E1D9E2170ACAFE42D7FAF8938B3B5",
+      "bytes": 98673,
+      "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:attempt.json"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/checkpoint-0001.json",
+      "sha256": "759EEB9E91CFD21DB53CB44B3524D60C515D8AB8CD44B89E1E034AA38A612E57",
+      "bytes": 1409,
+      "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:checkpoint-0001.json"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/report.md",
+      "sha256": "3C6496F1EBC96BAA77573A77D928424914DA533B56081247273B6C3B4E5ABB40",
+      "bytes": 20057,
+      "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:report.md"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/evidence/investigation-evidence.json",
+      "sha256": "8FB5CF17464D416CFC0E7451C2967594E5B60E983F3473A9B258D02BE619FC98",
+      "bytes": 48709,
+      "identity": "evidence:investigation-evidence.json"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/evidence/publication.py",
+      "sha256": "9011EC9E57F4AF3DDF33DA75B17173F1202ABE4AD1B81D8DF790760E6ED19E78",
+      "bytes": 40363,
+      "identity": "evidence:publication.py"
+    }
+  ],
+  "report_required_fields": [
+    {
+      "number": 1,
+      "name": "Finding summary",
+      "status": "PASS"
+    },
+    {
+      "number": 2,
+      "name": "Finding source",
+      "status": "PASS"
+    },
+    {
+      "number": 3,
+      "name": "Finding validation",
+      "status": "PASS"
+    },
+    {
+      "number": 4,
+      "name": "Evidence",
+      "status": "PASS"
+    },
+    {
+      "number": 5,
+      "name": "Expected behavior",
+      "status": "PASS"
+    },
+    {
+      "number": 6,
+      "name": "Actual behavior",
+      "status": "PASS"
+    },
+    {
+      "number": 7,
+      "name": "Root cause",
+      "status": "PASS"
+    },
+    {
+      "number": 8,
+      "name": "Impact assessment",
+      "status": "PASS"
+    },
+    {
+      "number": 9,
+      "name": "Corrective options",
+      "status": "PASS"
+    },
+    {
+      "number": 10,
+      "name": "Recommended option",
+      "status": "PASS"
+    },
+    {
+      "number": 11,
+      "name": "Human decision requirement",
+      "status": "PASS"
+    },
+    {
+      "number": 12,
+      "name": "Remaining uncertainties",
+      "status": "PASS"
+    },
+    {
+      "number": 13,
+      "name": "Investigation outcome",
+      "status": "PASS"
+    },
+    {
+      "number": 14,
+      "name": "Recommended next process",
+      "status": "PASS"
+    }
+  ],
+  "report_anchor_count": 13,
+  "all_current_source_hashes_match": true,
+  "all_preexisting_record_hashes_match": true,
+  "terminal_result_not_yet_published": true,
+  "scope_limits": "Same process actor, separate OS process readback; not a separate governed Verification/Review. Endpoint validation is not exhaustive concurrency proof."
+}

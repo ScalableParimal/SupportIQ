@@ -1,0 +1,47 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_identity":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6:checkpoint-0001",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6",
+    "process":  "Corrective Change Decision \u0026 Plan Update",
+    "checkpoint_sequence":  "0001",
+    "created_at_utc":  "2026-10-30T14:02:11.0039310Z",
+    "status":  "analysis_boundary_established",
+    "source_state":  {
+                         "repository":  "ScalableParimal/SupportIQ",
+                         "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                         "tracked_modifications":  "None observed",
+                         "working_tree":  "Only untracked docs/sdlc-records/ process records observed"
+                     },
+    "stage_start":  {
+                        "source":  "Current user message",
+                        "wording":  "Yes, initiate for GOV-001 and GOV-002.",
+                        "scope":  "This decision process only for GOV-001/GOV-002",
+                        "approval":  "No correction approval; no proposal application authority"
+                    },
+    "predecessors":  {
+                         "audit_attempt":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4",
+                         "audit_outcome":  "CANNOT COMPLETE AUDIT",
+                         "investigation_attempt":  "20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535",
+                         "investigation_outcome":  "REQUIREMENT OR PLAN CLARIFICATION REQUIRED",
+                         "input_integrity":  "All six supplied predecessor hashes recomputed and match"
+                     },
+    "boundary":  {
+                     "master_baseline":  "Not adopted/approved; three Master fingerprints are comparison sources only",
+                     "decisions":  [
+                                       "GOV-001: ADDITIONAL EVIDENCE REQUIRED, separately assessed",
+                                       "GOV-002: ADDITIONAL EVIDENCE REQUIRED, separately assessed"
+                                   ],
+                     "product_requirement":  "N/A, governance-template finding",
+                     "approved_implementation_plan":  "N/A, no product plan applicable or established",
+                     "plan_change":  "N/A",
+                     "no_source_modification":  true,
+                     "no_proposal_prepared":  true,
+                     "no_tests_or_builds":  true
+                 },
+    "needed":  {
+                   "GOV_001":  "Attributable clarification of applicable source/baseline status and human choice whether the unassigned state is draft-only or must be a mandatory executable input",
+                   "GOV_002":  "Attributable clarification of source/baseline status and explicit human choice between disclosure-only treatment and a Master-governed additional approval-content condition"
+               }
+}

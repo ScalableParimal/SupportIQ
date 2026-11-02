@@ -1,0 +1,306 @@
+{
+  "record_type": "independent_governance_verification_invocation",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Independent Governance Verification",
+  "created_at_utc": "2026-11-02T15:26:32.041903+00:00",
+  "actor": {
+    "runtime_agent_id": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+    "role": "Independent Governance Verification",
+    "runtime_agent_id_basis": "list_agents(scope=all): sole running agent is Lifecycle and Timing Verification; current assigned role; not shared session title",
+    "copilot_agent_session_id": "edd4a15d-4bb2-4605-a897-0e019144523c",
+    "host_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "effective_principal": "INT-SCL-010\\Parimal",
+    "externally_authenticated_identity_claimed": false
+  },
+  "fresh_human_start": "Yes, initiate Independent Governance Verification for the GOV-AUD-20261102-003 and GOV-AUD-20261102-004 five-file Application only",
+  "human_attribution": "Actual current human request supplied to this invocation; no authenticated message ID or decision timestamp exposed or invented",
+  "stage_scope": "Completed five-file Application only; no Review, Audit, adoption, fixes, product work, staging, commit or push",
+  "separation": {
+    "preparer": "4d0c3747-fde6-48c7-b125-5adb2af5b80c",
+    "applier": "ec7a8339-a9b5-4710-bb5b-a8760309005d",
+    "verifier": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+    "reviewer": "planned independent-governance-review definition only, no current runtime asserted",
+    "not_active_remediation_or_orchestrator": true
+  },
+  "capabilities": {
+    "read": "Get-Content/Path.read_bytes successfully used for required role/guideline/prompt/request and stage handoff resolution",
+    "sha256": "Get-FileHash and hashlib available; skill fingerprint independently computed",
+    "checks": "Python 3, Git read-only queries with --no-optional-locks, full hidden-inclusive inventory available",
+    "source_write_exclusion": false,
+    "own_publication": "Current Human explicitly authorizes only new verifier-owned attempt records; inherited Authenticated Users Modify; actual publication of manifest demonstrates capability",
+    "permissions": "INT-SCL-010\\Parimal; attempt root inherited Users ReadAndExecute; Authenticated Users Modify; Administrators/SYSTEM FullControl; no write probe",
+    "events": "Actor-visible ordered tool calls in conversation; helper structured ordered read/hash/check/publication events",
+    "unavailable": "No exhaustive trusted OS event stream, external authentication, source-write sandbox or same-principal tamper exclusion"
+  },
+  "assurance_mode": "procedural non-mutation",
+  "residual_risks": [
+    "Matching endpoint fingerprints cannot prove absence of transient writes or same-principal tampering",
+    "Shared principal/tools can write, but have no authority to alter sources or upstream records",
+    "No coordinated exclusive filesystem lock; registry shows only this running invocation, idle metadata is not evidence of live writers; external concurrency cannot be excluded"
+  ],
+  "publication_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+  "exact_owned_output_names": [
+    "verifier.py",
+    "manifest.json",
+    "invocation.json",
+    "invocation-readback.json",
+    "checkpoint-0001.json",
+    "checkpoint-0002.json",
+    "checkpoint-final.json",
+    "verification-evidence.json",
+    "report.md",
+    "result.json"
+  ],
+  "manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/manifest.json",
+    "bytes": 254753,
+    "sha256": "798F4686A3304EE12E28A28B46C5EF6E830C683EB19E5AD69591664ABA9E64A1"
+  },
+  "preliminary_operations": [
+    "Read mandatory skill through Get-Content",
+    "get_current_session: shared host metadata, not role proof",
+    "Environment identity + Get-FileHash + Get-Acl permissions probe",
+    "Read required role, guideline, prompt and request; directory/instruction discovery",
+    "Read Git status/HEAD/branch without optional locks; locate masters",
+    "Read proposal/application result actor and authority metadata only for qualification",
+    "list_agents all scope: one running verifier; idle entries not live writers"
+  ],
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:31.312461+00:00",
+      "operation": "native JSON strict serialize/parse equality self-test",
+      "paths": [],
+      "outcome": "OK",
+      "test_pass": true
+    },
+    {
+      "sequence": 2,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:31.387915+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "ls-files",
+        "-z"
+      ],
+      "stdout_sha256": "7DBA28382315E2384C5AB894C4DAC385E255D11FC3DFA439D43BDF14CF1DEB7F",
+      "returncode": 0
+    },
+    {
+      "sequence": 3,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:31.688484+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "rev-parse",
+        "HEAD"
+      ],
+      "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+      "returncode": 0
+    },
+    {
+      "sequence": 4,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:31.761317+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "branch",
+        "--show-current"
+      ],
+      "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+      "returncode": 0
+    },
+    {
+      "sequence": 5,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:31.854602+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=all"
+      ],
+      "stdout_sha256": "C1A13DC39C9614768D4B43974C3D98254D6613A26E6726AAF67D9E8303EC8C8D",
+      "returncode": 0
+    },
+    {
+      "sequence": 6,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:31.919817+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "diff",
+        "--cached",
+        "--binary",
+        "--no-ext-diff"
+      ],
+      "stdout_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "returncode": 0
+    },
+    {
+      "sequence": 7,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:31.997321+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "diff",
+        "--binary",
+        "--no-ext-diff"
+      ],
+      "stdout_sha256": "AD3E80B6DCF7CA66D42EB0FA473CF0E11D501EF211F71867F3DD4D876A77C638",
+      "returncode": 0
+    },
+    {
+      "sequence": 8,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:31.998564+00:00",
+      "operation": "hidden-inclusive bounded inventory, SHA256 and Git state",
+      "paths": [
+        "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+      ],
+      "outcome": "OK",
+      "files": 490,
+      "path_set_sha256": "2C3027AA6FB30CC65FF79DDE0D91D359A89781392C46811196BF1FB27E168572"
+    },
+    {
+      "sequence": 9,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+      "observed_at_utc": "2026-11-02T15:26:32.040883+00:00",
+      "operation": "validated flushed partial -> atomic no-overwrite rename -> read/hash",
+      "paths": [
+        "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/manifest.json"
+      ],
+      "outcome": "OK",
+      "bytes": 254753,
+      "sha256": "798F4686A3304EE12E28A28B46C5EF6E830C683EB19E5AD69591664ABA9E64A1"
+    }
+  ],
+  "schema_version": "1.0",
+  "record_id": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818:invocation.json",
+  "feature": "Governance-only F003/F004; product feature N/A",
+  "creator": {
+    "role": "Independent Governance Verification",
+    "runtime_agent_id": "8e0bf478-bfeb-461b-90ed-64033f60f8d5"
+  },
+  "clock_basis": "UTC record preparation, not exact publication time",
+  "repository_context": {
+    "canonical_repository": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding"
+  },
+  "inputs": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/report.md",
+      "bytes": 39577,
+      "sha256": "A925ECCE1D7593DE1955EC0CA416A1BDFD1AA67A5B1800129BF8FA3C1B685677"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/exact-proposal.json",
+      "bytes": 21495,
+      "sha256": "086D48C77EC7D6C052615498DC82B380493B2C0610F9AAF070D1FFF08580D29C"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/minimal.patch",
+      "bytes": 13651,
+      "sha256": "DFE0F97EE5EC19D0194E6FFB9FC2C3CD5104F41B9B9DCA908837556E1E99F1DD"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494/result.json",
+      "bytes": 10315,
+      "sha256": "2B45D3CC36B665D0CCB561D0C0C32DADA35D9260319A62A1AC6B8B36B1B80CF7"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494/evidence/human-authorization.json",
+      "bytes": 22816,
+      "sha256": "7FF147C1C7E0DDBCB387117AADFCD503E122A44358CD0547A7F124A293653853"
+    }
+  ],
+  "applicable_task_context": "N/A: governance-only subject; no product Requirement or Plan",
+  "predecessor": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T151349Z-3854bfdb-50d5-4983-bc80-00f7759b6494/result.json",
+    "bytes": 10315,
+    "sha256": "2B45D3CC36B665D0CCB561D0C0C32DADA35D9260319A62A1AC6B8B36B1B80CF7"
+  },
+  "retry": {
+    "previous_attempt": "20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869",
+    "reason": "Preserve initial preparatory invocation unchanged; common structured metadata incomplete. No terminal conclusion or handoff. Repeat all substantive checks only after this qualified invocation publication/readback."
+  },
+  "governing_definitions": [
+    {
+      "path": ".github/agents/independent-governance-verification.agent.md",
+      "bytes": 1393,
+      "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+    },
+    {
+      "path": ".github/skills/independent-governance-verification/SKILL.md",
+      "bytes": 1973,
+      "sha256": "26FBFC8E4495F33C4E92F843CFFFBC476ABD42D931D201EA9E75EC986E62E270"
+    },
+    {
+      "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "bytes": 5773,
+      "sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8"
+    },
+    {
+      "path": "docs/ai/prompts/INDEPENDENT_GOVERNANCE_VERIFICATION_PROMPT.md",
+      "bytes": 1326,
+      "sha256": "BA7592B3AEB09C579EB166EA528E5450A18E6838FC31C2C8BC216877D529254B"
+    },
+    {
+      "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+      "bytes": 2076,
+      "sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97"
+    }
+  ],
+  "existing_governance_root": {
+    "root": "docs/sdlc-records/governance/",
+    "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+    "fresh_resolution": "github issue_read get_comments during qualification; OWNER ScalableParimal id 226102895; comment 6522916236 created/updated 2026-10-30T12:31:51Z; exact root/repository/WorkID/HEAD/Master hashes match",
+    "authority_boundary": "Original bootstrap stage not reused. Current Human fresh Verification start and normal finding-led continuation under Governance section 3; no product-root or Master adoption"
+  },
+  "preliminary_operation_evidence": "Current conversation's ordered tool calls including root-authority resolution, Master governing-rule reads and discovery before corrected invocation. No retained substantive verdict; all checks repeated after readback."
+}

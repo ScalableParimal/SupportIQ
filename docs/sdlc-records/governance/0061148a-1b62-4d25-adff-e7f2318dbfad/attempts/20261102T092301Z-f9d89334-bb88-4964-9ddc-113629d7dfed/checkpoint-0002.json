@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "record_type": "final_validation_checkpoint",
+  "record_id": "20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed:final_validation_checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "creator": "20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed",
+  "role": "Corrective Change Decision",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:25:56.658250+00:00",
+  "clock_basis": "Host UTC preparation sample, not filesystem publication time",
+  "sequence": "0002",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attempt.json",
+    "bytes": 87496,
+    "sha256": "8EDA2344DB8D5312AF43CBBED844F21D6349798CC62CD6EA739E99E9CF1EDE34"
+  },
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/report.md",
+    "bytes": 21731,
+    "sha256": "F96D1A37D0F9CE9C5D423C86B84531D80E7C27D945C52FE559586792491D196F"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/evidence/recovery-decision-evidence.json",
+    "bytes": 510650,
+    "sha256": "E64459F826D5B76D025A51449E8A7F14FE8F937C9A0FEE00987BEDA7128767CF"
+  },
+  "approval_request": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attachments/exact-recovery-approval-request.json",
+    "bytes": 12552,
+    "sha256": "4938CCC6829B21AF4281CFB94D32DCBB4FC1F50D2C1AC16630B4D8C1A2C46097"
+  },
+  "prior_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/checkpoint-0001.json",
+    "bytes": 2538,
+    "sha256": "FAFB8E6F226BB7FC3A55FBB04A8981DCC6EE894812AD40DED41352ED12D7DF1D"
+  },
+  "last_confirmed_boundary": "Separate-process actual report content, 1630 JSON references, 16 report citations and unchanged payload PASS; subsequent independent exact request readback PASS",
+  "request_readback_reference_count": 13,
+  "execution_termination": "COMPLETED bounded recovery decision; no Application",
+  "pending_gate": "One combined explicit Human new-attempt publisher redesignation and exact recovery-package approval; later separate fresh Application start",
+  "no_retry_directory_created": true,
+  "new_target_base": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attachments/GOV-AUD-20261102-001-linked-clarification.md",
+    "presence": "ABSENT",
+    "base_sha256": null,
+    "base_bytes": null,
+    "attempt_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+    "attempt_presence": "ABSENT",
+    "method": "Nonmutating os.path.lexists false for proposed attempt and exact target",
+    "semantics": "No base bytes; not an empty-file hash; observation not reservation. Recheck before any later approved write."
+  },
+  "original_payload": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T090405Z-a7fe416c-9a1d-4153-9c46-180a65e86436/attachments/proposed-linked-clarification.md",
+    "bytes": 3438,
+    "sha256": "8887DC81719F3D3E044323A1D32C1CA93D9102F03FD6F28CB79DC5608D3C8FFA"
+  },
+  "preservation": {
+    "files": 293,
+    "all_bytes_paths_head_branch_status_match": true,
+    "old_payload_target_absent": true,
+    "exclusion": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed",
+    "limitation": "Point-in-time only; transient same-principal tampering/unobserved concurrent writes cannot be excluded; no exhaustive execution log"
+  },
+  "unfinished_work": "Publish terminal result after independent readback of this checkpoint only; no downstream stage",
+  "limits": "Write-capable shared OS principal; no sandbox/no-edit window/repository lock/continuous monitoring/exhaustive log. Endpoint hashes cannot exclude transient same-principal tampering.",
+  "timestamp_limit": "Preparation clock samples only; no exact publication time claim"
+}

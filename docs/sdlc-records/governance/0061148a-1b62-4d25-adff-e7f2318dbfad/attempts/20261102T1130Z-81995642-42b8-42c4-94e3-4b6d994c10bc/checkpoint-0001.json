@@ -1,0 +1,16 @@
+{
+    "schema_version":  1,
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T1130Z-81995642-42b8-42c4-94e3-4b6d994c10bc",
+    "checkpoint":  "0001",
+    "manifest_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-81995642-42b8-42c4-94e3-4b6d994c10bc/attachments/input-manifest-0001.json",
+    "manifest_bytes":  100088,
+    "manifest_sha256":  "E22925DFBD8E2E003FE6FC6C43BC2B50073CAFC13F27E5AC42FF1E8F3BE5B26F",
+    "file_count":  361,
+    "directory_count":  95,
+    "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch":  "sdlc-framework-onboarding",
+    "index_sha256":  "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6",
+    "publication_order":  "Invocation attempt separately read back before this precheck manifest",
+    "observed_utc":  "2026-11-02T11:30:42.0216580Z"
+}

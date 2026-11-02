@@ -1,0 +1,98 @@
+{
+    "schema":  "independent-governance-review-result/v1",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+    "stage":  "Independent Governance Review",
+    "outcome":  "PASS",
+    "termination":  "COMPLETED",
+    "reviewer_definition_sha256":  "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E",
+    "canonical_report":  {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/report.md",
+                             "bytes":  14134,
+                             "sha256":  "27F896E26C90FFC846F51530B2FD5B9E196292B4EEDA433CADFE339C331C4ED4",
+                             "readback_validated":  true
+                         },
+    "evidence":  {
+                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/evidence/review-evidence.json",
+                     "bytes":  37414,
+                     "sha256":  "C5E85298818969C30F15CC309FC53D1C7FF99E21267028A05510B5F588E7B9D5",
+                     "readback_validated":  true
+                 },
+    "current_verification":  {
+                                 "attempt":  "20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f",
+                                 "outcome":  "PASS",
+                                 "report_sha256":  "12E05DFCC7E2314952B9FF59CBCFF28E729DEAEEC3E2960AF7A78F5FDCA72085",
+                                 "result_sha256":  "8BFBE2B5601136459B6D45E958B06FD41C782B52BDA1B46F89251F3928CCE943",
+                                 "evidence_sha256":  "2EE04181FFE020B816BFBBEE0C4FBBD3B255962A12A50AA92C3E04EEF2B7C064"
+                             },
+    "input_manifest_bindings":  [
+                                    {
+                                        "path":  "checkpoint-0001.json",
+                                        "sha256":  "D5A703B60B195173EF0B8479A4BBE0AA43F404FF56F5F9D6271B199E5E6F5FE5",
+                                        "items":  129
+                                    },
+                                    {
+                                        "path":  "checkpoint-0002.json",
+                                        "sha256":  "47137A61DFB036ED4FF7A172C127D2E173D30E62B511F3789781188E3774A558",
+                                        "added":  4
+                                    },
+                                    {
+                                        "path":  "checkpoint-0003.json",
+                                        "sha256":  "8E813DAED6E4566089BB74999E0D2BD876FE346359DE35349706C5358E4457CE"
+                                    },
+                                    {
+                                        "path":  "checkpoint-0004.json",
+                                        "sha256":  "1BD27C03D5CD669ED804A0CD01FB564DD77BC89660E8E0195E73FE7B87F25308"
+                                    },
+                                    {
+                                        "path":  "checkpoint-0005.json",
+                                        "sha256":  "8B571A6E00D7F9A74AFC200FE0BBCFAE2D459328EA3F462961FDB1948031A78F"
+                                    }
+                                ],
+    "pre_result_snapshot":  {
+                                "captured_utc":  "2026-10-31T04:49:46.3899689Z",
+                                "input_count":  133,
+                                "input_hash_byte_mismatches":  0,
+                                "prior_work_id_file_count":  105,
+                                "unexpected_paths":  0,
+                                "missing_prior_paths":  0,
+                                "exact_own_files_present":  [
+                                                                "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/attempt.json",
+                                                                "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/checkpoint-0001.json",
+                                                                "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/checkpoint-0002.json",
+                                                                "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/checkpoint-0003.json",
+                                                                "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/checkpoint-0004.json",
+                                                                "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/checkpoint-0005.json",
+                                                                "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/report.md",
+                                                                "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/evidence/review-evidence.json"
+                                                            ],
+                                "pathset_match":  true,
+                                "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                                "branch":  "sdlc-framework-onboarding",
+                                "tracked_change_paths":  [
+                                                             "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                                             "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                                             "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                                             "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                                             "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+                                                         ],
+                                "staged_changes":  [
+
+                                                   ],
+                                "checkpoint4_sha256":  "1BD27C03D5CD669ED804A0CD01FB564DD77BC89660E8E0195E73FE7B87F25308",
+                                "checkpoint5_sha256":  "8B571A6E00D7F9A74AFC200FE0BBCFAE2D459328EA3F462961FDB1948031A78F",
+                                "assurance":  "procedural non-mutation; snapshot does not prove absence of transient or same-principal tampering"
+                            },
+    "findings":  [
+
+                 ],
+    "next_permitted_process":  "Complete SDLC Governance Audit, separately and only after fresh human stage-start; not invoked.",
+    "no_effectiveness_or_adoption_claim":  true,
+    "limitations":  [
+                        "Procedural non-mutation; write-capable tools and ACL.",
+                        "No exhaustive trusted OS event stream or coordinated no-edit interval; concurrency not fully observable.",
+                        "Endpoint hashes cannot prove absence of transient write or same-principal tampering.",
+                        "Approval decisions are attributed parent-conversation evidence; no original external IDs or authenticated event times asserted.",
+                        "Known historical metadata limitations remain unchanged."
+                    ]
+}

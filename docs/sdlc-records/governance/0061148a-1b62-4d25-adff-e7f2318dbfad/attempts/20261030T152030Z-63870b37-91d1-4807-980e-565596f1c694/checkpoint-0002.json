@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_identity": "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694:checkpoint-0002",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694",
+  "process": "Governance Amendment Application",
+  "creator": "Current separate one-time record-only Governance Amendment Application invocation",
+  "role": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T16:06:09.516952Z",
+  "clock_basis": "Current system UTC at record preparation, not exact publication time",
+  "exact_publication_time": null,
+  "sequence": 2,
+  "last_confirmed_boundary": "Exact approved attachment published and byte/hash/Unicode checked; original records and sources unchanged",
+  "bindings": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attachments/IGV-FIND-001-approval-transcription-correction.md",
+      "sha256": "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2",
+      "bytes": 4212
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/evidence/application-evidence.json",
+      "sha256": "94E5319191AA795EDF3B5202D67CD2BDFB3402EF20455DFE89D3153971BB4D4C",
+      "bytes": 15386
+    }
+  ],
+  "effects": "One approved correction attachment plus own records only; no source write",
+  "unfinished_work": "Canonical report and separate terminal readback validation/result publication",
+  "blockers": [],
+  "finding_refs": [
+    "IGV-FIND-001"
+  ],
+  "safe_continuation_prerequisites": "All bound records/protected inputs unchanged; no overwrite; next independent stage requires separate fresh human start"
+}

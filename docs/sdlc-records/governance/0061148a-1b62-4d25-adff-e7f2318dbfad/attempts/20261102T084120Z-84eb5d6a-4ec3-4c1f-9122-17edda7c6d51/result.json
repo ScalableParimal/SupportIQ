@@ -1,0 +1,242 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "GovernanceRemediationBoundedContinuationResult",
+    "record_identity":  "20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51:result",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51",
+    "process":  "Governance Remediation",
+    "actor":  "SDLC Governance Remediation Agent",
+    "created_at_utc":  "2026-11-02T08:47:35.958Z",
+    "clock_basis":  "Current host UTC clock; not a human-message timestamp.",
+    "execution_termination":  "Stopped after validating the canonical Audit and publishing this bounded handoff; no downstream stage dispatched.",
+    "remediation_status":  "PAUSED - PENDING SEPARATE HUMAN-INITIATED FINDING INVESTIGATION",
+    "remediation_cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle_number":  1,
+    "cycle_admitted":  true,
+    "authorization":  {
+                          "actual_current_human_wording":  "Yes, initiate bounded Remediation continuation to validate the Audit and prepare the Investigation handoff for GOV-AUD-20261102-001 only",
+                          "provenance":  "Actual user message in the current conversation; no authenticated platform message identifier or authenticated message timestamp is exposed.",
+                          "scope":  "Read relevant governance/process rules; independently validate the specified Audit report/evidence/result chain, current-source fingerprints and finding details; publish only this actor own coordination attempt/report/evidence/result. No Finding Investigation stage or agent invocation, no correction, no Audit retry, no adoption, no product work/tests/runtime, no commit/push.",
+                          "human_correction_approval_received":  false,
+                          "investigation_stage_started":  false
+                      },
+    "audit_validation":  {
+                             "report":  {
+                                            "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/report-revision-0001.md",
+                                            "bytes":  97299,
+                                            "sha256":  "A1A19F188ADFEED3CA9D9602880FD71F599A1141F0BF6DBF2D538F93AA682EE8",
+                                            "identity":  "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:report-revision-0001"
+                                        },
+                             "result":  {
+                                            "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/result.json",
+                                            "identity":  "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:result",
+                                            "bytes":  18324,
+                                            "sha256":  "5D1F2BDC3E235CDD6C3A95F06838B7AFAC63A6C0FA9D7F96730FD2D6A81D8056"
+                                        },
+                             "evidence":  {
+                                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/evidence/audit-evidence-revision-0001.json",
+                                              "bytes":  157684,
+                                              "sha256":  "FDCCA86982A66AE928BC7D1915FEF0E229F9782BF94CF9390F20513A0FB7634B",
+                                              "identity":  "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:audit-evidence-revision-0001"
+                                          },
+                             "result_outcome":  "CONSISTENT WITH MINOR FINDINGS",
+                             "result_hash_recomputed":  true,
+                             "result_report_binding_validated":  true,
+                             "result_evidence_binding_validated":  true,
+                             "all_six_result_bindings_match":  true,
+                             "core_expected_found_audited":  "52/52/52",
+                             "counts":  {
+                                            "expected":  52,
+                                            "found":  52,
+                                            "audited":  52,
+                                            "Critical":  0,
+                                            "High":  0,
+                                            "Medium":  0,
+                                            "Low":  1,
+                                            "Ambiguities":  0,
+                                            "Broken References":  0,
+                                            "Missing Governance Controls":  0,
+                                            "Unsupported Governance Controls":  0
+                                        },
+                             "mechanisms":  [
+                                                {
+                                                    "group":  "Governance Audit",
+                                                    "expected":  5,
+                                                    "found":  5,
+                                                    "assessed":  5,
+                                                    "result":  "PASS"
+                                                },
+                                                {
+                                                    "group":  "Governance Remediation",
+                                                    "expected":  14,
+                                                    "found":  14,
+                                                    "assessed":  14,
+                                                    "result":  "FAIL"
+                                                },
+                                                {
+                                                    "group":  "SDLC Process Orchestration",
+                                                    "expected":  4,
+                                                    "found":  4,
+                                                    "assessed":  4,
+                                                    "result":  "PASS"
+                                                },
+                                                {
+                                                    "group":  "SDLC Portability Assessment",
+                                                    "expected":  8,
+                                                    "found":  8,
+                                                    "assessed":  8,
+                                                    "result":  "PASS"
+                                                },
+                                                {
+                                                    "group":  "Governance Amendment Application",
+                                                    "expected":  8,
+                                                    "found":  8,
+                                                    "assessed":  8,
+                                                    "result":  "PASS"
+                                                },
+                                                {
+                                                    "group":  "Independent Governance Verification",
+                                                    "expected":  8,
+                                                    "found":  8,
+                                                    "assessed":  8,
+                                                    "result":  "PASS"
+                                                },
+                                                {
+                                                    "group":  "Independent Governance Review",
+                                                    "expected":  8,
+                                                    "found":  8,
+                                                    "assessed":  8,
+                                                    "result":  "PASS"
+                                                }
+                                            ],
+                             "source_manifest_count":  76,
+                             "source_manifest_current_match_count":  76,
+                             "source_manifest_mismatch_count":  0,
+                             "investigation_required_fields":  14,
+                             "unresolved_evidence_gaps":  0,
+                             "effectiveness_qualifying":  false,
+                             "baseline_adopted":  false
+                         },
+    "current_finding":  {
+                            "id":  "GOV-AUD-20261102-001",
+                            "severity":  "Low",
+                            "category":  "Traceability Inconsistency",
+                            "source_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/report.md",
+                            "source_bytes":  12795,
+                            "source_sha256":  "CE975EE00E642B93AF50EF8FF0FF418101CE821F2E94121D43E0B260A012BF6B",
+                            "affected_lines":  {
+                                                   "unexpanded_evidence_metadata":  [
+                                                                                        15
+                                                                                    ],
+                                                   "lost_correction_distinction":  [
+                                                                                       27
+                                                                                   ],
+                                                   "all_questionmark_lines":  [
+                                                                                  1,
+                                                                                  11,
+                                                                                  21,
+                                                                                  27,
+                                                                                  31,
+                                                                                  33,
+                                                                                  35,
+                                                                                  39,
+                                                                                  43,
+                                                                                  45,
+                                                                                  49,
+                                                                                  64,
+                                                                                  66,
+                                                                                  70,
+                                                                                  77,
+                                                                                  79
+                                                                              ]
+                                               },
+                            "impact":  "Limited documentation/traceability impact: a reader cannot use that evidence metadata or that sentence alone to identify/understand the exact correction. All fourteen required report fields remain identifiable, actual evidence path is stated later and result binds actual report/evidence/ledger. Independent checks are executable; not wholesale report invalidity or a missing-evidence CANNOT COMPLETE.",
+                            "corrective_decision":  "Not performed; reserved for a separately initiated process.",
+                            "correction_proposed":  false,
+                            "human_decision_required_for_next_stage":  true
+                        },
+    "cycle_allocation":  {
+                             "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+                             "cycle_number":  1,
+                             "new_cycle_created":  false,
+                             "basis":  "Prior Remediation result assigns Cycle 1; current Audit retains the cycle ID; no post-correction Audit iteration occurred."
+                         },
+    "history":  {
+                    "prior_coordinator_report":  {
+                                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e/report-revision-0001.md",
+                                                     "bytes":  13072,
+                                                     "sha256":  "14A63351F527D91452CB6A4ABEADFE8E87FD0D6E075BB32576D10C0F5D433252",
+                                                     "identity":  "20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e:report-revision-0001"
+                                                 },
+                    "prior_coordinator_result":  {
+                                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e/result.json",
+                                                     "bytes":  10122,
+                                                     "sha256":  "34BED7D406F019A95555462EB19F0BB382424824319E17CE0D820CD77ED7ECFE",
+                                                     "identity":  "20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e:result"
+                                                 },
+                    "prior_coordinator_evidence":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e/evidence/handoff-evidence-revision-0001.json",
+                                                       "bytes":  125269,
+                                                       "sha256":  "CF0243526F7C0F0C02CD632D9C202D30388D0E47709CC39918D53FFE90F39C3F",
+                                                       "identity":  "20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e:handoff-evidence-revision-0001"
+                                                   },
+                    "prior_remediation_status":  "PAUSED - PENDING SEPARATE HUMAN-INITIATED COMPLETE AUDIT",
+                    "historical_GOV_001_GOV_002_reopened":  false,
+                    "initial_audit_report_and_evidence_preserved":  true
+                },
+    "scope":  {
+                  "only_current_finding":  "GOV-AUD-20261102-001",
+                  "audit_retry_started":  false,
+                  "finding_investigation_started":  false,
+                  "nested_agent_started":  false,
+                  "correction_applied":  false,
+                  "adoption_performed":  false,
+                  "product_work_tests_runtime_performed":  false,
+                  "commit_or_push_performed":  false,
+                  "source_files_modified":  false,
+                  "other_actor_records_modified":  false
+              },
+    "bindings":  {
+                     "attempt":  {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51/attempt.json",
+                                     "identity":  "20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51:attempt",
+                                     "bytes":  14903,
+                                     "sha256":  "19DDFE39E1A5342048898713954A714599FB8C69018CC458B5FCBDF213374642"
+                                 },
+                     "canonical_report":  {
+                                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51/report.md",
+                                              "bytes":  7927,
+                                              "sha256":  "84D6194D5FBCF02ED26DC81341F68843F37A7B04B9B0A1BE7416B3B4647B7F0C"
+                                          },
+                     "canonical_evidence":  {
+                                                "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51/evidence/audit-handoff-validation.json",
+                                                "bytes":  87465,
+                                                "sha256":  "73F718F163DF98F36EDC7AE9512E08CA74FBD384804A8C50A9892BF07036F483"
+                                            },
+                     "audit_report":  {
+                                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/report-revision-0001.md",
+                                          "bytes":  97299,
+                                          "sha256":  "A1A19F188ADFEED3CA9D9602880FD71F599A1141F0BF6DBF2D538F93AA682EE8",
+                                          "identity":  "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:report-revision-0001"
+                                      },
+                     "audit_result":  {
+                                          "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/result.json",
+                                          "identity":  "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:result",
+                                          "bytes":  18324,
+                                          "sha256":  "5D1F2BDC3E235CDD6C3A95F06838B7AFAC63A6C0FA9D7F96730FD2D6A81D8056"
+                                      },
+                     "audit_evidence":  {
+                                            "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/evidence/audit-evidence-revision-0001.json",
+                                            "bytes":  157684,
+                                            "sha256":  "FDCCA86982A66AE928BC7D1915FEF0E229F9782BF94CF9390F20513A0FB7634B",
+                                            "identity":  "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:audit-evidence-revision-0001"
+                                        }
+                 },
+    "next_permitted_process":  "Fresh explicit Human stage-start, then Finding Investigation of GOV-AUD-20261102-001 only; no stage started.",
+    "next_stage_start_required":  true,
+    "next_stage_start_text_location":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51/report.md",
+    "next_process_started":  false,
+    "cycle_complete":  false,
+    "governance_remediation_complete":  false,
+    "terminal_result_publication_is_last_write":  true
+}

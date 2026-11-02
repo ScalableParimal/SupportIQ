@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "record_type": "terminal_result",
+  "record_id": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:terminal_result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "attempt_id": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824",
+  "creator": "Finding Investigation Agent / current direct conversation invocation",
+  "role": "Finding Investigation",
+  "process": "Finding Investigation",
+  "created_at_utc": "2026-11-02T08:54:56.935922+00:00",
+  "clock_basis": "Current host UTC preparation sample, not publication time",
+  "execution_termination": "COMPLETED",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-001",
+  "finding_confirmed": true,
+  "severity": "Low",
+  "audit_category": "Traceability Inconsistency",
+  "finding_classification": "Verification Problem",
+  "investigation_outcome": "CORRECTIVE DIRECTION IDENTIFIED",
+  "completion_basis": "All required investigation activities and 14-field report complete; report/evidence durable and separate-process readback/field/codepoint/all-binding checks PASS. Final validation checkpoint independently read back before this result preparation.",
+  "repository": "ScalableParimal/SupportIQ",
+  "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/report.md",
+    "sha256": "3C6496F1EBC96BAA77573A77D928424914DA533B56081247273B6C3B4E5ABB40",
+    "bytes": 20057,
+    "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:report.md"
+  },
+  "bindings": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/attempt.json",
+      "sha256": "E9332DCBF1E58C45BC5CD33505D0549CA72E1D9E2170ACAFE42D7FAF8938B3B5",
+      "bytes": 98673,
+      "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:invocation"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/checkpoint-0001.json",
+      "sha256": "759EEB9E91CFD21DB53CB44B3524D60C515D8AB8CD44B89E1E034AA38A612E57",
+      "bytes": 1409,
+      "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:checkpoint"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/evidence/publication.py",
+      "sha256": "9011EC9E57F4AF3DDF33DA75B17173F1202ABE4AD1B81D8DF790760E6ED19E78",
+      "bytes": 40363,
+      "identity": "evidence:publication.py"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/evidence/investigation-evidence.json",
+      "sha256": "8FB5CF17464D416CFC0E7451C2967594E5B60E983F3473A9B258D02BE619FC98",
+      "bytes": 48709,
+      "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:investigation_evidence"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/checkpoint-0002.json",
+      "sha256": "8523739DC0FD55E0D0E8B5E20BCDE0E97168B3E7F7A16AB994FEDDC4F22B316C",
+      "bytes": 4899,
+      "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:final_validation_checkpoint"
+    }
+  ],
+  "affected_artifact": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/report.md",
+    "sha256": "CE975EE00E642B93AF50EF8FF0FF418101CE821F2E94121D43E0B260A012BF6B",
+    "bytes": 12795,
+    "identity": "20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0:report.md"
+  },
+  "predecessor_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51/report.md",
+    "sha256": "84D6194D5FBCF02ED26DC81341F68843F37A7B04B9B0A1BE7416B3B4647B7F0C",
+    "bytes": 7927,
+    "identity": "20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51:report.md"
+  },
+  "predecessor_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51/result.json",
+    "sha256": "5A55C4D055607FD5898FF7D87E7B74A2BFACA52818F4FB24B9C637FAE8453EF1",
+    "bytes": 19684,
+    "identity": "20261102T084120Z-84eb5d6a-4ec3-4c1f-9122-17edda7c6d51:result.json"
+  },
+  "audit_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/report-revision-0001.md",
+    "sha256": "A1A19F188ADFEED3CA9D9602880FD71F599A1141F0BF6DBF2D538F93AA682EE8",
+    "bytes": 97299,
+    "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:report-revision-0001.md"
+  },
+  "audit_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/result.json",
+    "sha256": "5D1F2BDC3E235CDD6C3A95F06838B7AFAC63A6C0FA9D7F96730FD2D6A81D8056",
+    "bytes": 18324,
+    "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:result.json"
+  },
+  "root_cause": "Artifact-level unresolved interpolation and collapsed original/attributed character distinction; exact generator/encoding/transport mechanism unknown.",
+  "advisory_direction": "Later separately decided and Human-approved narrowly scoped append-only linked qualification; owning-process publisher preferred if qualified/authorized; exact limited newly designated publisher only if governing authority and Human scope established.",
+  "human_decision_required": true,
+  "correction_approved": false,
+  "correction_applied": false,
+  "actor_designated_for_correction": false,
+  "standing_authority_created": false,
+  "original_inputs_changed": false,
+  "all_source_and_preexisting_record_snapshot_bindings_match": true,
+  "audit_execution": "COMPLETED",
+  "audit_outcome": "CONSISTENT WITH MINOR FINDINGS",
+  "effectivity_qualifying": false,
+  "master_baseline_adopted": false,
+  "product_authority": false,
+  "next_process": "Corrective Change Decision & Plan Update",
+  "next_subject_type": "FINDING",
+  "next_finding_ids": [
+    "GOV-AUD-20261102-001"
+  ],
+  "exact_next_gate": "Separate fresh explicit Human initiation of Corrective Change Decision & Plan Update for this single finding under the same Work ID and cycle, bound to this report/result/evidence; later exact correction approval and publisher/output authority must precede application.",
+  "next_process_started": false,
+  "publication_order": "Invocation and independent readback; checkpoint-0001; substantive inspection; evidence then 14-field report; independent final validation checkpoint and readback; this terminal result LAST.",
+  "limitations": [
+    "No authenticated platform Human message/actor ID/time exposed",
+    "Shared write-capable OS identity; no source write probe; no exhaustive event stream, lock or concurrency exclusion proof",
+    "Endpoint hashes do not exclude transient same-principal tampering",
+    "No tests/build/runtime, correction, nested stage/agent, Audit retry, adoption, commit or push",
+    "Final-validator arbitrary anchor minimum failed before any publication; resolved by actual complete anchor inventory; exact failure/retry preserved in checkpoint-0002"
+  ]
+}

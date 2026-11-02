@@ -1,0 +1,31 @@
+{
+    "schema":  "independent-governance-review-attempt/v1",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+    "role":  "Independent Governance Review",
+    "status":  "in_progress",
+    "openedAt":  "2026-10-31T04:33:49.9736269Z",
+    "actor":  {
+                  "osIdentity":  "int-scl-010\\parimal",
+                  "role":  "Independent Governance Reviewer",
+                  "repo":  "ScalableParimal/SupportIQ",
+                  "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                  "branch":  "sdlc-framework-onboarding"
+              },
+    "humanStageStart":  {
+                            "text":  "Yes, initiate Independent Governance Review of P1–P5 and the linked IGV-FIND-001 correction",
+                            "source":  "current parent conversation",
+                            "fresh":  true,
+                            "externalMessageId":  "not asserted",
+                            "authenticatedExternalEventTime":  "not asserted"
+                        },
+    "publicationScope":  "this attempt only under adopted Work ID governance root; no other actor records",
+    "reviewInputsCheckpoint":  "checkpoint-0001.json",
+    "expectedTerminalArtifacts":  [
+                                      "report.md",
+                                      "result.json",
+                                      "evidence/review-evidence.json"
+                                  ],
+    "readOnlyConduct":  "no source, evaluated-input, or other actor record writes; own attempt records only",
+    "reviewNotStartedUntilCheckpointReadbackHashValidated":  true
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint_0001",
+  "record_id": "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f:checkpoint_0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f",
+  "creator": "d3ddb004-dc45-4b54-a491-1541f446762b",
+  "role": "SDLC Governance Audit",
+  "process": "SDLC Governance Audit",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "created_at_utc": "2026-11-02T09:58:31.876294+00:00",
+  "clock_basis": "Python current UTC preparation sample, not publication time",
+  "sequence": 1,
+  "boundary": "Separate fresh process final invocation/qualification readback and input endpoint check complete; substantive Audit not yet begun",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/attempt.json",
+    "bytes": 7011,
+    "sha256": "CC4C885069675B03A4F008DE05145C8341CAB760C8914FCCD256175F34F06DA6"
+  },
+  "qualification": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/evidence/qualification.json",
+    "bytes": 108033,
+    "sha256": "16CD8A7E302352E4A26ED1B7FA57FFDCAFFCD7EEA7C78620A8AFC20720F4AA3A"
+  },
+  "outcome": "PASS",
+  "unfinished": "Read full Masters, mechanisms, core catalog and required historical governance evidence",
+  "publication_order_evidence": "Prior tool returned successful atomic publication and digest; this separate process reads final stored bytes before substantive assessment",
+  "limitations": [
+    "Procedural nonmutation, not enforced sandbox",
+    "No exhaustive event log or coordinated no-edit window",
+    "Endpoint manifests cannot exclude transient writes or same-principal tampering",
+    "Governance content only; product artifacts not inspected",
+    "No exact filesystem publication timestamps captured; clocks describe preparation"
+  ]
+}

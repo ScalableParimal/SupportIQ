@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint_0003",
+  "record_id": "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f:checkpoint_0003",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f",
+  "creator": "d3ddb004-dc45-4b54-a491-1541f446762b",
+  "role": "SDLC Governance Audit",
+  "process": "SDLC Governance Audit",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "created_at_utc": "2026-11-02T10:11:36.841523+00:00",
+  "clock_basis": "Python current UTC preparation sample, not publication time",
+  "sequence": 3,
+  "boundary": "Separate fresh-process complete report/evidence readback and all final inputs validated before result",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/report.md",
+    "bytes": 55902,
+    "sha256": "4246B0BAA6A945678034706AE02E26162CD2DB940D8FAC3F2AB7749D76B477A2",
+    "identity": "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f:audit_report"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/evidence/audit-evidence.json",
+    "bytes": 4819789,
+    "sha256": "888ABF5B0E14829F0EC2FF824510DB1E3B8DB3CC1636F29B3DD6E44DF5104AF2",
+    "identity": "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f:audit_evidence"
+  },
+  "preservation": {
+    "outcome": "PASS",
+    "source_and_preexisting_record_files": 328,
+    "source_files": 76,
+    "excluded_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f",
+    "HEAD_branch_index_status_unchanged": true,
+    "content_and_pathset_unchanged": true,
+    "proof_limit": "Endpoint observation, no exclusion of transient writes or same-principal tampering"
+  },
+  "outcome": "PASS",
+  "unfinished": "Terminal result publication only; no downstream stage"
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_result",
+  "record_identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4",
+  "process": "SDLC Governance Audit",
+  "actor": "SDLC Governance Audit Agent (Copilot SDK invocation)",
+  "created_at_utc": "2026-10-30T12:52:35.514986Z",
+  "execution_termination": "completed",
+  "audit_outcome": "CANNOT COMPLETE AUDIT",
+  "completion_note": "The authorized Audit work terminated with a complete canonical report, but the Audit outcome is CANNOT COMPLETE AUDIT because the Governance Remediation mechanism evidence check cannot be completed without a separately authorized finding-led process. Do not treat execution termination as a PASS or framework acceptance.",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head_commit": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "master_fingerprints_match": true
+  },
+  "scope": {
+    "core_expected": 52,
+    "core_found": 52,
+    "core_assessed": 52,
+    "mechanism_groups_expected": 7,
+    "mechanism_groups_assessed": 7,
+    "product_artifacts_inspected": 0,
+    "source_artifacts_assessed": 76
+  },
+  "summary_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 0,
+    "ambiguities": 0,
+    "broken_references": 0,
+    "missing_governance_controls": 0,
+    "unsupported_governance_controls": 1
+  },
+  "report_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/report-revision-0001.md",
+    "identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:report-revision-0001",
+    "sha256": "ABD95B964E9C04602BBD876619C0C97DE95E6D9252EBA913634652FD5746D7B0",
+    "format": "UTF-8 Markdown",
+    "canonical": true
+  },
+  "evidence_bindings": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/evidence/audit-evidence-revision-0001.json",
+      "identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:audit-evidence-revision-0001",
+      "sha256": "AAECB880DFCE29F7167BA8804EBB1C89453A72DCE2627CFB063592D931D06E20",
+      "role": "canonical audit evidence/source manifest"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/attempt.json",
+      "identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4",
+      "sha256": "3FD36342F3CAC94781CBD8C5D1824D893DEDC376D6660DADE1BBA213B37CF618",
+      "role": "invocation"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/checkpoint-0001.json",
+      "identity": "-0001",
+      "sha256": "268C7AFF95E49AD0D9CC54D5E8F9EAC3D438FDE925022168C38C046E9DFC2DB2",
+      "role": "malformed_identity_retained_not_relied_upon"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/checkpoint-0002.json",
+      "identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:checkpoint-0002",
+      "sha256": "ADE1CBDDC7561344F75F5866631387415B94E71FFBCB930DD8B8363E7973DE2C",
+      "role": "corrective_checkpoint"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/checkpoint-0003.json",
+      "identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:checkpoint-0003",
+      "sha256": "2BED32463A37A58637183D9DAB32A31ED8017EECC2E9BCA6DEB23831534FD502",
+      "role": "assessment_checkpoint"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/checkpoint-0004.json",
+      "identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:checkpoint-0004",
+      "sha256": "E86BCE666FD79DAB881F3D2315C76BF60E145F4B2F256158DC42C864EA3CB1C8",
+      "role": "report_revision_checkpoint"
+    }
+  ],
+  "superseded_records": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/report.md",
+      "identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:report",
+      "sha256": "DCF8C885B6C9528D7C2F51D292711E31F5A0D184F8686FB09BB82A16422EAFB7",
+      "superseded_by": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:report-revision-0001",
+      "reason": "Corrected report summary placement, one path typo, and typographic substitutions; immutable original retained."
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/evidence/audit-evidence.json",
+      "identity": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:audit-evidence",
+      "sha256": "101726067C278C1CFC844B2436888CF55C7BED1AB37900F2DA1503A67E000CBD",
+      "superseded_by": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4:audit-evidence-revision-0001",
+      "reason": "Updated canonical report path/identity and linked report revision checkpoint; immutable original retained."
+    }
+  ],
+  "findings": [
+    {
+      "id": "GOV-001",
+      "severity": "Medium",
+      "category": "Traceability Inconsistency"
+    },
+    {
+      "id": "GOV-002",
+      "severity": "Medium",
+      "category": "Unsupported Governance"
+    }
+  ],
+  "mechanism_results": [
+    {
+      "name": "Governance Audit",
+      "result": "PASS"
+    },
+    {
+      "name": "Governance Remediation",
+      "result": "CANNOT COMPLETE"
+    },
+    {
+      "name": "SDLC Process Orchestration",
+      "result": "PASS"
+    },
+    {
+      "name": "SDLC Portability Assessment",
+      "result": "FAIL"
+    },
+    {
+      "name": "Governance Amendment Application",
+      "result": "PASS ? definition checks only"
+    },
+    {
+      "name": "Independent Governance Verification",
+      "result": "FAIL"
+    },
+    {
+      "name": "Independent Governance Review",
+      "result": "FAIL"
+    }
+  ],
+  "unresolved_evidence": [
+    "Governance Remediation: this Audit produced findings, but no finding-led Remediation cycle was authorized or invoked; the matrix non-finding-enhancement exception does not apply. Required current runtime/cycle evidence is unavailable."
+  ],
+  "next_permitted_process": "No follow-on process is authorized by the bootstrap decision. A fresh explicit Human Process Initiation/authorization is required before Governance Remediation begins with Finding Investigation. This result does not itself initiate or authorize that process.",
+  "read_only_statement": "No governance source, product artifact, or another actor record was modified; no product-specific contents were inspected. No commits, branches, or pushes were created.",
+  "terminal_result_hash": "Not included in this record; this is the terminal result itself."
+}

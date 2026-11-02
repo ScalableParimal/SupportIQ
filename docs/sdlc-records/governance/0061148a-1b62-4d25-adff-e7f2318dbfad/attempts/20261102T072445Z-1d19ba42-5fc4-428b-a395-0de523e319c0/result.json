@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "record_type": "finding_investigation_result",
+  "record_identity": "20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0",
+  "process": "Finding Investigation",
+  "subject_type": "FINDING",
+  "finding_ids": [
+    "GOV-001",
+    "GOV-002"
+  ],
+  "remediation_cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "execution_termination": "COMPLETED",
+  "investigation_outcome": "FINDING CONFIRMED for each finding historically; identified current textual conditions addressed",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "tracked_source_diff_unchanged": true
+  },
+  "authorization": "Fresh Human restart and stage-start in current conversation; no corrective approval claimed",
+  "bindings": {
+    "attempt": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/attempt.json",
+      "bytes": 28990,
+      "sha256": "0F17FD97F30592467E762D3CB9634D5BD176952A052291FA0C54377AA231FD48"
+    },
+    "publication_boundary_ledger": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/evidence/publication-boundary.json",
+      "bytes": 2909,
+      "sha256": "49591957CA86363B72987C87B620C307EB35D6556489496E48778EA42AE227F2"
+    },
+    "canonical_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/report.md",
+      "bytes": 12795,
+      "sha256": "CE975EE00E642B93AF50EF8FF0FF418101CE821F2E94121D43E0B260A012BF6B"
+    },
+    "investigation_evidence": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/evidence/investigation-evidence.json",
+      "bytes": 22254,
+      "sha256": "8D008604EFEC599AC751EB1B457FD72750E3B4ECB7E0B5071087E64F1A67F977"
+    },
+    "checkpoint": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/checkpoint-0001.json",
+      "bytes": 1348,
+      "sha256": "9BA723C01438185B5F356AD7EE6985814EE0DC34DA378F39E34D65B93AC405CD"
+    }
+  },
+  "finding_outcomes": [
+    {
+      "finding_id": "GOV-001",
+      "outcome": "FINDING CONFIRMED",
+      "historically_valid": true,
+      "current_identified_text_addressed": true,
+      "disposition_selected": false
+    },
+    {
+      "finding_id": "GOV-002",
+      "outcome": "FINDING CONFIRMED",
+      "historically_valid": true,
+      "current_identified_text_addressed": true,
+      "disposition_selected": false
+    }
+  ],
+  "final_revalidation": {
+    "all_preflight_source_and_predecessor_bindings_match": true,
+    "all_five_current_targets_match_application_after_and_latest_audit_manifest": true,
+    "tracked_source_changes_unchanged": true,
+    "own_report_evidence_checkpoint_exact_readback": true
+  },
+  "limitations": [
+    "Prior prospective Investigation ordering issue remains in its immutable record; this attempt is forward evidence only.",
+    "No formal effectiveness or Master adoption established; latest full Audit remains CANNOT COMPLETE AUDIT.",
+    "No external authenticated original application approval message identifier/time.",
+    "No exhaustive OS event stream or continuous concurrency observation."
+  ],
+  "next_permitted_process": "Corrective Change Decision & Plan Update; subject type FINDING; assess GOV-001 and GOV-002 separately; fresh Human initiation required",
+  "next_process_started": false,
+  "correction_approved": false,
+  "source_or_prior_record_modified": false,
+  "tests_runtime_audit_adoption_commit_push": false
+}

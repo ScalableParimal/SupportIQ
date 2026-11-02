@@ -1,0 +1,66 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "remediation_invocation",
+    "record_id":  "",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T131041Z-c15e2f3f-378d-4caa-b516-4c79efb02bb1",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "creator":  {
+                    "identity":  "Governance Remediation Agent; invocation identified by this attempt ID",
+                    "role":  "SDLC Governance Remediation",
+                    "runtime_session_identity":  "Not exposed by available harness; no external authentication claim"
+                },
+    "created_at_utc":  "2026-11-02T13:10:42.1946245+00:00",
+    "clock_basis":  "PowerShell UTC preparation clock, not exact publication time",
+    "process":  "SDLC Governance Remediation",
+    "requested_scope":  "Bounded continuation for audit findings GOV-AUD-20261102-003 and GOV-AUD-20261102-004 only; Cycle 1; prepare Investigation handoffs only",
+    "repository_context":  {
+                               "canonical":  "ScalableParimal/SupportIQ",
+                               "root":  "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+                               "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                               "branch":  "sdlc-framework-onboarding",
+                               "working_tree_status":  "## sdlc-framework-onboarding...origin/sdlc-framework-onboarding\n M .github/agents/sdlc-governance-remediation.agent.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md\n M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md\n?? docs/sdlc-records/",
+                               "effective_windows_principal":  "int-scl-010\\parimal"
+                           },
+    "stage_start":  {
+                        "actual_wording":  "Yes, initiate bounded Governance Remediation continuation for GOV-AUD-20261102-003 and GOV-AUD-20261102-004 only under the existing Work ID and Cycle 1",
+                        "source":  "Current Human message in this conversation; platform identity and timestamp evidence not exposed",
+                        "scope":  "Existing Work ID 0061148a-1b62-4d25-adff-e7f2318dbfad; GOV-REMEDIATION-PROSPECTIVE-001; Cycle 1; only F003/F004; stop at Investigation Human start gate",
+                        "not_approval_or_amendment":  true
+                    },
+    "persistence":  {
+                        "root":  "docs/sdlc-records/governance/",
+                        "authorized_output_scope":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261102T131041Z-c15e2f3f-378d-4caa-b516-4c79efb02bb1/** (own invocation records only)",
+                        "root_adoption_reference":  "Prior same-Work-ID Audit invocation attempt 20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f cites https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236 as adopted governance root; no bootstrap decision inferred for this continuation"
+                    },
+    "input_manifest":  {
+                           "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T131041Z-c15e2f3f-378d-4caa-b516-4c79efb02bb1/evidence/input-manifest.json",
+                           "bytes":  153005,
+                           "sha256":  "2EBE13D8541981E886250C0B306847D1821B49288494822D48C6B1DFE1776550"
+                       },
+    "qualification":  {
+                          "effective_windows_principal":  "int-scl-010\\parimal",
+                          "observed":  "Read-only PowerShell, SHA-256, Git state and ACL-query capabilities; current Governance Remediation identity and bounded stage-start supplied; own-record publisher validation follows via independent process readback",
+                          "permission_boundary":  "Only own Work-ID attempt records; procedural nonmutation, not sandbox-enforced; no source write or git mutation",
+                          "limitations":  [
+                                              "Harness runtime/session actor identity and authenticated human platform metadata are not exposed",
+                                              "No exhaustive trusted event log",
+                                              "Working tree has pre-existing modifications and untracked governance records; no source/upstream-history edits permitted"
+                                          ]
+                      },
+    "pre_execution":  {
+                          "state":  "Attempt publication completed before substantive finding investigation/decision; initial preparation limited to current instructions, attempt qualification and source integrity",
+                          "audit_predecessor":  "Complete Audit attempt 20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f; outcome to be independently resolved/validated after attempt readback",
+                          "allowed_next":  "Independently read back this attempt and manifest, then validate Audit bindings/current fingerprints, reconcile history, and prepare only F003/F004 Investigation handoffs",
+                          "forbidden":  [
+                                            "Execute Finding Investigation",
+                                            "Corrective Change Decision",
+                                            "Human approval request for correction",
+                                            "Apply/adopt/stage/commit/push",
+                                            "Product work",
+                                            "Any additional finding or process stage"
+                                        ]
+                      },
+    "status":  "INVOCATION PUBLISHED; substantive investigation not started"
+}

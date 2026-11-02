@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "record_type": "verification_final_readback",
+  "record_id": "20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22:final-readback",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "finding_id": "GOV-AUD-20261102-002",
+  "creator": {
+    "identity": "independent-governance-verification:20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22",
+    "role": "Independent Governance Verification",
+    "role_definition": {
+      "path": ".github/agents/independent-governance-verification.agent.md",
+      "bytes": 1393,
+      "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+    }
+  },
+  "process": "Independent Governance Verification",
+  "created_at_utc": "2026-11-02T11:17:08.851189+00:00",
+  "clock_basis": "runtime UTC separate-process readback preparation observation, not exact publication timestamp",
+  "sequence": 4,
+  "last_confirmed_boundary": "Fresh separate Python process independently read actual published report/result/evidence and all own checkpoints, strict native full-object and canonical byte equality, all output/input bindings, exact quote preservation, all 14 criteria, full evaluated manifest/pathset/index/HEAD/branch unchanged; no partials; PASS",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/report.md",
+    "bytes": 17306,
+    "sha256": "02E8B7CD6AD7F599E9F9C4A411DC1A7C5DA535C366A218CD7BB3D633CF173825"
+  },
+  "result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/result.json",
+    "bytes": 16341,
+    "sha256": "B3FE365B38492FF67E017CA1048F2BFBEB9442795AF1939FA209D1A06EA75C40"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attachments/evidence.json",
+    "bytes": 219333,
+    "sha256": "1766A1DA5DF764E5A6D9B3EF573763381C80394EE8D590185CE04D3F23842C96"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attempt.json",
+    "bytes": 175807,
+    "sha256": "EFCFAAB870B4800B96D3BEC4032537E488C9D960C35EEE88A510E2483C79AE7E"
+  },
+  "checkpoint_0001": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/checkpoint-0001.json",
+    "bytes": 1101,
+    "sha256": "29BC558DAA1F149F6344D26847859BA816D47C7717BFC6843F92D83CE4499BF6"
+  },
+  "checkpoint_0002": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/checkpoint-0002.json",
+    "bytes": 589929,
+    "sha256": "F7325B89F48E9BBCB85761C21B2F4B2ABF5F7BF9C0831C7AF83CF383F9BBD3F0"
+  },
+  "checkpoint_0003": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/checkpoint-0003.json",
+    "bytes": 178492,
+    "sha256": "06E34D4C95F637C8EABE0A4CD82F7D7FA4BE256931924B2F202BD16901CDFBCE"
+  },
+  "helper": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attachments/verifier.py",
+    "bytes": 10073,
+    "sha256": "3E913D46E5FD3F58A5080CB094C4BDB7EE12A81F6C0D37D75460387CBA93F49C"
+  },
+  "actual_target": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 49225,
+    "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+  },
+  "full_input_manifest_sha256": "CE8F35646E7B663F1C77459AA9850F0F43292A71F30F98DD9B5046995701F69B",
+  "input_file_count": 376,
+  "crossbindings_rechecked": 2308,
+  "historical_base_bindings_reconciled": 27,
+  "input_and_pathset_changes": [],
+  "index": {
+    "path": ".git/index",
+    "bytes": 10274,
+    "sha256": "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6"
+  },
+  "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+  "branch": "sdlc-framework-onboarding",
+  "outcome": "PASS",
+  "unfinished": "None for Verification; separate Review is not initiated",
+  "source_writes": 0,
+  "unresolved_items": [],
+  "next_permitted_process": "Await separate fresh Human initiation of distinct Independent Governance Review",
+  "limits": {
+    "mode": "procedural non-mutation",
+    "residual_risks": "Endpoint fingerprints cannot exclude transient writes or same-principal tampering. No exhaustive trusted OS event stream, sandbox write exclusion, or security guarantee.",
+    "concurrency": "Only matching verifier running in visible roster; preparer/applier/remediation idle. This actor is not a competing writer. No enforced no-edit lock or exhaustive external writer detection.",
+    "operation_evidence": "Actor-visible ordered tool transcript plus this own integrity-bound script and checkpoints; no exhaustive event log.",
+    "qualification_operations": [
+      "Read required skill, role, guideline, prompt, request using Get-Content",
+      "Located Masters and publication sections; read application result solely for identity/predecessor qualification",
+      "whoami, ACL, git status/HEAD/branch non-mutating observations",
+      "get_current_session and list_agents current identity/concurrency observations",
+      "Errors retained: absent optional .github/copilot-instructions.md; substring section lookup; cp1252 decode error; corrected UTF-8 reads; no repair/source write",
+      "apply_patch created only own designated attachments/verifier.py",
+      "Python bootstrap: known hash/JSON tests, full manifest, publication then separate command readback before substantive comparison"
+    ]
+  },
+  "operations": {
+    "tool": "powershell/python fresh process",
+    "arguments": "runpy load integrity-bound own verifier helper; strict-read actual final records; recursive fp check; full snapshot equals initial and boundary; publish this new immutable readback checkpoint without overwrite",
+    "completion_basis": "Successful command return after actual byte readback; no self/future hash"
+  }
+}

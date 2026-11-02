@@ -1,0 +1,100 @@
+{
+    "schema_version":  1,
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "finding_id":  "GOV-AUD-20261102-002",
+    "attempt_id":  "20261102T1130Z-81995642-42b8-42c4-94e3-4b6d994c10bc",
+    "record_type":  "independent_governance_review_invocation",
+    "creator":  {
+                    "role":  "Independent Governance Review",
+                    "identity":  "Independent Governance Review task agent; current delegated task invocation",
+                    "runtime_agent_id":  "65a71a53-2334-4a40-8a52-6378200d5f56",
+                    "runtime_id_source":  "Caller-supplied parent tool invocation evidence: functions.task agent_type Independent Governance Review, name Commit Record Amendment Review; read_agent was attempted against exact ID but tool reports no agent found / possibly cleared",
+                    "identity_limit":  "Harness invocation attribution, not authenticated external identity",
+                    "windows_principal":  "INT-SCL-010\\Parimal",
+                    "process_id":  88008
+                },
+    "human_stage_start":  {
+                              "wording":  "Yes, initiate only a fresh Independent Governance Review retry with the stated runtime attribution and a new attempt; preserve the unsuccessful records",
+                              "source":  "current caller message",
+                              "message_id":  "not exposed",
+                              "authenticated_time":  "not exposed",
+                              "scope":  "Fresh Review retry of GOV-AUD-20261102-002 and same approved application / passing Verification only"
+                          },
+    "authorization":  {
+                          "approved_application_attempt":  "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+                          "target":  ".github/agents/sdlc-governance-remediation.agent.md",
+                          "expected_after_bytes":  49225,
+                          "expected_after_sha256":  "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F",
+                          "verification_attempt":  "20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22",
+                          "verification_report_sha256":  "02E8B7CD6AD7F599E9F9C4A411DC1A7C5DA535C366A218CD7BB3D633CF173825",
+                          "verification_result_sha256":  "B3FE365B38492FF67E017CA1048F2BFBEB9442795AF1939FA209D1A06EA75C40",
+                          "verification_outcome":  "PASS"
+                      },
+    "independence":  {
+                         "preparer_runtime":  "0939dcbe-f104-454a-a8bd-62e36810ccd3",
+                         "applier_runtime":  "7282643f-d89b-4b2d-b082-475ffc440fce",
+                         "verifier_runtime":  "8e77a262-4464-46d1-9078-a3fefb37d387",
+                         "reviewer_runtime":  "65a71a53-2334-4a40-8a52-6378200d5f56",
+                         "active_orchestrator":  "Parent session is orchestration/readiness context; current process is separately launched Independent Governance Review task; no Orchestrator process stage or product invocation is established",
+                         "limits":  "No authenticated external-identity guarantee claimed; exact task return/user attestation source is parent caller; read_agent registry retrieval no longer available"
+                     },
+    "capability":  {
+                       "sha256_known_vector":  "PASS; abc -\u003e BA7816BF8F01CFEA414140DE5DAE2223B00361A396177A9CB410FF61F20015AD",
+                       "read_hash":  "PowerShell Get-Content/Get-FileHash",
+                       "nonmutating_checks":  "Get-Acl, git --no-pager status, local read/hash and path-set comparisons",
+                       "publication":  "PowerShell FileMode.CreateNew within current Work ID attempt scope; demonstrated by this publication and separate-process readback",
+                       "acl":  "Authenticated Users Modify observed at attempts root; no write probe; conduct-only read-only restriction",
+                       "runtime_tools":  "PowerShell, git, Python available",
+                       "operation_evidence":  "Actor-visible tool/operation outputs; no exhaustive event stream"
+                   },
+    "previous_attempt":  {
+                             "attempt_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+                             "outcome":  "CANNOT COMPLETE",
+                             "report_sha256":  "3CB571524C2BD6D6C0954A6FD7BAE3DBA08FD05DF515530198015D2FEBC0FD82",
+                             "result_sha256":  "03A4319FDCE56FF8D1894246637A8C0D0A0173AED3B5EF9B707ED0FB6B6F9C86",
+                             "preserve_unchanged":  true,
+                             "interpretation":  "Terminal unsuccessful identity-evidence blocker, not live-writer evidence; not overwritten or repaired"
+                         },
+    "prepublication_read_hashes":  [
+                                       {
+                                           "path":  ".github/skills/independent-governance-review/SKILL.md",
+                                           "bytes":  1990,
+                                           "sha256":  "1E5DDB5BC37E7F8531635D6C28B052B6BFE2645B7C42FB79BCA9A2E4E7329A76"
+                                       },
+                                       {
+                                           "path":  ".github/agents/independent-governance-review.agent.md",
+                                           "bytes":  1284,
+                                           "sha256":  "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+                                       },
+                                       {
+                                           "path":  "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                           "bytes":  5718,
+                                           "sha256":  "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902"
+                                       },
+                                       {
+                                           "path":  "docs/ai/prompts/INDEPENDENT_GOVERNANCE_REVIEW_PROMPT.md",
+                                           "bytes":  1312,
+                                           "sha256":  "9D01635FABC7AAB12A2C16F7C7C17E8B185E4CA4E87193E5E38808231CF5CC08"
+                                       },
+                                       {
+                                           "path":  "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                           "bytes":  2098,
+                                           "sha256":  "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA"
+                                       },
+                                       {
+                                           "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186/report.md",
+                                           "bytes":  14010,
+                                           "sha256":  "3CB571524C2BD6D6C0954A6FD7BAE3DBA08FD05DF515530198015D2FEBC0FD82"
+                                       },
+                                       {
+                                           "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186/result.json",
+                                           "bytes":  5262,
+                                           "sha256":  "03A4319FDCE56FF8D1894246637A8C0D0A0173AED3B5EF9B707ED0FB6B6F9C86"
+                                       }
+                                   ],
+    "publication_scope":  "Only this reviewer-owned attempt directory",
+    "observed_dest_absent_before_creation":  true,
+    "published_utc_observation":  "2026-11-02T11:30:17.1397226Z"
+}

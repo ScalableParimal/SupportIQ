@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "record_type": "publication_boundary_checkpoint",
+  "record_id": "20261102T090405Z-a7fe416c-9a1d-4153-9c46-180a65e86436:publication_boundary_checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T090405Z-a7fe416c-9a1d-4153-9c46-180a65e86436",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "creator": "20261102T090405Z-a7fe416c-9a1d-4153-9c46-180a65e86436",
+  "role": "Corrective Change Decision",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:07:51.965721+00:00",
+  "clock_basis": "Current host UTC preparation sample, not exact publication time",
+  "sequence": "0001",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T090405Z-a7fe416c-9a1d-4153-9c46-180a65e86436/attempt.json",
+    "sha256": "F67601105C983490AFCA8C42CBEA5D207370372639EC5FAC4616C86EAAEFDB62",
+    "bytes": 82125
+  },
+  "invocation_readback": "PASS in separate PowerShell/Python invocation before substantive input reads",
+  "last_confirmed_boundary": "Qualified invocation durable and independently read back before substantive comparison",
+  "ordered_operations": [
+    "Q1: load governance and nonmutating qualification, source/input fingerprints",
+    "Q2: qualify.py serialize/parse-check, flush, no-overwrite rename of attempt.json; tool exit 0",
+    "Q3: separate Python invocation readback all invocation/source/input/script bindings PASS",
+    "S1: inspect latest Investigation, affected report, coordinator and application controls",
+    "S2: inspect terminal JSON and evidence structures, historical original and attributed text, Audit finding",
+    "S3: recursively validate all 186 structured input path/hash bindings; inspect publisher and independent assurance rules"
+  ],
+  "unfinished_work": "Publish exact proposal, evidence, complete decision report, then independently read back before terminal result",
+  "pending_gate": "Explicit scoped publisher designation, then finalized exact-destination approval package and separate application start",
+  "repository_effects": "Own administrative draft scripts and invocation only; originals unchanged",
+  "preservation": {
+    "observed_files": 270,
+    "all_bytes_and_paths_match": true,
+    "head_branch_status_match": true,
+    "exclusion": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T090405Z-a7fe416c-9a1d-4153-9c46-180a65e86436",
+    "limitation": "Point-in-time file/path checks, not continuous monitoring or an exhaustive execution log"
+  },
+  "limits": "Procedure is write-capable; ACLs do not sandbox this actor. No exhaustive execution log or proof excluding transient same-principal tampering or external concurrent writers. Point-in-time hashes and no-overwrite own scope bound the claim."
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_attempt",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:attempt",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:34:33.911731Z",
+  "process": "Governance Amendment Application",
+  "actor": {
+    "path": ".github/agents/governance-amendment-application.agent.md",
+    "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D",
+    "bytes": 1636,
+    "actor_owned_attempt_path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/attempt.json",
+    "invocation_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+    "authority": "Exact Human designation: qualified one-time initial applier only; not standing authority"
+  },
+  "authority_type": "ONE-TIME designated initial applier, not effective standing actor",
+  "requested_scope": [
+    "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+    "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+    "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md"
+  ],
+  "approved_operations": [
+    {
+      "operation": "P1",
+      "finding_id": "GOV-001",
+      "target_path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+      "base_sha256": "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E",
+      "expected_after_sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+      "expected_after_bytes": 2108,
+      "old_utf8": "- Work ID / request identity: [stable repository-unique ID or not assigned]",
+      "new_utf8": "- Work ID / request identity: [stable repository-unique Work ID; 'not assigned' is draft-only]\n\nAn executable request requires a reserved stable Work ID under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1. Continue an existing authorized same-work reservation unchanged. For new work, allocate and collision-check the ID before invocation; the first authorized no-overwrite attempt.json publication itself reserves the ID, so no separate prior reservation record is required. 'not assigned' is draft-only and blocks invocation and record publication. All other invocation and publication prerequisites remain required.\n"
+    },
+    {
+      "operation": "P2",
+      "finding_id": "GOV-002",
+      "target_path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "base_sha256": "0495F43A8AFC8ECBBB7BA59FB0FEBCAF0A3276EB95EF16AE3B907636690645A7",
+      "expected_after_sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8",
+      "expected_after_bytes": 5773,
+      "old_utf8": "The exact proposal and Human Approval must expressly acknowledge these material residual risks.",
+      "new_utf8": "The exact proposal must disclose these material residual risks, and the Verification or Review report and evidence must retain that disclosure. Residual-risk acknowledgement is disclosure, not an additional Human Approval validity condition; all existing approval bindings remain required."
+    },
+    {
+      "operation": "P3",
+      "finding_id": "GOV-002",
+      "target_path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+      "base_sha256": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+      "expected_after_sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+      "expected_after_bytes": 5718,
+      "old_utf8": "The exact proposal and Human Approval must expressly acknowledge these material residual risks.",
+      "new_utf8": "The exact proposal must disclose these material residual risks, and the Verification or Review report and evidence must retain that disclosure. Residual-risk acknowledgement is disclosure, not an additional Human Approval validity condition; all existing approval bindings remain required."
+    },
+    {
+      "operation": "P4",
+      "finding_id": "GOV-002",
+      "target_path": "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+      "base_sha256": "19950013220CB93E88FFBA0606763E8FA93A8A60950E57360C50F9ACFCC9132A",
+      "expected_after_sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97",
+      "expected_after_bytes": 2076,
+      "old_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; EXPRESSLY DISCLOSED IN EXACT HUMAN APPROVAL",
+      "new_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; DISCLOSE IN EXACT PROPOSAL AND THIS ACTOR'S REPORT/EVIDENCE; NOT AN ADDITIONAL HUMAN APPROVAL VALIDITY CONDITION"
+    },
+    {
+      "operation": "P5",
+      "finding_id": "GOV-002",
+      "target_path": "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+      "base_sha256": "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79",
+      "expected_after_sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+      "expected_after_bytes": 2098,
+      "old_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; EXPRESSLY DISCLOSED IN EXACT HUMAN APPROVAL",
+      "new_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; DISCLOSE IN EXACT PROPOSAL AND THIS ACTOR'S REPORT/EVIDENCE; NOT AN ADDITIONAL HUMAN APPROVAL VALIDITY CONDITION"
+    }
+  ],
+  "output_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/",
+  "predecessor_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/report.md",
+    "sha256": "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A",
+    "bytes": 39437
+  },
+  "predecessor_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/result.json",
+    "sha256": "B4A39B5A8862138F2AF04CB80520C15B2F86E5430D4D867938FBB91E0F6E19FA",
+    "bytes": 10242
+  },
+  "approval_context": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/approval-context.json",
+    "sha256": "853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B",
+    "bytes": 9399,
+    "identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:approval-context"
+  },
+  "capability_evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/preflight.json",
+    "sha256": "7A8146B73ACEC11C2ECEEFAF69FF83FBAF44753E108A6BF6F95F0B7DEEEFAFEF",
+    "bytes": 56624,
+    "identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:preflight"
+  },
+  "work_id_reservation": "Continue original same-work first Audit reservation unchanged; five preceding attempts distinct and terminal; new timestamp+UUID attempt path absent before mkdir",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+    "status_before": "?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/attempt.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/checkpoint-0001.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/checkpoint-0002.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/checkpoint-0003.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/checkpoint-0004.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/evidence/audit-evidence-revision-0001.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/evidence/audit-evidence.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/report-revision-0001.md\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/report.md\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/result.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535/attempt.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535/checkpoint-0001.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535/evidence/investigation-evidence.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535/report.md\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535/result.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/attempt.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/checkpoint-0001.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/evidence/decision-evidence.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/report.md\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/result.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/attempt.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/checkpoint-0001.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/evidence/decision-evidence.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/report.md\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/result.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/attempt.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/checkpoint-0001.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/evidence/decision-evidence.json\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/report.md\n?? docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/result.json",
+    "index_changed_paths": [],
+    "tracked_changed_paths": []
+  },
+  "applicable_masters": [
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+      "bytes": 30926
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+      "bytes": 54243
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C",
+      "bytes": 89025
+    }
+  ],
+  "process_initiation": "Yes, initiate the scoped Governance Amendment Application stage",
+  "non_authorizations": "No independent Verification/Review/Audit, effectiveness, adoption, commit/push, product activity or other actor records",
+  "last_confirmed_boundary": "Preflight complete; no target bytes written. All targets at exact bases; after bytes precomputed."
+}

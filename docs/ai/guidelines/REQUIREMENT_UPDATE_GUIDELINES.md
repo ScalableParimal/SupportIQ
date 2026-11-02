@@ -14,12 +14,14 @@ These guidelines govern **applying approved decisions to the requirement**. Requ
 
 Before updating, AI must have:
 
-1. The current approved Requirement version and its version ID and SHA-256.
+1. The source Requirement path, immutable version ID, and SHA-256, with its lifecycle status and applicable approval evidence: either the identified unapproved source for initial analysis clarification before first Human Requirement Approval, or the current approved Requirement for an approved-source change.
 2. The relevant analysis findings/questions, where applicable.
 3. The human's answers and explicit decisions.
 4. Any recommendations explicitly approved by the human.
-5. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment. For a non-finding request, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
+5. The update context: Initial Analysis Clarification (pre-approval), Finding-led corrective update, or human-requested, non-finding Requirement amendment. For an approved-source non-finding amendment, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
 6. The affected Requirement IDs and the request details required by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8, where applicable.
+
+For Initial Analysis Clarification, bind the initial Requirement Analysis questions and explicit human answers/decisions, and require an explicit request to perform Requirement Update. Preserve the immutable source and version lineage under SDLC_ARTIFACT_GOVERNANCE.md section 8.4. The resulting version remains unapproved; approval of clarification decisions is not Human Requirement Approval. Follow section 16: subsequent Requirement Analysis, complete independent Requirement Analysis Verification, resolution of findings/decisions, then separate formal Human Requirement Approval before planning as approved. This branch neither permits implementation against an unapproved Requirement nor bypasses applicable finding-led corrective controls; a change to an already-approved Requirement must use the approved-source path. If source lifecycle status or applicable approval evidence cannot be established, stop and request clarification.
 
 If a material decision is still unresolved, do not silently decide it.
 

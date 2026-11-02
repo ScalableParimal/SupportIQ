@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1",
+  "sequence": 1,
+  "created_at_utc": "2026-11-02T09:39:45.391659+00:00",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/attempt.json",
+    "bytes": 59534,
+    "sha256": "C731B1F6F96C511E6A615693B88DE979F493D7919444725BDF49880B67A1C3F7"
+  },
+  "qualification": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/evidence/qualification.json",
+    "bytes": 154094,
+    "sha256": "29BE46B20A828189E0FD0F31F53F2F3475155C9165240257773765B5EDAB2DD4"
+  },
+  "fresh_process_readback": "PASS strict JSON parse, hashes, complete input/path/status/index checkpoint equality",
+  "boundary": "Before substantive comparisons",
+  "observed_input_count": 311,
+  "own_runtime_not_competing_writer": true,
+  "operation": "Fresh powershell Python import with bytecode disabled, hash/strict parse/snapshot/no-overwrite checkpoint publication",
+  "limitations": "Procedural non-mutation; shared write-capable OS principal and tools, not enforced read-only. Actor-visible tool transcript and script events only; no exhaustive trusted OS event stream, lock, coordinated no-edit window, or continuous observation. Matching endpoint fingerprints cannot prove absence of transient writes or same-principal tampering. Terminal old attempts are not evidence of live competing writers. No authenticated parent message IDs/times are exposed; none invented."
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16:checkpoint",
+  "feature": "Initial SupportIQ SDLC portability assessment",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-invocation-00cac3a9-53e9-4d9a-a037-dbdca7a9558d",
+    "role": "SDLC Portability Assessment",
+    "identity_basis": "Current explicit developer role, user-scoped invocation, exact on-disk Agent/Skill/Guideline/Prompt/Request loaded; invocation UUID is local attribution, not an external platform identity",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "harness_evidence": "get_current_session returned this session and canonical SupportIQ working directory; its title is not role proof",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "external_cryptographic_actor_identity": "Not available; not claimed"
+  },
+  "created_at_utc": "2026-11-02T17:18:33.770783+00:00",
+  "clock_basis": "Python timezone-aware local system UTC sampled at record preparation; not exact publication time",
+  "gate": {
+    "applicability": "No formal product approval or acceptance gate is created or satisfied"
+  },
+  "related_records": [],
+  "task_context": "Initial assessment; no approved Requirement, Plan, or Plan-local task",
+  "sequence": "0001",
+  "last_confirmed_boundary": "Invocation published and independently freshly read back before substantive assessment",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16/attempt.json",
+    "bytes": 29212,
+    "sha256": "38C7335439CF1F7ED7989A9FFD5E28135928D73D6AE57D8D8547587398C10BC5",
+    "record_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16:invocation"
+  },
+  "readback": {
+    "outcome": "PASS",
+    "observed_at_utc": "2026-11-02T17:16:12.211164+00:00",
+    "clock_basis": "Actual prior independent readback command stdout; not filesystem publication time",
+    "bytes": 29212,
+    "sha256": "38C7335439CF1F7ED7989A9FFD5E28135928D73D6AE57D8D8547587398C10BC5",
+    "ordering": "Readback command completed before README/PRD semantic inspection"
+  },
+  "partial_outputs": {
+    "helper": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16/attachments/publication-helper.py",
+      "bytes": 18172,
+      "sha256": "845FA74093F1CB37D8FFB28231688E902BE9B584223079C7AB885B484A0E33F4"
+    },
+    "target_inspection": "README and all 524 word/document.xml paragraphs statically read; no macro, embedded executable, project command or runtime executed"
+  },
+  "unfinished_work": [
+    "Finalize concern/dimension report",
+    "Publish evidence, report and bound result; independent fresh terminal readback"
+  ],
+  "repository_effects": "Own authorized records only; no source or other actor record writes",
+  "blockers": [],
+  "pending_human_decisions": "Possible-blocker recommendations to be reported; no disposition supplied",
+  "safe_continuation_prerequisites": "Inputs unchanged; remain in own scope; no later process; validate final bindings"
+}

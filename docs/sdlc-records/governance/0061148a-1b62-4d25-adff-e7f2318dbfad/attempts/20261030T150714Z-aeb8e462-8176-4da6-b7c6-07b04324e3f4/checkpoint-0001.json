@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_identity": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4:checkpoint-0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4",
+  "sequence": 1,
+  "finding_id": "IGV-FIND-001",
+  "last_confirmed_boundary": "Own invocation durably published and validated before analysis; predecessor bindings checked; finding accepted as other governed artifact change; proposal prepared only in own partial evidence records",
+  "repository_effects": "No source or predecessor record write. Only own invocation and own .partial decision evidence/checkpoint publication.",
+  "unfinished_work": "Validate and publish own proposal/evidence/report; validate all references; terminal result last",
+  "blockers_to_corrective_publication": [
+    "No continuing authority from original one-time P1-P5 designation",
+    "Human must designate record-only publisher and own-record destination",
+    "Exact final attachment path/envelope/hash must be finalized and approved",
+    "Separate fresh Application stage-start and current actor qualification required"
+  ],
+  "safe_continuation": "Complete this decision report and stop at human handoff. No correction applied, follow-on stage dispatched, Review permitted or baseline adopted."
+}

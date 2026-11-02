@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014:checkpoint-0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+  "creator": {
+    "role": "Governance Amendment Application",
+    "actor_identity": "local-governance-amendment-application:20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+    "role_path": ".github/agents/governance-amendment-application.agent.md",
+    "role_sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D",
+    "runtime_agent_id_observed": "7282643f-d89b-4b2d-b082-475ffc440fce",
+    "identity_basis": "Only running matching Application actor in current runtime roster; association is not authenticated platform identity"
+  },
+  "created_at_utc": "2026-11-02T11:05:28.416270+00:00",
+  "clock_basis": "Host UTC preparation sample, not publication time",
+  "process": "Governance Amendment Application",
+  "sequence": 1,
+  "last_confirmed_boundary": "Invocation and preflight freshly read and integrity-checked in separate process; all 367 baseline files and path set, inputs, roles, Masters, index, HEAD and branch rechecked; all bases match before first source write",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attempt.json",
+    "bytes": 50324,
+    "sha256": "794330611A93B55BF4B0DA8A5A66CC78B4CE9319CCD86B63B39B64B45794750F"
+  },
+  "preflight": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/preflight.json",
+    "bytes": 159059,
+    "sha256": "6441B1472BFED3DE4604BB5C47F1AAB0082236A2ED56F78D1D396C25C51E080B"
+  },
+  "target_before": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 48379,
+    "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+  },
+  "expected_after": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 49225,
+    "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+  },
+  "preserved_preimage": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/target-before.bin",
+    "bytes": 48379,
+    "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+  },
+  "target_identity": {
+    "resolved_path": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\.github\\agents\\sdlc-governance-remediation.agent.md",
+    "device": 7972088113085002079,
+    "inode": 43347146414243720
+  },
+  "unfinished": "Perform only exact one-target approved binary replacement; readback and publication pending",
+  "source_writes_so_far": 0
+}

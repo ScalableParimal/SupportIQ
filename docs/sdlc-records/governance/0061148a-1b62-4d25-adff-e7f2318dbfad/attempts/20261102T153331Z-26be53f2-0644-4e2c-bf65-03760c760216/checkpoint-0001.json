@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint_1",
+  "record_id": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216:checkpoint_1",
+  "feature": "Governance-only F003/F004; product feature N/A",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Independent Governance Verification",
+  "attempt_id": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+  "creator": {
+    "role": "Independent Governance Verification",
+    "runtime_agent_id": "8e0bf478-bfeb-461b-90ed-64033f60f8d5"
+  },
+  "created_at_utc": "2026-11-02T15:35:43.266116+00:00",
+  "clock_basis": "UTC record preparation, not exact publication time",
+  "gate_refs": {
+    "current": "Fresh Human Independent Governance Verification retry stage-start",
+    "predecessor": "Completed five-file Governance Amendment Application",
+    "later": "Review and Audit not started; require their own gates and starts"
+  },
+  "sequence": 1,
+  "last_confirmed_boundary": "Independent fresh-process readback of published complete invocation/manifest before any substantive verification",
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216/attempt.json",
+      "bytes": 133058,
+      "sha256": "CC751796B4C673D212395735B23D9CE10EE4271E1F8D0913EFB7DD0381291215"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216/input-manifest.json",
+      "bytes": 310103,
+      "sha256": "314F53EF67F9F4C4CD704F2A4A62ABEE128B4E6DCDD915360844425BC88576EE"
+    }
+  ],
+  "invocation_validated": true,
+  "manifest_validated": true,
+  "snapshot_matches_initial": true,
+  "fresh_process_id": 38248,
+  "partial_outputs": "No source effects; own records only",
+  "unfinished_work": "All substantive Verification checks",
+  "blockers": [],
+  "pending_gates": [
+    "No later stage"
+  ],
+  "safe_continuation_prerequisites": "Same one authorized attempt; unchanged evaluated snapshot",
+  "events": [
+    {
+      "sequence": 1,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:41.320507+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "ls-files",
+        "-z"
+      ],
+      "stdout_sha256": "7DBA28382315E2384C5AB894C4DAC385E255D11FC3DFA439D43BDF14CF1DEB7F",
+      "returncode": 0
+    },
+    {
+      "sequence": 2,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:41.704797+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=all"
+      ],
+      "stdout_sha256": "BF74316AE45D9792E12628447D8181B037BEF4676F807A36629C29B40059099A",
+      "returncode": 0
+    },
+    {
+      "sequence": 3,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:41.788391+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "rev-parse",
+        "HEAD"
+      ],
+      "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+      "returncode": 0
+    },
+    {
+      "sequence": 4,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:41.866765+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "branch",
+        "--show-current"
+      ],
+      "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+      "returncode": 0
+    },
+    {
+      "sequence": 5,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:41.943395+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "stdout_sha256": "8C6DAE29EA6055EBF7BC98E09EF53DC8B37832A8A10B5EE679A01D8B6C679875",
+      "returncode": 0
+    },
+    {
+      "sequence": 6,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:42.029745+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "diff",
+        "--cached",
+        "--binary",
+        "--no-ext-diff"
+      ],
+      "stdout_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "returncode": 0
+    },
+    {
+      "sequence": 7,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:42.133240+00:00",
+      "operation": "non-mutating subprocess",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "git",
+        "--no-optional-locks",
+        "--no-pager",
+        "diff",
+        "--binary",
+        "--no-ext-diff"
+      ],
+      "stdout_sha256": "AD3E80B6DCF7CA66D42EB0FA473CF0E11D501EF211F71867F3DD4D876A77C638",
+      "returncode": 0
+    },
+    {
+      "sequence": 8,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:43.260525+00:00",
+      "operation": "non-mutating permission/principal query",
+      "paths": [],
+      "outcome": "OK",
+      "arguments": [
+        "powershell",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "$ErrorActionPreference='Stop'; [Console]::OutputEncoding=[Text.UTF8Encoding]::new($false); $paths=@('.', '.github', 'docs/ai', 'docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts'); $rows=@(foreach($p in $paths){ $a=Get-Acl -LiteralPath $p; [pscustomobject]@{path=$p;owner=$a.Owner;rules=@($a.Access | ForEach-Object {[pscustomobject]@{identity=$_.IdentityReference.Value;rights=$_.FileSystemRights.ToString();type=$_.AccessControlType.ToString();inherited=$_.IsInherited}})}}); [pscustomobject]@{principal=[Security.Principal.WindowsIdentity]::GetCurrent().Name;rows=$rows}|ConvertTo-Json -Depth 8 -Compress"
+      ],
+      "stdout_sha256": "BBC53AC3B323BB25A75546BA1B8D27DDDC9FF891A81E67B1F770AF4D49D689D4",
+      "returncode": 0
+    },
+    {
+      "sequence": 9,
+      "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+      "attempt": "20261102T153331Z-26be53f2-0644-4e2c-bf65-03760c760216",
+      "observed_at_utc": "2026-11-02T15:35:43.264348+00:00",
+      "operation": "complete hidden-inclusive input/path-set snapshot",
+      "paths": [
+        "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+      ],
+      "outcome": "OK",
+      "file_count": 500,
+      "file_path_set_sha256": "B116E6F64FE2EF46D36824CFF94805D5F822566B8495DFEB87E962FC8EE91530"
+    }
+  ]
+}

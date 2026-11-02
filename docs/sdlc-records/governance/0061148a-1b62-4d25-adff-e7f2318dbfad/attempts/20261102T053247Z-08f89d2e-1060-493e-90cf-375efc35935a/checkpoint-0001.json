@@ -1,0 +1,40 @@
+{
+    "schema_version":  "sdlc-finding-investigation-checkpoint/v1",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_identity":  "20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a:checkpoint-0001",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a",
+    "sequence":  1,
+    "recorded_at_utc":  "2026-11-02T05:39:08.7996165Z",
+    "process":  "Finding Investigation",
+    "status":  "analysis complete; report preparation pending",
+    "remediation_cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "finding_outcomes":  [
+                             {
+                                 "finding_id":  "GOV-001",
+                                 "outcome":  "FINDING CONFIRMED",
+                                 "current_text":  "addressed by P1; formal effectivity pending complete Audit CONSISTENT"
+                             },
+                             {
+                                 "finding_id":  "GOV-002",
+                                 "outcome":  "FINDING CONFIRMED",
+                                 "current_text":  "addressed by P2-P5; formal effectivity pending complete Audit CONSISTENT"
+                             }
+                         ],
+    "evidence_binding":  {
+                             "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a/evidence/investigation-evidence.json",
+                             "byte_count":  71984,
+                             "sha256":  "1FF017363F8EB8B683EE25A190086973A0E0ABBC140295C30AA9BB8E66CA1378"
+                         },
+    "attempt_binding":  {
+                            "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T053247Z-08f89d2e-1060-493e-90cf-375efc35935a/attempt.json",
+                            "byte_count":  23275,
+                            "sha256":  "E8233F6338945B80AF640102150CC8E2BEDA97D31E4B6C656DDB4088CAC75830"
+                        },
+    "limitations":  [
+                        "Masters are candidate/unadopted; no adopted-baseline violation is asserted",
+                        "Historical assurance applies only to P1-P5 and linked IGV-FIND-001 correction, not this cycle",
+                        "Pre-attempt read-only preflight inspection is disclosed; no outcome was persisted before attempt publication",
+                        "No product inspection, tests, runtime, or source changes"
+                    ]
+}

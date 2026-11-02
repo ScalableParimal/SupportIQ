@@ -1,0 +1,366 @@
+{
+  "schema": "sdlc-governance-audit-result-v1",
+  "record_type": "governance_audit_result",
+  "record_identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "attempt_id": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291",
+  "process": "SDLC Governance Audit",
+  "creator": "Current separate read-only SDLC Governance Audit actor",
+  "created_utc": "2026-11-02T08:37:47.784785+00:00",
+  "clock_basis": "Observed system UTC; no independently authenticated exact publication instant asserted",
+  "execution_termination": "COMPLETED",
+  "audit_outcome": "CONSISTENT WITH MINOR FINDINGS",
+  "counts": {
+    "expected": 52,
+    "found": 52,
+    "audited": 52,
+    "Critical": 0,
+    "High": 0,
+    "Medium": 0,
+    "Low": 1,
+    "Ambiguities": 0,
+    "Broken References": 0,
+    "Missing Governance Controls": 0,
+    "Unsupported Governance Controls": 0
+  },
+  "core_counts": {
+    "Masters": {
+      "expected": 3,
+      "found": 3,
+      "audited": 3
+    },
+    "Guidelines": {
+      "expected": 10,
+      "found": 10,
+      "audited": 10
+    },
+    "Prompts": {
+      "expected": 10,
+      "found": 10,
+      "audited": 10
+    },
+    "Requests": {
+      "expected": 10,
+      "found": 10,
+      "audited": 10
+    },
+    "Skills": {
+      "expected": 10,
+      "found": 10,
+      "audited": 10
+    },
+    "Agents": {
+      "expected": 9,
+      "found": 9,
+      "audited": 9
+    },
+    "total": {
+      "expected": 52,
+      "found": 52,
+      "audited": 52
+    }
+  },
+  "current_source_definition_findings": 0,
+  "current_execution_record_findings": 1,
+  "mechanism_results": [
+    {
+      "group": "Governance Audit",
+      "source_counts": {
+        "expected": 5,
+        "present": 5,
+        "assessed": 5
+      },
+      "result": "PASS",
+      "unresolved_findings": [],
+      "checks_location": "canonical evidence /mechanisms/0"
+    },
+    {
+      "group": "Governance Remediation",
+      "source_counts": {
+        "expected": 14,
+        "present": 14,
+        "assessed": 14
+      },
+      "result": "FAIL",
+      "unresolved_findings": [
+        "GOV-AUD-20261102-001"
+      ],
+      "checks_location": "canonical evidence /mechanisms/1"
+    },
+    {
+      "group": "SDLC Process Orchestration",
+      "source_counts": {
+        "expected": 4,
+        "present": 4,
+        "assessed": 4
+      },
+      "result": "PASS",
+      "unresolved_findings": [],
+      "checks_location": "canonical evidence /mechanisms/2"
+    },
+    {
+      "group": "SDLC Portability Assessment",
+      "source_counts": {
+        "expected": 8,
+        "present": 8,
+        "assessed": 8
+      },
+      "result": "PASS",
+      "unresolved_findings": [],
+      "checks_location": "canonical evidence /mechanisms/3"
+    },
+    {
+      "group": "Governance Amendment Application",
+      "source_counts": {
+        "expected": 8,
+        "present": 8,
+        "assessed": 8
+      },
+      "result": "PASS",
+      "unresolved_findings": [],
+      "checks_location": "canonical evidence /mechanisms/4"
+    },
+    {
+      "group": "Independent Governance Verification",
+      "source_counts": {
+        "expected": 8,
+        "present": 8,
+        "assessed": 8
+      },
+      "result": "PASS",
+      "unresolved_findings": [],
+      "checks_location": "canonical evidence /mechanisms/5"
+    },
+    {
+      "group": "Independent Governance Review",
+      "source_counts": {
+        "expected": 8,
+        "present": 8,
+        "assessed": 8
+      },
+      "result": "PASS",
+      "unresolved_findings": [],
+      "checks_location": "canonical evidence /mechanisms/6"
+    }
+  ],
+  "unresolved_findings": [
+    {
+      "id": "GOV-AUD-20261102-001",
+      "severity": "Low",
+      "category": "Traceability Inconsistency",
+      "source": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/report.md",
+        "bytes": 12795,
+        "sha256": "CE975EE00E642B93AF50EF8FF0FF418101CE821F2E94121D43E0B260A012BF6B",
+        "identity": "20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0:report"
+      },
+      "source_section": "Invocation and record-first evidence; Authority and applicable evidence",
+      "affected_lines": {
+        "unexpanded_evidence_metadata": [
+          15
+        ],
+        "lost_correction_distinction": [
+          27
+        ],
+        "all_questionmark_lines": [
+          1,
+          11,
+          21,
+          27,
+          31,
+          33,
+          35,
+          39,
+          43,
+          45,
+          49,
+          64,
+          66,
+          70,
+          77,
+          79
+        ]
+      },
+      "related_sources": [
+        {
+          "path": "docs/ai/guidelines/FINDING_INVESTIGATION_GUIDELINES.md",
+          "bytes": 14928,
+          "sha256": "14844FB1FA9865AB870CA1E3E8A50CD319756B2C8EA45231199B09368CC31BD2"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+          "bytes": 89025,
+          "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d/evidence/proposed-correction.md",
+          "bytes": 4212,
+          "sha256": "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2",
+          "identity": "20261030T151526Z-ed894077-40cc-417c-af53-dad64eafac3d:proposed-correction"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694/attachments/IGV-FIND-001-approval-transcription-correction.md",
+          "bytes": 4212,
+          "sha256": "4D792552B451BDA23F8FD70AC15C500FF733BD0E5F595806F119445C7F1D91E2",
+          "identity": "20261030T152030Z-63870b37-91d1-4807-980e-565596f1c694:IGV-FIND-001-approval-transcription-correction"
+        }
+      ],
+      "related_sections": "Investigation Guideline 11/14 (evidence classification and required Evidence field/facts); Traceability 30.1 (usable durable evidence/record integrity); exact IGV qualification payload",
+      "issue": "The current canonical Investigation report leaves {evrel}, {ev['bytes']} and {ev['sha256']} as literal unexpanded template markers in its evidence metadata. Its correction explanation renders the original and attributed alternatives identically as ?7/?8, obscuring the exact correction distinction. Sixteen questionmark-bearing lines also degrade section-sign, quote and separator presentation.",
+      "evidence": "Actual strict UTF-8 bytes contain the markers and identical alternatives; bound original approval retains U+003F, approved/applied qualification has U+00A7 at offsets 27/42. The evidence/result hashes bind authentic defective report bytes, not corrected rendered fields.",
+      "impact": "Limited documentation/traceability impact: a reader cannot use that evidence metadata or that sentence alone to identify/understand the exact correction. All fourteen required report fields remain identifiable, actual evidence path is stated later and result binds actual report/evidence/ledger. Independent checks are executable; not wholesale report invalidity or a missing-evidence CANNOT COMPLETE.",
+      "recommended_resolution": "Route this new finding through separately initiated Finding Investigation and Corrective Change Decision. If a correction is approved, use exact append-only linked qualification/revision by authorized actor, preserve originals and actual hash links, then applicable independent assurance/full Audit. Do not edit old records or reapply P1-P5 merely to cure presentation.",
+      "human_decision_required": true,
+      "human_decision_reason": "Human chooses/initiates any next governed stage; an exact approved other-actor-record correction route is required before publication. This Audit neither investigates nor approves/applies it."
+    }
+  ],
+  "unresolved_evidence_gaps": [],
+  "effectiveness_qualifying": false,
+  "baseline_adopted": false,
+  "human_approval_or_acceptance_claimed": false,
+  "bindings": {
+    "attempt": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/attempt.json",
+      "bytes": 20682,
+      "sha256": "E44A44E3678EF6DC51CF6D5A5EFCD5CA680207170A8B521F320A770C634D4EBE",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:attempt"
+    },
+    "publication_boundary": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/evidence/publication-boundary.json",
+      "bytes": 1806,
+      "sha256": "A85836D06C7DF11D2CB364C332930F1887B14E918CDD90ED50A76B57149744AC",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:publication-boundary"
+    },
+    "checkpoint_0001": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/checkpoint-0001.json",
+      "bytes": 2345805,
+      "sha256": "D9F5F8EFD674A5B75457513B9BF222D3CED519AEB398A912C11BEFDB4CE46BE4",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:checkpoint-0001"
+    },
+    "checkpoint_0002": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/checkpoint-0002.json",
+      "bytes": 38009,
+      "sha256": "C9807396ED191715F97071D5FFA196ABA517BB3DAFF141C17475C20CF85182D8",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:checkpoint-0002"
+    },
+    "canonical_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/report-revision-0001.md",
+      "bytes": 97299,
+      "sha256": "A1A19F188ADFEED3CA9D9602880FD71F599A1141F0BF6DBF2D538F93AA682EE8",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:report-revision-0001"
+    },
+    "canonical_evidence": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/evidence/audit-evidence-revision-0001.json",
+      "bytes": 157684,
+      "sha256": "FDCCA86982A66AE928BC7D1915FEF0E229F9782BF94CF9390F20513A0FB7634B",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:audit-evidence-revision-0001"
+    }
+  },
+  "superseded_own_records": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/report.md",
+      "bytes": 95663,
+      "sha256": "876CA50FB8B38652DF2F71E433DD93E04431333ED55E7981AC8CB7BC99076F9C",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:report",
+      "superseded_by": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:report-revision-0001",
+      "reason": "Preterminal append-only display-rationale/template-spelling correction; outcomes unchanged"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/evidence/audit-evidence.json",
+      "bytes": 150624,
+      "sha256": "F0E3FF0A1263C320D4889D8EB4D6026985D3699FF7E25AF55483BFF05A14EB32",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:audit-evidence",
+      "superseded_by": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:audit-evidence-revision-0001",
+      "reason": "Canonical coverage display rationales corrected to exact process identity; outcomes unchanged"
+    }
+  ],
+  "controlling_predecessor": {
+    "canonical_report": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e/report-revision-0001.md",
+      "bytes": 13072,
+      "sha256": "14A63351F527D91452CB6A4ABEADFE8E87FD0D6E075BB32576D10C0F5D433252",
+      "identity": "20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e:report-revision-0001"
+    },
+    "result": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e/result.json",
+      "bytes": 10122,
+      "sha256": "34BED7D406F019A95555462EB19F0BB382424824319E17CE0D820CD77ED7ECFE",
+      "identity": "20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e:result"
+    },
+    "canonical_evidence": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e/evidence/handoff-evidence-revision-0001.json",
+      "bytes": 125269,
+      "sha256": "CF0243526F7C0F0C02CD632D9C202D30388D0E47709CC39918D53FFE90F39C3F",
+      "identity": "20261102T075750Z-1210d4b1-8300-4b17-8f6b-911a2f64958e:handoff-evidence-revision-0001"
+    }
+  },
+  "assessed_repository_state": {
+    "repository": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "current_source_count": 76,
+    "current_source_bytes": 758068,
+    "source_manifest_record": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/checkpoint-0001.json",
+      "bytes": 2345805,
+      "sha256": "D9F5F8EFD674A5B75457513B9BF222D3CED519AEB398A912C11BEFDB4CE46BE4",
+      "identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:checkpoint-0001"
+    },
+    "actual_approved_source_change_paths": [
+      "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+      "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+      "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+      "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+    ],
+    "head_only_assessment": false,
+    "Master_state": "candidate/unadopted",
+    "governance_root": "adopted",
+    "product_root": "not adopted",
+    "source_drift_observed": 0,
+    "protected_prior_records": 172,
+    "protected_prior_record_hash_or_path_drift_observed": 0,
+    "index_unchanged": true
+  },
+  "final_validation": {
+    "all_required_report_sections_and_52_coverage_and_seven_groups_present": true,
+    "exact_canonical_report_and_evidence_independently_read_back": true,
+    "report_utf8_and_registry_bindings_validated": 154,
+    "every_generated_JSON_path_sha256_byte_binding_validated": true,
+    "all_dependencies_durable_before_result": true,
+    "source_and_prior_record_state_rechecked_immediately_before_result": true,
+    "no_completed_result_preexisted": true,
+    "terminal_result_publication_is_last_write": true,
+    "contract": "Exact UTF-8 serializer bytes parsed; all bindings checked; exclusive partial preparation, flush/fsync, same-filesystem no-overwrite rename; independent readback/parse/byte/SHA-256/binding validation required and performed by publication operation"
+  },
+  "historical_dispositions": {
+    "GOV-001": "Historically valid; P1 current wording addresses textual issue; current Decision no governed change; not reopened as current source finding",
+    "GOV-002": "Historically valid; P2-P5 remove extra acknowledgement validity gate and retain disclosure; current Decision no governed change",
+    "IGV-FIND-001": "Exact approved append-only qualification evaluated; old FINDINGS/original records retained; later PASS assurance applies exact package",
+    "prior_incomplete_audit": "Canonical revision0002 with result-correction retained; earlier Remediation evidence gap not retroactively made PASS",
+    "prior_failed_attempts": "Malformed Audit, hash-failed Remediation, earlier ordering-affected Investigation and blocked Decision retained unchanged; not completion/live-writer proof"
+  },
+  "limitations": [
+    "Procedural nonmutation with technically write-capable tools/shared OS principal",
+    "No trusted exhaustive OS event stream, coordinated no-edit interval, repository lock or continuous concurrency observation",
+    "Conversation-attributed historical approvals lack externally authenticated message IDs/times",
+    "Historical attempts and status gaps not retroactively cured",
+    "No product artifacts inspected and no product tests/build/runtime or other stages invoked",
+    "Full172 prior-record inventory was captured at substantive checkpoint0001, not falsely claimed pre-read; all76 sources and controlling predecessors qualified earlier. Later protected-state comparisons show zero observed drift only.",
+    "Canonical own report/evidence revision0001 supersede retained initial output for nine display labels and exact template spellings; final result binds revisions, no source or predecessor changed."
+  ],
+  "downstream_handoff": {
+    "next_allowed_gate": "Fresh explicit Human initiation for applicable Governance Remediation continuation and/or Finding Investigation of GOV-AUD-20261102-001; no stage started",
+    "next_process_started": false,
+    "Remediation_final_report_requirement": "Separate later actor independently hashes this stored Audit result, validates its canonical-report binding and records result path/identity/verified digest/outcome in its own final report/result. Not prerequisite to Audit publication; this actor publishes no Remediation records.",
+    "corrective_route": "Finding -> separately initiated Finding Investigation -> Corrective Change Decision -> required exact Human Approval/authorized append-only record correction -> applicable assurance/full separate Audit. No direct old-record edit, source reapplication or invented historical cycle work.",
+    "baseline_adoption_gate": "Separate later Human decision only after qualifying Audit and controls; this minor-finding outcome does not qualify."
+  },
+  "non_actions": {
+    "source_or_prior_record_modification": false,
+    "other_process_or_nested_agent": false,
+    "product_content_or_test_or_runtime": false,
+    "adoption_or_portability_execution": false,
+    "commit_branch_push": false
+  }
+}

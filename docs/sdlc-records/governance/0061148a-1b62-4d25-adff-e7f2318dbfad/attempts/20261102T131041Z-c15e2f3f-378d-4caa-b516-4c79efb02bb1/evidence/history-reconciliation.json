@@ -1,0 +1,196 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "remediation_history_reconciliation",
+    "record_id":  "",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T131041Z-c15e2f3f-378d-4caa-b516-4c79efb02bb1",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "creator":  {
+                    "identity":  "Governance Remediation Agent; invocation identified by attempt ID",
+                    "role":  "SDLC Governance Remediation"
+                },
+    "created_at_utc":  "2026-11-02T13:19:29.6397266+00:00",
+    "clock_basis":  "PowerShell UTC preparation clock, not exact publication time",
+    "prior_canonical_remediation":  {
+                                        "attempt_id":  "20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565",
+                                        "report":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/report.md",
+                                                       "bytes":  19130,
+                                                       "sha256":  "0E819BDD31747BA24037C89130D1A25A8E642A7EB0BBF9DF267C34DBD815C768"
+                                                   },
+                                        "result":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/result.json",
+                                                       "record_id":  "20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565:coordination_result",
+                                                       "bytes":  7103,
+                                                       "sha256":  "F65D96FC76105E4546CC5318BF7D3E4A8E41784486449BE3CE55726840CE2AD2",
+                                                       "outcome":  "BOUNDED CONTINUATION COMPLETED; GOVERNANCE REMEDIATION PAUSED"
+                                                   },
+                                        "finding_id":  "GOV-AUD-20261102-002",
+                                        "status":  "PAUSED at a Human Investigation start gate; this report preserves earlier Work ID history and is referenced, not duplicated"
+                                    },
+    "earlier_full_audit":  {
+                               "attempt_id":  "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f",
+                               "report":  {
+                                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/report.md",
+                                              "bytes":  55902,
+                                              "sha256":  "4246B0BAA6A945678034706AE02E26162CD2DB940D8FAC3F2AB7749D76B477A2"
+                                          },
+                               "result":  {
+                                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/result.json",
+                                              "bytes":  27489,
+                                              "sha256":  "3C628AA7BC8ECDF2194EC5FBA13911BB183B45A0BBA4CD57E81CF4B4FBF23231"
+                                          },
+                               "outcome":  "CONSISTENT WITH MINOR FINDINGS; GOV-AUD-20261102-002"
+                           },
+    "bounded_cycle_one_chain":  [
+                                    {
+                                        "attempt_id":  "20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff",
+                                        "process":  "Finding Investigation",
+                                        "report":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff/report.md",
+                                                       "record_id":  null,
+                                                       "bytes":  28454,
+                                                       "sha256":  "C3E467C0A94CACD0BBC01FB0AAA0820293C715890D239FEEA3ED0C8A3ABF8E65"
+                                                   },
+                                        "result":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff/result.json",
+                                                       "record_id":  "20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff:investigation_result",
+                                                       "bytes":  21270,
+                                                       "sha256":  "95155D44BF54F3FF302021EE8C585838862AD2000B8922DEB73766C03B54BCB5",
+                                                       "outcome":  "CORRECTIVE DIRECTION IDENTIFIED"
+                                                   }
+                                    },
+                                    {
+                                        "attempt_id":  "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+                                        "process":  "Corrective Change Decision \u0026 Plan Update",
+                                        "report":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/report.md",
+                                                       "record_id":  null,
+                                                       "bytes":  21659,
+                                                       "sha256":  "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3"
+                                                   },
+                                        "result":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/result.json",
+                                                       "record_id":  "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5:decision_result",
+                                                       "bytes":  7339,
+                                                       "sha256":  "DD24CBD8B366CE920DB28E4699CB27B53651FA85445F250D517D20160493D0A9",
+                                                       "outcome":  "FINDING ACCEPTED â€” OTHER GOVERNED ARTIFACT CHANGE REQUIRED"
+                                                   }
+                                    },
+                                    {
+                                        "attempt_id":  "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+                                        "process":  "Governance Amendment Application",
+                                        "report":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/report.md",
+                                                       "record_id":  null,
+                                                       "bytes":  12446,
+                                                       "sha256":  "FE784908BD9A7F5B193D830538F7DA7AE1EAB949987A63F3FC6E53A95F4AF627"
+                                                   },
+                                        "result":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/result.json",
+                                                       "record_id":  "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014:application_result",
+                                                       "bytes":  55787,
+                                                       "sha256":  "C18F9CE97C385DBD3FDBC506AB63395A963809C4BAF77287D7392FC2F85072AF",
+                                                       "outcome":  "EXACT APPROVED BYTES APPLIED"
+                                                   }
+                                    },
+                                    {
+                                        "attempt_id":  "20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22",
+                                        "process":  "Independent Governance Verification",
+                                        "report":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/report.md",
+                                                       "record_id":  "20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22:verification_report",
+                                                       "bytes":  17306,
+                                                       "sha256":  "02E8B7CD6AD7F599E9F9C4A411DC1A7C5DA535C366A218CD7BB3D633CF173825"
+                                                   },
+                                        "result":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/result.json",
+                                                       "record_id":  "20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22:verification_result",
+                                                       "bytes":  16341,
+                                                       "sha256":  "B3FE365B38492FF67E017CA1048F2BFBEB9442795AF1939FA209D1A06EA75C40",
+                                                       "outcome":  "PASS"
+                                                   }
+                                    },
+                                    {
+                                        "attempt_id":  "20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd",
+                                        "process":  null,
+                                        "report":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/report.md",
+                                                       "record_id":  null,
+                                                       "bytes":  15174,
+                                                       "sha256":  "E8BBBCEC0AE7E865773096E420EFEB3F1350F54B4225198BDEE9436138998D79"
+                                                   },
+                                        "result":  {
+                                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/result.json",
+                                                       "record_id":  null,
+                                                       "bytes":  15368,
+                                                       "sha256":  "852E0E357A5D24B802DEF018E6FCEB7BD4BF27BA728DB322685AB738EC8A1DE7",
+                                                       "outcome":  "PASS"
+                                                   }
+                                    }
+                                ],
+    "failed_review_attempts":  [
+                                   {
+                                       "attempt_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+                                       "result":  {
+                                                      "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186/result.json",
+                                                      "bytes":  5262,
+                                                      "sha256":  "03A4319FDCE56FF8D1894246637A8C0D0A0173AED3B5EF9B707ED0FB6B6F9C86"
+                                                  },
+                                       "execution_status":  "CANNOT COMPLETE",
+                                       "outcome":  "CANNOT COMPLETE"
+                                   },
+                                   {
+                                       "attempt_id":  "20261102T1130Z-81995642-42b8-42c4-94e3-4b6d994c10bc",
+                                       "result":  {
+                                                      "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-81995642-42b8-42c4-94e3-4b6d994c10bc/result.json",
+                                                      "bytes":  4245,
+                                                      "sha256":  "A734216F0D1A8924756C5B4BFB2E402C220B8F38163AED32931F04943A642FF1"
+                                                  },
+                                       "execution_status":  "CANNOT COMPLETE",
+                                       "outcome":  "CANNOT COMPLETE"
+                                   }
+                               ],
+    "current_audit":  {
+                          "attempt_id":  "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f",
+                          "report":  {
+                                         "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+                                         "bytes":  95024,
+                                         "sha256":  "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576"
+                                     },
+                          "result":  {
+                                         "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/result.json",
+                                         "bytes":  61780,
+                                         "sha256":  "9C4F37321EB63C67D45DD2F698F50B75FC1CBC95BEFA5EA7DFB30663E5A71B70"
+                                     },
+                          "outcome":  "INCONSISTENT",
+                          "finding_ids":  [
+                                              "GOV-AUD-20261102-003",
+                                              "GOV-AUD-20261102-004"
+                                          ]
+                      },
+    "older_history_reference":  {
+                                    "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/report.md",
+                                    "sha256":  "0E819BDD31747BA24037C89130D1A25A8E642A7EB0BBF9DF267C34DBD815C768",
+                                    "note":  "Contains the prior cycle admission and history for GOV-001/GOV-002, GOV-AUD-20261102-001, recovery decision, exact application, Verification/Review, approvals and limitations; preserved and referenced rather than copied."
+                                },
+    "unpublished_preflight":  {
+                                  "status":  "User reports preceding Remediation preflight published no attempt/result and did no substantive analysis",
+                                  "durable_confirmation":  "No completed Remediation attempt/result was identified for that invocation",
+                                  "limitations":  "A separate 20261102T115616Z Audit-role directory contains publisher self-test artifacts but no attempt.json/report.md/result.json; its relation to the user-described preflight is not established."
+                              },
+    "finding_scope_reconciliation":  {
+                                         "current_findings":  [
+                                                                  "GOV-AUD-20261102-003",
+                                                                  "GOV-AUD-20261102-004"
+                                                              ],
+                                         "other_findings_in_latest_audit":  0,
+                                         "previous_cycle_findings_not_reopened":  [
+                                                                                      "GOV-AUD-20261102-001",
+                                                                                      "GOV-AUD-20261102-002"
+                                                                                  ],
+                                         "investigation_for_current_ids":  "No prior Investigation report/result for F003 or F004 found in the pre-existing Work ID records."
+                                     },
+    "source_history_mutation":  "None; prior records remain immutable."
+}

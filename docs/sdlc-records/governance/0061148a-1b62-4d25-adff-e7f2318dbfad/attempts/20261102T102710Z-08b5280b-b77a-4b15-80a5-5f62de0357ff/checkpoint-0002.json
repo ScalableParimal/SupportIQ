@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff:checkpoint:0002",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "creator": {
+    "role": "Finding Investigation",
+    "actor_identity": "local-finding-investigation:20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff",
+    "runtime_label": "Commit Record Ambiguity Investigation",
+    "runtime_agent_id_observed": "b7ff5557-b3f4-44b4-87e4-7c6f5cdfc705",
+    "identity_limit": "Runtime roster association, not independently authenticated platform principal"
+  },
+  "created_at_utc": "2026-11-02T10:32:05.217435+00:00",
+  "clock_basis": "Host UTC sample during record preparation; not publication time",
+  "process": "Finding Investigation",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-002",
+  "sequence": 2,
+  "boundary": "Separate fresh post-terminal operation: all own JSON parsed/roundtripped, report fields and all reference fingerprints passed",
+  "execution_status": "COMPLETED",
+  "investigation_outcome": "CORRECTIVE DIRECTION IDENTIFIED",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff/report.md",
+    "bytes": 28454,
+    "sha256": "C3E467C0A94CACD0BBC01FB0AAA0820293C715890D239FEEA3ED0C8A3ABF8E65",
+    "identity": "20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff:investigation_report"
+  },
+  "result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff/result.json",
+    "bytes": 21270,
+    "sha256": "95155D44BF54F3FF302021EE8C585838862AD2000B8922DEB73766C03B54BCB5",
+    "identity": "20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff:investigation_result"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff/attachments/evidence.json",
+    "bytes": 52180,
+    "sha256": "9D84E95108116DEBDAA4677BA1FF43D5878E9A2CD8D09CF64EFB19DDB95E2A74",
+    "identity": "20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff:investigation_evidence"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff/attempt.json",
+    "bytes": 103790,
+    "sha256": "7BC95DB647253D1C99699E3B4905A43E6BC4F4D1C80E2BCF247C36DFB1018710",
+    "identity": "20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff:invocation"
+  },
+  "crossbinding_occurrences": {
+    "invocation": 360,
+    "evidence": 145,
+    "result": 82,
+    "record_first_checkpoint": 1
+  },
+  "markdown_reference_rows_checked": 30,
+  "full_required_fields": 14,
+  "baseline_preservation": {
+    "sources": 76,
+    "prior_records": 272,
+    "paths_and_content": "UNCHANGED",
+    "HEAD_branch_status": "UNCHANGED"
+  },
+  "partial_effects": "Own helper/invocation/checkpoints/evidence/report/result only; own unpublished report draft removed after exact-prefix validation",
+  "unfinished_process_work": [],
+  "pending_gate": "Yes, initiate Corrective Change Decision & Plan Update for FINDING GOV-AUD-20261102-002 only under Work ID 0061148a-1b62-4d25-adff-e7f2318dbfad, GOV-REMEDIATION-PROSPECTIVE-001 Cycle 1, using Finding Investigation attempt 20261102T102710Z-08b5280b-b77a-4b15-80a5-5f62de0357ff and its canonical report.md/result.json; prepare the bounded governance clarification decision only. No correction, application, other stage, adoption, Commit or Push is authorized.",
+  "other_stage_started": false,
+  "final_records_edited": false,
+  "limitations": [
+    "Procedural nonmutation, not sandbox enforced",
+    "Endpoint checks cannot exclude transient writes or same-principal tampering",
+    "No exhaustive trusted event log",
+    "No authenticated Human conversation message ID/time",
+    "Current clock samples are preparation, not exact publication timestamps",
+    "Historical assurance outcomes retained as reported, not re-performed"
+  ]
+}

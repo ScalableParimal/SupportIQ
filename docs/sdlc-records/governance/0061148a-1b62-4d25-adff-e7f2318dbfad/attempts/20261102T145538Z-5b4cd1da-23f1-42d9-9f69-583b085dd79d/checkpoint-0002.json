@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "record_type": "terminal_readback_checkpoint",
+  "record_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d:terminal_readback_checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Corrective Change Decision & Plan Update",
+  "creator": {
+    "role": "Corrective Change Decision Agent",
+    "runtime_agent_id": "4d0c3747-fde6-48c7-b125-5adb2af5b80c",
+    "copilot_agent_session_id": "1684b491-8eea-41fb-864d-541e7920e172"
+  },
+  "created_at_utc": "2026-11-02T15:02:20.929568+00:00",
+  "clock_basis": "Current UTC at record preparation; no exact publication timestamp claimed",
+  "sequence": 2,
+  "phase": "COMPLETED_TERMINAL_RECORD_FRESH_READBACK",
+  "status": "PASS",
+  "last_confirmed_boundary": "Decision/proposal records published, separately reopened and hash/native-JSON checked; both decisions and exact in-memory byte reconstructions confirmed; all 463 pre-existing inputs and Git HEAD/branch/status/index rechecked unchanged",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/report.md",
+    "bytes": 39577,
+    "sha256": "A925ECCE1D7593DE1955EC0CA416A1BDFD1AA67A5B1800129BF8FA3C1B685677"
+  },
+  "result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/result.json",
+    "bytes": 11450,
+    "sha256": "A4BEE48991E0CA74D414BDDA1957220F0703E1FEF7F62AE50536E9EDB6A725ED"
+  },
+  "proposal": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/exact-proposal.json",
+    "bytes": 21495,
+    "sha256": "086D48C77EC7D6C052615498DC82B380493B2C0610F9AAF070D1FFF08580D29C"
+  },
+  "patch": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attachments/minimal.patch",
+    "bytes": 13651,
+    "sha256": "DFE0F97EE5EC19D0194E6FFB9FC2C3CD5104F41B9B9DCA908837556E1E99F1DD"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/evidence/decision-evidence.json",
+    "bytes": 26178,
+    "sha256": "CD52373E75FF07654FCB496645F83F38ED96B612C5C3652882C329430B5B0A46"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/attempt.json",
+    "bytes": 11870,
+    "sha256": "B5244B2C7C6A5F439E9C3694EC298F160FC15D023B02CBBD7660F30B2E5BEB85"
+  },
+  "input_manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/evidence/input-manifest.json",
+    "bytes": 125122,
+    "sha256": "14B069EF1BA05457F65E8B5313DAC80903D2E1ED1EF87E36485C350D71DD86C3"
+  },
+  "prior_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T145538Z-5b4cd1da-23f1-42d9-9f69-583b085dd79d/checkpoint-0001.json",
+    "bytes": 2174,
+    "sha256": "593C42FC9E2AB3BCCACC19E5E0ABE41C181EDB8DF5DD0B9ACA4DABF29657B1C6"
+  },
+  "integrity_checks": {
+    "strict_complete_native_json_roundtrip": "PASS",
+    "final_report_result_evidence_bindings": "PASS",
+    "report_embedded_diff_equals_patch": "PASS",
+    "persisted_exact_replacements_reconstruct_expected_after_bytes_hashes": "PASS",
+    "all_five_sources_still_base_bytes": "PASS",
+    "all_463_preexisting_inputs_and_pathset_unchanged": "PASS",
+    "git_head_branch_status_index_unchanged": "PASS",
+    "no_partial_files": "PASS"
+  },
+  "partial_effects": "Only this attempt own records/helpers; no source/upstream mutation observed at recheck; no application or later stages",
+  "unfinished_work": [],
+  "pending_gates": [
+    "Exact Human Approval of canonical report/proposal/patch, five paths and base/expected-after fingerprints",
+    "Fresh explicit one-time applier designation; may be combined with exact approval",
+    "Separate fresh Application stage-start and actual actor-owned current qualification before source writes"
+  ],
+  "safe_continuation": "STOP: exact Human Approval plus fresh scoped one-time applier designation; no next-stage start inferred",
+  "limitations": [
+    "Read-only boundary procedural, not sandbox-enforced; ACL permits Modify",
+    "No exhaustive trusted event log; same-principal tampering or transient mutation/reversion not excluded",
+    "Endpoint hashes establish observed bytes, not a continuous mutation-free history",
+    "Human chat decision source has no exposed authenticated message ID or original timestamp",
+    "Future actors' runtime identity/capability/attempt/start not yet available and not required before their stage"
+  ]
+}

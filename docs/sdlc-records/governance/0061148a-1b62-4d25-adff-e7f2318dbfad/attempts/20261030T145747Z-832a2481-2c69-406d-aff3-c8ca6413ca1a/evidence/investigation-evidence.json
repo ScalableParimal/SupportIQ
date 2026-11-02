@@ -1,0 +1,155 @@
+{
+  "schema": "finding-investigation-evidence-v1",
+  "record_type": "finding_investigation_evidence",
+  "record_identity": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a:investigation-evidence",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a",
+  "subject_type": "FINDING",
+  "finding_id": "IGV-FIND-001",
+  "repository": "ScalableParimal/SupportIQ",
+  "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+  "evidence_classification": {
+    "executed_evidence": [
+      {
+        "activity": "Read-only SHA-256 recomputation of the cited proposal, application, verification, approval-context, application-evidence, and audit records.",
+        "result": "Recomputed hashes match the published source bindings cited in this record."
+      },
+      {
+        "activity": "Read-only comparison of all 30 required Application result record path/size/SHA-256 bindings with current filesystem records.",
+        "result": "30 records checked; zero missing or mismatched bindings."
+      },
+      {
+        "activity": "Read-only current SHA-256 comparison of the five P1-P5 target paths against the approval-context expected-after hashes.",
+        "result": "All five current target hashes match their approved expected-after hashes."
+      },
+      {
+        "activity": "Read-only UTF-8 JSON parse and Unicode code-point inspection of approval-context.json and the Application report quotation.",
+        "result": "The stored references use U+003F at both section-number positions; no U+00A7 is present in the stored approval-context response."
+      },
+      {
+        "activity": "Non-mutating repository state, identity, record-path ACL, and hash-tool availability checks.",
+        "result": "HEAD matches the invocation source state; five pre-existing approved tracked edits remain; current actor is int-scl-010\\parimal; the own-record parent exists and exposes Modify to Authenticated Users; Get-FileHash is available."
+      }
+    ],
+    "source_inspection_evidence": [
+      {
+        "path": ".github/skills/finding-investigation/SKILL.md",
+        "sha256": "800D316A3AA97BFB3B2A3581FE16F8474C6DA2A199E3EB9CF397D3B7B2081448"
+      },
+      {
+        "path": "docs/ai/guidelines/FINDING_INVESTIGATION_GUIDELINES.md",
+        "sha256": "14844FB1FA9865AB870CA1E3E8A50CD319756B2C8EA45231199B09368CC31BD2"
+      },
+      {
+        "path": "docs/ai/prompts/FINDING_INVESTIGATION_PROMPT.md",
+        "sha256": "7550968BAAD60A9214C1E1C7E5476D6270EF99FE3D17E4F85E5D20CAD26D8175"
+      },
+      {
+        "path": "docs/ai/request/FINDING_INVESTIGATION_REQUEST.md",
+        "sha256": "836F79EE60357C502A2181E8CB4B04D500C351219358E484C0639A9FD275C120"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+        "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+        "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+        "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/report.md",
+        "sha256": "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/result.json",
+        "sha256": "B4A39B5A8862138F2AF04CB80520C15B2F86E5430D4D867938FBB91E0F6E19FA"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/report.md",
+        "sha256": "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/result.json",
+        "sha256": "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/approval-context.json",
+        "sha256": "853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/application-evidence.json",
+        "sha256": "66E9194F37BACD10627D1D7F35F3E02DE2E3908E408CBCDED3D6A3C5402949A5"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/report.md",
+        "sha256": "9F6301EBBF38B7DA8B4C46AEDB90FFFE17463C2E92B94E8F36B367FC39185908"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/result.json",
+        "sha256": "00A4CA551BFA963406BB6D4F0CEB622D3EB69915B0EE186A970D5F462737137F"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/result.json",
+        "sha256": "C64AFE71CD9692596577310ABF71DC81E0B5F67C56DF90986746038ABCD0926E"
+      }
+    ],
+    "reported_evidence": [
+      "The current user supplied the reported original wording and its attribution as an actual response from the parent conversation: I approve the exact report \\u00a77 package and \\u00a78 one-time actor designation/route as identified above; this does not initiate Application. This is not a new approval in this investigation.",
+      "The original parent message ID and authenticated decision-event timestamp were not supplied in the Application record; the Application report explicitly says they were not supplied."
+    ],
+    "unverified": [
+      "The exact serialization, encoding, transport, or transcription step that replaced U+00A7 with U+003F.",
+      "The authenticated identity, timestamp, and complete original parent-message evidence for the earlier approval, beyond the supplied attribution.",
+      "Whether the underlying Human Approval was valid; this finding alone does not determine it."
+    ]
+  },
+  "unicode_comparison": {
+    "reported_expected": "I approve the exact report \\u00a77 package and \\u00a78 one-time actor designation/route as identified above; this does not initiate Application",
+    "expected_references": [
+      {
+        "code_point": "U+00A7",
+        "followed_by": "7"
+      },
+      {
+        "code_point": "U+00A7",
+        "followed_by": "8"
+      }
+    ],
+    "approval_context_path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/approval-context.json",
+    "approval_context_field": "exact_approval_verbatim",
+    "approval_context_recorded_value": "I approve the exact report ?7 package and ?8 one-time actor designation/route as identified above; this does not initiate Application",
+    "application_report_recorded_quote": "I approve the exact report ?7 package and ?8 one-time actor designation/route as identified above; this does not initiate Application",
+    "recorded_references": [
+      {
+        "code_point": "U+003F",
+        "followed_by": "7"
+      },
+      {
+        "code_point": "U+003F",
+        "followed_by": "8"
+      }
+    ],
+    "approval_context_sha256": "853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B",
+    "application_report_sha256": "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF"
+  },
+  "integrity_and_scope": {
+    "application_result_path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/result.json",
+    "application_result_sha256": "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497",
+    "required_application_bindings_checked": 30,
+    "application_binding_mismatches": 0,
+    "proposal_report_sha256": "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A",
+    "proposal_result_sha256": "B4A39B5A8862138F2AF04CB80520C15B2F86E5430D4D867938FBB91E0F6E19FA",
+    "application_outcome": "SUCCESSFULLY APPLIED EXACT APPROVED BYTES",
+    "verification_outcome": "FINDINGS",
+    "verification_finding": "IGV-FIND-001",
+    "current_P1_P5_expected_after_hashes_match": true,
+    "initial_audit_outcome": "CANNOT COMPLETE AUDIT",
+    "master_baseline": "Candidate/unadopted. SDLC_GOVERNANCE.md section 3 lines 62-64 permits bootstrap findings through correction lifecycle before adoption. SDLC_GOVERNANCE.md line 766 states a non-Master change does not require Master-baseline adoption.",
+    "finding_scope": "Governance Application human-response transcription evidence only. No product Requirement, Implementation Plan, code, tests, configuration, or runtime is implicated."
+  },
+  "governance_application_recording_caveat": "The immutable attempt.json contains an imprecise shorthand referring to SDLC_GOVERNANCE line 766 as 'section 766'. The controlling source location is line 766, not a numbered section; this report/evidence use the correct file-and-line reference. No source or record has been corrected in place."
+}

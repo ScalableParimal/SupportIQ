@@ -1,0 +1,47 @@
+{
+    "schema_version":  1,
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle":  1,
+    "finding_id":  "GOV-AUD-20261102-002",
+    "attempt_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+    "record_type":  "independent_governance_review_invocation",
+    "creator":  {
+                    "identity":  "independent-governance-review:20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+                    "role":  "Independent Governance Review",
+                    "runtime_agent_id":  "Not exposed by available runtime; process observations are recorded separately",
+                    "windows_principal":  "INT-SCL-010\\Parimal",
+                    "host":  "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+                },
+    "stage_start":  {
+                        "actual_human_instruction":  "Yes, initiate Independent Governance Review for the GOV-AUD-20261102-002 amendment and its passing Verification only",
+                        "source":  "current caller message",
+                        "message_id":  "Not exposed; not invented",
+                        "time":  "Not exposed; not invented",
+                        "scope":  "Review GOV-AUD-20261102-002 amendment and passing Verification only"
+                    },
+    "independence":  {
+                         "preparer":  "Corrective Change Decision attempt 20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+                         "applier":  "Governance Amendment Application attempt 20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+                         "verifier":  "Independent Governance Verification attempt 20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22",
+                         "own_invocation":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+                         "separation":  "Separate newly assigned review invocation and process; no shared predecessor attempt; runtime agent identifier/authentication unavailable"
+                     },
+    "assurance":  {
+                      "mode":  "procedural non-mutation",
+                      "read_only":  "Absolute conduct restriction; no source/input/other actor record writes",
+                      "tools":  "PowerShell, file reads/hashes, git status, Python available; capable of writes, no write probe made",
+                      "permissions":  "Attempts-root ACL grants Authenticated Users Modify; no technical source-write exclusion claimed",
+                      "sha256":  "SHA-256 available; SHA-256 abc known-vector checked: BA7816BF8F01CFEA414140DE5DAE2223B00361A396177A9CB410FF61F20015AD",
+                      "nonmutating_checks":  "File hash/read, Get-Acl, git --no-pager status available; substantive read-only checks to be recorded in subsequent evidence",
+                      "operation_evidence":  "Actor-visible tool/operation outputs only; no exhaustive trusted OS event stream; no event timestamps beyond tool/runtime observations",
+                      "concurrency":  "No coordinated lock or no-edit window available; actor-visible repository state snapshots only; stale terminal agent metadata not proof of live writer",
+                      "limits":  "Endpoint hashes cannot prove absence of transient writes or same-principal tampering; no sandbox or security equivalence claimed"
+                  },
+    "publication":  {
+                        "authorized_scope":  "Only this reviewer-owned attempt directory under the existing Work ID",
+                        "files":  "attempt.json first, then own report/evidence/result/checkpoints only, no overwrite",
+                        "record_first":  "This invocation is qualification/start record, published before additional substantive review comparison; preliminary discovery reads disclosed in checkpoint",
+                        "observed_attempt_dir_absent_before_creation":  true
+                    }
+}

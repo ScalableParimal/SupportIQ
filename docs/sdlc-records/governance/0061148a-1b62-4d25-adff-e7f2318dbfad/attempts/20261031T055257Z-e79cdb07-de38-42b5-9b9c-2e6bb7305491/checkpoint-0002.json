@@ -1,0 +1,40 @@
+{
+  "schema_version": "sdlc-governance-remediation-checkpoint/v1",
+  "record_identity": "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:checkpoint-0002",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491",
+  "sequence": 2,
+  "captured_at_utc": "2026-10-31T05:52:59.183299Z",
+  "stage": "pre-result drift and binding recheck",
+  "outcome": "no drift; 76/76 sources, repository state, and all input and own bindings re-matched; report table bindings 47 validated",
+  "bindings": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/attempt.json",
+      "identity": "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491",
+      "byte_count": 5312,
+      "sha256": "D2DD8C21CE9DD9663273D80755F0AC9C02EADA9E301C3B1F122B0F3255B4C855",
+      "role": "own attempt"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/evidence/remediation-preflight-evidence.json",
+      "identity": "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:remediation-preflight-evidence",
+      "byte_count": 46594,
+      "sha256": "9406E494E5F515DBFC31A5F7E7E339F0B38E65575CAFBD4CDFBAAC543F45C6E3",
+      "role": "own preflight and binding evidence"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/checkpoint-0001.json",
+      "identity": "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:checkpoint-0001",
+      "byte_count": 1323,
+      "sha256": "CFFBDCA68DE101B57829B9200C2404A1E955BD18CAF1B8BBBD03F15A6C290BC3",
+      "role": "own preflight checkpoint"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/report.md",
+      "identity": "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:report",
+      "byte_count": 30920,
+      "sha256": "3490457FFE188B41321C7CF0BB769C4C1A9FB901723B1699FCD062ABCB17F872",
+      "role": "own canonical report"
+    }
+  ]
+}

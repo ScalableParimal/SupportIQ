@@ -1,0 +1,27 @@
+{
+  "schema": "sdlc-process-result-correction-v1",
+  "record_type": "sdlc_process_result_integrity_correction",
+  "record_identity": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a:result-correction-0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a",
+  "created_utc": "2026-10-30T15:04:00Z",
+  "correction_scope": "Correct one integrity-binding metadata value in this actor's own terminal result. No finding, evidence, report conclusion, human decision, or source artifact is changed.",
+  "prior_terminal_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/result.json",
+    "sha256": "32B77A49A835EE41FDA1EFC62211C2D7CD789C84872593A36A2A2AEF513F3DB8",
+    "immutable": true
+  },
+  "incorrect_binding_in_prior_result": {
+    "json_pointer": "/checkpoint/bytes",
+    "recorded_value": 1762,
+    "reason": "The byte count was transcribed incorrectly when preparing the terminal result."
+  },
+  "correct_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/checkpoint-0001.json",
+    "bytes": 1743,
+    "sha256": "BD0EEC2AF56ED397C82839B04F6C1E5E25D6AAB49CBD5B8F910D12601061F6A3",
+    "verified_currently": true
+  },
+  "supersession_effect": "This append-only correction supersedes only the prior result's /checkpoint/bytes value. All other result values, including the completed process outcome and report/evidence bindings, remain unchanged. The original result is retained unchanged and must be read with this linked correction.",
+  "decision_boundary": "This is a mechanical correction to this actor's own record metadata under the actor-owned publication scope; it is not a new substantive human decision and does not authorize any correction to upstream, Application, Verification, Audit, or product records."
+}

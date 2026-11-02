@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_result",
+  "record_identity": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4",
+  "created_utc": "2026-10-30T15:11:13Z",
+  "time_limitation": "Environment clock sample, not an authenticated Human decision-event timestamp",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "IGV-FIND-001",
+  "execution_termination": "COMPLETED",
+  "decision_status": "FINDING ACCEPTED \u2014 OTHER GOVERNED ARTIFACT CHANGE REQUIRED",
+  "outcome": "Completed decision and NOT-APPLIED substantive proposal; stop at Human decision handoff",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "source_state": "Five pre-existing approved tracked governance source modifications unchanged; exact target hashes/counts bound by evidence; governance records untracked",
+    "master_status": "candidate/unadopted; no universal adoption gate imposed"
+  },
+  "actor": {
+    "role": "Corrective Change Decision Agent",
+    "invocation_identity": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4",
+    "definition": ".github/agents/corrective-change-decision.agent.md",
+    "definition_sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D",
+    "runtime_principal": "int-scl-010\\parimal"
+  },
+  "canonical_report": {
+    "identity": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4:report",
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/report.md",
+    "bytes": 23251,
+    "sha256": "DD224055E39F884F389CFEAFEB4F22082D5BE96E7DB4AA5DA979F71FB150CF33"
+  },
+  "own_records": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/attempt.json",
+      "bytes": 7204,
+      "sha256": "D60D6A6D63EE61C90DD6B2058A70F1C68F1296B5D5D86FA656B68CAF56450B79"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/checkpoint-0001.json",
+      "bytes": 1395,
+      "sha256": "6FE7D4AA501F748BEC0D12C8A03C0489FBE5A6987D215E627FFF7FAC9953C1FD"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/evidence/decision-evidence.json",
+      "bytes": 8094,
+      "sha256": "6B9E709801133E2E3643C17D1C4C8F8BE89C84862442832F6CB40EDE2EC0783F"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4/evidence/record-correction-proposal.json",
+      "bytes": 8693,
+      "sha256": "65CE82D1DD8F8C16ED588B4051BCE35C5B0A20FC0F2218D721B5B8F4208A4FB3"
+    }
+  ],
+  "predecessors": [
+    {
+      "process": "Finding Investigation",
+      "outcome": "FINDING CONFIRMED",
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/result.json",
+      "bytes": 5570,
+      "sha256": "32B77A49A835EE41FDA1EFC62211C2D7CD789C84872593A36A2A2AEF513F3DB8",
+      "read_with": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/result-correction-0001.json",
+        "bytes": 2032,
+        "sha256": "28A95FCC52585961D50100D71F2C4F12932C26E182A6B1EC2C6511532BA5C4E0",
+        "limited_effect": "Only /checkpoint/bytes: 1762 to actual 1743; no whole-result supersession"
+      }
+    },
+    {
+      "process": "Independent Governance Verification",
+      "outcome": "FINDINGS",
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/result.json",
+      "bytes": 7202,
+      "sha256": "00A4CA551BFA963406BB6D4F0CEB622D3EB69915B0EE186A970D5F462737137F"
+    },
+    {
+      "process": "Governance Amendment Application",
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/result.json",
+      "bytes": 34763,
+      "sha256": "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497"
+    },
+    {
+      "process": "Original exact proposal preparation",
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/result.json",
+      "bytes": 10242,
+      "sha256": "B4A39B5A8862138F2AF04CB80520C15B2F86E5430D4D867938FBB91E0F6E19FA"
+    }
+  ],
+  "decision": {
+    "affected_artifact": "Application approval-response evidence and canonical report verbatim claim; original result context preserved",
+    "direction": "Linked append-only qualification in a newly authorized publisher's own evidence/report; never edit original records or supersede entire results",
+    "proposal_status": "NOT-APPLIED",
+    "substantive_content_exact": true,
+    "executable_future_publication_package_finalized": false,
+    "reason_not_finalized": "Future scoped publishing actor/invocation, exact authorized own-record destination and final envelope/full new-file hash depend on Human designation; no future identity/path/hash fabricated",
+    "original_approval_evidence": "Adequate to identify subject and narrow transcription defect with explicit parent-conversation provenance limitations; not independently authenticated amendment approval",
+    "original_approval_invalidated_by_this_finding": false,
+    "original_approval_independently_authenticated_by_this_decision": false,
+    "automatic_reapproval_or_reapplication_P1_P5_required": false,
+    "plan_change_required": "NO; product Requirement/Plan N/A",
+    "plan_impact": "No product tasks, acceptance criteria, architecture, scope, dependencies or testing changes",
+    "proposed_plan_amendment": "N/A",
+    "human_approval_required": true,
+    "readiness": "WAITING FOR APPLICATION AUTHORITY DESIGNATION",
+    "additional_pending_gate": "Exact finalized governance record-correction approval, followed by separate fresh scoped Application start",
+    "finding_closed": false
+  },
+  "next_permitted_process": {
+    "immediate": "Human decision on scoped publishing actor/own-record route and finalization dependency",
+    "after_designation": "Finalize exact destination/envelope/new-file bytes/hash through freshly authorized proposal preparation if needed; obtain exact Human correction approval",
+    "after_exact_approval": "Separate freshly initiated record-only Governance Amendment Application with current actor-owned preflight/publication qualification",
+    "later": "Separate fresh independent complete Verification; Review only after PASS; full Governance Audit only after passing Review",
+    "no_follow_on_dispatched": true
+  },
+  "preserved_limitations": [
+    "Original Investigation result byte count discrepancy remains visible, read with narrow correction",
+    "Investigation metadata section 766 means actual section 24 line 766; no metadata repair",
+    "Investigation reported_expected literal backslash-u text is not validated verbatim Unicode; current supplied response and explicit Unicode construction used",
+    "Original parent-message ID/authenticated time and exact lossy-transform mechanism unknown",
+    "Original Audit CANNOT COMPLETE AUDIT; Verification FINDINGS; no Review or effectiveness",
+    "Write-capable tooling; procedural nonmutation only; endpoint hashes do not exclude transient write or same-principal tampering"
+  ],
+  "publication_integrity": {
+    "own_invocation_validated_before_consequential_work": true,
+    "report_and_evidence_durably_published_readback_validated_before_terminal_result": true,
+    "byte_counts_calculated_from_actual_published_bytes": true,
+    "retained_response_parsed_codepoints_independently_validated": true,
+    "no_old_final_record_or_source_edit": true,
+    "terminal_result_not_to_be_edited_in_place": true
+  },
+  "non_authorizations": [
+    "No corrective publication or P1-P5 reapplication",
+    "No other agent or process start",
+    "No product inspection/tests/build/runtime",
+    "No baseline adoption, Commit or Push"
+  ]
+}

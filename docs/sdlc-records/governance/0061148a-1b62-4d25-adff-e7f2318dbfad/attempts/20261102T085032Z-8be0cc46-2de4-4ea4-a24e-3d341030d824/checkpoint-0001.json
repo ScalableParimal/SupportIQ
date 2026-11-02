@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "attempt_id": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824",
+  "creator": "Finding Investigation Agent / current direct conversation invocation",
+  "role": "Finding Investigation",
+  "process": "Finding Investigation",
+  "created_at_utc": "2026-11-02T08:51:12.397414+00:00",
+  "clock_basis": "Current host UTC preparation sample, not publication time",
+  "ordered_ledger": [
+    {
+      "sequence": "Q004",
+      "event": "Separate process independently read back exact UTF-8 invocation, parsed identity/authorization, validated every bound path, byte count and hash; source count 76; all PASS. No substantive content inspected yet."
+    }
+  ],
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824/attempt.json",
+    "sha256": "E9332DCBF1E58C45BC5CD33505D0549CA72E1D9E2170ACAFE42D7FAF8938B3B5",
+    "bytes": 98673,
+    "identity": "20261102T085032Z-8be0cc46-2de4-4ea4-a24e-3d341030d824:attempt.json"
+  },
+  "safe_boundary": "Own qualified invocation durably published and independently validated; substantive handoff inspection may now begin"
+}

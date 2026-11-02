@@ -2,7 +2,10 @@
 
 Read and follow `docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md` and `docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md`.
 
-- Work ID / request identity: [stable repository-unique ID or not assigned]
+- Work ID / request identity: [stable repository-unique Work ID; 'not assigned' is draft-only]
+
+An executable request requires a reserved stable Work ID under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1. Continue an existing authorized same-work reservation unchanged. For new work, allocate and collision-check the ID before invocation; the first authorized no-overwrite attempt.json publication itself reserves the ID, so no separate prior reservation record is required. 'not assigned' is draft-only and blocks invocation and record publication. All other invocation and publication prerequisites remain required.
+
 - Assessment trigger: [new project before first SDLC activity / explicit reassessment / material-change reassessment]
 - Trigger and changed inputs: [describe; identify prior report if reassessing]
 - Source framework: [repository/path, branch/commit or immutable revision, applicable Master/artifact fingerprints]

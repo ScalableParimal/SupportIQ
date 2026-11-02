@@ -32,8 +32,8 @@ Do not duplicate, reinterpret, or override their instructions in this Skill.
 Before updating:
 
 1. Load the governing Guideline, Prompt, and Request.
-2. Establish the subject type and resolve the current approved Requirement version, immutable version ID, and SHA-256.
-3. For a human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8; do not invent a Finding.
+2. Establish the update context and source lifecycle path under Guideline section 2; resolve the source Requirement path, immutable version ID, SHA-256, lifecycle status, and applicable approval evidence. Use the identified unapproved source only for initial analysis clarification before first formal approval; retain the current approved source for an approved-source change.
+3. For Initial Analysis Clarification, resolve the initial analysis questions, explicit human answers/decisions, and explicit update request; do not invent a Finding or formal Requirement Approval. For an approved-source human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
 4. Resolve the relevant analysis findings/questions, where applicable.
 5. Resolve the explicit human decisions.
 6. Resolve recommendations explicitly approved by the human.
@@ -46,8 +46,8 @@ Only explicitly approved human decisions may drive the Requirement Update.
 
 Execute the following sequence:
 
-1. Establish the current approved Requirement version as the immutable source and record its ID and SHA-256.
-2. Establish whether the update is Finding-led or a human-requested non-finding amendment.
+1. Establish the lifecycle-qualified immutable source under Guideline section 2 and record its path, version ID, SHA-256, status, and applicable approval evidence; stop if that source status cannot be established.
+2. Establish whether the update is Initial Analysis Clarification (pre-approval), Finding-led, or an approved-source human-requested non-finding amendment. Preserve the initial result as unapproved through the downstream gates in section 8; approved clarification decisions do not constitute Human Requirement Approval.
 3. Establish the analysis findings/questions addressed by the update, where applicable.
 4. Establish the explicit human decisions and approved recommendations.
 5. Apply only those approved decisions to a new Requirement version artifact under `docs/requirement/`; never edit, overwrite, or remove the source version.

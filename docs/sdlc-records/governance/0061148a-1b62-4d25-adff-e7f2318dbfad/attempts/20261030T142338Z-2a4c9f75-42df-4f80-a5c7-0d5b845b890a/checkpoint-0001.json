@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "record_identity": "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a:checkpoint-0001",
+  "attempt_id": "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "sequence": 1,
+  "creator": "Corrective Change Decision Agent, current invocation",
+  "last_confirmed_boundary": "Invocation durably published and SHA-256 readback validated before substantive decision/proposal work; predecessor/source inspection and candidate-correction authority assessment completed; five replacement proposals calculated in memory only",
+  "attempt_sha256": "9C6AE472DF3AFD1BF17A8242595530F197243B8F5ADC2382CCBD947AAD69E73F",
+  "observed_evidence": [
+    "All supplied predecessor hashes match; recursive existing JSON path/sha256 pairs checked 244 bindings including duplicates, zero mismatches",
+    "Master Governance section 3 explicitly routes bootstrap findings through normal correction lifecycle while candidate Masters await assurance and adoption",
+    "Master Governance section 24 explicitly says non-Master change does not require Master-baseline adoption; Traceability section 42 keeps adoption separate",
+    "Corrective Guideline section 18 requires exact proposed correction and approval before application for other governed artifacts",
+    "Current Human scope separately permits this FINDING decision and five-file exact proposal; no exact amendment approval",
+    "All five target files are UTF-8 without BOM, exclusively CRLF, final newline present; byte-preserving expected-after hashes calculated in memory"
+  ],
+  "proposal_calculation_diagnostic": "Initial calculation asserted LF and stopped before producing proposal hashes; no file writes. Corrected calculation detects CRLF and preserves it; all five exact old fragments uniquely match.",
+  "repository_effects": "Only this actor's own invocation and unpublished checkpoint; no target or prior-record edits; Git tracked/index diffs empty",
+  "unfinished_work": "Publish canonical report with exact five-file NOT-APPLIED package, evidence and terminal result after validation",
+  "pending_gates": "Exact Human Approval including one-time application actor designation and planned independent roles; separate future stage-starts and application/assurance/Audit",
+  "safe_continuation": "Finish only this decision's own records; no source writes or other stage. Preserve all prior outcomes, candidate status and product exclusions.",
+  "supersession": "None asserted for prior final records"
+}

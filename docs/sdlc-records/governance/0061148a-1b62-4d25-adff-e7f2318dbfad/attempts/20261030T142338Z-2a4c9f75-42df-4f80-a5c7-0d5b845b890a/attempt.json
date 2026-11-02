@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_attempt",
+  "record_identity": "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a",
+  "attempt_id": "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "subjects": ["GOV-001", "GOV-002"],
+  "created_at_utc": "2026-10-30T14:23:38.816656Z",
+  "clock_basis": "Current environment UTC allocation sample, not exact publication time",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch_context": "sdlc-framework-onboarding",
+    "state": "No tracked changes; only docs/sdlc-records/ untracked"
+  },
+  "actor": {
+    "identity": "Corrective Change Decision Agent / current direct Copilot invocation / 20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a",
+    "definition_path": ".github/agents/corrective-change-decision.agent.md",
+    "definition_sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D",
+    "effective_identity": "INT-SCL-010\\Parimal",
+    "sid": "S-1-5-21-2809803128-1021655904-3966773769-1002",
+    "environment": "Windows PowerShell; Python available; canonical checkout above",
+    "current_nonmutating_capability_evidence": [
+      "whoami /user and /groups: current SID and enabled S-1-5-11 Authenticated Users; Administrators deny-only not relied upon",
+      "Get-Acl on current attempts parent: Authenticated Users Modify/Synchronize and inherited permissions; no deny observed",
+      "Current reads of governing sources and predecessor JSON and byte SHA-256 computations succeeded",
+      "Git origin, HEAD, branch and working-tree checks succeeded; own parent enumeration succeeded",
+      "System.IO.File.Move public same-filesystem no-overwrite route available; FileStream Flush(true) used at publication",
+      "Publication route: apply_patch creates only new own .partial; validate UTF-8/JSON, flush, same-directory File.Move without overwrite, read back and compare SHA-256 before analysis"
+    ],
+    "capability_limits": "No target/source write requested or exercised. Current evidence applies only to this actor and invocation; no future actor qualification inferred."
+  },
+  "authorization": {
+    "source": "Actual current user message in this conversation, 2026-10-30T19:52:43.919+05:30 supplied message context",
+    "fresh_stage_start_verbatim": "Yes, initiate the scoped corrective decision and exact proposal preparation",
+    "scope": "New FINDING decision for GOV-001 and GOV-002; assess newly located pre-adoption authority; exact NOT-APPLIED proposal for the five listed non-Master files only; own attempt records under existing Work ID",
+    "GOV-001_policy_verbatim": "Require a reserved stable Work ID for every executable request; 'not assigned' is draft-only and blocks invocation/publication",
+    "GOV-002_policy_verbatim": "Keep residual-risk acknowledgement as disclosure, not an additional approval-validity condition",
+    "exclusions": "No exact patch approval, application, target edits, Master change/adoption, prior-record modification, product inspection/change, tests/build/runtime, other process/agent, assurance waiver, commit/push or next-stage start"
+  },
+  "persistence": {
+    "root": "docs/sdlc-records/governance/",
+    "scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/",
+    "continuity": "Authorized continuation of same existing Work ID, reserved by initial no-overwrite Audit attempt; no new work identity or reservation",
+    "root_adoption_source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+    "root_evidence_revalidated": "GitHub issue_read get_comments during this invocation: ID 6522916236, author ScalableParimal (226102895), OWNER, created/updated 2026-10-30T12:31:51Z. Exact repository, HEAD, three Master hashes, root and Work ID match; adopts governance root. Original stage authority is Audit-only, NOT authority for this invocation.",
+    "initial_attempt_sha256": "3FD36342F3CAC94781CBD8C5D1824D893DEDC376D6660DADE1BBA213B37CF618",
+    "product_root": "Not adopted; not present; no product publication",
+    "master_baseline": "Candidate, not adopted",
+    "collision_check": "New attempt path absent before creation; existing work contains only the four identified same-work attempts with terminal result records. No product root/competing work path observed. Prior results claim completed execution, not liveness; no conflicting target write authorized.",
+    "contract": "Only own records; .partial preparation, validation, durable flush, atomic same-directory no-overwrite rename, readback SHA-256 check; no in-place final edits"
+  },
+  "source_fingerprints": {
+    "docs/ai/sdlc/SDLC_GOVERNANCE.md": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+    "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+    "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C",
+    "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203",
+    "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7",
+    ".github/skills/corrective-change-decision/SKILL.md": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3",
+    "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md": "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E",
+    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md": "0495F43A8AFC8ECBBB7BA59FB0FEBCAF0A3276EB95EF16AE3B907636690645A7",
+    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+    "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md": "19950013220CB93E88FFBA0606763E8FA93A8A60950E57360C50F9ACFCC9132A",
+    "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md": "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79"
+  },
+  "predecessors": [
+    {"attempt_id": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4", "report": "report-revision-0001.md", "report_sha256": "ABD95B964E9C04602BBD876619C0C97DE95E6D9252EBA913634652FD5746D7B0", "result": "result.json", "result_sha256": "C64AFE71CD9692596577310ABF71DC81E0B5F67C56DF90986746038ABCD0926E", "outcome": "CANNOT COMPLETE AUDIT"},
+    {"attempt_id": "20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535", "report": "report.md", "report_sha256": "C1089ED3868ADDD84913F983D117C5EF5EADC6A1D30CA22FE6D030FE515D33D8", "result": "result.json", "result_sha256": "A0205CDF611A05933E8A0917468A2945C37C821B449E888F9B49E5FEF701C913", "outcome": "REQUIREMENT OR PLAN CLARIFICATION REQUIRED"},
+    {"attempt_id": "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6", "report": "report.md", "report_sha256": "36330207C81DCE2FB30853FD4AFAB36438302EF6F8A9BD7D276D02971AA61AF2", "result": "result.json", "result_sha256": "04DFA830B2EA5D2EB62EA23FA93E6A488A1212352357E620608FA9B42FF63932", "outcome": "ADDITIONAL EVIDENCE REQUIRED"},
+    {"attempt_id": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88", "report": "report.md", "report_sha256": "B377605E792D992FCE481EFD7A04C069CA0D521556F3FC422F3A38690255CB57", "result": "result.json", "result_sha256": "E333204B6E29A54A981AF4A90AABF3CD30763A8E5CF18A2143A8875B5FFC307D", "evidence": "evidence/decision-evidence.json", "evidence_sha256": "BDB530C993F1E77A00970632B77B031680D9FE570D10583E84CC17281E02D725", "outcome": "ADDITIONAL EVIDENCE REQUIRED"}
+  ],
+  "predecessor_location_rule": "Each predecessor is under the same Work ID attempts/<attempt_id>/<report|result|evidence>; hashes independently computed in current preflight and matched user supplied values",
+  "task_context": "No product Requirement, Plan or task context applicable; governance findings only",
+  "status": "STARTED; analysis/proposal preparation may begin only after durable publication and readback validation"
+}

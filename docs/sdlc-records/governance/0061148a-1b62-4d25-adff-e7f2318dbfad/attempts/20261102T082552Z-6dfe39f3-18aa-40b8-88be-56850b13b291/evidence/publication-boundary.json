@@ -1,0 +1,42 @@
+{
+  "schema_version": "sdlc-governance-audit/v1",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "creator": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291",
+  "role": "SDLC Governance Audit",
+  "process": "SDLC Governance Audit",
+  "created_at_utc": "2026-11-02T08:27:22.695124+00:00",
+  "clock_basis": "Python system UTC at preparation; identity allocation occurred earlier; neither is publication time",
+  "record_type": "evidence",
+  "record_identity": "20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291:publication-boundary",
+  "attempt": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T082552Z-6dfe39f3-18aa-40b8-88be-56850b13b291/attempt.json",
+    "sha256": "E44A44E3678EF6DC51CF6D5A5EFCD5CA680207170A8B521F320A770C634D4EBE",
+    "byte_count": 20682
+  },
+  "ordered_operations": [
+    {
+      "order": 1,
+      "id": "Q001",
+      "outcome": "Current nonmutating qualification and all metadata references validated"
+    },
+    {
+      "order": 2,
+      "id": "P001",
+      "outcome": "Own attempt final bytes parsed/bindings validated/flushed/fsynced/no-overwrite renamed"
+    },
+    {
+      "order": 3,
+      "id": "V001",
+      "outcome": "Independent disk readback and all JSON/path/hash checks succeeded"
+    },
+    {
+      "order": 4,
+      "id": "P002-V002",
+      "outcome": "Ledger prepared for flush/no-overwrite rename and independent readback before S001"
+    }
+  ],
+  "next_operation": "S001 full Master reads then detailed sources in required Skill order; current handoff substantive review after attempt",
+  "exact_publication_time": "Not captured; operation sequence establishes ordering"
+}

@@ -1,0 +1,107 @@
+--- a/docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md
++++ b/docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md
+@@ -14,12 +14,14 @@
+ 
+ Before updating, AI must have:
+ 
+-1. The current approved Requirement version and its version ID and SHA-256.
++1. The source Requirement path, immutable version ID, and SHA-256, with its lifecycle status and applicable approval evidence: either the identified unapproved source for initial analysis clarification before first Human Requirement Approval, or the current approved Requirement for an approved-source change.
+ 2. The relevant analysis findings/questions, where applicable.
+ 3. The human's answers and explicit decisions.
+ 4. Any recommendations explicitly approved by the human.
+-5. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment. For a non-finding request, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
++5. The update context: Initial Analysis Clarification (pre-approval), Finding-led corrective update, or human-requested, non-finding Requirement amendment. For an approved-source non-finding amendment, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
+ 6. The affected Requirement IDs and the request details required by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8, where applicable.
++
++For Initial Analysis Clarification, bind the initial Requirement Analysis questions and explicit human answers/decisions, and require an explicit request to perform Requirement Update. Preserve the immutable source and version lineage under SDLC_ARTIFACT_GOVERNANCE.md section 8.4. The resulting version remains unapproved; approval of clarification decisions is not Human Requirement Approval. Follow section 16: subsequent Requirement Analysis, complete independent Requirement Analysis Verification, resolution of findings/decisions, then separate formal Human Requirement Approval before planning as approved. This branch neither permits implementation against an unapproved Requirement nor bypasses applicable finding-led corrective controls; a change to an already-approved Requirement must use the approved-source path. If source lifecycle status or applicable approval evidence cannot be established, stop and request clarification.
+ 
+ If a material decision is still unresolved, do not silently decide it.
+ 
+--- a/docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md
++++ b/docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md
+@@ -8,12 +8,14 @@
+ 
+ The user will provide:
+ 
+-1. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment.
+-2. The current approved Requirement version path, immutable version ID, and SHA-256.
++1. The update context: Initial Analysis Clarification (pre-approval), Finding-led corrective update, or human-requested, non-finding Requirement amendment.
++2. The source Requirement path, immutable version ID, SHA-256, lifecycle status, and applicable approval evidence, qualified by the initial-clarification or approved-source path in Guideline section 2.
+ 3. The human decisions and approved clarifications to incorporate.
+ 4. The relevant analysis findings/questions being addressed, where applicable.
+ 5. Any recommendations explicitly approved by the human.
+-6. For a human-requested non-finding amendment, the existing request details and responsible human decision, including scope, disposition, and rationale, as specified by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
++6. For an approved-source human-requested non-finding amendment, the existing request details and responsible human decision, including scope, disposition, and rationale, as specified by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
++
++For Initial Analysis Clarification, provide the initial analysis questions, explicit human answers/decisions, and explicit update request under Guideline section 2. Do not invent a Finding or formal Requirement Approval. The resulting immutable version remains unapproved and follows the separate downstream stages below; a change to an already-approved Requirement must retain the approved-source path.
+ 
+ Apply only explicit human decisions. Do not invent a Finding for a non-finding request or decide business scope on behalf of the responsible human. Create a new immutable Requirement version under `docs/requirement/`; never overwrite, edit in place, or remove an existing version. Record status changes in the existing process records, not by changing the frozen Requirement bytes. Creating a version does not constitute Human Requirement Approval.
+ 
+--- a/docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md
++++ b/docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md
+@@ -1,11 +1,17 @@
+ Read and follow:
+ docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md
+ 
+-Subject Type:
+-[FINDING-LED CORRECTIVE UPDATE / HUMAN-REQUESTED REQUIREMENT AMENDMENT (NON-FINDING)]
++Update context:
++[INITIAL ANALYSIS CLARIFICATION (PRE-APPROVAL) / FINDING-LED CORRECTIVE UPDATE / HUMAN-REQUESTED REQUIREMENT AMENDMENT (NON-FINDING)]
+ 
+-Current approved Requirement version:
+-[PATH / IMMUTABLE VERSION ID / SHA-256]
++Source Requirement version:
++[PATH / IMMUTABLE VERSION ID / SHA-256 / LIFECYCLE STATUS]
++
++Source path and approval evidence:
++[INITIAL CLARIFICATION: IDENTIFIED IMMUTABLE UNAPPROVED SOURCE BEFORE FIRST FORMAL HUMAN REQUIREMENT APPROVAL; OR APPROVED-SOURCE CHANGE: CURRENT APPROVED REQUIREMENT AND ITS APPROVAL EVIDENCE. FOLLOW GUIDELINE SECTION 2; UNESTABLISHED STATUS BLOCKS UPDATE.]
++
++For initial analysis clarification:
++[INITIAL ANALYSIS/QUESTION REFERENCES / EXPLICIT HUMAN ANSWERS AND DECISIONS / EXPLICIT REQUEST TO PERFORM UPDATE. CLARIFICATION DECISIONS ARE NOT FORMAL REQUIREMENT APPROVAL; RESULT REMAINS UNAPPROVED PENDING SUBSEQUENT ANALYSIS, COMPLETE INDEPENDENT VERIFICATION, RESOLUTION, AND SEPARATE HUMAN REQUIREMENT APPROVAL.]
+ 
+ Affected Requirement IDs:
+ [LIST]
+@@ -18,7 +24,7 @@
+ 2. ...
+ 3. ...
+ 
+-For a human-requested non-finding amendment, complete the existing request details:
++For an approved-source human-requested non-finding amendment, complete the existing request details:
+ - Unique request ID / date / requester / origin: ...
+ - Rationale: ...
+ - Requested outcomes / criteria / constraints: ...
+--- a/.github/skills/requirement-update/SKILL.md
++++ b/.github/skills/requirement-update/SKILL.md
+@@ -32,8 +32,8 @@
+ Before updating:
+ 
+ 1. Load the governing Guideline, Prompt, and Request.
+-2. Establish the subject type and resolve the current approved Requirement version, immutable version ID, and SHA-256.
+-3. For a human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8; do not invent a Finding.
++2. Establish the update context and source lifecycle path under Guideline section 2; resolve the source Requirement path, immutable version ID, SHA-256, lifecycle status, and applicable approval evidence. Use the identified unapproved source only for initial analysis clarification before first formal approval; retain the current approved source for an approved-source change.
++3. For Initial Analysis Clarification, resolve the initial analysis questions, explicit human answers/decisions, and explicit update request; do not invent a Finding or formal Requirement Approval. For an approved-source human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
+ 4. Resolve the relevant analysis findings/questions, where applicable.
+ 5. Resolve the explicit human decisions.
+ 6. Resolve recommendations explicitly approved by the human.
+@@ -46,8 +46,8 @@
+ 
+ Execute the following sequence:
+ 
+-1. Establish the current approved Requirement version as the immutable source and record its ID and SHA-256.
+-2. Establish whether the update is Finding-led or a human-requested non-finding amendment.
++1. Establish the lifecycle-qualified immutable source under Guideline section 2 and record its path, version ID, SHA-256, status, and applicable approval evidence; stop if that source status cannot be established.
++2. Establish whether the update is Initial Analysis Clarification (pre-approval), Finding-led, or an approved-source human-requested non-finding amendment. Preserve the initial result as unapproved through the downstream gates in section 8; approved clarification decisions do not constitute Human Requirement Approval.
+ 3. Establish the analysis findings/questions addressed by the update, where applicable.
+ 4. Establish the explicit human decisions and approved recommendations.
+ 5. Apply only those approved decisions to a new Requirement version artifact under `docs/requirement/`; never edit, overwrite, or remove the source version.
+--- a/docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md
++++ b/docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md
+@@ -2,7 +2,7 @@
+ docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md
+ Subject Type [FINDING / HUMAN-REQUESTED GOVERNANCE ENHANCEMENT (NON-FINDING)]. For FINDING, complete the Finding Source and Finding Investigation fields below. For a governance enhancement, do not create or imply a finding; complete these separate Enhancement Request fields and identify the non-finding investigation result. RESERVED STABLE WORK ID (per SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1). Enhancement Investigation: [FINDING INVESTIGATION REPORT PATH/RESULT; IDENTIFY AS NON-FINDING; EVIDENCE THAT REQUEST SOURCE, AUTHORIZATION, SCOPE, AFFECTED GOVERNANCE ARTIFACTS, AND CONSTRAINTS WERE ESTABLISHED]. Proposed Governance Amendment: [CANONICAL PROCESS-OWNED REPORT PATH/ID/SHA-256; EXACT PER-FILE CONTENT OR UNAMBIGUOUS DIFF; TARGET PATHS; BASE AND EXPECTED-AFTER SHA-256; SCOPE; EXCLUSIONS; NOT-APPLIED STATE].
+ 
+-Actor and Human Approval fields (enhancement only): for proposal preparer, one-time initial applier [identity/environment/one-time scope], verifier, and reviewer, record the role/Agent definition repository-relative path and content SHA-256, each bound to that actor's own unique attempt record; record current runtime identity/environment separately. Check distinctness using the actor-identity bindings, not display name alone. Different OS identities, hosts, or repositories are not required unless an applicable, explicitly approved security boundary requires them. Qualification evidence [record path/ID/SHA-256 and capability observations]; approval decision/source/time; approved report fingerprint and exact targets. Each Application, Verification, Review, and Audit request must separately record its fresh attributable stage-start instruction; this is not part of or a substitute for patch approval.
++Actor and Human Approval fields (enhancement only; stage-specific): record the proposal preparer, intended one-time initial applier [identity/environment/one-time scope], intended verifier, and intended reviewer by role/Agent definition repository-relative path and content SHA-256. At proposal preparation, bind only the actual preparer to its own current unique attempt and record its current runtime identity/environment and qualification evidence [record path/ID/SHA-256 and capability observations] separately. The intended applier requires fresh exact Human Approval and one-time designation; no separate pre-existing qualification attempt is required. After its separate fresh Application stage-start, the applier must publish and integrity-check its own current attempt, identity, permissions, and role-specific capability evidence before any source write; before Application source work, both preparer and applier must be bound to their own attempts. Record future verifier/reviewer bindings as planned identity-only paths and hashes, not attempts, current runtime identities, capabilities, or stage starts; do not require, create, or publish their attempts before predecessor gates. Only after complete successful Application and a fresh Verification stage-start may the actual verifier publish its own attempt and current qualification; only after passing independent Verification and a fresh Review stage-start may the actual reviewer do so. Each actual verifier/reviewer definition path and hash must match its approved planned binding; mismatch blocks that stage pending updated attributable Human decision and exact approval. Follow the Governance Amendment Application controls for these bindings and gates. Check all four actors' distinctness using actor-identity bindings, not display name alone; the applier must also differ from the SDLC Process Orchestrator and any Governance Remediation actor barred from self-edit in its active cycle. Different OS identities, hosts, or repositories are not required unless an applicable, explicitly approved security boundary requires them. Record the approval decision/source/time, approved report fingerprint, and exact targets without treating approval/designation as capability evidence. Each Application, Verification, Review, and Audit request must separately record its fresh attributable stage-start instruction and each actual actor must qualify in its own current invocation under SDLC_ARTIFACT_GOVERNANCE.md section 33.1; stage-start is not part of or a substitute for patch approval.
+ 
+ 
+ Finding Source:

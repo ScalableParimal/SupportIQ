@@ -1,0 +1,708 @@
+{
+  "record_type": "independent_governance_verification_result",
+  "execution_status": "STOPPED",
+  "outcome": "CANNOT COMPLETE",
+  "subject_type": "GOVERNANCE_APPLICATION",
+  "finding_ids": [
+    "GOV-AUD-20261102-003",
+    "GOV-AUD-20261102-004"
+  ],
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/report.md",
+    "bytes": 18471,
+    "sha256": "12C124A81D90C2FE103609634815D938C598471F271CF54E7975E4BFB315F92E"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/verification-evidence.json",
+    "bytes": 1782728,
+    "sha256": "6A7E21CFB389D97F7285AC1385331327AF0D2EC233799426D52DA3288FADF89D"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/invocation.json",
+    "bytes": 14141,
+    "sha256": "C9CF23A531D8C2772930DE2C8E62C3205F54EBFF24A6C694C252D0E54EC50286"
+  },
+  "invocation_readback": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/invocation-readback.json",
+    "bytes": 5634,
+    "sha256": "BBF1D4FD4C9FB13E157E40F99F20C520E0A98F0CC687879CDB481BE00DEB74BC"
+  },
+  "input_manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/manifest.json",
+    "bytes": 254753,
+    "sha256": "798F4686A3304EE12E28A28B46C5EF6E830C683EB19E5AD69591664ABA9E64A1"
+  },
+  "final_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/checkpoint-final.json",
+    "bytes": 258869,
+    "sha256": "7E522F6FD7C436DA0B1E9689420D5F4CC23D034E1A51897D0474F74476EA0C8C"
+  },
+  "exact_evaluated_state": {
+    "targets": [
+      {
+        "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+        "base": {
+          "bytes": 11022,
+          "sha256": "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1"
+        },
+        "actual_after": {
+          "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+          "bytes": 12269,
+          "sha256": "D265AA4EFC1D55E870BFC1D453059B11830116AE2E908C39CAD4BC52826C8850"
+        },
+        "single_occurrence_offsets": [
+          473,
+          954,
+          1466
+        ],
+        "independent_HEAD_worktree_representation_base_equal": true,
+        "complete_reconstruction_equal": true,
+        "utf8_no_bom_crlf": true,
+        "final_newline": false
+      },
+      {
+        "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+        "base": {
+          "bytes": 2254,
+          "sha256": "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2"
+        },
+        "actual_after": {
+          "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+          "bytes": 2845,
+          "sha256": "0677A918CAC19E87C30B9CFA33EF167DE44219ECA5BD39CF3C3FA24D97599496"
+        },
+        "single_occurrence_offsets": [
+          216,
+          782
+        ],
+        "independent_HEAD_worktree_representation_base_equal": true,
+        "complete_reconstruction_equal": true,
+        "utf8_no_bom_crlf": true,
+        "final_newline": false
+      },
+      {
+        "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+        "base": {
+          "bytes": 1089,
+          "sha256": "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C"
+        },
+        "actual_after": {
+          "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+          "bytes": 1823,
+          "sha256": "58A9274BA48C6F8C77C86B1BB09B9D4CB38172F6925774F73C0DA8EAAAAF3CA6"
+        },
+        "single_occurrence_offsets": [
+          66,
+          1150
+        ],
+        "independent_HEAD_worktree_representation_base_equal": true,
+        "complete_reconstruction_equal": true,
+        "utf8_no_bom_crlf": true,
+        "final_newline": false
+      },
+      {
+        "path": ".github/skills/requirement-update/SKILL.md",
+        "base": {
+          "bytes": 6786,
+          "sha256": "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC"
+        },
+        "actual_after": {
+          "path": ".github/skills/requirement-update/SKILL.md",
+          "bytes": 7566,
+          "sha256": "290CC575B16FA794A80D5469B22C4B7632FA89A72ABE0BE90D130D2654162758"
+        },
+        "single_occurrence_offsets": [
+          1118,
+          2416
+        ],
+        "independent_HEAD_worktree_representation_base_equal": true,
+        "complete_reconstruction_equal": true,
+        "utf8_no_bom_crlf": true,
+        "final_newline": false
+      },
+      {
+        "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+        "base": {
+          "bytes": 2985,
+          "sha256": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038"
+        },
+        "actual_after": {
+          "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+          "bytes": 4629,
+          "sha256": "A947610DC0BE33DCFF0F9CDFD794273B1BC90561CEF7EDA25CCF5AE417A37810"
+        },
+        "single_occurrence_offsets": [
+          899
+        ],
+        "independent_HEAD_worktree_representation_base_equal": true,
+        "complete_reconstruction_equal": true,
+        "utf8_no_bom_crlf": true,
+        "final_newline": true
+      }
+    ],
+    "manifest": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/manifest.json",
+      "bytes": 254753,
+      "sha256": "798F4686A3304EE12E28A28B46C5EF6E830C683EB19E5AD69591664ABA9E64A1"
+    },
+    "HEAD": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "index": {
+      "path": ".git/index",
+      "bytes": 10274,
+      "sha256": "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6"
+    }
+  },
+  "blockers": [
+    {
+      "id": "VERIFIER-INVOCATION-001",
+      "kind": "missing fresh retry authorization",
+      "outcome": "CANNOT COMPLETE",
+      "affected_scope": "This verifier's replacement attempt, not an established defect in the five-file Application",
+      "evidence": [
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152301Z-f1b897f3-8a3f-4bdb-9d9c-24de14ee0869/invocation.json",
+          "bytes": 9471,
+          "sha256": "482905DBAB9C5C2052901290FC7DC5DFE67FFBB1A1235E27BB3461586475AC4F"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/invocation.json",
+          "bytes": 14141,
+          "sha256": "C9CF23A531D8C2772930DE2C8E62C3205F54EBFF24A6C694C252D0E54EC50286"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/invocation-readback.json",
+          "bytes": 5634,
+          "sha256": "BBF1D4FD4C9FB13E157E40F99F20C520E0A98F0CC687879CDB481BE00DEB74BC"
+        }
+      ],
+      "observation": "Initial verifier invocation omitted required common structured metadata. It was preserved without overwrite. Verifier then created a new replacement attempt explicitly labeled a retry, reused the sole supplied Human Verification stage-start, and repeated assessment. No separate fresh Human start for that retry is available.",
+      "rule": "SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1, Governance amendment stage invocation and handoff: retries and restarts require a fresh stage-start instruction; no response is inferred, reused, or automatically propagated.",
+      "disposition": "STOP. Do not repair published records or infer retry authorization. Fresh explicit Human start is required for a new independent Verification invocation; requalify and independently check the bounded current inputs then."
+    }
+  ],
+  "criteria": [
+    {
+      "id": "authority",
+      "status": "OBSERVED CHECK PASSED; NOT A PROCESS PASS",
+      "evidence": "Actual supplied exact ASCII approval/designation and separate Application start match authorization record. Package fingerprints, route, target objects, actors and byte contract compared as complete native objects. Existing governance root freshly resolved through canonical OWNER comment. Bootstrap Audit start not reused as current-stage authority."
+    },
+    {
+      "id": "own-stage-authorization",
+      "status": "CANNOT COMPLETE",
+      "evidence": "Only the original Human Verification stage-start is supplied. Replacement attempt's retry field explicitly requires a fresh start under section 30.1, which was not obtained."
+    },
+    {
+      "id": "identity-and-independence",
+      "status": "OBSERVED CHECK PASSED; NOT A PROCESS PASS",
+      "evidence": "Harness registry sole running assigned verifier 8e0bf478-bfeb-461b-90ed-64033f60f8d5; separate Copilot invocation edd4a15d-4bb2-4605-a897-0e019144523c. Definition matches approved planned verifier binding ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958. Preparer/applier runtime IDs differ. Reviewer planned definition differs; no current reviewer runtime claimed. Shared host title is not role proof."
+    },
+    {
+      "id": "own-record-first",
+      "status": "CANNOT COMPLETE",
+      "evidence": "Initial invocation/readback published before checks but common record metadata incomplete. Replacement invocation/readback contain complete metadata and precede repeated machine checks; missing fresh retry start prevents valid replacement qualification. Both attempts retained unchanged."
+    },
+    {
+      "id": "capabilities-permissions",
+      "status": "OBSERVED CHECK PASSED; NOT A PROCESS PASS",
+      "evidence": "Successful hidden-inclusive reads, hashlib SHA256, non-mutating Git checks, strict native full-object JSON tests, own validated/flushed partial -> Windows atomic no-overwrite rename and independent fresh-process readback. Writable inherited ACL and tools disclosed, no source-write probe."
+    },
+    {
+      "id": "complete-input-boundary",
+      "status": "OBSERVED CHECK PASSED; NOT A PROCESS PASS",
+      "evidence": "Replacement manifest covers all repository files including hidden .github, upstream/history and earlier verifier preparatory records, path presence/absence, tracked/untracked state, directories, bytes, SHA256, file modes, HEAD/branch/index/status/diffs. Only exact replacement-owned output paths excluded. No entire record-root exclusion."
+    },
+    {
+      "id": "application-ordering-and-status",
+      "status": "OBSERVED CHECK PASSED; NOT A PROCESS PASS",
+      "evidence": "Actual Application outcome COMPLETED, not generic PASS. Invocation, independent readback, preflight and terminal evidence match all hashes and ordered preparation records. Inspected helper requires readback/approval/full-set preflight and reconstruction before opening first source for write. Runtime qualification and permission evidence are current to applier's recorded invocation. This supports procedural ordering, not a trusted exhaustive write trace."
+    },
+    {
+      "id": "all-five-exact-bytes",
+      "status": "OBSERVED CHECK PASSED; NOT A PROCESS PASS",
+      "evidence": "Independent reverse replacements recover every exact approved base. Git cat-file --filters HEAD:path independently matches CRLF worktree base; raw Git blobs use LF with core.autocrlf=true. Every forward single occurrence/offset matches, full after bytes equal approved hashes, unified diff equals exact approved patch. UTF8 no BOM/CRLF and first-four absent/fifth present final newline preserved."
+    },
+    {
+      "id": "scope-and-preservation",
+      "status": "OBSERVED CHECK PASSED; NOT A PROCESS PASS",
+      "evidence": "All 474 pre-Application input identities recomputed: exactly five approved targets changed; other 469 equal, no removal. Additions reconciled to Application-owned outputs and earlier verifier preparatory records only; HEAD/branch/index and six preexisting tracked modifications preserved. Every bound reference occurrence checked, distinguishing exact historical base values from current-after bytes."
+    },
+    {
+      "id": "F003-cross-document-effects",
+      "status": "SOURCE INSPECTION COMPLETED; NO VALID VERIFICATION VERDICT",
+      "evidence": "Actual four-artifact Update branch admits identified immutable unapproved initial clarification source only before first formal approval, with explicit Analysis questions/Human answers/update request. Result remains unapproved; lineage/immutable source preserved under Artifact section 8.4. Subsequent Analysis, complete independent Verification, findings resolution and separate formal Human Requirement Approval remain. Approved-source changes retain approved source. Matches existing Analysis section 14/phases 5-10 and Governance sections 3-4; no product execution performed."
+    },
+    {
+      "id": "F004-cross-document-effects",
+      "status": "SOURCE INSPECTION COMPLETED; NO VALID VERIFICATION VERDICT",
+      "evidence": "Only enhancement actor-fields paragraph changed. Actual preparer/applier own attempts and qualification are stage-specific. Future verifier/reviewer planned definition path/hash only until predecessor gates and fresh starts. Actual matching binding/current qualification required at each stage. Four distinct roles, applier coordinator exclusions and separate starts retained. Aligns with unchanged Application Guideline/Prompt/Request."
+    },
+    {
+      "id": "52-core-seven-groups-effectiveness",
+      "status": "SCOPE INSPECTION COMPLETED; NO AUDIT OR EFFECTIVENESS CLAIM",
+      "evidence": "No core/group addition/removal; five bounded text changes only. Masters unchanged at approved comparison hashes. Seven named mechanism groups remain separate from 52-core count. Non-Master correction follows ordinary finding lifecycle before Master adoption; it does not adopt product root or candidate Masters. Full independent Review and complete fresh Audit remain outstanding; latest actual Audit INCONSISTENT retained."
+    },
+    {
+      "id": "nonmutation-and-final-boundary",
+      "status": "OBSERVED CHECK PASSED; PROCEDURAL ONLY",
+      "evidence": "Full replacement evaluated-input snapshot equals initial at fresh readback, machine boundaries and terminal boundary. Earlier preparatory records treated as immutable inputs. Only verifier-owned helpers/records created. No sources/upstream/history edited, no staging/commit/push. Endpoint hashes cannot prove absence of transient writes or same-principal tampering."
+    }
+  ],
+  "limitations": [
+    "Procedural read-only conduct only, not an enforced source-write sandbox. Principal/tools can write, but source/upstream/other-actor writes are unauthorized.",
+    "Matching endpoint content/path-set fingerprints cannot prove absence of a transient write or same-principal tampering.",
+    "Actor-visible ordered tools and helper read/hash/check/publication events only; no exhaustive trusted OS event stream or independent tamper monitor.",
+    "Only one running actor observed in registry; no coordinated exclusive filesystem lock or proof against external writers. Idle/stale metadata is not evidence of live concurrency.",
+    "Actual Human words supplied from parent conversation; no authenticated message/author ID or original decision time exposed. None invented. Root GitHub comment identity/time is separately resolvable.",
+    "Exact publication timestamps not captured; record UTC times identify preparation or observations, not exact filesystem publication times.",
+    "Machine byte/integrity results and source inspection cannot cure this verifier's missing fresh retry authorization. No valid Verification PASS, Review, Audit, effectiveness, closure or adoption is established."
+  ],
+  "final_input_comparison": {
+    "matches_initial": true,
+    "scope": "All manifest inputs/path sets and Git/index state; only exact own output exclusions",
+    "observation_basis": "Fresh snapshot immediately before terminal publication",
+    "events": [
+      {
+        "sequence": 1,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:19.450692+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "ls-files",
+          "-z"
+        ],
+        "stdout_sha256": "7DBA28382315E2384C5AB894C4DAC385E255D11FC3DFA439D43BDF14CF1DEB7F",
+        "returncode": 0
+      },
+      {
+        "sequence": 2,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:19.807290+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "rev-parse",
+          "HEAD"
+        ],
+        "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+        "returncode": 0
+      },
+      {
+        "sequence": 3,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:19.888396+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "branch",
+          "--show-current"
+        ],
+        "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+        "returncode": 0
+      },
+      {
+        "sequence": 4,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:19.995908+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "status",
+          "--porcelain=v1",
+          "--untracked-files=all"
+        ],
+        "stdout_sha256": "2CFA55D0F0841BF8F22BCA7C4C553A8D7ED09A40894A3618FEAA0FF4D97A8760",
+        "returncode": 0
+      },
+      {
+        "sequence": 5,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.081678+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "diff",
+          "--cached",
+          "--binary",
+          "--no-ext-diff"
+        ],
+        "stdout_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "returncode": 0
+      },
+      {
+        "sequence": 6,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.191382+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "diff",
+          "--binary",
+          "--no-ext-diff"
+        ],
+        "stdout_sha256": "AD3E80B6DCF7CA66D42EB0FA473CF0E11D501EF211F71867F3DD4D876A77C638",
+        "returncode": 0
+      },
+      {
+        "sequence": 7,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.193224+00:00",
+        "operation": "hidden-inclusive bounded inventory, SHA256 and Git state",
+        "paths": [
+          "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+        ],
+        "outcome": "OK",
+        "files": 490,
+        "path_set_sha256": "2C3027AA6FB30CC65FF79DDE0D91D359A89781392C46811196BF1FB27E168572"
+      },
+      {
+        "sequence": 8,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.249451+00:00",
+        "operation": "validated flushed partial -> atomic no-overwrite rename -> read/hash",
+        "paths": [
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/checkpoint-final.json"
+        ],
+        "outcome": "OK",
+        "bytes": 258869,
+        "sha256": "7E522F6FD7C436DA0B1E9689420D5F4CC23D034E1A51897D0474F74476EA0C8C"
+      },
+      {
+        "sequence": 9,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.338141+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "ls-files",
+          "-z"
+        ],
+        "stdout_sha256": "7DBA28382315E2384C5AB894C4DAC385E255D11FC3DFA439D43BDF14CF1DEB7F",
+        "returncode": 0
+      },
+      {
+        "sequence": 10,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.697340+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "rev-parse",
+          "HEAD"
+        ],
+        "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+        "returncode": 0
+      },
+      {
+        "sequence": 11,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.771980+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "branch",
+          "--show-current"
+        ],
+        "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+        "returncode": 0
+      },
+      {
+        "sequence": 12,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.879064+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "status",
+          "--porcelain=v1",
+          "--untracked-files=all"
+        ],
+        "stdout_sha256": "B16568B429E0C24BA6EE42A0373594ADB98EC0C202AAB66AAC136007A61F4C23",
+        "returncode": 0
+      },
+      {
+        "sequence": 13,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:20.961549+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "diff",
+          "--cached",
+          "--binary",
+          "--no-ext-diff"
+        ],
+        "stdout_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "returncode": 0
+      },
+      {
+        "sequence": 14,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.064190+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "diff",
+          "--binary",
+          "--no-ext-diff"
+        ],
+        "stdout_sha256": "AD3E80B6DCF7CA66D42EB0FA473CF0E11D501EF211F71867F3DD4D876A77C638",
+        "returncode": 0
+      },
+      {
+        "sequence": 15,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.065508+00:00",
+        "operation": "hidden-inclusive bounded inventory, SHA256 and Git state",
+        "paths": [
+          "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+        ],
+        "outcome": "OK",
+        "files": 490,
+        "path_set_sha256": "2C3027AA6FB30CC65FF79DDE0D91D359A89781392C46811196BF1FB27E168572"
+      },
+      {
+        "sequence": 16,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.205196+00:00",
+        "operation": "validated flushed partial -> atomic no-overwrite rename -> read/hash",
+        "paths": [
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/verification-evidence.json"
+        ],
+        "outcome": "OK",
+        "bytes": 1782728,
+        "sha256": "6A7E21CFB389D97F7285AC1385331327AF0D2EC233799426D52DA3288FADF89D"
+      },
+      {
+        "sequence": 17,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.262534+00:00",
+        "operation": "validated flushed partial -> atomic no-overwrite rename -> read/hash",
+        "paths": [
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818/report.md"
+        ],
+        "outcome": "OK",
+        "bytes": 18471,
+        "sha256": "12C124A81D90C2FE103609634815D938C598471F271CF54E7975E4BFB315F92E"
+      },
+      {
+        "sequence": 18,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.335340+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "ls-files",
+          "-z"
+        ],
+        "stdout_sha256": "7DBA28382315E2384C5AB894C4DAC385E255D11FC3DFA439D43BDF14CF1DEB7F",
+        "returncode": 0
+      },
+      {
+        "sequence": 19,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.716405+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "rev-parse",
+          "HEAD"
+        ],
+        "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+        "returncode": 0
+      },
+      {
+        "sequence": 20,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.794838+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "branch",
+          "--show-current"
+        ],
+        "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+        "returncode": 0
+      },
+      {
+        "sequence": 21,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.899764+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "status",
+          "--porcelain=v1",
+          "--untracked-files=all"
+        ],
+        "stdout_sha256": "FAD4E8E110E10686E9D22B4417C4096E411B45E71E496012B647EEFAF6570F44",
+        "returncode": 0
+      },
+      {
+        "sequence": 22,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:21.979748+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "diff",
+          "--cached",
+          "--binary",
+          "--no-ext-diff"
+        ],
+        "stdout_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "returncode": 0
+      },
+      {
+        "sequence": 23,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:22.087767+00:00",
+        "operation": "non-mutating subprocess",
+        "paths": [],
+        "outcome": "OK",
+        "arguments": [
+          "git",
+          "--no-optional-locks",
+          "--no-pager",
+          "diff",
+          "--binary",
+          "--no-ext-diff"
+        ],
+        "stdout_sha256": "AD3E80B6DCF7CA66D42EB0FA473CF0E11D501EF211F71867F3DD4D876A77C638",
+        "returncode": 0
+      },
+      {
+        "sequence": 24,
+        "actor": "8e0bf478-bfeb-461b-90ed-64033f60f8d5",
+        "attempt": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+        "observed_at_utc": "2026-11-02T15:31:22.089096+00:00",
+        "operation": "hidden-inclusive bounded inventory, SHA256 and Git state",
+        "paths": [
+          "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ"
+        ],
+        "outcome": "OK",
+        "files": 490,
+        "path_set_sha256": "2C3027AA6FB30CC65FF79DDE0D91D359A89781392C46811196BF1FB27E168572"
+      }
+    ]
+  },
+  "partial_outputs": "Observed machine checks PASS and source inspections retained only as facts; not a valid Independent Verification conclusion",
+  "next_permitted_process": "Await fresh Human Verification retry start; not Review",
+  "next_separate_review_gate": "Only after valid independent Verification PASS and separate fresh Human Review start",
+  "review_authorized": false,
+  "downstream_started": false,
+  "audit_run": false,
+  "effectiveness_claimed": false,
+  "findings_closed": false,
+  "master_adopted": false,
+  "product_root_adopted": false,
+  "source_writes": false,
+  "other_actor_record_writes": false,
+  "staging_commit_push": false,
+  "schema_version": "1.0",
+  "record_id": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818:result.json",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature": "Governance-only F003/F004; product feature N/A",
+  "attempt_id": "20261102T152557Z-efc37bf9-a1dd-4f02-b768-d797e0636818",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "Independent Governance Verification",
+  "creator": {
+    "role": "Independent Governance Verification",
+    "runtime_agent_id": "8e0bf478-bfeb-461b-90ed-64033f60f8d5"
+  },
+  "created_at_utc": "2026-11-02T15:31:22.091002+00:00",
+  "clock_basis": "UTC record preparation, not exact publication time"
+}

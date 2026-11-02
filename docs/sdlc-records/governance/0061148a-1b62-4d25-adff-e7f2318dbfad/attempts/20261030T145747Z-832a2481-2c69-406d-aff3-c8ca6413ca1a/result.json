@@ -1,0 +1,100 @@
+{
+  "schema": "finding-investigation-result-v1",
+  "record_type": "sdlc_process_result",
+  "record_identity": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a:result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a",
+  "process": "Finding Investigation",
+  "subject_type": "FINDING",
+  "finding_id": "IGV-FIND-001",
+  "created_utc": "2026-10-30T15:03:11Z",
+  "execution_termination": "COMPLETED",
+  "outcome": "FINDING CONFIRMED",
+  "finding_classification": "Valid implementation/process-record defect: governance evidence transcription integrity; not a product-code defect.",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding"
+  },
+  "actor": {
+    "role": "Finding Investigation Agent",
+    "runtime_principal": "int-scl-010\\parimal",
+    "agent_definition_sha256": "BECE1D3F5C20DD10B975E1536BB816232A47C2B43FDAAD76B13C4328DA84B218"
+  },
+  "authorization": {
+    "fresh_human_stage_start": "Yes, initiate Finding Investigation for IGV-FIND-001 only",
+    "authority_boundary": "Current user's scoped stage-start authorizes only this Finding Investigation and its own records. It is not approval of any correction.",
+    "prior_approval_status": "The earlier Application approval is evidence investigated, not a new approval in this invocation."
+  },
+  "canonical_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/report.md",
+    "bytes": 16664,
+    "sha256": "4CA6CC42F1D37A84B061B89F8EE0084C1CE5A16EC15F7DDFD06FF323AE19A89F",
+    "identity": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a:report"
+  },
+  "evidence": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/evidence/investigation-evidence.json",
+      "bytes": 9769,
+      "sha256": "B3FF7EEB65E2A05A94BEBA58256704A8067D5C39CA1183C75E99EE0CDA34A03A",
+      "identity": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a:investigation-evidence"
+    }
+  ],
+  "checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/checkpoint-0001.json",
+    "bytes": 1762,
+    "sha256": "BD0EEC2AF56ED397C82839B04F6C1E5E25D6AAB49CBD5B8F910D12601061F6A3"
+  },
+  "attempt": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a/attempt.json",
+    "bytes": 6397,
+    "sha256": "5AEEAFA205570616BBCC2FF92B0313094F5A3370003651C2233617D5E94D682D"
+  },
+  "finding": {
+    "confirmed": true,
+    "affected_artifact": "Application approval-context.json and canonical report.md; related Application result bindings; no product artifact",
+    "observed_difference": "Expected U+00A7 section signs at references to sections 7 and 8; stored values contain U+003F literal question marks in both places.",
+    "root_cause": "Lossy transcription is established at the persisted artifact level; the exact transformation stage/mechanism is not established.",
+    "underlying_human_approval_validity": "NOT DETERMINED by this finding"
+  },
+  "impact_and_scope": {
+    "application_record_binding_mismatches": 0,
+    "current_P1_P5_hashes_match_approved_after_hashes": true,
+    "verification_outcome_preserved": "FINDINGS",
+    "initial_audit_outcome_preserved": "CANNOT COMPLETE AUDIT",
+    "master_baseline": "Candidate/unadopted; not a prerequisite to this bootstrap-finding investigation or its correction lifecycle.",
+    "product_work_tests_runtime": "Not performed"
+  },
+  "corrective_recommendation": {
+    "advisory_only": true,
+    "direction": "Consider a linked append-only correction/supersession record under a separately authorized governed process, preserving all original records unchanged.",
+    "prior_application_actor": "The one-time P1-P5 designation does not establish continuing authority to correct the transcript.",
+    "human_decision_required_before_correction": true,
+    "this_result_authorizes_correction": false
+  },
+  "remaining_uncertainties": [
+    "Original parent-message ID and authenticated decision-event timestamp were not supplied in the Application record.",
+    "Exact technical/organizational point at which the two section signs became question marks is unknown.",
+    "Underlying approval validity is not determined solely by this finding."
+  ],
+  "recommended_next_process": {
+    "process": "Corrective Change Decision & Plan Update",
+    "subject_type": "FINDING",
+    "finding_id": "IGV-FIND-001",
+    "conditions": "Determine whether an append-only correction/supersession record is required, the exact scope and record bindings, human gate, and authorized actor before any publication.",
+    "not_invoked_by_this_process": true
+  },
+  "non_authorizations": [
+    "No correction or reapplication",
+    "No Verification retry",
+    "No Review",
+    "No Governance Audit rerun",
+    "No product work, tests, build, or runtime",
+    "No commit or push"
+  ],
+  "publication_integrity": {
+    "report_and_evidence_read_back_and_hash_validated_before_terminal_result": true,
+    "no_prior_final_record_modified": true,
+    "terminal_result_is_final_and_must_not_be_edited_in_place": true
+  }
+}

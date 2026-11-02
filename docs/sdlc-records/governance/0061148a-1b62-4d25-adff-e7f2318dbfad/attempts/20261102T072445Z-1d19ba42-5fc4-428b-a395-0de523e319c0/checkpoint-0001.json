@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "record_type": "finding_investigation_checkpoint",
+  "record_identity": "20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0:checkpoint-0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0",
+  "sequence": 1,
+  "boundary": "Substantive inspection and evidence binding complete; before terminal result publication.",
+  "status": "report published; terminal result pending",
+  "finding_ids": [
+    "GOV-001",
+    "GOV-002"
+  ],
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/evidence/investigation-evidence.json",
+    "bytes": 22254,
+    "sha256": "8D008604EFEC599AC751EB1B457FD72750E3B4ECB7E0B5071087E64F1A67F977"
+  },
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/report.md",
+    "bytes": 12795,
+    "sha256": "CE975EE00E642B93AF50EF8FF0FF418101CE821F2E94121D43E0B260A012BF6B"
+  },
+  "next_actions": [
+    "Revalidate bound sources and publish terminal result"
+  ],
+  "not_started": [
+    "Corrective Change Decision",
+    "source correction",
+    "Audit",
+    "adoption",
+    "tests/runtime",
+    "commit/push"
+  ]
+}

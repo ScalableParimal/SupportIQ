@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "record_type": "application_operation_intent",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:P5-write-intent",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:35:25.778097Z",
+  "process": "Governance Amendment Application",
+  "operation": {
+    "operation": "P5",
+    "finding_id": "GOV-002",
+    "target_path": "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+    "base_sha256": "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79",
+    "expected_after_sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+    "expected_after_bytes": 2098,
+    "old_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; EXPRESSLY DISCLOSED IN EXACT HUMAN APPROVAL",
+    "new_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; DISCLOSE IN EXACT PROPOSAL AND THIS ACTOR'S REPORT/EVIDENCE; NOT AN ADDITIONAL HUMAN APPROVAL VALIDITY CONDITION"
+  },
+  "last_confirmed_target_state": "Exact approved base",
+  "file_identity": {
+    "device": 7972088113085002079,
+    "inode": 19421773394350479
+  },
+  "prewrite_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/checkpoint-0002.json",
+    "sha256": "15B990686F8F66CF50A7ED2E18FC858F5EC7C3CE6E8ABCB78DFBEDBEF622DC45",
+    "bytes": 9208
+  },
+  "proposed_write_bytes": 2098,
+  "proposed_write_sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+  "stop_behavior": "On failure stop immediately; no rollback; intent alone does not establish a successful write"
+}

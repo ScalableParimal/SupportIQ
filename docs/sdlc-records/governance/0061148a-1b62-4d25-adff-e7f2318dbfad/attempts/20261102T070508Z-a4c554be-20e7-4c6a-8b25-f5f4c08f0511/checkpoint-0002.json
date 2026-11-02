@@ -1,0 +1,91 @@
+{
+  "schema_version": "sdlc-corrective-change-decision-record/v1",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature": "Governance prospective remediation GOV-001 and GOV-002",
+  "creator": "Corrective Change Decision Agent, direct current invocation",
+  "role": "Corrective decision only, own record publication",
+  "process": "Corrective Change Decision & Plan Update",
+  "attempt_id": "20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511",
+  "remediation_cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "clock_basis": "System UTC at record preparation; not exact publication time",
+  "exact_publication_time": "not captured",
+  "record_type": "sdlc_process_checkpoint",
+  "record_identity": "20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511:checkpoint-0002",
+  "created_at_utc": "2026-11-02T07:10:19.588297+00:00",
+  "sequence": 2,
+  "last_confirmed_boundary": "Bounded Decision activities and required canonical report complete; immutable report/evidence/checkpoint readback validated; terminal result pending",
+  "attempt_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511/attempt.json",
+    "identity": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511/attempt.json",
+    "byte_count": 43099,
+    "sha256": "D7FB389BB5FCCA033B70A425C716E677F89528F56186F35002ECE4BEA6F2EC42"
+  },
+  "report_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511/report.md",
+    "identity": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511/report.md",
+    "byte_count": 30399,
+    "sha256": "FB8D8D2EE38844E1EABCC9EC0F429F0B0BB3F22A3626A2C4A76D9E1B14D5A729"
+  },
+  "evidence_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511/evidence/decision-evidence.json",
+    "identity": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511/evidence/decision-evidence.json",
+    "byte_count": 118574,
+    "sha256": "65A5BE99DAAA8A3206CBA0301AE539A5044B1B3FB6AB203FACB7D9C516C984B5"
+  },
+  "predecessor_checkpoint_binding": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511/checkpoint-0001.json",
+    "identity": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T070508Z-a4c554be-20e7-4c6a-8b25-f5f4c08f0511/checkpoint-0001.json",
+    "byte_count": 4556,
+    "sha256": "A232E89202AD5652A07ACBD7A661ED395F84400841A4A83398C1477B5A452D7A"
+  },
+  "finding_outcomes": [
+    {
+      "finding_id": "GOV-001",
+      "decision_status": "ADDITIONAL EVIDENCE REQUIRED",
+      "historical_validity": "supported, not rejected",
+      "current_text": "identified historical defect addressed by matching historical P1-P5 after-state",
+      "operations": [
+        "P1"
+      ],
+      "new_source_change_identified": false,
+      "proposal": null,
+      "plan_change_required": "N/A - governance text, no applicable product plan",
+      "approval_for_source_change_required": false,
+      "human_evidence_or_fresh_process_action_required": true,
+      "implementation_readiness": "WAITING FOR ADDITIONAL EVIDENCE",
+      "blocker": "Mandatory Investigation publication/readback-before-consequential-work ordering not established; no unqualified cycle closure disposition",
+      "conditional_direction": "No further corrective text change substantively supportable if predecessor qualification is established and a fresh Decision confirms current applicability; not selected unconditionally here"
+    },
+    {
+      "finding_id": "GOV-002",
+      "decision_status": "ADDITIONAL EVIDENCE REQUIRED",
+      "historical_validity": "supported, not rejected",
+      "current_text": "identified historical defect addressed by matching historical P1-P5 after-state",
+      "operations": [
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "new_source_change_identified": false,
+      "proposal": null,
+      "plan_change_required": "N/A - governance text, no applicable product plan",
+      "approval_for_source_change_required": false,
+      "human_evidence_or_fresh_process_action_required": true,
+      "implementation_readiness": "WAITING FOR ADDITIONAL EVIDENCE",
+      "blocker": "Mandatory Investigation publication/readback-before-consequential-work ordering not established; no unqualified cycle closure disposition",
+      "conditional_direction": "No further corrective text change substantively supportable if predecessor qualification is established and a fresh Decision confirms current applicability; not selected unconditionally here"
+    }
+  ],
+  "input_revalidation": {
+    "initial_bindings": 114,
+    "resolved_bindings": 203,
+    "source_manifest": 76,
+    "mismatches": 0,
+    "tracked_changes_unchanged": true,
+    "index_empty": true
+  },
+  "unresolved_work": "Obtain original Investigation ordering evidence or fresh separately authorized forward remedy; no downstream stage may be started by this actor",
+  "source_or_old_record_effects": "none",
+  "safe_continuation": "Publish only this terminal Decision result after all dependencies durable. Stop at handoff."
+}

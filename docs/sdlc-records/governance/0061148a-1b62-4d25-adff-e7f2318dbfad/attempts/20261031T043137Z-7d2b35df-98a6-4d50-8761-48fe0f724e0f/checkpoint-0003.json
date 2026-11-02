@@ -1,0 +1,217 @@
+{
+    "schema":  "independent-governance-review-checkpoint/v1",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+    "checkpoint":  3,
+    "phase":  "substantive-review-complete-preterminal-publication",
+    "capturedAt":  "2026-10-31T04:40:54.0238801Z",
+    "previousCheckpoints":  [
+                                {
+                                    "path":  "checkpoint-0001.json",
+                                    "sha256":  "D5A703B60B195173EF0B8479A4BBE0AA43F404FF56F5F9D6271B199E5E6F5FE5"
+                                },
+                                {
+                                    "path":  "checkpoint-0002.json",
+                                    "sha256":  "47137A61DFB036ED4FF7A172C127D2E173D30E62B511F3789781188E3774A558"
+                                }
+                            ],
+    "manifest":  {
+                     "source":  "checkpoint-0001 manifest plus checkpoint-0002 four connected files",
+                     "inputCount":  133,
+                     "tracked":  28,
+                     "untracked":  105,
+                     "hashByteMismatches":  0,
+                     "priorWorkIdPathCount":  105,
+                     "pathSetChanges":  0,
+                     "exactOwnOutputPaths":  [
+                                                 "attempt.json",
+                                                 "checkpoint-0001.json",
+                                                 "checkpoint-0002.json",
+                                                 "checkpoint-0003.json",
+                                                 "report.md",
+                                                 "result.json",
+                                                 "evidence/review-evidence.json"
+                                             ]
+                 },
+    "repository":  {
+                       "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "branch":  "sdlc-framework-onboarding",
+                       "status":  [
+                                      " M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                      " M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                      " M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                      " M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                      " M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                                      "?? docs/sdlc-records/"
+                                  ],
+                       "trackedChanges":  [
+                                              "M\tdocs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                              "M\tdocs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                              "M\tdocs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                              "M\tdocs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                              "M\tdocs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md"
+                                          ],
+                       "stagedChanges":  [
+
+                                         ]
+                   },
+    "criteria":  [
+                     {
+                         "criterion":  "fresh stage-start, current Verification PASS, distinct reviewer",
+                         "status":  "PASS",
+                         "reason":  "Current user start follows passing verifier; current role/attempt distinct from preparer, appliers, verifier."
+                     },
+                     {
+                         "criterion":  "approved scope, exact proposal/approval/application",
+                         "status":  "PASS",
+                         "reason":  "Reviewed proposal sections 7-8, approval evidence, exact five-file diff and linked record-only correction."
+                     },
+                     {
+                         "criterion":  "P1 stable Work ID and reservation",
+                         "status":  "PASS",
+                         "reason":  "Draft-only not-assigned; allocate/collision-check; authorized no-overwrite attempt reserves; same-work continuation; other prerequisites retained."
+                     },
+                     {
+                         "criterion":  "P2-P5 residual-risk consistency",
+                         "status":  "PASS",
+                         "reason":  "Disclosure retained in exact proposal and gate reports/evidence; no separate approval-validity acknowledgement; all exact approval bindings remain."
+                     },
+                     {
+                         "criterion":  "52-core/seven mechanism boundary",
+                         "status":  "PASS",
+                         "reason":  "Targets are non-Master files; assurance mechanisms remain distinct and outside 52; seven mechanism groups remain separate."
+                     },
+                     {
+                         "criterion":  "authority, lifecycle, effectivity",
+                         "status":  "PASS",
+                         "reason":  "Application, Verification, Review, complete Audit and where applicable adoption remain separate; no effectiveness/adoption claim."
+                     },
+                     {
+                         "criterion":  "IGV-FIND-001 linked qualification",
+                         "status":  "PASS",
+                         "reason":  "Approved append-only exact 4212-byte correction matches payload; qualification only, no old-record rewrite or P1-P5 reapplication."
+                     },
+                     {
+                         "criterion":  "runtime evidence and nonmutation",
+                         "status":  "PASS",
+                         "reason":  "Bounded manifest/checkpoint and actor-visible event evidence; procedural assurance and residual risks disclosed; no input changes observed."
+                     }
+                 ],
+    "eventLogCoverage":  "Actor-visible tool operation order from this conversation only; tool start/completion timestamps are not exposed; no exhaustive OS event stream.",
+    "operationEvents":  [
+                            {
+                                "order":  1,
+                                "tool":  "conversation",
+                                "operation":  "fresh human stage start",
+                                "outcome":  "observed",
+                                "paths":  "none",
+                                "details":  "Exact current user instruction and supplied current_datetime; external event ID/time not asserted."
+                            },
+                            {
+                                "order":  2,
+                                "tool":  "functions.skill",
+                                "operation":  "load independent-governance-review",
+                                "outcome":  "loader reported not found",
+                                "paths":  ".github/skills/independent-governance-review/SKILL.md",
+                                "details":  "No source change; read current repository Skill directly."
+                            },
+                            {
+                                "order":  3,
+                                "tool":  "functions.view",
+                                "operation":  "read stage definition bundle",
+                                "outcome":  "read",
+                                "paths":  "Review Skill, Agent, Guideline, Prompt, Request",
+                                "details":  "Bounded execution sources."
+                            },
+                            {
+                                "order":  4,
+                                "tool":  "PowerShell/Git",
+                                "operation":  "identity and repo baseline",
+                                "outcome":  "read",
+                                "paths":  "repo HEAD/status/index/worktree; Work ID root",
+                                "details":  "Observed whoami, current branch/HEAD, tree state, directories, ACLs."
+                            },
+                            {
+                                "order":  5,
+                                "tool":  "PowerShell/.NET",
+                                "operation":  "SHA-256 API probe",
+                                "outcome":  "failed non-mutating",
+                                "paths":  "none",
+                                "details":  "SHA256.HashData unavailable; fallback Get-FileHash -Algorithm SHA256."
+                            },
+                            {
+                                "order":  6,
+                                "tool":  "PowerShell/Git",
+                                "operation":  "tracked path query",
+                                "outcome":  "initial command error, fallback successful",
+                                "paths":  "manifest paths",
+                                "details":  "git ls-files --error-unmatch stderr treated as terminating; no changes; one git ls-files list used."
+                            },
+                            {
+                                "order":  7,
+                                "tool":  "PowerShell/.NET",
+                                "operation":  "publish initial reviewer attempt/checkpoint",
+                                "outcome":  "readback/hash validated",
+                                "paths":  "own attempt.json; own checkpoint-0001.json",
+                                "details":  "CreateNew .partial, flush, JSON validation, atomic no-overwrite move, readback. A temporary hash-helper file in system temp was created/deleted, not an input/record."
+                            },
+                            {
+                                "order":  8,
+                                "tool":  "PowerShell/Get-FileHash/Git",
+                                "operation":  "recompute checkpoint-0001 inputs",
+                                "outcome":  "PASS",
+                                "paths":  "129 exact manifest inputs and prior attempts path set",
+                                "details":  "129 fingerprints matched; 105 prior Work-ID record paths matched; zero drift."
+                            },
+                            {
+                                "order":  9,
+                                "tool":  "functions.view/functions.rg",
+                                "operation":  "read affected sources/records",
+                                "outcome":  "read",
+                                "paths":  "three Masters; five targets; connected review/verification/portability process files; proposal, original/linked application, old/current verification and investigation/decision chain",
+                                "details":  "Full five-target diff and relevant governance clauses reviewed; no Audit run."
+                            },
+                            {
+                                "order":  10,
+                                "tool":  "functions.web_fetch",
+                                "operation":  "resolve governance root decision",
+                                "outcome":  "read",
+                                "paths":  "GitHub issue comment 3/6522916236 and comment API",
+                                "details":  "Canonical repo/commit/root/Work ID and author association OWNER matched; comment authorized initial Audit only, not current Review."
+                            },
+                            {
+                                "order":  11,
+                                "tool":  "PowerShell/.NET",
+                                "operation":  "publish input extension checkpoint",
+                                "outcome":  "readback/hash validated",
+                                "paths":  "own checkpoint-0002.json",
+                                "details":  "Added four connected Portability Guideline/Prompt/Skill/Agent fingerprints before reading them; rechecked original inputs/path set with zero drift."
+                            },
+                            {
+                                "order":  12,
+                                "tool":  "PowerShell/Windows identity",
+                                "operation":  "check current permissions/role fingerprints",
+                                "outcome":  "read",
+                                "paths":  "current token; own attempt ACL; four role definitions",
+                                "details":  "Enabled Authenticated Users; inherited Modify observed; hashes matched role bindings; no write probe."
+                            },
+                            {
+                                "order":  13,
+                                "tool":  "PowerShell/Get-FileHash/byte compare",
+                                "operation":  "verify current five targets and linked correction",
+                                "outcome":  "PASS",
+                                "paths":  "five exact targets; proposal payload and applied correction attachment",
+                                "details":  "Expected target bytes/hashes matched; correction payload and attachment byte-equal."
+                            },
+                            {
+                                "order":  14,
+                                "tool":  "PowerShell/.NET",
+                                "operation":  "publish substantive checkpoint",
+                                "outcome":  "readback/hash validated",
+                                "paths":  "own checkpoint-0003.json",
+                                "details":  "Criterion-level review recorded before final report/evidence/result publication."
+                            }
+                        ],
+    "concurrency":  "No coordinated no-edit interval, lock, or exhaustive trusted OS event stream. Concurrent changes not fully observable. Snapshot is not proof against transient/same-principal mutation.",
+    "reviewSummary":  "Substantive criteria supported; PASS pending pre-result exact input/path-set comparison and durable output validation."
+}

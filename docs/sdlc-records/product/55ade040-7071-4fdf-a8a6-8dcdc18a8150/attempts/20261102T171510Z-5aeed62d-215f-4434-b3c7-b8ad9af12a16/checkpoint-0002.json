@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16:checkpoint-0002",
+  "feature": "Initial SupportIQ SDLC portability assessment",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-invocation-00cac3a9-53e9-4d9a-a037-dbdca7a9558d",
+    "role": "SDLC Portability Assessment",
+    "identity_basis": "Current explicit developer role, user-scoped invocation, exact on-disk Agent/Skill/Guideline/Prompt/Request loaded; invocation UUID is local attribution, not an external platform identity",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "harness_evidence": "get_current_session returned this session and canonical SupportIQ working directory; its title is not role proof",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "external_cryptographic_actor_identity": "Not available; not claimed"
+  },
+  "created_at_utc": "2026-11-02T17:23:42.162639+00:00",
+  "clock_basis": "Python timezone-aware local system UTC sampled at record preparation; not exact publication time",
+  "gate": {
+    "applicability": "No formal product approval or acceptance gate is created or satisfied"
+  },
+  "related_records": [],
+  "task_context": "Initial assessment; no approved Requirement, Plan, or Plan-local task",
+  "sequence": "0002",
+  "last_confirmed_boundary": "Completed assessment and independently freshly validated terminal result/report/evidence after publication",
+  "terminal_result": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16/result.json",
+    "bytes": 12298,
+    "sha256": "41B57EC23F41D703E5AC1E543D7F7EA88202E0D24FD4D4B0F357445EEC5D1667",
+    "record_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16:result"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16/report.md",
+    "bytes": 35449,
+    "sha256": "F8FB01A014B1C52DEC370BE68F376A03FDDEB12DABD64CD9A3837BD6B5D26CC7",
+    "record_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16:report"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16/evidence/assessment-evidence.json",
+    "bytes": 50980,
+    "sha256": "5D24A230CF0B29F3E42AB92C333D1A3D2593FC698ADA0DA26AA7F04BC359D598",
+    "record_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16:assessment_evidence"
+  },
+  "observation": {
+    "at_utc": "2026-11-02T17:23:42.151791+00:00",
+    "basis": "This separate independent fresh-readback command after final publication; system UTC observation, not exact publication time",
+    "outcome": "PASS",
+    "reference_occurrences_checked": 190,
+    "complete_native_json_objects_checked": 4,
+    "source_target_path_and_content_checks": "PASS",
+    "git_metadata_and_empty_staged_diff": "PASS",
+    "partial_files": 0
+  },
+  "repository_effects": "Own authorized records only; endpoint nonmutation checks PASS; no sandbox or continuous-event guarantee claimed",
+  "unfinished_work": [],
+  "pending_gate_references": [
+    "PB-01 Human disposition",
+    "PB-02 Human stage-scoped disposition"
+  ],
+  "blockers": "Recommendations only; no AI applicability decision",
+  "safe_continuation_prerequisites": "Stop; actual Human dispositions and any separately initiated next process must independently validate current applicability",
+  "next_process_started": false
+}

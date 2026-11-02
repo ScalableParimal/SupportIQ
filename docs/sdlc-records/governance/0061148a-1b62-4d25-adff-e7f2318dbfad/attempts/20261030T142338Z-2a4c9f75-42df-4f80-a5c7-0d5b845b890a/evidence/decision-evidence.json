@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "record_identity": "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a:decision-evidence",
+  "attempt_id": "20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "creator": "Corrective Change Decision Agent, current invocation",
+  "canonical_report": "report.md in this attempt; exact proposal resides only there",
+  "invocation": {"path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/attempt.json", "sha256": "9C6AE472DF3AFD1BF17A8242595530F197243B8F5ADC2382CCBD947AAD69E73F"},
+  "source_manifest_reference": "attempt.json source_fingerprints: exact three Masters, current decision procedure sources and all five targets; additional directly relied-upon sources below",
+  "additional_source_fingerprints": {
+    "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+    ".github/agents/corrective-change-decision.agent.md": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D",
+    "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md": "6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88",
+    "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md": "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790",
+    "docs/ai/prompts/INDEPENDENT_GOVERNANCE_VERIFICATION_PROMPT.md": "BA7592B3AEB09C579EB166EA528E5450A18E6838FC31C2C8BC216877D529254B",
+    "docs/ai/prompts/INDEPENDENT_GOVERNANCE_REVIEW_PROMPT.md": "9D01635FABC7AAB12A2C16F7C7C17E8B185E4CA4E87193E5E38808231CF5CC08",
+    ".github/agents/governance-amendment-application.agent.md": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D",
+    ".github/agents/independent-governance-verification.agent.md": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958",
+    ".github/agents/independent-governance-review.agent.md": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+  },
+  "predecessor_bindings": "attempt.json predecessors; same-work reports/results/last decision evidence independently recomputed against supplied hashes before publication",
+  "additional_predecessor_evidence": [
+    {"path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/evidence/audit-evidence-revision-0001.json", "sha256": "AAECB880DFCE29F7167BA8804EBB1C89453A72DCE2627CFB063592D931D06E20"},
+    {"path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535/evidence/investigation-evidence.json", "sha256": "2D7FDE6829E6A30A29816D45A5BD4197DF694694BA95BD5AEF803320AEECF5B2"},
+    {"path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6/evidence/decision-evidence.json", "sha256": "AE6127C13ED5510B3E94AABF956CF83F6A04FAEA4B3853415D60468BE332B348"}
+  ],
+  "executed_administrative_evidence": [
+    "Current Git HEAD/origin/branch/status; working tree has no tracked modifications and only untracked docs/sdlc-records/; index diff empty",
+    "Current Windows user/SID, enabled Authenticated Users membership and own attempts-parent ACL; read/hash and publication route capability established without write probes",
+    "New timestamp plus UUID path absent before creation; existing Work ID is authorized same-work continuation; product root absent",
+    "Invocation .partial JSON validation, durable Flush(true), no-overwrite File.Move, SHA-256 readback matched",
+    "244 recursive existing JSON path/sha256 binding checks including duplicates matched; not a new Audit",
+    "Five unique byte-fragment replacements computed only in memory using original UTF-8 without BOM/CRLF; expected-after hashes in canonical report"
+  ],
+  "source_inspection_evidence": [
+    "Master Governance section 3 lines 60-64: bootstrap and normal finding correction before adoption",
+    "Master Governance section 24 lines 758-766: exact approval/application/independent assurance/Audit; non-Master change does not require Master-baseline adoption",
+    "Traceability section 30.1: root/Work ID/stage handoff/no-overwrite publication; section 42: candidate status and separate prospective adoption",
+    "Artifact Governance sections 3.5 and 33.1: one-time qualified applier, independence, current capabilities, own-record publication",
+    "Corrective Guideline sections 7.3, 11, 17 and 18; current Prompt/Request/Skill/Agent",
+    "Audit original GOV-001/GOV-002; Investigation conclusions/caveats; two prior decision reports/results; current five targets and connected Portability/application/assurance contracts"
+  ],
+  "reported_evidence": [
+    "Current user's actual supplied stage-start/proposal authorization and two policy directions preserved verbatim in invocation/report; not exact Human Approval",
+    "Earlier parent read-only clarification examination reported by user; independently inspected applicable Master text, not accepted on parent assurance alone",
+    "Original Audit CANNOT COMPLETE AUDIT and Investigation REQUIREMENT OR PLAN CLARIFICATION REQUIRED remain their originating actors' unchanged conclusions"
+  ],
+  "unverified_or_not_established": [
+    "Master-baseline/product-root adoption not established; no claim of approved-baseline breach",
+    "No actual unassigned-ID execution, rejected approval, production harm or historical author intent established",
+    "No effective standing application role or current future-actor capabilities established",
+    "No trusted exhaustive OS event stream, enforced input-write exclusion or coordinated no-edit interval",
+    "Matching endpoint hashes cannot exclude transient writes or same-principal tampering; no security guarantee",
+    "No future approval/application/independent assurance/Audit executed or passed"
+  ],
+  "diagnostics": [
+    "Initial rg using Windows wildcard path docs/ai/sdlc/*.md failed; corrected direct directory search; no write effects",
+    "Several read outputs were truncated; relevant continuations read in bounded ranges",
+    "Initial proposal calculation asserted LF and stopped without file effects; corrected CRLF-preserving calculation succeeded"
+  ],
+  "non_actions": "No product inspection, tests/build/scripts/runtime, target writes, prior-record edits, other stage/agent, approval/application, assurance waiver, Master adoption, commit or push"
+}

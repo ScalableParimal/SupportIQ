@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:checkpoint-0004",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:36:46.369959Z",
+  "process": "Governance Amendment Application",
+  "sequence": 4,
+  "last_confirmed_boundary": "All actual Application bytes/evidence and complete prior/non-target path/hash preservation validated; report/result publication only remains",
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/completion-validation.json",
+    "sha256": "55B2B978A80D5D8C9E86CD4002856F95C17347D531B65A026AD4E4D2B3A2215A",
+    "bytes": 19274,
+    "identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:completion-validation"
+  },
+  "source_effects": [
+    "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+    "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+    "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+    "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md"
+  ],
+  "unfinished_work": "Publish one canonical report then result with final report/evidence hashes; readback both; stop",
+  "blockers": [],
+  "safe_continuation_prerequisites": "No target/input drift or publication failure; no follow-on stage"
+}

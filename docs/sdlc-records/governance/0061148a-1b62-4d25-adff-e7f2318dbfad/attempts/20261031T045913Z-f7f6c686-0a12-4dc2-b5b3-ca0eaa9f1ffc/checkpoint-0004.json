@@ -1,0 +1,72 @@
+{
+  "schema": "sdlc-governance-audit-checkpoint/v1",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc",
+  "checkpoint": "0004",
+  "stage": "final report-revision and pre-result state validation",
+  "created_at_utc": "2026-10-31T05:24:20.589033+00:00",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding"
+  },
+  "prior_comparison": {
+    "based_on_checkpoint": "0003",
+    "governance_sources_expected": 76,
+    "governance_source_drift": 0,
+    "preexisting_work_id_records_expected": 115,
+    "preexisting_record_drift": 0,
+    "status": "PASS"
+  },
+  "report_revision": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report-revision-0001.md",
+    "identity": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report-revision-0001",
+    "byte_count": 64068,
+    "sha256": "28BAD9718EC2DADEA75565CCF73A8C75DEF021EC4810E4755C9DF8416C61D9DE"
+  },
+  "superseded_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report.md",
+    "identity": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report",
+    "byte_count": 53210,
+    "sha256": "D150F4EC3561B98D2C10B63F621A1923E0039849166E7D21986D8B68E0F495A5"
+  },
+  "evidence_record": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/evidence/audit-evidence.json",
+    "identity": "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:audit-evidence",
+    "byte_count": 57558,
+    "sha256": "C232F99598EC3E0DABC8E96ABD1AAD46C97C9456FC888A2F84FC9A8ED01E8116"
+  },
+  "assessment": {
+    "core_expected_present_assessed": [
+      52,
+      52,
+      52
+    ],
+    "mechanism_groups_expected_assessed": [
+      7,
+      7
+    ],
+    "current_findings": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "ambiguities": 0,
+      "broken_references": 0,
+      "missing_governance_controls": 0,
+      "unsupported_governance_controls": 0
+    },
+    "mechanism_results": {
+      "Governance Audit": "PASS",
+      "Governance Remediation": "CANNOT COMPLETE",
+      "SDLC Process Orchestration": "PASS",
+      "SDLC Portability Assessment": "PASS",
+      "Governance Amendment Application": "PASS",
+      "Independent Governance Verification": "PASS",
+      "Independent Governance Review": "PASS"
+    },
+    "overall_result": "CANNOT COMPLETE AUDIT"
+  },
+  "report_revision_reason": "Corrected typographic substitutions and added explicit section-5 evidence/check outcomes; original immutable report retained.",
+  "next_boundary": "Publish terminal result only after this checkpoint and report/evidence readback validation."
+}

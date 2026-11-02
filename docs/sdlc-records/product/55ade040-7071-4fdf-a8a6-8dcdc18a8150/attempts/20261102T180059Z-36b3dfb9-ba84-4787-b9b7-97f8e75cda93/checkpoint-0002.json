@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "record_type": "terminal_readback",
+  "record_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93:terminal_readback",
+  "feature": "Initial SupportIQ SDLC portability assessment",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-continuation-ecf830bf-c5f6-4920-b5ac-081cf5a03869",
+    "role": "SDLC Portability Assessment",
+    "identity_basis": "Current explicit assigned role/instructions and exact loaded assessment artifacts; local invocation UUID, not external authenticated platform identity",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "harness_identity_limit": "Previously resolved conversation harness context; no current external actor-ID authentication or session-title role proof claimed"
+  },
+  "created_at_utc": "2026-11-02T18:05:03.617247+00:00",
+  "clock_basis": "Python timezone-aware system UTC at record preparation; not original decision or filesystem publication time",
+  "gate": {
+    "applicability": "Assessment Human dispositions only; no Requirement/Plan approval, Acceptance or later process-start"
+  },
+  "related_records": [],
+  "task_context": "Bounded same-work disposition continuation; no product feature/Plan task allocated",
+  "sequence": "0002",
+  "last_confirmed_boundary": "Completed bounded continuation independently freshly read back after report/result/evidence publication",
+  "outcome": "PASS",
+  "observed_at_utc": "2026-11-02T18:05:03.132581+00:00",
+  "observation_basis": "Separate fresh-readback command; observation clock not exact publication time",
+  "terminal_result": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/result.json",
+    "bytes": 13365,
+    "sha256": "391992F8589CF2889C542B29EDE44F5EC4D5FEAFBDCF0A2AC333B303C122A6FF",
+    "record_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93:result"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/report.md",
+    "bytes": 14286,
+    "sha256": "DCB0964153BF521AFCDE34ED95CEFE9257C160FEA0BEF1B31A7F77DE57BCE61D",
+    "record_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93:report"
+  },
+  "decision_handoff": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/evidence/decision-handoff.json",
+    "bytes": 8122,
+    "sha256": "4004C9180037F693D650D872DC303488FFD981C905C10A9E19219838CD1CD5CF",
+    "record_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93:decision_handoff"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/evidence/continuation-evidence.json",
+    "bytes": 40420,
+    "sha256": "FE7D8E0B290CAD8587832B05699D449F250C689A8B5D8A88D1C59E3102EB4C49",
+    "record_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93:continuation_evidence"
+  },
+  "comparison": {
+    "outcome": "PASS",
+    "source_files": 76,
+    "target_files": 2,
+    "source_target_content_and_path_set_unchanged": true,
+    "git_metadata_unchanged": true,
+    "predecessor_canonical_bindings": "PASS",
+    "observed_at_utc": "2026-11-02T18:05:03.617186+00:00"
+  },
+  "reference_occurrences_checked": 192,
+  "original_attempt_files_unchanged": true,
+  "unfinished_work": [],
+  "repository_effects": "Own authorized records only; endpoint checks PASS; no sandbox or continuous-event guarantee",
+  "pending_gate_references": [
+    "Separate fresh Requirement Analysis start, or separately requested Orchestrator initiation with its Process Initiation interlock",
+    "Affected future runtime/live integration/release permissions, approved thresholds, evidence and approvals"
+  ],
+  "blockers": "No pending PB applicability answer blocks separately initiated Analysis within Human conditions; runtime readiness not established",
+  "safe_continuation_prerequisites": "Stop; later process independently qualifies and validates applicability, scope and actual fresh start",
+  "later_process_started": false,
+  "readback_preparation_note": "Earlier verification command report-text assertion had an escaped-character probe issue; character-code probe now confirms no literal backslash-n/backtick-n. Published records were never altered or replaced.",
+  "limitations": [
+    "Procedural nonmutation, not enforced sandbox",
+    "Endpoint fingerprints cannot exclude transient or same-principal tampering",
+    "No exhaustive OS event log or cryptographic external actor proof",
+    "Conversational decision message ID and original native decision time not exposed; none invented",
+    "No project/runtime activity; local uncommitted records not remote backup",
+    "Exact filesystem publication time not captured; record-preparation/readback clocks are distinct"
+  ]
+}

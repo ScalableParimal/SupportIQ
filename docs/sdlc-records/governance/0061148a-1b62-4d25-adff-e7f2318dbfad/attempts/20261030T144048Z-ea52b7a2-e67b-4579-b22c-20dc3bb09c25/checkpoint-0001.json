@@ -1,0 +1,19 @@
+{
+  "schema": "independent-governance-verification-checkpoint-v1",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25",
+  "checkpoint": "0001",
+  "created_utc": "2026-10-30T14:50:03.381089+00:00",
+  "actor_runtime_identity": "int-scl-010\\parimal",
+  "repository": "ScalableParimal/SupportIQ",
+  "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+  "status": "SUBSTANTIVE CHECKS COMPLETE; FINDINGS",
+  "summary": "All five application bytes and source-scope checks match; the application approval-context/report substitute literal question marks for the expected ?7/?8 references.",
+  "input_manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25/evidence/prepublication-input-manifest.json",
+    "bytes": 72325,
+    "sha256": "E6C1B1347B197926741B10040EDC07F10C0762EE5BAA950E1EEC744987C276F3"
+  },
+  "finding_id": "IGV-FIND-001",
+  "next": "Publish report/evidence and terminal finding result; do not start Review or rerun Audit."
+}

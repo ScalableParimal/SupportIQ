@@ -1,0 +1,1032 @@
+{
+  "schema_version": "1.0",
+  "record_type": "audit_result",
+  "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "creator": {
+    "identity": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit-actor",
+    "role": "SDLC Governance Audit",
+    "runtime_agent_id": "1831d5ce-ee60-497b-ba25-8217357c77cd",
+    "identity_basis": "Only currently running same-task Audit entry in visible harness registry; local invocation identity is definitive; no external authentication claim",
+    "session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-02T12:10:13.441729+00:00",
+  "clock_basis": "Python timezone-aware UTC preparation clock, not exact publication time",
+  "execution_status": "COMPLETED",
+  "outcome": "INCONSISTENT",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/report.md",
+    "bytes": 95024,
+    "sha256": "088A36B865B3B8D7773A3A6D1D5B41C14CBF2FA25E4A4FCAB2B49B2163495576",
+    "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_report"
+  },
+  "evidence": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+      "bytes": 393511,
+      "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88",
+      "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/integrity-checks.json",
+      "bytes": 333662,
+      "sha256": "4B01A964150FDD9E19F5CF1EB16BB2B4CBAB796DE8C22DA3744B2AD6F9E85F13"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/input-manifest.json",
+      "bytes": 139901,
+      "sha256": "4C7D22996DC8B5E31076CE95B55AEBB59C3A43E0F372CC0047796F9FB3D23810"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0001.json",
+      "bytes": 2717,
+      "sha256": "2F37DB68749AC6BD20C1E339D0EA213B21F7F3A302A9C13939E9A063140F5604"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/checkpoint-0002.json",
+      "bytes": 2690,
+      "sha256": "2D49CD83C4179422964D35DCE29CF4231C677986B51F151CEE4C05C499EDEC9F"
+    }
+  ],
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/attempt.json",
+    "bytes": 7882,
+    "sha256": "2B3C61D91296B9497CB3BE46E04FE368B2101BFF60C244F384412A0D475F97E6"
+  },
+  "scope": {
+    "expected": 52,
+    "found": 52,
+    "audited": 52,
+    "actual_source_inventory": 76
+  },
+  "counts": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 2,
+    "Low": 0,
+    "Ambiguities": 1,
+    "Broken References": 0,
+    "Missing Governance Controls": 0,
+    "Unsupported Governance Controls": 1
+  },
+  "findings": [
+    {
+      "id": "GOV-AUD-20261102-003",
+      "severity": "Medium",
+      "category": "Lifecycle Inconsistency",
+      "secondary_categories": [
+        "Unsupported Governance"
+      ],
+      "title": "Requirement Update's unconditional approved-source prerequisite excludes the initial clarification path",
+      "source_document": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+      "source_section": "2 Required Inputs, item 1 (line 17)",
+      "related_document": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+      "related_section": "14 Requirement Update Rules (lines 294-318); 17 Suggested AI Execution Flow, Phases 5-10 (lines 416 onward)",
+      "issue": "The Requirement Update bundle requires an already approved source Requirement in every invocation. Requirement Analysis explicitly routes initial, Human-decided clarifications through that separate process before complete Analysis Verification and Human Requirement Approval. There is no initial-unapproved-source branch in the Update inputs or execution procedure. Approval of clarification decisions is not approval of the source Requirement.",
+      "evidence": [
+        {
+          "source": {
+            "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+            "bytes": 11022,
+            "sha256": "733331DC89993A56EA56628B0432305BC4BD8881326B55EAF2B4470DED048EB1"
+          },
+          "lines": [
+            15,
+            23
+          ],
+          "text": "Before updating, AI must have:\n\n1. The current approved Requirement version and its version ID and SHA-256.\n2. The relevant analysis findings/questions, where applicable.\n3. The human's answers and explicit decisions.\n4. Any recommendations explicitly approved by the human.\n5. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment. For a non-finding request, use the existing request record and establish its source, scope, decision authority, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.\n6. The affected Requirement IDs and the request details required by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8, where applicable.\n"
+        },
+        {
+          "source": {
+            "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+            "bytes": 2254,
+            "sha256": "B225F167575E077BB4CFDA5F7A6060A476B01648D09C9B0240E7B7B93D0BA2D2"
+          },
+          "lines": [
+            10,
+            16
+          ],
+          "text": "\n1. The subject type: Finding-led corrective update or human-requested, non-finding Requirement amendment.\n2. The current approved Requirement version path, immutable version ID, and SHA-256.\n3. The human decisions and approved clarifications to incorporate.\n4. The relevant analysis findings/questions being addressed, where applicable.\n5. Any recommendations explicitly approved by the human.\n6. For a human-requested non-finding amendment, the existing request details and responsible human decision, including scope, disposition, and rationale, as specified by SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8."
+        },
+        {
+          "source": {
+            "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+            "bytes": 1089,
+            "sha256": "FA20B3E116AC2EB9F20D3FDE6151258339DDC877C3F57FF4CA295C2B0103E11C"
+          },
+          "lines": [
+            1,
+            14
+          ],
+          "text": "Read and follow:\ndocs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md\n\nSubject Type:\n[FINDING-LED CORRECTIVE UPDATE / HUMAN-REQUESTED REQUIREMENT AMENDMENT (NON-FINDING)]\n\nCurrent approved Requirement version:\n[PATH / IMMUTABLE VERSION ID / SHA-256]\n\nAffected Requirement IDs:\n[LIST]\n\nRelevant analysis findings/questions, where applicable:\n[IDENTIFY]"
+        },
+        {
+          "source": {
+            "path": ".github/skills/requirement-update/SKILL.md",
+            "bytes": 6786,
+            "sha256": "1CC23AF204E7C07331E25A45E6D0BEFB7ADCFE04998B3BE411FF4474921918CC"
+          },
+          "lines": [
+            31,
+            50
+          ],
+          "text": "\nBefore updating:\n\n1. Load the governing Guideline, Prompt, and Request.\n2. Establish the subject type and resolve the current approved Requirement version, immutable version ID, and SHA-256.\n3. For a human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8; do not invent a Finding.\n4. Resolve the relevant analysis findings/questions, where applicable.\n5. Resolve the explicit human decisions.\n6. Resolve recommendations explicitly approved by the human.\n7. Confirm that the decisions required for the requested update are sufficiently clear.\n8. If a material decision remains unresolved or ambiguous, stop and request clarification.\n\nOnly explicitly approved human decisions may drive the Requirement Update.\n\n## 4. Execution Procedure\n\nExecute the following sequence:\n\n1. Establish the current approved Requirement version as the immutable source and record its ID and SHA-256.\n2. Establish whether the update is Finding-led or a human-requested non-finding amendment."
+        },
+        {
+          "source": {
+            "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+            "bytes": 16826,
+            "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+          },
+          "lines": [
+            294,
+            318
+          ],
+          "text": "The sequence is:\n\n```text\nSource Requirement\n    ↓\nInitial Requirement Analysis\n    ↓\nAI Questions\n    ↓\nHuman Decisions\n    ↓\nUpdated Requirement\n    ↓\nPost-Requirement-Update Requirement Analysis / Analysis Refresh\n    ↓\nRequirement Analysis Verification\n    ↓\nResolve Verification Findings / Decisions\n    ↓\nHuman Requirement Approval\n```\n\nOnly after the human has resolved the identified questions should AI prepare an updated requirement. Following a Requirement Update, perform Requirement Analysis or refresh the analysis against the resulting updated Requirement before complete Requirement Analysis Verification.\n\nThe updated requirement must then be independently verified against the authoritative source requirement before it is presented for final human approval."
+        },
+        {
+          "source": {
+            "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+            "bytes": 16826,
+            "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+          },
+          "lines": [
+            416,
+            432
+          ],
+          "text": "### Phase 5 — Human Decisions\n\nWait for the human to resolve the questions.\n\n### Phase 6 — Update Requirement\n\nPrepare the revised requirement using the approved decisions.\n\nThis phase is performed through the separate Requirement Update process (see `REQUIREMENT_UPDATE_GUIDELINES.md`), only when the human has explicitly requested the update and supplied the approved decisions. It does not authorize modifying the authoritative requirement during the initial analysis, and it does not constitute Human Requirement Approval.\n\n### Phase 7 — Post-Requirement-Update Requirement Analysis / Analysis Refresh\n\nAfter the Requirement is updated, analyze or refresh the Requirement Analysis against the resulting updated Requirement and the approved decisions. This post-update analysis is required before complete Requirement Analysis Verification.\n\n### Phase 8 — Requirement Analysis Verification\n\nIndependently verify the complete current requirement analysis and updated requirement against the authoritative source requirement."
+        },
+        {
+          "source": {
+            "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+            "bytes": 30926,
+            "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+          },
+          "lines": [
+            145,
+            157
+          ],
+          "text": "### 4.3 Requirement Analysis Verification\n\nRequirement Analysis Verification independently verifies the complete current Requirement Analysis and resulting updated Requirement against the source Requirement and applicable decisions.\n\nVerification must consider the complete current artifact, not only recently changed sections.\n\nAI verification does not constitute Human Requirement Approval.\n\n### 4.4 Human Requirement Approval\n\nHuman Requirement Approval is the formal business approval gate.\n\nThe Requirement must not proceed to implementation planning as an approved Requirement until the required verification findings and decisions have been resolved and the human approval has been obtained."
+        },
+        {
+          "source": {
+            "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+            "bytes": 54243,
+            "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+          },
+          "lines": [
+            359,
+            365
+          ],
+          "text": "### 8.4 Immutable Requirement Versions\n\nEach Requirement Update creates a new, separately identifiable Requirement artifact under `docs/requirement/`. Never overwrite, edit in place, or physically remove a created Requirement version. Freeze the Requirement content bytes at creation. Creating a version is not approval.\n\nUse the existing governed process records to record each version's status (`Draft`, `Pending Human Approval`, `Approved`, `Rejected`, or `Superseded`) and any status transition, bound to the version ID and SHA-256. Do not change the frozen Requirement bytes to change a status, and do not create a separate status registry for this purpose.\n\nFor each new version, the existing records must bind: a unique immutable version ID; the source/predecessor version ID and SHA-256; the resulting version ID and SHA-256; timestamp and change summary; supersession links; references to the original Requirement, amendments, analysis, clarifications, decisions, and approvals; traceability to related analysis, design, plan, implementation, and test artifacts as applicable; and the responsible actor and role. Before downstream handoff, verify by preservation/read-back that the source version remains unchanged and retrievable and that the resulting bytes match the recorded result identity and SHA-256. Record that verification in the existing process record."
+        }
+      ],
+      "impact": "A first Requirement that needs decisions incorporated cannot satisfy both detailed routes without an unavailable prior Requirement approval or an unauthorized interpretation of 'approved'. This can block correct lifecycle execution or encourage conflating approved decisions with formal Requirement Approval. No actual product execution or gate bypass is asserted.",
+      "recommended_resolution": "Through Investigation and Corrective Change Decision, reconcile the source-status prerequisites across the Update Guideline, Prompt, Request and Skill with the initial analysis/update route. Preserve immutable version identity, explicitly approved decisions, reanalysis, complete Verification and separate Human Requirement Approval. Do not waive approval or grant analysis write authority.",
+      "human_decision_required": "Yes",
+      "human_decision_reason": "The auditor cannot choose or amend normative lifecycle wording. Any correction requires the governed decision, exact Human Approval and authorized application route."
+    },
+    {
+      "id": "GOV-AUD-20261102-004",
+      "severity": "Medium",
+      "category": "Ambiguity",
+      "title": "Enhancement Corrective Request does not distinguish current actor attempts from planned future assurance identities",
+      "source_document": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+      "source_section": "Actor and Human Approval fields (enhancement only), line 5",
+      "related_document": "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+      "related_section": "Preconditions, line 7; corresponding Application Prompt and Request stage-boundary controls",
+      "issue": "The enhancement Request instructs that preparer, applier, verifier and reviewer role hashes are 'each bound to that actor's own unique attempt record' and asks for current runtime/qualification fields without a planned-future-stage qualifier. The Application Guideline expressly permits only planned verifier/reviewer path/hash bindings before Application and forbids requiring their attempts before predecessor gates. The Request does not say whether its all-four-attempt fields are later-stage placeholders or required proposal-stage inputs. This is an unresolved stage-timing ambiguity, not proof that any actor actually started early.",
+      "evidence": [
+        {
+          "source": {
+            "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+            "bytes": 2985,
+            "sha256": "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038"
+          },
+          "lines": [
+            1,
+            5
+          ],
+          "text": "Read and follow:\ndocs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md\nSubject Type [FINDING / HUMAN-REQUESTED GOVERNANCE ENHANCEMENT (NON-FINDING)]. For FINDING, complete the Finding Source and Finding Investigation fields below. For a governance enhancement, do not create or imply a finding; complete these separate Enhancement Request fields and identify the non-finding investigation result. RESERVED STABLE WORK ID (per SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1). Enhancement Investigation: [FINDING INVESTIGATION REPORT PATH/RESULT; IDENTIFY AS NON-FINDING; EVIDENCE THAT REQUEST SOURCE, AUTHORIZATION, SCOPE, AFFECTED GOVERNANCE ARTIFACTS, AND CONSTRAINTS WERE ESTABLISHED]. Proposed Governance Amendment: [CANONICAL PROCESS-OWNED REPORT PATH/ID/SHA-256; EXACT PER-FILE CONTENT OR UNAMBIGUOUS DIFF; TARGET PATHS; BASE AND EXPECTED-AFTER SHA-256; SCOPE; EXCLUSIONS; NOT-APPLIED STATE].\n\nActor and Human Approval fields (enhancement only): for proposal preparer, one-time initial applier [identity/environment/one-time scope], verifier, and reviewer, record the role/Agent definition repository-relative path and content SHA-256, each bound to that actor's own unique attempt record; record current runtime identity/environment separately. Check distinctness using the actor-identity bindings, not display name alone. Different OS identities, hosts, or repositories are not required unless an applicable, explicitly approved security boundary requires them. Qualification evidence [record path/ID/SHA-256 and capability observations]; approval decision/source/time; approved report fingerprint and exact targets. Each Application, Verification, Review, and Audit request must separately record its fresh attributable stage-start instruction; this is not part of or a substitute for patch approval."
+        },
+        {
+          "source": {
+            "path": "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+            "bytes": 5890,
+            "sha256": "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790"
+          },
+          "lines": [
+            5,
+            9
+          ],
+          "text": "\n## Preconditions\nResolve the stable work ID, proposal report, exact approved paths and content, each base and expected-after SHA-256, scope, exclusions, approval record, and named application actor. Verify the approval is explicit, attributable, current, and binds this exact proposal and route. The preparer, applier, verifier, and reviewer must be distinct process actors. Additionally, the applier must be distinct from the SDLC Process Orchestrator and from any Governance Remediation actor barred from self-edit during its active cycle; these two additional exclusions apply to the applier only. Establish the proposal preparer's and applier's identities from their repository-relative role/Agent definition paths and content SHA-256 values, and bind each to that actor's own unique attempt record. Before Application, record the intended verifier's and reviewer's planned actor identities using only each role/Agent definition path and content SHA-256; label these as planned identity-only bindings, not as actor-owned attempts, current runtime identities, current capabilities, or evidence that either future stage has started. Use the four identity bindings to confirm that the preparer, applier, verifier, and reviewer are distinct, and separately establish the applier's exclusion from the SDLC Process Orchestrator and any Governance Remediation actor barred from self-edit during its active cycle; a display name alone is insufficient. Do not require, create, or publish verifier/reviewer attempt records before their predecessor gates. The actual verifier must publish its own attempt and establish current identity, permissions, and Verification capability only after successful Application and a fresh Verification stage-start. The actual reviewer must do so only after passing Verification and a fresh Review stage-start. Each actual verifier/reviewer definition path and fingerprint must match its approved planned binding; on mismatch, stop before that stage and obtain an updated attributable Human decision and exact approval. Record runtime identity, permissions, and execution environment separately as current-invocation capability evidence. A shared OS identity, host, or repository does not by itself defeat actor separation, and different runtime environments are not required unless an applicable, explicitly approved security boundary requires them. Reusing one actor identity or another actor's attempt record does not establish a distinct actor. No proposal-preparation, continuation, or process-initiation response is approval.\n\n## Controlled application"
+        },
+        {
+          "source": {
+            "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+            "bytes": 54243,
+            "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+          },
+          "lines": [
+            1171,
+            1175
+          ],
+          "text": "#### Universal current-invocation qualification and first publication\n\nFor every governed AI process actor and every invocation, before consequential work the actor must establish and record: the canonical repository and exact source state; the applicable adopted persistence root (or the narrowly authorized first-use governance-root bootstrap under section 30.1 of SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md); stable Work ID; actor identity; authorized process/stage and output scope; current effective identity, permissions, and role-specific capabilities; and all required Human authorization, fresh stage-start, and predecessor gates. Capability evidence must be specific to the current environment and invocation, obtained through non-mutating checks, and include the permitted publication route for the actor's own records. A role/name, declared tool, prior successful invocation, or another actor's evidence is not sufficient. Prior same-actor success is not required when current evidence establishes capability, and historical evidence alone never establishes current capability.\n\nBefore consequential work, the actor must publish its own invocation attempt record within the authorized scope using the applicable no-overwrite publication contract, then read back and integrity-check it. A collision, mismatch, missing capability/authorization, or publication/validation failure stops the invocation before consequential work; do not overwrite, perform source actions, or publish a success result. This rule grants no standing authority, Human Approval, stage-start, predecessor result, or effectiveness, and does not relax role-specific read/write, independence, or approval boundaries."
+        }
+      ],
+      "impact": "An enhancement requester/preparer can reasonably read the template as requiring premature future actor attempts or as an impossible prerequisite. Another reader may defer those fields, but that timing is not specified. This affects the enhancement-to-Application definition relationship, not the valid finding-led GOV-AUD-20261102-002 Application or its scoped PASS assurance.",
+      "recommended_resolution": "Investigate and decide explicit stage-specific fields: bind actual current preparer/applier attempts where applicable, mark future verifier/reviewer definitions planned identity-only, and require each future actor's fresh attempt/current capability only after its predecessor and fresh Human start. Obtain exact Human Approval before any template correction.",
+      "human_decision_required": "Yes",
+      "human_decision_reason": "Stage-specific normative template correction and any exact amendment approval belong to the governed corrective route; the Audit may not silently supply the missing interpretation."
+    }
+  ],
+  "mechanisms": [
+    {
+      "group": "Governance Audit",
+      "expected": 1,
+      "present": 1,
+      "assessed": 1,
+      "source_expected": 2,
+      "source_present": 2,
+      "source_assessed": 2,
+      "result": "PASS",
+      "sources": [
+        {
+          "path": ".github/skills/sdlc-governance-audit/SKILL.md",
+          "bytes": 47538,
+          "sha256": "50FBD8B326E6AAE8E50F9437E56C58E6ADEA01C73982516CA8CC0D1826E084D2"
+        },
+        {
+          "path": ".github/agents/sdlc-governance-audit.agent.md",
+          "bytes": 2325,
+          "sha256": "66E669A820290D99C398E932F3DFA8848740C26B6ABFD07E2294B36116197488"
+        }
+      ],
+      "common_authority": [
+        {
+          "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+          "bytes": 54243,
+          "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+          "bytes": 30926,
+          "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+          "bytes": 89025,
+          "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/attempt.json",
+          "bytes": 7882,
+          "sha256": "2B3C61D91296B9497CB3BE46E04FE368B2101BFF60C244F384412A0D475F97E6"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/input-manifest.json",
+          "bytes": 139901,
+          "sha256": "4C7D22996DC8B5E31076CE95B55AEBB59C3A43E0F372CC0047796F9FB3D23810"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+          "bytes": 393511,
+          "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88",
+          "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence"
+        }
+      ],
+      "applicability": "Current Audit invoked; report/result identities resolved by terminal result publication. A04 is validated as a completion invariant before terminal result.",
+      "checks": [
+        {
+          "id": "A01",
+          "outcome": "PASS",
+          "basis": "52 expected/found/assessed; 76 actual source files classified, not a count proxy; all seven groups separately assessed."
+        },
+        {
+          "id": "A02",
+          "outcome": "PASS",
+          "basis": "Exact CONSISTENT/all-eight-zero/all-seven-resolved rule; this INCONSISTENT outcome does not qualify."
+        },
+        {
+          "id": "A03",
+          "outcome": "PASS",
+          "basis": "Current invocation/manifest first publication and separate readback before assessment; procedural nonmutation and endpoints disclosed."
+        },
+        {
+          "id": "A04",
+          "outcome": "PASS",
+          "basis": "Complete canonical report and evidence precede result; result binds actual hashes. Report/result paths and stable identities are forward-bound without circular self/future digest."
+        },
+        {
+          "id": "A05",
+          "outcome": "PASS",
+          "basis": "Audit owns output only, not remediation/adoption/approval or product execution. Subsequent Remediation terminal-anchor validation remains a later authorized actor responsibility."
+        }
+      ]
+    },
+    {
+      "group": "Governance Remediation",
+      "expected": 1,
+      "present": 1,
+      "assessed": 1,
+      "source_expected": 1,
+      "source_present": 1,
+      "source_assessed": 1,
+      "result": "PASS",
+      "sources": [
+        {
+          "path": ".github/agents/sdlc-governance-remediation.agent.md",
+          "bytes": 49225,
+          "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+        }
+      ],
+      "common_authority": [
+        {
+          "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+          "bytes": 54243,
+          "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+          "bytes": 30926,
+          "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+          "bytes": 89025,
+          "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/attempt.json",
+          "bytes": 99153,
+          "sha256": "1FA0BEEFCB82C6B374738E82308C04DB43925101746BA95E5512C3CDB6C6F90A"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/report.md",
+          "bytes": 19130,
+          "sha256": "0E819BDD31747BA24037C89130D1A25A8E642A7EB0BBF9DF267C34DBD815C768"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/result.json",
+          "bytes": 7103,
+          "sha256": "F65D96FC76105E4546CC5318BF7D3E4A8E41784486449BE3CE55726840CE2AD2"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attempt.json",
+          "bytes": 102241,
+          "sha256": "4599570487520A7741F0528CD9A3779548269DB61867930F87243F41955BFDBF"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/report.md",
+          "bytes": 21659,
+          "sha256": "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/result.json",
+          "bytes": 7339,
+          "sha256": "DD24CBD8B366CE920DB28E4699CB27B53651FA85445F250D517D20160493D0A9"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attempt.json",
+          "bytes": 50324,
+          "sha256": "794330611A93B55BF4B0DA8A5A66CC78B4CE9319CCD86B63B39B64B45794750F"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/report.md",
+          "bytes": 12446,
+          "sha256": "FE784908BD9A7F5B193D830538F7DA7AE1EAB949987A63F3FC6E53A95F4AF627"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/result.json",
+          "bytes": 55787,
+          "sha256": "C18F9CE97C385DBD3FDBC506AB63395A963809C4BAF77287D7392FC2F85072AF"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attempt.json",
+          "bytes": 175807,
+          "sha256": "EFCFAAB870B4800B96D3BEC4032537E488C9D960C35EEE88A510E2483C79AE7E"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/report.md",
+          "bytes": 17306,
+          "sha256": "02E8B7CD6AD7F599E9F9C4A411DC1A7C5DA535C366A218CD7BB3D633CF173825"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/result.json",
+          "bytes": 16341,
+          "sha256": "B3FE365B38492FF67E017CA1048F2BFBEB9442795AF1939FA209D1A06EA75C40"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/attempt.json",
+          "bytes": 3690,
+          "sha256": "9D13382A13025D0F83E09B8565163646D32F150C6B71D7B74BCC072F838CDCDA"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/report.md",
+          "bytes": 15174,
+          "sha256": "E8BBBCEC0AE7E865773096E420EFEB3F1350F54B4225198BDEE9436138998D79"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/result.json",
+          "bytes": 15368,
+          "sha256": "852E0E357A5D24B802DEF018E6FCEB7BD4BF27BA728DB322685AB738EC8A1DE7"
+        }
+      ],
+      "applicability": "Existing finding-led prospective Cycle 1 invoked and paused between separately Human-started stages; current final handoff not yet authorized or published.",
+      "checks": [
+        {
+          "id": "M01",
+          "outcome": "PASS",
+          "basis": "Finding-led scope, separate stages/fresh Human starts and actual prospective cycle admission maintained; non-finding enhancement not invented as a finding."
+        },
+        {
+          "id": "M02",
+          "outcome": "PASS",
+          "basis": "Current coordinator binds prior complete Audit and Investigation; proposal/approval/Application/Verification/Review separately owned. Earlier no-plan-change historical dispositions retained."
+        },
+        {
+          "id": "M03",
+          "outcome": "PASS",
+          "basis": "Active Remediation self-edit barred; designated distinct one-time applier applied only approved bytes, independent verifier/reviewer followed."
+        },
+        {
+          "id": "M04",
+          "outcome": "PASS",
+          "basis": "Approved item-2 correction preserves original authorization immutable and uses new linked own-action evidence, exact commit/diff/list/conditions; no Push expansion or self-containing commit requirement."
+        },
+        {
+          "id": "M05",
+          "outcome": "PASS",
+          "basis": "No product scope, approval, adoption or automatic downstream authority. Pending future final Remediation report is not an Audit prerequisite; it must later independently hash Audit result/report."
+        }
+      ]
+    },
+    {
+      "group": "SDLC Process Orchestration",
+      "expected": 1,
+      "present": 1,
+      "assessed": 1,
+      "source_expected": 1,
+      "source_present": 1,
+      "source_assessed": 1,
+      "result": "FAIL",
+      "sources": [
+        {
+          "path": ".github/agents/sdlc-process-orchestrator.agent.md",
+          "bytes": 97823,
+          "sha256": "048DA0B64B162638A113D9049EF845F4530CBE9556345C0C8C7E7E202FBF23B3"
+        }
+      ],
+      "common_authority": [
+        {
+          "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+          "bytes": 54243,
+          "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+          "bytes": 30926,
+          "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+          "bytes": 89025,
+          "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+          "bytes": 393511,
+          "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88",
+          "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence"
+        }
+      ],
+      "applicability": "Definition assessed; product runtime records/capability NOT APPLICABLE, not a runtime PASS.",
+      "checks": [
+        {
+          "id": "O01",
+          "outcome": "PASS",
+          "basis": "Artifact 4.4 and O6.1/O6.6/O9 require fresh attributable Human initiation at each start/retry/transition; initiation not formal approval."
+        },
+        {
+          "id": "O02",
+          "outcome": "PASS",
+          "basis": "Product-scoped coordinator, no governance amendment coordination, self-approval or direct finding-to-code; own durable state only, safe recovery and serialized shared-checkout writes."
+        },
+        {
+          "id": "O03",
+          "outcome": "FAIL",
+          "basis": "Initial clarification transition dispatches Requirement Update, whose approved-source-only inputs cannot implement the pre-first-approval route (F003). No unstated exception is supplied."
+        },
+        {
+          "id": "O04",
+          "outcome": "NOT APPLICABLE",
+          "basis": "No product Orchestrator actually invoked. Session title/role registry is not stage proof; no attempt/start records or runtime capabilities inferred."
+        }
+      ]
+    },
+    {
+      "group": "SDLC Portability Assessment",
+      "expected": 1,
+      "present": 1,
+      "assessed": 1,
+      "source_expected": 5,
+      "source_present": 5,
+      "source_assessed": 5,
+      "result": "PASS",
+      "sources": [
+        {
+          "path": "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md",
+          "bytes": 8422,
+          "sha256": "6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88"
+        },
+        {
+          "path": "docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md",
+          "bytes": 1573,
+          "sha256": "1E4BDE2D46758989CB26B943258F0F86C138B7A4BE5E7CEE162F201C85D45C09"
+        },
+        {
+          "path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+          "bytes": 2108,
+          "sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208"
+        },
+        {
+          "path": ".github/skills/portability-assessment/SKILL.md",
+          "bytes": 2607,
+          "sha256": "4098E4C679985E3713E9E2E8F01A7B2A664590D341D2F211F360BCDB5FF7038A"
+        },
+        {
+          "path": ".github/agents/portability-assessment.agent.md",
+          "bytes": 1875,
+          "sha256": "5FB6F0F8C8331CA88A925A2192EB8D07319E62D83BF84926BA232D67483FBD26"
+        }
+      ],
+      "common_authority": [
+        {
+          "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+          "bytes": 54243,
+          "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+          "bytes": 30926,
+          "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+          "bytes": 89025,
+          "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+          "bytes": 393511,
+          "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88",
+          "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence"
+        }
+      ],
+      "applicability": "All five definitions assessed; target assessment invocation/report/result and runtime capability NOT APPLICABLE.",
+      "checks": [
+        {
+          "id": "P01",
+          "outcome": "PASS",
+          "basis": "All five links resolve under same Masters; advisory-only target-specific recommendation, not adoption/readiness approval."
+        },
+        {
+          "id": "P02",
+          "outcome": "PASS",
+          "basis": "Entry before target execution and reassessment on relevant changes; source framework evidence separated from target observations."
+        },
+        {
+          "id": "P03",
+          "outcome": "PASS",
+          "basis": "Explicit blocker Human decisions; concerns routed by kind; governance-defect candidates routed to governed audit/investigation, not direct fixes."
+        },
+        {
+          "id": "P04",
+          "outcome": "PASS",
+          "basis": "Own persistence/context, no auto Agent invocation, target writes, source modification or product-repository content inspection during this Audit."
+        },
+        {
+          "id": "P05",
+          "outcome": "NOT APPLICABLE",
+          "basis": "No target-project Portability Assessment invoked; no target content inspected or runtime capability inferred."
+        }
+      ]
+    },
+    {
+      "group": "Governance Amendment Application",
+      "expected": 1,
+      "present": 1,
+      "assessed": 1,
+      "source_expected": 5,
+      "source_present": 5,
+      "source_assessed": 5,
+      "result": "FAIL",
+      "sources": [
+        {
+          "path": "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+          "bytes": 5890,
+          "sha256": "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790"
+        },
+        {
+          "path": "docs/ai/prompts/GOVERNANCE_AMENDMENT_APPLICATION_PROMPT.md",
+          "bytes": 2380,
+          "sha256": "A79DC98DF3842E42A11E02F4D9FABFEC0D2C6EC5A160AECA171EE78C7542A80D"
+        },
+        {
+          "path": "docs/ai/request/GOVERNANCE_AMENDMENT_APPLICATION_REQUEST.md",
+          "bytes": 3145,
+          "sha256": "2E0C1E05659093C2E6FE61D1EB88DB4588074E8B1A71453522D2965F964203A5"
+        },
+        {
+          "path": ".github/skills/governance-amendment-application/SKILL.md",
+          "bytes": 2000,
+          "sha256": "D471B3A59A9581D5DB108B837E7CB9571540DA029139385EF3D2C9055EB4D2C1"
+        },
+        {
+          "path": ".github/agents/governance-amendment-application.agent.md",
+          "bytes": 1636,
+          "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+        }
+      ],
+      "common_authority": [
+        {
+          "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+          "bytes": 54243,
+          "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+          "bytes": 30926,
+          "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+          "bytes": 89025,
+          "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attempt.json",
+          "bytes": 102241,
+          "sha256": "4599570487520A7741F0528CD9A3779548269DB61867930F87243F41955BFDBF"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/report.md",
+          "bytes": 21659,
+          "sha256": "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/result.json",
+          "bytes": 7339,
+          "sha256": "DD24CBD8B366CE920DB28E4699CB27B53651FA85445F250D517D20160493D0A9"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attempt.json",
+          "bytes": 50324,
+          "sha256": "794330611A93B55BF4B0DA8A5A66CC78B4CE9319CCD86B63B39B64B45794750F"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/report.md",
+          "bytes": 12446,
+          "sha256": "FE784908BD9A7F5B193D830538F7DA7AE1EAB949987A63F3FC6E53A95F4AF627"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/result.json",
+          "bytes": 55787,
+          "sha256": "C18F9CE97C385DBD3FDBC506AB63395A963809C4BAF77287D7392FC2F85072AF"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/evidence.json",
+          "bytes": 59479,
+          "sha256": "1E8A110E6BC4AE984CB264216FE937767B7487989CA38C408BAE004985174C33"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/application.json",
+          "bytes": 5837,
+          "sha256": "680C039AA5707788D006C84093BB86C5AD6E90B27205AAF9BEAA10CD82001B2A"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/checkpoint-0002.json",
+          "bytes": 3681,
+          "sha256": "25FA2EAD5EE4897838218CA41447E56468206FFB3DB244FA3C04CEDBA9EF8F94"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/audit-evidence.json",
+          "bytes": 393511,
+          "sha256": "83F42FB9CCF86558B8EAB5068FD30FC344291A064B3C4BAAA143EDC54FD75F88",
+          "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_evidence"
+        }
+      ],
+      "applicability": "Current applied finding correction stage-specific checks PASS. Group FAIL is a separate enhancement-definition timing ambiguity, not a reclassification of the completed Application.",
+      "checks": [
+        {
+          "id": "G01",
+          "outcome": "PASS",
+          "basis": "Current finding-led Application execution_status COMPLETED and outcome EXACT APPROVED BYTES APPLIED; no invalid generic PASS assertion."
+        },
+        {
+          "id": "G02",
+          "outcome": "PASS",
+          "basis": "Exact actual Human approval/designation and separate start bind report/proposal/patch, target path/base/after/scope/roles/exclusions; fresh one-time authority only."
+        },
+        {
+          "id": "G03",
+          "outcome": "PASS",
+          "basis": "Four distinct actor definitions/attempts/runtime identities; applier separate from active Remediation and Orchestrator; current qualification and all-base prewrite checks precede source write."
+        },
+        {
+          "id": "G04",
+          "outcome": "PASS",
+          "basis": "Fresh exact replacement and inverse plus generated 4115-byte LF patch match; before 48379/current 49225, UTF8 no BOM/1363 CRLF/no EOF newline preserved, one approved source changed."
+        },
+        {
+          "id": "G05",
+          "outcome": "PASS",
+          "basis": "Application baseline/366 others and index/HEAD/branch preservation evidenced by independent Verification; current 413-file bounded baseline unchanged. Actor-owned immutable evidence and separate final readbacks resolve."
+        },
+        {
+          "id": "G06",
+          "outcome": "FAIL",
+          "basis": "Enhancement proposal Request's all-four-own-attempt wording is not stage-qualified against Application planned-only future assurance control (F004). Current finding-led applied bytes and assurance remain valid; definition relationship unresolved."
+        }
+      ]
+    },
+    {
+      "group": "Independent Governance Verification",
+      "expected": 1,
+      "present": 1,
+      "assessed": 1,
+      "source_expected": 5,
+      "source_present": 5,
+      "source_assessed": 5,
+      "result": "PASS",
+      "sources": [
+        {
+          "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+          "bytes": 5773,
+          "sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8"
+        },
+        {
+          "path": "docs/ai/prompts/INDEPENDENT_GOVERNANCE_VERIFICATION_PROMPT.md",
+          "bytes": 1326,
+          "sha256": "BA7592B3AEB09C579EB166EA528E5450A18E6838FC31C2C8BC216877D529254B"
+        },
+        {
+          "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+          "bytes": 2076,
+          "sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97"
+        },
+        {
+          "path": ".github/skills/independent-governance-verification/SKILL.md",
+          "bytes": 1973,
+          "sha256": "26FBFC8E4495F33C4E92F843CFFFBC476ABD42D931D201EA9E75EC986E62E270"
+        },
+        {
+          "path": ".github/agents/independent-governance-verification.agent.md",
+          "bytes": 1393,
+          "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+        }
+      ],
+      "common_authority": [
+        {
+          "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+          "bytes": 54243,
+          "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+          "bytes": 30926,
+          "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+          "bytes": 89025,
+          "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attempt.json",
+          "bytes": 175807,
+          "sha256": "EFCFAAB870B4800B96D3BEC4032537E488C9D960C35EEE88A510E2483C79AE7E"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/report.md",
+          "bytes": 17306,
+          "sha256": "02E8B7CD6AD7F599E9F9C4A411DC1A7C5DA535C366A218CD7BB3D633CF173825"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/result.json",
+          "bytes": 16341,
+          "sha256": "B3FE365B38492FF67E017CA1048F2BFBEB9442795AF1939FA209D1A06EA75C40"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/attachments/evidence.json",
+          "bytes": 219333,
+          "sha256": "1766A1DA5DF764E5A6D9B3EF573763381C80394EE8D590185CE04D3F23842C96"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110840Z-c1d89695-d3e5-4721-a846-3f3dca25cc22/checkpoint-0004.json",
+          "bytes": 6387,
+          "sha256": "FC0703AEE82567F207F457D25FD9897C1E8A4384CD1C359C1866084818500F44"
+        }
+      ],
+      "applicability": "Invoked scoped amendment Verification PASS; its 14 actual criteria retained in evidence, not re-performed as another process.",
+      "checks": [
+        {
+          "id": "V01",
+          "outcome": "PASS",
+          "basis": "Fresh Verification start after successful Application; actual verifier identity differs from preparer/applier/reviewer and matches approved planned definition."
+        },
+        {
+          "id": "V02",
+          "outcome": "PASS",
+          "basis": "14 V01-V14 PASS criteria with independent reads/hashes/exact replacement/inverse/patch/encoding/change-set and cross-document evidence."
+        },
+        {
+          "id": "V03",
+          "outcome": "PASS",
+          "basis": "Current invocation/permissions/capability and own immutable outputs/read-only source conduct established; no role-name-only or historical-capability substitution."
+        },
+        {
+          "id": "V04",
+          "outcome": "PASS",
+          "basis": "Exact approved one-path change complete; record/report hashes resolve; checkpoint-0004 independent separate terminal readback PASS. No substitute full Audit, effectiveness or adoption."
+        }
+      ]
+    },
+    {
+      "group": "Independent Governance Review",
+      "expected": 1,
+      "present": 1,
+      "assessed": 1,
+      "source_expected": 5,
+      "source_present": 5,
+      "source_assessed": 5,
+      "result": "PASS",
+      "sources": [
+        {
+          "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+          "bytes": 5718,
+          "sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902"
+        },
+        {
+          "path": "docs/ai/prompts/INDEPENDENT_GOVERNANCE_REVIEW_PROMPT.md",
+          "bytes": 1312,
+          "sha256": "9D01635FABC7AAB12A2C16F7C7C17E8B185E4CA4E87193E5E38808231CF5CC08"
+        },
+        {
+          "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+          "bytes": 2098,
+          "sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA"
+        },
+        {
+          "path": ".github/skills/independent-governance-review/SKILL.md",
+          "bytes": 1990,
+          "sha256": "1E5DDB5BC37E7F8531635D6C28B052B6BFE2645B7C42FB79BCA9A2E4E7329A76"
+        },
+        {
+          "path": ".github/agents/independent-governance-review.agent.md",
+          "bytes": 1284,
+          "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+        }
+      ],
+      "common_authority": [
+        {
+          "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+          "bytes": 54243,
+          "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+          "bytes": 30926,
+          "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+        },
+        {
+          "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+          "bytes": 89025,
+          "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/attempt.json",
+          "bytes": 3690,
+          "sha256": "9D13382A13025D0F83E09B8565163646D32F150C6B71D7B74BCC072F838CDCDA"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/report.md",
+          "bytes": 15174,
+          "sha256": "E8BBBCEC0AE7E865773096E420EFEB3F1350F54B4225198BDEE9436138998D79"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/result.json",
+          "bytes": 15368,
+          "sha256": "852E0E357A5D24B802DEF018E6FCEB7BD4BF27BA728DB322685AB738EC8A1DE7"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/attachments/review-evidence.json",
+          "bytes": 28092,
+          "sha256": "D86AE46C91DCB2085ED8D15DF1ABC7F67A9F9F71E3B6A333BC737EC26D4A71BD"
+        },
+        {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T1130Z-d7d84322-aff9-4d3e-9cec-90f9054705cd/checkpoint-0004.json",
+          "bytes": 2297,
+          "sha256": "38E8C609EECCF15D3C335E96422C217414852CCB7883D058D84BCD8477DF099C"
+        }
+      ],
+      "applicability": "Latest distinct scoped Review PASS assessed, not silently replacing failed Review attempts or claiming global framework consistency.",
+      "checks": [
+        {
+          "id": "R01",
+          "outcome": "PASS",
+          "basis": "Fresh Review retry after Verification PASS; four distinct runtime actors and definition hashes match approved identities; failed predecessors remain unsuccessful historical attempts."
+        },
+        {
+          "id": "R02",
+          "outcome": "PASS",
+          "basis": "Eight R01-R08 criteria PASS for approved intent/exact scope, immutable authorization route, Human gates, authority, catalog/cross-document/effectiveness boundaries."
+        },
+        {
+          "id": "R03",
+          "outcome": "PASS",
+          "basis": "Hidden-inclusive manifest404/117/31.github, qualified invocation before assessment, own atomic partial publication and checkpoint-0004 separate final readback resolve."
+        },
+        {
+          "id": "R04",
+          "outcome": "PASS",
+          "basis": "Source read-only procedural assurance and endpoint limits disclosed. Exact machine/caller decision evidence resolves narrative imprecisions; no authority or approved-byte ambiguity established. No Audit, adoption or effectiveness substitute."
+        }
+      ]
+    }
+  ],
+  "current_amendment_stage_status": {
+    "Application": {
+      "execution_status": "COMPLETED",
+      "outcome": "EXACT APPROVED BYTES APPLIED"
+    },
+    "Verification": {
+      "execution_status": "COMPLETED",
+      "outcome": "PASS",
+      "criteria_pass": 14
+    },
+    "Review": {
+      "execution_status": "COMPLETED",
+      "outcome": "PASS",
+      "criteria_pass": 8
+    }
+  },
+  "final_input_comparison": {
+    "baseline_files": 413,
+    "current_files": 413,
+    "changed": [],
+    "added": [],
+    "removed": [],
+    "directory_set_unchanged": true,
+    "repository": {
+      "canonical": "ScalableParimal/SupportIQ",
+      "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+      "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+      "branch": "sdlc-framework-onboarding",
+      "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+      "status": "M .github/agents/sdlc-governance-remediation.agent.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md\n M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md\n?? docs/sdlc-records/",
+      "index": {
+        "path": ".git/index",
+        "bytes": 10274,
+        "sha256": "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6"
+      }
+    }
+  },
+  "limitations": [
+    "Read-only conduct is procedural, not an enforced sandbox; write-capable tools and ACLs exist.",
+    "Endpoint path/content and index/HEAD/branch checks cannot exclude transient writes or same-principal tampering.",
+    "No exhaustive trusted OS event log, continuous observation, enforced no-edit lock or exhaustive external-writer detection is available.",
+    "Human decisions are attributed actual caller-conversation evidence; authenticated original message IDs/times are not exposed and are not invented.",
+    "Runtime registry/task attribution is procedural, not authenticated external actor identity; a shared session title is not a process invocation.",
+    "Host UTC values are preparation/observation samples, not exact filesystem publication timestamps.",
+    "No product artifacts, runtime capability of uninvoked product roles, Master adoption or target portability conclusion is assessed."
+  ],
+  "effectiveness_qualifying": false,
+  "master_adoption": false,
+  "product_root_adoption": false,
+  "source_writes": 0,
+  "other_actor_record_writes": 0,
+  "other_stage_started": false,
+  "product_content_audited": false,
+  "next_gate": "STOP. Separate fresh Human authorization required for bounded Governance Remediation continuation; that actor must independently validate this Audit result/report and route F003/F004. No Investigation/Decision/Application/adoption/product process started.",
+  "terminal_anchor_obligation": "Subsequent authorized same-cycle Remediation canonical final report must bind independently verified Audit result hash, identity, report binding and outcome; its result then binds its final report. Not an Audit prerequisite.",
+  "final_readback": "Separate fresh-process readback follows in new immutable checkpoint-0003.json; not yet claimed by this result at preparation.",
+  "publication": "Full native JSON .partial exclusive creation, validate bytes/roundtrip, flush/fsync, same-volume Windows atomic no-overwrite rename and exact readback"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "record_type": "publisher_selftest",
+  "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:publisher_selftest",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "creator": {
+    "identity": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit-actor",
+    "role": "SDLC Governance Audit",
+    "runtime_agent_id": "1831d5ce-ee60-497b-ba25-8217357c77cd",
+    "identity_basis": "Only currently running same-task Audit entry in visible harness registry; local invocation identity is definitive; no external authentication claim",
+    "session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-02T12:00:00.257670+00:00",
+  "clock_basis": "Python timezone-aware UTC preparation clock, not exact publication time",
+  "native": {
+    "list": [
+      true,
+      false,
+      null,
+      1,
+      {
+        "quoted": "a\"b\nc"
+      }
+    ]
+  }
+}

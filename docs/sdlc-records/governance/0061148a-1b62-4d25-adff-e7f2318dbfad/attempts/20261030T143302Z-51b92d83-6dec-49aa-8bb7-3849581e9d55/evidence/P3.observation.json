@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "record_type": "application_operation_observation",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:P3-observation",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:35:25.732842Z",
+  "process": "Governance Amendment Application",
+  "operation": "P3",
+  "target_path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+  "before_bytes": 5524,
+  "before_sha256": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+  "after_bytes": 5718,
+  "after_sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+  "file_identity_before_and_after": {
+    "device": 7972088113085002079,
+    "inode": 5066549581999401
+  },
+  "source_bytes_written": 5718,
+  "tool_observations": [
+    "existing-handle exact full-approved-after byte write returned expected count",
+    "flush and fsync completed",
+    "same-handle readback byte-for-byte equal",
+    "independent path readback byte-for-byte equal",
+    "stable device/inode and target path identity",
+    "UTF-8 no BOM, exclusively CRLF, final newline preserved"
+  ],
+  "actual_after_evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P3.after.bin",
+    "sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+    "bytes": 5718
+  },
+  "outcome": "EXACT APPROVED BYTES APPLIED; NOT INDEPENDENT VERIFICATION"
+}

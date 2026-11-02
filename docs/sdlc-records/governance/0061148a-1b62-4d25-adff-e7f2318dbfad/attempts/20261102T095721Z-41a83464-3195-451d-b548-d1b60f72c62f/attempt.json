@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "record_type": "audit_invocation",
+  "record_id": "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f:audit_invocation",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f",
+  "creator": "d3ddb004-dc45-4b54-a491-1541f446762b",
+  "role": "SDLC Governance Audit",
+  "process": "SDLC Governance Audit",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "created_at_utc": "2026-11-02T09:58:23.809036+00:00",
+  "clock_basis": "Python current UTC preparation sample, not publication time",
+  "actor_identity": {
+    "agent_id": "d3ddb004-dc45-4b54-a491-1541f446762b",
+    "role_definition": {
+      "path": ".github/agents/sdlc-governance-audit.agent.md",
+      "bytes": 2325,
+      "sha256": "66E669A820290D99C398E932F3DFA8848740C26B6ABFD07E2294B36116197488"
+    },
+    "effective_OS_identity": "USER INFORMATION\n----------------\n\nUser Name           SID                                           \n=================== ==============================================\nint-scl-010\\parimal S-1-5-21-2809803128-1021655904-3966773769-1002",
+    "process_id": 84696,
+    "separation": "Current Audit invocation distinct from preparer/application/verifier/reviewer/coordinator; shared writable OS principal, not isolation",
+    "registry_observation": "Only running Post Clarification Full Audit d3ddb004-dc45-4b54-a491-1541f446762b is this invocation. 27 prior actors idle; no competing writer observed."
+  },
+  "scope": {
+    "stage": "complete Governance Audit",
+    "core_expected": 52,
+    "mechanisms_expected": 7,
+    "source_inventory_observed": 76,
+    "output_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f",
+    "excluded": [
+      "corrections",
+      "nested stages",
+      "product artifacts",
+      "commit",
+      "push",
+      "baseline/product-root adoption"
+    ]
+  },
+  "repository_context": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "HEAD": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+    "status": "M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md\n M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md\n?? docs/sdlc-records/",
+    "index_fingerprint": {
+      "path": ".git/index",
+      "bytes": 10274,
+      "sha256": "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6"
+    }
+  },
+  "authorization": {
+    "actual_wording": "Yes, initiate the complete Governance Audit under the existing Work ID and prospective Remediation cycle using the completed clarification, Verification PASS and Review PASS",
+    "source": "Actual fresh Human stage-start supplied in current user request",
+    "platform_message_id": null,
+    "authenticated_time": null,
+    "not_substantive_approval": true
+  },
+  "root_decision": {
+    "url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+    "id": 6522916236,
+    "author": "ScalableParimal",
+    "author_association": "OWNER",
+    "created_at": "2026-10-30T12:31:51Z",
+    "updated_at": "2026-10-30T12:31:51Z",
+    "current_resolution": "github issue_read get_comments during this invocation; body unchanged, exact HEAD and three Master fingerprints match",
+    "use": "Established governance-root adoption only; initial one-time stage-start not reused"
+  },
+  "qualification": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/evidence/qualification.json",
+    "bytes": 108033,
+    "sha256": "16CD8A7E302352E4A26ED1B7FA57FFDCAFFCD7EEA7C78620A8AFC20720F4AA3A"
+  },
+  "predecessors": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json",
+      "bytes": 19584,
+      "sha256": "C4BB37DDE7727EAE836A6C3A46FB1491C8F624B230D733DEF40CA5638B1983A5"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md",
+      "bytes": 17061,
+      "sha256": "27A8D83B6B9D05E847B89DC07773CD2EB4362A64DA122198C9205793B446BF44"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json",
+      "bytes": 68261,
+      "sha256": "E404F5B77FF317D431DFB3E6B8BF05FF6151480AFFE0ECA083AAED1DB9C41D1D"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/attempt.json",
+      "bytes": 59534,
+      "sha256": "C731B1F6F96C511E6A615693B88DE979F493D7919444725BDF49880B67A1C3F7"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/report.md",
+      "bytes": 15150,
+      "sha256": "A1388E49A5F107443FAF3E5E32D4FDFB5B9C8CBC5EA4D4EBD4B56967E695B7E0"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/result.json",
+      "bytes": 19616,
+      "sha256": "D3F3680DA22EA8538482D1E5F7B6FACFD0A41A7C2D89E2E0369981311B4DFB43"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attempt.json",
+      "bytes": 106025,
+      "sha256": "CB800999F16029447ECED6EB4178BB813EF7E93F852AFFC7886790435A45AA29"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/report.md",
+      "bytes": 6380,
+      "sha256": "26EEC34BAB50AD8A67FEBDAC262D9A723700807C5BA27FBD932668CE16AB2B88"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/result.json",
+      "bytes": 33474,
+      "sha256": "8F9AEF423A96167C8A6247266F26989A22AB331FB033D7280AB8C46127359CD9"
+    }
+  ],
+  "task_context": "Governance only; no product task",
+  "execution_status": "STARTED",
+  "outputs": {
+    "canonical_report": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/report.md",
+    "result": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T095721Z-41a83464-3195-451d-b548-d1b60f72c62f/result.json"
+  }
+}

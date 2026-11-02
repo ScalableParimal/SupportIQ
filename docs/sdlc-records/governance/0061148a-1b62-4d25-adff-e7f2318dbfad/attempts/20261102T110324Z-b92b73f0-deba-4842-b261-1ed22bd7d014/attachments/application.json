@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "record_type": "application_execution_evidence",
+  "record_id": "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014:application_execution",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "finding_id": "GOV-AUD-20261102-002",
+  "creator": {
+    "role": "Governance Amendment Application",
+    "actor_identity": "local-governance-amendment-application:20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014",
+    "role_path": ".github/agents/governance-amendment-application.agent.md",
+    "role_sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D",
+    "runtime_agent_id_observed": "7282643f-d89b-4b2d-b082-475ffc440fce",
+    "identity_basis": "Only running matching Application actor in current runtime roster; association is not authenticated platform identity"
+  },
+  "created_at_utc": "2026-11-02T11:05:28.746885+00:00",
+  "clock_basis": "Host UTC preparation sample after execution, not publication time",
+  "process": "Governance Amendment Application",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attempt.json",
+    "bytes": 50324,
+    "sha256": "794330611A93B55BF4B0DA8A5A66CC78B4CE9319CCD86B63B39B64B45794750F"
+  },
+  "preflight": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/preflight.json",
+    "bytes": 159059,
+    "sha256": "6441B1472BFED3DE4604BB5C47F1AAB0082236A2ED56F78D1D396C25C51E080B"
+  },
+  "prewrite_checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/checkpoint-0001.json",
+    "bytes": 2915,
+    "sha256": "48D0838A4C0C887C4782956F39C1C8AFC086F2E7DD654B494C246FCC7441A246"
+  },
+  "preserved_preimage": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T110324Z-b92b73f0-deba-4842-b261-1ed22bd7d014/attachments/target-before.bin",
+    "bytes": 48379,
+    "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+  },
+  "authorization": {
+    "source": "Current caller user instruction relaying actual parent-conversation Human decisions and explicitly authorizing transcription; parent authenticated message IDs and decision times unavailable",
+    "approval_exact_ascii": "I approve the identified exact report/proposal/patch and section 8 route with all target, role, scope and assurance bindings above; freshly designate the proposed one-time applier; do not start Application",
+    "stage_start_exact_ascii": "Yes, initiate only the scoped Governance Amendment Application for GOV-AUD-20261102-002 under the approved exact package",
+    "authority": "Fresh scoped one-time initial applier designation only; not standing or historical authority",
+    "package": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+    "report_sha256": "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3",
+    "result_sha256": "DD24CBD8B366CE920DB28E4699CB27B53651FA85445F250D517D20160493D0A9",
+    "proposal_sha256": "E797F4233E7382DCD493395CDA4C3689B2A55FB39CE9E59B563CA18B13C54D2C",
+    "patch_sha256": "BD0AC70966CE8F97330719A2E156F3C2D4DFAD559AFAAF052F9726067B53C024",
+    "base_bytes": 48379,
+    "base_sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153",
+    "after_bytes": 49225,
+    "after_sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+  },
+  "before": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 48379,
+    "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+  },
+  "after": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 49225,
+    "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+  },
+  "approved_path_list": [
+    ".github/agents/sdlc-governance-remediation.agent.md"
+  ],
+  "actual_source_changed_paths": [
+    ".github/agents/sdlc-governance-remediation.agent.md"
+  ],
+  "target_identity_before": {
+    "resolved_path": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\.github\\agents\\sdlc-governance-remediation.agent.md",
+    "device": 7972088113085002079,
+    "inode": 43347146414243720
+  },
+  "target_identity_after": {
+    "resolved_path": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\.github\\agents\\sdlc-governance-remediation.agent.md",
+    "device": 7972088113085002079,
+    "inode": 43347146414243720
+  },
+  "tool_result": {
+    "method": "Python exact UTF8 byte replacement once, binary r+b write, truncate, flush/fsync, fresh binary readback",
+    "write_return_bytes": 49225,
+    "exact_approved_after_match": true,
+    "outside_replacement_identical": true,
+    "utf8_no_bom": true,
+    "CRLF_count": 1363,
+    "final_newline_present_before_and_after": false,
+    "partial_failure": null
+  },
+  "preservation": {
+    "baseline_file_count": 367,
+    "other_files_unchanged": 366,
+    "file_set_unchanged_outside_own_attempt": true,
+    "index_unchanged": true,
+    "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding"
+  },
+  "status": "EXACT APPROVED BYTES APPLIED; independent Verification not performed",
+  "limitations": [
+    "Procedural nonmutation, not sandbox enforced",
+    "Endpoint evidence cannot exclude transient/same-principal tampering",
+    "No exhaustive trusted event log",
+    "Decision message IDs and exact decision times not exposed; none invented"
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "record_type": "invocation",
+  "record_id": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb:invocation",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+  "creator": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+  "role": "Independent Governance Review",
+  "process": "Independent Governance Review",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:47:15.560529+00:00",
+  "clock_basis": "Host UTC record-preparation sample, not publication time",
+  "actor": {
+    "role": "Independent Governance Review",
+    "invocation": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+    "runtime_identity_source": "Current separately invoked Independent Governance Review agent; no platform session ID exposed",
+    "definition": {
+      "path": ".github/agents/independent-governance-review.agent.md",
+      "bytes": 1284,
+      "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+    },
+    "OS_principal": "USER INFORMATION\r\n----------------\r\n\r\nUser Name           SID                                           \r\n=================== ==============================================\r\nint-scl-010\\parimal S-1-5-21-2809803128-1021655904-3966773769-1002",
+    "qualification_pid": 75100,
+    "distinct_from": [
+      "Corrective Change Decision preparer",
+      "Governance Amendment Application applier",
+      "Independent Governance Verification verifier",
+      "active Remediation",
+      "Orchestrator"
+    ],
+    "predecessor_actor_bindings": {
+      "preparer": {
+        "definition": {
+          "path": ".github/agents/corrective-change-decision.agent.md",
+          "bytes": 5163,
+          "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+        },
+        "attempt": {
+          "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attempt.json",
+          "bytes": 87496,
+          "sha256": "8EDA2344DB8D5312AF43CBBED844F21D6349798CC62CD6EA739E99E9CF1EDE34"
+        },
+        "status": "CURRENT RECOVERY PROPOSAL PREPARER; not retry publisher"
+      },
+      "publisher": {
+        "definition": {
+          "path": ".github/agents/governance-amendment-application.agent.md",
+          "bytes": 1636,
+          "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+        },
+        "proposed_attempt_identity": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+        "proposed_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+        "status": "PROPOSED FRESH ONE-TIME DESIGNATION ONLY; prior one-time approval not transferred"
+      },
+      "verifier": {
+        "definition": {
+          "path": ".github/agents/independent-governance-verification.agent.md",
+          "bytes": 1393,
+          "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+        },
+        "status": "PLANNED DEFINITION ONLY; own attempt/current capability after completed Application and fresh Verification start"
+      },
+      "reviewer": {
+        "definition": {
+          "path": ".github/agents/independent-governance-review.agent.md",
+          "bytes": 1284,
+          "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+        },
+        "status": "PLANNED DEFINITION ONLY; own attempt/current capability after PASS Verification and fresh Review start"
+      }
+    },
+    "limits": "Distinct process role/invocation; not technical isolation from shared OS principal"
+  },
+  "scope": {
+    "repository": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "output_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+    "authorized_stage": "Independent Governance Review",
+    "substantive_subject": "Only exact approved GOV-AUD-20261102-001 linked clarification Application and PASS Verification",
+    "excluded": "source edits/fixes/approval/application/replacement Verification/full Audit/effectivity/adoption/product/commit/push",
+    "task_context": "Governance-only; no product Plan or task is applicable"
+  },
+  "repository_context": {
+    "HEAD": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "branch": "sdlc-framework-onboarding",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git"
+  },
+  "authorization": {
+    "actual_wording": "Yes, initiate Independent Governance Review for the GOV-AUD-20261102-001 clarification and its passing Verification only",
+    "source": "Actual Human instruction in current user request after completed PASS Verification",
+    "platform_message_id": null,
+    "authenticated_time": null,
+    "not_approval": true
+  },
+  "root_decision": {
+    "url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+    "author": "ScalableParimal",
+    "author_association": "OWNER",
+    "decision_id": 6522916236,
+    "created_at": "2026-10-30T12:31:51Z",
+    "updated_at": "2026-10-30T12:31:51Z",
+    "current_read": "github issue_read returned original unedited root adoption; not this Review start",
+    "scope": "governance root adopted; original Audit-only start not reused"
+  },
+  "qualification": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+    "bytes": 168810,
+    "sha256": "894E60B34FF6FB57C58C819A45B6AA7D514879A12C6A989D15C9CC4BE91D95A2"
+  },
+  "input_manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+    "bytes": 168810,
+    "sha256": "894E60B34FF6FB57C58C819A45B6AA7D514879A12C6A989D15C9CC4BE91D95A2"
+  },
+  "predecessor_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/report.md",
+    "bytes": 15150,
+    "sha256": "A1388E49A5F107443FAF3E5E32D4FDFB5B9C8CBC5EA4D4EBD4B56967E695B7E0"
+  },
+  "predecessor_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/result.json",
+    "bytes": 19616,
+    "sha256": "D3F3680DA22EA8538482D1E5F7B6FACFD0A41A7C2D89E2E0369981311B4DFB43"
+  },
+  "predecessor_evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/evidence/verification-evidence.json",
+    "bytes": 2487127,
+    "sha256": "24DE9E1B99BE8B35C57E3B1FA4759357185FF7BBAB1B8983B55ED63D6A060BFB"
+  },
+  "application_report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/report.md",
+    "bytes": 6380,
+    "sha256": "26EEC34BAB50AD8A67FEBDAC262D9A723700807C5BA27FBD932668CE16AB2B88"
+  },
+  "application_result": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/result.json",
+    "bytes": 33474,
+    "sha256": "8F9AEF423A96167C8A6247266F26989A22AB331FB033D7280AB8C46127359CD9"
+  },
+  "proposal": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/report.md",
+    "bytes": 21731,
+    "sha256": "F96D1A37D0F9CE9C5D423C86B84531D80E7C27D945C52FE559586792491D196F"
+  },
+  "approval_request": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092301Z-f9d89334-bb88-4964-9ddc-113629d7dfed/attachments/exact-recovery-approval-request.json",
+    "bytes": 12552,
+    "sha256": "4938CCC6829B21AF4281CFB94D32DCBB4FC1F50D2C1AC16630B4D8C1A2C46097"
+  },
+  "execution_status": "QUALIFIED; awaiting separate-process invocation readback before substantive Review",
+  "outputs": [
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/review.py",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0001.json",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0002.json",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0003.json",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/review-evidence.json",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/final-readback.json",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md",
+    "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json"
+  ],
+  "operations": [
+    {
+      "sequence": 1,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "strict JSON read",
+      "arguments": {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T093828Z-237e94b9-3902-49d3-ab46-5011a3c989e1/result.json",
+        "bytes": 19616,
+        "sha256": "D3F3680DA22EA8538482D1E5F7B6FACFD0A41A7C2D89E2E0369981311B4DFB43"
+      },
+      "completion_observed_utc": "2026-11-02T09:47:14.178208+00:00",
+      "outcome": "PASS"
+    },
+    {
+      "sequence": 2,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "ls-files",
+        "--stage"
+      ],
+      "completion_observed_utc": "2026-11-02T09:47:14.448026+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "659C8E3BCBBFA3F1ABE778C6E149F0A493838B96EF0CB1ECF82BEE43E931519C",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 3,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=all"
+      ],
+      "completion_observed_utc": "2026-11-02T09:47:14.520955+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "1A3BB2B3AF6534FD8BDBF3167608B646B03EE498C7750ADD95E33D887BCF95B2",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 4,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "rev-parse",
+        "HEAD"
+      ],
+      "completion_observed_utc": "2026-11-02T09:47:14.589149+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "B2A87DD45EEC7B8DCFE1D395D04FD81CE25FB3DF83157C950964257DB65DADEB",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 5,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "branch",
+        "--show-current"
+      ],
+      "completion_observed_utc": "2026-11-02T09:47:14.648084+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "DDFE30D274B4721329FF284E31899B15A9DA8EE9B9348DD0C7A645B3BEF56AE9",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 6,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "git",
+        "--no-pager",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "completion_observed_utc": "2026-11-02T09:47:14.707639+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "8C6DAE29EA6055EBF7BC98E09EF53DC8B37832A8A10B5EE679A01D8B6C679875",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 7,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "complete non-.git snapshot",
+      "arguments": {
+        "files": 320,
+        "exact_exclusions": [
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/attempt.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0001.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0001.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0002.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0002.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0003.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/checkpoint-0003.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/final-readback.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/final-readback.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/review-evidence.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/review-evidence.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/report.md.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/result.json.partial",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/review.py",
+          "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/review.py.partial"
+        ]
+      },
+      "completion_observed_utc": "2026-11-02T09:47:14.707684+00:00",
+      "outcome": "read/hash/path/index/status complete"
+    },
+    {
+      "sequence": 8,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "powershell",
+        "-NoProfile",
+        "-Command",
+        "Get-Acl ., .github, docs/ai/sdlc, docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts | Format-List Path,Owner,AccessToString"
+      ],
+      "completion_observed_utc": "2026-11-02T09:47:15.483863+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "044726C1026D8F9B8A90F060AA42B8F23D431DB3338AE11D55440CD8ACD5970E",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 9,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "nonmutating subprocess",
+      "arguments": [
+        "whoami",
+        "/user"
+      ],
+      "completion_observed_utc": "2026-11-02T09:47:15.506270+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stdout_sha256": "B7A9A558F67A6D87ADD47A224113C9CBFD418995A21799120C0CF62D4F0D12B4",
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    {
+      "sequence": 10,
+      "actor": "20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb",
+      "operation": "validated fsync atomic no-overwrite rename and readback",
+      "arguments": {
+        "final": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json",
+        "partial": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T094612Z-977731b8-9c8a-4df4-944b-15102e7c22cb/evidence/qualification.json.partial",
+        "bytes": 168810,
+        "sha256": "894E60B34FF6FB57C58C819A45B6AA7D514879A12C6A989D15C9CC4BE91D95A2"
+      },
+      "completion_observed_utc": "2026-11-02T09:47:15.550669+00:00",
+      "outcome": "PASS"
+    }
+  ],
+  "limitations": "PROCEDURAL NON-MUTATION, not enforced read-only or a sandbox. Shared write-capable OS principal and tools. Actor-visible tool transcript and instrumented checks/publications only; no exhaustive trusted OS event stream, continuous observation, lock or coordinated no-edit window. Matching endpoint fingerprints cannot prove absence of transient writes or same-principal tampering. Parent message platform IDs/times are not authenticated/exposed; none invented. Host clock samples describe preparation or operation observations, not exact filesystem publication times."
+}

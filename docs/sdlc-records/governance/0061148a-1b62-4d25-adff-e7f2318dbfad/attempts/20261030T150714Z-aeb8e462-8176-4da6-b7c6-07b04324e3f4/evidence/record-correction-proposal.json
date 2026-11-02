@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "record_identity": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4:record-correction-proposal",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4",
+  "finding_id": "IGV-FIND-001",
+  "status": "NOT-APPLIED",
+  "purpose": "Exact proposed substantive content for a future actor-owned evidence attachment and linked report qualification. This is decision evidence, not a corrective publication, new artifact category, Human decision or applied supersession.",
+  "proposed_substantive_payload": {
+    "heading": "IGV-FIND-001: limited approval-response transcription correction",
+    "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "finding_id": "IGV-FIND-001",
+    "original_records": [
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/approval-context.json",
+        "bytes": 9399,
+        "sha256": "853302BC847D7B615BF79B9DD1E74C05D295B571E59CB5F8EFE8EC291B01139B",
+        "affected_locator": "/exact_approval_verbatim"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/report.md",
+        "bytes": 15640,
+        "sha256": "2EE82C10E28966F4938F2E7EFC8F74A2AACAAD7F87444501070D4B43AE6D67EF",
+        "affected_locator": "Actual Human approval/start and provenance: Approval retained verbatim and its immediately following approval quotation"
+      },
+      {
+        "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/result.json",
+        "bytes": 34763,
+        "sha256": "EB3B8AA811CB474EAA9EE6B69AB2EE9654056F548875DFBF928205695071A497",
+        "affected_locator": "Context link only: original result binds the original report and approval evidence; those bindings remain correct and unchanged"
+      }
+    ],
+    "original_recorded_response": "I approve the exact report ?7 package and ?8 one-time actor designation/route as identified above; this does not initiate Application",
+    "supplied_original_response": "I approve the exact report \u00a77 package and \u00a78 one-time actor designation/route as identified above; this does not initiate Application",
+    "separate_original_application_start": "Yes, initiate the scoped Governance Amendment Application stage",
+    "replacement_qualification": "The original approval-context field and Application report quotation are not verbatim: at zero-based character offsets 27 and 42 they retain U+003F instead of the U+00A7 in the actual original response supplied from the parent conversation. Read the original approval quotation with the supplied_original_response in this linked attachment and this qualification. The original report's unqualified 'Approval retained verbatim' claim is withdrawn only to that extent. All original files and their fingerprints remain unchanged.",
+    "provenance": "The actual original response and separate original Application start were supplied by the current user from the parent conversation and were explicitly authorized for verbatim retention. This is attributed parent-conversation evidence, not independently authenticated GitHub amendment approval. The independently resolved GitHub owner bootstrap decision concerns root adoption and original Audit authorization only. No original parent-message identifier or authenticated original decision-event timestamp was supplied; none is inferred. This transcription does not create, revise, renew or authenticate a substantive Human decision.",
+    "approval_subject": {
+      "proposal_report_path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T142338Z-2a4c9f75-42df-4f80-a5c7-0d5b845b890a/report.md",
+      "proposal_report_sha256": "CA53D4D4725F2332ADFBBAD49C5883758242CF7C4B577019F78E4591BD87096A",
+      "subject": "Original report sections 7 and 8: exact P1-P5 replacements, paths, base/after hashes and counts, CRLF/encoding scope, exclusions, distinct one-time applier and planned independent assurance roles. The structured subject remains as retained in the original approval-context. This correction does not change it."
+    },
+    "supersession_scope": "If and only if separately approved and published by a newly authorized actor in its own scope, qualify only the original response transcription and its unqualified verbatim-retention claim. Do not supersede the entire Application result, rewrite its hashes, change its application outcome or alter another actor's records. Route_reference and other legacy question-mark prose are not globally rewritten by this correction.",
+    "preserved_conclusions": "The underlying Human Approval is not invalidated solely by this recording defect. This attachment is not a new P1-P5 approval and does not direct reapplication. Original Verification remains FINDINGS until a fresh independent invocation establishes a different result. Original Audit remains CANNOT COMPLETE AUDIT; no Review or effectiveness is established. Masters remain candidate/unadopted.",
+    "cause_limitation": "Artifact-level lossy transcription is established; exact transport, encoding or serialization mechanism is unknown."
+  },
+  "proposed_linkage": {
+    "finding_source": "20261030T144048Z-ea52b7a2-e67b-4579-b22c-20dc3bb09c25:report",
+    "investigation_report": "20261030T145747Z-832a2481-2c69-406d-aff3-c8ca6413ca1a:report",
+    "decision_report": "20261030T150714Z-aeb8e462-8176-4da6-b7c6-07b04324e3f4:report",
+    "publication_requirement": "Future publisher's own report must bind this approved proposal, actual Human decision, fresh start, actual attachment path/bytes/SHA-256 and original record paths/hashes. Its own result binds its own report/evidence. Later independently initiated Verification must resolve originals plus this linked qualification. No reverse link is inserted into old records."
+  },
+  "actor_and_destination_dependency": {
+    "proposed_publishing_role": ".github/agents/governance-amendment-application.agent.md",
+    "role_sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D",
+    "status": "Human designation pending; original P1-P5 one-time designation exhausted and not reused",
+    "allowed_record_scope_for_consideration": "Only a newly designated invocation's own records under the existing governance Work ID and existing attempts/<timestamp-plus-UUID>/attachments convention; never an old Application, Investigation or Verification attempt",
+    "unresolved": "Actual designated publishing actor/invocation, authorized exact new destination, approved final envelope and expected new-file bytes/hash are not yet established. No future attempt identity, final path, final record hash, approval or time is fabricated.",
+    "required_gate": "Human must select/designate the scoped publisher and permissible own-record route. Then finalize and bind the exact new path and final attachment bytes/hash plus no-existing-file condition for exact Human Approval before corrective publication; if this requires renewed proposal preparation, require fresh scoped authorization. Approval and separate fresh Application start remain required. Do not interpret approval of this incomplete destination as executable wildcard authority."
+  },
+  "byte_validation_contract": {
+    "format": "Final attachment UTF-8 JSON without BOM; LF newlines and one final LF; JSON escaping of U+00A7 allowed only when parsing yields actual U+00A7",
+    "response_character_count": 133,
+    "response_utf8_byte_count_without_newline": 135,
+    "response_utf8_sha256_without_newline": "F64D83824A1A31FA470FAC6FC36631F5687B468F6EC9DA777C2EFD0253ECF085",
+    "expected_section_sign_offsets_zero_based": [27, 42],
+    "expected_utf8_bytes_at_section_sign": "C2 A7",
+    "checks": "Parse actual published UTF-8 JSON independently; compare full response to explicit Unicode construction; require two U+00A7 and zero U+003F or literal backslash-u sequences in the supplied response. Recompute all actual byte counts and hashes; validate original fingerprints and actor-owned links before terminal result. Use .partial, flush and atomic no-overwrite publication, then read back; stop on mismatch.",
+    "no_future_hash_claim": "The response fingerprint is not the full future attachment fingerprint. Exact final envelope/path dependency prevents that fingerprint from being asserted now."
+  }
+}

@@ -1,0 +1,134 @@
+{
+    "schema":  "sdlc-governance-audit-attempt/v1",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc",
+    "stage":  "Complete SDLC Governance Audit",
+    "status":  "in_progress",
+    "opened_at_utc":  "2026-10-31T04:59:13.8868750Z",
+    "repository":  {
+                       "canonical":  "ScalableParimal/SupportIQ",
+                       "local_root":  "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+                       "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "branch":  "sdlc-framework-onboarding",
+                       "working_tree":  "five approved tracked amendments; untracked governance record tree; no staged changes"
+                   },
+    "actor":  {
+                  "role":  "SDLC Governance Audit Agent",
+                  "invocation":  "Copilot SDK invocation",
+                  "os_identity":  "INT-SCL-010\\Parimal",
+                  "windows_sid":  "S-1-5-21-2809803128-1021655904-3966773769-1002"
+              },
+    "stage_start":  {
+                        "text":  "Yes, initiate a fresh complete Governance Audit retry with validated JSON publication and retained failed-attempt reconciliation",
+                        "source":  "current parent-conversation user message",
+                        "fresh":  true,
+                        "external_message_id":  "not asserted",
+                        "authenticated_external_event_time":  "not asserted"
+                    },
+    "persistence":  {
+                        "root":  "docs/sdlc-records/governance/",
+                        "root_adoption_source":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+                        "work_scope":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/",
+                        "product_root":  "not adopted and absent; no product records authorized",
+                        "work_id":  "authorized continuation of existing Work ID; collision check confirms no same Work ID under product root"
+                    },
+    "authorization":  {
+                          "root_decision":  "resolved GitHub issue owner comment; author ScalableParimal, author_association OWNER, canonical repo/commit/Master fingerprints/root/Work ID/initial Audit authorization match",
+                          "current_stage_start":  "fresh bounded user instruction recorded above",
+                          "predecessor_review":  "PASS",
+                          "no_adoption_or_effectiveness_authorized":  true
+                      },
+    "capability":  {
+                       "effective_identity":  "INT-SCL-010\\Parimal",
+                       "root_acl_owner":  "INT-SCL-010\\Parimal",
+                       "nonmutating_acl_evidence":  [
+                                                        "BUILTIN\\Administrators:FullControl:Allow",
+                                                        "NT AUTHORITY\\SYSTEM:FullControl:Allow",
+                                                        "BUILTIN\\Users:ReadAndExecute, Synchronize:Allow",
+                                                        "NT AUTHORITY\\Authenticated Users:Modify, Synchronize:Allow",
+                                                        "NT AUTHORITY\\Authenticated Users:-536805376:Allow"
+                                                    ],
+                       "read_hash_json_github_capability":  "observed",
+                       "own_record_publication_route":  "authorized local same-filesystem no-overwrite atomic publication under actor-owned attempt scope",
+                       "no_source_write_probe":  true,
+                       "technical_read_only_enforcement":  "not established; ACL/tools are write-capable; procedural boundary applies"
+                   },
+    "masters":  {
+                    "docs/ai/sdlc/SDLC_GOVERNANCE.md":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                    "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                    "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+                },
+    "approved_amendments":  {
+                                "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md":  {
+                                                                                          "bytes":  2108,
+                                                                                          "sha256":  "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208"
+                                                                                      },
+                                "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md":  {
+                                                                                                             "bytes":  5773,
+                                                                                                             "sha256":  "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8"
+                                                                                                         },
+                                "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md":  {
+                                                                                                       "bytes":  5718,
+                                                                                                       "sha256":  "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902"
+                                                                                                   },
+                                "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md":  {
+                                                                                                       "bytes":  2076,
+                                                                                                       "sha256":  "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97"
+                                                                                                   },
+                                "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md":  {
+                                                                                                 "bytes":  2098,
+                                                                                                 "sha256":  "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA"
+                                                                                             }
+                            },
+    "predecessor":  {
+                        "review":  {
+                                       "attempt_id":  "20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f",
+                                       "outcome":  "PASS",
+                                       "report_path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/report.md",
+                                       "report_sha256":  "27F896E26C90FFC846F51530B2FD5B9E196292B4EEDA433CADFE339C331C4ED4",
+                                       "result_path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/result.json",
+                                       "result_sha256":  "C0B81B198E9E33904AEBA2FAFE7169ECD8E1DA2B67A7B67264C6930CCCF52D9F",
+                                       "evidence_path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261031T043137Z-7d2b35df-98a6-4d50-8761-48fe0f724e0f/evidence/review-evidence.json",
+                                       "evidence_sha256":  "C5E85298818969C30F15CC309FC53D1C7FF99E21267028A05510B5F588E7B9D5"
+                                   },
+                        "verification":  {
+                                             "attempt_id":  "20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f",
+                                             "outcome":  "PASS",
+                                             "report_path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/report.md",
+                                             "report_sha256":  "12E05DFCC7E2314952B9FF59CBCFF28E729DEAEEC3E2960AF7A78F5FDCA72085",
+                                             "result_path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/result.json",
+                                             "result_sha256":  "8BFBE2B5601136459B6D45E958B06FD41C782B52BDA1B46F89251F3928CCE943",
+                                             "evidence_path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261030T161112Z-9c79d789-1b9a-479c-a9e7-6e692747330f/evidence/verification-evidence.json",
+                                             "evidence_sha256":  "2EE04181FFE020B816BFBBEE0C4FBBD3B255962A12A50AA92C3E04EEF2B7C064"
+                                         }
+                    },
+    "failed_prior_attempt_reconciliation":  {
+                                                "attempt_id":  "20261031T045348Z-a8d815b9-c331-44ca-b9b1-cc5ea5bdbde6",
+                                                "attempt_path":  "docs\\sdlc-records\\governance\\0061148a-1b62-4d25-adff-e7f2318dbfad\\attempts\\20261031T045348Z-a8d815b9-c331-44ca-b9b1-cc5ea5bdbde6\\attempt.json",
+                                                "observed_bytes":  10227,
+                                                "sha256":  "729D2D63663C369AE4B31134BDD440E66B3E0B6DD5EA05E5EE03075F4696111E",
+                                                "parse_status":  "invalid JSON; trailing literal backtick+n",
+                                                "report_present":  false,
+                                                "result_present":  false,
+                                                "interpretation":  "incomplete publication attempt; no canonical audit report/result and no audit start inferred",
+                                                "mutation":  "left byte-for-byte unchanged; no overwrite, repair, deletion, or completion fabrication"
+                                            },
+    "source_master_baseline":  "candidate/unadopted; current Governance Audit may proceed under adopted governance root and fresh start; no adoption or product-readiness conclusion",
+    "scope":  "all 52 core artifacts plus seven separately reported mechanism groups and relevant governance assurance/process evidence; governance-only; read-only sources/prior records",
+    "prohibitions":  [
+                         "no remediation",
+                         "no findings investigation",
+                         "no corrections",
+                         "no portability assessment",
+                         "no product artifacts/tests/runtime",
+                         "no commit/push",
+                         "no other agent/stage",
+                         "no product root adoption"
+                     ],
+    "expected_terminal_artifacts":  [
+                                        "report.md",
+                                        "result.json",
+                                        "evidence/audit-evidence.json"
+                                    ],
+    "execution_not_started_until_attempt_readback_hash_validated":  true
+}

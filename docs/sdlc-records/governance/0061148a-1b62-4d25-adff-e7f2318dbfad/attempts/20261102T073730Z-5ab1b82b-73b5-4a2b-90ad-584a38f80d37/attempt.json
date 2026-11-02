@@ -1,0 +1,174 @@
+{
+    "schemaVersion":  "1.0",
+    "recordType":  "CorrectiveChangeDecisionAttempt",
+    "process":  "Corrective Change Decision \u0026 Plan Update",
+    "workId":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attemptId":  "20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37",
+    "prospectiveCycleId":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319",
+    "subjectType":  "FINDING",
+    "findingIds":  [
+                       "GOV-001",
+                       "GOV-002"
+                   ],
+    "createdAtUtc":  "2026-11-02T07:38:18.8310953Z",
+    "canonicalRepository":  "ScalableParimal/SupportIQ",
+    "repository":  {
+                       "localRoot":  "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+                       "origin":  "https://github.com/ScalableParimal/SupportIQ.git",
+                       "branch":  "sdlc-framework-onboarding",
+                       "head":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "gitStatus":  [
+                                         " M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                                         " M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                                         " M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                                         " M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                                         " M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                                         "?? docs/sdlc-records/"
+                                     ]
+                   },
+    "actor":  {
+                  "role":  "Corrective Change Decision Agent",
+                  "agentDefinitionPath":  ".github/agents/corrective-change-decision.agent.md",
+                  "runtimeIdentity":  "int-scl-010\\parimal",
+                  "environment":  "Windows_NT; PowerShell; Copilot SDK governed process invocation",
+                  "roleCapabilityEvidence":  "Agent definition read; role-specific authority is decision/report only; no source or upstream-artifact write authority."
+              },
+    "authorization":  {
+                          "freshHumanStageStart":  true,
+                          "actualHumanWording":  "Yes, initiate Corrective Change Decision for GOV-001 and GOV-002 using the new record-first Investigation within the prospective cycle",
+                          "messageTimeReported":  "2026-11-02T13:05:02.949+05:30",
+                          "stage":  "Corrective Change Decision \u0026 Plan Update for GOV-001 and GOV-002",
+                          "scope":  "Own attempt, checkpoints, report, result, and necessary evidence only",
+                          "noApplicationOrDownstreamStage":  true
+                      },
+    "persistence":  {
+                        "root":  "docs/sdlc-records/governance/",
+                        "rootAdoptionEvidence":  {
+                                                     "url":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+                                                     "issue":  3,
+                                                     "commentId":  6522916236,
+                                                     "author":  "ScalableParimal",
+                                                     "authorAssociation":  "OWNER",
+                                                     "createdAt":  "2026-10-30T12:31:51Z",
+                                                     "scope":  "governance record root adopted for repository state and Work ID",
+                                                     "originalScopeLimitation":  "bootstrap audit only; current decision invocation relies on its own fresh human stage-start"
+                                                 },
+                        "workRecordScope":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T073730Z-5ab1b82b-73b5-4a2b-90ad-584a38f80d37",
+                        "publicationRoute":  "Same-filesystem no-overwrite publication by UTF-8 JSON temp file plus atomic File.Move to final name; path ACL grants Authenticated Users Modify; actual identity is a member of Authenticated Users",
+                        "noSourceWriteProbePerformed":  true,
+                        "noCommitOrPush":  true
+                    },
+    "qualification":  {
+                          "qualificationBeforeAttemptPublication":  true,
+                          "orderedChecks":  [
+                                                "Q-001 current governing Skill, Guideline, Prompt, Request, Agent definition, and Master instructions read",
+                                                "Q-002 actor role and repository authority boundaries established",
+                                                "Q-003 effective OS identity recorded; record-root ACL and available no-overwrite file publication operations checked non-mutatingly",
+                                                "Q-004 canonical remote, exact HEAD, branch, status, governance-root adoption evidence and Master fingerprints reconciled",
+                                                "Q-005 existing Work ID and prospective cycle scope checked; unique attempt ID and no-collision path checked",
+                                                "Q-006 direct Investigation report/result/evidence paths and hashes bound without substantive content inspection",
+                                                "Q-007 fresh human stage-start and bounded actor-owned output scope recorded"
+                                            ],
+                          "sourceContentInspectionBeforeAttemptPublication":  "None for affected governance artifact contents or the controlling Investigation; Investigation files were only byte-counted and hashed for binding.",
+                          "sourceWriteProbe":  "None"
+                      },
+    "inputBindings":  [
+                          {
+                              "path":  ".github/skills/corrective-change-decision/SKILL.md",
+                              "sha256":  "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3",
+                              "byteCount":  10999,
+                              "contentReadBeforePublication":  true
+                          },
+                          {
+                              "path":  ".github/agents/corrective-change-decision.agent.md",
+                              "sha256":  "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D",
+                              "byteCount":  5163,
+                              "contentReadBeforePublication":  true
+                          },
+                          {
+                              "path":  "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md",
+                              "sha256":  "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203",
+                              "byteCount":  28121,
+                              "contentReadBeforePublication":  true
+                          },
+                          {
+                              "path":  "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md",
+                              "sha256":  "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7",
+                              "byteCount":  3873,
+                              "contentReadBeforePublication":  true
+                          },
+                          {
+                              "path":  "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+                              "sha256":  "4CC1BCD1FE2408FC52AEDA0D24826CDEDE36AD30115DCB6C982DFD6A876DE038",
+                              "byteCount":  2985,
+                              "contentReadBeforePublication":  true
+                          },
+                          {
+                              "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                              "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                              "byteCount":  30926,
+                              "contentReadBeforePublication":  true
+                          },
+                          {
+                              "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                              "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                              "byteCount":  54243,
+                              "contentReadBeforePublication":  true
+                          },
+                          {
+                              "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                              "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C",
+                              "byteCount":  89025,
+                              "contentReadBeforePublication":  true
+                          },
+                          {
+                              "path":  "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                              "sha256":  "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+                              "byteCount":  2108,
+                              "contentReadBeforePublication":  false
+                          },
+                          {
+                              "path":  "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+                              "sha256":  "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8",
+                              "byteCount":  5773,
+                              "contentReadBeforePublication":  false
+                          },
+                          {
+                              "path":  "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+                              "sha256":  "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97",
+                              "byteCount":  2076,
+                              "contentReadBeforePublication":  false
+                          },
+                          {
+                              "path":  "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+                              "sha256":  "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+                              "byteCount":  5718,
+                              "contentReadBeforePublication":  false
+                          },
+                          {
+                              "path":  "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+                              "sha256":  "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+                              "byteCount":  2098,
+                              "contentReadBeforePublication":  false
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/report.md",
+                              "sha256":  "CE975EE00E642B93AF50EF8FF0FF418101CE821F2E94121D43E0B260A012BF6B",
+                              "byteCount":  12795,
+                              "contentReadBeforePublication":  false
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/result.json",
+                              "sha256":  "080C02F1FD262C1690261A0E74505C7AEC6EA9ACBBDFFFDF58BAB91759826F54",
+                              "byteCount":  3945,
+                              "contentReadBeforePublication":  false
+                          },
+                          {
+                              "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T072445Z-1d19ba42-5fc4-428b-a395-0de523e319c0/evidence/investigation-evidence.json",
+                              "sha256":  "8D008604EFEC599AC751EB1B457FD72750E3B4ECB7E0B5071087E64F1A67F977",
+                              "byteCount":  22254,
+                              "contentReadBeforePublication":  false
+                          }
+                      ],
+    "status":  "ATTEMPT PUBLISHED; decision analysis not yet performed at publication boundary"
+}

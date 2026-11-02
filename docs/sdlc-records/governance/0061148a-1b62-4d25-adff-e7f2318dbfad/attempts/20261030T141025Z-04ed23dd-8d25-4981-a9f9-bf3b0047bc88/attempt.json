@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_attempt",
+  "record_identity": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88",
+  "attempt_id": "20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "subjects": ["GOV-001", "GOV-002"],
+  "creator": "Corrective Change Decision Agent, current new invocation",
+  "role": "Corrective Change Decision",
+  "created_at_utc": "2026-10-30T14:10:25.8039367Z",
+  "clock_basis": "Current environment UTC clock sampled during allocation and preparation; not publication time",
+  "exact_publication_time": "Not captured",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head_commit": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+    "status": "No tracked changes; existing docs/sdlc-records/ untracked"
+  },
+  "actor": {
+    "definition_path": ".github/agents/corrective-change-decision.agent.md",
+    "definition_sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D",
+    "runtime": "Current Copilot invocation, distinct attempt identity; no delegation",
+    "effective_identity": "INT-SCL-010\\Parimal",
+    "sid": "S-1-5-21-2809803128-1021655904-3966773769-1002",
+    "permissions": "Current token includes S-1-5-11 Authenticated Users; parent ACL grants this group inherited Modify, Synchronize; no deny rule observed",
+    "role_capabilities": "Current invocation successfully read governing files, enumerated own parent, executed Git identity/state checks and SHA-256 on all nine predecessor records. Nonmutating ACL/token checks establish own-record publication route; no source-write capability requested or exercised."
+  },
+  "authorization": {
+    "source": "Current user message in this conversation, directly supplied for this invocation",
+    "fresh_stage_start_verbatim": "Yes, initiate a new Corrective Change Decision invocation for these two findings.",
+    "supplied_message_time": "2026-10-30T19:39:37.575+05:30",
+    "time_basis": "User-supplied current_datetime accompanying request, not independently verified decision event time",
+    "policy_clarifications": {
+      "GOV-001": "Require a reserved stable Work ID for every executable request; 'not assigned' is draft-only and blocks invocation/publication",
+      "GOV-002": "Keep residual-risk acknowledgement as disclosure, not an additional approval-validity condition"
+    },
+    "clarification_provenance": "Newly supplied Human direction, explicitly attributed by user to current conversation; preserved verbatim",
+    "scope": "New decision attempt for these two findings only; own records under existing governance Work ID",
+    "exclusions": "No exact patch approval, application authority, baseline adoption, source modification, other process invocation, Orchestrator, product inspection, tests/build/runtime, commit or push"
+  },
+  "persistence": {
+    "root": "docs/sdlc-records/governance/",
+    "existing_work_id": "Continuation of same reserved Work ID, not new reservation",
+    "root_evidence": "Initial Audit attempt.json persistence and authorization fields, linked to https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236; local evidence inspected, external source not re-resolved by this invocation",
+    "authority_boundary": "Initial GitHub bootstrap authorized Audit only. Current supplied user initiation and explicit own-record execution scope authorize this decision attempt; no inherited stage authority or Master adoption inferred.",
+    "own_record_scope": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T141025Z-04ed23dd-8d25-4981-a9f9-bf3b0047bc88/",
+    "route": "Prepare .partial, validate UTF-8/JSON, flush to disk, same-filesystem no-overwrite File.Move, readback hash; terminal result last",
+    "collision_checks": "New attempt identity generated using Guid.NewGuid; existing three attempts terminal; product same-Work-ID directory absent; own final attempt must not exist before publication"
+  },
+  "predecessors": [
+    {"attempt_id": "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4", "report": "report-revision-0001.md", "report_sha256": "ABD95B964E9C04602BBD876619C0C97DE95E6D9252EBA913634652FD5746D7B0", "result_sha256": "C64AFE71CD9692596577310ABF71DC81E0B5F67C56DF90986746038ABCD0926E", "evidence": "evidence/audit-evidence-revision-0001.json", "evidence_sha256": "AAECB880DFCE29F7167BA8804EBB1C89453A72DCE2627CFB063592D931D06E20"},
+    {"attempt_id": "20261030T133637Z-ef1d697a-2278-4043-b1f0-8d838974e535", "report": "report.md", "report_sha256": "C1089ED3868ADDD84913F983D117C5EF5EADC6A1D30CA22FE6D030FE515D33D8", "result_sha256": "A0205CDF611A05933E8A0917468A2945C37C821B449E888F9B49E5FEF701C913", "evidence": "evidence/investigation-evidence.json", "evidence_sha256": "2D7FDE6829E6A30A29816D45A5BD4197DF694694BA95BD5AEF803320AEECF5B2"},
+    {"attempt_id": "20261030T140037Z-a6e11398-40e7-4b02-b972-664bbacea4e6", "report": "report.md", "report_sha256": "36330207C81DCE2FB30853FD4AFAB36438302EF6F8A9BD7D276D02971AA61AF2", "result_sha256": "04DFA830B2EA5D2EB62EA23FA93E6A488A1212352357E620608FA9B42FF63932", "evidence": "evidence/decision-evidence.json", "evidence_sha256": "AE6127C13ED5510B3E94AABF956CF83F6A04FAEA4B3853415D60468BE332B348"}
+  ],
+  "input_binding_check": "All nine user-supplied SHA-256 values recomputed locally and matched before publication; terminal result records found for all three prior attempts",
+  "approved_requirement": "N/A: governance-document subjects",
+  "approved_implementation_plan": "N/A: governance-document subjects",
+  "master_status": "Fingerprint-bound comparison sources only; no adopted or approved Master baseline established",
+  "state": "in_progress; no decision analysis or terminal result yet"
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "record_type": "decision_result",
+  "record_id": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5:decision_result",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "creator": {
+    "role": "Corrective Change Decision",
+    "actor_identity": "local-corrective-change-decision:20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+    "runtime_agent_id_observed": "0939dcbe-f104-454a-a8bd-62e36810ccd3",
+    "identity_limit": "Runtime roster association, not authenticated platform identity"
+  },
+  "created_at_utc": "2026-11-02T10:58:28.736431+00:00",
+  "clock_basis": "Host UTC sample during record preparation; not publication timestamp",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "finding_id": "GOV-AUD-20261102-002",
+  "execution_status": "COMPLETED",
+  "execution_termination": "Scoped decision, exact proposal preparation and required reporting completed; no application or other stage",
+  "outcome": "FINDING ACCEPTED — OTHER GOVERNED ARTIFACT CHANGE REQUIRED",
+  "finding_disposition": "ACCEPTED",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/report.md",
+    "bytes": 21659,
+    "sha256": "3A9F9E5EF2C73A7AE3553C3BD38692394C3BA4D37CAF4144DC37D0F84A167DF3",
+    "identity": "20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5:decision_report"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/evidence.json",
+    "bytes": 93411,
+    "sha256": "4F471AB0A135B53B418B355AF47A36A97437D908BAED7F2B281045D5F91D7021"
+  },
+  "proposal": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/proposal.json",
+    "bytes": 7208,
+    "sha256": "E797F4233E7382DCD493395CDA4C3689B2A55FB39CE9E59B563CA18B13C54D2C"
+  },
+  "patch": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attachments/proposed.patch",
+    "bytes": 4115,
+    "sha256": "BD0AC70966CE8F97330719A2E156F3C2D4DFAD559AFAAF052F9726067B53C024"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/attempt.json",
+    "bytes": 102241,
+    "sha256": "4599570487520A7741F0528CD9A3779548269DB61867930F87243F41955BFDBF"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5/checkpoint-0001.json",
+    "bytes": 2309,
+    "sha256": "E6E0B609C96176AE92785C3900BA95A32EEFBF7B7EB08256CAA1E0B1C428EF22"
+  },
+  "evaluated_base": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 48379,
+    "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+  },
+  "proposed_after": {
+    "path": ".github/agents/sdlc-governance-remediation.agent.md",
+    "bytes": 49225,
+    "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+  },
+  "role_bindings": {
+    "preparer": {
+      "path": ".github/agents/corrective-change-decision.agent.md",
+      "bytes": 5163,
+      "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+    },
+    "proposed_one_time_applier": {
+      "path": ".github/agents/governance-amendment-application.agent.md",
+      "bytes": 1636,
+      "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+    },
+    "planned_verifier_identity_only": {
+      "path": ".github/agents/independent-governance-verification.agent.md",
+      "bytes": 1393,
+      "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+    },
+    "planned_reviewer_identity_only": {
+      "path": ".github/agents/independent-governance-review.agent.md",
+      "bytes": 1284,
+      "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+    },
+    "excluded_orchestrator": {
+      "path": ".github/agents/sdlc-process-orchestrator.agent.md",
+      "bytes": 97823,
+      "sha256": "048DA0B64B162638A113D9049EF845F4530CBE9556345C0C8C7E7E202FBF23B3"
+    },
+    "excluded_active_remediation": {
+      "path": ".github/agents/sdlc-governance-remediation.agent.md",
+      "bytes": 48379,
+      "sha256": "EBFE9E9A369F2FA367F7A4728893106338DBDB6245A2016E2A248E7228148153"
+    }
+  },
+  "plan_change_required": "NOT APPLICABLE",
+  "plan_impact": "NOT APPLICABLE; governance-only bootstrap correction",
+  "proposed_plan_amendment": null,
+  "human_approval_required": true,
+  "human_approval_granted": false,
+  "application_authority_designation_required": true,
+  "implementation_readiness": "WAITING FOR GOVERNANCE CHANGE APPROVAL",
+  "concurrent_gate": "WAITING FOR APPLICATION AUTHORITY DESIGNATION",
+  "exact_next_human_gate": "Human decision required: approve or reject the exact proposal in this canonical report and attachments/proposal.json, binding this final report's result-bound SHA-256, proposal/patch fingerprints, the single target's base and expected-after fingerprints, scope/exclusions, and the one-time application route. If approving, explicitly designate the proposed Governance Amendment Application actor at its exact role path/SHA-256 as the one-time initial applier for this correction only, and bind the planned verifier/reviewer role paths/SHA-256 below. Approval/designation is not stage initiation. No historical designation is reused. No Application, Verification, Review or Audit starts until its separate fresh explicit Human instruction after its predecessor gates.",
+  "next_permitted_process": "Exact Human approval and fresh one-time designation; then await separate fresh Application start",
+  "applied": false,
+  "other_stage_started": false,
+  "effectiveness_established": false,
+  "master_baseline_adopted": false,
+  "product_root_adopted": false,
+  "commit": false,
+  "push": false,
+  "source_or_upstream_edits": false,
+  "unresolved_items": [
+    "Exact proposal approval",
+    "Fresh scoped one-time applier designation",
+    "Future Application, Verification, Review, complete Audit and each fresh stage-start"
+  ],
+  "preservation": {
+    "baseline_records": 357,
+    "content_and_path_sets": "UNCHANGED",
+    "head_branch_status": "UNCHANGED",
+    "exclusion": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T105400Z-5145fb48-c113-4ff7-a263-5ff861ca39c5",
+    "limits": "Endpoint comparison, not proof against transient writes or same-principal tampering"
+  },
+  "serialization": "Native actual complete object dict/list/scalars roundtrip before every structured publication",
+  "independent_final_readback": "Required next separate operation and new checkpoint; not claimed already executed",
+  "limitations": [
+    "Procedural nonmutation, not sandbox enforced",
+    "Endpoint hashes cannot exclude transient writes or same-principal tampering",
+    "No exhaustive trusted event log"
+  ]
+}

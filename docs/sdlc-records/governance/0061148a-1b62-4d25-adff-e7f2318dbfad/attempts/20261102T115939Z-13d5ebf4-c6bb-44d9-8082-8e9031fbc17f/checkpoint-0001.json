@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "record_type": "audit_checkpoint",
+  "record_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit_checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "creator": {
+    "identity": "20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f:audit-actor",
+    "role": "SDLC Governance Audit",
+    "runtime_agent_id": "1831d5ce-ee60-497b-ba25-8217357c77cd",
+    "identity_basis": "Only currently running same-task Audit entry in visible harness registry; local invocation identity is definitive; no external authentication claim",
+    "session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-02T12:03:13.814704+00:00",
+  "clock_basis": "Python timezone-aware UTC preparation clock, not exact publication time",
+  "sequence": 1,
+  "confirmed_boundary": "Invocation separately read back before substantive work; all sources read; complete catalog and first integrity/path comparison complete",
+  "source_scope": 76,
+  "core_scope": 52,
+  "input_comparison": {
+    "baseline_files": 413,
+    "current_files": 413,
+    "changed": [],
+    "added": [],
+    "removed": [],
+    "directory_set_unchanged": true,
+    "repository": {
+      "canonical": "ScalableParimal/SupportIQ",
+      "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+      "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+      "branch": "sdlc-framework-onboarding",
+      "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+      "status": "M .github/agents/sdlc-governance-remediation.agent.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md\n M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md\n?? docs/sdlc-records/",
+      "index": {
+        "path": ".git/index",
+        "bytes": 10274,
+        "sha256": "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6"
+      }
+    }
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T115939Z-13d5ebf4-c6bb-44d9-8082-8e9031fbc17f/evidence/integrity-checks.json",
+    "bytes": 333662,
+    "sha256": "4B01A964150FDD9E19F5CF1EB16BB2B4CBAB796DE8C22DA3744B2AD6F9E85F13"
+  },
+  "unfinished_work": "Complete semantic finding/mechanism rationale and canonical report publication",
+  "blockers": [],
+  "pending_gate": "No other stage authorized",
+  "source_writes": 0
+}

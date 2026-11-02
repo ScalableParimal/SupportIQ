@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0",
+  "record_type": "remediation_result",
+  "record_id": "20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40:remediation_result",
+  "feature": "Governance framework only; no product feature",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "process": "SDLC Governance Remediation",
+  "creator": {
+    "identity": "d783452a-fbb0-49e2-ab02-b16bd833f26f",
+    "role": "SDLC Governance Remediation",
+    "runtime_agent_id": "d783452a-fbb0-49e2-ab02-b16bd833f26f",
+    "copilot_agent_session_id": "a85e6602-5e2f-493a-a9d2-4423740416c3",
+    "session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "identity_basis": "Current sole running bounded Final Handoff actor in harness registry plus current environment COPILOT_AGENT_SESSION_ID; session title is not role proof; not cryptographic external identity."
+  },
+  "created_at_utc": "2026-11-02T16:39:27.143452+00:00",
+  "clock_basis": "Timezone-aware system UTC at record preparation; not publication time",
+  "gate": {
+    "applicability": "No formal human gate created or satisfied by this bounded continuation"
+  },
+  "related_records": [],
+  "task_context": "No product task; existing governance Cycle 1",
+  "execution_status": "COMPLETED",
+  "outcome": "COMPLETE",
+  "overall_audit_result": "CONSISTENT",
+  "governance_remediation_status": "COMPLETE",
+  "report": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40/report.md",
+    "bytes": 37110,
+    "sha256": "B2C36B498F36A25A216498F072C401B90252E2030C58A0D3B69D4D76F959E68B",
+    "record_id": "20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40:remediation_report"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40/evidence/closure-evidence.json",
+    "bytes": 54286,
+    "sha256": "1A17EBF714DAFECF40CF5DAAB1D0758DD51DB208262A436B6C8E8CB4F71BAA46",
+    "record_id": "20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40:remediation_closure_evidence"
+  },
+  "input_manifest": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40/evidence/input-manifest.json",
+    "bytes": 161914,
+    "sha256": "172C8AEA1B3A8AE82F67138E44DA252E88A07F191F1F55A25685137912859DB6",
+    "record_id": "20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40:remediation_input_manifest"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40/attempt.json",
+    "bytes": 10068,
+    "sha256": "14DAAE3B2DB59D78074B35BE3704076927B42152F86AB0AE5B511F7DD93E6F34",
+    "record_id": "20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40:remediation_invocation"
+  },
+  "invocation_readback": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40/evidence/invocation-readback.json",
+    "bytes": 2462,
+    "sha256": "16295307C6562644BAC22D6ADC8C68A74CA468C694676B67DEB8FA30885C3E06",
+    "record_id": "20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40:remediation_invocation_readback"
+  },
+  "pre_result_readback": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40/checkpoint-0001.json",
+    "bytes": 4367,
+    "sha256": "F5F5D1693252AF007D172D568A296AA397BC58495CFBCE6E2AC62A7A651027E7",
+    "record_id": "20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40:remediation_pre_result_readback"
+  },
+  "helper": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40/evidence/continuation-helper.py",
+    "bytes": 55581,
+    "sha256": "40CAA467CF2691FE8DEBAF4C8DC616175B79D76AF28996BD15EDFABAEAAB4D75"
+  },
+  "final_audit": {
+    "report.md": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/report.md",
+      "bytes": 122315,
+      "sha256": "C72AF2A1761610365C36A249E8892B08C7A23BA2D9A7C1F47749C3BFEC796256"
+    },
+    "result.json": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/result.json",
+      "bytes": 37941,
+      "sha256": "CF073B8E08EDF728B6AB1B1CC300C842D3FEF15F512A084C85B7A7E8EF199222",
+      "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_result"
+    },
+    "evidence/audit-evidence.json": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/evidence/audit-evidence.json",
+      "bytes": 550499,
+      "sha256": "9F0519457976E8D57E5C9F5A7C9DFFD7D03E5492529032D836F2FEAD66F00DF1",
+      "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_evidence"
+    },
+    "checkpoint-final.json": {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935/checkpoint-final.json",
+      "bytes": 5726,
+      "sha256": "9B00FE4F5100B7ECDCFA6774B249CDD57CC106079E63A172A45E2C245B955F3A",
+      "record_id": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_terminal_readback"
+    }
+  },
+  "audit_report_identity": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_report",
+  "audit_result_identity": "20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935:audit_result",
+  "audit_result_stored_SHA256_validation": "PASS",
+  "audit_result_report_binding": "PASS",
+  "evaluated_state": {
+    "repository_context": {
+      "canonical": "ScalableParimal/SupportIQ",
+      "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+      "head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+      "branch": "sdlc-framework-onboarding",
+      "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+      "status": "M .github/agents/sdlc-governance-remediation.agent.md\n M .github/skills/requirement-update/SKILL.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md\n M docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md\n M docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md\n M docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md\n M docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md\n M docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md\n M docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md\n M docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md\n?? docs/sdlc-records/",
+      "index": {
+        "path": ".git/index",
+        "bytes": 10274,
+        "sha256": "51D40838E46A8C974CD8D5B034AF87A2F170EC592D0C5CC8C57890100A8748B6"
+      }
+    },
+    "source_manifest": [
+      {
+        "path": ".github/agents/corrective-change-decision.agent.md",
+        "bytes": 5163,
+        "sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D"
+      },
+      {
+        "path": ".github/agents/finding-investigation.agent.md",
+        "bytes": 4011,
+        "sha256": "BECE1D3F5C20DD10B975E1536BB816232A47C2B43FDAAD76B13C4328DA84B218"
+      },
+      {
+        "path": ".github/agents/governance-amendment-application.agent.md",
+        "bytes": 1636,
+        "sha256": "F9E76A0061A85D3DDCF7BA3AD0BAF62A67D6C05B7F1E4DB0EFDF4E4BD55BB06D"
+      },
+      {
+        "path": ".github/agents/implementation-plan-verification.agent.md",
+        "bytes": 3180,
+        "sha256": "9F3960FA0E7E159DA0823E4CD03067CF6CC64C2E7FEFBCAD08D697663FFCF844"
+      },
+      {
+        "path": ".github/agents/implementation-planning.agent.md",
+        "bytes": 3989,
+        "sha256": "D3E7912AC5AF6468CC45B46B767547A75BAECBB548EA32FA14D83D5E5BBACCE5"
+      },
+      {
+        "path": ".github/agents/implementation-review.agent.md",
+        "bytes": 3995,
+        "sha256": "36E3E29521B0605BDBB76BC1FA90D053E596DFBD27CF76085E0CBDBB0C162297"
+      },
+      {
+        "path": ".github/agents/implementation-verification.agent.md",
+        "bytes": 3559,
+        "sha256": "52BF4AB894920110DD5219D9233EF91F8ED384DEB833559C96EF064B8BE65994"
+      },
+      {
+        "path": ".github/agents/implementation.agent.md",
+        "bytes": 3459,
+        "sha256": "0DB61A40276EC947CAC483DA68006805CC482179CB7E2009DF237E267640E7EC"
+      },
+      {
+        "path": ".github/agents/independent-governance-review.agent.md",
+        "bytes": 1284,
+        "sha256": "1CD8CCC4A96EFA64D4AA3B64DDDB2874F2337A45301B6B953033FC9016A9812E"
+      },
+      {
+        "path": ".github/agents/independent-governance-verification.agent.md",
+        "bytes": 1393,
+        "sha256": "ECD11EFE7F0078FE0B258DE819C8E473A3CF3EC674C8999E49F04194D62B8958"
+      },
+      {
+        "path": ".github/agents/portability-assessment.agent.md",
+        "bytes": 1875,
+        "sha256": "5FB6F0F8C8331CA88A925A2192EB8D07319E62D83BF84926BA232D67483FBD26"
+      },
+      {
+        "path": ".github/agents/requirement-analysis-verification.agent.md",
+        "bytes": 2992,
+        "sha256": "F108557731314BF0211FFE149BABBB89322DB5F832C19B3CDC37989327702E38"
+      },
+      {
+        "path": ".github/agents/requirement-analysis.agent.md",
+        "bytes": 2777,
+        "sha256": "EF3D141E77A44FD963A586194657EDD08BF7CD32F3018148C3A44C33065B89DF"
+      },
+      {
+        "path": ".github/agents/sdlc-governance-audit.agent.md",
+        "bytes": 2325,
+        "sha256": "66E669A820290D99C398E932F3DFA8848740C26B6ABFD07E2294B36116197488"
+      },
+      {
+        "path": ".github/agents/sdlc-governance-remediation.agent.md",
+        "bytes": 49225,
+        "sha256": "404AF9126BC310AEA79BA7616AB8E25C0AD5EE7F48B360F1AF515EA4DC9F942F"
+      },
+      {
+        "path": ".github/agents/sdlc-process-orchestrator.agent.md",
+        "bytes": 97823,
+        "sha256": "048DA0B64B162638A113D9049EF845F4530CBE9556345C0C8C7E7E202FBF23B3"
+      },
+      {
+        "path": ".github/skills/corrective-change-decision/SKILL.md",
+        "bytes": 10999,
+        "sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3"
+      },
+      {
+        "path": ".github/skills/finding-investigation/SKILL.md",
+        "bytes": 10312,
+        "sha256": "800D316A3AA97BFB3B2A3581FE16F8474C6DA2A199E3EB9CF397D3B7B2081448"
+      },
+      {
+        "path": ".github/skills/governance-amendment-application/SKILL.md",
+        "bytes": 2000,
+        "sha256": "D471B3A59A9581D5DB108B837E7CB9571540DA029139385EF3D2C9055EB4D2C1"
+      },
+      {
+        "path": ".github/skills/implementation/SKILL.md",
+        "bytes": 8448,
+        "sha256": "849F840F616335255534ACFD8B4D4554BCCE183776D55D7EEF92ED2A11129FC2"
+      },
+      {
+        "path": ".github/skills/implementation-plan-verification/SKILL.md",
+        "bytes": 6941,
+        "sha256": "0C28F8DBDCF6E8C1166E7BF56987F96507F1954450536C1C79CAA58DA05B04BB"
+      },
+      {
+        "path": ".github/skills/implementation-planning/SKILL.md",
+        "bytes": 8217,
+        "sha256": "4BC61C58EA01D8DAB1914FE30C4B83B6BA04E4DD71050B3017A42C07D7971F94"
+      },
+      {
+        "path": ".github/skills/implementation-review/SKILL.md",
+        "bytes": 8349,
+        "sha256": "98E8F4B9BA60986B366BF67C6739D35F2F795126B18BCA8146B10E864A8E2C29"
+      },
+      {
+        "path": ".github/skills/implementation-verification/SKILL.md",
+        "bytes": 8481,
+        "sha256": "F0161829F3EA90E91CBFB733824FEE6F4250029A871A79E5B3515694DF34E5FC"
+      },
+      {
+        "path": ".github/skills/independent-governance-review/SKILL.md",
+        "bytes": 1990,
+        "sha256": "1E5DDB5BC37E7F8531635D6C28B052B6BFE2645B7C42FB79BCA9A2E4E7329A76"
+      },
+      {
+        "path": ".github/skills/independent-governance-verification/SKILL.md",
+        "bytes": 1973,
+        "sha256": "26FBFC8E4495F33C4E92F843CFFFBC476ABD42D931D201EA9E75EC986E62E270"
+      },
+      {
+        "path": ".github/skills/portability-assessment/SKILL.md",
+        "bytes": 2607,
+        "sha256": "4098E4C679985E3713E9E2E8F01A7B2A664590D341D2F211F360BCDB5FF7038A"
+      },
+      {
+        "path": ".github/skills/requirement-analysis/SKILL.md",
+        "bytes": 5662,
+        "sha256": "F5A40ED08CD7DFB52B906FE4A046B721BB6A84B5B2D28037BB780C48BDE143B7"
+      },
+      {
+        "path": ".github/skills/requirement-analysis-verification/SKILL.md",
+        "bytes": 6417,
+        "sha256": "5FD4B6F9A795DE3A2DDD256444BA340B54CBA486CD0AF10A598F9E76BEF7BC3D"
+      },
+      {
+        "path": ".github/skills/requirement-update/SKILL.md",
+        "bytes": 7566,
+        "sha256": "290CC575B16FA794A80D5469B22C4B7632FA89A72ABE0BE90D130D2654162758"
+      },
+      {
+        "path": ".github/skills/sdlc-governance-audit/SKILL.md",
+        "bytes": 47538,
+        "sha256": "50FBD8B326E6AAE8E50F9437E56C58E6ADEA01C73982516CA8CC0D1826E084D2"
+      },
+      {
+        "path": "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md",
+        "bytes": 28121,
+        "sha256": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203"
+      },
+      {
+        "path": "docs/ai/guidelines/FINDING_INVESTIGATION_GUIDELINES.md",
+        "bytes": 14928,
+        "sha256": "14844FB1FA9865AB870CA1E3E8A50CD319756B2C8EA45231199B09368CC31BD2"
+      },
+      {
+        "path": "docs/ai/guidelines/GOVERNANCE_AMENDMENT_APPLICATION_GUIDELINES.md",
+        "bytes": 5890,
+        "sha256": "D7C97C0C58EE8EEF35B953CCF1067943779017558B2C958726279C3382C4F790"
+      },
+      {
+        "path": "docs/ai/guidelines/IMPLEMENTATION_GUIDELINES.md",
+        "bytes": 18889,
+        "sha256": "8D5EB40FBD7A7A67BF3BB35A3B9921AF5EC1DA8AB915FA1456223445E2F92DD4"
+      },
+      {
+        "path": "docs/ai/guidelines/IMPLEMENTATION_PLAN_VERIFICATION_GUIDELINES.md",
+        "bytes": 20917,
+        "sha256": "E177732877B5B720978EC5C4312B3035CA6C3E9B4F0A19ECFF0EFAADA88F4BF8"
+      },
+      {
+        "path": "docs/ai/guidelines/IMPLEMENTATION_PLANNING_GUIDELINES.md",
+        "bytes": 18111,
+        "sha256": "34D70CBF5CC9969BDC07859AC0916DBB7BB741C07A322464DE12F244FB3F926F"
+      },
+      {
+        "path": "docs/ai/guidelines/IMPLEMENTATION_REVIEW_GUIDELINES.md",
+        "bytes": 14157,
+        "sha256": "AE87137C108670A032387EE52D202440416AF800B10951C3934DACD1D2645F03"
+      },
+      {
+        "path": "docs/ai/guidelines/IMPLEMENTATION_VERIFICATION_GUIDELINES.md",
+        "bytes": 12323,
+        "sha256": "53334F00DD2D10AD1E4A13E0DBBCAA54C48846948CEF6C4219D9DB398636D9A7"
+      },
+      {
+        "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+        "bytes": 5718,
+        "sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902"
+      },
+      {
+        "path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+        "bytes": 5773,
+        "sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8"
+      },
+      {
+        "path": "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md",
+        "bytes": 8422,
+        "sha256": "6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88"
+      },
+      {
+        "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+        "bytes": 16826,
+        "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+      },
+      {
+        "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_VERIFICATION_GUIDELINES.md",
+        "bytes": 17352,
+        "sha256": "469EDCBAEC0816DF59048F06E50A52E0989BD4313B2470C7B3B7E1C958122C3E"
+      },
+      {
+        "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+        "bytes": 12269,
+        "sha256": "D265AA4EFC1D55E870BFC1D453059B11830116AE2E908C39CAD4BC52826C8850"
+      },
+      {
+        "path": "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md",
+        "bytes": 3873,
+        "sha256": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7"
+      },
+      {
+        "path": "docs/ai/prompts/FINDING_INVESTIGATION_PROMPT.md",
+        "bytes": 3596,
+        "sha256": "7550968BAAD60A9214C1E1C7E5476D6270EF99FE3D17E4F85E5D20CAD26D8175"
+      },
+      {
+        "path": "docs/ai/prompts/GOVERNANCE_AMENDMENT_APPLICATION_PROMPT.md",
+        "bytes": 2380,
+        "sha256": "A79DC98DF3842E42A11E02F4D9FABFEC0D2C6EC5A160AECA171EE78C7542A80D"
+      },
+      {
+        "path": "docs/ai/prompts/IMPLEMENTATION_PLAN_VERIFICATION_PROMPT.md",
+        "bytes": 2469,
+        "sha256": "0E6CDDF8264AB82B3592F417A8F27D193D43B01F80116F3AA6806750CB06FAD7"
+      },
+      {
+        "path": "docs/ai/prompts/IMPLEMENTATION_PLANNING_PROMPT.md",
+        "bytes": 2273,
+        "sha256": "0B59816CE459EFE1A2BDDC7E22E43264F1DA19DA991F2750ADC3E8020359BAF7"
+      },
+      {
+        "path": "docs/ai/prompts/IMPLEMENTATION_PROMPT.md",
+        "bytes": 2310,
+        "sha256": "22C1E53BA93361D3CFB5815C8074AC69E670D4379CD4EF2615CFABFD0577DA57"
+      },
+      {
+        "path": "docs/ai/prompts/IMPLEMENTATION_REVIEW_PROMPT.md",
+        "bytes": 1406,
+        "sha256": "541E921C13A113E60E626458E2D8365846E03BF89CA5920F609531FB453A6B68"
+      },
+      {
+        "path": "docs/ai/prompts/IMPLEMENTATION_VERIFICATION_PROMPT.md",
+        "bytes": 1971,
+        "sha256": "37D85F8A95A78C603C5B43853706725BF17E419946C160A3A84D914BE591CA05"
+      },
+      {
+        "path": "docs/ai/prompts/INDEPENDENT_GOVERNANCE_REVIEW_PROMPT.md",
+        "bytes": 1312,
+        "sha256": "9D01635FABC7AAB12A2C16F7C7C17E8B185E4CA4E87193E5E38808231CF5CC08"
+      },
+      {
+        "path": "docs/ai/prompts/INDEPENDENT_GOVERNANCE_VERIFICATION_PROMPT.md",
+        "bytes": 1326,
+        "sha256": "BA7592B3AEB09C579EB166EA528E5450A18E6838FC31C2C8BC216877D529254B"
+      },
+      {
+        "path": "docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md",
+        "bytes": 1573,
+        "sha256": "1E4BDE2D46758989CB26B943258F0F86C138B7A4BE5E7CEE162F201C85D45C09"
+      },
+      {
+        "path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+        "bytes": 2171,
+        "sha256": "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"
+      },
+      {
+        "path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_VERIFICATION_PROMPT.md",
+        "bytes": 2718,
+        "sha256": "696A1F949FFDDE6883E0FB563C6BD74F52AD217A5839591063229A54A84582D8"
+      },
+      {
+        "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+        "bytes": 2845,
+        "sha256": "0677A918CAC19E87C30B9CFA33EF167DE44219ECA5BD39CF3C3FA24D97599496"
+      },
+      {
+        "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+        "bytes": 4629,
+        "sha256": "A947610DC0BE33DCFF0F9CDFD794273B1BC90561CEF7EDA25CCF5AE417A37810"
+      },
+      {
+        "path": "docs/ai/request/FINDING_INVESTIGATION_REQUEST.md",
+        "bytes": 1854,
+        "sha256": "836F79EE60357C502A2181E8CB4B04D500C351219358E484C0639A9FD275C120"
+      },
+      {
+        "path": "docs/ai/request/GOVERNANCE_AMENDMENT_APPLICATION_REQUEST.md",
+        "bytes": 3145,
+        "sha256": "2E0C1E05659093C2E6FE61D1EB88DB4588074E8B1A71453522D2965F964203A5"
+      },
+      {
+        "path": "docs/ai/request/IMPLEMENTATION_PLAN_VERIFICATION_REQUEST.md",
+        "bytes": 2877,
+        "sha256": "07C21B7221D9F997AA0EE26277D4B02BDEBAB7E6CEC745BA2A5DE9DA7B8FDDF8"
+      },
+      {
+        "path": "docs/ai/request/IMPLEMENTATION_PLANNING_REQUEST.md",
+        "bytes": 2168,
+        "sha256": "1144F2D29334F8ED659B1BDA5420E3E60C99E7E52735449F8B5651E146C278EE"
+      },
+      {
+        "path": "docs/ai/request/IMPLEMENTATION_REQUEST.md",
+        "bytes": 2604,
+        "sha256": "094535F4D3441DBF828CAB02B5076EFFBF846D81875E9300B26E9D72822EE9BA"
+      },
+      {
+        "path": "docs/ai/request/IMPLEMENTATION_REVIEW_REQUEST.md",
+        "bytes": 2384,
+        "sha256": "0259E007FB826FBD4A4089FD680DFB089803587519C7AE8DA56BE19AD8D9AFD5"
+      },
+      {
+        "path": "docs/ai/request/IMPLEMENTATION_VERIFICATION_REQUEST.md",
+        "bytes": 2631,
+        "sha256": "2F5FB17EF01B9FA523FB42E0EDC492694CF8F09C70E9D47177990337B206F4DD"
+      },
+      {
+        "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+        "bytes": 2098,
+        "sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA"
+      },
+      {
+        "path": "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+        "bytes": 2076,
+        "sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97"
+      },
+      {
+        "path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+        "bytes": 2108,
+        "sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208"
+      },
+      {
+        "path": "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+        "bytes": 322,
+        "sha256": "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275"
+      },
+      {
+        "path": "docs/ai/request/REQUIREMENT_ANALYSIS_VERIFICATION_REQUEST.md",
+        "bytes": 892,
+        "sha256": "1E5700BCD74531672C34592B29B74AC2BAF946B9B6F44E65A52A4DF2B8179C4B"
+      },
+      {
+        "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+        "bytes": 1823,
+        "sha256": "58A9274BA48C6F8C77C86B1BB09B9D4CB38172F6925774F73C0DA8EAAAAF3CA6"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+        "bytes": 54243,
+        "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+        "bytes": 30926,
+        "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+        "bytes": 89025,
+        "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+      }
+    ],
+    "all_529_input_bytes_and_pathset_unchanged": true
+  },
+  "scope": {
+    "expected": 52,
+    "found": 52,
+    "audited": 52,
+    "actual_source_inventory": 76,
+    "mechanism_groups": 7
+  },
+  "counts": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 0,
+    "Low": 0,
+    "Ambiguities": 0,
+    "Broken References": 0,
+    "Missing Governance Controls": 0,
+    "Unsupported Governance Controls": 0
+  },
+  "mechanisms": [
+    {
+      "group": "Governance Audit",
+      "expected": true,
+      "present": true,
+      "assessed": true,
+      "outcome": "PASS",
+      "runtime_applicability": "INVOKED — current evidence assessed"
+    },
+    {
+      "group": "Governance Remediation",
+      "expected": true,
+      "present": true,
+      "assessed": true,
+      "outcome": "PASS",
+      "runtime_applicability": "INVOKED — current evidence assessed"
+    },
+    {
+      "group": "SDLC Process Orchestration",
+      "expected": true,
+      "present": true,
+      "assessed": true,
+      "outcome": "PASS",
+      "runtime_applicability": "NOT APPLICABLE — not invoked"
+    },
+    {
+      "group": "SDLC Portability Assessment",
+      "expected": true,
+      "present": true,
+      "assessed": true,
+      "outcome": "PASS",
+      "runtime_applicability": "NOT APPLICABLE — not invoked"
+    },
+    {
+      "group": "Governance Amendment Application",
+      "expected": true,
+      "present": true,
+      "assessed": true,
+      "outcome": "PASS",
+      "runtime_applicability": "INVOKED — current evidence assessed"
+    },
+    {
+      "group": "Independent Governance Verification",
+      "expected": true,
+      "present": true,
+      "assessed": true,
+      "outcome": "PASS",
+      "runtime_applicability": "INVOKED — current evidence assessed"
+    },
+    {
+      "group": "Independent Governance Review",
+      "expected": true,
+      "present": true,
+      "assessed": true,
+      "outcome": "PASS",
+      "runtime_applicability": "INVOKED — current evidence assessed"
+    }
+  ],
+  "findings": [],
+  "unresolved_items": [],
+  "blockers": [],
+  "next_permitted_process": "STOP. Optional separate attributable Human prospective adoption of exact unchanged candidate three-Master baseline under Traceability 42; separately adopt product root before separately initiated Portability Assessment or product-process records. No other stage starts here.",
+  "downstream_handoff_path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T162238Z-28a7c86b-114f-4d7f-8520-f09000a0df40/handoff.md",
+  "downstream_handoff_status": "Presentation to be published after this result exists; not a prerequisite or future hash claim",
+  "master_baseline_adopted": false,
+  "product_root_adopted": false,
+  "human_acceptance_claimed": false,
+  "framework_human_approval_claimed": false,
+  "other_stage_started": false,
+  "product_orchestrator_invoked": false,
+  "portability_invoked": false,
+  "source_writes": false,
+  "upstream_or_history_writes": false,
+  "staging_commit_push": false,
+  "publication_order": "Earlier actual Audit result -> closure evidence -> canonical final Remediation report -> independent report/evidence readback -> this bound result -> later presentation handoff/checkpoint",
+  "publication_time": "Exact filesystem publication time not captured; created_at_utc describes record preparation only",
+  "limitations": [
+    "Procedural read-only boundaries, not an enforced filesystem sandbox.",
+    "No exhaustive trusted event log or coordinated source lock.",
+    "Endpoint fingerprints cannot exclude transient or same-principal tampering.",
+    "Authenticated platform Human message IDs/times not exposed; not invented.",
+    "No exact filesystem publication timestamp claimed; ordered operation/readback evidence is used.",
+    "This continuation validates existing Audit bindings and closure; it is not a new complete Audit or a runtime test of uninvoked mechanisms."
+  ]
+}

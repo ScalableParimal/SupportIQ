@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd:checkpoint",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+  "creator": "20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd",
+  "role": "Governance Amendment Application",
+  "process": "Governance Amendment Application",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle_number": 1,
+  "finding_id": "GOV-AUD-20261102-001",
+  "created_at_utc": "2026-11-02T09:35:11.080382+00:00",
+  "clock_basis": "Host UTC record preparation sample, not publication time",
+  "sequence": 2,
+  "boundary": "Fresh independent preflight readback and 2010 all-binding rechecks PASS before exact attachment publication",
+  "invocation": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/attempt.json",
+    "bytes": 106025,
+    "sha256": "CB800999F16029447ECED6EB4178BB813EF7E93F852AFFC7886790435A45AA29"
+  },
+  "preflight": {
+    "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T092357Z-ef6258d2-8754-40d8-bf30-34f22c3ccfbd/evidence/preflight-evidence.json",
+    "bytes": 805198,
+    "sha256": "29A80628417F01D6BAA41DED684EC384D07D4F1F389512988E79DB33C5D85A51"
+  },
+  "independent_readback": {
+    "process_pid": 79220,
+    "hash_bytes_strict_full_object_serialize_parse": "PASS"
+  },
+  "actual_substantive_paths": [],
+  "preexisting_files": 302,
+  "unfinished": [
+    "Exact approved no-overwrite attachment",
+    "Application evidence/report, independent readback and terminal result"
+  ],
+  "blockers": [],
+  "pending_gate": "After success only: separate Human-started independent Verification",
+  "safe_continuation": "Exact attachment only; fresh ABSENT check immediately before rename; no rollback"
+}

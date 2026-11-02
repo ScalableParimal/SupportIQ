@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "record_type": "coordination_independent_readback",
+  "record_id": "20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565:checkpoint-0001",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565",
+  "cycle_id": "GOV-REMEDIATION-PROSPECTIVE-001",
+  "cycle": 1,
+  "creator": {
+    "role": "SDLC Governance Remediation",
+    "actor_identity": "local-coordination-invocation:20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565"
+  },
+  "process": "Bounded Governance Remediation continuation",
+  "created_at_utc": "2026-11-02T10:18:57.222009+00:00",
+  "clock_basis": "Host UTC record preparation, not publication time",
+  "outcome": "PASS",
+  "operation": "Separate fresh PowerShell/Python readback after report/evidence/handoff publication and before terminal result",
+  "validated_outputs": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/report.md",
+      "bytes": 19130,
+      "sha256": "0E819BDD31747BA24037C89130D1A25A8E642A7EB0BBF9DF267C34DBD815C768"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/attachments/validation.json",
+      "bytes": 55730,
+      "sha256": "0F7EEC40394147298283F62EDBF75E5F386AA3CA4AD55880D97FC695A3468B3F"
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261102T101503Z-5b64dd0c-2466-47bc-ad65-ff4979343565/attachments/investigation-handoff.md",
+      "bytes": 7361,
+      "sha256": "59436AEE6D74EC483B89B62F190D6330B85241CB3359D126EFED31EEC43627B3"
+    }
+  ],
+  "all_checked_binding_occurrences": 581,
+  "source_files_unchanged": 76,
+  "prior_record_files_unchanged": 264,
+  "pathset_and_status_unchanged": true,
+  "unresolved_templates": false,
+  "literal_backtick_n": false,
+  "pending_gate": "Separate fresh Human Finding Investigation initiation for GOV-AUD-20261102-002 only",
+  "result_not_yet_published": true
+}

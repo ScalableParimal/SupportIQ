@@ -1,0 +1,190 @@
+{
+    "schema_version":  "sdlc-governance-remediation-result/v1",
+    "record_type":  "sdlc_process_result",
+    "record_identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319:result",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319",
+    "process":  "SDLC Governance Remediation",
+    "actor":  "SDLC Governance Remediation Agent",
+    "created_at_utc":  "2026-10-31T07:26:58.3981326Z",
+    "execution_termination":  "completed",
+    "remediation_status":  "PAUSED - PENDING FINDING INVESTIGATION START",
+    "remediation_cycle_id":  "GOV-REMEDIATION-PROSPECTIVE-001",
+    "cycle_number":  1,
+    "cycle_admitted":  true,
+    "cycle_basis":  "explicit Human scope decision (conversational provenance); prospective; historical records evidence only",
+    "cycle_subjects":  [
+                           "GOV-001",
+                           "GOV-002"
+                       ],
+    "preflight":  "PASS",
+    "current_audit_outcome":  "CANNOT COMPLETE AUDIT",
+    "current_audit_findings":  [
+
+                               ],
+    "verification_review_scope":  "Verification PASS and Review PASS apply to the historical correction scope only",
+    "downstream_dispatched":  [
+
+                              ],
+    "next_permitted_process":  "Finding Investigation, only after a separate fresh explicit Human stage-start; no process dispatched",
+    "handoff_binding":  {
+                            "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/attachments/finding-investigation-handoff.md",
+                            "identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319:finding-investigation-handoff",
+                            "byte_count":  32245,
+                            "sha256":  "52D85A212E9820C8F4D33E2F28C0135CC19F424E54A448ADBB9E87AEE4069548",
+                            "role":  "own Finding Investigation request and Remediation handoff (not a stage-start)"
+                        },
+    "report_binding":  {
+                           "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/report.md",
+                           "identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319:report",
+                           "byte_count":  38450,
+                           "sha256":  "D734F1C1C79808BCCDACCB80E2AE9F923159D8B3E126AD75DE7B7C74927F3247",
+                           "role":  "own canonical report"
+                       },
+    "evidence_bindings":  [
+                              {
+                                  "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/attempt.json",
+                                  "identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319",
+                                  "byte_count":  9643,
+                                  "sha256":  "7FDFCA6293642AC7B4F059C5C330021EE4BD563C7A84EDDC6377AF18213709C7",
+                                  "role":  "own attempt"
+                              },
+                              {
+                                  "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/evidence/remediation-cycle-evidence.json",
+                                  "identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319:remediation-cycle-evidence",
+                                  "byte_count":  58700,
+                                  "sha256":  "ADD8246DAC6AC423DC950A840465B492937A883816CB3D698B9E2C6979C97980",
+                                  "role":  "own preflight, admission and binding evidence"
+                              },
+                              {
+                                  "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/checkpoint-0001.json",
+                                  "identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319:checkpoint-0001",
+                                  "byte_count":  1851,
+                                  "sha256":  "D69BDD8A35EF8EC9A0AA844BB2BEAE713736C3BAA9825DEE0E1B3BA9C22B3F14",
+                                  "role":  "own preflight and admission checkpoint"
+                              },
+                              {
+                                  "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/checkpoint-0002.json",
+                                  "identity":  "20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319:checkpoint-0002",
+                                  "byte_count":  3595,
+                                  "sha256":  "A11274D46179B244E41EAE062F4A0C2F454152917A04EE21E216BC45663C13A5",
+                                  "role":  "own pre-result checkpoint"
+                              }
+                          ],
+    "audit_input_bindings":  [
+                                 {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report-revision-0002.md",
+                                     "identity":  "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report-revision-0002",
+                                     "byte_count":  65217,
+                                     "sha256":  "0ACCEBB7508C403B0057CCCF3519584755CBDE2E3297631E802D1E0064BD3715",
+                                     "role":  "canonical final Audit report (per result-correction-0001)"
+                                 },
+                                 {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/result.json",
+                                     "identity":  "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:result",
+                                     "byte_count":  27174,
+                                     "sha256":  "8568839BBAA176B463E2B0AA8D4075619186F40E08094825AE1D7527FEBE814E",
+                                     "role":  "original immutable Audit terminal result; read with correction"
+                                 },
+                                 {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/result-correction-0001.json",
+                                     "identity":  "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:result-correction-0001",
+                                     "byte_count":  3957,
+                                     "sha256":  "E50CE23A4234F0F9D977ECFB558CA6DB053A20042ED581C1747B12C572C8F2DF",
+                                     "role":  "append-only Audit result report-binding correction"
+                                 },
+                                 {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/evidence/audit-evidence.json",
+                                     "identity":  "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:audit-evidence",
+                                     "byte_count":  57558,
+                                     "sha256":  "C232F99598EC3E0DABC8E96ABD1AAD46C97C9456FC888A2F84FC9A8ED01E8116",
+                                     "role":  "Audit canonical source/evidence manifest"
+                                 },
+                                 {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/attempt.json",
+                                     "identity":  "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:attempt",
+                                     "byte_count":  11996,
+                                     "sha256":  "C18FD67D41D8C3EEBF57CE72F45043359702CB70D2945B58C0F012A641597AFE",
+                                     "role":  "Audit invocation"
+                                 },
+                                 {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report.md",
+                                     "identity":  "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report",
+                                     "byte_count":  53210,
+                                     "sha256":  "D150F4EC3561B98D2C10B63F621A1923E0039849166E7D21986D8B68E0F495A5",
+                                     "role":  "superseded original Audit report (retained)"
+                                 },
+                                 {
+                                     "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc/report-revision-0001.md",
+                                     "identity":  "20261031T045913Z-f7f6c686-0a12-4dc2-b5b3-ca0eaa9f1ffc:report-revision-0001",
+                                     "byte_count":  64068,
+                                     "sha256":  "28BAD9718EC2DADEA75565CCF73A8C75DEF021EC4810E4755C9DF8416C61D9DE",
+                                     "role":  "superseded Audit report revision (retained)"
+                                 }
+                             ],
+    "prior_attempt_bindings":  [
+                                   {
+                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/attempt.json",
+                                       "identity":  "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:attempt",
+                                       "byte_count":  5312,
+                                       "sha256":  "D2DD8C21CE9DD9663273D80755F0AC9C02EADA9E301C3B1F122B0F3255B4C855",
+                                       "role":  "prior valid PAUSED reconciliation attempt (retained; no cycle admitted)"
+                                   },
+                                   {
+                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/checkpoint-0001.json",
+                                       "identity":  "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:checkpoint-0001",
+                                       "byte_count":  1323,
+                                       "sha256":  "CFFBDCA68DE101B57829B9200C2404A1E955BD18CAF1B8BBBD03F15A6C290BC3",
+                                       "role":  "prior valid PAUSED reconciliation attempt (retained; no cycle admitted)"
+                                   },
+                                   {
+                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/checkpoint-0002.json",
+                                       "identity":  "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:checkpoint-0002",
+                                       "byte_count":  2243,
+                                       "sha256":  "C33691B6E2D1093AF24200D9A209283575A594430D876161CDDC816FABAAED64",
+                                       "role":  "prior valid PAUSED reconciliation attempt (retained; no cycle admitted)"
+                                   },
+                                   {
+                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/report.md",
+                                       "identity":  "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:report",
+                                       "byte_count":  30920,
+                                       "sha256":  "3490457FFE188B41321C7CF0BB769C4C1A9FB901723B1699FCD062ABCB17F872",
+                                       "role":  "prior valid PAUSED reconciliation attempt (retained; no cycle admitted)"
+                                   },
+                                   {
+                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/result.json",
+                                       "identity":  "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:result",
+                                       "byte_count":  7206,
+                                       "sha256":  "23F4EFF4D8417566F1D68014BDDC566ECD0098D0064D73AD4334B259AE1B4314",
+                                       "role":  "prior valid PAUSED reconciliation attempt (retained; no cycle admitted)"
+                                   },
+                                   {
+                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491/evidence/remediation-preflight-evidence.json",
+                                       "identity":  "20261031T055257Z-e79cdb07-de38-42b5-9b9c-2e6bb7305491:remediation-preflight-evidence",
+                                       "byte_count":  46594,
+                                       "sha256":  "9406E494E5F515DBFC31A5F7E7E339F0B38E65575CAFBD4CDFBAAC543F45C6E3",
+                                       "role":  "prior valid PAUSED reconciliation attempt (retained; no cycle admitted)"
+                                   },
+                                   {
+                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031053750Z-5a67f304-e4e5-4045-8721-235a47779233/attempt.json",
+                                       "identity":  "20261031053750Z-5a67f304-e4e5-4045-8721-235a47779233:attempt",
+                                       "byte_count":  7743,
+                                       "sha256":  "C9E9498A1E7451902413AEFF24F61B0FB9C0B0CD5CDA049598877439CC3C5FC4",
+                                       "role":  "invalid/incomplete predecessor Remediation attempt (retained unchanged; no valid cycle)"
+                                   },
+                                   {
+                                       "path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T045348Z-a8d815b9-c331-44ca-b9b1-cc5ea5bdbde6/attempt.json",
+                                       "identity":  "20261031T045348Z-a8d815b9-c331-44ca-b9b1-cc5ea5bdbde6:attempt",
+                                       "byte_count":  10227,
+                                       "sha256":  "729D2D63663C369AE4B31134BDD440E66B3E0B6DD5EA05E5EE03075F4696111E",
+                                       "role":  "failed Audit attempt, malformed JSON (preserved unchanged)"
+                                   }
+                               ],
+    "human_scope_decision_ref":  {
+                                     "recorded_in":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261031T072633Z-4c6c7de5-037e-49d1-a594-97b7ef0c5319/attempt.json",
+                                     "text":  "I admit historical GOV-001 and GOV-002 as subjects of a new prospective Governance Remediation cycle under Work ID 0061148a-1b62-4d25-adff-e7f2318dbfad; prior records are historical evidence only, no source changes are assumed, and no Audit criteria are waived",
+                                     "provenance":  "conversational only"
+                                 },
+    "no_change_disposition_note":  "A lawful no-change disposition exists in the Corrective Change Guideline (7.1/7.2) and, if later decided, would leave no application to verify or review; a fresh complete Audit is still required; no Audit PASS guaranteed.",
+    "read_only_statement":  "No governance source, prior record or product artifact modified; only this actor own records and handoff published."
+}

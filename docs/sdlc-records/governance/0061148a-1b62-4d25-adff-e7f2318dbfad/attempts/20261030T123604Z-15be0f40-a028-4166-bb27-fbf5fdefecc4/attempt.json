@@ -1,0 +1,73 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_attempt",
+    "record_identity":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4",
+    "attempt_id":  "20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4",
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "process":  "SDLC Governance Audit",
+    "actor":  {
+                  "designated_identity":  "SDLC Governance Audit Agent (Copilot SDK invocation)",
+                  "current_environment_identity":  "INT-SCL-010\\Parimal",
+                  "actor_role_source":  ".github/agents/sdlc-governance-audit.agent.md"
+              },
+    "status":  "started",
+    "created_at_utc":  "2026-10-30T12:36:04.0250142Z",
+    "repository":  {
+                       "canonical":  "ScalableParimal/SupportIQ",
+                       "origin":  "https://github.com/ScalableParimal/SupportIQ.git",
+                       "root":  "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+                       "head_commit":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                       "working_tree":  "clean"
+                   },
+    "persistence":  {
+                        "adopted_root":  "docs/sdlc-records/governance",
+                        "attempt_path":  "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T123604Z-15be0f40-a028-4166-bb27-fbf5fdefecc4/attempt.json",
+                        "output_scope":  "Only this actor-owned attempt, required checkpoints, canonical Governance Audit report, result, and necessary evidence for this Work ID."
+                    },
+    "authorization":  {
+                          "source":  "GitHub issue comment",
+                          "issue_url":  "https://github.com/ScalableParimal/SupportIQ/issues/3",
+                          "comment_permalink":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6522916236",
+                          "comment_id":  6522916236,
+                          "author_login":  "ScalableParimal",
+                          "author_id":  226102895,
+                          "author_association":  "OWNER",
+                          "created_at_utc":  "2026-10-30T12:31:51Z",
+                          "decision_body_sha256":  "CCD3904C70DE6692A310CC7E451460A1188D0121DB8C29E12FA935CF9C78C3C9",
+                          "authorized_commit":  "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c",
+                          "authorized_stage":  "complete Governance Audit only",
+                          "limits":  [
+                                         "No product-artifact inspection",
+                                         "No product-process records",
+                                         "No remediation",
+                                         "No source changes",
+                                         "No change approval",
+                                         "No independent verification or review",
+                                         "No other process start",
+                                         "No initial Master-baseline adoption"
+                                     ]
+                      },
+    "master_sources":  [
+                           {
+                               "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                               "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md"
+                           },
+                           {
+                               "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                               "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md"
+                           },
+                           {
+                               "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C",
+                               "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md"
+                           }
+                       ],
+    "preflight":  {
+                      "external_decision_resolved":  true,
+                      "repository_and_commit_match":  true,
+                      "masters_match":  true,
+                      "working_tree_clean":  true,
+                      "work_id_collision_checks":  "No path or structured-record matches in governance or product persistence roots; no existing governance Work ID directory.",
+                      "current_publication_capability":  "Current Windows token is in Authenticated Users; inherited ACL on docs/sdlc-records grants Modify; PowerShell publication route available; evaluated without a test write.",
+                      "prior_attempt_for_work_id":  false
+                  }
+}

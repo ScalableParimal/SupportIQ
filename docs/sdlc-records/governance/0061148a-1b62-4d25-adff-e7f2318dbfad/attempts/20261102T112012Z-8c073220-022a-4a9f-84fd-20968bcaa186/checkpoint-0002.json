@@ -1,0 +1,34 @@
+{
+    "schema_version":  1,
+    "work_id":  "0061148a-1b62-4d25-adff-e7f2318dbfad",
+    "attempt_id":  "20261102T112012Z-8c073220-022a-4a9f-84fd-20968bcaa186",
+    "checkpoint":  "0002",
+    "record_type":  "independent_process_final_readback",
+    "readback_process_id":  91664,
+    "readback_utc":  "2026-11-02T11:26:55.8841250Z",
+    "report":  {
+                   "path":  "report.md",
+                   "bytes":  14010,
+                   "sha256":  "3CB571524C2BD6D6C0954A6FD7BAE3DBA08FD05DF515530198015D2FEBC0FD82"
+               },
+    "evidence":  {
+                     "path":  "attachments/review-evidence.json",
+                     "bytes":  20818,
+                     "sha256":  "D6077C81EDB1F7EE583AB8550DE880A510F8B2952A847537C040FA7726CD0758"
+                 },
+    "result":  {
+                   "path":  "result.json",
+                   "bytes":  5262,
+                   "sha256":  "03A4319FDCE56FF8D1894246637A8C0D0A0173AED3B5EF9B707ED0FB6B6F9C86"
+               },
+    "checks":  {
+                   "report_hash_matches_result":  true,
+                   "evidence_hash_matches_result":  true,
+                   "result_outcome":  true,
+                   "evidence_workid":  true,
+                   "report_has_outcome":  true,
+                   "result_native_parse":  true,
+                   "input_set_no_changes":  true
+               },
+    "outcome":  "CANNOT COMPLETE"
+}

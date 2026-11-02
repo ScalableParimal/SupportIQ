@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_identity": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55:checkpoint-0002",
+  "work_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "feature_id": "0061148a-1b62-4d25-adff-e7f2318dbfad",
+  "attempt_id": "20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55",
+  "creator": "Governance Amendment Application current direct invocation",
+  "role_definition": ".github/agents/governance-amendment-application.agent.md",
+  "created_at_utc": "2026-10-30T14:35:25.617516Z",
+  "process": "Governance Amendment Application",
+  "sequence": 2,
+  "last_confirmed_boundary": "All five exact base bytes, unique fragments, byte semantics and expected-after calculations revalidated; all five non-mutating write-capable write/delete-denying handles held together before first source write",
+  "source_effects": [],
+  "before_byte_evidence": [
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P1.before.bin",
+      "sha256": "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E",
+      "bytes": 1554
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P2.before.bin",
+      "sha256": "0495F43A8AFC8ECBBB7BA59FB0FEBCAF0A3276EB95EF16AE3B907636690645A7",
+      "bytes": 5579
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P3.before.bin",
+      "sha256": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+      "bytes": 5524
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P4.before.bin",
+      "sha256": "19950013220CB93E88FFBA0606763E8FA93A8A60950E57360C50F9ACFCC9132A",
+      "bytes": 2007
+    },
+    {
+      "path": "docs/sdlc-records/governance/0061148a-1b62-4d25-adff-e7f2318dbfad/attempts/20261030T143302Z-51b92d83-6dec-49aa-8bb7-3849581e9d55/evidence/P5.before.bin",
+      "sha256": "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79",
+      "bytes": 2029
+    }
+  ],
+  "all_targets": [
+    {
+      "operation": "P1",
+      "finding_id": "GOV-001",
+      "target_path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+      "base_sha256": "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E",
+      "expected_after_sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+      "expected_after_bytes": 2108,
+      "old_utf8": "- Work ID / request identity: [stable repository-unique ID or not assigned]",
+      "new_utf8": "- Work ID / request identity: [stable repository-unique Work ID; 'not assigned' is draft-only]\n\nAn executable request requires a reserved stable Work ID under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 30.1. Continue an existing authorized same-work reservation unchanged. For new work, allocate and collision-check the ID before invocation; the first authorized no-overwrite attempt.json publication itself reserves the ID, so no separate prior reservation record is required. 'not assigned' is draft-only and blocks invocation and record publication. All other invocation and publication prerequisites remain required.\n",
+      "actual_base_bytes": 1554,
+      "actual_base_sha256": "3D828F54C3540244F29321A73D86BD1BAB5A983B91626A747BAEE88AA32D407E",
+      "calculated_after_sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+      "calculated_after_bytes": 2108,
+      "file_identity": {
+        "device": 7972088113085002079,
+        "inode": 16325548650536701
+      }
+    },
+    {
+      "operation": "P2",
+      "finding_id": "GOV-002",
+      "target_path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_VERIFICATION_GUIDELINES.md",
+      "base_sha256": "0495F43A8AFC8ECBBB7BA59FB0FEBCAF0A3276EB95EF16AE3B907636690645A7",
+      "expected_after_sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8",
+      "expected_after_bytes": 5773,
+      "old_utf8": "The exact proposal and Human Approval must expressly acknowledge these material residual risks.",
+      "new_utf8": "The exact proposal must disclose these material residual risks, and the Verification or Review report and evidence must retain that disclosure. Residual-risk acknowledgement is disclosure, not an additional Human Approval validity condition; all existing approval bindings remain required.",
+      "actual_base_bytes": 5579,
+      "actual_base_sha256": "0495F43A8AFC8ECBBB7BA59FB0FEBCAF0A3276EB95EF16AE3B907636690645A7",
+      "calculated_after_sha256": "D82D8CD812DF36A9F1D049485107986C5BEA8685F87595A84BD7A9239D3B25F8",
+      "calculated_after_bytes": 5773,
+      "file_identity": {
+        "device": 7972088113085002079,
+        "inode": 10696049116212546
+      }
+    },
+    {
+      "operation": "P3",
+      "finding_id": "GOV-002",
+      "target_path": "docs/ai/guidelines/INDEPENDENT_GOVERNANCE_REVIEW_GUIDELINES.md",
+      "base_sha256": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+      "expected_after_sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+      "expected_after_bytes": 5718,
+      "old_utf8": "The exact proposal and Human Approval must expressly acknowledge these material residual risks.",
+      "new_utf8": "The exact proposal must disclose these material residual risks, and the Verification or Review report and evidence must retain that disclosure. Residual-risk acknowledgement is disclosure, not an additional Human Approval validity condition; all existing approval bindings remain required.",
+      "actual_base_bytes": 5524,
+      "actual_base_sha256": "982AA75859BD3650B950918EC9C468BA93CCEB9562205B53BF50AC7D930C2E2B",
+      "calculated_after_sha256": "257E8F8FBCEFD31A8211CC2C24930D2E83783C1D358659A4BC2F26ADF547D902",
+      "calculated_after_bytes": 5718,
+      "file_identity": {
+        "device": 7972088113085002079,
+        "inode": 5066549581999401
+      }
+    },
+    {
+      "operation": "P4",
+      "finding_id": "GOV-002",
+      "target_path": "docs/ai/request/INDEPENDENT_GOVERNANCE_VERIFICATION_REQUEST.md",
+      "base_sha256": "19950013220CB93E88FFBA0606763E8FA93A8A60950E57360C50F9ACFCC9132A",
+      "expected_after_sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97",
+      "expected_after_bytes": 2076,
+      "old_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; EXPRESSLY DISCLOSED IN EXACT HUMAN APPROVAL",
+      "new_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; DISCLOSE IN EXACT PROPOSAL AND THIS ACTOR'S REPORT/EVIDENCE; NOT AN ADDITIONAL HUMAN APPROVAL VALIDITY CONDITION",
+      "actual_base_bytes": 2007,
+      "actual_base_sha256": "19950013220CB93E88FFBA0606763E8FA93A8A60950E57360C50F9ACFCC9132A",
+      "calculated_after_sha256": "9F2C3B2379DD5E9371DC5A2BE1028CB7BD918EDF6FA81557BC266EE63AA49B97",
+      "calculated_after_bytes": 2076,
+      "file_identity": {
+        "device": 7972088113085002079,
+        "inode": 12947848930008509
+      }
+    },
+    {
+      "operation": "P5",
+      "finding_id": "GOV-002",
+      "target_path": "docs/ai/request/INDEPENDENT_GOVERNANCE_REVIEW_REQUEST.md",
+      "base_sha256": "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79",
+      "expected_after_sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+      "expected_after_bytes": 2098,
+      "old_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; EXPRESSLY DISCLOSED IN EXACT HUMAN APPROVAL",
+      "new_utf8": "ENDPOINT HASHES DO NOT PROVE NO TRANSIENT WRITE OR SAME-PRINCIPAL TAMPERING; DISCLOSE IN EXACT PROPOSAL AND THIS ACTOR'S REPORT/EVIDENCE; NOT AN ADDITIONAL HUMAN APPROVAL VALIDITY CONDITION",
+      "actual_base_bytes": 2029,
+      "actual_base_sha256": "2E27B04BBB2AA2F50B6A73F23DC91E653A75223B6CCF3FEA3D6DF377A34F1B79",
+      "calculated_after_sha256": "0809F2006DF7485033DC340571BD390AFF04E0A31C2B545DA98A96F132CC77BA",
+      "calculated_after_bytes": 2098,
+      "file_identity": {
+        "device": 7972088113085002079,
+        "inode": 19421773394350479
+      }
+    }
+  ],
+  "full_input_manifest_recheck": "All prior tracked/untracked paths and hashes outside this exact own attempt unchanged; no Git lock or index change; branch/origin/HEAD unchanged",
+  "concurrency_boundary": "Windows OPEN_EXISTING GENERIC_READ|GENERIC_WRITE FILE_SHARE_READ acquired on all five targets; held until all five write/flush/readbacks and operation evidence completed. Does not provide a whole-repository exclusive interval or trusted exhaustive event history.",
+  "unfinished_work": "Apply exact approved replacements P1-P5; stop on first failure without rollback; publish actual readback and final records",
+  "safe_continuation_prerequisites": "All five handles remain held; bases and after values unchanged; publication succeeds",
+  "blockers": []
+}
