@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "record_type": "attempt",
+  "record_id": "20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e:invocation",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft requirement discovery/scope establishment; not one implementation feature",
+  "attempt_id": "20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e",
+  "process": "SDLC Process Orchestrator bounded Q1 publication recovery only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "basis": "Same actual assigned actor; current OS identity and tools rechecked, not session-title or cryptographic identity proof"
+  },
+  "created_at_utc": "2026-11-03T03:55:46.3181149Z",
+  "clock_basis": "System clock during preparation; not publication or native Human decision time",
+  "authorization": {
+    "actual_quote": "Authorize bounded publication recovery for the existing Q1 decision only; preserve final records and start no later process",
+    "source": "Actual current parent user conversation",
+    "available_message_context_time": "2026-11-03T09:25:09.425+05:30",
+    "native_authenticated_message_id": null,
+    "native_decision_time": null,
+    "scope": "One bounded publication recovery retry only; exact original Q1 partials in retained original actor-owned scope, own linked recovery records; preserve finals; no source/Requirement Update/Verification/Analysis/other stage/runtime",
+    "retry_basis": "New attempt identity follows O10.2/O24 for failed publication recovery; original incomplete invocation/failure remains historical; no replacement of published records"
+  },
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "branch": "sdlc-framework-onboarding",
+    "head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "source_state": "76 hidden-inclusive framework plus two target fingerprints match; no tracked/staged diff; known own records/partials only"
+  },
+  "predecessor": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attempt.json",
+    "bytes": 6473,
+    "sha256": "9CE5F352DAB440D7AD9714E841D0EE84E11C973D908BED102B342062B160041B",
+    "status": "Valid nonterminal original invocation; publication failed before evidence/report finalization; no previous success claimed"
+  },
+  "bases": [
+    {
+      "relative_to_original_attempt": "attachments/20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json.partial",
+      "bytes": 7603,
+      "sha256": "238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5",
+      "final": "attachments/20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json",
+      "final_absence": "Observed before recovery; must recheck immediately before atomic rename"
+    },
+    {
+      "relative_to_original_attempt": "report.md.partial",
+      "bytes": 6655,
+      "sha256": "08ED668988AAF2C533225163A308811ED969B2F06175D79307B0BB578CA09C8B",
+      "final": "report.md",
+      "final_absence": "Observed before recovery; must recheck immediately before atomic rename"
+    }
+  ],
+  "qualification": {
+    "current_checks": "Current Python 3.14.7 on Windows; OS identity/root ACL checked; administrative Git/read/hash/strict-JSON checks; prior canonical result/reference hashes and 78 inputs PASS",
+    "cause_evidence": "Original .NET ReadAllBytes DirectoryNotFoundException; recovery normal Python read also FileNotFoundError. Same exact file exists/read/hash/full JSON via absolute \\\\?\\ prefix. GetFileAttributesW normal 282-char path returns FFFFFFFF error 3; extended 286-char path returns 0x20 error 0. Confirms normal-path API handling limit, not missing bytes; precise process/registry long-path configuration not asserted.",
+    "full_content": "Extended-path read printed/inspected all actual Q1 boundary, allowed operations and rationale; matches supplied substantive words/markdown; no byte-authenticated transport whitespace claim",
+    "publication_route": "Own .partial files via apply_patch; Python absolute Windows extended path, strict UTF-8/native JSON selftests, exact base hashes and final absence, flush/os.fsync, Windows os.rename no-overwrite atomic same-directory; fresh independent readback bytes/hash/JSON identities",
+    "one_attempt_limit": "On any further publication failure, stop and report; no unlimited retry, os.replace, destination overwrite or path relocation",
+    "restrictions": "No secrets/live/customer data/unrelated repositories/dependency cache reads; no source write probes or product/runtime commands"
+  },
+  "output_scope": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/",
+  "retained_original_scope": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/",
+  "gate": {
+    "subject": "Q1 clarification publication recovery only",
+    "formal_approval": false,
+    "later_process_start": false,
+    "remaining": "Q2-Q10 pending; no Q2 presented or policy selected"
+  },
+  "requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+    "sha256": "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5",
+    "approved": false,
+    "plan": null
+  },
+  "related_records": "Canonical adoption, assessment and Analysis references retained in unchanged original invocation and prior Orchestrator results; independently validated current fingerprints",
+  "task_context": "No Plan-local task; bounded record recovery only",
+  "expected_result": "Machine-derived recovery receipt plus own canonical report/result binding original recovered evidence/report; actual success or failure without fake prior completion",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "publication_time": null
+}

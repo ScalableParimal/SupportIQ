@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "record_type": "result",
+  "record_id": "20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1:result",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1",
+  "process": "SDLC Process Orchestrator Q2 clarification recording only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual response transcriber, not decision-maker",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-03T04:12:33.563229+00:00",
+  "clock_basis": "Python UTC at preparation; not publication/native Human decision time",
+  "gate": {
+    "subject": "Existing Human clarification Q2",
+    "formal_approval": false,
+    "process_initiation": false,
+    "remaining": "Q3-Q10 pending"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+      "bytes": 50777,
+      "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attempt.json",
+      "bytes": 6775,
+      "sha256": "0054C1039E1D5F312CBEEF1BC186DB92FB649460C75D01262B23C960EFF2C881"
+    }
+  ],
+  "task_context": "No Plan-local task; no later process execution",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "exact_publication_time": null,
+  "execution_status": "COMPLETED",
+  "completion_scope": "Actual Q2 clarification transcription only",
+  "outcome": "Q2_RECORDED_WITH_CROSS_FIELD_WORDING_CONFIRMATION_PENDING",
+  "report": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/report.md",
+    "bytes": 5764,
+    "sha256": "529E17BED0DE64FD707F943B3E0A993C194D21BFD2A38D94170A71EC53D61145"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/checkpoint-0001.json",
+    "bytes": 10930,
+    "sha256": "8F5B5AA5593C35818911CD30094F84D5B574773C5CFE8E935394EE3FFE244378"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attempt.json",
+    "bytes": 6775,
+    "sha256": "0054C1039E1D5F312CBEEF1BC186DB92FB649460C75D01262B23C960EFF2C881"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+    "bytes": 50777,
+    "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+  },
+  "q2_recorded": true,
+  "remaining_questions": "Q3-Q10 pending",
+  "cross_field_issue": {
+    "subject": "Q2 cross-field overdue-review deferral wording",
+    "earlier_field_provenance": [
+      "transitions",
+      "authority_matrix"
+    ],
+    "dedicated_policy_provenance": [
+      "rereview_policy",
+      "rationale"
+    ],
+    "observation": "Earlier fields defer exact overdue-review rules to Q3; dedicated policy and final rationale explicitly decide the 180-day rule and defer other stale/conflicting/insufficient criteria beyond that policy.",
+    "treatment": "Both source fields preserved faithfully. Dedicated explicit policy recorded as supplied, not erased or silently overridden. Before applying changed Requirement text, parent should confirm whether earlier deferral wording was intended to reserve only other Q3 criteria.",
+    "human_confirmation": null,
+    "no_automatic_resolution": true
+  },
+  "q3_presented": false,
+  "requirement_approved": false,
+  "requirement_updated": false,
+  "later_process_started": false,
+  "source_modified": false,
+  "inputs": {
+    "framework": 76,
+    "targets": 2,
+    "path_set": "PASS",
+    "git_source_staging": "Unchanged"
+  },
+  "publication_order": "Own invocation first/readback; evidence; receipt; report; result last",
+  "limitations": "Exact raw transport preserved but no authenticated Human whitespace/message ID/native time; no implicit policy selection/precedence; local persistence not remote backup"
+}

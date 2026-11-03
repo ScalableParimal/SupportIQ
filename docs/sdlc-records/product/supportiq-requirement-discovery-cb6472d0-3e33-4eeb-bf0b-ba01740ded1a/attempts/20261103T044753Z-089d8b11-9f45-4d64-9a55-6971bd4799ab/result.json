@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "record_type": "result",
+  "record_id": "20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab:result",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab",
+  "process": "SDLC Process Orchestrator Q2 confirmation and Q3 recording only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-03T04:50:35.322895+00:00",
+  "clock_basis": "Python system UTC at preparation, not publication/native Human decision time",
+  "gate": {
+    "subject": "Existing Human clarification Q2 confirmation/Q3",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Q4-Q10 pending"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q2-confirm.json",
+      "bytes": 3319,
+      "sha256": "5CCC2416A8F01DB94CEE0B59F615955F142482EA973DF86679831B99246009E4"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+      "bytes": 85919,
+      "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/result.json",
+      "bytes": 4757,
+      "sha256": "253E174510AC8661E1C0670F48F8493E93E0DEC6817F5E1711829876EB0BDFA5"
+    }
+  ],
+  "task_context": "No Plan-local task; no new Analysis or later process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "exact_publication_time": null,
+  "execution_status": "COMPLETED",
+  "outcome": "Q2_CONFIRMATION_AND_Q3_RECORDED_WITH_SCOPE_CLARIFICATION_PENDING",
+  "completion_scope": "Actual supplied confirmation and Q3 transcription only",
+  "report": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/report.md",
+    "bytes": 6537,
+    "sha256": "071278AD8F1BCCD1FF71643F31E53A2352049E16D7653331B250FD8187C371D4"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/checkpoint-0001.json",
+    "bytes": 14130,
+    "sha256": "ECFA8F403F0AA3A61B01884ED374269BE0B09D2FF1EA98CF4C8A618A338A4D43"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attempt.json",
+    "bytes": 7101,
+    "sha256": "4323D577942D29EBA98236A17EE39A2D23682A54DD0860406D34B17C624919C5"
+  },
+  "q2_confirmation": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q2-confirm.json",
+    "bytes": 3319,
+    "sha256": "5CCC2416A8F01DB94CEE0B59F615955F142482EA973DF86679831B99246009E4"
+  },
+  "q3_evidence": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+    "bytes": 85919,
+    "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+  },
+  "q2_confirmation_recorded": true,
+  "q3_recorded": true,
+  "cross_field_scope_issue": {
+    "subject": "Automatic source-precedence selection versus Human flagged/excluded-content resolution",
+    "automatic_rule_source": {
+      "field": "conflict_insufficiency",
+      "quote": "Only explicitly established and approved precedence rules may resolve a conflict automatically."
+    },
+    "human_review_source": {
+      "field": "resolution",
+      "quote": "AI and automated system processes may collect evidence, generate flags, and recommend review actions but must never independently approve, resolve, or reinstate previously excluded knowledge."
+    },
+    "observation": "Both statements preserved. A possible distinction is ordinary selection among otherwise eligible sources versus final resolution/reinstatement of flagged/excluded content; this distinction is not adopted as a new policy by Orchestrator.",
+    "parent_confirmation_needed": "Before implementing/applying changed source, confirm that approved-rule automatic selection never closes flagged/excluded issues or reinstates excluded knowledge without authorized non-submitter Human review.",
+    "response": null,
+    "automatic_reinstatement_authorized_by_orchestrator": false
+  },
+  "remaining_questions": "Q4-Q10 pending",
+  "q4_asked": false,
+  "requirement_approved": false,
+  "source_modified": false,
+  "later_process_started": false,
+  "current_inputs": {
+    "framework": 76,
+    "targets": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head_branch_source_staging": "Unchanged"
+  },
+  "publication_order": "Own invocation first/readback; exact confirmation; full Q3 evidence; receipt; report; result last",
+  "limitations": "Native Human authenticated ID/time unavailable; raw transport integrity not byte-authenticated whitespace; no policy precedence or automatic reinstatement inferred"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "record_type": "evidence",
+  "record_id": "20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089:clarification-evidence",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft requirement discovery and scope establishment; not one implementation feature",
+  "attempt_id": "20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df",
+  "process": "SDLC Process Orchestrator clarification recording only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; transcriber of actually supplied Human response, not decision-maker"
+  },
+  "created_at_utc": "2026-11-03T03:51:34.1585099Z",
+  "clock_basis": "System-clock sample after invocation publication/readback, at evidence preparation; not original decision or publication time",
+  "gate": {
+    "subject": "Human clarification Q1: first demonstrable release integration boundary",
+    "question_locator": "Requirement Analysis report section 9 question 1; RA-A01/RA-C01/RA-M01",
+    "formal_requirement_approval": false,
+    "process_initiation": false,
+    "scope": "First demonstrable release only; future integration not permanently prohibited"
+  },
+  "source": {
+    "channel": "Actual current parent user conversation",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "human_attribution": "Current Human user; Parimal Shere / ScalableParimal as supplied in established context, not cryptographically authenticated conversation identity",
+    "available_message_context_time": "2026-11-03T09:20:25.468+05:30",
+    "native_authenticated_message_id": null,
+    "native_decision_time": null,
+    "transcription_authorization": "User explicitly requested recording the actual decision, allowed operations and rationale as linked own clarification evidence",
+    "whitespace_limit": "Userform transport flattened whitespace. Paragraph/line layout supplied in the current message is presentation. Substantive words and supplied markdown preserved; no byte-verbatim transport whitespace authentication claimed."
+  },
+  "actual_boundary": "Synthetic / local data only; no external connector or live / customer data will be used in the first version. But we may need external connector or live / customer data to be used in future. We will take this later.",
+  "actual_allowed_operations_response": "For the first demonstrable release, use synthetic/local demo data only. No live external CRM, ticketing system, customer database, email, or messaging connector is permitted.\nThe permitted read-only lookup operations are limited to:\n1. **Customer Lookup:** Search and retrieve synthetic customer records belonging to the currently authorized tenant, including permitted customer profile and account summary fields.\n2. **Ticket Lookup:** Search, list, and retrieve synthetic support tickets belonging to the currently authorized tenant, including ticket details, status, category, priority, assigned agent, and relevant ticket history.\n3. **Knowledge Lookup:** Search and retrieve only approved and current Knowledge Base documents and relevant excerpts belonging to the currently authorized tenant.\n4. **Ticket Context Retrieval:** Retrieve authorized ticket and associated synthetic customer context for AI summarization, classification, and human-reviewed reply drafting.\nAll lookup operations must enforce tenant isolation, role-based authorization, bounded queries, appropriate pagination, timeouts, and auditable tool execution.\nThe following operations are explicitly prohibited:\n- Creating, updating, or deleting customer or ticket records through integration tools.\n- Changing ticket status, priority, assignment, or escalation automatically.\n- Sending emails, messages, or customer communications.\n- Writing back to any external business system.\n- Accessing real customer data or connecting to production external systems.\nAll demo records must be fictional and synthetic. Any future external connector or expanded data-access capability must require a separate Human-approved scope and authorization before implementation.\nThis decision applies only to the first demonstrable release and does not permanently prohibit future integrations.",
+  "actual_rationale": "The Synthetic/Local Data Only approach is selected for the first demonstrable release to keep the initial scope controlled, secure, and independently testable.\nThe primary objective of the first release is to validate SupportIQ's core capabilities, including tenant isolation, role-based authorization, Knowledge Base ingestion and approval, RAG-based retrieval, AI-assisted ticket intelligence, controlled tool execution, and human-reviewed responses.\nIntroducing live external integrations at this stage would add unnecessary dependencies on third-party systems, credentials, API permissions, network availability, and external data security. These dependencies could complicate development, testing, troubleshooting, and release validation before the core platform capabilities are established.\nUsing fictional and synthetic data allows repeatable testing, predictable evaluation scenarios, and safe demonstration without exposing real customer information or production business data.\nThis decision does not eliminate the read-only tool execution capability. SupportIQ will still demonstrate customer, ticket, and knowledge lookups using authorized synthetic/local data, with strict tenant isolation, role-based access controls, and audit logging.\nExternal CRM, ticketing, email, and messaging integrations are deferred to a future phase. Any such integration or expansion of data-access permissions will require separate Requirement Analysis, explicit Human approval, security assessment, and authorization before implementation.\nThis boundary is appropriate for the first demonstrable release while preserving the architectural flexibility to introduce controlled external integrations in future releases.",
+  "authority_limits": {
+    "human_clarification_only": true,
+    "requirement_approval": false,
+    "requirement_update": false,
+    "verification": false,
+    "process_start": false,
+    "implementation_runtime_authorization": false,
+    "acceptance": false,
+    "later_stage_authorized": false,
+    "prior_records_superseded_or_modified": false
+  },
+  "remaining_items": "Questions 2-10 remain unanswered; no fields, role permissions, lifecycle policy or future connector selected by Orchestrator",
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attempt.json",
+      "record_id": "20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df:invocation",
+      "bytes": 6473,
+      "sha256": "9CE5F352DAB440D7AD9714E841D0EE84E11C973D908BED102B342062B160041B"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/report.md",
+      "record_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7:report",
+      "sha256": "F3F1D8D830CA0254D843DED2E33353880E7DF4F4D3804E41CA33B36C558A5581",
+      "locator": "Section 9 question 1"
+    }
+  ],
+  "task_context": "Clarification evidence only; no Plan-local implementation task",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "publication_time": null
+}

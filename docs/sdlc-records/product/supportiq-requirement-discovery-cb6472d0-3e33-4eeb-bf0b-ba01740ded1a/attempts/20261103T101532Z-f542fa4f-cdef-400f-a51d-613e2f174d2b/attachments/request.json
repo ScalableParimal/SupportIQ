@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "record_type": "evidence",
+  "record_id": "20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b:actual-update-request",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b",
+  "process": "SDLC Process Orchestrator coordination-only Update request preparation and static applicability preflight",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "basis": "Actual assigned actor/current tools and OS identity, not session title or authenticated Human identity"
+  },
+  "created_at_utc": "2026-11-03T10:19:27.950467+00:00",
+  "clock_basis": "Python system UTC during record preparation; not native Human time or publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "subject": "Actual Human bounded Requirement Update request, executor designation and coordination-only preparation",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Exact Update initiation ABSENT; applicability preconditions checked by coordination only"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attempt.json",
+      "bytes": 63117,
+      "sha256": "22EB8A076951CD807F40ECC625140F0B7699C9ACAC6DC09B754C70CD342B444F"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/result.json",
+      "bytes": 16187,
+      "sha256": "789B4480814BC3A2A1369784C019AD254C1B734A20BC60D4982C6B8BE1E6054F"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/inputs.json",
+      "bytes": 68337,
+      "sha256": "3DDDEC0F517B45E416689671139983ECEE7001490F183EAB10CBCB77079DEB12"
+    }
+  ],
+  "task_context": "No approved Plan/local task; no new process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "source": {
+    "source": "Actual current Human parent conversation supplies inline retained tool-response and explicit form context",
+    "available_message_context_time": "2026-11-03T15:44:53.681+05:30",
+    "native_authenticated_message_id": null,
+    "native_decision_time": null,
+    "limit": "Supplied visible text/context only; original tool transport not independently retrieved/authenticated; no authenticated ID/time/whitespace claim; context time not decision/publication",
+    "bytes": 294,
+    "sha256": "45D58A1A8C010F06D3C16599AB52B9B0ACEB5BDE55889D88223304C588A8ED17"
+  },
+  "raw_received_wrapper": "User responded: update_request=request-update-and-prepare, executor_output=Accept this proposed executor and new-draft output boundary, scope_confirmation=Use the bounded scope and preservation requirements described above; stop before Update execution for a separate exact initiation approval.",
+  "actual_fields": {
+    "update_request": "request-update-and-prepare",
+    "executor_output": "Accept this proposed executor and new-draft output boundary",
+    "scope_confirmation": "Use the bounded scope and preservation requirements described above; stop before Update execution for a separate exact initiation approval."
+  },
+  "field_slices": {
+    "update_request": {
+      "marker_start": 16,
+      "start": 31,
+      "end": 59,
+      "exact_rendered_segment": "request-update-and-prepare, ",
+      "transport_suffix": ", ",
+      "utf8_byte_start": 31,
+      "utf8_byte_end": 59
+    },
+    "executor_output": {
+      "marker_start": 59,
+      "start": 75,
+      "end": 136,
+      "exact_rendered_segment": "Accept this proposed executor and new-draft output boundary, ",
+      "transport_suffix": ", ",
+      "utf8_byte_start": 75,
+      "utf8_byte_end": 136
+    },
+    "scope_confirmation": {
+      "marker_start": 136,
+      "start": 155,
+      "end": 294,
+      "exact_rendered_segment": "Use the bounded scope and preservation requirements described above; stop before Update execution for a separate exact initiation approval.",
+      "transport_suffix": "",
+      "utf8_byte_start": 155,
+      "utf8_byte_end": 294
+    }
+  },
+  "form_context": {
+    "designated_executor_publisher": "THIS PARENT AI ASSISTANT (not Orchestrator)",
+    "status": "Human designation accepted subject to receiving parent independently qualifying before own Requirement Update invocation and separate exact initiation",
+    "new_artifact": "docs/requirement/SupportIQ_Product_Requirements_Document_Clarified_Draft_v1.1.docx",
+    "output": "One new UNAPPROVED v1.1 DOCX plus executor's own records under same product Work ID",
+    "scope": "Original unapproved v1.0 plus Analysis and exact Q1-Q10/follow-ups/supersessions; preserve every original lineage, trace conflicts/reconciliation impacts, no defaults/omissions/approval claims; unresolved gates pending",
+    "boundary": "Coordination only; stop BEFORE Update execution; no canonical Request/source/new-DOCX changes; no new Portability or other process authorized"
+  },
+  "reconstruction": "PASS exact three fields/raw wrapper/suffixes/character-UTF8 offsets/native JSON equality",
+  "authority": {
+    "bounded_update_requested": true,
+    "executor_designated": "Parent AI assistant, not Orchestrator; no identity/session ID invented",
+    "coordination_preparation_authorized": true,
+    "Update_process_initiation": false,
+    "new_Portability_process_authorized": false,
+    "new_artifact_creation_now": false
+  }
+}

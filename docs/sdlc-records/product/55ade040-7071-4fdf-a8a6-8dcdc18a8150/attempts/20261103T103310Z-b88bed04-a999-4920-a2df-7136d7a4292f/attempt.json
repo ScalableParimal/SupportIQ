@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "record_type": "invocation",
+  "record_id": "20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f:invocation",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "feature": "SupportIQ bounded affected-dimension portability reassessment",
+  "attempt_id": "20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-assessor-b88bed04-a999-4920-a2df-7136d7a4292f",
+    "role": "SDLC Portability Assessment custom agent; current assigned executor, not Orchestrator",
+    "identity_basis": "Current assigned developer role and explicit Human designation; local actor identifier allocated for this invocation, not an authenticated platform actor ID",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "effective_os_sid": "S-1-5-21-2809803128-1021655904-3966773769-1002",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "session_basis": "get_current_session; session title is not actor authority"
+  },
+  "created_at_utc": "2026-11-03T10:33:10.923071+00:00",
+  "clock_basis": "System UTC sampled during attempt allocation/preparation, not Human decision time or publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "type": "Explicit bounded reassessment process initiation, not substantive approval",
+    "source": "Actual Human message in this current conversation",
+    "actual_response": "reassessment_initiation=approve-bounded-reassessment; read_publish_boundary=Authorize bounded static reads and the assessor's own new immutable attempt records under the previously adopted product persistence root; preserve all existing records; stop_conditions=Stop after the reassessment report and own-record publication.",
+    "human_native_decision_time": null,
+    "human_authenticated_account_for_this_message": null,
+    "scope": "Dimensions 2,5,6,7,8; unchanged evidence reuse for 1,3,4; preapproval clarification Update transition and affected future boundaries only",
+    "requirement_approval": false,
+    "requirement_update_start": false,
+    "possible_blocker_disposition": "No new disposition supplied; present recommendations to target-authorized Human for explicit applicability decision and rationale"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/inputs.json",
+      "bytes": 68337,
+      "sha256": "3DDDEC0F517B45E416689671139983ECEE7001490F183EAB10CBCB77079DEB12",
+      "role": "Complete path/bytes/SHA-256 input bindings: 114 prior product records, exact clarification candidates, 76 source framework and 2 target files, prior assessments and current contracts; incorporated by immutable reference"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/report.md",
+      "sha256": "D390F77A5CADF3BB551A4F2D0815A60F3D73F300BCCA79F01FCBB91AD37B5406"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/result.json",
+      "bytes": 13365,
+      "sha256": "391992F8589CF2889C542B29EDE44F5EC4D5FEAFBDCF0A2AC333B303C122A6FF"
+    }
+  ],
+  "task_context": "No approved Requirement or Plan; no implementation task. Separate from Requirement Update.",
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "branch": "sdlc-framework-onboarding",
+    "source_and_target": "Same repository-local framework and target, separately inventoried",
+    "working_tree": "Only existing untracked product discovery record directory reported by git status --short; no tracked modification",
+    "trigger": "Explicit Human-authorized bounded material-change reassessment following accumulated Q1-Q10 clarification and supersessions; no unexpected source-byte change detected",
+    "source_manifest": "related_records[0].framework_and_target_inventory.source_inventory (76 files)",
+    "target_manifest": "related_records[0].framework_and_target_inventory.target_inventory (README and original unapproved PRD)",
+    "additional_target_inputs": "related_records[0].all_prior_product_records and exact_decision_evidence_candidates, plus prepared coordination records explicitly bound by Human",
+    "comparison": "All 226 recursively referenced path/hash/length bindings in prepared inputs.json freshly checked, zero mismatch. Fresh hidden-inclusive os.walk of .github and docs/ai: exactly 76 files, zero missing/extra. No symlink directories encountered."
+  },
+  "qualification": {
+    "adopted_root": "docs/sdlc-records/product/",
+    "root_adoption": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+    "master_adoption": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503",
+    "current_applicability": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6594228907",
+    "adoption_resolution": "Fresh GitHub issue_read get_comments: all three exact comments authored ScalableParimal, user ID 226102895, author_association OWNER; full adopted paths/hashes/root and conditional current applicability read",
+    "master_baseline": "SupportIQ-Master-Baseline-001",
+    "master_hashes": {
+      "docs/ai/sdlc/SDLC_GOVERNANCE.md": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+      "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+      "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    },
+    "current_capabilities": "Current successful static native reads/hash/JSON parsing, repository identity/status, hidden-inclusive enumeration, get_current_session and fresh GitHub adoption resolution. Python 3.14 Windows native os.rename, fsync and O_EXCL available; same-filesystem exclusive .partial -> flush/fsync -> os.rename (Windows no-replace) -> fresh byte/hash/JSON readback route. No project code executed.",
+    "permissions": "Current whoami /user establishes OS user/SID. Get-Acl on existing Assessment attempts parent: owner INT-SCL-010\\Parimal, Authenticated Users Modify/Synchronize, Administrators and SYSTEM FullControl; os.access read/write/traverse True. Explicit Human own-record publication authorization, independent of OS permission.",
+    "attempt_check": "Existing Assessment Work ID retains two completed historical attempts; fresh attempt UUID/time, no existing own record. No retry/failure replacement. Qualification is current, not inferred from prior actor success.",
+    "publication_precondition": "Validate complete common metadata, all referenced hashes, exact Master hashes and destination scope before exclusive publication; readback before consequential assessment work"
+  },
+  "resolved_request": {
+    "canonical_template": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+    "values": "Executable invocation supplied by actual Human message and this record; canonical template left untouched",
+    "objective": "Assess bounded applicability of current framework to accumulated preapproval clarifications, a future one-new-unapproved-v1.1-DOCX Update, and affected future runtime boundaries",
+    "read_scope": ".github and docs/ai framework; prior assessment/adoptions/applicability; original PRD/README/initial Analysis; full Q1-Q10/follow-ups/supersessions and prepared manifests within named SupportIQ repository only",
+    "exclusions": "Credentials/private keys/live secret-bearing .env/customer data/unrelated repositories/dependency or build caches; no scripts/tests/build/runtime/workflows/source or PRD/framework edits/commit/push",
+    "execution_permission": "None for product execution. Static inspection/publication helpers only.",
+    "human_possible_blocker_authority": "Target-authorized Human Parimal Shere (ScalableParimal), repository OWNER established for adopted governance; current user supplies decisions through explicit interactive gate",
+    "output_scope": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f/",
+    "stop": "After own report/evidence/result publication. No nested agent, Orchestrator, Update, Verification, approval inference or parallel lifecycle."
+  }
+}

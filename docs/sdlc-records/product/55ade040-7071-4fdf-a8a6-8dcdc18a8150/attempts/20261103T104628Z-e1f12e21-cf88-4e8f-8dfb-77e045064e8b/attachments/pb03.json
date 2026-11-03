@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "record_type": "evidence",
+  "record_id": "20261103T104628Z-e1f12e21-cf88-4e8f-8dfb-77e045064e8b:actual-pb03-disposition",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "feature": "SupportIQ PB-03 record-only disposition continuation",
+  "attempt_id": "20261103T104628Z-e1f12e21-cf88-4e8f-8dfb-77e045064e8b",
+  "process": "SDLC Portability Assessment record-only continuation",
+  "creator": {
+    "identity": "portability-assessor-e1f12e21-cf88-4e8f-8dfb-77e045064e8b",
+    "role": "SDLC Portability Assessment; transcriber of actual Human response, not decision-maker",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-03T10:47:37.718253+00:00",
+  "clock_basis": "System UTC sampled during evidence preparation after invocation publication/readback, not native Human decision or publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "subject": "PB-03 applicability to exact bounded preapproval clarification-only Requirement Update",
+    "decision_kind": "Actual Human possible-blocker applicability disposition, not Requirement approval",
+    "separate_continuation_start": "approve-record-only-continuation",
+    "requirement_update_start": false,
+    "formal_requirement_approval": false
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261103T104628Z-e1f12e21-cf88-4e8f-8dfb-77e045064e8b/attempt.json",
+      "bytes": 7047,
+      "sha256": "D5B20DE982E83EE1CC4DFA230A48A11314AFA266F5FE3495E03D21CE8B4CC69F"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f/report.md",
+      "bytes": 30657,
+      "sha256": "DA5338E7F56E80024B0914A43D565D73A1064109A1EEDE22CE9CBA1582A52FED",
+      "locator": "Section 6 PB-03 exact question and pending state"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f/result.json",
+      "bytes": 8553,
+      "sha256": "392443028BDA908E16E396830656442D79731CFC66F5AC55D455DF8DCE62F2C7"
+    }
+  ],
+  "task_context": "No approved Requirement or Plan; no implementation task",
+  "source": {
+    "channel": "Actual current Human message explicitly providing the exact retained toolresponse and authorizing its record-only transcription",
+    "human_attribution": "Current Human user; Parimal Shere / ScalableParimal as supplied in established target-authority context",
+    "native_authenticated_message_id": null,
+    "native_decision_time": null,
+    "available_message_context_time": "2026-11-03T16:16:11.893+05:30",
+    "limits": "The provided wrapper is retained exactly as supplied in this message. Original Human/transport whitespace, native identity and native time are not authenticated. No new GitHub-posted PB-03 decision is claimed. OWNER adoption authority is separately resolved."
+  },
+  "raw_received_wrapper": "User responded: pb03_disposition=not-block-bounded-draft-update, rationale_conditions=PB-03 does not block the narrowly scoped, pre-approval Requirement Update.  The purpose is to reconcile the original PRD with the actual Human clarification decisions from Q1–Q10 and produce one new immutable, UNAPPROVED v1.1 draft.  The original PRD must remain unchanged, with complete traceability and historical lineage preserved. Only actual Human-confirmed decisions and explicitly recorded supersessions may be reflected as operative clarifications.  All unresolved requirements, permissions, retention policies, evaluation thresholds, schemas and runtime dependencies must remain explicitly pending or deferred. No assumptions or AI-generated decisions may be promoted to approved requirements.  This disposition does not authorize formal Requirement approval, implementation, deployment, runtime execution or release. All existing SDLC governance and approval gates remain mandatory., recording_continuation=approve-record-only-continuation",
+  "actual_fields": {
+    "pb03_disposition": "not-block-bounded-draft-update",
+    "rationale_conditions": "PB-03 does not block the narrowly scoped, pre-approval Requirement Update.  The purpose is to reconcile the original PRD with the actual Human clarification decisions from Q1–Q10 and produce one new immutable, UNAPPROVED v1.1 draft.  The original PRD must remain unchanged, with complete traceability and historical lineage preserved. Only actual Human-confirmed decisions and explicitly recorded supersessions may be reflected as operative clarifications.  All unresolved requirements, permissions, retention policies, evaluation thresholds, schemas and runtime dependencies must remain explicitly pending or deferred. No assumptions or AI-generated decisions may be promoted to approved requirements.  This disposition does not authorize formal Requirement approval, implementation, deployment, runtime execution or release. All existing SDLC governance and approval gates remain mandatory.",
+    "recording_continuation": "approve-record-only-continuation"
+  },
+  "reconstruction": {
+    "prefix": "User responded: ",
+    "ordered_field_names": ["pb03_disposition", "rationale_conditions", "recording_continuation"],
+    "assignment_separator": "=",
+    "field_separator": ", ",
+    "rule": "prefix + field_separator.join(name + assignment_separator + actual_fields[name] for name in ordered_field_names) equals raw_received_wrapper exactly, UTF-8 bytes included",
+    "validation": "Required before publication; final readback must repeat exact string and UTF-8-byte reconstruction and native JSON object validation",
+    "scope_limit": "Only reconstruction of supplied retained wrapper; not authentication of original conversation or tool transport"
+  },
+  "disposition_effect": {
+    "pb03_status": "ACTUAL HUMAN DISPOSITION RECORDED: not-block-bounded-draft-update",
+    "scope": "Only exact narrowly scoped preapproval one-new-immutable-UNAPPROVED-v1.1 clarification draft; original preserved; full traceability; only actual Human decisions/explicit supersessions operative; unresolved items remain pending/deferred",
+    "prior_pending_state": "Historical completed reassessment remains immutable; this linked record supplies actual later Human decision, not a rewrite or retroactive approval",
+    "pb01_pb02": "Existing dispositions and future boundary conditions unchanged; no extension or waiver",
+    "remaining": "Fresh exact Requirement Update initiation and receiving parent's independent qualification/invocation remain absent; all later gates mandatory",
+    "not_authorized": "Requirement approval, Update start, Verification, implementation, deployment, runtime execution or release"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7:checkpoint-0001",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft requirement discovery and scope establishment; not one implementation feature",
+  "actor": {
+    "identity": "requirement-analysis-actor-8dbff404-42b5-4f0b-b05d-15b85e25d2b7",
+    "role": "Requirement Analysis Agent"
+  },
+  "created_at_utc": "2026-11-03T03:09:54.0906288Z",
+  "clock_basis": "PowerShell UTC clock sampled at checkpoint preparation; not exact filesystem publication time",
+  "process": "Requirement Analysis",
+  "attempt_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7",
+  "checkpoint": {
+    "sequence": 1,
+    "phase": "pre-analysis invocation qualification and durable publication readback",
+    "authorization": "Fresh exact Human Process Initiation response was relayed in current parent-user context for this one Requirement Analysis invocation only; native message ID and decision time unavailable and not invented.",
+    "attempt_record": {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/attempt.json",
+      "record_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7:invocation",
+      "bytes": 12337,
+      "sha256": "B51FA09D46730FB693F290378D6BDA669E1E4FC29618E2C0704FE057FC7FF947",
+      "readback": "Separate read after same-directory two-argument File.Move; strict UTF-8 decode and JSON parse passed; record/work/attempt identity matched; exact readback byte length and SHA-256 captured."
+    },
+    "publication": {
+      "draft_method": "apply_patch created actor-owned attempt.json.partial",
+      "validation": "Strict UTF-8 and JSON parsed before publication; expected record_type, record_id, Work ID matched.",
+      "durability": "FileStream.Flush(true) succeeded before publication.",
+      "atomicity": "Same-filesystem/same-directory File.Move(source,destination) two-argument overload; destination checked absent, no overwrite semantics.",
+      "integrity": "Final attempt.json was independently reopened and exact bytes, SHA-256, JSON validity and record identity verified."
+    },
+    "pre_analysis_checks": {
+      "repository": "ScalableParimal/SupportIQ; branch sdlc-framework-onboarding; HEAD ae355f5d5d538f9751ff6f7919433bd442979b2c.",
+      "masters": "All three exact adopted SHA-256 fingerprints matched.",
+      "inventory": ".github and docs/ai hidden-inclusive inventory matched 76 previously bound framework paths/bytes/hashes; README and draft DOCX matched both target fingerprints; no restricted filenames encountered.",
+      "adoption": "GitHub issue #3 comments 6583261503, 6583299245 and 6594228907 independently read; author is ScalableParimal (ID 226102895), association OWNER. Current-applicability condition met by current exact fingerprint comparison.",
+      "permissions_and_capabilities": "Current active Requirement Analysis Agent role from assigned task instructions (not session title); OS identity and designated-scope ACL observed; source read, SHA-256, strict UTF-8/JSON, DOCX ZIP/XML capability and no-overwrite publication APIs checked.",
+      "source": "Requirement SHA-256 14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5; draft v1.0 September 2026."
+    },
+    "analysis_gate": "Established: first consequential analysis may begin. No downstream process, Requirement approval, Plan approval, implementation authorization, or acceptance is authorized."
+  },
+  "task_context": "Durable pre-analysis authorization, capability and invocation readback evidence for Requirement Analysis only."
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "record_type": "evidence",
+  "record_id": "20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e:q8-followup",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e",
+  "process": "SDLC Process Orchestrator Q8-C01 Human scope confirmation recording only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "basis": "Actual assigned actor/current tools and OS identity, not session title or authenticated Human identity"
+  },
+  "created_at_utc": "2026-11-03T09:36:26.314175+00:00",
+  "clock_basis": "Python system UTC during record preparation; not native Human time or publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "subject": "Existing Human Q8-C01 classification scope confirmation",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Q9-Q10 and Q8/prior explicitly pending gates"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/attempt.json",
+      "bytes": 53619,
+      "sha256": "C60C01EEB127939F98D072ABDF74EB1D93BB88083B921B6832F9121673C21452"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/result.json",
+      "bytes": 10296,
+      "sha256": "7A31150F9145FFF2A33688E421DE51AFDF66648094AFB4E4AB92D739E51108EB"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+      "bytes": 154418,
+      "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/attachments/q6-follow.json",
+      "bytes": 55842,
+      "sha256": "A0724887BEEF4DB24D4DDD03784B66B15CB7AD51675F38EEFAD48997511171A7"
+    }
+  ],
+  "task_context": "No approved Plan/local task; no new process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "source": {
+    "source": "Actual current Human parent conversation; user-supplied retained tool-response wrapper inline, not independently fetched original tool transport",
+    "available_message_context_time": "2026-11-03T15:05:07.331+05:30",
+    "native_authenticated_message_id": null,
+    "native_decision_time": null,
+    "limit": "Exact as visible in current supplied wrapper; no authenticated ID/time/original transport-whitespace claim; context time not decision/publication time",
+    "bytes": 907,
+    "sha256": "4A328C41993B14E79C46BDE3E32CBCC74DA697BCA57266FEBB2828D4CE028958"
+  },
+  "raw_received_wrapper": "User responded: classification_scope_confirmation=Confirm: preserve Q6's narrow draft/pending ingestion-classification permission, including authorized classification rationale/review evidence only; no authoritative answer, knowledge citation or knowledge-based routing eligibility, details=The restricted draft/pending classification permission is preserved as defined in Q6. Classification is strictly limited to authorized ingestion and review purposes, including AI-generated category suggestions, classification rationale and human review evidence. It does not constitute content approval or grant eligibility for authoritative answers, knowledge retrieval, citations or knowledge-based routing. Independent approval by an eligible non-submitter reviewer and all applicable tenant, lifecycle, validity and authorization controls remain mandatory. No additional permissions or exceptions are introduced.",
+  "actual_fields": {
+    "classification_scope_confirmation": "Confirm: preserve Q6's narrow draft/pending ingestion-classification permission, including authorized classification rationale/review evidence only; no authoritative answer, knowledge citation or knowledge-based routing eligibility",
+    "details": "The restricted draft/pending classification permission is preserved as defined in Q6. Classification is strictly limited to authorized ingestion and review purposes, including AI-generated category suggestions, classification rationale and human review evidence. It does not constitute content approval or grant eligibility for authoritative answers, knowledge retrieval, citations or knowledge-based routing. Independent approval by an eligible non-submitter reviewer and all applicable tenant, lifecycle, validity and authorization controls remain mandatory. No additional permissions or exceptions are introduced."
+  },
+  "field_slices": {
+    "classification_scope_confirmation": {
+      "marker_start": 16,
+      "start": 50,
+      "end": 283,
+      "exact_rendered_segment": "Confirm: preserve Q6's narrow draft/pending ingestion-classification permission, including authorized classification rationale/review evidence only; no authoritative answer, knowledge citation or knowledge-based routing eligibility, ",
+      "transport_suffix": ", ",
+      "utf8_byte_start": 50,
+      "utf8_byte_end": 283
+    },
+    "details": {
+      "marker_start": 283,
+      "start": 291,
+      "end": 907,
+      "exact_rendered_segment": "The restricted draft/pending classification permission is preserved as defined in Q6. Classification is strictly limited to authorized ingestion and review purposes, including AI-generated category suggestions, classification rationale and human review evidence. It does not constitute content approval or grant eligibility for authoritative answers, knowledge retrieval, citations or knowledge-based routing. Independent approval by an eligible non-submitter reviewer and all applicable tenant, lifecycle, validity and authorization controls remain mandatory. No additional permissions or exceptions are introduced.",
+      "transport_suffix": "",
+      "utf8_byte_start": 291,
+      "utf8_byte_end": 907
+    }
+  },
+  "reconstruction": "PASS: complete two fields/suffixes and full wrapper reconstruct identical supplied UTF-8 bytes; native JSON object equality",
+  "answered_clarification": {
+    "original_id": "Q8-C01",
+    "origin": {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/report.md",
+      "bytes": 7557,
+      "sha256": "B17275DD0B6097F10B864744D2EDA648E2673CE3BC605E0F273463F03E9714C3"
+    },
+    "origin_evidence": {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+      "bytes": 154418,
+      "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+    },
+    "status": "ANSWERED by actual Human supplied confirmation",
+    "scope": "Preserve Q6 narrow authorized draft/pending ingestion-classification rationale/review evidence only; no authoritative answer/knowledge retrieval/citation/knowledge-based routing eligibility, no content approval or new exception",
+    "conditions": "Independent eligible non-submitter approval; all applicable tenant/lifecycle/validity/authorization controls remain mandatory"
+  },
+  "pending_preconditions": {
+    "q8": [
+      "Numeric metric thresholds/sample sizes/coverage/confidence/P50-P95 boundaries-load-environment criteria require independent approval; no quality PASS",
+      "Exact named Product/Quality, Independent Release Approver, Security Owner, Engineering/QA and independent-review assignments/delegation",
+      "Approved versioned dataset/reference labels/rubric; exact response JSON schemas/roles/enums/fallback/null/error contracts before affected implementation/formal evaluation",
+      "Citation identity/display/link/excerpt/metadata contracts; retry counts/backoff/timeouts/circuit/recovery/log retention; exact manifest/evidence retention",
+      "PB-02 exact permissions/reads/operations/tenant-user boundaries/thresholds/security-evaluation evidence/independent approval before affected runtime/provider/live integration/release"
+    ],
+    "carried_forward": [
+      "Q5 lifecycle-specific approved retention schedules and legal/compliance technical gates",
+      "Q6 permission matrix/provisioning/processing-security/history-content policy",
+      "Q7 analytics fields/data retention/aggregation/export/deletion propagation",
+      "Q9-Q10 actual Analysis questions unresolved; all applicable SDLC formal approvals and fresh per-process interlocks retained"
+    ]
+  },
+  "genuine_material_issue_identified": null,
+  "preservation": "Original Q8/Q6/pending report/result remain immutable; new record answers Q8-C01 without silently revising originals",
+  "authority_limits": {
+    "requirement_approval": false,
+    "quality_pass": false,
+    "new_process_started": false,
+    "product_tests_executed": false,
+    "new_permission_or_exception": false,
+    "original_tool_transport_authenticated": false
+  }
+}

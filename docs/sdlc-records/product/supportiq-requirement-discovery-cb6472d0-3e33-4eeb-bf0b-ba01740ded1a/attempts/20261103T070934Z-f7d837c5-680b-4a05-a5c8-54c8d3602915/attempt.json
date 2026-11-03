@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "record_type": "attempt",
+  "record_id": "20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915:invocation",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915",
+  "process": "SDLC Process Orchestrator Q4 authority clarification transcription only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "basis": "Actual assigned actor/current tools and OS identity, not session title or authenticated Human identity"
+  },
+  "created_at_utc": "2026-11-03T07:11:07.485585+00:00",
+  "clock_basis": "Python system UTC during record preparation; not native Human time or publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "subject": "Existing Q4-C01/Q4-C02 Human authority clarification",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Q5-Q10 pending"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/result.json",
+      "bytes": 6925,
+      "sha256": "F150516BC9A30E7EC6F70555B112E5FFC9CA9776EF90C1264016DE280F507D49"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q4.json",
+      "bytes": 82530,
+      "sha256": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB"
+    }
+  ],
+  "task_context": "No approved Plan/local task; no new process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "authorization": {
+    "channel": "Actual current parent Human conversation and explicitly designated full response file",
+    "available_message_context_time": "2026-11-03T12:39:18.141+05:30",
+    "native_authenticated_message_id": null,
+    "native_decision_time": null,
+    "limit": "Exact retained transport-text integrity, not authenticated Human byte-whitespace, message ID or native time",
+    "instruction_excerpt": "Preserve raw received text, exact full fields offsets/reconstruction/actual limited attribution in own new append-only linked Q4 clarification under same Work ID/ongoing coordination scope.",
+    "scope": "Record both actual Q4 authority clarifications/full rationale and deferrals only; no Q5 question or policy selected",
+    "basis": "Current explicit actual-response transcription instruction within ongoing coordination; no new governed process or reused process-start"
+  },
+  "source": {
+    "path": "C:\\Users\\Parimal\\AppData\\Local\\Temp\\1793689729678-copilot-tool-output-8f95573a4a7342229b33c55424f95aa8.txt",
+    "bytes": 12937,
+    "sha256": "82B6FE8782A45C16AB793FA2AB1E03013FE9107310C27DEA768E6723074BCD11",
+    "fields": [
+      "tenant_admin_authority",
+      "bootstrap_recovery_authority",
+      "rationale_deferrals"
+    ]
+  },
+  "predecessor": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/result.json",
+    "bytes": 6925,
+    "sha256": "F150516BC9A30E7EC6F70555B112E5FFC9CA9776EF90C1264016DE280F507D49"
+  },
+  "repository": {
+    "framework": 76,
+    "targets": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head_branch_source_staging": "Unchanged",
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "branch": "sdlc-framework-onboarding",
+    "draft": {
+      "path": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+      "bytes": 49936,
+      "sha256": "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5"
+    },
+    "approved_requirement": null,
+    "plan": null
+  },
+  "adoptions": [
+    {
+      "url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503",
+      "author": {
+        "id": 226102895,
+        "login": "ScalableParimal"
+      },
+      "authority_evidence": "Current GitHub OWNER association",
+      "created_at": "2026-11-02T17:06:37Z",
+      "body_sha256": "793837552BF522C98C0CA3A70EC8C3DF9857409213D5F24ED041307FD2DB241A"
+    },
+    {
+      "url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+      "author": {
+        "id": 226102895,
+        "login": "ScalableParimal"
+      },
+      "authority_evidence": "Current GitHub OWNER association",
+      "created_at": "2026-11-02T17:08:13Z",
+      "body_sha256": "44AFFB8132E00D0318A7E08D924F7C56CFE97AB29B6CF922DD1A91B32FA3B1C0"
+    },
+    {
+      "url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6594228907",
+      "author": {
+        "id": 226102895,
+        "login": "ScalableParimal"
+      },
+      "authority_evidence": "Current GitHub OWNER association",
+      "created_at": "2026-11-03T02:53:03Z",
+      "body_sha256": "1BFE1F7F4B5A14664D8E1909C7D0F32F512351617C1900DF5422BD9713C9A101"
+    }
+  ],
+  "input_qualification": {
+    "framework": 76,
+    "targets": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head_branch_source_staging": "Unchanged"
+  },
+  "current_qualification": {
+    "sources": "Current Artifact Governance 33.1, Traceability 30.1/common metadata/publication and three Master fingerprints checked against current 78-input manifest",
+    "identity_permissions": "Current tool WindowsIdentity INT-SCL-010\\Parimal; product-root owner/current Authenticated Users Modify ACL observed",
+    "capability": "Current Python full extended-path source read/hash/three-field exact reconstruction/native JSON/current Windows tools exercised; current explicit no-overwrite route inspected; not role/session title or historical success proof",
+    "publication_route": "Own exclusive validated UTF-8/native JSON partial; flush/fsync; Windows same-directory os.rename no-overwrite; independent reopened bytes/hash/object equality",
+    "read_scope": "Explicit response and current governance/adoption/Portability manifest/in-scope own durable records/draft fingerprint only; no secrets/private keys/live.env/customer data/unrelated repository/dependency caches",
+    "output_scope": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/",
+    "limits": "Nonmutating endpoint capability/input checks, not continuous writer monitoring or cryptographic Human identity; no implementation writes"
+  },
+  "historical_final_manifest": {
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8\\attempt.json": "EAE638B2562F1E92BF074FB60FFB02D3282E0654485B0447E2B40B92244D46A3",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8\\checkpoint-0001.json": "86A1805017A5F887EDADE3843C2C8E66849E34AB17530810C1B4F4CFD1206618",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8\\report.md": "469F335C8F0665BEAB87981E5564D3537708A4215DABEA53BE4DE7AD9F27D7E1",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8\\result.json": "B8CD257527E282A9F61866EF7C4B0AECA40B9DB56E581EEDDF613ADFC79D0F4F",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e\\attempt.json": "A28F40995391273CEAA352CEB4E45DC91AD5DEC7204AA4A0CDFB4485A1B7E651",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e\\checkpoint-0001.json": "7C3714B483684FB96F6FDD193BF3E137FFCED57961C3F6A5984A9D40E6DD66DC",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e\\report.md": "44D16E5CCA6F8A3BAE622028C7D7EFE7EFD0DF71EF39A9714AC7894DD7E00CC2",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e\\result.json": "4010770ACE78F5AF5CA9515A0D0760D08698C5987832AB6CF710BA873AEA45D7",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\attempt.json": "B51FA09D46730FB693F290378D6BDA669E1E4FC29618E2C0704FE057FC7FF947",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\checkpoint-0001.json": "74367BAE47555B2EFA13C04FBC3341EEFBBB651970D94E4D93D89DC6659729BD",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\checkpoint-0002.json": "2B5514F217DF882425FCFDE62E886E9E679F2CA4D7467FBD5067DF789EDFD0DF",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\report.md": "F3F1D8D830CA0254D843DED2E33353880E7DF4F4D3804E41CA33B36C558A5581",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\result.json": "352C87CE416D782B13278D58D98FF31FE741BE398624EFA6321CC31C58836967",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df\\attempt.json": "9CE5F352DAB440D7AD9714E841D0EE84E11C973D908BED102B342062B160041B",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df\\report.md": "08ED668988AAF2C533225163A308811ED969B2F06175D79307B0BB578CA09C8B",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\attempt.json": "7795D82526147B20F7728E48AF14456C1F6D7C4443F1CC334F08533826F1ECAD",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\checkpoint-0001.json": "7172133DD97C30D2D8735E14382D467E3AACB7EBE6D4E9BBF2C6096F994E33FB",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\report.md": "5134DA141607389BB57A77983C0BDC60013DE25A3D94DFA278B840523C3D7FA8",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\result.json": "7ECA28C96FE0CC9D171E352778CA21CAA8248FEA4C93C023D94CE572AE59A997",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\attempt.json": "0054C1039E1D5F312CBEEF1BC186DB92FB649460C75D01262B23C960EFF2C881",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\checkpoint-0001.json": "8F5B5AA5593C35818911CD30094F84D5B574773C5CFE8E935394EE3FFE244378",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\report.md": "529E17BED0DE64FD707F943B3E0A993C194D21BFD2A38D94170A71EC53D61145",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\result.json": "253E174510AC8661E1C0670F48F8493E93E0DEC6817F5E1711829876EB0BDFA5",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\attempt.json": "4323D577942D29EBA98236A17EE39A2D23682A54DD0860406D34B17C624919C5",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\checkpoint-0001.json": "ECFA8F403F0AA3A61B01884ED374269BE0B09D2FF1EA98CF4C8A618A338A4D43",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\report.md": "071278AD8F1BCCD1FF71643F31E53A2352049E16D7653331B250FD8187C371D4",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\result.json": "CB1EBF408702657D36ECF8539E59E9911CE94825F617141A597600B113287CD2",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9\\attempt.json": "0B548B9D40730185534839E7E931BCC60C2E9C78BABA9E99A8BD53B754DAB733",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9\\checkpoint-0001.json": "0410DC8BAD4E05DB0A68019108A662DC9FBD22A117C54F02ABCA41ACC726B181",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9\\report.md": "AD9201AF2EC1F97443583A84371A21512FCF498654DF4FD0EA0157A5874B3DDF",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9\\result.json": "F150516BC9A30E7EC6F70555B112E5FFC9CA9776EF90C1264016DE280F507D49",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9\\attachments\\publish.py": "36B84845EB81CE4244297AB0B67F89A82446D9FF9F485CD24124F317DC90BCC1",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9\\attachments\\q3-confirm.json": "2157E5372E984CB24277D38658A3632C9A826DE3A740569F6E14AD1A9011032F",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9\\attachments\\q4.json": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\attachments\\publish.py": "674D53A00868F7FED5CB6920663C79A2DAE794516A4992F4E2F804A22DF6B046",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\attachments\\q2-confirm.json": "5CCC2416A8F01DB94CEE0B59F615955F142482EA973DF86679831B99246009E4",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\attachments\\q3.json": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\attachments\\publish.py": "52FF3219E8EEDE438EED39325A3EBA1C07AC5A2E18CAEA96D46C2A342F6BC480",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\attachments\\q2.json": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\attachments\\recover.py": "BE85866CCF03E6E7B29CE79FC2F02433AABEEB80BC880FAA2D4392587252D44B",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df\\attachments\\20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json": "238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\evidence\\analysis-evidence.json": "8AE7AFFCA4768FCC7103292BC252AB1994DF7FCDE40E48B7FED1607F3E706417"
+  },
+  "primitive_source": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/publish.py",
+    "bytes": 27851,
+    "sha256": "36B84845EB81CE4244297AB0B67F89A82446D9FF9F485CD24124F317DC90BCC1"
+  },
+  "expected_result": "Append-only full Q4 authority evidence, checkpoint/report/result; resolve Q4-C01/Q4-C02 through actual supplied answers; Q5-Q10 pending",
+  "failure_policy": "Invalid published invocation/collision/publication failure stops; no autonomous retry or replacement",
+  "prohibited": "Source/PRD/historical edits/new processes/nested agents/runtime/deploy/staging/commit/push",
+  "portability_conditions": [
+    "PB-01 not blocker to Requirement Analysis if adopted Master lifecycle governs and Analysis records alignment.",
+    "PB-02 applies at affected runtime/live integration/release boundaries, not blocker to initial Analysis; exact permissions, approved thresholds, and applicable evidence required before those boundaries."
+  ]
+}

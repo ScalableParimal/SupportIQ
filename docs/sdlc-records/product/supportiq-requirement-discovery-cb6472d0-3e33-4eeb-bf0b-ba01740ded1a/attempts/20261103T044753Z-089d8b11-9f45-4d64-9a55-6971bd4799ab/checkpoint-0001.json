@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab:checkpoint-0001",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab",
+  "process": "SDLC Process Orchestrator Q2 confirmation and Q3 recording only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-03T04:50:35.085930+00:00",
+  "clock_basis": "Python system UTC at preparation, not publication/native Human decision time",
+  "gate": {
+    "subject": "Existing Human clarification Q2 confirmation/Q3",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Q4-Q10 pending"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attempt.json",
+      "bytes": 7101,
+      "sha256": "4323D577942D29EBA98236A17EE39A2D23682A54DD0860406D34B17C624919C5"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/publish.py",
+      "bytes": 21391,
+      "sha256": "674D53A00868F7FED5CB6920663C79A2DAE794516A4992F4E2F804A22DF6B046"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q2-confirm.json",
+      "bytes": 3319,
+      "sha256": "5CCC2416A8F01DB94CEE0B59F615955F142482EA973DF86679831B99246009E4"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+      "bytes": 85919,
+      "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+    }
+  ],
+  "task_context": "No Plan-local task; no new Analysis or later process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "exact_publication_time": null,
+  "sequence": 1,
+  "last_confirmed_boundary": "Q2 exact confirmation and Q3 raw/full fields/rationale durably published/readback; no later process",
+  "selftests": {
+    "common_metadata": "PASS",
+    "strict_utf8_native_json": "PASS",
+    "raw_source_roundtrip": "PASS",
+    "all_field_objects_and_offsets": "PASS",
+    "exact_confirmation": "PASS",
+    "null_native_authentication": "PASS",
+    "no_overwrite_and_fresh_readback": "PASS"
+  },
+  "historical_final_manifest": {
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8\\attempt.json": "EAE638B2562F1E92BF074FB60FFB02D3282E0654485B0447E2B40B92244D46A3",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8\\checkpoint-0001.json": "86A1805017A5F887EDADE3843C2C8E66849E34AB17530810C1B4F4CFD1206618",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8\\report.md": "469F335C8F0665BEAB87981E5564D3537708A4215DABEA53BE4DE7AD9F27D7E1",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8\\result.json": "B8CD257527E282A9F61866EF7C4B0AECA40B9DB56E581EEDDF613ADFC79D0F4F",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e\\attempt.json": "A28F40995391273CEAA352CEB4E45DC91AD5DEC7204AA4A0CDFB4485A1B7E651",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e\\checkpoint-0001.json": "7C3714B483684FB96F6FDD193BF3E137FFCED57961C3F6A5984A9D40E6DD66DC",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e\\report.md": "44D16E5CCA6F8A3BAE622028C7D7EFE7EFD0DF71EF39A9714AC7894DD7E00CC2",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e\\result.json": "4010770ACE78F5AF5CA9515A0D0760D08698C5987832AB6CF710BA873AEA45D7",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\attempt.json": "B51FA09D46730FB693F290378D6BDA669E1E4FC29618E2C0704FE057FC7FF947",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\checkpoint-0001.json": "74367BAE47555B2EFA13C04FBC3341EEFBBB651970D94E4D93D89DC6659729BD",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\checkpoint-0002.json": "2B5514F217DF882425FCFDE62E886E9E679F2CA4D7467FBD5067DF789EDFD0DF",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\report.md": "F3F1D8D830CA0254D843DED2E33353880E7DF4F4D3804E41CA33B36C558A5581",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\result.json": "352C87CE416D782B13278D58D98FF31FE741BE398624EFA6321CC31C58836967",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df\\attempt.json": "9CE5F352DAB440D7AD9714E841D0EE84E11C973D908BED102B342062B160041B",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df\\report.md": "08ED668988AAF2C533225163A308811ED969B2F06175D79307B0BB578CA09C8B",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\attempt.json": "7795D82526147B20F7728E48AF14456C1F6D7C4443F1CC334F08533826F1ECAD",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\checkpoint-0001.json": "7172133DD97C30D2D8735E14382D467E3AACB7EBE6D4E9BBF2C6096F994E33FB",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\report.md": "5134DA141607389BB57A77983C0BDC60013DE25A3D94DFA278B840523C3D7FA8",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\result.json": "7ECA28C96FE0CC9D171E352778CA21CAA8248FEA4C93C023D94CE572AE59A997",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\attempt.json": "0054C1039E1D5F312CBEEF1BC186DB92FB649460C75D01262B23C960EFF2C881",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\checkpoint-0001.json": "8F5B5AA5593C35818911CD30094F84D5B574773C5CFE8E935394EE3FFE244378",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\report.md": "529E17BED0DE64FD707F943B3E0A993C194D21BFD2A38D94170A71EC53D61145",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\result.json": "253E174510AC8661E1C0670F48F8493E93E0DEC6817F5E1711829876EB0BDFA5",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\attempt.json": "4323D577942D29EBA98236A17EE39A2D23682A54DD0860406D34B17C624919C5",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab\\attachments\\publish.py": "674D53A00868F7FED5CB6920663C79A2DAE794516A4992F4E2F804A22DF6B046",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\attachments\\publish.py": "52FF3219E8EEDE438EED39325A3EBA1C07AC5A2E18CAEA96D46C2A342F6BC480",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1\\attachments\\q2.json": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e\\attachments\\recover.py": "BE85866CCF03E6E7B29CE79FC2F02433AABEEB80BC880FAA2D4392587252D44B",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df\\attachments\\20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json": "238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5",
+    "\\\\?\\C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product\\supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a\\attempts\\20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7\\evidence\\analysis-evidence.json": "8AE7AFFCA4768FCC7103292BC252AB1994DF7FCDE40E48B7FED1607F3E706417"
+  },
+  "inputs_before": {
+    "framework": 76,
+    "targets": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head_branch_source_staging": "Unchanged"
+  },
+  "inputs_after": {
+    "framework": 76,
+    "targets": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head_branch_source_staging": "Unchanged"
+  },
+  "cross_field_scope_issue": {
+    "subject": "Automatic source-precedence selection versus Human flagged/excluded-content resolution",
+    "automatic_rule_source": {
+      "field": "conflict_insufficiency",
+      "quote": "Only explicitly established and approved precedence rules may resolve a conflict automatically."
+    },
+    "human_review_source": {
+      "field": "resolution",
+      "quote": "AI and automated system processes may collect evidence, generate flags, and recommend review actions but must never independently approve, resolve, or reinstate previously excluded knowledge."
+    },
+    "observation": "Both statements preserved. A possible distinction is ordinary selection among otherwise eligible sources versus final resolution/reinstatement of flagged/excluded content; this distinction is not adopted as a new policy by Orchestrator.",
+    "parent_confirmation_needed": "Before implementing/applying changed source, confirm that approved-rule automatic selection never closes flagged/excluded issues or reinstates excluded knowledge without authorized non-submitter Human review.",
+    "response": null,
+    "automatic_reinstatement_authorized_by_orchestrator": false
+  },
+  "publication": "Absolute extended Windows paths; exclusive partial preparation, flush/fsync, validated same-directory Windows atomic no-overwrite rename, fresh bytes/hash/object readback"
+}

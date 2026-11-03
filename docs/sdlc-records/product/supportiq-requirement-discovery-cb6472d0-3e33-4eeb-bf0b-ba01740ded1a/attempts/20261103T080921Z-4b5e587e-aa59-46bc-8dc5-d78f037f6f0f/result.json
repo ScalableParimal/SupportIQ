@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "record_type": "result",
+  "record_id": "20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f:result",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f",
+  "process": "SDLC Process Orchestrator Q6 taxonomy and routing clarification recording only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "basis": "Actual assigned actor/current tools and OS identity, not session title or authenticated Human identity"
+  },
+  "created_at_utc": "2026-11-03T08:11:29.862419+00:00",
+  "clock_basis": "Python system UTC during record preparation; not native Human time or publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "subject": "Existing Human Q6 clarification",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Q6 material clarification, Q7-Q10 and existing explicit decision preconditions pending"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attempt.json",
+      "bytes": 27152,
+      "sha256": "65BF0FED4D2B00F89808C07C3390E31B3BFBB4B76973CB0011B9DF793397BB3D"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+      "bytes": 111053,
+      "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/result.json",
+      "bytes": 6834,
+      "sha256": "1892957D1727E89EE95C4D02FC2771F5D7E513D792137B6D1EE0C16B4FD55336"
+    }
+  ],
+  "task_context": "No approved Plan/local task; no new process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "execution_status": "COMPLETED",
+  "outcome": "Q6_RECORDED_WITH_MATERIAL_CLARIFICATIONS_PENDING",
+  "completion_scope": "Exact full Q6 transcription and parent-only handoff",
+  "invocation": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attempt.json",
+    "bytes": 27152,
+    "sha256": "65BF0FED4D2B00F89808C07C3390E31B3BFBB4B76973CB0011B9DF793397BB3D"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/report.md",
+    "bytes": 6024,
+    "sha256": "75F76E6A65F8B52AC771046675F047FECA84CFB4D36DF7B403467933A11496D5"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/checkpoint-0001.json",
+    "bytes": 22897,
+    "sha256": "9CCEFDBAFBC712F7B53A997E3721EC864174BBB19841DCB80E2C5D65E1CCF0B6"
+  },
+  "q6_evidence": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+    "bytes": 111053,
+    "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+  },
+  "material_clarifications": [
+    {
+      "id": "Q6-C01",
+      "subject": "Authoritative category/priority review authority",
+      "source_fields": [
+        "categories",
+        "priorities"
+      ],
+      "quote": "An authorized human reviewer must validate and approve the classification before it becomes authoritative.",
+      "observation": "Queue/escalation actors and central mapping approver are named, but category and priority confirmation use authorized human reviewer without naming the eligible role/permission.",
+      "parent_question": "Which explicit tenant-scoped roles/permissions may confirm or override document/ticket category and priority? Distinguish these permissions from Knowledge Reviewer content approval and central mapping authority; no role is inferred.",
+      "response": null
+    },
+    {
+      "id": "Q6-C02",
+      "subject": "Document classification processing versus eligible answer retrieval",
+      "source_fields": [
+        "categories",
+        "routing_suggestions"
+      ],
+      "quote": "AI may suggest one or more candidate categories based on document content and the approved taxonomy.",
+      "observation": "Q6 describes document classification from content, while routing uses eligible knowledge and Q2/Q3/Q5 constrain excluded-content answer use. Authorized preapproval processing is not automatically authorized answer retrieval or reuse of rejected/deletion-approved content.",
+      "parent_question": "Is category suggestion intended for documents during authorized ingestion/review, tickets, or both? Specify permitted lifecycle/input scope for classification processing, distinct from answer/routing retrieval, preserving excluded/deletion-approved restrictions and granting no new access.",
+      "response": null
+    }
+  ],
+  "remaining_questions": "Q6-C01/C02, Q7-Q10 and explicit prior/history/release gates pending",
+  "q7_asked": false,
+  "requirement_approved": false,
+  "source_modified": false,
+  "later_process_started": false,
+  "current_inputs": {
+    "framework": 76,
+    "targets": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head_branch_source_staging": "Unchanged"
+  },
+  "next_permitted_action": "Actual Human clarification only; no new process initiated",
+  "publication_order": "Own invocation/readback; helper; full Q6 evidence; checkpoint; report; result last"
+}

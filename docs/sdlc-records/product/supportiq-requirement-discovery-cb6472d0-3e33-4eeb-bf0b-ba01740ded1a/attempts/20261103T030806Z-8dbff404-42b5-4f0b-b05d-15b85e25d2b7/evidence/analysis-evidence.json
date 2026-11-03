@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "record_type": "analysis_evidence",
+  "record_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7:analysis_evidence",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft requirement discovery and scope establishment; not one implementation feature",
+  "actor": {
+    "identity": "requirement-analysis-actor-8dbff404-42b5-4f0b-b05d-15b85e25d2b7",
+    "role": "Requirement Analysis Agent"
+  },
+  "created_at_utc": "2026-11-03T03:14:08.0668467Z",
+  "clock_basis": "PowerShell UTC clock sampled at evidence preparation; not exact filesystem publication time",
+  "process": "Requirement Analysis",
+  "attempt_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7",
+  "task_context": "Source, decision, prerequisite, analysis-locator, and actor-owned invocation-publication evidence; no implementation or downstream process evidence.",
+  "repository_state": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "branch": "sdlc-framework-onboarding",
+    "head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "observed_git_status": "Only untracked product execution records under this Work ID; no tracked/staged changes observed."
+  },
+  "input_sources": [
+    {
+      "role": "authoritative draft requirement",
+      "path": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+      "bytes": 49936,
+      "sha256": "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5",
+      "version": "v1.0, September 2026",
+      "classification": "Draft context; not approved Requirement",
+      "inspection": "Complete Word document body paragraphs and tables read through Python standard-library zipfile and xml.etree.ElementTree; headings, requirement IDs, tables, scope, workflows, architecture, NFRs, test strategy, decision/open-question rows, DoD and appendices inspected."
+    },
+    {
+      "role": "project context",
+      "path": "README.md",
+      "bytes": 289,
+      "sha256": "57AAD939F394A295A881BEFAA2FEA4BFB20C04E73A798C3113ACCF8737598390",
+      "inspection": "Read; contains only SupportIQ title and short description; no additional feature requirement."
+    },
+    {
+      "role": "normative Requirement Analysis guideline",
+      "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+      "bytes": 16826,
+      "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+    },
+    {
+      "role": "Requirement Analysis prompt",
+      "path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+      "bytes": 2171,
+      "sha256": "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"
+    },
+    {
+      "role": "repository Requirement Analysis request",
+      "path": "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+      "bytes": 322,
+      "sha256": "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275",
+      "classification": "Reusable placeholder template; run-specific source and decisions supplied by current governed task context."
+    },
+    {
+      "role": "Requirement Analysis Skill",
+      "path": ".github/skills/requirement-analysis/SKILL.md",
+      "bytes": 5662,
+      "sha256": "F5A40ED08CD7DFB52B906FE4A046B721BB6A84B5B2D28037BB780C48BDE143B7"
+    },
+    {
+      "role": "Requirement Analysis Agent definition",
+      "path": ".github/agents/requirement-analysis.agent.md",
+      "bytes": 2777,
+      "sha256": "EF3D141E77A44FD963A586194657EDD08BF7CD32F3018148C3A44C33065B89DF"
+    },
+    {
+      "role": "Master lifecycle governance",
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "bytes": 30926,
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+    },
+    {
+      "role": "Master artifact governance",
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "bytes": 54243,
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+    },
+    {
+      "role": "Master traceability/change control",
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "bytes": 89025,
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    }
+  ],
+  "inventory_comparison": {
+    "baseline_source": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/evidence/continuation-evidence.json",
+      "bytes": 40420,
+      "sha256": "FE7D8E0B290CAD8587832B05699D449F250C689A8B5D8A88D1C59E3102EB4C49"
+    },
+    "method": "Enumerated hidden-inclusive files under .github and docs/ai; screened names for restricted categories before hashing; independently compared path set, bytes, and SHA-256 against source_inventory. Compared README and requirement DOCX against target_inventory separately.",
+    "framework": {
+      "expected_files": 76,
+      "observed_files": 76,
+      "path_set_match": true,
+      "byte_and_hash_match": true,
+      "restricted_names_found": []
+    },
+    "target": {
+      "expected_files": 2,
+      "observed_files": 2,
+      "path_and_byte_hash_match": true,
+      "members": [
+        {
+          "path": "README.md",
+          "bytes": 289,
+          "sha256": "57AAD939F394A295A881BEFAA2FEA4BFB20C04E73A798C3113ACCF8737598390"
+        },
+        {
+          "path": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+          "bytes": 49936,
+          "sha256": "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5"
+        }
+      ]
+    },
+    "adopted_master_hashes_match": true,
+    "limitation": "Endpoint comparison, not continuous monitoring and not proof excluding transient or same-principal tampering."
+  },
+  "external_adoption_evidence": [
+    {
+      "decision": "Master baseline adoption",
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503",
+      "author": "ScalableParimal",
+      "author_id": 226102895,
+      "author_association": "OWNER",
+      "basis": "Independently fetched canonical repository issue comments; exact adopted Master paths/hashes checked against current repository."
+    },
+    {
+      "decision": "Product persistence root adoption",
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+      "author": "ScalableParimal",
+      "author_id": 226102895,
+      "author_association": "OWNER",
+      "basis": "Independently fetched canonical repository issue comments; current exact applicability condition resolved separately."
+    },
+    {
+      "decision": "Current applicability confirmation",
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6594228907",
+      "author": "ScalableParimal",
+      "author_id": 226102895,
+      "author_association": "OWNER",
+      "condition": "Adopted three Master hashes and 76 framework plus two target fingerprints independently match the completed Assessment inventory; all matched at this observed endpoint."
+    }
+  ],
+  "initiation_gate": {
+    "response_exact": "Approve initiation of Requirement Analysis only for the exact work, draft fingerprint, baseline and scope above; stop at the next Human gate",
+    "source": "Current parent-user message context transmitted in this Agent request; parent harness session ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "available_message_context_time": "2026-11-03T08:34:09.662+05:30",
+    "native_authenticated_message_id": null,
+    "native_decision_time": null,
+    "scope": "One Requirement Analysis invocation for this Work ID; stop at next Human gate.",
+    "authority_limit": "Delegation transmits the actual initiation authorization. It is not a new product/business decision and is not direct cryptographic authentication by this Agent."
+  },
+  "assessment_decisions": [
+    {
+      "id": "PB-01",
+      "required_analysis_carry_forward": "PB-01 not blocker to Requirement Analysis if adopted Master lifecycle governs and Analysis records alignment.",
+      "original_wording_and_rationale": "Retained unchanged in the referenced decision-handoff record.",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/evidence/decision-handoff.json",
+      "sha256": "4004C9180037F693D650D872DC303488FFD981C905C10A9E19219838CD1CD5CF",
+      "native_message_id": null,
+      "original_decision_time": null,
+      "classification": "Assessment possible-blocker disposition, not product requirement approval."
+    },
+    {
+      "id": "PB-02",
+      "required_analysis_carry_forward": "PB-02 applies at affected runtime/live integration/release boundaries, not blocker to initial Analysis; exact permissions, approved thresholds, and applicable evidence required before those boundaries.",
+      "original_wording_and_rationale": "Retained unchanged in the referenced decision-handoff record.",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/evidence/decision-handoff.json",
+      "sha256": "4004C9180037F693D650D872DC303488FFD981C905C10A9E19219838CD1CD5CF",
+      "native_message_id": null,
+      "original_decision_time": null,
+      "classification": "Assessment possible-blocker disposition, not product requirement approval."
+    }
+  ],
+  "historical_assessment_records": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16/result.json",
+      "bytes": 12298,
+      "sha256": "41B57EC23F41D703E5AC1E543D7F7EA88202E0D24FD4D4B0F357445EEC5D1667",
+      "classification": "Reported Assessment result, re-read/hash-checked, not re-executed."
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/result.json",
+      "bytes": 13365,
+      "sha256": "391992F8589CF2889C542B29EDE44F5EC4D5FEAFBDCF0A2AC333B303C122A6FF",
+      "classification": "Reported disposition-continuation result, re-read/hash-checked, not re-executed."
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/report.md",
+      "bytes": 14286,
+      "sha256": "DCB0964153BF521AFCDE34ED95CEFE9257C160FEA0BEF1B31A7F77DE57BCE61D",
+      "classification": "Reported assessment continuation report; inspected for its dispositions and limitations."
+    }
+  ],
+  "source_traceability": [
+    {
+      "requirement_units": "Document Control and §§1–4",
+      "source_locator": "PRD metadata, objectives, users/roles, first-release and deferred-scope tables",
+      "major_report_findings": ["RA-C01", "RA-A01", "RA-A04", "RA-A10", "RA-A12"]
+    },
+    {
+      "requirement_units": "Functional units",
+      "source_locator": "PRD §§5.1–5.8; FR-CA-01–08, FR-KB-01–08, FR-TK-01–07, FR-AC-01–07, FR-WF-01–06, FR-AN-01–05, FR-EV-01–06, FR-OP-01–08",
+      "major_report_findings": ["RA-A02", "RA-A03", "RA-A04", "RA-A05", "RA-A06", "RA-A07", "RA-A08", "RA-A09", "RA-A11", "RA-C01"]
+    },
+    {
+      "requirement_units": "Workflows and architecture",
+      "source_locator": "PRD §§6–9",
+      "major_report_findings": ["RA-A01", "RA-A02", "RA-A08"]
+    },
+    {
+      "requirement_units": "Nonfunctional requirements and AI guardrails",
+      "source_locator": "PRD §§10–11",
+      "major_report_findings": ["RA-A03", "RA-A05", "RA-A09", "RA-A11", "RA-M08"]
+    },
+    {
+      "requirement_units": "Sample data, acceptance, testing, delivery, risks/decisions, DoD, backlog, glossary",
+      "source_locator": "PRD §§12–18 and Appendices A–B",
+      "major_report_findings": ["RA-A06", "RA-A07", "RA-A10", "RA-A12", "RA-M08", "RA-M11"]
+    }
+  ],
+  "analysis_execution": {
+    "scope": "Complete in-scope draft analysis; no implementation feature selected.",
+    "source_modification": false,
+    "implementation_plan_created_or_modified": false,
+    "product_source_tests_configuration_changed": false,
+    "other_process_or_agent_invoked": false,
+    "runtime_tests_build_live_integration_deployment": false,
+    "staging_commit_push": false,
+    "terminal_status": "Analysis report prepared; Human decisions remain; no downstream activity started."
+  },
+  "current_invocation_readback": {
+    "attempt_record": {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/attempt.json",
+      "bytes": 12337,
+      "sha256": "B51FA09D46730FB693F290378D6BDA669E1E4FC29618E2C0704FE057FC7FF947"
+    },
+    "checkpoint_0001": {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/checkpoint-0001.json",
+      "bytes": 3842,
+      "sha256": "74367BAE47555B2EFA13C04FBC3341EEFBBB651970D94E4D93D89DC6659729BD"
+    }
+  }
+}

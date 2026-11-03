@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92:checkpoint-0001",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ initial requirement clarification; not one implementation feature",
+  "creator": {
+    "identity": "parent-assistant:d5d35e43-65a0-48a7-99a5-246c47b6f270",
+    "role": "Human-designated parent Requirement Update executor/publisher",
+    "session": "bbd899a3-3c5f-444e-9d88-5df37ef2d3d6",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "identity_limit": "Current parent role/session plus observed OS principal; not independent authenticated Human identity or a subagent ID"
+  },
+  "created_at_utc": "2026-11-03T11:13:04.821103+00:00",
+  "clock_basis": "Python system UTC at record preparation; not Human decision/publication time",
+  "exact_publication_time": null,
+  "process": "Requirement Update",
+  "attempt_id": "20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92",
+  "gate": {
+    "process_initiation": "Actual fresh Human approval received",
+    "formal_requirement_approval": false
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92/attempt.json",
+      "bytes": 110350,
+      "sha256": "CD1377BA41EC4DC81B3917D53ED6AE707F452608DE1EA4D75C5C7604CD1B9918"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92/attachments/trace.json",
+      "bytes": 175822,
+      "sha256": "7544F16672CA6A7FC858FD25B0FCBB8BAD5D20EB86A7B97154A590166868C788"
+    }
+  ],
+  "task_context": "No approved Plan/task; preapproval clarification only",
+  "sequence": 1,
+  "last_confirmed_boundary": "Candidate prepared after invocation publication; complete XML/package preservation checks passed",
+  "partial_outputs": {
+    "partial_path": "docs/requirement/SupportIQ_Product_Requirements_Document_Clarified_Draft_v1.1.docx.partial",
+    "sha256": "B50957C9FA3BF09E83AF58D0C36E01B6A062EE076F8F5C60C2E4ADCC0BC2505A",
+    "bytes": 140134,
+    "paragraphs": 1284,
+    "source_paragraphs": 524,
+    "added_paragraphs": 760,
+    "modified_original_paragraphs": 115,
+    "unchanged_original_paragraphs": 409,
+    "changed_package_parts": [
+      "word/document.xml"
+    ],
+    "namespace_correction": "Declare missing w14/wp14 prefixes named in mc:Ignorable in new document only"
+  },
+  "unfinished_work": "Normal native Word complete readback, final checks, new-version freeze/publication and terminal report/result",
+  "blockers": [],
+  "next_gate": "Candidate must pass native readback before publication",
+  "continuation": "Same authorized invocation only; no restart or next process inferred"
+}

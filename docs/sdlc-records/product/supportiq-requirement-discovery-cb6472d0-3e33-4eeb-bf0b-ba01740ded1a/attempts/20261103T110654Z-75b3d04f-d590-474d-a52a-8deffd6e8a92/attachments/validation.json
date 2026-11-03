@@ -1,0 +1,763 @@
+{
+  "schema_version": "1.0",
+  "record_type": "evidence",
+  "record_id": "20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92:validation",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ initial requirement clarification; not one implementation feature",
+  "creator": {
+    "identity": "parent-assistant:d5d35e43-65a0-48a7-99a5-246c47b6f270",
+    "role": "Human-designated parent Requirement Update executor/publisher",
+    "session": "bbd899a3-3c5f-444e-9d88-5df37ef2d3d6",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "identity_limit": "Current parent role/session plus observed OS principal; not independent authenticated Human identity or a subagent ID"
+  },
+  "created_at_utc": "2026-11-03T11:15:32.555712+00:00",
+  "clock_basis": "Python system UTC at record preparation; not Human decision/publication time",
+  "exact_publication_time": null,
+  "process": "Requirement Update",
+  "attempt_id": "20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92",
+  "gate": {
+    "process_initiation": "Actual fresh Human approval received",
+    "formal_requirement_approval": false
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92/attempt.json",
+      "bytes": 110350,
+      "sha256": "CD1377BA41EC4DC81B3917D53ED6AE707F452608DE1EA4D75C5C7604CD1B9918"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92/attachments/trace.json",
+      "bytes": 175822,
+      "sha256": "7544F16672CA6A7FC858FD25B0FCBB8BAD5D20EB86A7B97154A590166868C788"
+    },
+    {
+      "path": "docs/requirement/SupportIQ_Product_Requirements_Document_Clarified_Draft_v1.1.docx",
+      "bytes": 140134,
+      "sha256": "B50957C9FA3BF09E83AF58D0C36E01B6A062EE076F8F5C60C2E4ADCC0BC2505A"
+    }
+  ],
+  "task_context": "No approved Plan/task; preapproval clarification only",
+  "source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+    "bytes": 49936,
+    "sha256": "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5",
+    "version_id": "SupportIQ original PRD v1.0 September 2026",
+    "status": "UNAPPROVED original draft"
+  },
+  "result": {
+    "path": "docs/requirement/SupportIQ_Product_Requirements_Document_Clarified_Draft_v1.1.docx",
+    "bytes": 140134,
+    "sha256": "B50957C9FA3BF09E83AF58D0C36E01B6A062EE076F8F5C60C2E4ADCC0BC2505A",
+    "version_id": "SupportIQ-PRD-clarified-draft-v1.1",
+    "status": "Draft / UNAPPROVED"
+  },
+  "native_validation": {
+    "word_version": "16.0",
+    "open_and_repair_requested": false,
+    "read_only": true,
+    "paragraph_count": 1457,
+    "table_count": 21,
+    "character_count": 379158,
+    "save_performed": false,
+    "scope": "Entire main document, including all table-cell text, in document order",
+    "opening": "Word Documents.Open, OpenAndRepair=false; no recovered document and no save",
+    "readback_utf8_sha256": "311BBE9E9F9A0E1AB9625D0E904AC7C49710BF9D113CB66F28B5A9035769D067",
+    "complete_content_comparison": "PASS",
+    "normalization": "Remove whitespace and Word table-cell end marker U+0007 only; no words omitted",
+    "normalized_character_count": 330709,
+    "normalized_content_sha256": "F2F4EA53D8B822D98E2E006CCCF44FB8C362EAC3F586088D21EA2A7FA1B58978",
+    "candidate_bytes_unchanged_after_native_close": true,
+    "final_bytes_identical_to_natively_validated_candidate": true
+  },
+  "preservation": {
+    "source_sha256_unchanged": true,
+    "historical_manifest": [
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8/attempt.json",
+        "bytes": 12988,
+        "sha256": "EAE638B2562F1E92BF074FB60FFB02D3282E0654485B0447E2B40B92244D46A3"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8/checkpoint-0001.json",
+        "bytes": 9946,
+        "sha256": "86A1805017A5F887EDADE3843C2C8E66849E34AB17530810C1B4F4CFD1206618"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8/report.md",
+        "bytes": 11493,
+        "sha256": "469F335C8F0665BEAB87981E5564D3537708A4215DABEA53BE4DE7AD9F27D7E1"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T025646Z-490e965e-2ccb-4403-b75c-907d1a8d6ac8/result.json",
+        "bytes": 7086,
+        "sha256": "B8CD257527E282A9F61866EF7C4B0AECA40B9DB56E581EEDDF613ADFC79D0F4F"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e/attempt.json",
+        "bytes": 8563,
+        "sha256": "A28F40995391273CEAA352CEB4E45DC91AD5DEC7204AA4A0CDFB4485A1B7E651"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e/checkpoint-0001.json",
+        "bytes": 5797,
+        "sha256": "7C3714B483684FB96F6FDD193BF3E137FFCED57961C3F6A5984A9D40E6DD66DC"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e/report.md",
+        "bytes": 8828,
+        "sha256": "44D16E5CCA6F8A3BAE622028C7D7EFE7EFD0DF71EF39A9714AC7894DD7E00CC2"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e/result.json",
+        "bytes": 6452,
+        "sha256": "4010770ACE78F5AF5CA9515A0D0760D08698C5987832AB6CF710BA873AEA45D7"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/attempt.json",
+        "bytes": 12337,
+        "sha256": "B51FA09D46730FB693F290378D6BDA669E1E4FC29618E2C0704FE057FC7FF947"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/checkpoint-0001.json",
+        "bytes": 3842,
+        "sha256": "74367BAE47555B2EFA13C04FBC3341EEFBBB651970D94E4D93D89DC6659729BD"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/checkpoint-0002.json",
+        "bytes": 3596,
+        "sha256": "2B5514F217DF882425FCFDE62E886E9E679F2CA4D7467FBD5067DF789EDFD0DF"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/report.md",
+        "bytes": 39611,
+        "sha256": "F3F1D8D830CA0254D843DED2E33353880E7DF4F4D3804E41CA33B36C558A5581"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/result.json",
+        "bytes": 12211,
+        "sha256": "352C87CE416D782B13278D58D98FF31FE741BE398624EFA6321CC31C58836967"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attempt.json",
+        "bytes": 6473,
+        "sha256": "9CE5F352DAB440D7AD9714E841D0EE84E11C973D908BED102B342062B160041B"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/report.md",
+        "bytes": 6655,
+        "sha256": "08ED668988AAF2C533225163A308811ED969B2F06175D79307B0BB578CA09C8B"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/attempt.json",
+        "bytes": 6318,
+        "sha256": "7795D82526147B20F7728E48AF14456C1F6D7C4443F1CC334F08533826F1ECAD"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/checkpoint-0001.json",
+        "bytes": 11995,
+        "sha256": "7172133DD97C30D2D8735E14382D467E3AACB7EBE6D4E9BBF2C6096F994E33FB"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/report.md",
+        "bytes": 3584,
+        "sha256": "5134DA141607389BB57A77983C0BDC60013DE25A3D94DFA278B840523C3D7FA8"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/result.json",
+        "bytes": 4582,
+        "sha256": "7ECA28C96FE0CC9D171E352778CA21CAA8248FEA4C93C023D94CE572AE59A997"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attempt.json",
+        "bytes": 6775,
+        "sha256": "0054C1039E1D5F312CBEEF1BC186DB92FB649460C75D01262B23C960EFF2C881"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/checkpoint-0001.json",
+        "bytes": 10930,
+        "sha256": "8F5B5AA5593C35818911CD30094F84D5B574773C5CFE8E935394EE3FFE244378"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/report.md",
+        "bytes": 5764,
+        "sha256": "529E17BED0DE64FD707F943B3E0A993C194D21BFD2A38D94170A71EC53D61145"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/result.json",
+        "bytes": 4757,
+        "sha256": "253E174510AC8661E1C0670F48F8493E93E0DEC6817F5E1711829876EB0BDFA5"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attempt.json",
+        "bytes": 7101,
+        "sha256": "4323D577942D29EBA98236A17EE39A2D23682A54DD0860406D34B17C624919C5"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/checkpoint-0001.json",
+        "bytes": 14130,
+        "sha256": "ECFA8F403F0AA3A61B01884ED374269BE0B09D2FF1EA98CF4C8A618A338A4D43"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/report.md",
+        "bytes": 6537,
+        "sha256": "071278AD8F1BCCD1FF71643F31E53A2352049E16D7653331B250FD8187C371D4"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/result.json",
+        "bytes": 5861,
+        "sha256": "CB1EBF408702657D36ECF8539E59E9911CE94825F617141A597600B113287CD2"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attempt.json",
+        "bytes": 18784,
+        "sha256": "0B548B9D40730185534839E7E931BCC60C2E9C78BABA9E99A8BD53B754DAB733"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/checkpoint-0001.json",
+        "bytes": 17265,
+        "sha256": "0410DC8BAD4E05DB0A68019108A662DC9FBD22A117C54F02ABCA41ACC726B181"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/report.md",
+        "bytes": 7093,
+        "sha256": "AD9201AF2EC1F97443583A84371A21512FCF498654DF4FD0EA0157A5874B3DDF"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/result.json",
+        "bytes": 6925,
+        "sha256": "F150516BC9A30E7EC6F70555B112E5FFC9CA9776EF90C1264016DE280F507D49"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/attempt.json",
+        "bytes": 21241,
+        "sha256": "CEBFCC610469EEC60DDBF160F40E678AB347002C8B3B18DCC1904DCEED709F6E"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/checkpoint-0001.json",
+        "bytes": 17294,
+        "sha256": "4FBC2850A3669344976377094763AB6C939010EDE08B360EADA056813ADBAD3D"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/report.md",
+        "bytes": 5697,
+        "sha256": "4D17ED586619A411857619BC717D614395369137F206EED59BBB4D261F90061B"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/result.json",
+        "bytes": 5448,
+        "sha256": "E951EECBACA41D09F1B4433E9792D7D55568B1C2A15737043D7DD1F8A7704C24"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attempt.json",
+        "bytes": 23586,
+        "sha256": "5D58A529A80E8B2432685CAEEF3B28A9C9EF65BBA24356B56074BECADA8F9353"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/checkpoint-0001.json",
+        "bytes": 22332,
+        "sha256": "DAA7AFC7D4CFC0E6B537A8B66AEA233ED724D3B5EBBA9220C2AFEA3F9DCC0EC1"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/report.md",
+        "bytes": 7737,
+        "sha256": "23AFEED6E4A0420B3B311E6DEEEB2E9C0729666D1F17D48BD043FB4289B51BDB"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/result.json",
+        "bytes": 7640,
+        "sha256": "32AAB6B137AF8F6A47DE60875CB78C8C935190CDB68DD103E201CE52E3D3C003"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attempt.json",
+        "bytes": 25348,
+        "sha256": "CA35503346C373503AA448C93A91779C01A95DDD5DF65A5B8C1FCED68406BD9C"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/checkpoint-0001.json",
+        "bytes": 21201,
+        "sha256": "1394DEDFABD1CE30782C52D4DB1ED7CB9DCE1557DBCA7A5860A47999B4D07B3F"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/report.md",
+        "bytes": 4588,
+        "sha256": "3CE1286F75C1DA85411DD53B949B9243C3D2B3786F75F0DC61F30E90C63100CC"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/result.json",
+        "bytes": 6834,
+        "sha256": "1892957D1727E89EE95C4D02FC2771F5D7E513D792137B6D1EE0C16B4FD55336"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attempt.json",
+        "bytes": 27152,
+        "sha256": "65BF0FED4D2B00F89808C07C3390E31B3BFBB4B76973CB0011B9DF793397BB3D"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/checkpoint-0001.json",
+        "bytes": 22897,
+        "sha256": "9CCEFDBAFBC712F7B53A997E3721EC864174BBB19841DCB80E2C5D65E1CCF0B6"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/report.md",
+        "bytes": 6024,
+        "sha256": "75F76E6A65F8B52AC771046675F047FECA84CFB4D36DF7B403467933A11496D5"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/result.json",
+        "bytes": 6170,
+        "sha256": "950E8C73F555D4DD963BB54C8A7BCCB01D536C9E33700B5E6F463B5C0C2B1DED"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/attempt.json",
+        "bytes": 28916,
+        "sha256": "5132EC21AEC3CE4D4149F6D742F363B3EA6AB3B3CA3C66A3C50AD70695B0EC5B"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/checkpoint-0001.json",
+        "bytes": 25034,
+        "sha256": "C8828B6913BB412EFEE425E7E3F4A912806E26F105F4C264CBC0000185FB154C"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/report.md",
+        "bytes": 5326,
+        "sha256": "8ED705C4BB3087F564FB6783462264BB399E78986949E1D4EE89943A75D15E05"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/result.json",
+        "bytes": 6366,
+        "sha256": "68A303EF9008D14C078603B8A37768C03DC072F77DC1C28B4CF1DCEC93A60F04"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attempt.json",
+        "bytes": 30860,
+        "sha256": "1125D6641D077BC316C0C65AC46EB9BAD9AB99B13D39012C1948E115B75311B8"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/checkpoint-0001.json",
+        "bytes": 26650,
+        "sha256": "7E19580D65A31FBF24E40BD61CE53C49F38AAFEFE4AFABF4D835A13CABF75A03"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/report.md",
+        "bytes": 6016,
+        "sha256": "5A141C7B00988FE42A26500DC792DABAE2CC04591B4B329F4A6995F7DC744958"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/result.json",
+        "bytes": 6013,
+        "sha256": "AE7B65A4F01CBB17ED989A804424A133761BC801C0AFD57F2DB5AC7C4012D335"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/attempt.json",
+        "bytes": 32551,
+        "sha256": "9D57D12A1BDB15FD9D61AC817E47985DB5AEAF3211B5B155854FF3476052E1D3"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/checkpoint-0001.json",
+        "bytes": 28711,
+        "sha256": "3BC82FAAAD325CB4FA4A41F5107913B1C0A083F6F6C31E9080CA2ECCEFC60084"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/report.md",
+        "bytes": 4646,
+        "sha256": "874251D0D034CA84F3B256EC4939C8C6CB37AFB8200FC025F78D4112A21D27D0"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/result.json",
+        "bytes": 5777,
+        "sha256": "528E5BEDA15CFE1609E374FE2858AFC03DAD9B25CFB247FB09DF9487C96EB3B2"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attempt.json",
+        "bytes": 51499,
+        "sha256": "4C8B0C903C2B098212B3486DD34B7B48A256AD435869FE1C8CCF2257DCE10967"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/checkpoint-0001.json",
+        "bytes": 34278,
+        "sha256": "08A4BBC2A1013B532F113445CFF38CA49520A83EF2679F5743A97BBB65315112"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/report.md",
+        "bytes": 7557,
+        "sha256": "B17275DD0B6097F10B864744D2EDA648E2673CE3BC605E0F273463F03E9714C3"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/result.json",
+        "bytes": 10296,
+        "sha256": "7A31150F9145FFF2A33688E421DE51AFDF66648094AFB4E4AB92D739E51108EB"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/attempt.json",
+        "bytes": 53619,
+        "sha256": "C60C01EEB127939F98D072ABDF74EB1D93BB88083B921B6832F9121673C21452"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/checkpoint-0001.json",
+        "bytes": 34652,
+        "sha256": "B2958EFE76F20857BA74BB1BADC17AB412DE390E4B66E3CC28CDEAA4E2C0A540"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/report.md",
+        "bytes": 2915,
+        "sha256": "420593B2238B7AB4483E80EA70E84211FA405C46439051E6C184FC3F38E2861B"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/result.json",
+        "bytes": 7232,
+        "sha256": "945E432071421BF08728B05175203AFEBF1523F7652513B42B275A36A2A6A344"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attempt.json",
+        "bytes": 54614,
+        "sha256": "E1BD6BA638449FB36B5507699EEC741E76BF9646E5EA792F7D55B113ACB64489"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/checkpoint-0001.json",
+        "bytes": 38278,
+        "sha256": "16F50A93E0E9652DCA5CD0384A752117588AE35760513AD7CD0FFAC2EBC9BC43"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/report.md",
+        "bytes": 5739,
+        "sha256": "5D29721CAA7A8838760438ABE148B84BEF7382FA50E9B375D812DDAC9E9F2F25"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/result.json",
+        "bytes": 11312,
+        "sha256": "8CBCB2D9899EEC3A53EC34A3CB1B8C96B859D8E9B092B88C0DD76530CEB22660"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T095235Z-cb61febc-f047-4397-bfd2-abc49e1cb1f3/attempt.json",
+        "bytes": 57007,
+        "sha256": "2B617DAA23C735935FA6E49DF606F73D5202C8ED87E396371A1F7774B7A4F083"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T095235Z-cb61febc-f047-4397-bfd2-abc49e1cb1f3/checkpoint-0001.json",
+        "bytes": 39493,
+        "sha256": "D40246B82BB935EF616ECE46B80DA8CAE032B153CC40DC11BDF3CF3E9080A7E7"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T095235Z-cb61febc-f047-4397-bfd2-abc49e1cb1f3/report.md",
+        "bytes": 2816,
+        "sha256": "AA5ADC33B967A9B97DDB7C9ACF653CD63E6D4450F21E759E2E65B83A03EC4E6A"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T095235Z-cb61febc-f047-4397-bfd2-abc49e1cb1f3/result.json",
+        "bytes": 9099,
+        "sha256": "CC3D4FD9C647E69D9042B32AE7464359026DF4D1E903934A82ADBFC2AB71EF51"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/attempt.json",
+        "bytes": 66263,
+        "sha256": "8766048EB5439A8B2B08BF05F8C14E5FF271336E169A412CCCDBDD3199379981"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/checkpoint-0001.json",
+        "bytes": 41423,
+        "sha256": "3E559332D861969D720A447C8BEFE47C8339AD5DAB0909423BB9DCF6A11FB3EA"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/report.md",
+        "bytes": 5864,
+        "sha256": "09A2C4B1B8DA3ED335FCC54CF845F3F06E03CF3C9E2A85A9FA305C0BA778E2D2"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/result.json",
+        "bytes": 16187,
+        "sha256": "789B4480814BC3A2A1369784C019AD254C1B734A20BC60D4982C6B8BE1E6054F"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attempt.json",
+        "bytes": 63117,
+        "sha256": "22EB8A076951CD807F40ECC625140F0B7699C9ACAC6DC09B754C70CD342B444F"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/checkpoint-0001.json",
+        "bytes": 40756,
+        "sha256": "983C6F8292B64DADBB8F1095D473C1B803DD5529476D60071762A5DAC6CFA6D1"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/report.md",
+        "bytes": 5279,
+        "sha256": "D390F77A5CADF3BB551A4F2D0815A60F3D73F300BCCA79F01FCBB91AD37B5406"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/result.json",
+        "bytes": 7148,
+        "sha256": "38CA6D4F1B544EBD04BB4A734122C9368DB1B5DF8C95E22BF31F3299B69548A6"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T105001Z-4ab1cc5f-c9a7-4a25-b505-2d46bba0e2f8/attempt.json",
+        "bytes": 66807,
+        "sha256": "D8E614ADC34053BF42A88F4C067BFBCF57B59BABC4C8F474455DDF57E767214A"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T105001Z-4ab1cc5f-c9a7-4a25-b505-2d46bba0e2f8/checkpoint-0001.json",
+        "bytes": 48073,
+        "sha256": "1E50387F735CB93BA8607581C6869F73A4CE610FD484F99808C3C75B01BBE90A"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T105001Z-4ab1cc5f-c9a7-4a25-b505-2d46bba0e2f8/report.md",
+        "bytes": 3767,
+        "sha256": "9B1FD3452D3354E6445756673DD489F3166CCB76616FD01486D194A3FB1D0C7E"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T105001Z-4ab1cc5f-c9a7-4a25-b505-2d46bba0e2f8/result.json",
+        "bytes": 8202,
+        "sha256": "8B8D84445AED8051EDE51A54ACDFBB747298B265FE4B253D4CDCC8B8515245FD"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T105001Z-4ab1cc5f-c9a7-4a25-b505-2d46bba0e2f8/attachments/handoff.json",
+        "bytes": 14754,
+        "sha256": "71FD10A82053BE09C6FB73EA1D6FCC4BFF76D8ED6C62C7917CECCA3537A9178A"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T105001Z-4ab1cc5f-c9a7-4a25-b505-2d46bba0e2f8/attachments/inputs.json",
+        "bytes": 61809,
+        "sha256": "51844E4A3A3FBAE7EB71031AF24ED6AF81E8708D21910D55C4DE6D901C631B2F"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T105001Z-4ab1cc5f-c9a7-4a25-b505-2d46bba0e2f8/attachments/publish.py",
+        "bytes": 24918,
+        "sha256": "25BD232F1CB3F188EC8559CCE826F57237C9AA31890033ACA30546E3B5C558AB"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/handoff.json",
+        "bytes": 10324,
+        "sha256": "34D29972EB62502E8CB59DBE38AF645B1D999DA85C5FCCDFD90C5F95B458F869"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/inputs.json",
+        "bytes": 68337,
+        "sha256": "3DDDEC0F517B45E416689671139983ECEE7001490F183EAB10CBCB77079DEB12"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/preflight.json",
+        "bytes": 9434,
+        "sha256": "F6F9CD77D2D8F0EF2D543A0DBB251F2D9EEE1BE0FC5E8BD88E69322FEC4C8419"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/publish.py",
+        "bytes": 35253,
+        "sha256": "7D6CE95BA5538DE9DFAF49F695EA5C1D8DEEE49CF7851858E0A68F23CFA3BBE3"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/request.json",
+        "bytes": 5998,
+        "sha256": "D6DCBB90383C4F3424C4B147323D20FCAE070AA7B5B53C04FC367D3D626A1530"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/attachments/publish.py",
+        "bytes": 32717,
+        "sha256": "FB8C05CA60F0CA49630BB8BA8F697036BBC35889B7CB9BECD06598301879503E"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/attachments/q10.json",
+        "bytes": 35218,
+        "sha256": "5CA26149ACF0D05B65EE59C5635526C07661D41C78DF4FD34EBDD0101EB66F02"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T095235Z-cb61febc-f047-4397-bfd2-abc49e1cb1f3/attachments/publish.py",
+        "bytes": 17137,
+        "sha256": "892A5A61450E4AAFA3239ECD4127A4295F8AC9B4FE6FFB39AB0A2F6E7E097021"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T095235Z-cb61febc-f047-4397-bfd2-abc49e1cb1f3/attachments/q9-follow.json",
+        "bytes": 11039,
+        "sha256": "626E0183361E6F2D0466B6292EF6A2ACA6D5E5688810FE8AB563B50355ABB648"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/publish.py",
+        "bytes": 21408,
+        "sha256": "A7EEF616C50476F658B4E6DE2691DF9B30FACF5B9DD5FFAB5B7BFF0A346A6B39"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/attachments/publish.py",
+        "bytes": 16541,
+        "sha256": "5BC4A207728A72BABB8B6F74C36CF76AB8EAC615D4DED8C73FEEFFC2E523D033"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/attachments/q8-follow.json",
+        "bytes": 9556,
+        "sha256": "2A0FA8D23D0B58C19D282D3B58959053826242050347804FEA8AFC3E4508ABA4"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/publish.py",
+        "bytes": 25618,
+        "sha256": "FB07FC8696B904AE33BFEE7A074BEA72B701A58DE3CE97C6601E370EC13B4C83"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/attachments/publish.py",
+        "bytes": 17022,
+        "sha256": "1E3E300D7CDFBFC35FBADAA3547D878DF93FC083F586A88659746354107C31D7"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/attachments/q7-follow.json",
+        "bytes": 45785,
+        "sha256": "4CD4D48199EB17F578258C2EB6BD57E0DBCACBC671DC86E51557B9CD712B0956"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attachments/publish.py",
+        "bytes": 19492,
+        "sha256": "27D9CDEBCC04C7F8A03AE9A3290AE8DED83B175F68447F20F5967D630423759E"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attachments/q7.json",
+        "bytes": 117095,
+        "sha256": "38B97852C46DE76524E423360B0D9F3E22D0FE638AFE86DF8D72C54FE0E1F1E6"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/attachments/publish.py",
+        "bytes": 17967,
+        "sha256": "B6258493B4B7266171C0B31CE747C4EC8CD643B185937D6171C45095161910E1"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/attachments/q6-follow.json",
+        "bytes": 55842,
+        "sha256": "A0724887BEEF4DB24D4DDD03784B66B15CB7AD51675F38EEFAD48997511171A7"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/publish.py",
+        "bytes": 19658,
+        "sha256": "A3464D3C7EBD0DD380FD38A8929857F4E5DE2127E0200AF1245B726CA838ECD6"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+        "bytes": 111053,
+        "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/publish.py",
+        "bytes": 17954,
+        "sha256": "2FCDCD1BC93454073FFDC36B8296BDBECDE421E8376B55A3AECB21A92C6D926F"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/q5-follow.json",
+        "bytes": 43259,
+        "sha256": "C5BB6E27A0F64CE21A3D35A5D83458B350D3749CA1D2DAF4EC1E05E065B32557"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/publish.py",
+        "bytes": 23132,
+        "sha256": "501D2A52A667F18EB50345B62BF7EEE37A5F89012196B0B63F234F734F6D2B17"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/attachments/publish.py",
+        "bytes": 19953,
+        "sha256": "65D219CC1C07194EAE50DFA083DB0D3798CE8D932C37E9D67E3E3D554EAC677E"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/attachments/q4-auth.json",
+        "bytes": 44361,
+        "sha256": "E4D3E97DA9766FD84581B351C6076585F5C2993769BD96C7BB1D0410FE457909"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/publish.py",
+        "bytes": 27851,
+        "sha256": "36B84845EB81CE4244297AB0B67F89A82446D9FF9F485CD24124F317DC90BCC1"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q3-confirm.json",
+        "bytes": 3315,
+        "sha256": "2157E5372E984CB24277D38658A3632C9A826DE3A740569F6E14AD1A9011032F"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q4.json",
+        "bytes": 82530,
+        "sha256": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/publish.py",
+        "bytes": 21391,
+        "sha256": "674D53A00868F7FED5CB6920663C79A2DAE794516A4992F4E2F804A22DF6B046"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q2-confirm.json",
+        "bytes": 3319,
+        "sha256": "5CCC2416A8F01DB94CEE0B59F615955F142482EA973DF86679831B99246009E4"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/publish.py",
+        "bytes": 18565,
+        "sha256": "52FF3219E8EEDE438EED39325A3EBA1C07AC5A2E18CAEA96D46C2A342F6BC480"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/attachments/recover.py",
+        "bytes": 15848,
+        "sha256": "BE85866CCF03E6E7B29CE79FC2F02433AABEEB80BC880FAA2D4392587252D44B"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attachments/20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json",
+        "bytes": 7603,
+        "sha256": "238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5"
+      },
+      {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/evidence/analysis-evidence.json",
+        "bytes": 13367,
+        "sha256": "8AE7AFFCA4768FCC7103292BC252AB1994DF7FCDE40E48B7FED1607F3E706417"
+      }
+    ],
+    "all_historical_bindings_revalidated": true,
+    "unchanged_original_paragraphs": 409,
+    "modified_original_paragraphs": 115,
+    "added_paragraphs": 760,
+    "decision_fields": 78,
+    "explicit_detail_transforms": 17,
+    "package_parts": 19,
+    "changed_package_parts": [
+      "word/document.xml"
+    ],
+    "other_parts_headers_footers_tables": "Other 18 parts byte-identical; original 21 tables preserved",
+    "namespace_correction": "Declare missing w14/wp14 prefixes named in mc:Ignorable in new document only",
+    "framework_inventory_and_hashes": "76-file complete current inventory revalidated",
+    "tracked_and_staged_changes": []
+  },
+  "own_consistency_review": {
+    "status": "Complete within this Update scope; no additional material decision taken",
+    "coverage": [
+      "All Q1-Q10 fields and follow-ups traced to actual decision attachments",
+      "Scope, lifecycle, roles, privacy, retention, contracts and acceptance sections reconciled",
+      "Earlier conditional policies constrained by explicit later Human supersessions",
+      "Unrelated paragraphs, original section 17 lineage and non-operative illustrative context preserved",
+      "Pending schedules, schemas, thresholds, named authorities and runtime permissions not defaulted"
+    ],
+    "limit": "Executor self-checks only, not independent Requirement Analysis Verification or product assurance"
+  },
+  "construction_diagnostic": {
+    "observed": "First unpublished construction helper reused mutable ZipInfo objects across ZIP readers/writers; comparison raised Truncated file header",
+    "cause": "Writer modified the original reader's in-memory header offsets; original on-disk ZIP and SHA remained valid",
+    "correction": "Copy ZipInfo before output writing; discard only own unpublished partial and regenerate under same invocation before trace publication",
+    "published_failure_or_source_mutation": false,
+    "subsequent_checks": "Fresh source CRC/hash, candidate package preservation, normal native opening and complete readback all passed"
+  },
+  "publication": "Exclusive candidate creation/fsync; native validation; same-directory Windows no-overwrite rename; fresh complete final readback",
+  "downstream_authorization": false,
+  "product_tests_or_runtime_executed": false
+}

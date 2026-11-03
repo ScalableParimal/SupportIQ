@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7:checkpoint-0002",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft requirement discovery and scope establishment; not one implementation feature",
+  "actor": {
+    "identity": "requirement-analysis-actor-8dbff404-42b5-4f0b-b05d-15b85e25d2b7",
+    "role": "Requirement Analysis Agent"
+  },
+  "created_at_utc": "2026-11-03T03:15:11.1233334Z",
+  "clock_basis": "PowerShell UTC clock sampled at checkpoint preparation; not exact filesystem publication time",
+  "process": "Requirement Analysis",
+  "attempt_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7",
+  "checkpoint": {
+    "sequence": 2,
+    "phase": "analysis output durable; terminal binding prepared",
+    "report": {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/report.md",
+      "record_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7:report",
+      "bytes": 39611,
+      "sha256": "F3F1D8D830CA0254D843DED2E33353880E7DF4F4D3804E41CA33B36C558A5581",
+      "publication_readback": "Strict UTF-8 readback succeeded after same-directory no-overwrite atomic move; byte length and SHA-256 captured."
+    },
+    "evidence": {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/evidence/analysis-evidence.json",
+      "record_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7:analysis_evidence",
+      "bytes": 13367,
+      "sha256": "8AE7AFFCA4768FCC7103292BC252AB1994DF7FCDE40E48B7FED1607F3E706417",
+      "publication_readback": "Strict UTF-8 and JSON readback succeeded after same-directory no-overwrite atomic move; byte length, SHA-256 and record identity captured."
+    },
+    "analysis_outcome": "Complete analysis of the entire in-scope draft; unresolved material questions and a first-release integration scope conflict remain documented.",
+    "key_findings": [
+      "RA-C01: first-release read-only integration scope is ambiguous against deferred production integrations.",
+      "RA-C02: the PRD abbreviated Copilot workflow must not supersede adopted Master lifecycle; PB-01 disposition is recorded and all gates retained.",
+      "RA-A02/03 and RA-M02/03: knowledge state transitions, reviewer authority, stale/conflict criteria and human-review routing need decisions before requirement finalization."
+    ],
+    "human_decisions": "PB-01 and PB-02 carried forward exactly as assessment possible-blocker dispositions only; original wording/rationale retained in linked assessment evidence.",
+    "readiness": {
+      "requirement_finalization": false,
+      "complete_requirement_analysis_verification": false,
+      "requirement_approved": false,
+      "implementation_plan_created": false,
+      "implementation_authorized": false,
+      "acceptance": false
+    },
+    "next_checkpoint": "Parent presents RA-Q01–Q10 for Human decisions. Any Requirement Update, Analysis refresh, Verification, approval, Planning or later stage needs its own applicable authorization.",
+    "process_boundary": "No Requirement Analysis Verification or other downstream process was invoked."
+  },
+  "task_context": "Durable linkage of completed Analysis report and evidence before terminal result publication."
+}

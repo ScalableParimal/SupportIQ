@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "record_type": "evidence",
+  "record_id": "20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f:bounded-reassessment-evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "feature": "SupportIQ bounded affected-dimension portability reassessment",
+  "attempt_id": "20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-assessor-b88bed04-a999-4920-a2df-7136d7a4292f",
+    "role": "SDLC Portability Assessment custom agent",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-03T10:36:52.656150+00:00",
+  "clock_basis": "System UTC sampled during final record preparation, not publication or native Human time",
+  "exact_publication_time": null,
+  "gate": {
+    "reference": "This attempt's invocation gate preserves actual Human reassessment initiation",
+    "new_possible_blocker": "PB-03 applicability and rationale PENDING; no AI disposition",
+    "prior_dispositions": "PB-01/PB-02 preserved at original scoped boundaries, not expanded to Requirement Update",
+    "requirement_approval": false,
+    "update_initiation": false
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f/attempt.json",
+      "bytes": 8742,
+      "sha256": "84D87817429FD1CBC90E02EAE68912B504A7703DB81D193F641879419A0DEC1B"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/inputs.json",
+      "bytes": 68337,
+      "sha256": "3DDDEC0F517B45E416689671139983ECEE7001490F183EAB10CBCB77079DEB12"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/report.md",
+      "bytes": 5279,
+      "sha256": "D390F77A5CADF3BB551A4F2D0815A60F3D73F300BCCA79F01FCBB91AD37B5406"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/preflight.json",
+      "bytes": 9434,
+      "sha256": "F6F9CD77D2D8F0EF2D543A0DBB251F2D9EEE1BE0FC5E8BD88E69322FEC4C8419"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/handoff.json",
+      "bytes": 10324,
+      "sha256": "34D29972EB62502E8CB59DBE38AF645B1D999DA85C5FCCDFD90C5F95B458F869"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/result.json",
+      "bytes": 7148,
+      "sha256": "38CA6D4F1B544EBD04BB4A734122C9368DB1B5DF8C95E22BF31F3299B69548A6"
+    }
+  ],
+  "task_context": "No approved Requirement, Plan or implementation task",
+  "current_state": {
+    "repository": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "branch": "sdlc-framework-onboarding",
+    "material_source_byte_change": false,
+    "expected_material_target_context_change": "Accumulated Q1-Q10 clarification decisions and supersessions; proposed future preapproval Update",
+    "unexpected_material_change_detected": false,
+    "proposed_new_requirement_exists": false,
+    "requirement_directory_observation": ["SupportIQ_Product_Requirements_Document.docx"]
+  },
+  "complete_input_manifest": {
+    "incorporation": "related_records[1] is the complete immutable input manifest, not a summary. Every path/length/hash remains canonical there. All 226 recursively present references freshly matched before invocation; final recheck required before report/result publication.",
+    "source_inventory": "related_records[1] / framework_and_target_inventory / source_inventory: 76 source framework files",
+    "target_inventory": "related_records[1] / framework_and_target_inventory / target_inventory: 2 files, including original unapproved PRD",
+    "target_decision_inventory": "related_records[1] / all_prior_product_records: 114 prior product record bindings; exact_decision_evidence_candidates: 15 Q2-Q10/follow-up bindings",
+    "q1_and_confirmations": "Q1 original 20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attachments/20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json SHA-256 238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5; Q2 confirmation and Q3 confirmation are separately bound in all_prior_product_records, not omitted by the 15-candidate selector",
+    "fresh_hidden_inclusive_enumeration": "os.walk .github and docs/ai, no hidden-file filtering: exactly 76 paths, zero missing/extra against source inventory; no symlink directories encountered",
+    "read_depth": "Full actual Human field values read for Q1-Q10, Q2/Q3 confirmations, Q4 authority follow-up, Q5/Q6/Q7 follow-ups, Q8 scope confirmation and Q9 supersession. Exact raw-wrapper field slices checked for all 15 candidates, using native raw_tool_response or raw_received_wrapper as appropriate. These checks do not authenticate original Human whitespace or identity.",
+    "prd_method": "Complete native word/document.xml paragraph/table text via standard-library ZIP/XML; no Office/runtime/project code executed",
+    "additional_read_inputs": "Original complete Analysis and original/decision-handoff Assessment reports; current Portability artifacts and applicable Masters; current Requirement Update Skill and Guideline read statically, not invoked; prepared full handoff",
+    "exclusions": "No credentials, private keys, live secret-bearing .env, customer datasets, unrelated repositories, dependency/build caches or historic helper execution"
+  },
+  "input_comparison": {
+    "prior_head": "57ed3afe8a14a41bdbe38d4df621a99c836a0f4c plus original assessed working-tree bytes",
+    "current_head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "interpretation": "Expected recorded HEAD transition already covered by OWNER current-applicability confirmation; all 76 framework and 2 original target fingerprints equal prior assessment. Commit identity alone is not evidence reuse.",
+    "baseline": "Same SupportIQ-Master-Baseline-001 exact adopted three-file hashes; fresh issue #3 OWNER comments 6583261503, 6583299245, 6594228907 resolved",
+    "new_context": "Clarifications accumulated after original Analysis, not original PRD edits or retrospective approvals",
+    "scope_difference": "Initial full eight-dimension assessment versus this explicitly bounded reassessment of 2/5/6/7/8 and next preapproval Update transition; 1/3/4 reused only within repository/mechanism/lifecycle bounds"
+  },
+  "determinations": {
+    "overall": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+    "1": {"determination": "VERIFIED COMPATIBILITY", "mode": "reuse with current repository/OWNER/fingerprint check", "limit": "Same repository-local route; not exclusive-writer or cross-repository proof"},
+    "2": {"determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION", "mode": "reassessed", "evidence": "Original Analysis/PRD plus all clarification responses, especially Q1/Q5/Q6/Q9/Q10", "limit": "Future new unapproved v1.1 and complete decision-to-clause mapping not yet produced"},
+    "3": {"determination": "VERIFIED COMPATIBILITY", "mode": "reuse with current own capability/invocation check", "limit": "Assessment only; no parent Update capability qualification inherited"},
+    "4": {"determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION", "mode": "reuse controlling lifecycle and adoptions; check handoff implications", "limit": "PB-01 remains scoped to Analysis; all later gates and fresh starts retained"},
+    "5": {"determination": "UNVERIFIED / INSUFFICIENT EVIDENCE", "mode": "reassessed", "evidence": "Q2-Q6 independent authorities/lifecycle clocks and Q9 transient/no-notes rules", "limit": "Declared policy clearer; no security/privacy enforcement execution"},
+    "6": {"determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION", "mode": "reassessed", "evidence": "Q7 exact synthetic reporting semantics and Q8 config-bound quality governance", "limit": "Numeric acceptance values, samples, schemas, named authorities and executed evidence pending"},
+    "7": {"determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION", "mode": "reassessed", "evidence": "Q6-follow and Q8-follow separate authorized ingestion classification from answer retrieval; Q8 evaluation; Q9 no provider transmission/no notes/history", "limit": "No model/provider selection, output schema approval or AI evaluation PASS"},
+    "8": {"determination": "UNVERIFIED / INSUFFICIENT EVIDENCE", "mode": "reassessed", "evidence": "Static-only authority and Q8/PB-02 retained future boundaries", "limit": "Synthetic/local-only product runtime still needs separate authorization/evidence; no runtime executed"}
+  },
+  "publication_order_evidence": {
+    "invocation": "PowerShell operation returned INVOCATION PUBLISHED AND FRESH READBACK VALID, 8742 bytes, SHA-256 84D87817429FD1CBC90E02EAE68912B504A7703DB81D193F641879419A0DEC1B before complete actual-response/PRD reads began",
+    "route": "Validate native complete JSON/metadata/references, flush/fsync .partial, same-directory Windows os.rename without replacement, fresh bytes/hash/native JSON readback",
+    "nonterminal_helper_errors": "A temporary GitHub tool-output JSON decoder encountered duplicated tool rendering; raw_decode resolved the first complete object. A later wrapper-key probe found raw_received_wrapper variants; explicit variant-aware field checks passed. A Master output command encountered console encoding limits; UTF-8 output reread required sections. These were read-only helper failures with no published-failure replacement or source effects.",
+    "clock_limit": "No exact filesystem publication timestamp claimed"
+  },
+  "evidence_classes": {
+    "source_inspection": "Governed artifacts, original target draft/Analysis, full exact response fields and current fingerprints",
+    "executed": "Administrative static reads, hash/JSON/ZIP/XML, Git metadata and own publication/readback only",
+    "reported": "Historical Audit CONSISTENT and remediation COMPLETE; prior Assessment determinations and actual conversational dispositions with original attribution limitations",
+    "external": "Fresh GitHub OWNER adoption/current applicability evidence",
+    "unverified": "Product runtime/security/quality/deployment, later actor capabilities, future Update contents and formal approvals"
+  },
+  "next_permitted_process": "Human interactive PB-03 applicability/rationale decision only; no automatic continuation. Any later Requirement Update requires a fresh exact start and receiving parent's independent qualification/invocation.",
+  "stop": "Own valid canonical report and terminal result publication; no downstream process"
+}

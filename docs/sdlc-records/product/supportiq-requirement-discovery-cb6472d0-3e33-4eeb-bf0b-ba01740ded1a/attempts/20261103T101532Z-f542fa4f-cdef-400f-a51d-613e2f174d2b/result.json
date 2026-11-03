@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "record_type": "result",
+  "record_id": "20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b:result",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b",
+  "process": "SDLC Process Orchestrator coordination-only Update request preparation and static applicability preflight",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "basis": "Actual assigned actor/current tools and OS identity, not session title or authenticated Human identity"
+  },
+  "created_at_utc": "2026-11-03T10:19:28.349654+00:00",
+  "clock_basis": "Python system UTC during record preparation; not native Human time or publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "subject": "Actual Human bounded Requirement Update request, executor designation and coordination-only preparation",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Exact Update initiation ABSENT; applicability preconditions checked by coordination only"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attempt.json",
+      "bytes": 63117,
+      "sha256": "22EB8A076951CD807F40ECC625140F0B7699C9ACAC6DC09B754C70CD342B444F"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/request.json",
+      "bytes": 5998,
+      "sha256": "D6DCBB90383C4F3424C4B147323D20FCAE070AA7B5B53C04FC367D3D626A1530"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/inputs.json",
+      "bytes": 68337,
+      "sha256": "3DDDEC0F517B45E416689671139983ECEE7001490F183EAB10CBCB77079DEB12"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/preflight.json",
+      "bytes": 9434,
+      "sha256": "F6F9CD77D2D8F0EF2D543A0DBB251F2D9EEE1BE0FC5E8BD88E69322FEC4C8419"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/handoff.json",
+      "bytes": 10324,
+      "sha256": "34D29972EB62502E8CB59DBE38AF645B1D999DA85C5FCCDFD90C5F95B458F869"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/result.json",
+      "bytes": 16187,
+      "sha256": "789B4480814BC3A2A1369784C019AD254C1B734A20BC60D4982C6B8BE1E6054F"
+    }
+  ],
+  "task_context": "No approved Plan/local task; no new process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "execution_status": "COMPLETED",
+  "outcome": "REQUEST_AND_PARENT_DESIGNATION_RECORDED_PREFLIGHT_REQUIRES_AFFECTED_DIMENSION_REASSESSMENT",
+  "completion_scope": "Coordination-only transcription/static applicability preflight/future Request preparation",
+  "invocation": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attempt.json",
+    "bytes": 63117,
+    "sha256": "22EB8A076951CD807F40ECC625140F0B7699C9ACAC6DC09B754C70CD342B444F"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/report.md",
+    "bytes": 5279,
+    "sha256": "D390F77A5CADF3BB551A4F2D0815A60F3D73F300BCCA79F01FCBB91AD37B5406"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/checkpoint-0001.json",
+    "bytes": 40756,
+    "sha256": "983C6F8292B64DADBB8F1095D473C1B803DD5529476D60071762A5DAC6CFA6D1"
+  },
+  "request_evidence": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/request.json",
+    "bytes": 5998,
+    "sha256": "D6DCBB90383C4F3424C4B147323D20FCAE070AA7B5B53C04FC367D3D626A1530"
+  },
+  "input_manifest": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/inputs.json",
+    "bytes": 68337,
+    "sha256": "3DDDEC0F517B45E416689671139983ECEE7001490F183EAB10CBCB77079DEB12"
+  },
+  "preflight_evidence": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/preflight.json",
+    "bytes": 9434,
+    "sha256": "F6F9CD77D2D8F0EF2D543A0DBB251F2D9EEE1BE0FC5E8BD88E69322FEC4C8419"
+  },
+  "future_handoff": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T101532Z-f542fa4f-cdef-400f-a51d-613e2f174d2b/attachments/handoff.json",
+    "bytes": 10324,
+    "sha256": "34D29972EB62502E8CB59DBE38AF645B1D999DA85C5FCCDFD90C5F95B458F869"
+  },
+  "lifecycle_state": "REQUIREMENT_DECISION_PENDING",
+  "affected_transition": "BLOCKED: Requirement Update initiation precondition requires applicable material-change reassessment",
+  "actual_human_request_exists": true,
+  "designated_executor": "Parent AI assistant, not Orchestrator; independent qualification pending",
+  "exact_Update_start_exists": false,
+  "parent_qualification_established": false,
+  "Update_skill_invoked": false,
+  "canonical_Request_filled": false,
+  "new_DOCX_created": false,
+  "requirement_approved": false,
+  "quality_pass": false,
+  "source_modified": false,
+  "product_tests_executed": false,
+  "later_process_started": false,
+  "current_inputs": {
+    "framework": 76,
+    "targets": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head_branch_source_staging": "Unchanged"
+  },
+  "next_human_action": "Explicit human-invoked .github/agents/portability-assessment.agent.md affected-dimension reassessment; no automatic invocation; subsequent applicable disposition then separate exact parent Update initiation",
+  "publication_order": "Own invocation/fresh independent readback; helper; input manifest/request/preflight/future handoff; checkpoint; report; result last"
+}

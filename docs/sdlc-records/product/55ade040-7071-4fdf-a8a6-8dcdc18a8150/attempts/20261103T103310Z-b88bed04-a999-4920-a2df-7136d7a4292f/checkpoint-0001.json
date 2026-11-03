@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f:checkpoint-0001",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "feature": "SupportIQ bounded affected-dimension portability reassessment",
+  "attempt_id": "20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-assessor-b88bed04-a999-4920-a2df-7136d7a4292f",
+    "role": "SDLC Portability Assessment custom agent"
+  },
+  "created_at_utc": "2026-11-03T10:39:46.441155+00:00",
+  "clock_basis": "System UTC sampled after report/evidence publication/readback during checkpoint preparation; not exact filesystem publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "new_possible_blocker": "PB-03 applicability/rationale pending actual Human decision",
+    "update_initiation": false,
+    "formal_requirement_approval": false
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f/attempt.json",
+      "bytes": 8742,
+      "sha256": "84D87817429FD1CBC90E02EAE68912B504A7703DB81D193F641879419A0DEC1B"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f/attachments/evidence.json",
+      "bytes": 11377,
+      "sha256": "24972DE64256867F9629EF4636B63D203D4F6CAFF3392F157ED7CC48EA7505F0"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261103T103310Z-b88bed04-a999-4920-a2df-7136d7a4292f/report.md",
+      "bytes": 30657,
+      "sha256": "DA5338E7F56E80024B0914A43D565D73A1064109A1EEDE22CE9CBA1582A52FED"
+    }
+  ],
+  "task_context": "No approved Requirement, Plan or implementation task",
+  "sequence": 1,
+  "last_confirmed_boundary": "Complete bounded static assessment; own evidence and canonical report validated, flushed, atomically published without replacement and freshly read back",
+  "observed_evidence": "All 226 prepared input bindings rechecked; same complete hidden-inclusive 76 framework path set; 2 original target hashes unchanged; expected branch/HEAD; empty tracked and staged diffs; historical prerequisite result/report bindings match",
+  "partial_outputs_or_effects": "Only this fresh actor-owned attempt record, evidence and report published. No source/PRD/other actor history edit.",
+  "unfinished_work": "Publish valid terminal result binding existing report/evidence/checkpoint, independently read it back, return interactive handoff and STOP",
+  "blockers": "PB-03 actual applicability disposition/rationale absent; future Update qualification and exact start absent. These do not prevent completing this advisory assessment.",
+  "safe_continuation": "Only own terminal publication/readback and caller handoff within this existing attempt. No published-failure replacement, Update, Verification, nested agent, Orchestrator or downstream activity.",
+  "outcome": "COMPATIBILITY WITH IDENTIFIED ADAPTATION"
+}

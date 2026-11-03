@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e:checkpoint-0001",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft requirement discovery and scope establishment; not one implementation feature",
+  "attempt_id": "20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e",
+  "process": "SDLC Process Orchestrator coordination",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-03T03:18:00.7161944Z",
+  "clock_basis": "System-clock sample after receiving Analysis result and endpoint/binding checks, at checkpoint preparation; not publication or native human decision time",
+  "sequence": 1,
+  "last_confirmed_boundary": "Fresh exact initiation response recorded in immutable own new invocation, published/readback before one custom Requirement Analysis dispatch; actual Analysis returned terminal records, applicability reconciled; no downstream invocation",
+  "own_invocation": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e/attempt.json",
+    "record_id": "20261103T030431Z-ee1ab9b7-83ef-4fab-8a15-9a2fce87d20e:invocation",
+    "bytes": 8563,
+    "sha256": "A28F40995391273CEAA352CEB4E45DC91AD5DEC7204AA4A0CDFB4485A1B7E651",
+    "pre_dispatch_readback": "PASS; post-readback clock sample 2026-11-03T08:35:20.4073892+05:30; no exact publication time claimed"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/result.json",
+      "record_id": "20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7:result",
+      "bytes": 12211,
+      "sha256": "352C87CE416D782B13278D58D98FF31FE741BE398624EFA6321CC31C58836967",
+      "actor": "requirement-analysis-actor-8dbff404-42b5-4f0b-b05d-15b85e25d2b7"
+    }
+  ],
+  "analysis_result_validation": {
+    "status": "PASS for handoff integrity/applicability; not independent Requirement Analysis Verification",
+    "checks": "Recomputed actual result hash, report/evidence/invocation/checkpoint byte/hash bindings; read report conclusion/questions, result and pre-analysis qualification/readback checkpoint; same Work ID, draft hash and HEAD; result records completion only for Analysis",
+    "invocation_first_evidence": "Analysis actor checkpoint-0001 and result identify own independent qualification, strict JSON/UTF-8 validation/Flush(true)/no-overwrite File.Move and separate pre-analysis readback; inspected as owning actor's reported publication evidence",
+    "outcome": "ANALYSIS_COMPLETE_WITH_OPEN_HUMAN_DECISIONS",
+    "not_ready": ["Requirement finalization", "Complete Requirement Analysis Verification", "Human Requirement Approval", "Planning", "Implementation"],
+    "limits": "Analysis conclusions and its executed administrative activities are reported evidence to Orchestrator; own hash checks do not become independent formal Verification"
+  },
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "branch": "sdlc-framework-onboarding",
+    "head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "endpoint": "78 input fingerprints unchanged; no tracked/staged diff; prior pending result and own invocation unchanged; effects only known new Orchestrator and Analysis records",
+    "source_edits": false
+  },
+  "requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+    "sha256": "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5",
+    "status": "Draft v1.0 September 2026; no approved Requirement",
+    "plan": null
+  },
+  "current_state": "REQUIREMENT_DECISION_PENDING",
+  "gate": {
+    "kind": "Human requirement clarification/decision checkpoint",
+    "question_source": "Owning Analysis report section 9, question positions 1-10 (handoff labels RA-Q01 through RA-Q10)",
+    "response": null,
+    "formal_human_requirement_approval": false,
+    "requirement_analysis_initiation": "Consumed for one completed invocation only; no reuse",
+    "next_process_initiation": "Not requested or satisfied"
+  },
+  "why_human_questions_next": "Current Requirement Analysis Guideline sections 13-14 prescribe Initial Analysis -> AI Questions -> Human Decisions before any separately authorized update/refresh and complete Verification. These source-draft clarifications are not post-Verification findings; no shortcut finding-to-change route is authorized.",
+  "findings_routing": "Original analysis findings/questions retained in owning report; no corrective implementation or rejected/accepted finding disposition invented. If later corrective action is required, apply governed investigation/decision route with separate human interlocks.",
+  "unfinished_work": "Human responses/rationale to ten material questions; any update/refresh and Verification require their own governed authority and fresh initiation; all later approvals absent",
+  "next_human_checkpoint": "Present Analysis report questions 1-10; ask exact answers with rationale or explicit deferral, not approval of the PRD",
+  "alarm": "Guide/script absent; skipped without weakening human decision checkpoint",
+  "other_processes_started": false,
+  "task_context": "Draft discovery only; no Plan-local task or implementation work",
+  "publication_time": null
+}

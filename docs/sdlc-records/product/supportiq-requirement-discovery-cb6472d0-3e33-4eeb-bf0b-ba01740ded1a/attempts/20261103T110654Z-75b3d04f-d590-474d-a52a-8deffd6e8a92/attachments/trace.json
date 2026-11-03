@@ -1,0 +1,2850 @@
+{
+  "schema_version": "1.0",
+  "record_type": "evidence",
+  "record_id": "20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92:traceability",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ initial requirement clarification; not one implementation feature",
+  "creator": {
+    "identity": "parent-assistant:d5d35e43-65a0-48a7-99a5-246c47b6f270",
+    "role": "Human-designated parent Requirement Update executor/publisher",
+    "session": "bbd899a3-3c5f-444e-9d88-5df37ef2d3d6",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "identity_limit": "Current parent role/session plus observed OS principal; not independent authenticated Human identity or a subagent ID"
+  },
+  "created_at_utc": "2026-11-03T11:13:04.797342+00:00",
+  "clock_basis": "Python system UTC at record preparation; not Human decision/publication time",
+  "exact_publication_time": null,
+  "process": "Requirement Update",
+  "attempt_id": "20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92",
+  "gate": {
+    "process_initiation": "Actual fresh Human approval received",
+    "formal_requirement_approval": false
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T110654Z-75b3d04f-d590-474d-a52a-8deffd6e8a92/attempt.json",
+      "bytes": 110350,
+      "sha256": "CD1377BA41EC4DC81B3917D53ED6AE707F452608DE1EA4D75C5C7604CD1B9918"
+    }
+  ],
+  "task_context": "No approved Plan/task; preapproval clarification only",
+  "source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirements_Document.docx",
+    "bytes": 49936,
+    "sha256": "14AF65ACC24885C2378D47313EF41C6B0573283602913F812B7D9E36746709B5"
+  },
+  "result_candidate": {
+    "partial_path": "docs/requirement/SupportIQ_Product_Requirements_Document_Clarified_Draft_v1.1.docx.partial",
+    "sha256": "B50957C9FA3BF09E83AF58D0C36E01B6A062EE076F8F5C60C2E4ADCC0BC2505A",
+    "bytes": 140134,
+    "paragraphs": 1284,
+    "source_paragraphs": 524,
+    "added_paragraphs": 760,
+    "modified_original_paragraphs": 115,
+    "unchanged_original_paragraphs": 409,
+    "changed_package_parts": [
+      "word/document.xml"
+    ],
+    "namespace_correction": "Declare missing w14/wp14 prefixes named in mc:Ignorable in new document only"
+  },
+  "paragraph_changes": [
+    {
+      "source_paragraph": 3,
+      "original": "Version 1.0  |  September 2026  |  Learning / portfolio project",
+      "result": "Version 1.1 | Clarified UNAPPROVED draft | Source: v1.0, September 2026 | Learning / portfolio demonstration",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 13,
+      "original": "Define product scope, functional and non-functional requirements, workflows, acceptance criteria, and delivery guidance for an intensive 30-day build.",
+      "result": "Define product scope, requirements, workflows and acceptance criteria for a bounded synthetic/local-only demonstration. The 30-day build is a non-binding learning goal, not a delivery or release commitment.",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 17,
+      "original": "Draft updated with approved decisions; subject to Requirement Analysis refresh, complete Verification, and Human Requirement Approval.",
+      "result": "Draft / UNAPPROVED. Human Q1-Q10 clarification decisions are incorporated, but do not constitute Requirement approval. Subsequent Requirement Analysis, complete independent Requirement Analysis Verification, resolution and separate formal Human Requirement Approval remain required.",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 19,
+      "original": "React + TypeScript, .NET 8 Web API, Azure AI model endpoint, Azure AI Search, Azure SQL, Blob Storage, App Service, Key Vault, Application Insights, GitHub Actions.",
+      "result": "Original proposed technology baseline retained as draft lineage: React + TypeScript, .NET 8 Web API, Azure AI model endpoint, Azure AI Search, Azure SQL, Blob Storage, App Service, Key Vault, Application Insights and GitHub Actions. Cloud/provider use is not authorized by this draft. The first demonstration is synthetic/local-only; external-provider transmission, runtime and deployment remain separately gated. No alternative technology is selected here.",
+      "human_questions": [
+        "Q1",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 22,
+      "original": "SupportIQ is a learning-oriented, production-minded AI customer support portal. It combines a tenant-aware knowledge base, retrieval-augmented generation (RAG), ticket intelligence, agent assistance, lightweight workflow automation, and evaluation/operations capabilities.",
+      "result": "SupportIQ is a learning/portfolio AI support portal for a bounded synthetic/local-only demonstration, not a production-ready or enterprise-ready service. It combines tenant-aware knowledge management, grounded retrieval, ticket-intelligence suggestions, human-reviewed drafting, illustrative analytics and evaluation. Read-only local tools demonstrate controlled lookup; autonomous business workflow actions and external integrations are excluded.",
+      "human_questions": [
+        "Q1",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 27,
+      "original": "Demonstrate an end-to-end AI application using .NET, React, Azure services, and GitHub Copilot-assisted development.",
+      "result": "Demonstrate an end-to-end React/.NET AI application using authorized synthetic/local-only data. Preserve the original Azure architecture proposal as gated future context; no external-provider transmission or cloud runtime is authorized.",
+      "human_questions": [
+        "Q1",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 29,
+      "original": "Deploy a demonstrable application with documented setup, CI checks, monitoring, and cost controls.",
+      "result": "Prepare a demonstrable application with documented setup, CI checks, monitoring and cost controls, subject to all separate implementation, testing, runtime, deployment and release gates. This draft and the 30-day goal do not authorize deployment.",
+      "human_questions": [
+        "Q8",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 33,
+      "original": "Initial target: 50 question/source pairs, 10 no-answer questions, and 10 prompt-injection cases; not hard minimums.",
+      "result": "Original illustrative targets remain 50 question/source pairs, 10 no-answer questions and 10 prompt-injection cases, not minimum coverage or passing thresholds. The versioned dataset, reference labels, rubric, sample sizes and acceptance criteria require separate approval and actual evaluation evidence.",
+      "human_questions": [
+        "Q8",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 35,
+      "original": "Upload, process, index, search, update/reindex, and delete a document with visible status.",
+      "result": "Upload, process, index, independently review, retrieve only eligible knowledge, revise and delete with separately visible processing, approval, review/exclusion and deletion states.",
+      "human_questions": [
+        "Q2",
+        "Q3",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 52,
+      "original": "Manage organization settings, users, and knowledge sources within own tenant.",
+      "result": "Own-tenant user/standard-role administration within explicit account-management authority; request knowledge actions and assign eligible reviewers. Tenant Admin status alone grants no knowledge/classification approval or conversation access.",
+      "human_questions": [
+        "Q2",
+        "Q4",
+        "Q6",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 53,
+      "original": "Manage users and knowledge only within own tenant.",
+      "result": "Tenant-scoped explicit permissions only. Subsequent Tenant Admin assignment/removal/restoration requires Platform Admin authorization. Knowledge and classification permissions are separately assigned, with no self-approval. Deletion requires independent Tenant Admin approval.",
+      "human_questions": [
+        "Q2",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 58,
+      "original": "Manage/review tickets and team feedback and own tenant category/priority mapping.",
+      "result": "Review authorized synthetic support/classification reports and disputed queue/classification recommendations, with separately assigned review/override/escalation permissions. No central taxonomy ownership, manager conversation visibility or automatic knowledge approval.",
+      "human_questions": [
+        "Q6",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 59,
+      "original": "Manage/review tickets, team feedback, and tenant category/priority mapping only within own tenant; no platform or other-tenant access.",
+      "result": "Own-tenant responsibilities only; may propose centrally governed mapping changes, not approve their own proposal or apply tenant-specific overrides. Knowledge, classification, escalation and report permissions remain distinct and explicitly assigned.",
+      "human_questions": [
+        "Q4",
+        "Q6",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 62,
+      "original": "No routine tenant-content access. Exceptional cross-tenant access is time-limited, reasoned, and audited.",
+      "result": "Platform configuration, provisioning metadata, health and authorized non-content metrics only. All exceptional tenant-content access, including emergency/break-glass overrides, is prohibited in the first release. No tenant-content access through audit, recovery or classification permissions.",
+      "human_questions": [
+        "Q4",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 64,
+      "original": "Users authenticate with SQL-backed local SupportIQ application accounts, not end-user SQL credentials. Store salted password hashes, restrict account creation to authorized administration, and rate-limit sign-in attempts. The application uses a separate, protected, least-privilege service identity for database access. Enforce explicit least-privilege tenant roles at the API, not merely by hiding UI controls. Roles may be seeded for the demo, but permissions must be explicit and testable.",
+      "result": "Preserve the original SQL-backed local SupportIQ application-account proposal, salted password hashes, restricted provisioning, sign-in rate limiting and separate protected least-privilege database service identity; these are not end-user SQL credentials. Apply Q4's controlled bootstrap, independent recovery authorization, explicit tenant membership, immediate disablement/session-token revocation and separately authorized privileged restoration. Last-administrator protection and tamper-resistant content-free audit are mandatory. Enforce all permissions at API/data-access boundaries, not only UI controls. Exact role/permission provisioning and recovery runbooks remain explicit gates; seeded demo roles cannot bypass them.",
+      "human_questions": [
+        "Q4",
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 68,
+      "original": "Knowledge upload, extraction, chunking, embedding, indexing, status, reindex, and deletion.",
+      "result": "Tenant-authorized knowledge ingestion, independent approval, retrieval-eligibility enforcement, versioned reprocessing and independently authorized deletion. Exact deferred lifecycle-retention schedules must be approved before affected capabilities proceed.",
+      "human_questions": [
+        "Q2",
+        "Q3",
+        "Q5",
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 69,
+      "original": "RAG chat with conversation context, citations, no-answer behavior, and feedback.",
+      "result": "RAG interaction with transient current-session context, eligible citations, abstention and structured transient feedback. Persistent conversation history, model memory, sharing/export and content-bearing feedback storage are prohibited.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 70,
+      "original": "Ticket list/detail with AI classification and summarization.",
+      "result": "Deterministic synthetic ticket list/detail, transient AI summary and human-reviewed category/priority/queue suggestions. No automatic ticket changes or external system modifications.",
+      "human_questions": [
+        "Q1",
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 72,
+      "original": "Read-only customer/ticket integration tools and auditable execution; no business-data writes or message sending in the first release.",
+      "result": "Read-only local synthetic customer/ticket lookup, eligible knowledge lookup and authorized ticket-context retrieval; bounded queries, pagination, timeouts, tenant/RBAC checks and content-free audit. No external connector, customer data, business-data write or message sending.",
+      "human_questions": [
+        "Q1"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 73,
+      "original": "Automated tests, GitHub issue/PR workflow, CI, telemetry, and Azure deployment.",
+      "result": "Automated testing/CI, issue/PR workflow, content-free telemetry and deployment documentation remain requirements subject to separate authorized execution and approval gates. Azure/external runtime or actual deployment is not authorized or assumed in the first-release scope.",
+      "human_questions": [
+        "Q8",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 79,
+      "original": "Large-scale benchmarking, custom fine-tuning, and automated model selection.",
+      "result": "Large-scale benchmarking, custom fine-tuning, automated model selection, tenant taxonomy customization, automatic classification/escalation, production or simulated SLAs, cross-tenant business analytics, persistent interaction history, internal-note model processing and external-provider transmission are excluded/deferred; no future authorization is implied.",
+      "human_questions": [
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 87,
+      "original": "Retrieval returns only approved/current knowledge that the current user is authorized to access.",
+      "result": "Retrieve only Indexed, Approved / Current, valid, non-overdue, unflagged knowledge authorized for the current tenant/user. Enforce eligibility at API, retrieval and data layers, including caches; fail closed if uncertain. Deletion approval immediately excludes affected content.",
+      "human_questions": [
+        "Q2",
+        "Q3",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 89,
+      "original": "Responses are grounded in retrieved content and display source title plus excerpt or section reference where available.",
+      "result": "Ground material claims in eligible evidence. Citations identify the exact tenant/document/version and valid source location where available, with authorized actual title/page/section/excerpt metadata. Missing metadata is explicit, never fabricated; inaccessible or unsupported citations cannot be presented as verified support.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 91,
+      "original": "If evidence is insufficient, stale, or conflicting, the assistant abstains, identifies that it cannot answer from available knowledge, and flags the issue for human review; it must not silently choose conflicting content.",
+      "result": "Abstain from unsupported or unresolved conflicting claims and route a tenant-scoped review flag. Approved source-authority/applicability rules may select only otherwise eligible sources; no upload-date/rank shortcut or automatic resolution/reinstatement of flagged content. An authorized non-submitter Knowledge Reviewer owns resolution.",
+      "human_questions": [
+        "Q3"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 93,
+      "original": "Recent conversation turns may be used as context without crossing tenant or access boundaries.",
+      "result": "Only the initiating authenticated user may use authorized synthetic current-session turns transiently. Minimize/redact before model context; discard at session end or authorization revocation, whichever is first. Deletion approval invalidates affected active context and caches. No cross-session memory, persistence or internal notes.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 95,
+      "original": "Users can provide positive/negative feedback and an optional reason.",
+      "result": "Permit transient thumbs-up/down and predefined structured feedback categories only in the user's active session. No free-text feedback, persistent feedback content, automatic training/fine-tuning or knowledge/classification changes.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 97,
+      "original": "Users can view only conversation history permitted by their role.",
+      "result": "No persistent conversation-history view, recovery, sharing or export in the first release. Only the initiating user may view/continue their own active authorized session; no manager/admin/reviewer conversation visibility.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 107,
+      "original": "Validate extension, content type, size, and processing outcome; do not trust filename alone. Purge failed or rejected uploads and their derived content within 24 hours.",
+      "result": "Validate extension, content type, size and processing outcome; never trust filename alone. The original blanket automatic 24-hour failed/rejected-upload purge rule is intentionally replaced: rejection/failure alone does not trigger deletion. Separately approved retention/cleanup schedules for failed/rejected originals and every derived copy are required before affected capability proceeds; no indefinite-retention default. An approved deletion remains subject to Q5's applicable 24-hour purge.",
+      "human_questions": [
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 109,
+      "original": "Store originals and register tenant, uploader, timestamps, version, and processing status. Retain active approved originals while current, until superseded or deleted.",
+      "result": "Register originals and tenant/uploader/time/version/processing metadata. Current approved originals remain subject to validity, independent review, authorization and deletion rules. Retaining failed/rejected/superseded/expired/overdue content does not grant AI eligibility; their exact retention schedules remain pending approval before affected capabilities proceed.",
+      "human_questions": [
+        "Q2",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 111,
+      "original": "Extract and normalize text, split into configurable chunks, generate embeddings, and index chunks.",
+      "result": "Authorized ingestion service may extract/normalize, chunk, embed and index within explicit tenant/document scope. Technical indexing never approves content. Q6 permits narrow draft/pending ingestion classification only; rejected, expired, superseded or overdue content cannot undergo new AI classification, and deletion-approved content cannot undergo any new processing.",
+      "human_questions": [
+        "Q2",
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 113,
+      "original": "Show processing states (Uploaded, Processing, Indexed, Failed, deletion) and the versioned knowledge lifecycle: draft → review → approved/current → superseded, expired, or rejected.",
+      "result": "Keep processing Uploaded / Processing / Indexed / Failed separate from approval Draft / Pending Review / Approved / Current / Rejected / Superseded / Expired. Track review-overdue/exclusion and deletion progress separately. Use the Q2 transition/authority rules and Q5 deletion states; Indexed never implies approval or retrieval eligibility.",
+      "human_questions": [
+        "Q2",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 115,
+      "original": "Authorized users can update or reprocess a document as a new version. Each version must be reviewed and approved by someone other than its submitter; re-review approved/current knowledge at 180 days.",
+      "result": "An authorized submitter creates a new revision; an explicitly assigned eligible tenant Knowledge Reviewer other than the submitter must approve it after successful processing. Each version's 180-day clock begins at explicit approval and resets only on successful formal independent re-review approval. At the deadline without reapproval, exclude it immediately. Existing versions remain current only while otherwise eligible until replacement approval; no admin or automatic bypass.",
+      "human_questions": [
+        "Q2",
+        "Q3"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 117,
+      "original": "On deletion, block retrieval immediately and purge originals, extracted text, chunks, indexes, and caches within 24 hours. Encrypted backups age out within 30 days; retain only content-free deletion/audit metadata for 365 days.",
+      "result": "Support independent single-version and whole-document/all-version deletion requests. Independent eligible Tenant Admin approval starts immediate exclusion and the immutable UTC 24-hour active-primary purge deadline. A tenant-scoped service purges originals and all content-bearing derived copies, verifies every component and records partial failure/overdue/retries. Backup age-out is at most 30 days from each backup's creation; content-free audit is 365 days from each record's creation then controlled expiry. Apply only explicitly authorized narrow legal holds; preserve original deadlines and Q5's recorded-release deadline rules. Restoration must reapply deletion before access.",
+      "human_questions": [
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 119,
+      "original": "Only approved/current versions are searchable. Search results and citations identify the source document and, where feasible, page/section; stale or conflicting content must trigger abstention and flagging, not silent selection.",
+      "result": "Only otherwise eligible current approved knowledge is searchable/citable. Credible stale/conflict concerns exclude the affected version pending independent review; any partial reinstatement needs explicit reviewer approval. Missing/insufficient evidence requires abstention, not hidden use of excluded content. Source references must meet Q8 identity, support and access checks.",
+      "human_questions": [
+        "Q2",
+        "Q3",
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 129,
+      "original": "Classify tickets into tenant-configurable categories and priorities using structured output; the Support Manager owns category/priority mapping for their tenant.",
+      "result": "Use the common centrally governed category/priority taxonomy and fallback values specified in Q6, not tenant-configurable mappings. Category/priority/queue suggestions are distinct from human-confirmed decisions. Separate tenant-scoped review/override permissions apply; only independent designated central governance approves mapping changes, with controlled versioned application.",
+      "human_questions": [
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 135,
+      "original": "Agents can edit/override suggestions for the in-app synthetic demo; retain the final human-approved value and, where appropriate, the original suggestion. Do not write changes back to integrated ticket systems.",
+      "result": "Explicitly authorized humans may accept, reject or override local synthetic suggestions within their permitted scope. Preserve original AI values and every human decision/version/reason as content-free classification audit for 365 days. No integration-tool ticket/customer writeback, autonomous ticket change or persistent content-bearing interaction history.",
+      "human_questions": [
+        "Q6",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 137,
+      "original": "Invalid model output is handled safely and does not corrupt ticket data.",
+      "result": "Reject malformed or policy-invalid outputs; only approved bounded safe corrective/transient retries are permitted. Separate schema validity from semantic correctness and human authority. Authorization/tenant/lifecycle/deletion violations are blocked without retry or fallback bypass.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 147,
+      "original": "Summarize customer context from authorized available records.",
+      "result": "Summarize only necessary authorized synthetic local customer/ticket context transiently for the current purpose. Exclude real/sensitive data and all internal notes. No provider transmission without separate PB-02 permission.",
+      "human_questions": [
+        "Q1",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 155,
+      "original": "Distinguish internal notes from customer-facing draft content.",
+      "result": "All internal notes, including synthetic notes, are excluded from model context and transmission to the AI model. Internal-note persistence/use is not a first-release capability; customer-facing drafts remain transient, human-reviewed and never automatically sent.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 161,
+      "original": "The assistant can invoke a small allowlisted set of read-only tools, such as knowledge search and read-only ticket/customer lookup.",
+      "result": "Invoke only allowlisted read-only local synthetic customer/ticket lookup, eligible knowledge lookup and authorized ticket-context retrieval. No external connector or live/customer data is included.",
+      "human_questions": [
+        "Q1"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 169,
+      "original": "Record tool calls, outcomes, actor, tenant, and correlation identifiers in an audit trail.",
+      "result": "Record content-free tool identity/outcome/actor/tenant/time/correlation audit only. Never log prompts, responses, retrieved excerpts, internal notes, credentials or sensitive input.",
+      "human_questions": [
+        "Q4",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 179,
+      "original": "Show simple trends and SLA indicators when the sample data contains the required fields.",
+      "result": "Provide only explicitly defined illustrative synthetic metrics, including supported response/resolution/reopen measurements with valid fixture events. No simulated or production SLA, priority targets, countdown, breach/compliance calculation or contractual claim. Label relevant reports ILLUSTRATIVE - SYNTHETIC DATA - NON-CONTRACTUAL.",
+      "human_questions": [
+        "Q7"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 183,
+      "original": "Summaries identify their data scope and time range.",
+      "result": "Report scope, metric definition/version, synthetic provenance, filters, exclusions, numerator/denominator and recorded scenario anchor. Default 30 IST calendar days, with 7/90/custom options; start inclusive/end exclusive UTC boundaries. Pending states are separate as-of-anchor snapshots. Per-field/per-review-cycle final eligible decisions use Accepted + Rejected + Overridden denominators; zero denominator is N/A.",
+      "human_questions": [
+        "Q7"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 193,
+      "original": "Record retrieval, answer, citations, latency, model/deployment, and prompt version for each run.",
+      "result": "Bind each authorized evaluation to exact build/commit, model/provider/configuration, prompt, retrieval/index/embedding/chunking, knowledge/policy/taxonomy, dataset/suite/rubric and environment versions. Preserve actual results/failures/exclusions in separately governed evaluation evidence; this does not authorize application prompt/response/source-content logs or persistent interaction history.",
+      "human_questions": [
+        "Q8",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 195,
+      "original": "Assess retrieval relevance, grounding, citation correctness, and no-answer behavior.",
+      "result": "Evaluate grounding, citation identity and claim support, safe abstention/conflict handling, per-field classification reference accuracy, strict schema validity, semantic correctness, authorization/lifecycle enforcement and descriptive P50/P95 latency independently. Human acceptance rates do not establish model accuracy; aggregate quality cannot hide critical failures.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 197,
+      "original": "Compare prompt/model changes against a baseline run.",
+      "result": "Establish a baseline only from actual separately authorized execution against approved versioned synthetic reference labels and scoring rules, then independent verification. Material configuration changes require documented impact assessment and applicable re-evaluation; no inherited invalidated pass.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 201,
+      "original": "Treat evaluation results as decision support, not proof of correctness; document thresholds and limitations. A human must approve numeric quality thresholds before release; no threshold values are set here.",
+      "result": "Keep numeric quality/latency thresholds, sample sizes, coverage/confidence, load conditions and named independent approval roles pending until explicitly approved with supporting evidence. Missing criteria/evidence mean NOT EVALUATED / NOT APPROVED, not pass. Zero confirmed critical authorization, tenant-content, prohibited retrieval, privilege or lifecycle violations is mandatory; any confirmed violation blocks release and cannot be waived by averages.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 213,
+      "original": "Record errors, latency, model usage where available, and correlation IDs.",
+      "result": "Record only approved content-free errors/categories, actual latency, permitted model-use metadata and correlation/configuration references. No application prompts, responses, source excerpts, internal notes, personal data or secrets in logs/traces/telemetry/errors.",
+      "human_questions": [
+        "Q8",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 215,
+      "original": "Avoid unnecessary sensitive content in logs; make retention/redaction configurable.",
+      "result": "Reject or verifiably redact sensitive input before AI processing; otherwise reject entirely with safe generic notification and content-free security event. No rejected-content diagnostic copies. Persistent interaction content is prohibited; only approved content-free audit follows 365-day retention.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 217,
+      "original": "Apply request limits, rate limits, timeouts, and graceful handling of model/search failures.",
+      "result": "Apply approved request/rate limits and timeouts with explicit unavailable/failed/blocked outcomes. Bounded retries apply only to classified transient technical failures or safe schema correction; exact counts/backoff/timeouts/circuit policy remain approval gates. No authorization, tenant, lifecycle or deletion retry bypass.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 219,
+      "original": "Track approximate AI usage/cost by feature or tenant where provider metadata permits.",
+      "result": "Approximate usage/cost from permitted non-content local/provider metadata only where separately authorized; no provider connection, customer data or additional analytics retention is inferred. Platform Admin views only authorized non-content operational metrics.",
+      "human_questions": [
+        "Q7",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 221,
+      "original": "Document repeatable deployment and configuration through CI/CD.",
+      "result": "Document repeatable deployment/configuration and CI/CD as gated delivery requirements, not current deployment permission. No production/cloud readiness or release is established by this draft.",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 226,
+      "original": "API validates identity, role, tenant, request limits, and conversation context.",
+      "result": "Validate identity, explicit permission, tenant, limits, lifecycle, sensitive-data controls and transient user-owned context before model use.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 227,
+      "original": "Retrieval searches only approved/current chunks the user is authorized to access and returns ranked source references.",
+      "result": "Retrieve only fully eligible indexed/current/independently approved, valid, non-overdue and unflagged knowledge authorized for the user and tenant; enforce exclusions across caches and every data path.",
+      "human_questions": [
+        "Q2",
+        "Q3"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 228,
+      "original": "The model receives the question and retrieved evidence under a grounding-focused prompt.",
+      "result": "Construct minimized authorized synthetic question/evidence context for an approved local processing route only. No external-provider transmission is permitted without a separate governed change and PB-02 authorization.",
+      "human_questions": [
+        "Q1",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 230,
+      "original": "User may submit feedback; relevant metadata is recorded for evaluation.",
+      "result": "The user may submit structured transient feedback for the active interaction; retain only permitted content-free event metadata, never feedback text or conversation content.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 234,
+      "original": "A worker extracts text, chunks it, creates embeddings, and indexes the chunks.",
+      "result": "An authorized tenant-scoped worker extracts/chunks/embeds/indexes without approving content. Narrow draft/pending classification may support authorized human ingestion review but never answer retrieval or citation.",
+      "human_questions": [
+        "Q2",
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 235,
+      "original": "Document status becomes Indexed or Failed, with a safe error summary if needed.",
+      "result": "Show Indexed or Failed separately from approval. Independent eligible non-submitter Knowledge Reviewer approval is required before knowledge can become current/eligible; failed/rejected retention remains explicitly gated.",
+      "human_questions": [
+        "Q2",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 236,
+      "original": "On replacement, superseded versions are not searchable. On deletion, block retrieval immediately and purge originals and derived content under FR-KB-07.",
+      "result": "Replacement becomes current only after successful processing/independent approval; the prior version is usable only while otherwise valid and authorized. Authorized deletion immediately excludes its exact scope, cancels/discards affected in-flight results and prevents recreation; verify purge under FR-KB-07, preserving legal-hold/deadline evidence.",
+      "human_questions": [
+        "Q2",
+        "Q3",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 240,
+      "original": "System retrieves relevant knowledge and authorized ticket context.",
+      "result": "Retrieve eligible knowledge and minimum authorized synthetic ticket/customer context only; exclude all internal notes and prohibited content.",
+      "human_questions": [
+        "Q1",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 251,
+      "original": "Azure AI model endpoint",
+      "result": "Original proposed Azure AI model endpoint - deferred/gated external-provider architecture",
+      "human_questions": [
+        "Q1",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 252,
+      "original": "Answer generation, ticket summarization/classification, and structured responses; exact model, deployment, and region are deferred until availability, quota, cost, and embedding/index compatibility are validated.",
+      "result": "Original answer/summary/classification proposal retained for lineage. Exact model/provider/deployment/region, availability/quota/cost/compatibility, data permissions and quality evidence remain pending. No external-provider transmission in the first release and no provider is selected by this Update.",
+      "human_questions": [
+        "Q1",
+        "Q8",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 253,
+      "original": "Azure AI Search",
+      "result": "Original proposed Azure AI Search - gated cloud architecture, not authorized first-release runtime",
+      "human_questions": [
+        "Q1",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 255,
+      "original": "Azure Blob Storage",
+      "result": "Original proposed Azure Blob Storage - gated cloud architecture",
+      "human_questions": [
+        "Q1",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 257,
+      "original": "Azure SQL",
+      "result": "Original proposed Azure SQL - gated cloud architecture",
+      "human_questions": [
+        "Q1",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 258,
+      "original": "Tenants, users/roles, documents, conversations, tickets, feedback, audit metadata, evaluation runs.",
+      "result": "Original persistence proposal retained only for authorized durable business metadata/source knowledge and separately governed evidence. Conversations/prompts/responses/excerpts/feedback content are transient only; no persistent conversation or internal-note storage is authorized.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 259,
+      "original": "Background worker / Azure Functions",
+      "result": "Background processing; original Azure Functions option remains gated",
+      "human_questions": [
+        "Q1",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 261,
+      "original": "Key Vault / Application Insights",
+      "result": "Original Key Vault / Application Insights proposal - gated external services",
+      "human_questions": [
+        "Q1",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 262,
+      "original": "Secret management; logs, traces, metrics, dependencies, and correlation.",
+      "result": "Secret protection and approved content-free logs/traces/metrics/correlation only; no external telemetry transmission or interaction-content logging is authorized.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 264,
+      "original": "Build, test, configured security checks, and deployment workflow.",
+      "result": "Build/test/security/deployment workflow proposal subject to separate process starts, verification and Human approvals; no execution authorized here.",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 266,
+      "original": "The API mediates model and search access. The browser must not receive provider keys or unrestricted service credentials. Use configuration abstractions for local and Azure environments.",
+      "result": "The API must mediate authorized model/search access; never expose keys or unrestricted service credentials to browsers. Preserve local/cloud configuration separation as design context, but no external-provider transmission or cloud runtime is authorized by the architecture proposal.",
+      "human_questions": [
+        "Q1",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 279,
+      "original": "ConversationId, TenantId, UserId, Role, Content, CreatedAt, PromptVersion, ModelId",
+      "result": "Transient-only session representation: conversation/user/tenant references and current turns in memory for the active authorized interaction. No persistent ChatMessage content, prompt/response history, cross-session memory, sharing/export or restoration.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 281,
+      "original": "CitationId, MessageId, DocumentId, ChunkId, DisplayOrder",
+      "result": "CitationId, exact authorized TenantId/DocumentId/Version, valid source-location/chunk reference where available, retrieval/policy/validation context; exact approved schema remains pending.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 285,
+      "original": "ResultId, TicketId, Summary, SuggestedCategory, SuggestedPriority, SuggestedSentiment, ModelId, CreatedAt, ReviewedBy",
+      "result": "Content-free original AI category/priority/queue/escalation values and human review/version/override metadata may follow the 365-day audit policy. Summary, free-text rationale and response/source content remain transient; no persistent TicketAIResult content is authorized.",
+      "human_questions": [
+        "Q6",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 287,
+      "original": "FeedbackId, TenantId, UserId, MessageId, Rating, Comment, CreatedAt",
+      "result": "Transient rating/predefined feedback category in the active user session only. No free-text Comment or persistent feedback content; audit only opaque authorized identifiers/event/status/time/correlation.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 291,
+      "original": "These are logical entities, not a finalized schema. Define indexes, foreign keys, retention, and tenant-aware uniqueness during implementation.",
+      "result": "Logical entity examples are not approved schemas. Exact versioned contracts, tenant-aware authorization, role/provisioning matrix and unresolved retention/processing policies require explicit resolution before affected implementation. No persistence permission is inferred from an entity name; original illustrative fields remain traceable in v1.0.",
+      "human_questions": [
+        "Q5",
+        "Q6",
+        "Q8",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 298,
+      "original": "Accept question and optional conversation ID; return answer, citations, and trace metadata.",
+      "result": "Accept authorized synthetic question and transient current-session context; return schema-validated supported answer/abstention, authorized citations and content-free trace references. Exact response schema requires approval before affected implementation/evaluation.",
+      "human_questions": [
+        "Q8",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 300,
+      "original": "GET /api/conversations/{id}",
+      "result": "Original GET /api/conversations/{id} persistent-history proposal - deferred, not a first-release endpoint",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 301,
+      "original": "Enforce ownership/role and tenant access.",
+      "result": "No persistent history access/recovery/sharing/export. Only the initiating user may view/continue their active authorized transient session.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 310,
+      "original": "Authorized reindex/delete.",
+      "result": "Separate reprocessing, independent knowledge/classification review, single-version/whole-document deletion request and independent approval controls. Processing/approval/exclusion/deletion states and operation permissions remain distinct; exact contracts are gated.",
+      "human_questions": [
+        "Q2",
+        "Q5",
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 322,
+      "original": "Associate with tenant, user, and message.",
+      "result": "Structured transient session feedback only; no Comment persistence. Content-free event audit only.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 334,
+      "original": "Use synthetic data; minimize logged content. Retain active approved originals while current; on deletion block retrieval immediately and purge originals/extracted text/chunks/indexes/caches within 24 hours, with encrypted backups aging out within 30 days and content-free deletion/audit metadata retained for 365 days. Purge failed/rejected uploads within 24 hours.",
+      "result": "Synthetic/local-only, minimized transient interaction content and no persistent conversations/prompts/responses/notes. Apply approved-deletion immediate exclusion and applicable 24-hour primary purge; backups at most 30 days from creation, content-free audit 365 days from record creation. Failed/rejected and other lifecycle-retention schedules remain explicit pre-capability approval gates, not blanket automatic 24-hour cleanup or indefinite retention.",
+      "human_questions": [
+        "Q5",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 336,
+      "original": "Handle timeouts, throttling, transient errors, and partial ingestion failures; make retries safe.",
+      "result": "Expose timeouts/throttling/partial failures explicitly. Apply only approved bounded technical retries and verified completion; no security/lifecycle/deletion bypass or success-shaped fallback.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 338,
+      "original": "Use pagination and asynchronous ingestion; establish latency baselines before setting guarantees.",
+      "result": "Preserve pagination/asynchronous ingestion. Measure actual evaluation latency descriptively; numeric P50/P95 acceptance criteria, load, concurrency and environment remain pending independent approval, not production SLAs.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 340,
+      "original": "Keep ingestion asynchronous and services loosely coupled; avoid reliance on in-memory state.",
+      "result": "Keep asynchronous durable business processing appropriately decoupled. The original avoid-in-memory-state guidance does not authorize persistent interaction content: conversations/prompts/responses remain transient in memory only for the active authorized session.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 346,
+      "original": "Correlate UI/API/worker/model/search operations; record latency and failure rates without excess personal data.",
+      "result": "Correlate operations with approved content-free identifiers, latency and failure categories only. No prompts/responses/source excerpts/notes/sensitive content in logs, traces, errors or telemetry.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 354,
+      "original": "Use a no-answer path for missing, conflicting, stale, or insufficient evidence, and flag stale/conflicting content for human review rather than silently choosing.",
+      "result": "Use abstention for insufficient support or unresolved material conflicts; credible stale/conflict concerns exclude affected versions pending eligible reviewer resolution. Approved precedence applies only to otherwise eligible sources, never automatic closure or reinstatement of flagged/excluded content.",
+      "human_questions": [
+        "Q3"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 357,
+      "original": "Constrain first-release integration tools to read-only allowlisted operations with typed schemas and server-side authorization; no business-data writes or message sending.",
+      "result": "First-release tool operations use local synthetic data only: typed, authorized, bounded, paginated, read-only lookups with audit. No external connector, arbitrary network access, integration writeback or outgoing communication.",
+      "human_questions": [
+        "Q1"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 359,
+      "original": "Validate structured model output before persistence or downstream use.",
+      "result": "Strictly validate exact approved schema, semantic support, tenant/lifecycle context and status authority before display/use. Schema validity does not approve content or permit persistence; application interaction content remains transient.",
+      "human_questions": [
+        "Q8",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 390,
+      "original": "An authorized user uploads a supported file of at most 25 MiB, sees status through indexing or safe failure, and failed/rejected uploads are purged within 24 hours.",
+      "result": "An authorized user uploads supported content up to 25 MiB and sees separate processing and review states. Failed/rejected cleanup schedules must be explicitly approved before affected capability proceeds; failure/rejection alone does not trigger the superseded blanket 24-hour rule.",
+      "human_questions": [
+        "Q2",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 391,
+      "original": "Only an approved/current indexed document is retrievable and citable; deletion immediately blocks retrieval and triggers the FR-KB-07 purge schedule.",
+      "result": "Only fully eligible indexed/current independently approved knowledge is retrievable/citable. Independent deletion approval immediately excludes exact scope, cancels affected in-flight use and starts the applicable verified 24-hour active-primary purge; backup/audit and authorized legal-hold rules remain distinct.",
+      "human_questions": [
+        "Q2",
+        "Q3",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 394,
+      "original": "Ticket summary/classification conforms to a documented schema; invalid output is rejected or safely retried.",
+      "result": "Summary/classification/answer contracts require exact approved versioned schemas before affected implementation/formal evaluation; malformed output is rejected or safely retried only under an approved bounded policy. Security/authorization/lifecycle violations block without retry.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 396,
+      "original": "First-release integration tool calls are read-only, allowlisted, authorized, bounded by timeout, and represented in an audit record.",
+      "result": "Local synthetic tool calls are read-only, allowlisted, tenant/user authorized, query-bounded, paginated and timeout-limited, with content-free audit only. No external connector or provider transmission is inferred.",
+      "human_questions": [
+        "Q1",
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 399,
+      "original": "A repeatable evaluation run records results and model/prompt identifiers; a human-approved numeric quality threshold set is required before release.",
+      "result": "A separately authorized repeatable evaluation must bind actual results to the complete immutable configuration and approved dataset/rubric. Numeric criteria/coverage/latency conditions and independent authorities remain pending; missing evidence is not pass, and confirmed critical violations block release.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 406,
+      "original": "SQL repositories, blob operations, search indexing/retrieval, model adapter, tool registry, background worker.",
+      "result": "Authorized local repository/storage/search/model-adapter/tool/worker scenarios with explicit permissions and approved fixtures. Original cloud integration test proposals remain gated; this document authorizes no test execution or provider connection.",
+      "human_questions": [
+        "Q1",
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 412,
+      "original": "Upload → index → ask → inspect citations → feedback; ticket → summary/classification → edit draft.",
+      "result": "Upload -> process/index -> independent knowledge approval -> eligible ask/citation -> transient structured feedback; synthetic ticket -> summary/classification suggestion -> authorized human review -> transient editable draft.",
+      "human_questions": [
+        "Q2",
+        "Q6"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 418,
+      "original": "Ask Copilot in VS Code to analyze the issue and propose a plan; review it before implementation.",
+      "result": "The abbreviated issue/Copilot workflow is subordinate to the adopted Master lifecycle: Update -> Requirement Analysis -> complete independent Requirement Analysis Verification -> resolution -> separate Human Requirement Approval -> applicable planning/verification/review and Human approvals before implementation.",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 419,
+      "original": "Implement one small change at a time; the developer owns architecture and security decisions.",
+      "result": "Implement only separately authorized bounded work against the approved Requirement and approved Plan after every required verification and Human gate. An issue, Copilot plan or this clarified draft cannot authorize implementation.",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 425,
+      "original": "16. Suggested 30-Day Delivery Boundary",
+      "result": "16. Suggested Non-Binding 30-Day Learning / Demonstration Goal",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 440,
+      "original": "Deployed demo, setup guide, evaluation report, known limitations.",
+      "result": "Illustrative demonstration objective, setup/evaluation/limitations evidence subject to unresolved gates. Original deployed-demo aspiration is not deployment, runtime or release authorization.",
+      "human_questions": [
+        "Q8",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 442,
+      "original": "This is an intensive learning build, not a commitment to production readiness. Prioritize a thin, working vertical slice over optional features.",
+      "result": "This is a non-binding learning/demonstration objective, not a fixed delivery schedule or production/enterprise-readiness commitment. Scope, dependencies, estimates and every approval/evidence gate remain controlling; a thin slice cannot bypass them.",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 446,
+      "original": "Handling / decision",
+      "result": "Original proposal / handling and prospective clarification (not historical approval)",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 451,
+      "original": "Azure AI remains in the baseline; exact model/deployment/region selection is deferred.",
+      "result": "Original Azure AI architecture proposal preserved as unapproved lineage; provider/model/deployment/region and any future external transmission remain separately gated, not first-release permission.",
+      "human_questions": [
+        "Q1",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 465,
+      "original": "Decision",
+      "result": "Unapproved draft proposal - original label: Decision",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 468,
+      "original": "Decision",
+      "result": "Unapproved draft proposal - original label: Decision",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 470,
+      "original": "25 MiB/file; versioned review/approval states; no self-approval; re-review at 180 days; current originals retained until superseded/deleted; deletion purge within 24 hours, encrypted backups age out within 30 days, and content-free deletion/audit metadata retained for 365 days.",
+      "result": "Retain 25 MiB/file and independent versioned knowledge approval. Apply mandatory 180-day review/overdue exclusion and full validity/authorization rules. Independent deletion approval starts immediate exclusion and the applicable 24-hour purge; backups at most 30 days from creation and content-free audit 365 days from record creation. Deferred lifecycle schedules and documented legal-hold rules remain explicit. Original v1.0 wording is preserved as lineage, not formal approval.",
+      "human_questions": [
+        "Q2",
+        "Q3",
+        "Q5"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 473,
+      "original": "Retain Azure AI; select only after availability, quota, cost, and embedding/index compatibility validation.",
+      "result": "Preserve original Azure AI selection proposal as unapproved draft lineage; exact provider/runtime permissions, availability/quota/cost/compatibility and privacy/evaluation evidence remain pending. No external-provider transmission in the first release.",
+      "human_questions": [
+        "Q1",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 474,
+      "original": "Decision",
+      "result": "Unapproved draft proposal - original label: Decision",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 476,
+      "original": "Support Manager owns tenant-configurable category/priority mapping; AI may suggest queue/escalation but cannot autonomously escalate. Use deterministic synthetic ticket seed data.",
+      "result": "Prospective Q6 clarification replaces tenant-configurable mappings with common centrally governed versioned category/priority/queue definitions, separate reviewer permissions, human-confirmed decisions and advisory-only escalation. Retain deterministic synthetic seed data. Preserve the original Support Manager/tenant-mapping proposal in unchanged v1.0 lineage; no historical approval inferred.",
+      "human_questions": [
+        "Q6",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 477,
+      "original": "Decision",
+      "result": "Unapproved draft proposal - original label: Decision",
+      "human_questions": [
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 479,
+      "original": "Read-only tools/integrations only; editable drafts may be prepared in SupportIQ; no business-data writes to integrated systems and no message sending.",
+      "result": "Prospective first-release clarification: local synthetic read-only lookups and transient human-reviewed drafting only; no external connector/provider transmission, integration business-data write, automatic ticket change or outgoing message. Original §17 proposal and its unapproved status remain traceable in v1.0.",
+      "human_questions": [
+        "Q1",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 482,
+      "original": "Define and obtain explicit human approval for numeric quality thresholds before release; this update sets no values.",
+      "result": "Numeric quality/latency/coverage criteria and independent approval roles remain pending. Establish approved schemas/dataset/rubric and actual configuration-bound independently verified evidence before the affected gate; never infer pass from missing values or favorable averages.",
+      "human_questions": [
+        "Q8"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 489,
+      "original": "Telemetry is useful without exposing secrets or unnecessary customer content.",
+      "result": "Telemetry contains approved content-free metadata only; no prompts, responses, excerpts, internal notes, credentials or other sensitive content.",
+      "human_questions": [
+        "Q9"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 490,
+      "original": "Documentation covers setup, configuration, tests, deployment, and known limitations.",
+      "result": "Document setup, configuration, tests, gated deployment proposals and known limitations; all implementation, runtime, evidence acceptance and release gates remain separate.",
+      "human_questions": [
+        "Q8",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    },
+    {
+      "source_paragraph": 504,
+      "original": "Tenant tests; evaluation runner; prompt-injection tests; telemetry; rate limits; deployment; demo runbook.",
+      "result": "Future separately authorized tenant/security tests, evaluation, content-free telemetry and demonstration runbook; deployment/production release remains gated. Backlog examples are not an approved Plan or implementation authorization.",
+      "human_questions": [
+        "Q8",
+        "Q10"
+      ],
+      "reason": "Apply the identified prospective Human clarifications; original bytes/wording remain in v1.0 and this trace record",
+      "impact": "Align related scope, role, workflow, data/API, acceptance or delivery statement with the same decision; no new policy selected"
+    }
+  ],
+  "decision_fields": [
+    {
+      "clause_id": "CL-Q1-20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089-actual_boundary",
+      "question": "Q1",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attachments/20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json",
+        "bytes": 7603,
+        "sha256": "238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5"
+      },
+      "field": "actual_boundary",
+      "original_field_sha256": "5908BE814C9F2D9E138541128A3C4B10BEFCF260FA81BDD6888BD561331EC3AE",
+      "reconciled_field_sha256": "5908BE814C9F2D9E138541128A3C4B10BEFCF260FA81BDD6888BD561331EC3AE",
+      "appendix_paragraph_range": [
+        10,
+        10
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q1-20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089-actual_allowed_operations_response",
+      "question": "Q1",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attachments/20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json",
+        "bytes": 7603,
+        "sha256": "238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5"
+      },
+      "field": "actual_allowed_operations_response",
+      "original_field_sha256": "A50C58B59292BA7D7BA32AD9343EE81F5E4042531C69F4CDEFB709133124CD34",
+      "reconciled_field_sha256": "A50C58B59292BA7D7BA32AD9343EE81F5E4042531C69F4CDEFB709133124CD34",
+      "appendix_paragraph_range": [
+        13,
+        13
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q1-20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089-actual_rationale",
+      "question": "Q1",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attachments/20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json",
+        "bytes": 7603,
+        "sha256": "238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5"
+      },
+      "field": "actual_rationale",
+      "original_field_sha256": "1526C0CEA9015E4E70835915B93EBA42705A00A7CC55772958A60007AEC461D6",
+      "reconciled_field_sha256": "1526C0CEA9015E4E70835915B93EBA42705A00A7CC55772958A60007AEC461D6",
+      "appendix_paragraph_range": [
+        16,
+        16
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q2-q2-status_model",
+      "question": "Q2",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "status_model",
+      "original_field_sha256": "D721E28262228266D54399F00A9F0C557D84CC0851C14E30EAFDC73DBE159F17",
+      "reconciled_field_sha256": "D721E28262228266D54399F00A9F0C557D84CC0851C14E30EAFDC73DBE159F17",
+      "appendix_paragraph_range": [
+        20,
+        20
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q2-q2-transitions",
+      "question": "Q2",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "transitions",
+      "original_field_sha256": "23D247C999A357B87523687B1AB67C80306FE41249DF8DCF17CE622FAABA9ACD",
+      "reconciled_field_sha256": "34C0C5F5E4F280B72812AB95A9424D4F50B44D86136458DD6D20D959C1AC30DD",
+      "appendix_paragraph_range": [
+        23,
+        36
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q2-q2-authority_matrix",
+      "question": "Q2",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "authority_matrix",
+      "original_field_sha256": "8CC70AF731F591E9B9244AED864E29C283EB73BD30F2E8A17686CE3D5EBC54E8",
+      "reconciled_field_sha256": "BDF299280B8990F707EF4534090DB6689BF3D8A0800383ED755BAD5691CF7D3C",
+      "appendix_paragraph_range": [
+        39,
+        46
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q2-q2-reviewer_eligibility",
+      "question": "Q2",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "reviewer_eligibility",
+      "original_field_sha256": "9A089BA93D2709A903CEEC0DB79718BA6B1D29EE414429617AF7518D4361FAF2",
+      "reconciled_field_sha256": "9A089BA93D2709A903CEEC0DB79718BA6B1D29EE414429617AF7518D4361FAF2",
+      "appendix_paragraph_range": [
+        49,
+        54
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q2-q2-rereview_policy",
+      "question": "Q2",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "rereview_policy",
+      "original_field_sha256": "53AFE14EA1D98D6B6DC6712EF2F723485A5C5C8285099D0155141EA867F09C23",
+      "reconciled_field_sha256": "53AFE14EA1D98D6B6DC6712EF2F723485A5C5C8285099D0155141EA867F09C23",
+      "appendix_paragraph_range": [
+        57,
+        62
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q2-q2-rationale",
+      "question": "Q2",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "rationale",
+      "original_field_sha256": "3C4C9D53C0DC4A308C9DF0957F14F2DD09C53A9E0A151BC576B2E2ACF244729C",
+      "reconciled_field_sha256": "D101FDF1CFE454EF70C9A72A9E10B1CED848F862A1C84401D12789D8417695DA",
+      "appendix_paragraph_range": [
+        65,
+        71
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q2-q2-confirm-confirmation",
+      "question": "Q2",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q2-confirm.json",
+        "bytes": 3319,
+        "sha256": "5CCC2416A8F01DB94CEE0B59F615955F142482EA973DF86679831B99246009E4"
+      },
+      "field": "confirmation",
+      "original_field_sha256": "546D22BF0C6671E1C9EF23202AEB2EF28EEB4ACCA332DEB348ECA272B512AEF1",
+      "reconciled_field_sha256": "546D22BF0C6671E1C9EF23202AEB2EF28EEB4ACCA332DEB348ECA272B512AEF1",
+      "appendix_paragraph_range": [
+        74,
+        74
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q3-q3-additional_staleness",
+      "question": "Q3",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "additional_staleness",
+      "original_field_sha256": "F3D8CB5E5453893A383F1AFF7D12AA33E9B9F22C44B854DE74CCF4B7FBC4B25C",
+      "reconciled_field_sha256": "F3D8CB5E5453893A383F1AFF7D12AA33E9B9F22C44B854DE74CCF4B7FBC4B25C",
+      "appendix_paragraph_range": [
+        78,
+        84
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q3-q3-conflict_insufficiency",
+      "question": "Q3",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "conflict_insufficiency",
+      "original_field_sha256": "5D6CDA4D3A53B37C34C10254E7C514A1B13C2E8B95E1D19CA8D63C731898859D",
+      "reconciled_field_sha256": "B6398F9EE7B35C84E91743B39ADDC92459EBB83EDA5F9752F12830BDF6B300B0",
+      "appendix_paragraph_range": [
+        87,
+        94
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q3-q3-review_ownership",
+      "question": "Q3",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "review_ownership",
+      "original_field_sha256": "B734599EB6DD073E7596C24195C71C3B3B52A80CB3A1777074C995F0CEF6BB40",
+      "reconciled_field_sha256": "B6A8965D1137C984517BC52F3BA5579FB70DB04C741B8D734F96F7B1508641B4",
+      "appendix_paragraph_range": [
+        97,
+        104
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q3-q3-unresolved_behavior",
+      "question": "Q3",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "unresolved_behavior",
+      "original_field_sha256": "0AF6AB10EA986CAEF1599BD463942533B48C4CDBFEDB7B82767B7D37F66941AA",
+      "reconciled_field_sha256": "0AF6AB10EA986CAEF1599BD463942533B48C4CDBFEDB7B82767B7D37F66941AA",
+      "appendix_paragraph_range": [
+        107,
+        113
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q3-q3-resolution",
+      "question": "Q3",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "resolution",
+      "original_field_sha256": "14D542777F8B9440F8B9FB4380EEFFF2F562871E07853F482D3FA15F310CCA09",
+      "reconciled_field_sha256": "14D542777F8B9440F8B9FB4380EEFFF2F562871E07853F482D3FA15F310CCA09",
+      "appendix_paragraph_range": [
+        116,
+        123
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q3-q3-rationale",
+      "question": "Q3",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "rationale",
+      "original_field_sha256": "B5984C869ABA9FA458229B95D8D20E28FA507C23F17E12A6F4FD37E4FA2C3FD5",
+      "reconciled_field_sha256": "B5984C869ABA9FA458229B95D8D20E28FA507C23F17E12A6F4FD37E4FA2C3FD5",
+      "appendix_paragraph_range": [
+        126,
+        132
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q3-q3-confirm-confirmation",
+      "question": "Q3",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q3-confirm.json",
+        "bytes": 3315,
+        "sha256": "2157E5372E984CB24277D38658A3632C9A826DE3A740569F6E14AD1A9011032F"
+      },
+      "field": "confirmation",
+      "original_field_sha256": "33D6FA9700C8EE4F6ED593437099D08A04C48805EED6E4C47F6EFA2511DAA45B",
+      "reconciled_field_sha256": "33D6FA9700C8EE4F6ED593437099D08A04C48805EED6E4C47F6EFA2511DAA45B",
+      "appendix_paragraph_range": [
+        135,
+        135
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-provisioning",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q4.json",
+        "bytes": 82530,
+        "sha256": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB"
+      },
+      "field": "provisioning",
+      "original_field_sha256": "D334709FC567D826D91EE7B5D2FFBF02267485C8FF7AB35FCD38F6B0A6466875",
+      "reconciled_field_sha256": "D334709FC567D826D91EE7B5D2FFBF02267485C8FF7AB35FCD38F6B0A6466875",
+      "appendix_paragraph_range": [
+        139,
+        146
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-account_lifecycle",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q4.json",
+        "bytes": 82530,
+        "sha256": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB"
+      },
+      "field": "account_lifecycle",
+      "original_field_sha256": "4AED509D01145D02700F1F3958902B18B876AF6544719D1205998440150B6DA7",
+      "reconciled_field_sha256": "4AED509D01145D02700F1F3958902B18B876AF6544719D1205998440150B6DA7",
+      "appendix_paragraph_range": [
+        149,
+        156
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-role_permissions",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q4.json",
+        "bytes": 82530,
+        "sha256": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB"
+      },
+      "field": "role_permissions",
+      "original_field_sha256": "6A6C309A6B1EE13CDB6A6DDF59AEBCB069BF41EE6529F3C2BD1D76FDECAC0D8F",
+      "reconciled_field_sha256": "6A6C309A6B1EE13CDB6A6DDF59AEBCB069BF41EE6529F3C2BD1D76FDECAC0D8F",
+      "appendix_paragraph_range": [
+        159,
+        166
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-exceptional_access",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q4.json",
+        "bytes": 82530,
+        "sha256": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB"
+      },
+      "field": "exceptional_access",
+      "original_field_sha256": "1A43676F2063B28F4B39FFC41E2B43776097010AC52879CBB481376FA0CF5D43",
+      "reconciled_field_sha256": "1A43676F2063B28F4B39FFC41E2B43776097010AC52879CBB481376FA0CF5D43",
+      "appendix_paragraph_range": [
+        169,
+        173
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-expiry_revocation",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q4.json",
+        "bytes": 82530,
+        "sha256": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB"
+      },
+      "field": "expiry_revocation",
+      "original_field_sha256": "80B66794E8C3528F90202AA188884E4FB64470A72714E50F7FF9EFB8C24F6B8C",
+      "reconciled_field_sha256": "80B66794E8C3528F90202AA188884E4FB64470A72714E50F7FF9EFB8C24F6B8C",
+      "appendix_paragraph_range": [
+        176,
+        182
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-audit_rationale",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T065712Z-7f01d128-36b1-4b3b-9df2-49f65c24dfa9/attachments/q4.json",
+        "bytes": 82530,
+        "sha256": "95D8740D5D9BAD5302163BEB5AC4B017C34E63DB8B7265E8684B0E94839E2CDB"
+      },
+      "field": "audit_rationale",
+      "original_field_sha256": "DCECD8A2AA81B2E91A9D952696A7A25953C37B28D232A82EBF74DD4F43261118",
+      "reconciled_field_sha256": "DCECD8A2AA81B2E91A9D952696A7A25953C37B28D232A82EBF74DD4F43261118",
+      "appendix_paragraph_range": [
+        185,
+        197
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-auth-tenant_admin_authority",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/attachments/q4-auth.json",
+        "bytes": 44361,
+        "sha256": "E4D3E97DA9766FD84581B351C6076585F5C2993769BD96C7BB1D0410FE457909"
+      },
+      "field": "tenant_admin_authority",
+      "original_field_sha256": "21965CC8201DDFE9C81BFBA7EA96AEC337CF57518981D82EE8D82F82D5C5F99E",
+      "reconciled_field_sha256": "21965CC8201DDFE9C81BFBA7EA96AEC337CF57518981D82EE8D82F82D5C5F99E",
+      "appendix_paragraph_range": [
+        200,
+        206
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-auth-bootstrap_recovery_authority",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/attachments/q4-auth.json",
+        "bytes": 44361,
+        "sha256": "E4D3E97DA9766FD84581B351C6076585F5C2993769BD96C7BB1D0410FE457909"
+      },
+      "field": "bootstrap_recovery_authority",
+      "original_field_sha256": "E40619B4CA9DF89CA6891551E79B9286131B4956E36056B52EBDE191B9712BEA",
+      "reconciled_field_sha256": "E40619B4CA9DF89CA6891551E79B9286131B4956E36056B52EBDE191B9712BEA",
+      "appendix_paragraph_range": [
+        209,
+        216
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q4-q4-auth-rationale_deferrals",
+      "question": "Q4",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T070934Z-f7d837c5-680b-4a05-a5c8-54c8d3602915/attachments/q4-auth.json",
+        "bytes": 44361,
+        "sha256": "E4D3E97DA9766FD84581B351C6076585F5C2993769BD96C7BB1D0410FE457909"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "19E90267D348986C3C56B4DA63FB6EBD261F355FDE2B5F16110D39AABFF00A6A",
+      "reconciled_field_sha256": "19E90267D348986C3C56B4DA63FB6EBD261F355FDE2B5F16110D39AABFF00A6A",
+      "appendix_paragraph_range": [
+        219,
+        226
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-deletion_scope",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      "field": "deletion_scope",
+      "original_field_sha256": "646117BAE6E863B80317BA1BD4E4B8CD2DAE4B37C437EE977BDAAB7C85601BEE",
+      "reconciled_field_sha256": "646117BAE6E863B80317BA1BD4E4B8CD2DAE4B37C437EE977BDAAB7C85601BEE",
+      "appendix_paragraph_range": [
+        230,
+        242
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-purge_clock",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      "field": "purge_clock",
+      "original_field_sha256": "EA31F4A74D709669B6746788752F8C56B5ABB95908C63E82CF7EEB5E49ECFEF8",
+      "reconciled_field_sha256": "EA31F4A74D709669B6746788752F8C56B5ABB95908C63E82CF7EEB5E49ECFEF8",
+      "appendix_paragraph_range": [
+        245,
+        252
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-lifecycle_retention",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      "field": "lifecycle_retention",
+      "original_field_sha256": "CB5EB13AC1ACAB02B747D936486656EC66BDEAC84CE1CBCA6D3B7B2790991716",
+      "reconciled_field_sha256": "58F2D37E1FE05EEC28B8679526BD9D944EB0D35E4C1D0D46B67C16D244CC2292",
+      "appendix_paragraph_range": [
+        255,
+        264
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-purge_failure",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      "field": "purge_failure",
+      "original_field_sha256": "8B311A90E82409FBA9EA9D161E6EBCA0E6F0266370DE1CE6EF43764AB5A95163",
+      "reconciled_field_sha256": "8B311A90E82409FBA9EA9D161E6EBCA0E6F0266370DE1CE6EF43764AB5A95163",
+      "appendix_paragraph_range": [
+        267,
+        281
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-backup_audit",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      "field": "backup_audit",
+      "original_field_sha256": "AE262559B3ACCA4DC1513B15865F0BDF09CC8DE376FE6254A2A0C39909176710",
+      "reconciled_field_sha256": "94E5089AE7524AF1A26A5EC38EA91009439460FB56396139B47B35D144659B5A",
+      "appendix_paragraph_range": [
+        284,
+        290
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-rationale_deferrals",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "24186A3E960CCA5293685B8118DC71FE38BE731F000BD1E418EBE8AA0A9E5268",
+      "reconciled_field_sha256": "24186A3E960CCA5293685B8118DC71FE38BE731F000BD1E418EBE8AA0A9E5268",
+      "appendix_paragraph_range": [
+        293,
+        303
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-follow-validity_extension",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/q5-follow.json",
+        "bytes": 43259,
+        "sha256": "C5BB6E27A0F64CE21A3D35A5D83458B350D3749CA1D2DAF4EC1E05E065B32557"
+      },
+      "field": "validity_extension",
+      "original_field_sha256": "F0811D10A20E6EA8BCF4A7B872AAA33F3381650FA1B5DF6FDBFBDF1947440E7E",
+      "reconciled_field_sha256": "F0811D10A20E6EA8BCF4A7B872AAA33F3381650FA1B5DF6FDBFBDF1947440E7E",
+      "appendix_paragraph_range": [
+        306,
+        306
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-follow-legal_hold_retrieval",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/q5-follow.json",
+        "bytes": 43259,
+        "sha256": "C5BB6E27A0F64CE21A3D35A5D83458B350D3749CA1D2DAF4EC1E05E065B32557"
+      },
+      "field": "legal_hold_retrieval",
+      "original_field_sha256": "3010651C1AFFD0F037D9C8AB5A6CC9C768E7FFA212B3400FD94050E635EDFB0A",
+      "reconciled_field_sha256": "3010651C1AFFD0F037D9C8AB5A6CC9C768E7FFA212B3400FD94050E635EDFB0A",
+      "appendix_paragraph_range": [
+        309,
+        309
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-follow-hold_release_deadline",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/q5-follow.json",
+        "bytes": 43259,
+        "sha256": "C5BB6E27A0F64CE21A3D35A5D83458B350D3749CA1D2DAF4EC1E05E065B32557"
+      },
+      "field": "hold_release_deadline",
+      "original_field_sha256": "2943D122ADBF2749B7A7D8120909DD420A5102B460341F4472F1A3A66EA57CCD",
+      "reconciled_field_sha256": "2943D122ADBF2749B7A7D8120909DD420A5102B460341F4472F1A3A66EA57CCD",
+      "appendix_paragraph_range": [
+        312,
+        320
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-follow-failed_rejected_retention",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/q5-follow.json",
+        "bytes": 43259,
+        "sha256": "C5BB6E27A0F64CE21A3D35A5D83458B350D3749CA1D2DAF4EC1E05E065B32557"
+      },
+      "field": "failed_rejected_retention",
+      "original_field_sha256": "509F7E55F878F7EBF3CA9AF624D2AA1E2898A3498FF75CA59B6CCC557A1B2568",
+      "reconciled_field_sha256": "509F7E55F878F7EBF3CA9AF624D2AA1E2898A3498FF75CA59B6CCC557A1B2568",
+      "appendix_paragraph_range": [
+        323,
+        323
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q5-q5-follow-rationale_deferrals",
+      "question": "Q5",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/q5-follow.json",
+        "bytes": 43259,
+        "sha256": "C5BB6E27A0F64CE21A3D35A5D83458B350D3749CA1D2DAF4EC1E05E065B32557"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "A1454D7204C05C3FEB28A754D6672890882DBBD8828794A63E0E97AE8DD8B641",
+      "reconciled_field_sha256": "A1454D7204C05C3FEB28A754D6672890882DBBD8828794A63E0E97AE8DD8B641",
+      "appendix_paragraph_range": [
+        326,
+        338
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-categories",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+        "bytes": 111053,
+        "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+      },
+      "field": "categories",
+      "original_field_sha256": "1B52200AB1C6C2DDA9AC95EAD5B37CF26FC51A0120C6213266925331337B15F0",
+      "reconciled_field_sha256": "1B52200AB1C6C2DDA9AC95EAD5B37CF26FC51A0120C6213266925331337B15F0",
+      "appendix_paragraph_range": [
+        342,
+        356
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-priorities",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+        "bytes": 111053,
+        "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+      },
+      "field": "priorities",
+      "original_field_sha256": "8F5301E72959679F77E3966FAEC3443A305D456AF2A4CA7D728ADA40AAD81DAF",
+      "reconciled_field_sha256": "8F5301E72959679F77E3966FAEC3443A305D456AF2A4CA7D728ADA40AAD81DAF",
+      "appendix_paragraph_range": [
+        359,
+        366
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-mapping_governance",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+        "bytes": 111053,
+        "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+      },
+      "field": "mapping_governance",
+      "original_field_sha256": "601A223DB02A6C88E329DC3F6EDB17087BFB9512AF21A4A4A432A627A881A4E3",
+      "reconciled_field_sha256": "601A223DB02A6C88E329DC3F6EDB17087BFB9512AF21A4A4A432A627A881A4E3",
+      "appendix_paragraph_range": [
+        369,
+        379
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-routing_suggestions",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+        "bytes": 111053,
+        "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+      },
+      "field": "routing_suggestions",
+      "original_field_sha256": "950D73775BF0452C73550BDBD190BDCF939819BF20336E6DA5154F673A76A6E6",
+      "reconciled_field_sha256": "950D73775BF0452C73550BDBD190BDCF939819BF20336E6DA5154F673A76A6E6",
+      "appendix_paragraph_range": [
+        382,
+        399
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-override_history",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+        "bytes": 111053,
+        "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+      },
+      "field": "override_history",
+      "original_field_sha256": "CA06E74FB15487E468D0CCCFD63EF939EA6A8B2259B9CCFDDA1A22024AC9DD79",
+      "reconciled_field_sha256": "10628658BD5E8CA84A46BD3C06AE6E9A9948AD6EAE6BE58676F17FC5E6430541",
+      "appendix_paragraph_range": [
+        402,
+        410
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-rationale_deferrals",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+        "bytes": 111053,
+        "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "7406817B03FD2C223D5460EE7DE2F35D6E6E332F301B0D5015C7942EFA58489A",
+      "reconciled_field_sha256": "7406817B03FD2C223D5460EE7DE2F35D6E6E332F301B0D5015C7942EFA58489A",
+      "appendix_paragraph_range": [
+        413,
+        423
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-follow-confirmation_authority",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/attachments/q6-follow.json",
+        "bytes": 55842,
+        "sha256": "A0724887BEEF4DB24D4DDD03784B66B15CB7AD51675F38EEFAD48997511171A7"
+      },
+      "field": "confirmation_authority",
+      "original_field_sha256": "0889BB4579DF6AF7384F397D1EB0CFB2DD2B01CD5052E56822021B29BC1FC842",
+      "reconciled_field_sha256": "0889BB4579DF6AF7384F397D1EB0CFB2DD2B01CD5052E56822021B29BC1FC842",
+      "appendix_paragraph_range": [
+        426,
+        434
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-follow-classification_scope",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/attachments/q6-follow.json",
+        "bytes": 55842,
+        "sha256": "A0724887BEEF4DB24D4DDD03784B66B15CB7AD51675F38EEFAD48997511171A7"
+      },
+      "field": "classification_scope",
+      "original_field_sha256": "9669995852851F11375D94E087DAE6D1F541800EEAB877E322F303FA2555C9D7",
+      "reconciled_field_sha256": "9669995852851F11375D94E087DAE6D1F541800EEAB877E322F303FA2555C9D7",
+      "appendix_paragraph_range": [
+        437,
+        447
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q6-q6-follow-rationale_deferrals",
+      "question": "Q6",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T083021Z-6633432c-bed6-4453-9166-8f18371c8366/attachments/q6-follow.json",
+        "bytes": 55842,
+        "sha256": "A0724887BEEF4DB24D4DDD03784B66B15CB7AD51675F38EEFAD48997511171A7"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "C355E19C2E7AC7846822A91F8C0CDEB290CB2D71F20943EE7E27E7C7354E7E6B",
+      "reconciled_field_sha256": "C355E19C2E7AC7846822A91F8C0CDEB290CB2D71F20943EE7E27E7C7354E7E6B",
+      "appendix_paragraph_range": [
+        450,
+        458
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-analytics_scope",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attachments/q7.json",
+        "bytes": 117095,
+        "sha256": "38B97852C46DE76524E423360B0D9F3E22D0FE638AFE86DF8D72C54FE0E1F1E6"
+      },
+      "field": "analytics_scope",
+      "original_field_sha256": "3BE919934756FF50B3450F9009BE4F99401C0DDD907581C3289B1507B4C024BB",
+      "reconciled_field_sha256": "3BE919934756FF50B3450F9009BE4F99401C0DDD907581C3289B1507B4C024BB",
+      "appendix_paragraph_range": [
+        462,
+        477
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-reporting_window",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attachments/q7.json",
+        "bytes": 117095,
+        "sha256": "38B97852C46DE76524E423360B0D9F3E22D0FE638AFE86DF8D72C54FE0E1F1E6"
+      },
+      "field": "reporting_window",
+      "original_field_sha256": "ACC4E8D4AEEBE51E07065A82D6E12488AAA276710F933FB98CDCACE9697619E4",
+      "reconciled_field_sha256": "ACC4E8D4AEEBE51E07065A82D6E12488AAA276710F933FB98CDCACE9697619E4",
+      "appendix_paragraph_range": [
+        480,
+        490
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-time_semantics",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attachments/q7.json",
+        "bytes": 117095,
+        "sha256": "38B97852C46DE76524E423360B0D9F3E22D0FE638AFE86DF8D72C54FE0E1F1E6"
+      },
+      "field": "time_semantics",
+      "original_field_sha256": "6A72AE173BB1641D66B13C93AE369634D09DB917E5833AE5245A9E04E594A1DF",
+      "reconciled_field_sha256": "6A72AE173BB1641D66B13C93AE369634D09DB917E5833AE5245A9E04E594A1DF",
+      "appendix_paragraph_range": [
+        493,
+        504
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-sla_policy",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attachments/q7.json",
+        "bytes": 117095,
+        "sha256": "38B97852C46DE76524E423360B0D9F3E22D0FE638AFE86DF8D72C54FE0E1F1E6"
+      },
+      "field": "sla_policy",
+      "original_field_sha256": "E6AE32DC10F2034035B6178F0F1CB44F91F138D00B82AD2C15449731D4CA4FDA",
+      "reconciled_field_sha256": "E6AE32DC10F2034035B6178F0F1CB44F91F138D00B82AD2C15449731D4CA4FDA",
+      "appendix_paragraph_range": [
+        507,
+        516
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-review_access_actions",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attachments/q7.json",
+        "bytes": 117095,
+        "sha256": "38B97852C46DE76524E423360B0D9F3E22D0FE638AFE86DF8D72C54FE0E1F1E6"
+      },
+      "field": "review_access_actions",
+      "original_field_sha256": "7361B9FF9AF5EF46800D2372F641DE42E67E4D882B48277D42D97CD3E48577DB",
+      "reconciled_field_sha256": "7361B9FF9AF5EF46800D2372F641DE42E67E4D882B48277D42D97CD3E48577DB",
+      "appendix_paragraph_range": [
+        519,
+        532
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-rationale_deferrals",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T085407Z-c4af2066-e55c-4896-baaf-f155811700ed/attachments/q7.json",
+        "bytes": 117095,
+        "sha256": "38B97852C46DE76524E423360B0D9F3E22D0FE638AFE86DF8D72C54FE0E1F1E6"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "4E67B669A4C3F4647D792E48EEBB45B6EF615758CF19E4E7CCD755B74C84669E",
+      "reconciled_field_sha256": "4E67B669A4C3F4647D792E48EEBB45B6EF615758CF19E4E7CCD755B74C84669E",
+      "appendix_paragraph_range": [
+        535,
+        544
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-follow-reporting_boundaries",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/attachments/q7-follow.json",
+        "bytes": 45785,
+        "sha256": "4CD4D48199EB17F578258C2EB6BD57E0DBCACBC671DC86E51557B9CD712B0956"
+      },
+      "field": "reporting_boundaries",
+      "original_field_sha256": "B944006549944B85B254232EC43854C56A6715182D872690F36C5F142B34297C",
+      "reconciled_field_sha256": "B944006549944B85B254232EC43854C56A6715182D872690F36C5F142B34297C",
+      "appendix_paragraph_range": [
+        547,
+        554
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-follow-review_denominators",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/attachments/q7-follow.json",
+        "bytes": 45785,
+        "sha256": "4CD4D48199EB17F578258C2EB6BD57E0DBCACBC671DC86E51557B9CD712B0956"
+      },
+      "field": "review_denominators",
+      "original_field_sha256": "56A57B0097BFA673C9BF8DBE4027621B68FBE77A2B474D800C76FF29DB7D4E18",
+      "reconciled_field_sha256": "56A57B0097BFA673C9BF8DBE4027621B68FBE77A2B474D800C76FF29DB7D4E18",
+      "appendix_paragraph_range": [
+        557,
+        568
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q7-q7-follow-rationale_deferrals",
+      "question": "Q7",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T090422Z-aac539e7-2b81-4dea-9e39-d59c39182c50/attachments/q7-follow.json",
+        "bytes": 45785,
+        "sha256": "4CD4D48199EB17F578258C2EB6BD57E0DBCACBC671DC86E51557B9CD712B0956"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "0360E6CE435B83D510C185CBF9B062D089298C6E7C22D7968962989590BD07F8",
+      "reconciled_field_sha256": "0360E6CE435B83D510C185CBF9B062D089298C6E7C22D7968962989590BD07F8",
+      "appendix_paragraph_range": [
+        571,
+        581
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-evaluation_metrics",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      "field": "evaluation_metrics",
+      "original_field_sha256": "9BF16F1C0E02F5EA878207E7EE6220CE10FF3B836905F3DE14B433A62F3A63B1",
+      "reconciled_field_sha256": "9BF16F1C0E02F5EA878207E7EE6220CE10FF3B836905F3DE14B433A62F3A63B1",
+      "appendix_paragraph_range": [
+        585,
+        599
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-numeric_thresholds",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      "field": "numeric_thresholds",
+      "original_field_sha256": "D7B069D3CCFD11D1B2C50D0D328FC3B3BF87F41AAF5A12FBE2C46AC93442441C",
+      "reconciled_field_sha256": "D7B069D3CCFD11D1B2C50D0D328FC3B3BF87F41AAF5A12FBE2C46AC93442441C",
+      "appendix_paragraph_range": [
+        602,
+        610
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-evidence_ownership",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      "field": "evidence_ownership",
+      "original_field_sha256": "F16810DA065B640B9F613E9D4081ED28843304E6E2F4BB08E0663ED79DEE2305",
+      "reconciled_field_sha256": "F16810DA065B640B9F613E9D4081ED28843304E6E2F4BB08E0663ED79DEE2305",
+      "appendix_paragraph_range": [
+        613,
+        627
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-citations",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      "field": "citations",
+      "original_field_sha256": "F099198A1DC5541B6458C73E7B3D1D8525AA2CB57F6BF33D38EF64A00285C707",
+      "reconciled_field_sha256": "F099198A1DC5541B6458C73E7B3D1D8525AA2CB57F6BF33D38EF64A00285C707",
+      "appendix_paragraph_range": [
+        630,
+        639
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-structured_outputs",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      "field": "structured_outputs",
+      "original_field_sha256": "C6142804091CACDDAE73F1197BED0FBC28B6C78847541BF43438789536219E0E",
+      "reconciled_field_sha256": "7E72E6F961E607FA961700E1547B89B29BAED519CE9F50CD87536A4E53E5FFC9",
+      "appendix_paragraph_range": [
+        642,
+        658
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-retry_rejection",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      "field": "retry_rejection",
+      "original_field_sha256": "4A35E160E6CF8FC0DB25E88FB05E4DED3D437ABE64B1CC3230CF7795694C6890",
+      "reconciled_field_sha256": "4A35E160E6CF8FC0DB25E88FB05E4DED3D437ABE64B1CC3230CF7795694C6890",
+      "appendix_paragraph_range": [
+        661,
+        672
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-rationale_deferrals",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "1E528C273683E989967F61C5B13CD23F942EF6A105BC4E123674E3E4EA7C793F",
+      "reconciled_field_sha256": "1E528C273683E989967F61C5B13CD23F942EF6A105BC4E123674E3E4EA7C793F",
+      "appendix_paragraph_range": [
+        675,
+        688
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-follow-classification_scope_confirmation",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/attachments/q8-follow.json",
+        "bytes": 9556,
+        "sha256": "2A0FA8D23D0B58C19D282D3B58959053826242050347804FEA8AFC3E4508ABA4"
+      },
+      "field": "classification_scope_confirmation",
+      "original_field_sha256": "7C9346974AAC0F44056D4B7ADB550BC34D2E9633BFA67438A7A611B5CDAE355D",
+      "reconciled_field_sha256": "7C9346974AAC0F44056D4B7ADB550BC34D2E9633BFA67438A7A611B5CDAE355D",
+      "appendix_paragraph_range": [
+        691,
+        691
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q8-q8-follow-details",
+      "question": "Q8",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T093514Z-86951b5e-8457-4584-bdeb-0621205bf43e/attachments/q8-follow.json",
+        "bytes": 9556,
+        "sha256": "2A0FA8D23D0B58C19D282D3B58959053826242050347804FEA8AFC3E4508ABA4"
+      },
+      "field": "details",
+      "original_field_sha256": "8812509BC961E915AC8F87345F54DE75C2690810B860178B0199454E63712C0B",
+      "reconciled_field_sha256": "8812509BC961E915AC8F87345F54DE75C2690810B860178B0199454E63712C0B",
+      "appendix_paragraph_range": [
+        694,
+        694
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-model_context",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "model_context",
+      "original_field_sha256": "0E92A51AFEE04A9EBA34D3BCCC4F58640E2987829D74D2A3DFFE7E15CAED3FBB",
+      "reconciled_field_sha256": "8A43F8369507DD9AFA06C579557E03CA3D11B846E93F8AC3B7A0300C4CEFD963",
+      "appendix_paragraph_range": [
+        698,
+        699
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-history_persistence",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "history_persistence",
+      "original_field_sha256": "E9EC39D32D5E815382A230F485C2C1AD04CD6347B215A498CB4187076858824F",
+      "reconciled_field_sha256": "E9EC39D32D5E815382A230F485C2C1AD04CD6347B215A498CB4187076858824F",
+      "appendix_paragraph_range": [
+        702,
+        703
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-ownership_visibility",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "ownership_visibility",
+      "original_field_sha256": "AF7B57005FDE2AD00429450E9C1C17ED46A1D5D445CF628FE204846F39DAB02C",
+      "reconciled_field_sha256": "AF7B57005FDE2AD00429450E9C1C17ED46A1D5D445CF628FE204846F39DAB02C",
+      "appendix_paragraph_range": [
+        706,
+        707
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-feedback_notes",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "feedback_notes",
+      "original_field_sha256": "66D7912440DA45FEF4116E8A3DDD5369F23D700CFB7363AE09D26E5C24AE56E5",
+      "reconciled_field_sha256": "66D7912440DA45FEF4116E8A3DDD5369F23D700CFB7363AE09D26E5C24AE56E5",
+      "appendix_paragraph_range": [
+        710,
+        711
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-sensitive_data_logs",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "sensitive_data_logs",
+      "original_field_sha256": "BB8F655A8DF67CF3855C0A5FA8C2869C572351868DECEACDFEC9DD0088A864B8",
+      "reconciled_field_sha256": "BB8F655A8DF67CF3855C0A5FA8C2869C572351868DECEACDFEC9DD0088A864B8",
+      "appendix_paragraph_range": [
+        714,
+        715
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-retention_authority",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "retention_authority",
+      "original_field_sha256": "EA56A40029DED32F8EE05DA98DFB572C6E8421CFA1760BEEC7F61E3C06923CBD",
+      "reconciled_field_sha256": "EA56A40029DED32F8EE05DA98DFB572C6E8421CFA1760BEEC7F61E3C06923CBD",
+      "appendix_paragraph_range": [
+        718,
+        719
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-rationale_deferrals",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "714ECDA0FA2D8C703AEAD7D7FAD4C93A5F060CCD43240D9B2026705B5AA6874D",
+      "reconciled_field_sha256": "535371E57D8731FDBB85B9FC388737E4FCBD1B3A6B515C4E551B095586A705BA",
+      "appendix_paragraph_range": [
+        722,
+        723
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-follow-internal_notes_policy",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T095235Z-cb61febc-f047-4397-bfd2-abc49e1cb1f3/attachments/q9-follow.json",
+        "bytes": 11039,
+        "sha256": "626E0183361E6F2D0466B6292EF6A2ACA6D5E5688810FE8AB563B50355ABB648"
+      },
+      "field": "internal_notes_policy",
+      "original_field_sha256": "559AEAD08264D5795D3909718CDD05ABD49572E84FE55590EEF31A88A08FDFFD",
+      "reconciled_field_sha256": "559AEAD08264D5795D3909718CDD05ABD49572E84FE55590EEF31A88A08FDFFD",
+      "appendix_paragraph_range": [
+        726,
+        726
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q9-q9-follow-supersession_rationale",
+      "question": "Q9",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T095235Z-cb61febc-f047-4397-bfd2-abc49e1cb1f3/attachments/q9-follow.json",
+        "bytes": 11039,
+        "sha256": "626E0183361E6F2D0466B6292EF6A2ACA6D5E5688810FE8AB563B50355ABB648"
+      },
+      "field": "supersession_rationale",
+      "original_field_sha256": "EE7D4E430674AC116133875F9E06A38072A1FAAEB28599BC8F94E8A57A66B2E4",
+      "reconciled_field_sha256": "EE7D4E430674AC116133875F9E06A38072A1FAAEB28599BC8F94E8A57A66B2E4",
+      "appendix_paragraph_range": [
+        729,
+        729
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q10-q10-draft_decision_status",
+      "question": "Q10",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/attachments/q10.json",
+        "bytes": 35218,
+        "sha256": "5CA26149ACF0D05B65EE59C5635526C07661D41C78DF4FD34EBDD0101EB66F02"
+      },
+      "field": "draft_decision_status",
+      "original_field_sha256": "EDA7E1BEF00C5FB182A72D9494FA4CD7BE56F0D7594623ED29920CE5DF9F3522",
+      "reconciled_field_sha256": "EDA7E1BEF00C5FB182A72D9494FA4CD7BE56F0D7594623ED29920CE5DF9F3522",
+      "appendix_paragraph_range": [
+        733,
+        733
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q10-q10-decision_provenance",
+      "question": "Q10",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/attachments/q10.json",
+        "bytes": 35218,
+        "sha256": "5CA26149ACF0D05B65EE59C5635526C07661D41C78DF4FD34EBDD0101EB66F02"
+      },
+      "field": "decision_provenance",
+      "original_field_sha256": "A0616B44E08A51A793932C3B73ABF5A09C02FE9458084B0FE1CEF0037C8097C9",
+      "reconciled_field_sha256": "A0616B44E08A51A793932C3B73ABF5A09C02FE9458084B0FE1CEF0037C8097C9",
+      "appendix_paragraph_range": [
+        736,
+        737
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q10-q10-schedule_status",
+      "question": "Q10",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/attachments/q10.json",
+        "bytes": 35218,
+        "sha256": "5CA26149ACF0D05B65EE59C5635526C07661D41C78DF4FD34EBDD0101EB66F02"
+      },
+      "field": "schedule_status",
+      "original_field_sha256": "29D6641179ECFA715197FA345A533DA27FCE5548DB00EFBD74420CE17A94A0AB",
+      "reconciled_field_sha256": "29D6641179ECFA715197FA345A533DA27FCE5548DB00EFBD74420CE17A94A0AB",
+      "appendix_paragraph_range": [
+        740,
+        740
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q10-q10-scope_readiness_wording",
+      "question": "Q10",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/attachments/q10.json",
+        "bytes": 35218,
+        "sha256": "5CA26149ACF0D05B65EE59C5635526C07661D41C78DF4FD34EBDD0101EB66F02"
+      },
+      "field": "scope_readiness_wording",
+      "original_field_sha256": "FF4FF058E7A9AA8B2AF9976AE202AB0663F38EE4AF82453660D2684E41563B69",
+      "reconciled_field_sha256": "FF4FF058E7A9AA8B2AF9976AE202AB0663F38EE4AF82453660D2684E41563B69",
+      "appendix_paragraph_range": [
+        743,
+        743
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    },
+    {
+      "clause_id": "CL-Q10-q10-rationale_deferrals",
+      "question": "Q10",
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T100815Z-2743f47f-0aef-42b1-a7cc-654d6ab53ef5/attachments/q10.json",
+        "bytes": 35218,
+        "sha256": "5CA26149ACF0D05B65EE59C5635526C07661D41C78DF4FD34EBDD0101EB66F02"
+      },
+      "field": "rationale_deferrals",
+      "original_field_sha256": "95EF1F6DAFFC9EB1E7AD5263AFC95FC7DDBF20F7CD7FA2D4936590EF772BEA79",
+      "reconciled_field_sha256": "95EF1F6DAFFC9EB1E7AD5263AFC95FC7DDBF20F7CD7FA2D4936590EF772BEA79",
+      "appendix_paragraph_range": [
+        746,
+        747
+      ],
+      "incorporation": "Complete actual field, with only explicitly logged later-Human supersessions/privacy qualifications"
+    }
+  ],
+  "applied_supersessions": [
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "transitions",
+      "old": "The exact 180-day overdue-review behavior and detailed stale/conflicting knowledge criteria are intentionally deferred to Q3.",
+      "new": "The dedicated Q2 180-day overdue-review policy is decided; Q3 supplies additional stale/conflicting-knowledge criteria.",
+      "occurrences": 1,
+      "human_basis": "Q2 confirmation"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "authority_matrix",
+      "old": "The overdue-review and stale/conflicting knowledge rules remain subject to Q3.",
+      "new": "The Q2 overdue-review policy remains mandatory; Q3 supplies additional knowledge-safety rules.",
+      "occurrences": 1,
+      "human_basis": "Q2 confirmation"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "transitions",
+      "old": "The previous version must remain available as current until the replacement is successfully approved.",
+      "new": "The previous version may remain current until replacement approval only while it independently satisfies validity, authorization, review and all retrieval-eligibility restrictions.",
+      "occurrences": 1,
+      "human_basis": "Q2 confirmation"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "transitions",
+      "old": "Unapproved, failed, rejected, superseded, or expired content must never be used by AI.",
+      "new": "Unapproved, failed, rejected, superseded or expired content must never support AI answers or knowledge citations. Q6/Q8 permit only narrowly authorized draft/pending ingestion classification; they do not confer answer eligibility or any prohibited-state processing exception.",
+      "occurrences": 1,
+      "human_basis": "Q6-C02 and Q8-C01"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "authority_matrix",
+      "old": "May not access knowledge belonging to other tenants unless separately authorized.",
+      "new": "May not access knowledge belonging to other tenants in the first release.",
+      "occurrences": 1,
+      "human_basis": "Q4 first-release tenant boundary"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "authority_matrix",
+      "old": "Must not have routine access to tenant knowledge content.",
+      "new": "Must not access tenant knowledge content in the first release.",
+      "occurrences": 1,
+      "human_basis": "Q4 strict prohibition"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "authority_matrix",
+      "old": "Cross-tenant content access is prohibited by default and requires a separately authorized, time-limited, reasoned, and audited exception.",
+      "new": "No exceptional Platform Admin tenant-content access is permitted in the first release, including break-glass, emergency, support or administrative overrides. A future capability requires separately governed requirements and authorization.",
+      "occurrences": 1,
+      "human_basis": "Q4 exceptional_access"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+        "bytes": 50777,
+        "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+      },
+      "field": "rationale",
+      "old": "Existing approved versions remain available until their replacements are successfully approved.",
+      "new": "Existing approved versions remain available only while otherwise eligible until replacements are successfully approved.",
+      "occurrences": 1,
+      "human_basis": "Q2 confirmation"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "conflict_insufficiency",
+      "old": "Only explicitly established and approved precedence rules may resolve a conflict automatically.",
+      "new": "Explicitly approved authority/applicability rules may select only among otherwise eligible sources. They must not automatically resolve, close or reinstate flagged/excluded content; unresolved material conflict requires abstention and independent human review.",
+      "occurrences": 1,
+      "human_basis": "Q3 confirmation"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      "field": "lifecycle_retention",
+      "old": "Reapproval or an explicitly authorized validity extension must be completed before the document becomes AI eligible again.",
+      "new": "Reapproval or an explicitly authorized validity extension must follow eligible non-submitter approval and formal re-review, without bypassing the 180-day policy or any current eligibility restriction. A date change alone cannot restore AI eligibility.",
+      "occurrences": 1,
+      "human_basis": "Q5-C01"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/attachments/q5.json",
+        "bytes": 117027,
+        "sha256": "3AB7F6BD43F3D7A49D506E88B6FAB2343CFB1196F5884A90D4B3A1B2D16737B0"
+      },
+      "field": "backup_audit",
+      "old": "Legally retained content must remain excluded from AI retrieval unless separately and legitimately authorized.",
+      "new": "Deletion-approved content must remain excluded from AI retrieval, including after hold release. Any permitted use of other legally retained content outside approved deletion must independently satisfy every Q2/Q3 eligibility and authorization control.",
+      "occurrences": 1,
+      "human_basis": "Q5-C02"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T092745Z-e0c9355a-a022-437a-932f-ea797476593f/attachments/q8.json",
+        "bytes": 154418,
+        "sha256": "09142B63CA95BA8EF70456776D3A130F6BC6497C5041C7C46697978B7C5E4FDA"
+      },
+      "field": "structured_outputs",
+      "old": "Restricted tenant content and lifecycle-ineligible knowledge must never be used to populate response evidence.",
+      "new": "Unauthorized content and lifecycle-ineligible knowledge must never support authoritative answers, knowledge citations or knowledge-based routing. Q6's narrow authorized draft/pending ingestion-classification rationale/review-evidence permission is preserved by Q8-C01; it does not grant content approval or answer/retrieval eligibility.",
+      "occurrences": 1,
+      "human_basis": "Q8-C01"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "model_context",
+      "old": "Internal notes may be included only when synthetic, explicitly authorized and necessary for the intended purpose.",
+      "new": "All internal notes, including synthetic notes, are excluded from model context and transmission to the AI model. The earlier conditional permission is superseded; no internal-note exception is granted.",
+      "occurrences": 1,
+      "human_basis": "Q9-C01 Option A"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T094641Z-381e0a94-f074-4164-9404-46228ac6e25c/attachments/q9.json",
+        "bytes": 51686,
+        "sha256": "39956D5FF4A223C322B612B72554CDD045C6A281B3116F961B59EF074DF7ACC2"
+      },
+      "field": "rationale_deferrals",
+      "old": "Free-text feedback and internal-note persistence.",
+      "new": "Free-text feedback, internal-note persistence and any internal-note model processing.",
+      "occurrences": 1,
+      "human_basis": "Q9-C01 Option A"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "conflict_insufficiency",
+      "old": "supporting excerpts where available",
+      "new": "authorized supporting-source references, without storing excerpts in logs or audit records",
+      "occurrences": 1,
+      "human_basis": "Later Q9 content-free audit / transient-only policy"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attachments/q3.json",
+        "bytes": 85919,
+        "sha256": "1F74D1D9FC03D1EE782DCDFAAB0A4A083BBD214CF8E9A73F3D31F3A5AA6EEDAE"
+      },
+      "field": "review_ownership",
+      "old": "Supporting evidence and relevant excerpts.",
+      "new": "Content-free supporting-evidence references; source excerpts may be inspected only through separately authorized source access, not stored in audit records.",
+      "occurrences": 1,
+      "human_basis": "Later Q9 content-free audit / transient-only policy"
+    },
+    {
+      "source": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T080921Z-4b5e587e-aa59-46bc-8dc5-d78f037f6f0f/attachments/q6.json",
+        "bytes": 111053,
+        "sha256": "56A0F8B5925ECBB634E662D2BB656E468E3EA85695C64D16389E7BFE17F8EDE0"
+      },
+      "field": "override_history",
+      "old": "AI-generated rationale and content-free supporting evidence references.",
+      "new": "Content-free AI rationale and supporting-evidence references only; content-bearing rationale remains transient under Q9.",
+      "occurrences": 1,
+      "human_basis": "Later Q9 content-free audit / transient-only policy"
+    }
+  ],
+  "unchanged_content": {
+    "paragraphs": 409,
+    "all_other_package_parts": "Byte-identical",
+    "tables": 21,
+    "headers_footers": "Byte-identical original source lineage"
+  },
+  "analysis_reference": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T030806Z-8dbff404-42b5-4f0b-b05d-15b85e25d2b7/report.md",
+    "bytes": 39611,
+    "sha256": "F3F1D8D830CA0254D843DED2E33353880E7DF4F4D3804E41CA33B36C558A5581"
+  },
+  "remaining_gates": [
+    "Requirement Analysis of this exact clarified version, complete independent Requirement Analysis Verification, resolution of findings/decisions and separate formal Human Requirement Approval; no approved implementation baseline exists yet.",
+    "Lifecycle-specific failed/rejected/superseded/expired/overdue retention schedules, including originals and every derived copy, before affected capability proceeds; no indefinite-retention default.",
+    "Exact role/permission and initial-provisioning matrix, concrete governance-role designation, recovery runbooks, processing identities/fields/scope and security specification before affected implementation.",
+    "Exact versioned response/error/citation schemas, schema-approval roles and enum/fallback bindings before affected implementation/formal evaluation; Q6's Human-confirmed taxonomy remains preserved, not re-opened by schema deferral.",
+    "Approved synthetic evaluation dataset/reference labels/rubric, numeric quality and P50/P95 latency thresholds, samples/coverage/confidence/load conditions and named independent approval authorities; actual executed independently verified evidence is still absent.",
+    "Approved bounded retry/backoff/timeouts/circuit-breaker/failure contracts and evidence retention; no security/lifecycle/deletion bypass or missing-criteria pass.",
+    "Analytics dataset field/retention/aggregation/access/export/deletion policies before affected storage/export capability; defined synthetic reports do not grant new persistence.",
+    "Persistent content-bearing interaction history, manager visibility, sharing/export, free-text feedback, internal-note model processing and training remain excluded/deferred until separate governed decisions and approval; no first-release exception is granted.",
+    "Future provider/connector operations require exact PB-02 permissions, security/privacy/data residency/retention decisions and applicable independently verified evidence before affected runtime/live integration/release.",
+    "Implementation scope/dependencies/estimates and delivery schedule, then approved planning and every later verification/review/Human approval/acceptance gate. No production/enterprise readiness, deployment or release commitment is made."
+  ],
+  "material_assumptions": "None newly adopted; original illustrative proposals remain unapproved",
+  "source_status": "Original immutable unapproved draft",
+  "result_status": "Draft / UNAPPROVED"
+}

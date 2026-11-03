@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "record_type": "result",
+  "record_id": "20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481:result",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481",
+  "process": "SDLC Process Orchestrator Q5 follow-up clarification recording only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "basis": "Actual assigned actor/current tools and OS identity, not session title or authenticated Human identity"
+  },
+  "created_at_utc": "2026-11-03T07:49:48.209200+00:00",
+  "clock_basis": "Python system UTC during record preparation; not native Human time or publication time",
+  "exact_publication_time": null,
+  "gate": {
+    "subject": "Existing Human Q5-C01 through C04 follow-up clarification",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Retention schedules/identified deferrals and Q6-Q10 pending"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attempt.json",
+      "bytes": 25348,
+      "sha256": "CA35503346C373503AA448C93A91779C01A95DDD5DF65A5B8C1FCED68406BD9C"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/q5-follow.json",
+      "bytes": 43259,
+      "sha256": "C5BB6E27A0F64CE21A3D35A5D83458B350D3749CA1D2DAF4EC1E05E065B32557"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/result.json",
+      "bytes": 7640,
+      "sha256": "32AAB6B137AF8F6A47DE60875CB78C8C935190CDB68DD103E201CE52E3D3C003"
+    }
+  ],
+  "task_context": "No approved Plan/local task; no new process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "execution_status": "COMPLETED",
+  "outcome": "Q5_FOLLOWUP_RECORDED_WITH_EXPLICIT_PRECONDITIONS_PENDING",
+  "completion_scope": "Actual five-field Q5 follow-up transcription only",
+  "invocation": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attempt.json",
+    "bytes": 25348,
+    "sha256": "CA35503346C373503AA448C93A91779C01A95DDD5DF65A5B8C1FCED68406BD9C"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/report.md",
+    "bytes": 4588,
+    "sha256": "3CE1286F75C1DA85411DD53B949B9243C3D2B3786F75F0DC61F30E90C63100CC"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/checkpoint-0001.json",
+    "bytes": 21201,
+    "sha256": "1394DEDFABD1CE30782C52D4DB1ED7CB9DCE1557DBCA7A5860A47999B4D07B3F"
+  },
+  "q5_followup_evidence": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T074807Z-e6fb3c83-bac6-44bb-a672-baa1e4f9e481/attachments/q5-follow.json",
+    "bytes": 43259,
+    "sha256": "C5BB6E27A0F64CE21A3D35A5D83458B350D3749CA1D2DAF4EC1E05E065B32557"
+  },
+  "answered_clarifications": [
+    {
+      "original_id": "Q5-C01",
+      "origin": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/report.md",
+        "bytes": 7737,
+        "sha256": "23AFEED6E4A0420B3B311E6DEEEB2E9C0729666D1F17D48BD043FB4289B51BDB"
+      },
+      "response_field": "validity_extension",
+      "status": "Actual Human answer supplied and recorded; material clarification answered"
+    },
+    {
+      "original_id": "Q5-C02",
+      "origin": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/report.md",
+        "bytes": 7737,
+        "sha256": "23AFEED6E4A0420B3B311E6DEEEB2E9C0729666D1F17D48BD043FB4289B51BDB"
+      },
+      "response_field": "legal_hold_retrieval",
+      "status": "Actual Human answer supplied and recorded; material clarification answered"
+    },
+    {
+      "original_id": "Q5-C03",
+      "origin": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/report.md",
+        "bytes": 7737,
+        "sha256": "23AFEED6E4A0420B3B311E6DEEEB2E9C0729666D1F17D48BD043FB4289B51BDB"
+      },
+      "response_field": "hold_release_deadline",
+      "status": "Actual Human answer supplied and recorded; material clarification answered"
+    },
+    {
+      "original_id": "Q5-C04",
+      "origin": {
+        "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T073330Z-ce12cbc3-76b1-44ef-84f4-2d50d5e905a8/report.md",
+        "bytes": 7737,
+        "sha256": "23AFEED6E4A0420B3B311E6DEEEB2E9C0729666D1F17D48BD043FB4289B51BDB"
+      },
+      "response_field": "failed_rejected_retention",
+      "status": "Actual Human answer supplied and recorded; material clarification answered"
+    }
+  ],
+  "material_remaining_followup_contradiction_identified": null,
+  "pending_preconditions": "Explicit approval before corresponding capability proceeds: all failed/rejected/superseded/expired/overdue-pending-rereview retention schedules; identified technical/compliance decisions in full rationale_deferrals. No approved defaults.",
+  "remaining_questions": "Q6-Q10 pending; explicit schedules and identified technical/compliance deferrals",
+  "q6_asked": false,
+  "requirement_approved": false,
+  "source_modified": false,
+  "later_process_started": false,
+  "current_inputs": {
+    "framework": 76,
+    "targets": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head_branch_source_staging": "Unchanged"
+  },
+  "next_permitted_action": "Parent Human clarification/required decisions only; no new process initiated",
+  "publication_order": "Own invocation/readback; helper; full Q5 follow-up evidence; checkpoint; report; result last"
+}

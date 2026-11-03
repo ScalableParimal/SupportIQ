@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "record_type": "result",
+  "record_id": "20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e:result",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft requirement discovery; not one implementation feature",
+  "attempt_id": "20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e",
+  "process": "SDLC Process Orchestrator bounded Q1 publication recovery only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-03T03:57:47.671059+00:00",
+  "clock_basis": "Python system UTC at record preparation, not exact publication or native decision time",
+  "gate": {
+    "subject": "Q1 clarification recording only",
+    "formal_approval": false,
+    "later_process_start": false,
+    "remaining": "Q2-Q10 pending"
+  },
+  "task_context": "No Plan-local task; no product process executed",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "execution_status": "COMPLETED",
+  "completion_scope": "One bounded Q1 publication recovery only",
+  "outcome": "Q1_CLARIFICATION_PUBLICATION_RECOVERED",
+  "report": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/report.md",
+    "bytes": 3584,
+    "sha256": "5134DA141607389BB57A77983C0BDC60013DE25A3D94DFA278B840523C3D7FA8"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/checkpoint-0001.json",
+    "bytes": 11995,
+    "sha256": "7172133DD97C30D2D8735E14382D467E3AACB7EBE6D4E9BBF2C6096F994E33FB"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035546Z-abfbecb2-c676-4f78-b588-8e1e05c19a9e/attempt.json",
+    "bytes": 6318,
+    "sha256": "7795D82526147B20F7728E48AF14456C1F6D7C4443F1CC334F08533826F1ECAD"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attachments/20261103T035033Z-c055d486-717c-4fc2-b000-e2cc24945089.json",
+      "bytes": 7603,
+      "sha256": "238EB48907DD25EAA0ED310C8784F2E213E984A1AC95247F62DF47888F3708B5"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/report.md",
+      "bytes": 6655,
+      "sha256": "08ED668988AAF2C533225163A308811ED969B2F06175D79307B0BB578CA09C8B"
+    },
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T035033Z-c365b679-bee8-40a9-8cad-fc85ff4a59df/attempt.json",
+      "bytes": 6473,
+      "sha256": "9CE5F352DAB440D7AD9714E841D0EE84E11C973D908BED102B342062B160041B"
+    }
+  ],
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "branch": "sdlc-framework-onboarding"
+  },
+  "current_input_checks": {
+    "framework_fingerprints": 76,
+    "target_fingerprints": 2,
+    "hidden_inclusive_path_set": "PASS",
+    "head": "ae355f5d5d538f9751ff6f7919433bd442979b2c",
+    "tracked_and_staged_diff": "Empty",
+    "input_manifest": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/evidence/continuation-evidence.json",
+      "bytes": 40420,
+      "sha256": "FE7D8E0B290CAD8587832B05699D449F250C689A8B5D8A88D1C59E3102EB4C49"
+    }
+  },
+  "remaining_questions": "Q2-Q10 pending; not asked by recovery actor",
+  "q1_recorded": true,
+  "requirement_approved": false,
+  "source_modified": false,
+  "later_process_started": false,
+  "historical_failure_erased": false,
+  "limitations": "Native Human authenticated ID/time unavailable; whitespace presentation not byte authentication; endpoint checks not continuous monitoring; no remote backup",
+  "publication_order": "Fresh recovery invocation first/readback; original evidence/report finals; recovery receipt; recovery report; result last after all bindings verified",
+  "exact_publication_time": null
+}

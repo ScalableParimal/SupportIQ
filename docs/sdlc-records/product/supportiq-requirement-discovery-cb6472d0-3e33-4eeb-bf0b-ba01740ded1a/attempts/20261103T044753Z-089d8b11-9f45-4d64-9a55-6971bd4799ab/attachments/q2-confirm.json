@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "record_type": "evidence",
+  "record_id": "20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab:q2-confirmation",
+  "work_id": "supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a",
+  "feature": "SupportIQ draft discovery; not one implementation feature",
+  "attempt_id": "20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab",
+  "process": "SDLC Process Orchestrator Q2 confirmation and Q3 recording only",
+  "creator": {
+    "identity": "orchestrator-coordination-b677bc83-551e-4ea7-b797-747b46c78aff",
+    "role": "SDLC Process Orchestrator; actual supplied response transcriber",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60"
+  },
+  "created_at_utc": "2026-11-03T04:50:35.039426+00:00",
+  "clock_basis": "Python system UTC at preparation, not publication/native Human decision time",
+  "gate": {
+    "subject": "Existing Human clarification Q2 confirmation/Q3",
+    "formal_requirement_approval": false,
+    "process_start": false,
+    "remaining": "Q4-Q10 pending"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T044753Z-089d8b11-9f45-4d64-9a55-6971bd4799ab/attempt.json",
+      "bytes": 7101,
+      "sha256": "4323D577942D29EBA98236A17EE39A2D23682A54DD0860406D34B17C624919C5"
+    }
+  ],
+  "task_context": "No Plan-local task; no new Analysis or later process",
+  "state": "REQUIREMENT_DECISION_PENDING",
+  "exact_publication_time": null,
+  "actual_confirmation": "Confirm the dedicated 180-day policy is decided; Q3 deferrals cover only additional criteria, and replacement rules do not waive validity or authorization restrictions",
+  "source": {
+    "channel": "Actual current parent Human conversation",
+    "harness_session": "ahp-session:/3b5a7ec7-0668-474f-be38-020f06af1c60",
+    "available_message_context_time": "2026-11-03T10:17:41.773+05:30",
+    "native_authenticated_message_id": null,
+    "native_decision_time": null,
+    "limit": "Actual supplied conversation attribution; not cryptographic Human identity or byte-authenticated whitespace"
+  },
+  "original_q2_evidence": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/attachments/q2.json",
+    "bytes": 50777,
+    "sha256": "DB88FEA84D7143237D743745EAE4669733E12F80BAD6BA4A870227B6D0E7BD06"
+  },
+  "original_q2_result": {
+    "path": "docs/sdlc-records/product/supportiq-requirement-discovery-cb6472d0-3e33-4eeb-bf0b-ba01740ded1a/attempts/20261103T040945Z-db5b9506-5cf3-4fd5-9790-b665f0e2ddd1/result.json",
+    "bytes": 4757,
+    "sha256": "253E174510AC8661E1C0670F48F8493E93E0DEC6817F5E1711829876EB0BDFA5"
+  },
+  "subject": "Earlier Q2 broad deferral wording versus dedicated 180-day policy",
+  "meaning_as_supplied": "Dedicated policy decided; Q3 deferrals only additional criteria; replacement does not waive validity/authorization",
+  "preservation": "Original Q2 fields and discrepancy remain immutable; new confirmation linked, not source rewritten",
+  "authority_limits": "Clarification only; no Requirement approval/update/verification/start or runtime permission"
+}
