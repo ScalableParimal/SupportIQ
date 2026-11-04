@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b:checkpoint-0001",
+  "feature": "SupportIQ requirement-source portability reassessment",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-invocation-9523256a-edfc-4237-b760-a8727a6a928b",
+    "role": "SDLC Portability Assessment",
+    "effective_os_identity": "int-scl-010\\parimal"
+  },
+  "created_at_utc": "2026-11-04T12:58:24.739911+00:00",
+  "clock_basis": "Python timezone-aware system UTC at checkpoint preparation; not exact filesystem publication time",
+  "sequence": 1,
+  "last_confirmed_boundary": "Fresh invocation was independently read back before assessment input inspection. Current source/target identities and fingerprints are resolved. Bounded static assessment is complete; terminal report/evidence/result publication remains.",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/attempt.json",
+    "bytes": 9828,
+    "sha256": "E02A5FB75727F110A06004B2A5A053957DFE5EAB6311448D23A4CF096F610012",
+    "record_id": "20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b:invocation"
+  },
+  "repository_state": {
+    "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "git_status": "Only the two assessment-attempt record directories are untracked",
+    "framework_source_count": 76,
+    "framework_source_matches_predecessor": true,
+    "current_target_inventory": {
+      "README.md": {
+        "bytes": 289,
+        "sha256": "57AAD939F394A295A881BEFAA2FEA4BFB20C04E73A798C3113ACCF8737598390"
+      },
+      "docs/requirement/SupportIQ_Product_Requirement.md": {
+        "bytes": 26513,
+        "sha256": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871"
+      }
+    },
+    "prior_DOCX_present": false
+  },
+  "provisional_outcome": "COMPATIBILITY WITH IDENTIFIED ADAPTATION; no portability blocker to Requirement Analysis under the recorded PB-01 condition; PB-02 remains for future runtime/live integration/release boundaries.",
+  "pending_human_decisions": [],
+  "unfinished_work": [
+    "Publish final report and assessment evidence",
+    "Publish terminal result with exact bindings",
+    "Independently read back and validate final records"
+  ],
+  "repository_effects": "Only actor-owned records in the authorized attempt scopes; no source or target changes.",
+  "safe_continuation_prerequisites": [
+    "Recheck source/target fingerprints before final result",
+    "Do not initiate Requirement Analysis or another process from this assessment"
+  ]
+}

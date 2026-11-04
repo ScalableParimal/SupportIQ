@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_invocation",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18",
+  "process": "Requirement Update",
+  "update_context": "Initial Analysis Clarification (pre-approval)",
+  "status": "STARTED",
+  "created_at_utc": "2026-11-04T14:30:31.725462+00:00",
+  "clock_basis": "System UTC at invocation publication; not exact filesystem time",
+  "repository": "ScalableParimal/SupportIQ",
+  "repository_root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+  "human_initiation": {
+    "response": "Authorize the Initial Analysis Clarification update",
+    "authority": "User response in current conversation",
+    "scope": "This Requirement Update invocation only; does not approve the Requirement or authorize downstream processes."
+  },
+  "source_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement.md",
+    "version_id": "SupportIQ Product Requirement v1.0@sha256:ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871",
+    "sha256": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871",
+    "lifecycle_status": "Initial unapproved draft baseline; no Human Requirement Approval claimed"
+  },
+  "initial_analysis": {
+    "report": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/report.md",
+    "attempt_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf",
+    "result": "INITIAL_ANALYSIS_COMPLETE_DECISIONS_REQUIRED"
+  },
+  "human_decisions": {
+    "identity_authorization": "Local ASP.NET Core Identity; defer Entra/enterprise SSO; provisioning and role permissions specified in the human response.",
+    "knowledge_lifecycle": "20 MB; retention/deletion defaults specified in response.",
+    "ai_deployment": "Azure AI/Azure AI Search direction; exact identifiers, region, numeric budget deferred.",
+    "tickets": "Deterministic synthetic dataset and taxonomy; details specified in response.",
+    "tools_analytics": "Explicit read-only allowlist and role scopes; internal notes and AI write tools deferred.",
+    "evaluation_targets": "Include as proposed targets only; not formal release gates.",
+    "scope": "Include supplied revised first-release scope as mandatory."
+  },
+  "read_scope": [
+    "Requirement Update guideline, prompt, request and applicable artifact/change-control rules",
+    "Source requirement and its lifecycle/version evidence",
+    "Current Requirement Analysis report and applicable human decisions"
+  ],
+  "write_scope": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18",
+    "permitted": [
+      "This attempt own invocation, checkpoints, report, evidence, and result records",
+      "One new immutable Requirement version under docs/requirement, after version-path verification"
+    ],
+    "prohibited": [
+      "Source Requirement version",
+      "Any previously created Requirement version",
+      "Other product artifacts, source code, tests, implementation plans, governance files"
+    ]
+  },
+  "inventory_status": "PENDING_POST_INVOCATION_READBACK",
+  "source_requirement_modified": false,
+  "requirement_approval_claimed": false,
+  "downstream_process_started": false
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "record_type": "invocation",
+  "record_id": "20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b:invocation",
+  "feature": "SupportIQ requirement-source portability reassessment",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-invocation-9523256a-edfc-4237-b760-a8727a6a928b",
+    "role": "SDLC Portability Assessment",
+    "identity_basis": "Current explicitly assigned process role and loaded repository Agent/Skill/Guideline/Prompt/Request; local identity is not external platform authentication",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "external_cryptographic_actor_identity": "Not available; not claimed"
+  },
+  "created_at_utc": "2026-11-04T12:56:15.030916+00:00",
+  "clock_basis": "Python timezone-aware system UTC at invocation preparation; not asserted as exact publication time",
+  "gate": {
+    "applicability": "Fresh assessment start only; no Requirement/Plan approval, Human Acceptance, or Requirement Analysis initiation"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2/report.md",
+      "bytes": 4309,
+      "sha256": "A5164B0D73F6AF034A66683170A099E0221C7AAD5EE1C926B6F900A03659CF94",
+      "record_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2:report"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/result.json",
+      "bytes": 13365,
+      "sha256": "391992F8589CF2889C542B29EDE44F5EC4D5FEAFBDCF0A2AC333B303C122A6FF",
+      "record_id": "20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93:result"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16/result.json",
+      "bytes": 12298,
+      "sha256": "41B57EC23F41D703E5AC1E543D7F7EA88202E0D24FD4D4B0F357445EEC5D1667",
+      "record_id": "20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16:result"
+    }
+  ],
+  "task_context": "New attempt after prior same-work reassessment attempt was terminally recorded CANNOT_COMPLETE; no prior Requirement Analysis/Update outputs are in scope.",
+  "execution_status": "invocation_prepared",
+  "trigger": {
+    "type": "fresh_material_change_reassessment_attempt",
+    "reason": "Human freshly initiated a new attempt after the prior invocation-ordering failure. Reassessment trigger remains the selected Markdown Requirement source, outside the prior completed assessment target inventory."
+  },
+  "requested_scope": {
+    "read": {
+      "source_framework": [
+        ".github/**",
+        "docs/ai/**"
+      ],
+      "target_project": [
+        "README.md",
+        "docs/requirement/SupportIQ_Product_Requirement.md",
+        "prior DOCX baseline fingerprint and linked portability report only",
+        "repository identity/branch/HEAD/status and tracked target-path inventory"
+      ],
+      "prior_portability_records": [
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16"
+      ],
+      "governance_prerequisites": "Only the adopted product-root/Master and prior Audit/Remediation references needed for applicability"
+    },
+    "exclusions": [
+      "All Requirement Analysis and Requirement Update reports/evidence",
+      "Credentials, private keys, live secret-bearing .env files, user/customer datasets",
+      "Unrelated repositories, dependency/build caches, .git object/index contents",
+      "Project scripts, builds, tests, workflows, runtime, network integrations, live services"
+    ],
+    "execution": "Read-only inspection, filesystem hashing, non-mutating Git metadata checks, own-record publication only; no project execution",
+    "write": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b",
+    "dimensions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "other_agents_or_stages": "Not authorized; stop at assessment handoff"
+  },
+  "repository_context": {
+    "source": {
+      "repository": "ScalableParimal/SupportIQ",
+      "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+      "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+      "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+      "branch": "SupportIQ-Requirement-Analysis",
+      "state": "HEAD captured; current framework fingerprints to be read after invocation readback"
+    },
+    "target": {
+      "repository": "ScalableParimal/SupportIQ",
+      "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+      "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+      "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+      "branch": "SupportIQ-Requirement-Analysis",
+      "state": "HEAD captured; current target fingerprints to be read after invocation readback"
+    },
+    "git_status": "Only the previous failed attempt own records are untracked at preflight; no product source changes reported",
+    "worktrees": "Current checkout only per previously observed metadata; current source validation follows invocation readback",
+    "centralized_multi_root_route": "NOT APPLICABLE; repository-local consumption"
+  },
+  "input_references": {
+    "source_inventory": "Not yet read in this attempt; must be recorded after invocation readback",
+    "target_inventory": "Not yet read in this attempt; must be recorded after invocation readback",
+    "requested_requirement": "docs/requirement/SupportIQ_Product_Requirement.md",
+    "assessment_skill": "Loaded in current conversation; exact current fingerprint will be recorded after invocation readback",
+    "guideline_prompt_request": "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md; docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md; docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md; reread and fingerprint only after invocation readback",
+    "masters": "docs/ai/sdlc/SDLC_GOVERNANCE.md; docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md; docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md; current fingerprints pending post-publication check"
+  },
+  "source_inventory": [],
+  "target_inventory": [],
+  "authorization": {
+    "stage_start": {
+      "response": "Start a fresh Portability Assessment",
+      "source": "Current conversation, structured ask_user response",
+      "scope": "One fresh, bounded same-work material-change assessment attempt only"
+    },
+    "read_write_scope": {
+      "response": "Authorize exact bounded scope; later confirmed as same authorized read and output scope for a fresh attempt",
+      "source": "Current conversation, structured ask_user responses",
+      "scope": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b own records only; exact paths in requested_scope"
+    },
+    "product_root": "Prior bound adoption of docs/sdlc-records/product/ for actor-owned Work-ID/Attempt-ID records; revalidate after invocation publication",
+    "master_baseline": "Prior bound adoption of SupportIQ-Master-Baseline-001; revalidate exact Master bytes after invocation publication"
+  },
+  "predecessor": {
+    "failed_attempt": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2",
+    "prior_assessment": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93",
+    "initial_assessment": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T171510Z-5aeed62d-215f-4434-b3c7-b8ad9af12a16",
+    "reuse": "Historical portability records only; reassess current applicability. Failed attempt is not reused as a completed assessment."
+  },
+  "output_location": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b",
+  "qualification": {
+    "repository_identity": "ScalableParimal/SupportIQ",
+    "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "preflight_git_status": "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2/",
+    "current_actor": "int-scl-010\\parimal",
+    "product_record_root_exists": true,
+    "new_attempt_path_absent": true,
+    "acl_owner": "INT-SCL-010\\Parimal",
+    "source_or_target_content_read_before_this_invocation": false,
+    "current_publication_capability": "Current process authorization, current OS principal, existing product-root ACL, and no-overwrite same-filesystem publication route; actual capability/readback to be established"
+  },
+  "publication": {
+    "method": "Same-directory .partial, strict JSON parse/native equality, fsync, atomic no-overwrite rename, independent fresh-process readback",
+    "no_overwrite": true,
+    "immutable_final_records": true
+  },
+  "limitations": [
+    "No external platform actor identity/native timestamp for conversation responses",
+    "Exact current framework/target fingerprints are intentionally pending until after invocation readback",
+    "No runtime/project execution or downstream process is authorized"
+  ]
+}

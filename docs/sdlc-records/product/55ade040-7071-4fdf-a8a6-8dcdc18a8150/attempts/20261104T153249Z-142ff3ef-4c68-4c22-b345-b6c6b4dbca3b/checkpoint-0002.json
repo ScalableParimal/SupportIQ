@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_checkpoint",
+  "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:checkpoint-0002",
+  "feature": "SupportIQ product requirement",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b",
+  "checkpoint_number": 2,
+  "created_at_utc": "2026-11-04T15:36:02.410499+00:00",
+  "clock_basis": "Python timezone-aware system UTC at checkpoint preparation; not exact filesystem publication time",
+  "phase": "New version 1.2 created as a byte-identical copy of v1.1; approved clarifications not yet applied",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/attempt.json",
+    "sha256": "2822030C1F3409E8E4BD4B0217CCD35850299400B09217BDDEC3AA85086B4292"
+  },
+  "previous_checkpoint": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/checkpoint-0001.json",
+    "sha256": "2F5A73EE34DF4F14400BEAC47999A2E9A6D82A21326F08C16153D23C9C458B92"
+  },
+  "authoritative_source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+    "version_id": "SupportIQ Product Requirement v1.1@sha256:E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "bytes": 47725,
+    "sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "lifecycle_status": "Draft; unapproved Initial Analysis Clarification",
+    "modified": false
+  },
+  "new_requirement_copy": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.2.md",
+    "planned_version_label": "1.2",
+    "pre_update_bytes": 47725,
+    "pre_update_sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "copy_matches_source_byte_for_byte": true,
+    "source_decisions_applied": false,
+    "lifecycle_status": "Draft; unapproved Initial Analysis Clarification"
+  },
+  "user_decision_evidence": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/evidence/human-decisions.json",
+    "sha256": "CC1834DF40848C4F9DBF59AD557F2B3E8D12E86A1EFEF5D87605E0ABA3DA283B",
+    "explicit_update_authorization": true
+  },
+  "repository": {
+    "name": "ScalableParimal/SupportIQ",
+    "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+    "branch": "SupportIQ-Requirement-Analysis"
+  },
+  "source_writes": [
+    "docs/requirement/SupportIQ_Product_Requirement_v1.2.md (created only as an exact copy of v1.1)"
+  ],
+  "project_execution": false,
+  "unfinished_work": [
+    "Apply all explicitly authorized decisions across the new version without changing v1.1.",
+    "Run consistency, structural, and source-preservation checks.",
+    "Publish the change summary, evidence, and terminal result."
+  ],
+  "next_safe_action": "Edit only the v1.2 copy using the approved decision evidence."
+}

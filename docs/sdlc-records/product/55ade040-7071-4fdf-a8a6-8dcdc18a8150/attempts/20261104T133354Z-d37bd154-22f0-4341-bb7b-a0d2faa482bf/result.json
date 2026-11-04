@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_result",
+  "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:result",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf",
+  "process": "Requirement Analysis",
+  "execution_status": "COMPLETED",
+  "outcome": "INITIAL_ANALYSIS_COMPLETE_DECISIONS_REQUIRED",
+  "created_at_utc": "2026-11-04T13:39:14.521014+00:00",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/attempt.json",
+    "bytes": 2462,
+    "sha256": "3758C1988BBC94CDC9E7CFC51D385AB4462D209C33F4C9DAC16827A36C99667A",
+    "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:invocation"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/checkpoint-0001.json",
+    "bytes": 3540,
+    "sha256": "2F8FE0E82FA3520E4D365CE36E9F05FF8271B705D1A40807150389D60AE51E85",
+    "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:checkpoint-0001"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/report.md",
+    "bytes": 22739,
+    "sha256": "F5335776A171E196C42E5D3D93A60C31D16FE225388C020676B3F9EBCD0489B3",
+    "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:report"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/evidence/analysis-evidence.json",
+    "bytes": 6363,
+    "sha256": "DE464DE6A1CC4A91076BCA12A32C621C7AB12E01FEFED819848F441BC92EDA0E",
+    "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:evidence"
+  },
+  "authoritative_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement.md",
+    "bytes": 26513,
+    "sha256": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871"
+  },
+  "prior_requirement_analysis_or_update_evidence_read": false,
+  "decisions_required": [
+    "M-01",
+    "M-02",
+    "M-03",
+    "M-04",
+    "M-05",
+    "M-06",
+    "M-07",
+    "M-08",
+    "M-09",
+    "M-10",
+    "M-11",
+    "M-12"
+  ],
+  "ready_for_requirement_finalization": false,
+  "ready_for_complete_requirement_analysis_verification": false,
+  "next_action": "Await human decisions. Any requirement modification requires a separate Requirement Update initiation; then refresh analysis before Requirement Analysis Verification. No later process is started by this result.",
+  "source_writes": [],
+  "project_execution": false,
+  "requirement_update_started": false,
+  "requirement_analysis_verification_started": false,
+  "formal_approval_claimed": false,
+  "human_requirement_approval_claimed": false
+}

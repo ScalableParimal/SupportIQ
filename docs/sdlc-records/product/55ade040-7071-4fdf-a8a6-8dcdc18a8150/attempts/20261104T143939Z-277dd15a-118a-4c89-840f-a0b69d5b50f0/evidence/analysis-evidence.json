@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "record_type": "requirement_analysis_evidence",
+  "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:evidence",
+  "feature": "SupportIQ product requirement",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0",
+  "process": "Requirement Analysis",
+  "created_by": {
+    "identity": "AI assistant using Copilot SDK in VS Code",
+    "role": "Requirement Analysis process actor",
+    "external_actor_authentication": "Not claimed"
+  },
+  "created_at_utc": "2026-11-04T14:46:19.226765+00:00",
+  "clock_basis": "Python timezone-aware system UTC at record preparation; not exact filesystem publication time",
+  "analysis_type": "Post-Requirement-Update analysis refresh",
+  "authoritative_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+    "version_id": "SupportIQ Product Requirement v1.1@sha256:E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "bytes": 47725,
+    "sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "lifecycle_status": "Draft; unapproved Initial Analysis Clarification",
+    "modified": false
+  },
+  "final_report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/report.md",
+    "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:report",
+    "bytes": 20575,
+    "sha256": "F2B081D6F6BAF08DFE2474A051FD612E43F5D4C3276EB00CDCCC20DF825EAB2B"
+  },
+  "execution_records": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/attempt.json",
+      "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:invocation",
+      "bytes": 2426,
+      "sha256": "A8E15FC0D5A8E45543E1F0E1DD9583C5226B355251996E50786BA111A143CD9E"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/checkpoint-0001.json",
+      "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:checkpoint-0001",
+      "bytes": 5193,
+      "sha256": "4DCE124E86677E50A3FD990FAEDB9870B1188C63609DB6F9FD6FAF61BFB925E7"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/checkpoint-0002.json",
+      "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:checkpoint-0002",
+      "bytes": 4762,
+      "sha256": "EF323B311FBB09FDB2972E8A36DCB9ECF06C1160D2C748CC94778C634C54AB69"
+    }
+  ],
+  "decision_and_lineage_inputs": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/report.md",
+      "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:report",
+      "bytes": 22739,
+      "sha256": "F5335776A171E196C42E5D3D93A60C31D16FE225388C020676B3F9EBCD0489B3"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/report.md",
+      "record_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18:report",
+      "bytes": 7393,
+      "sha256": "834D4EB6EE43B521585979059E3E6012074D61EA7BEEA92E55819C6FDF749ECC"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/evidence/update-evidence.json",
+      "record_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18:evidence",
+      "bytes": 33250,
+      "sha256": "FA4DC78D1B195A7D45B852250646BF3F2F7FD77984CC751D40DAD5296ACE8DBE"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/evidence/human-decisions.json",
+      "record_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18:human-decisions",
+      "bytes": 28629,
+      "sha256": "E77583DEEB570B72ECB549EE946912BEA09A04FE9F50559B7AA7C283FF923ACD"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/result.json",
+      "record_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18:result",
+      "bytes": 5850,
+      "sha256": "394AFA35DFFA25662ED0F84AAF367B4B561598010769F8959F0C4032F13E538A"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/report-revision-0001.md",
+      "record_id": "20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b:canonical-report-revision-0001",
+      "bytes": 17653,
+      "sha256": "3145D409A771CCD667C603EB09C07260F719139B856B1AEC266B70832B87097F"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/result.json",
+      "record_id": "20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b:result",
+      "bytes": 6231,
+      "sha256": "28A8371137113B40CC6CFEF8E9894D7175026BE9E8EC7483AF41A6BD9239528D"
+    }
+  ],
+  "governance_and_process_sources": [
+    {
+      "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+      "bytes": 16826,
+      "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+    },
+    {
+      "path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+      "bytes": 2171,
+      "sha256": "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"
+    },
+    {
+      "path": "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+      "bytes": 322,
+      "sha256": "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275"
+    },
+    {
+      "path": ".github/skills/requirement-analysis/SKILL.md",
+      "bytes": 5662,
+      "sha256": "F5A40ED08CD7DFB52B906FE4A046B721BB6A84B5B2D28037BB780C48BDE143B7"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "bytes": 30926,
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "bytes": 54243,
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "bytes": 89025,
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    }
+  ],
+  "product_root_adoption": {
+    "recorded_source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+    "applicability_report": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/report-revision-0001.md",
+    "applicability_report_sha256": "3145D409A771CCD667C603EB09C07260F719139B856B1AEC266B70832B87097F"
+  },
+  "analysis_findings": [
+    {
+      "id": "A-01",
+      "classification": "Blocking",
+      "subject": "Knowledge approval state and retrieval eligibility",
+      "source": "Requirement v1.1 sections 5.1, 5.2, 5.4, and 5.5"
+    },
+    {
+      "id": "A-02",
+      "classification": "Blocking",
+      "subject": "Complete resource/action matrix and Platform Admin change safeguards",
+      "source": "Requirement v1.1 sections 3, 5.5, 5.9, and 5.10"
+    },
+    {
+      "id": "A-03",
+      "classification": "Blocking for team-scoped capabilities",
+      "subject": "Support-team model and membership",
+      "source": "Requirement v1.1 sections 3, 5.5, 5.6, and 5.10"
+    },
+    {
+      "id": "A-04",
+      "classification": "Blocking",
+      "subject": "Ticket transitions and Tenant Admin actions",
+      "source": "Requirement v1.1 sections 5.9 and 5.10"
+    },
+    {
+      "id": "A-05",
+      "classification": "Important; blocks Customer Lookup contract",
+      "subject": "Customer and related-ticket field allowlist",
+      "source": "Requirement v1.1 section 5.5 and section 17"
+    },
+    {
+      "id": "A-06",
+      "classification": "Blocking",
+      "subject": "Retention, deletion, and audit access/retention coverage",
+      "source": "Requirement v1.1 sections 5.11, 5.12, and 10"
+    },
+    {
+      "id": "A-07",
+      "classification": "Important",
+      "subject": "30-second general API vs 60-second model timeout behavior",
+      "source": "Requirement v1.1 section 5.11"
+    },
+    {
+      "id": "A-08",
+      "classification": "Important",
+      "subject": "Proposed evaluation target gate status and metric measurement",
+      "source": "Requirement v1.1 sections 5.7 and 17"
+    },
+    {
+      "id": "A-09",
+      "classification": "Important",
+      "subject": "Local password-reset behavior",
+      "source": "Requirement v1.1 FR-ID-08"
+    }
+  ],
+  "excluded_evidence": {
+    "older_unrelated_requirement_analysis_or_update_records_read": false,
+    "note": "The v1.0 initial-analysis report and current v1.1 update chain are included because they are the direct lineage for this authorized refresh."
+  },
+  "project_execution": {
+    "application_code_changed": false,
+    "tests_or_builds_run": false,
+    "runtime_or_live_integration_run": false,
+    "implementation_plan_created_or_modified": false
+  },
+  "analysis_disposition": {
+    "outcome": "POST_UPDATE_ANALYSIS_COMPLETE_DECISIONS_REQUIRED",
+    "ready_for_complete_requirement_analysis_verification": false,
+    "human_requirement_approval": false,
+    "downstream_process_started": false,
+    "next_action": "Obtain the human decisions in report section 10; use a separately initiated Requirement Update if version 1.1 must change; then refresh analysis and separately initiate Requirement Analysis Verification when ready."
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_checkpoint",
+  "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:checkpoint-0001",
+  "feature": "SupportIQ product requirement",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b",
+  "checkpoint_number": 1,
+  "created_at_utc": "2026-11-04T15:35:06.408194+00:00",
+  "clock_basis": "Python timezone-aware system UTC at checkpoint preparation; not exact filesystem publication time",
+  "phase": "Update invocation and human decisions are published and verified; version 1.1 analyzed; version 1.2 not yet created",
+  "actor": {
+    "identity": "AI assistant using Copilot SDK in VS Code",
+    "role": "Requirement Update process actor",
+    "effective_os_identity": "INT-SCL-010\\Parimal",
+    "external_actor_authentication": "Not claimed"
+  },
+  "repository": {
+    "name": "ScalableParimal/SupportIQ",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "working_tree_at_invocation": "HEAD unchanged; pre-existing untracked version 1.1 and product-process records observed; no tracked modifications reported."
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/attempt.json",
+    "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:invocation",
+    "bytes": 6482,
+    "sha256": "2822030C1F3409E8E4BD4B0217CCD35850299400B09217BDDEC3AA85086B4292"
+  },
+  "source_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+    "version_id": "SupportIQ Product Requirement v1.1@sha256:E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "bytes": 47725,
+    "sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "lifecycle_status": "Draft; unapproved Initial Analysis Clarification",
+    "verified_unchanged": true
+  },
+  "new_version": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.2.md",
+    "planned_label": "1.2",
+    "created": false,
+    "lifecycle_status": "Will remain Draft; unapproved Initial Analysis Clarification"
+  },
+  "decision_input": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/evidence/human-decisions.json",
+    "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:human-decisions",
+    "bytes": 58268,
+    "sha256": "CC1834DF40848C4F9DBF59AD557F2B3E8D12E86A1EFEF5D87605E0ABA3DA283B",
+    "explicit_update_authorization": true,
+    "formal_requirement_approval": false
+  },
+  "analysis_basis": {
+    "attempt_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0",
+    "report": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/report.md",
+      "bytes": 20575,
+      "sha256": "F2B081D6F6BAF08DFE2474A051FD612E43F5D4C3276EB00CDCCC20DF825EAB2B"
+    },
+    "result": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/result.json",
+      "bytes": 6749,
+      "sha256": "6BED7A5C0446271237754922C9C194085415DC85768D1AB90D330882F335DBB9"
+    },
+    "evidence": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/evidence/analysis-evidence.json",
+      "bytes": 10077,
+      "sha256": "F63395E37572C572CCB6EEF459F2CDC58F6667E1C474E8F5B4C9C7D1FDBB13B1"
+    }
+  },
+  "requirement_update_predecessor": {
+    "attempt_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18",
+    "report_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/report.md",
+    "report_sha256": "834D4EB6EE43B521585979059E3E6012074D61EA7BEEA92E55819C6FDF749ECC",
+    "human_decisions_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/evidence/human-decisions.json",
+    "human_decisions_sha256": "E77583DEEB570B72ECB549EE946912BEA09A04FE9F50559B7AA7C283FF923ACD",
+    "result_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/result.json",
+    "result_sha256": "394AFA35DFFA25662ED0F84AAF367B4B561598010769F8959F0C4032F13E538A"
+  },
+  "reviewed_inputs": [
+    {
+      "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+      "bytes": 12269,
+      "sha256": "D265AA4EFC1D55E870BFC1D453059B11830116AE2E908C39CAD4BC52826C8850"
+    },
+    {
+      "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+      "bytes": 2845,
+      "sha256": "0677A918CAC19E87C30B9CFA33EF167DE44219ECA5BD39CF3C3FA24D97599496"
+    },
+    {
+      "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+      "bytes": 1823,
+      "sha256": "58A9274BA48C6F8C77C86B1BB09B9D4CB38172F6925774F73C0DA8EAAAAF3CA6"
+    },
+    {
+      "path": ".github/skills/requirement-update/SKILL.md",
+      "bytes": 7566,
+      "sha256": "290CC575B16FA794A80D5469B22C4B7632FA89A72ABE0BE90D130D2654162758"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "bytes": 30926,
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "bytes": 54243,
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "bytes": 89025,
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    },
+    {
+      "path": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+      "bytes": 47725,
+      "sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/report.md",
+      "bytes": 20575,
+      "sha256": "F2B081D6F6BAF08DFE2474A051FD612E43F5D4C3276EB00CDCCC20DF825EAB2B"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/evidence/analysis-evidence.json",
+      "bytes": 10077,
+      "sha256": "F63395E37572C572CCB6EEF459F2CDC58F6667E1C474E8F5B4C9C7D1FDBB13B1"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/result.json",
+      "bytes": 6749,
+      "sha256": "6BED7A5C0446271237754922C9C194085415DC85768D1AB90D330882F335DBB9"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/report.md",
+      "bytes": 7393,
+      "sha256": "834D4EB6EE43B521585979059E3E6012074D61EA7BEEA92E55819C6FDF749ECC"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/evidence/update-evidence.json",
+      "bytes": 33250,
+      "sha256": "FA4DC78D1B195A7D45B852250646BF3F2F7FD77984CC751D40DAD5296ACE8DBE"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/evidence/human-decisions.json",
+      "bytes": 28629,
+      "sha256": "E77583DEEB570B72ECB549EE946912BEA09A04FE9F50559B7AA7C283FF923ACD"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/result.json",
+      "bytes": 5850,
+      "sha256": "394AFA35DFFA25662ED0F84AAF367B4B561598010769F8959F0C4032F13E538A"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/evidence/human-decisions.json",
+      "bytes": 58268,
+      "sha256": "CC1834DF40848C4F9DBF59AD557F2B3E8D12E86A1EFEF5D87605E0ABA3DA283B"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/report-revision-0001.md",
+      "bytes": 17653,
+      "sha256": "3145D409A771CCD667C603EB09C07260F719139B856B1AEC266B70832B87097F"
+    }
+  ],
+  "product_root_adoption": {
+    "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+    "applicability_report_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/report-revision-0001.md",
+    "applicability_report_sha256": "3145D409A771CCD667C603EB09C07260F719139B856B1AEC266B70832B87097F"
+  },
+  "last_confirmed_boundary": {
+    "invocation_published_and_read_back": true,
+    "human_decisions_published_and_read_back": true,
+    "version_1_1_hash_revalidated": true,
+    "version_1_2_created": false,
+    "source_writes": [],
+    "project_execution": false
+  },
+  "decision_readiness": {
+    "analysis_questions_a01_through_a09_answered": true,
+    "followup_conflicts_resolved": true,
+    "explicit_update_authorization": true,
+    "remaining_unresolved_business_decisions": [],
+    "explicitly_deferred_technical_choices": [
+      "Exact Azure AI generation and embedding deployment, region, quotas, model-specific token caps, and monetary budget before implementation",
+      "Final transactional email provider selection during implementation based on cost, reliability, security, and deployment compatibility"
+    ]
+  },
+  "unfinished_work": [
+    "Create a separate immutable version 1.2 from the exact version 1.1 source bytes.",
+    "Apply all explicit decisions across every related requirement section and remove superseded/inconsistent wording.",
+    "Run structural, reference, consistency, source-preservation, and read-back validation.",
+    "Publish this attempt's change summary, evidence, and terminal result."
+  ],
+  "next_safe_action": "Create version 1.2 only; preserve version 1.1 and all other artifacts."
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "record_type": "checkpoint",
+  "record_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2:checkpoint-0001",
+  "feature": "SupportIQ requirement-source portability reassessment",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-invocation-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2",
+    "role": "SDLC Portability Assessment",
+    "effective_os_identity": "int-scl-010\\parimal"
+  },
+  "created_at_utc": "2026-11-04T12:51:33.653599+00:00",
+  "clock_basis": "Python timezone-aware system UTC at checkpoint preparation; not exact filesystem publication time",
+  "sequence": 1,
+  "last_confirmed_boundary": "Invocation attempt.json published and independently read back with strict JSON parsing and integrity checks before substantive reassessment.",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2/attempt.json",
+    "bytes": 26521,
+    "sha256": "680595B3784AFC6FF7A5722B4AF2EA391660D1D1DDCD0B5230B64B113D59B8FC",
+    "record_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2:invocation"
+  },
+  "readback": {
+    "outcome": "PASS",
+    "checks": [
+      "exact record identity/work/attempt/process",
+      "strict JSON parse",
+      "76 current source paths and fingerprints match published inventory and prior assessment inventory",
+      "current target files match published inventory"
+    ],
+    "independent_process": true
+  },
+  "partial_outputs": [],
+  "unfinished_work": [
+    "Complete bounded assessment of changed Markdown requirement-source baseline",
+    "Publish report, evidence, and terminal result with integrity bindings"
+  ],
+  "repository_effects": "Only this attempt-owned invocation and checkpoint records; no source or target changes.",
+  "blockers": [
+    "The prior assessment-bound DOCX is absent at current HEAD; its stored report/inventory are historical comparison evidence only."
+  ],
+  "pending_human_decisions": [
+    "No new human blocker disposition has been authored by this checkpoint; assess applicability of prior PB-01/PB-02 dispositions to the selected Markdown source without expanding their scope."
+  ],
+  "safe_continuation_prerequisites": [
+    "Recheck current repository and bound input fingerprints before final publication",
+    "Do not start Requirement Analysis or any other process from this assessment"
+  ]
+}

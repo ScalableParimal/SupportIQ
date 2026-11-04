@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_checkpoint",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18",
+  "checkpoint_number": 1,
+  "created_at_utc": "2026-11-04T14:32:06.428985+00:00",
+  "phase": "Source, initial analysis, and human clarifications established; update in progress",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/attempt.json",
+    "bytes": 3364,
+    "sha256": "B2CB6EAF448E4E4846A7C98DFA5206AE2B3A788D72D0A3CE5B01E82C35994BB1",
+    "record_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18:invocation"
+  },
+  "source_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement.md",
+    "version_id": "SupportIQ Product Requirement v1.0@sha256:ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871",
+    "sha256": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871",
+    "bytes": 26513,
+    "lifecycle_status": "Initial unapproved draft baseline; pre-first-Human-Requirement-Approval clarification path",
+    "approval_evidence": "No approval is claimed; source document status and user designation identify it as an initial draft."
+  },
+  "initial_analysis": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/report.md",
+    "bytes": 22739,
+    "sha256": "F5335776A171E196C42E5D3D93A60C31D16FE225388C020676B3F9EBCD0489B3"
+  },
+  "human_decisions": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18/evidence/human-decisions.json",
+    "bytes": 28629,
+    "sha256": "E77583DEEB570B72ECB549EE946912BEA09A04FE9F50559B7AA7C283FF923ACD",
+    "record_id": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18:human-decisions"
+  },
+  "reviewed_inputs": [
+    {
+      "path": "docs/requirement/SupportIQ_Product_Requirement.md",
+      "bytes": 26513,
+      "sha256": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871"
+    },
+    {
+      "path": "docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md",
+      "bytes": 12269,
+      "sha256": "D265AA4EFC1D55E870BFC1D453059B11830116AE2E908C39CAD4BC52826C8850"
+    },
+    {
+      "path": "docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md",
+      "bytes": 2845,
+      "sha256": "0677A918CAC19E87C30B9CFA33EF167DE44219ECA5BD39CF3C3FA24D97599496"
+    },
+    {
+      "path": "docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md",
+      "bytes": 1823,
+      "sha256": "58A9274BA48C6F8C77C86B1BB09B9D4CB38172F6925774F73C0DA8EAAAAF3CA6"
+    },
+    {
+      "path": ".github/skills/requirement-update/SKILL.md",
+      "bytes": 7566,
+      "sha256": "290CC575B16FA794A80D5469B22C4B7632FA89A72ABE0BE90D130D2654162758"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "bytes": 30926,
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "bytes": 54243,
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "bytes": 89025,
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/report.md",
+      "bytes": 22739,
+      "sha256": "F5335776A171E196C42E5D3D93A60C31D16FE225388C020676B3F9EBCD0489B3"
+    }
+  ],
+  "new_version_path": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+  "new_version_path_absent_at_checkpoint": true,
+  "source_write_authorized": false,
+  "downstream_process_started": false
+}

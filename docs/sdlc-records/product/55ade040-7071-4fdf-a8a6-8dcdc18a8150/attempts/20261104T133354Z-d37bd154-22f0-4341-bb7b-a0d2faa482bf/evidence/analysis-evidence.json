@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "record_type": "requirement_analysis_evidence",
+  "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf",
+  "process": "Requirement Analysis",
+  "created_at_utc": "2026-11-04T13:39:14.502275+00:00",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/attempt.json",
+    "bytes": 2462,
+    "sha256": "3758C1988BBC94CDC9E7CFC51D385AB4462D209C33F4C9DAC16827A36C99667A",
+    "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:invocation"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/checkpoint-0001.json",
+    "bytes": 3540,
+    "sha256": "2F8FE0E82FA3520E4D365CE36E9F05FF8271B705D1A40807150389D60AE51E85",
+    "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:checkpoint-0001"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf/report.md",
+    "bytes": 22739,
+    "sha256": "F5335776A171E196C42E5D3D93A60C31D16FE225388C020676B3F9EBCD0489B3",
+    "record_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf:report"
+  },
+  "authoritative_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement.md",
+    "bytes": 26513,
+    "sha256": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871"
+  },
+  "reviewed_source_inventory": [
+    {
+      "path": "docs/requirement/SupportIQ_Product_Requirement.md",
+      "bytes": 26513,
+      "sha256": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871"
+    },
+    {
+      "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+      "bytes": 16826,
+      "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+    },
+    {
+      "path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+      "bytes": 2171,
+      "sha256": "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"
+    },
+    {
+      "path": "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+      "bytes": 322,
+      "sha256": "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275"
+    },
+    {
+      "path": ".github/skills/requirement-analysis/SKILL.md",
+      "bytes": 5662,
+      "sha256": "F5A40ED08CD7DFB52B906FE4A046B721BB6A84B5B2D28037BB780C48BDE143B7"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "bytes": 30926,
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "bytes": 54243,
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "bytes": 89025,
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/report-revision-0001.md",
+      "bytes": 17653,
+      "sha256": "3145D409A771CCD667C603EB09C07260F719139B856B1AEC266B70832B87097F"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/evidence/assessment-evidence.json",
+      "bytes": 25399,
+      "sha256": "F0B69C4CD9B8320A14CABB92D8F7CE2219D4BB3524B84C00E2C4CE5021323C6E"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T125546Z-9523256a-edfc-4237-b760-a8727a6a928b/result.json",
+      "bytes": 6231,
+      "sha256": "28A8371137113B40CC6CFEF8E9894D7175026BE9E8EC7483AF41A6BD9239528D"
+    }
+  ],
+  "human_initiation": {
+    "response": "Authorize start with the scope above",
+    "authority": "User response in current conversation",
+    "scope": "This Requirement Analysis invocation only."
+  },
+  "human_decisions": {
+    "provided_for_analysis": [
+      "Use docs/requirement/SupportIQ_Product_Requirement.md as the initial requirement draft.",
+      "Exclude any existing Requirement Analysis or Requirement Update evidence.",
+      "PB-01 lifecycle alignment: retain all adopted SDLC verification and approval gates.",
+      "PB-02 applies only to future affected runtime/live-integration/release boundaries; no runtime access or threshold is approved."
+    ],
+    "product_decisions_on_open_questions": []
+  },
+  "exclusions": {
+    "prior_requirement_analysis_records_read": false,
+    "prior_requirement_update_records_read": false,
+    "other_process_records_read": [
+      "Verified portability assessment report and evidence only, as expressly included in authorized scope."
+    ]
+  },
+  "analysis_summary": {
+    "ambiguities": [
+      "A-01",
+      "A-02",
+      "A-03",
+      "A-04",
+      "A-05",
+      "A-06",
+      "A-07",
+      "A-08",
+      "A-09",
+      "A-10",
+      "A-11",
+      "A-12"
+    ],
+    "missing_information": [
+      "M-01",
+      "M-02",
+      "M-03",
+      "M-04",
+      "M-05",
+      "M-06",
+      "M-07",
+      "M-08",
+      "M-09",
+      "M-10",
+      "M-11",
+      "M-12",
+      "M-13"
+    ],
+    "blocking_for_implementation": [
+      "M-01",
+      "M-02",
+      "M-03",
+      "M-04",
+      "M-06"
+    ],
+    "blocking_for_objective_release_quality_claims": [
+      "M-07"
+    ],
+    "direct_conflicts_found": 0,
+    "requirement_ready_for_complete_verification": false
+  },
+  "execution": {
+    "source_writes": [],
+    "product_artifact_writes": [],
+    "project_execution": false,
+    "implementation_started": false,
+    "requirement_update_started": false,
+    "requirement_analysis_verification_started": false,
+    "human_requirement_approval_claimed": false,
+    "prior_requirement_analysis_or_update_evidence_used": false
+  },
+  "limitations": [
+    "Requirement remains an initial draft; open decisions were not resolved.",
+    "No product code/runtime/security behavior was executed or verified.",
+    "This report is analysis output, not Requirement Approval or implementation authorization."
+  ]
+}

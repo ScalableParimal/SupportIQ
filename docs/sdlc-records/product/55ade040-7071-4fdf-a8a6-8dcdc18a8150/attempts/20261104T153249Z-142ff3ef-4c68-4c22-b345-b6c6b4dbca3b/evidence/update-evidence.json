@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "record_type": "requirement_update_evidence",
+  "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b",
+  "process": "Requirement Update",
+  "update_context": "Initial Analysis Clarification (pre-approval)",
+  "created_at_utc": "2026-11-04T15:53:14.624872+00:00",
+  "clock_basis": "Checkpoint UTC timestamp; not the exact evidence publication time",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/attempt.json",
+    "bytes": 6482,
+    "sha256": "2822030C1F3409E8E4BD4B0217CCD35850299400B09217BDDEC3AA85086B4292",
+    "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:invocation"
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/checkpoint-0003.json",
+    "bytes": 3957,
+    "sha256": "85BD20ED3BDA05502400F8493E42106D3EA27F96FF6CD444DF0E0EA447350318",
+    "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:checkpoint-0003"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/report.md",
+    "bytes": 7851,
+    "sha256": "420D54EFA05E68ACE5266EB29C93594183A3BCEB609BD97855E45BBD85AE9C8A",
+    "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:report"
+  },
+  "human_decisions": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b/evidence/human-decisions.json",
+    "bytes": 58268,
+    "sha256": "CC1834DF40848C4F9DBF59AD557F2B3E8D12E86A1EFEF5D87605E0ABA3DA283B",
+    "record_id": "20261104T153249Z-142ff3ef-4c68-4c22-b345-b6c6b4dbca3b:human-decisions"
+  },
+  "initial_analysis": {
+    "attempt_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0",
+    "report": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/report.md",
+      "bytes": 20575,
+      "sha256": "F2B081D6F6BAF08DFE2474A051FD612E43F5D4C3276EB00CDCCC20DF825EAB2B"
+    },
+    "evidence": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/evidence/analysis-evidence.json",
+      "bytes": 10077,
+      "sha256": "F63395E37572C572CCB6EEF459F2CDC58F6667E1C474E8F5B4C9C7D1FDBB13B1"
+    },
+    "result": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/result.json",
+      "bytes": 6749,
+      "sha256": "6BED7A5C0446271237754922C9C194085415DC85768D1AB90D330882F335DBB9",
+      "outcome": "POST_UPDATE_ANALYSIS_COMPLETE_DECISIONS_REQUIRED"
+    }
+  },
+  "source_version": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+    "bytes": 47725,
+    "sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "version_id": "SupportIQ Product Requirement v1.1@sha256:E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "lifecycle_status": "Draft; unapproved Initial Analysis Clarification"
+  },
+  "result_version": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.2.md",
+    "bytes": 77893,
+    "sha256": "D206C95AD75E0D7E1B1169144B29ADE219F3C42299FE5C3ED3C20F75DD8D99AA",
+    "version_id": "SupportIQ Product Requirement v1.2@sha256:D206C95AD75E0D7E1B1169144B29ADE219F3C42299FE5C3ED3C20F75DD8D99AA",
+    "lifecycle_status": "Draft Updated Requirement; unapproved",
+    "readback_verified": true
+  },
+  "version_lineage": {
+    "predecessor": "docs/requirement/SupportIQ_Product_Requirement.md",
+    "predecessor_bytes": 26513,
+    "predecessor_sha256": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871",
+    "intermediate": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+    "intermediate_sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "result": "docs/requirement/SupportIQ_Product_Requirement_v1.2.md",
+    "result_sha256": "D206C95AD75E0D7E1B1169144B29ADE219F3C42299FE5C3ED3C20F75DD8D99AA",
+    "all_predecessor_versions_preserved": true
+  },
+  "human_authorization": {
+    "explicit_requirement_update_authorization": true,
+    "authorized_scope": "Create unapproved immutable version 1.2 from version 1.1 incorporating the answers to A-01 through A-09 and the subsequent ticket closure/cancellation, real email, cancelled-ticket retention, and tenant-deletion reversal clarifications.",
+    "formal_human_requirement_approval": false,
+    "implementation_authorized": false
+  },
+  "applied_decisions": {
+    "knowledge_approval": [
+      "Separate processing status from approval state.",
+      "Tenant Admin approves or rejects exact document versions.",
+      "Only the current approved version is retrievable; update/reprocessing invalidates stale approval/index entries."
+    ],
+    "rbac_and_privileged_controls": [
+      "Centralized default-deny role/resource/action permissions, tenant/team scope, and no custom roles or tenant overrides.",
+      "Tenant Admin cannot assign Platform Admin; Agents cannot assign/reassign tickets; Managers remain team-scoped.",
+      "Privileged Platform Admin changes require a second independent approver; no self-approval or self-elevation."
+    ],
+    "support_teams": [
+      "Tenant Admin owns tenant team lifecycle and membership, assigns one primary Manager per team, and Agents belong to one primary team.",
+      "Managers may manage multiple assigned teams, read team membership, and cannot change membership."
+    ],
+    "ticket_workflow": [
+      "Defined New, Open, In Progress, Pending Customer, Resolved, Closed, and Cancelled states and authorized transitions.",
+      "Closure is only from Resolved; reopening requires a reason; cancellation is terminal, requires a reason and notes, and is not deletion.",
+      "Ticket assignment separates team and agent; managers and tenant administrators have distinct routing scopes."
+    ],
+    "customer_lookup": [
+      "Added exact customer and related-ticket allowlists, default email masking, and exclusions for sensitive fields/notes/attachments.",
+      "Enforced role, tenant, team, and ticket-level lookup restrictions, including restricted Platform Admin business-data access."
+    ],
+    "retention_and_tenant_lifecycle": [
+      "Added proposed configurable retention for business data, activity, feedback, AI results, audit, documents, conversations, evaluations, and backups.",
+      "Added immediate tenant deactivation controls, 30-day deletion grace, independent deletion approval, and two-admin reversal approval before purge."
+    ],
+    "async_jobs_and_timeouts": [
+      "Added persisted job states, HTTP 202/Job ID submissions, authorized status/results, separate configurable bounded timeouts, and safe retries."
+    ],
+    "account_recovery_and_email": [
+      "Added ASP.NET Core Identity password/reset rules, generic responses, configurable 12-character/30-minute/5-failure/15-minute defaults, and role-scoped recovery.",
+      "Included a real transactional email provider in first-release scope; provider selection remains deferred to implementation."
+    ],
+    "evaluation_governance": [
+      "Kept all proposed AI evaluation percentages non-gating even after Requirement Approval unless separately authorized.",
+      "Defined retrieval, claim-level grounding, citation correctness and coverage, abstention, structured-output failure-rate, and prompt-injection measurements."
+    ]
+  },
+  "change_summary": {
+    "added": [
+      "Version-specific knowledge approval",
+      "Tenant-scoped support team management and team-aware authorization",
+      "Detailed ticket workflow, cancellation, customer lookup, retention, tenant deletion, background jobs, account recovery, and real transactional email",
+      "Non-gating evaluation governance and scoring definitions"
+    ],
+    "modified": [
+      "Roles/scope, identity, knowledge, ticket rules, tool access, architecture, entities, API examples, NFRs, workflows, acceptance criteria, tests, backlog, and glossary"
+    ],
+    "removed_or_superseded": [
+      "Automatic RAG eligibility on successful indexing",
+      "Unresolved status-transition, customer lookup, audit retention/access, and evaluation-gate statements",
+      "First-release deferral of real transactional email"
+    ],
+    "scope": "Explicitly authorized first-release clarifications only; v1.0 and v1.1 preserved.",
+    "remaining_open_questions": [
+      "Exact Azure AI generation/embedding deployment, region, quotas, token caps, and monetary budget",
+      "Final email provider, sender identity, and environment deployment configuration",
+      "Operation-specific bounded background timeout and retry values",
+      "Validate proposed retention defaults against applicable legal/business obligations before production"
+    ]
+  },
+  "validation": {
+    "version_1_2_bytes": 77893,
+    "version_1_2_sha256": "D206C95AD75E0D7E1B1169144B29ADE219F3C42299FE5C3ED3C20F75DD8D99AA",
+    "functional_requirement_ids": 94,
+    "duplicate_functional_requirement_definitions": [],
+    "expected_top_level_sections_1_through_18_present": true,
+    "markdown_table_blocks": 26,
+    "markdown_table_column_counts_consistent": true,
+    "source_preservation_verified": true,
+    "v1_1_bytes_before_and_after": 47725,
+    "v1_1_sha256_before_and_after": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "v1_0_bytes_before_and_after": 26513,
+    "v1_0_sha256_before_and_after": "ED2C910654FA39BE995D716F063C45BFE4183D8A4E8C6CB5B1C1194F8C17A871",
+    "evaluation_percentages_are_formal_release_gates": false,
+    "implementation_plan_created": false,
+    "downstream_process_started": false
+  },
+  "source_writes": [],
+  "unrelated_artifacts_modified": [],
+  "project_execution": false,
+  "human_requirement_approval_claimed": false
+}

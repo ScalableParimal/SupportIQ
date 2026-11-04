@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_result",
+  "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:result",
+  "feature": "SupportIQ product requirement",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0",
+  "process": "Requirement Analysis",
+  "analysis_type": "Post-Requirement-Update analysis refresh",
+  "execution_status": "COMPLETED",
+  "outcome": "POST_UPDATE_ANALYSIS_COMPLETE_DECISIONS_REQUIRED",
+  "created_at_utc": "2026-11-04T14:47:04.030484+00:00",
+  "clock_basis": "Python timezone-aware system UTC at result preparation; not exact filesystem publication time",
+  "repository": {
+    "name": "ScalableParimal/SupportIQ",
+    "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+    "branch": "SupportIQ-Requirement-Analysis"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/attempt.json",
+    "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:invocation",
+    "bytes": 2426,
+    "sha256": "A8E15FC0D5A8E45543E1F0E1DD9583C5226B355251996E50786BA111A143CD9E"
+  },
+  "checkpoints": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/checkpoint-0001.json",
+      "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:checkpoint-0001",
+      "bytes": 5193,
+      "sha256": "4DCE124E86677E50A3FD990FAEDB9870B1188C63609DB6F9FD6FAF61BFB925E7"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/checkpoint-0002.json",
+      "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:checkpoint-0002",
+      "bytes": 4762,
+      "sha256": "EF323B311FBB09FDB2972E8A36DCB9ECF06C1160D2C748CC94778C634C54AB69"
+    }
+  ],
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/report.md",
+    "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:report",
+    "bytes": 20575,
+    "sha256": "F2B081D6F6BAF08DFE2474A051FD612E43F5D4C3276EB00CDCCC20DF825EAB2B"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0/evidence/analysis-evidence.json",
+    "record_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0:evidence",
+    "bytes": 10077,
+    "sha256": "F63395E37572C572CCB6EEF459F2CDC58F6667E1C474E8F5B4C9C7D1FDBB13B1"
+  },
+  "authoritative_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+    "record_id": "SupportIQ Product Requirement v1.1@sha256:E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "version_id": "SupportIQ Product Requirement v1.1@sha256:E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "bytes": 47725,
+    "sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "lifecycle_status": "Draft; unapproved Initial Analysis Clarification"
+  },
+  "lineage": {
+    "prior_initial_analysis_attempt": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf",
+    "requirement_update_attempt": "20261104T143031Z-e7ca6b97-53ac-4105-9ebb-3bf449ca0b18",
+    "prior_unrelated_requirement_analysis_or_update_evidence_read": false
+  },
+  "analysis_conclusion": {
+    "ready_for_complete_requirement_analysis_verification": false,
+    "blocking_decision_count": 6,
+    "important_decision_count": 4,
+    "decision_counts_are_nonexclusive": true,
+    "unresolved_items": [
+      {
+        "id": "A-01",
+        "classification": "Blocking",
+        "subject": "Knowledge approval state and retrieval eligibility"
+      },
+      {
+        "id": "A-02",
+        "classification": "Blocking",
+        "subject": "Complete resource/action matrix and Platform Admin change safeguards"
+      },
+      {
+        "id": "A-03",
+        "classification": "Blocking for team-scoped capabilities",
+        "subject": "Support-team model and membership"
+      },
+      {
+        "id": "A-04",
+        "classification": "Blocking",
+        "subject": "Ticket transitions and Tenant Admin actions"
+      },
+      {
+        "id": "A-05",
+        "classification": "Important; blocks Customer Lookup contract",
+        "subject": "Customer and related-ticket field allowlist"
+      },
+      {
+        "id": "A-06",
+        "classification": "Blocking",
+        "subject": "Retention, deletion, and audit access/retention coverage"
+      },
+      {
+        "id": "A-07",
+        "classification": "Important",
+        "subject": "30-second general API vs 60-second model timeout behavior"
+      },
+      {
+        "id": "A-08",
+        "classification": "Important",
+        "subject": "Proposed evaluation target gate status and metric measurement"
+      },
+      {
+        "id": "A-09",
+        "classification": "Important",
+        "subject": "Local password-reset behavior"
+      }
+    ],
+    "human_decisions_incorporated": [
+      "Local ASP.NET Core Identity; no first-release Entra/enterprise SSO",
+      "Four predefined roles and tenant-isolation/RBAC requirements",
+      "Proposed upload and retention defaults",
+      "Azure AI and Azure AI Search direction; exact deployment/region/budget deferred",
+      "Synthetic first-release ticket dataset and taxonomy",
+      "Read-only tool/analytics allowlist and mandatory expanded first-release scope",
+      "AI evaluation percentages are proposals, not formal release gates at this draft stage"
+    ],
+    "human_requirement_approval": false,
+    "implementation_authorized": false,
+    "downstream_process_started": false,
+    "next_permitted_action": "Obtain the decisions in the report. If version 1.1 requires amendment, use a separately initiated Requirement Update and then refresh analysis. Initiate Requirement Analysis Verification separately only after the material questions are resolved."
+  },
+  "effects": {
+    "requirement_source_modified": false,
+    "source_code_tests_configuration_or_plan_modified": false,
+    "other_process_records_modified": false,
+    "project_execution": false
+  },
+  "limitations": [
+    "No runtime, deployment, build, test, or live integration was performed.",
+    "This analysis does not verify or approve the Requirement.",
+    "The analysis report and evidence are AI-generated process outputs, not Human Approval."
+  ]
+}

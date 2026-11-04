@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_invocation",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf",
+  "process": "Requirement Analysis",
+  "status": "STARTED",
+  "created_at_utc": "2026-11-04T13:33:54.462999+00:00",
+  "clock_basis": "System UTC at invocation publication; not exact filesystem time",
+  "repository": "ScalableParimal/SupportIQ",
+  "repository_root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+  "human_initiation": {
+    "response": "Authorize start with the scope above",
+    "authority": "User response in current conversation",
+    "scope": "This Requirement Analysis invocation only; not Requirement Approval or authorization for a later stage."
+  },
+  "authoritative_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement.md",
+    "role": "Initial draft; authoritative input for this analysis; read-only"
+  },
+  "read_scope": [
+    "Requirement Analysis guideline, prompt and request",
+    "Current authoritative requirement",
+    "Verified current portability report/evidence and its applicable conditions",
+    "Governance/process context required to conduct this analysis"
+  ],
+  "explicit_exclusions": [
+    "All prior Requirement Analysis reports/evidence",
+    "All prior Requirement Update reports/evidence",
+    "No prior Requirement Analysis/Update output will be opened or used"
+  ],
+  "applicable_context": {
+    "PB-01": "Record alignment with the adopted Master lifecycle and retain all required verification/approval gates.",
+    "PB-02": "Does not block analysis; exact permissions, approved thresholds and applicable evidence are required before affected future runtime/live-integration/release boundaries. Grants no runtime access or threshold approval."
+  },
+  "write_scope": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T133354Z-d37bd154-22f0-4341-bb7b-a0d2faa482bf",
+    "permitted": [
+      "This attempt own invocation, checkpoints, report, evidence, and result records"
+    ],
+    "prohibited": [
+      "Requirement source",
+      "Product/source/test/configuration/governance artifacts",
+      "Other process records"
+    ]
+  },
+  "inventory_status": "PENDING_POST_INVOCATION_READBACK",
+  "prior_analysis_or_update_records_read": false,
+  "project_execution": false,
+  "downstream_process_started": false,
+  "formal_approval_claimed": false
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_invocation",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0",
+  "process": "Requirement Analysis",
+  "analysis_type": "Post-Requirement-Update analysis refresh",
+  "status": "STARTED",
+  "created_at_utc": "2026-11-04T14:39:39.735261+00:00",
+  "clock_basis": "System UTC at invocation publication; not exact filesystem time",
+  "repository": "ScalableParimal/SupportIQ",
+  "repository_root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+  "human_initiation": {
+    "response": "Authorize a fresh analysis against version 1.1",
+    "authority": "User response in current conversation",
+    "scope": "This Requirement Analysis invocation only; does not authorize Requirement Analysis Verification, Requirement Approval, or implementation."
+  },
+  "authoritative_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+    "version_id": "SupportIQ Product Requirement v1.1@sha256:E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "sha256": "E2AA6F67665533ADDD150062F6656DC9B2A9A232B0D5FD96388C9ED335E3CED2",
+    "lifecycle_status": "Draft; unapproved Initial Analysis Clarification version"
+  },
+  "read_scope": [
+    "Requirement Analysis guideline, prompt and request",
+    "Version 1.1 Requirement, read-only",
+    "Current initial Requirement Analysis report",
+    "Current Requirement Update report, evidence, and human decisions",
+    "Applicable portability disposition and lifecycle context linked by the current analysis"
+  ],
+  "explicit_exclusions": [
+    "Older unrelated Requirement Analysis/Requirement Update reports or evidence not linked to this current update chain"
+  ],
+  "write_scope": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T143939Z-277dd15a-118a-4c89-840f-a0b69d5b50f0",
+    "permitted": [
+      "This attempt own invocation, checkpoints, report, evidence, and result records"
+    ],
+    "prohibited": [
+      "Version 1.1 Requirement",
+      "Version 1.0 source",
+      "Other product artifacts, source code, tests, configuration, governance files"
+    ]
+  },
+  "inventory_status": "PENDING_POST_INVOCATION_READBACK",
+  "prior_unrelated_requirement_analysis_or_update_records_read": false,
+  "project_execution": false,
+  "downstream_process_started": false
+}

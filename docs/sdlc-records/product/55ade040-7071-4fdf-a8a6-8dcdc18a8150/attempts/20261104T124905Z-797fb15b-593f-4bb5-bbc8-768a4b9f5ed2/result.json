@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "record_type": "result",
+  "record_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2:result",
+  "feature": "SupportIQ requirement-source portability reassessment",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2",
+  "process": "SDLC Portability Assessment",
+  "creator": {
+    "identity": "portability-invocation-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2",
+    "role": "SDLC Portability Assessment",
+    "identity_basis": "Current explicitly assigned process role and loaded repository Agent/Skill/Guideline/Prompt/Request; local invocation identity is not an external platform identity",
+    "effective_os_identity": "int-scl-010\\parimal",
+    "external_cryptographic_actor_identity": "Not available; not claimed"
+  },
+  "created_at_utc": "2026-11-04T12:53:24.370960+00:00",
+  "clock_basis": "Python timezone-aware system UTC at terminal result preparation; not exact filesystem publication time",
+  "gate": {
+    "applicability": "No human approval or acceptance gate is satisfied; no downstream process is authorized by this result"
+  },
+  "related_records": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/report.md",
+      "bytes": 14286,
+      "sha256": "DCB0964153BF521AFCDE34ED95CEFE9257C160FEA0BEF1B31A7F77DE57BCE61D"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261102T180059Z-36b3dfb9-ba84-4787-b9b7-97f8e75cda93/result.json",
+      "bytes": 13365,
+      "sha256": "391992F8589CF2889C542B29EDE44F5EC4D5FEAFBDCF0A2AC333B303C122A6FF"
+    }
+  ],
+  "task_context": "Material-change reassessment for the requested initial Requirement source; no product Requirement Analysis/Update evidence is used",
+  "execution_status": "CANNOT_COMPLETE",
+  "outcome": "CANNOT_COMPLETE - invocation ordering requirement was not met",
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2/report.md",
+    "bytes": 4309,
+    "sha256": "A5164B0D73F6AF034A66683170A099E0221C7AAD5EE1C926B6F900A03659CF94",
+    "record_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2:report"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2/evidence/assessment-evidence.json",
+    "bytes": 4871,
+    "sha256": "0B75D1D81FA6D2B6A6269E190B3F4966EC938F882FBBF85BDD66C04AFDC29E27",
+    "record_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2:assessment_evidence"
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2/attempt.json",
+    "bytes": 26521,
+    "sha256": "680595B3784AFC6FF7A5722B4AF2EA391660D1D1DDCD0B5230B64B113D59B8FC",
+    "record_id": "20261104T124905Z-797fb15b-593f-4bb5-bbc8-768a4b9f5ed2:invocation"
+  },
+  "evaluated_state": {
+    "source": {
+      "repository": "ScalableParimal/SupportIQ",
+      "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+      "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+      "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+      "branch": "SupportIQ-Requirement-Analysis",
+      "state": "HEAD plus exact 76-file source_inventory"
+    },
+    "target": {
+      "repository": "ScalableParimal/SupportIQ",
+      "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+      "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+      "head": "8dc5bddc321bbdddb88b88e6374c9d4ccfa099ef",
+      "branch": "SupportIQ-Requirement-Analysis",
+      "state": "HEAD plus current target_inventory and applicable governance source_inventory"
+    },
+    "comparison": {
+      "outcome": "NOT COMPLETED",
+      "source_files": 76,
+      "current_target_files": 2,
+      "note": "Only preliminary fingerprint and path facts were established; no portability dimension determination is asserted."
+    }
+  },
+  "dimension_outcomes": [],
+  "recommended_possible_blockers": [],
+  "human_disposition_status": "No new blocker decision made in this incomplete attempt; prior dispositions are not re-decided here.",
+  "unresolved_items": [
+    "Complete an authorized material-change Portability Assessment in a fresh attempt with invocation-first ordering"
+  ],
+  "next_permitted_process": "No downstream process. Fresh Human initiation for Portability Assessment required; do not start Requirement Analysis from this attempt.",
+  "publication": {
+    "no_overwrite": true,
+    "report_and_evidence_published_before_result": true,
+    "atomic_same_filesystem_rename": true
+  },
+  "limitations": [
+    "Pre-invocation substantive inspection prevents a conforming completion claim",
+    "No external platform actor identity or native timestamp for conversational responses is available",
+    "Current framework source files match predecessor inventory; previous DOCX is absent and historical report is comparison evidence only"
+  ],
+  "source_writes": [],
+  "product_artifact_writes": [],
+  "other_actor_record_writes": [],
+  "nested_agents": false,
+  "later_process_started": false,
+  "orchestrator_activated": false,
+  "formal_approvals_claimed": false,
+  "human_acceptance_claimed": false,
+  "project_execution": false,
+  "staging_commit_push": false
+}
