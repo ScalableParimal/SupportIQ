@@ -1,0 +1,37 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "evidence_type":  "verbatim_human_decisions",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T082331Z-db49e004-4ef6-4bae-a9aa-b76af9ee37fb",
+    "created_at_utc":  "2026-11-06T08:24:38Z",
+    "clock_basis":  "PowerShell Get-Date converted to UTC while preparing record",
+    "source":  "Current conversation, direct ask_user responses",
+    "formal_human_gate":  false,
+    "supersedes_summaries_as_exact_transcription":  "The linked human-decisions.json is a summary index only; this record preserves the exact supplied answer text and option identifiers.",
+    "decisions":  [
+                      {
+                          "id":  "RA18-Q-03",
+                          "answer":  "Exclude separately authorized Platform Admin Customer investigations from the first-release scope.  Platform Admin must not have routine Customer Search, Customer Read, unrestricted Customer lookup, or exceptional direct access to individual customer records in the first release.  Platform Admin access must remain limited to platform administration, privileged operations with independent second-admin approval, and the explicitly permitted aggregate analytics for exactly one authorized, explicitly selected tenant.  No separate investigation permission, exceptional access grant, temporary access mechanism, or additional approval authority will be introduced in the first release.  Customer access must remain restricted to the existing Tenant Admin, Support Manager, and Support Agent role-specific scopes defined in the PRD.  Customer email must remain masked for Platform Admin under all circumstances.  Any future requirement for exceptional Platform Admin Customer investigations must be introduced through a separately authorized Requirement Update, with explicit purpose, approving authority, permitted fields, duration, revalidation, expiry, and audit controls."
+                      },
+                      {
+                          "id":  "RA18-Q-04",
+                          "answer":  "After permanent tenant deletion, retain only the following explicitly allowlisted security and administrative audit metadata:  1. Audit event ID. 2. Irreversibly pseudonymized actor ID. 3. Irreversibly pseudonymized independent approver ID, where applicable. 4. Irreversibly pseudonymized tenant reference, solely for audit correlation. 5. Audit action/event type. 6. Resource type and non-business audit reference ID, limited to the tenant deletion and privileged approval workflow. 7. Relevant permission before/after values, only where necessary to preserve privileged-change accountability. 8. Tenant deletion request, approval, and execution timestamps in UTC. 9. Audit outcome/status. 10. Correlation ID.  Pseudonymize actor IDs, approver IDs, and tenant references using a one-way, irreversible method. Do not retain a mapping that can reconstruct the original identities or tenant.  Retain only structured, predefined action codes and permission values. Do not retain free-text descriptions, business/customer resource identifiers, or unnecessary metadata.  Explicitly exclude passwords, authentication tokens, personal email addresses, IP addresses, personal contact information, customer data, ticket content, conversation history, knowledge document content, attachments, secrets, and any deleted business data.  Audit metadata must be protected against unauthorized modification and deletion, accessible only through the existing authorized audit-access controls, and must not restore, reconstruct, or identify deleted tenant/business records.  Retain the permitted metadata for no longer than the existing 365-day security and administrative audit retention period, after which it must be permanently purged.  No additional audit fields may be retained without a separately authorized Requirement Update and explicit privacy/security review."
+                      },
+                      {
+                          "id":  "RA18-Q-05a",
+                          "answer":  "Feedback reason and the illustrative Comment field represent the same logical field. They must not be treated as separate data fields.  Use `reason` as the canonical field name in API contracts, application/domain models, and returned Feedback Read responses.  The illustrative `Comment` entity field should map to the canonical `reason` field and must not introduce a separate persisted or independently managed field.  Acceptance: The user may submit an optional reason with feedback. The API accepts and returns it as `reason`. Retain it according to the existing 90-day Feedback retention policy.  Include the optional reason in Feedback Read only for authorized roles and within the existing field-level and tenant/team scope restrictions defined in FR-ID-16.  Audit Feedback Read access as required by the PRD, but do not copy free-text reason content into audit logs. Minimize sensitive content and enforce server-side authorization."
+                      },
+                      {
+                          "id":  "RA18-Q-05b",
+                          "answer":  "Yes. Persist AI-suggested urgency as part of the Ticket AI result.  Keep AI-suggested urgency separate from the final human-reviewed urgency. The AI suggestion must never automatically modify the authoritative ticket data.  Persist the following information:  1. SuggestedUrgency: AI-generated urgency value. 2. ReviewedUrgency: Final human-reviewed urgency value, nullable until reviewed. 3. ModelId and model/deployment reference. 4. CreatedAt timestamp. 5. ReviewedBy user ID, nullable until reviewed. 6. ReviewedAt timestamp, nullable until reviewed.  Use the existing configured urgency values and validate all AI outputs against the allowed values before persistence.  An authorized human user must be able to review, accept, or override the AI suggestion. Preserve the original AI suggestion even when the human selects a different urgency.  If no human review has occurred, ReviewedUrgency remains null. Do not treat the AI suggestion as an approved or authoritative ticket value.  Apply the existing 90-day Ticket AI result retention policy. Enforce tenant, team, ticket, and role authorization when storing or retrieving these results.  Update the illustrative TicketAIResult entity and relevant API contracts and tests to include urgency and its review lifecycle. The illustrative entity remains non-final; this clarification defines the required logical data behavior, not the final database schema."
+                      },
+                      {
+                          "id":  "RA19-A01",
+                          "primary_team_change_response":  "block_team_change_until_disposition",
+                          "required_assignment_disposition_response":  "either_reassign_or_clear",
+                          "authorized_actor_response":  "both_existing_roles",
+                          "clarifying_question_context":  "The user selected a block until disposition, then selected either reassignment within current team or clearing AssignedAgentId while preserving AssignedTeamId, and authorized either existing Tenant Admin or the assigned-team Manager to perform it."
+                      }
+                  ]
+}

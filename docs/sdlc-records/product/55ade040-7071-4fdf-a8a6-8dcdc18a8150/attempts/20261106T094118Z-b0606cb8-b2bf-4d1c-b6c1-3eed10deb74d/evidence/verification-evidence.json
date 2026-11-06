@@ -1,0 +1,198 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "evidence_type":  "requirement_analysis_verification_evidence",
+    "record_id":  "20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d:verification-evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d",
+    "process":  "Requirement Analysis Verification",
+    "created_at_utc":  "2026-11-06T09:49:36Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing evidence; not filesystem publication time",
+    "outcome":  "ANALYSIS VERIFIED WITH GAPS",
+    "verification_scope":  "Independent verification of the full current v1.11 Requirement Analysis and the complete resulting updated requirement against v1.10, qualified human decisions, applicable adopted Master baseline constraints, and linked evidence.",
+    "repository_context":  {
+                               "repository":  "ScalableParimal/SupportIQ",
+                               "branch":  "SupportIQ-Requirement-Analysis",
+                               "head":  "6e82033850ade3c8e621b5cac5aa26f1c62f7ba2"
+                           },
+    "bound_inputs":  [
+                         {
+                             "role":  "source_requirement",
+                             "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.10.md",
+                             "bytes":  130841,
+                             "sha256":  "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6"
+                         },
+                         {
+                             "role":  "resulting_updated_requirement",
+                             "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                             "bytes":  135602,
+                             "sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                             "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                         },
+                         {
+                             "role":  "current_requirement_analysis_report",
+                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58/report.md",
+                             "bytes":  11021,
+                             "sha256":  "AE2EB61BE0EB5744C9D53D33D9A801B2FE80A832FF4563D0072D44C96CB45751"
+                         },
+                         {
+                             "role":  "current_requirement_analysis_evidence",
+                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58/evidence/analysis-evidence.json",
+                             "bytes":  7897,
+                             "sha256":  "F3B6E51D17858C55EFC76F750FFD589FC5E213D2C1C9039835323473D8BCC60F"
+                         },
+                         {
+                             "role":  "current_requirement_analysis_result",
+                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58/result.json",
+                             "bytes":  10143,
+                             "sha256":  "3B66F5F383E3F5A9A65C1948CA883AA6149B765C61A76C85E510DCC7D44B3499"
+                         },
+                         {
+                             "role":  "prior_complete_v1_10_analysis",
+                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf/report.md",
+                             "sha256":  "DD5B71CC68FB4C59A8DAB338DB99C885875388F4859F428C8D035CEF0E4C9A56"
+                         },
+                         {
+                             "role":  "requirement_update_report",
+                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de/report.md",
+                             "bytes":  6706,
+                             "sha256":  "BC57A011E41B340B3E41D063C9F0CDE8C518ED9064BA93D29D892FA317BEC972"
+                         },
+                         {
+                             "role":  "qualified_human_decision_source",
+                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de/evidence/human-decision-source-qualification.json",
+                             "bytes":  2322,
+                             "sha256":  "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4"
+                         },
+                         {
+                             "role":  "verification_invocation",
+                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d/attempt.json",
+                             "sha256":  "DBA04CC6375DEED2B37B0CFF6B4E2B96F85C7C07A83B38906EA6EC5770EB01CD"
+                         },
+                         {
+                             "role":  "verification_checkpoint_2",
+                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d/checkpoint-0002.json",
+                             "bytes":  3909,
+                             "sha256":  "551ADB6D1FE26E6F3D26E90F129C21B43FC1B6754498D2B58DEFB303F06FEE63"
+                         }
+                     ],
+    "governing_constraints":  {
+                                  "master_baseline":  "SupportIQ-Master-Baseline-001",
+                                  "current_fingerprints_match":  true,
+                                  "product_record_root_adoption":  "Verified in invocation as prospective adoption only; not a process-stage or product decision",
+                                  "supporting_governance_audit_sha256":  "CF073B8E08EDF728B6AB1B1CC300C842D3FEF15F512A084C85B7A7E8EF199222"
+                              },
+    "human_decision_basis":  {
+                                 "question_id":  "RA20-Q-01",
+                                 "source_classification":  "Reported and source-qualified in the continuation summary and prior process evidence; original raw ask_user wording unavailable verbatim",
+                                 "formal_requirement_approval":  false,
+                                 "decisions":  [
+                                                   "Use Critical, High, Medium, and Low for urgency; shared value set does not equate urgency with Ticket.Priority and no mapping is allowed.",
+                                                   "Support Agent access/review is limited to currently assigned tickets; Support Manager to currently assigned teams including team-queued tickets; Tenant Admin to own tenant; Platform Admin has no individual ticket urgency access.",
+                                                   "Acceptance copies SuggestedUrgency to ReviewedUrgency; override stores a valid selected value; preserve suggestion and record reviewer/time metadata; urgency review never changes Ticket.Priority; separate Priority changes use FR-TM-14."
+                                               ]
+                             },
+    "reviewed_cross_references":  [
+                                      {
+                                          "section":  "FR-TK-08/09",
+                                          "updated_requirement_lines":  "157-158",
+                                          "assessment":  "Values, distinct urgency/priority semantics, authorization, revalidation, acceptance/override behavior, preservation, reviewer/time metadata, and 90-day retention are explicit."
+                                      },
+                                      {
+                                          "section":  "centralized default-deny permission catalogue and role mapping",
+                                          "updated_requirement_lines":  "291, 299",
+                                          "assessment":  "TicketAIResult read/review permission and role scopes align with FR-TK-09; no role or exception added."
+                                      },
+                                      {
+                                          "section":  "priority boundary and urgency workflow",
+                                          "updated_requirement_lines":  "334, 549-551",
+                                          "assessment":  "Urgency review updates only review metadata; FR-TM-14 remains the separate Priority workflow."
+                                      },
+                                      {
+                                          "section":  "logical entity and persistence",
+                                          "updated_requirement_lines":  "592, 600",
+                                          "assessment":  "SuggestedUrgency and nullable ReviewedUrgency plus reviewer/time and model/deployment metadata are aligned; schema details remain planning decisions."
+                                      },
+                                      {
+                                          "section":  "acceptance criteria and Definition of Done",
+                                          "updated_requirement_lines":  "606, 708",
+                                          "assessment":  "Allowed values, scopes, acceptance/override, preservation, Priority non-mutation, Platform Admin denial, and retention are testable."
+                                      }
+                                  ],
+    "verification_assessments":  [
+                                     {
+                                         "area":  "complete requirement coverage",
+                                         "status":  "sufficient",
+                                         "basis":  "Current analysis covers the prior v1.10 baseline and all substantive v1.11 urgency changes and linked cross-references."
+                                     },
+                                     {
+                                         "area":  "interpretation and scope",
+                                         "status":  "accurate",
+                                         "basis":  "No unapproved scope expansion, unsupported assumption, or implementation decision was found."
+                                     },
+                                     {
+                                         "area":  "functional/business rules",
+                                         "status":  "consistent",
+                                         "basis":  "The qualified decisions are reflected consistently across requirement, permissions, workflow, entity/API, acceptance, test, and DoD sections."
+                                     },
+                                     {
+                                         "area":  "non-functional requirements",
+                                         "status":  "sufficient for changed scope",
+                                         "basis":  "Authorization, privacy, retention, operational constraints, and deferred provider/model decisions are represented without inventing new requirements."
+                                     },
+                                     {
+                                         "area":  "acceptance criteria",
+                                         "status":  "testable",
+                                         "basis":  "Changed behaviors and failure boundaries have measurable acceptance/test coverage."
+                                     },
+                                     {
+                                         "area":  "ambiguities, contradictions, assumptions, dependencies",
+                                         "status":  "no material issue",
+                                         "basis":  "RA20-Q-01 is addressed; remaining §17 decisions are explicitly deferred and correctly treated as non-blocking for this analysis."
+                                     },
+                                     {
+                                         "area":  "implementation neutrality",
+                                         "status":  "preserved",
+                                         "basis":  "Exact schema, indexes, endpoints, and sequencing remain for planning; illustrative technical impacts are not promoted to requirements."
+                                     }
+                                 ],
+    "findings":  [
+                     {
+                         "id":  "RAV-01",
+                         "classification":  "Non-blocking evidence limitation",
+                         "severity":  "Low",
+                         "affected_section":  "RA20-Q-01 human-decision provenance; v1.11 FR-TK-08/09",
+                         "evidence":  "The prior human-decision-source-qualification.json and current Analysis report state that the original ask_user wording is not available verbatim; the resumed user summary provides the qualified decision set.",
+                         "impact":  "The verifier can assess incorporation against source-qualified reported decisions, but cannot independently compare the exact original wording. The current report discloses this and no mismatch was found against the qualified decision set.",
+                         "confidence":  "9/10",
+                         "recommended_action":  "Retain the provenance qualification. Human Requirement Approval should review the listed decision set; no requirement correction is required solely for the unavailable transcript."
+                     }
+                 ],
+    "evidence_classification":  {
+                                    "executed":  "Independent review of full source and updated requirement, v1.10-to-v1.11 changes, complete current analysis, decision qualification, and cross-section traceability; exact hashes and byte counts recorded for bound inputs.",
+                                    "source_inspection":  "v1.10/v1.11 requirement text, current and prior Requirement Analysis reports/evidence/results, Requirement Update report, qualified decision evidence, Verification Prompt and Guideline, and adopted Master baseline fingerprint status.",
+                                    "reported":  "The user-supplied continuation summary and prior source qualification for the three RA20-Q-01 decisions; initiation response authorize_requirement_analysis_verification.",
+                                    "unverified":  "The original raw wording of the earlier ask_user response; no transcript claim is made."
+                                },
+    "evidence_caveats":  [
+                             "Current Analysis result.json contains a null duplicate nested provenance field; the bound Analysis report and analysis-evidence.json preserve the qualification, and this verification relied on those linked canonical records rather than treating the null duplicate as evidence.",
+                             "The user-provided adoption permalink and master-baseline status are recorded in the invocation; adoption does not itself authorize Requirement Approval."
+                         ],
+    "repository_effects":  {
+                               "source_requirement_modified":  false,
+                               "updated_requirement_modified":  false,
+                               "analysis_modified":  false,
+                               "code_modified":  false,
+                               "tests_modified":  false,
+                               "configuration_modified":  false,
+                               "tests_or_builds_run":  false,
+                               "verification_report_and_evidence_only":  true
+                           },
+    "approval_boundary":  {
+                              "human_requirement_approval_obtained":  false,
+                              "implementation_planning_started":  false,
+                              "implementation_started":  false,
+                              "authorized_process_boundary":  "Requirement Analysis Verification only",
+                              "recommended_next_process":  "Human Requirement Approval"
+                          }
+}

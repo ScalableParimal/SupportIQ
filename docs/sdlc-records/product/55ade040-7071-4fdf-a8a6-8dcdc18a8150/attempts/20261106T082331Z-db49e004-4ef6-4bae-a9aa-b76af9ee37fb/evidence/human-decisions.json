@@ -1,0 +1,36 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "evidence_type":  "human_decisions",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T082331Z-db49e004-4ef6-4bae-a9aa-b76af9ee37fb",
+    "created_at_utc":  "2026-11-06T08:24:10Z",
+    "clock_basis":  "PowerShell Get-Date converted to UTC while preparing record",
+    "source":  "Current conversation, direct ask_user responses",
+    "formal_human_gate":  false,
+    "decisions":  [
+                      {
+                          "id":  "RA18-Q-03",
+                          "answer":  "Exclude separately authorized Platform Admin Customer investigations from the first-release scope. Platform Admin must not have routine Customer Search, Customer Read, unrestricted Customer lookup, or exceptional direct access to individual customer records in the first release. Platform Admin access must remain limited to platform administration, privileged operations with independent second-admin approval, and explicitly permitted aggregate analytics for exactly one authorized, explicitly selected tenant. No separate investigation permission, exceptional access grant, temporary access mechanism, or additional approval authority will be introduced in the first release. Customer access remains restricted to existing Tenant Admin, Support Manager, and Support Agent scopes. Customer email remains masked for Platform Admin under all circumstances. Any future exceptional investigation requirement needs a separately authorized Requirement Update with explicit purpose, approving authority, fields, duration, revalidation, expiry, and audit controls."
+                      },
+                      {
+                          "id":  "RA18-Q-04",
+                          "answer":  "After permanent tenant deletion retain only: audit event ID; irreversibly pseudonymized actor ID; irreversibly pseudonymized independent approver ID where applicable; irreversibly pseudonymized tenant reference solely for audit correlation; audit action/event type; resource type and non-business audit reference ID limited to tenant deletion and privileged approval; relevant permission before/after values only as necessary for privileged-change accountability; UTC request/approval/execution timestamps; audit outcome/status; correlation ID. Use one-way irreversible pseudonymization without a reconstructive mapping. Retain only structured predefined action codes and permission values; no free-text, business/customer resource identifiers, or unnecessary metadata. Exclude passwords, tokens, personal email, IP addresses, contact data, customer data, ticket/conversation/knowledge/attachment content, secrets, and deleted business data. Protect the metadata; limit access to existing authorized audit controls; it cannot restore/reconstruct/identify deleted tenant/business records. Maximum retention is the existing 365-day security/admin audit period, then permanently purge. No additional fields without a separately authorized Requirement Update and explicit privacy/security review."
+                      },
+                      {
+                          "id":  "RA18-Q-05a",
+                          "answer":  "Feedback reason and illustrative Comment are one logical field. Use reason as canonical in API contracts, application/domain models, and returned Feedback Read; map illustrative Comment to reason, not a separate persisted field. Optional user-submitted reason is accepted/returned as reason and retained under existing 90-day Feedback policy. Include it only for authorized roles within FR-ID-16 scopes/field limits. Audit reads without copying free-text reason into audit logs; minimize sensitive content and enforce server-side authorization."
+                      },
+                      {
+                          "id":  "RA18-Q-05b",
+                          "answer":  "Persist AI-suggested urgency as part of Ticket AI result, separate from final human-reviewed urgency; never auto-modify authoritative ticket data. Persist SuggestedUrgency, nullable ReviewedUrgency, ModelId/model-deployment reference, CreatedAt, nullable ReviewedBy, nullable ReviewedAt. Validate AI output against configured urgency values. Authorized human can review, accept, or override; preserve original suggestion; ReviewedUrgency stays null until review. Apply existing 90-day Ticket AI retention and tenant/team/ticket/role authorization. Update illustrative TicketAIResult entity, API contracts, and tests at logical behavior level, not final schema."
+                      },
+                      {
+                          "id":  "RA19-A01",
+                          "primary_team_change":  "block_team_change_until_disposition",
+                          "permitted_dispositions":  "either_reassign_or_clear",
+                          "authorized_actors":  "both_existing_roles",
+                          "clarification":  "Before primary-team change, all affected tickets must either be reassigned to an eligible Agent in the current assigned team or have AssignedAgentId cleared while preserving AssignedTeamId. Either the Tenant Admin or Manager of the currently assigned team may perform this under existing tenant/team authority; no new separate approval authority."
+                      }
+                  ]
+}

@@ -1,0 +1,76 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "human_gate_request",
+    "record_id":  "",
+    "gate_id":  "human-requirement-approval-v1.11",
+    "gate_type":  "Human Requirement Approval",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "request_status":  "DECISION_RECEIVED",
+    "recorded_at_utc":  "2026-11-06T13:22:24Z",
+    "recording_note":  "Persisted after the decision source was supplied. The request was issued in the Copilot conversation immediately before the user posted the GitHub comment; its exact request time was not recorded.",
+    "request_origin":  {
+                           "channel":  "Current Copilot conversation",
+                           "requesting_process":  "Requirement Analysis Verification",
+                           "requesting_attempt":  "20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d",
+                           "scope":  "Request Human Requirement Approval for the exact v1.11 artifact and the source-qualified RA20-Q-01 decisions; approval does not start Implementation Planning."
+                       },
+    "subject":  {
+                    "requirement_path":  "docs\\requirement\\SupportIQ_Product_Requirement_v1.11.md",
+                    "version":  "v1.11",
+                    "bytes":  135602,
+                    "sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE"
+                },
+    "requested_decision":  "Approve or decline SupportIQ Product Requirement v1.11 as the business source of truth.",
+    "requested_scope":  "Requirement only. No Implementation Planning or Implementation. Section 17 deferred choices remain open.",
+    "prerequisites":  {
+                          "requirement_analysis_attempt":  "20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58",
+                          "verification_attempt":  "20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d",
+                          "verification_outcome":  "ANALYSIS VERIFIED WITH GAPS",
+                          "verification_readiness":  "READY FOR HUMAN REQUIREMENT APPROVAL",
+                          "finding":  "RAV-01: non-blocking human-decision provenance limitation"
+                      },
+    "review_package":  [
+                           {
+                               "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58\\report.md",
+                               "bytes":  11021,
+                               "sha256":  "AE2EB61BE0EB5744C9D53D33D9A801B2FE80A832FF4563D0072D44C96CB45751"
+                           },
+                           {
+                               "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58\\evidence\\analysis-evidence.json",
+                               "bytes":  7897,
+                               "sha256":  "F3B6E51D17858C55EFC76F750FFD589FC5E213D2C1C9039835323473D8BCC60F"
+                           },
+                           {
+                               "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58\\result.json",
+                               "bytes":  10143,
+                               "sha256":  "3B66F5F383E3F5A9A65C1948CA883AA6149B765C61A76C85E510DCC7D44B3499"
+                           },
+                           {
+                               "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de\\report.md",
+                               "bytes":  6706,
+                               "sha256":  "BC57A011E41B340B3E41D063C9F0CDE8C518ED9064BA93D29D892FA317BEC972"
+                           },
+                           {
+                               "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de\\evidence\\human-decision-source-qualification.json",
+                               "bytes":  2322,
+                               "sha256":  "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4"
+                           },
+                           {
+                               "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d\\report.md",
+                               "bytes":  8685,
+                               "sha256":  "D2F2FD86DB70D0E8B5CCACDBCF0AAD7BFCE4363CA7ECE0497C1D2A8747788ABB"
+                           },
+                           {
+                               "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d\\evidence\\verification-evidence.json",
+                               "bytes":  16670,
+                               "sha256":  "A58C77B73CFCC1987A86703372BE1F85734881321314657A6D1B29D9BD8817CB"
+                           },
+                           {
+                               "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d\\result.json",
+                               "bytes":  9825,
+                               "sha256":  "8F40D37C0581EEED15CD3BBC73DA784310A42B9238AC13F4B2589DD6C8C47C08"
+                           }
+                       ],
+    "response_source":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6685628908"
+}

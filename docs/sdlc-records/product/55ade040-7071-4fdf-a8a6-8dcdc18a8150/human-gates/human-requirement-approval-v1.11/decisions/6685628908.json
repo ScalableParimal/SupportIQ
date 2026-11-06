@@ -1,0 +1,104 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "human_gate_decision",
+    "record_id":  "",
+    "gate_id":  "human-requirement-approval-v1.11",
+    "decision_id":  "6685628908",
+    "gate_type":  "Human Requirement Approval",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "recorded_at_utc":  "2026-11-06T13:22:24Z",
+    "decision":  "APPROVED",
+    "decision_subject":  {
+                             "requirement_path":  "docs\\requirement\\SupportIQ_Product_Requirement_v1.11.md",
+                             "version":  "v1.11",
+                             "bytes":  135602,
+                             "sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE"
+                         },
+    "decided_by":  {
+                       "login":  "ScalableParimal",
+                       "github_user_id":  226102895,
+                       "author_association":  "OWNER",
+                       "verified_repository_owner":  "ScalableParimal",
+                       "repository_owner_id":  226102895
+                   },
+    "decision_time_utc":  "2026-11-06T13:12:29Z",
+    "source":  {
+                   "repository":  "ScalableParimal/SupportIQ",
+                   "issue_number":  3,
+                   "comment_id":  6685628908,
+                   "permalink":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6685628908",
+                   "created_at":  "2026-11-06T13:12:29Z",
+                   "updated_at":  "2026-11-06T13:12:29Z",
+                   "body_bytes":  2078,
+                   "body_sha256":  "5790E138FF6DA99038052B9039D2C24B77FB0D32E2EE19FA7D8DADBD0FD92D18",
+                   "author_association_verified":  true,
+                   "unchanged_since_creation":  true
+               },
+    "actual_human_response_body":  "## SupportIQ — Human Requirement Approval: Product Requirement v1.11\n\n**Approver:** @ScalableParimal (repository OWNER)\n\n### Artifact approved\n- Path: `docs/requirement/SupportIQ_Product_Requirement_v1.11.md`\n- Bytes: 135602\n- SHA-256: `56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE`\n- Work ID: `55ade040-7071-4fdf-a8a6-8dcdc18a8150`\n- Verification basis: attempt `20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d` — outcome `ANALYSIS VERIFIED WITH GAPS`, readiness `READY FOR HUMAN REQUIREMENT APPROVAL`\n\n### RA20-Q-01 decisions — re-affirmed by me directly (resolves RAV-01)\nThis comment is the original, verbatim record of these decisions. It replaces the earlier summarized source.\n\n1. **Urgency values:** Critical, High, Medium, Low. They match the Ticket.Priority allowed values but are a separate business attribute. No automatic or implicit mapping between urgency and priority.\n2. **Read/review scope:**\n   - Support Agent: only tickets currently assigned to them.\n   - Support Manager: tickets in their currently assigned teams, including team-queued tickets with no individual Agent.\n   - Tenant Admin: any ticket in their own tenant.\n   - Platform Admin: no individual ticket urgency access or review.\n   - Authorization is revalidated on every read, review, accept, or override.\n3. **Review behavior:**\n   - Accept sets `ReviewedUrgency = SuggestedUrgency`; override sets `ReviewedUrgency` to the selected allowed value.\n   - `SuggestedUrgency` is preserved unchanged, and ReviewedBy/ReviewedAt are recorded.\n   - Urgency review never changes `Ticket.Priority`; any Priority change uses FR-TM-14.\n\nI confirm that v1.11 at the SHA-256 above reflects these decisions accurately.\n\n### Approval decision\nI approve SupportIQ Product Requirement v1.11 at the exact SHA-256 above.\n\nScope: this approves only the requirement. It does **not** start Implementation Planning. Planning needs its own explicit process initiation. Section 17 items (model/region, token/cost limits, email provider, timeout/retry) remain deferred, as stated in v1.11.",
+    "approved_decisions":  [
+                               "Urgency values are Critical, High, Medium, Low; they share the Ticket.Priority value set but remain a separate attribute with no mapping.",
+                               "Support Agent: currently assigned tickets; Support Manager: currently assigned teams including team-queued tickets; Tenant Admin: own tenant; Platform Admin: no individual ticket urgency access or review; revalidate authorization on read/review/accept/override.",
+                               "Acceptance copies SuggestedUrgency to ReviewedUrgency; override stores the selected valid value; preserve SuggestedUrgency and reviewer/time; urgency review never changes Ticket.Priority; Priority changes use FR-TM-14."
+                           ],
+    "conditions":  [
+                       "Approval applies only to the exact v1.11 bytes above.",
+                       "Approval does not start Implementation Planning; planning requires separate explicit process initiation.",
+                       "Section 17 decisions remain deferred."
+                   ],
+    "related_records":  {
+                            "request":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/human-gates/human-requirement-approval-v1.11/request.json",
+                            "requirement_analysis_report":  {
+                                                                "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58\\report.md",
+                                                                "bytes":  11021,
+                                                                "sha256":  "AE2EB61BE0EB5744C9D53D33D9A801B2FE80A832FF4563D0072D44C96CB45751"
+                                                            },
+                            "requirement_analysis_evidence":  {
+                                                                  "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58\\evidence\\analysis-evidence.json",
+                                                                  "bytes":  7897,
+                                                                  "sha256":  "F3B6E51D17858C55EFC76F750FFD589FC5E213D2C1C9039835323473D8BCC60F"
+                                                              },
+                            "requirement_analysis_result":  {
+                                                                "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58\\result.json",
+                                                                "bytes":  10143,
+                                                                "sha256":  "3B66F5F383E3F5A9A65C1948CA883AA6149B765C61A76C85E510DCC7D44B3499"
+                                                            },
+                            "requirement_update_report":  {
+                                                              "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de\\report.md",
+                                                              "bytes":  6706,
+                                                              "sha256":  "BC57A011E41B340B3E41D063C9F0CDE8C518ED9064BA93D29D892FA317BEC972"
+                                                          },
+                            "decision_source_qualification":  {
+                                                                  "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de\\evidence\\human-decision-source-qualification.json",
+                                                                  "bytes":  2322,
+                                                                  "sha256":  "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4"
+                                                              },
+                            "verification_report":  {
+                                                        "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d\\report.md",
+                                                        "bytes":  8685,
+                                                        "sha256":  "D2F2FD86DB70D0E8B5CCACDBCF0AAD7BFCE4363CA7ECE0497C1D2A8747788ABB"
+                                                    },
+                            "verification_evidence":  {
+                                                          "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d\\evidence\\verification-evidence.json",
+                                                          "bytes":  16670,
+                                                          "sha256":  "A58C77B73CFCC1987A86703372BE1F85734881321314657A6D1B29D9BD8817CB"
+                                                      },
+                            "verification_result":  {
+                                                        "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d\\result.json",
+                                                        "bytes":  9825,
+                                                        "sha256":  "8F40D37C0581EEED15CD3BBC73DA784310A42B9238AC13F4B2589DD6C8C47C08"
+                                                    }
+                        },
+    "finding_disposition":  {
+                                "finding_id":  "RAV-01",
+                                "status":  "RESOLVED_BY_DIRECT_HUMAN_DECISION_EVIDENCE",
+                                "basis":  "The repository OWNER supplied this attributable, unedited comment as a direct, verbatim reaffirmation of the three decisions and explicitly stated that it resolves RAV-01. The comment replaces the earlier summarized decision source and matches the approved v1.11 content.",
+                                "historical_verification_result":  "Preserved unchanged as ANALYSIS VERIFIED WITH GAPS; this decision does not rewrite the prior verification report or result."
+                            },
+    "process_boundary":  {
+                             "human_requirement_approval_obtained":  true,
+                             "implementation_planning_started":  false,
+                             "implementation_started":  false
+                         },
+    "next_step":  "Implementation Planning is not initiated or authorized by this decision; obtain its separate explicit process initiation."
+}

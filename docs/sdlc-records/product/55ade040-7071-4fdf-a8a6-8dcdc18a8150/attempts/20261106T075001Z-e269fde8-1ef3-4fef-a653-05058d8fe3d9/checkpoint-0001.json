@@ -1,0 +1,39 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T075001Z-e269fde8-1ef3-4fef-a653-05058d8fe3d9",
+    "checkpoint_number":  1,
+    "created_at_utc":  "2026-11-06T07:52:09Z",
+    "clock_basis":  "PowerShell Get-Date converted to UTC while preparing record",
+    "process":  "Requirement Update",
+    "last_confirmed_boundary":  "Invocation published, read back and integrity checked; both decisions bound; source hash verified.",
+    "partial_outputs":  [
+                            "Invocation metadata",
+                            "Human decision evidence reference"
+                        ],
+    "repository_effects":  [
+                               "Attempt-owned process records only; no requirement or product artifact changed."
+                           ],
+    "unfinished_work":  [
+                            "Apply exactly RA18-Q-01 and RA18-Q-02 to a new immutable v1.9 copy.",
+                            "Consistency review and preservation/read-back validation.",
+                            "Publish required report and terminal result."
+                        ],
+    "observed_evidence":  {
+                              "source_path":  "docs/requirement/SupportIQ_Product_Requirement_v1.8.md",
+                              "source_sha256":  "E7FB3E982555034B098D42E258CAFBEDB651A0A05B736A99DE987DAB6355AD1B",
+                              "source_status":  "Draft Updated Requirement; unapproved",
+                              "destination_v1_9_absent":  true,
+                              "analysis_attempt":  "20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5"
+                          },
+    "blockers":  [
+
+                 ],
+    "pending_gate":  "Requirement Update process initiation approval received; not Human Requirement Approval.",
+    "safe_continuation_prerequisites":  [
+                                            "Recheck v1.8 hash and v1.9 absence immediately before copy.",
+                                            "Preserve v1.8 bytes and all prior process records.",
+                                            "Stop at Requirement Update boundary; do not start a later process."
+                                        ]
+}

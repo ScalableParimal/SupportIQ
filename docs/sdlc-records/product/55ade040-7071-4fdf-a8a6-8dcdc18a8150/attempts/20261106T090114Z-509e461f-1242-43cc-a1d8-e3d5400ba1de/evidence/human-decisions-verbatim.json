@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "evidence_type": "verbatim_human_decisions",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de",
+  "created_at_utc": "2026-11-06T09:07:45Z",
+  "clock_basis": "PowerShell DateTime.UtcNow while preparing evidence; not the exact ask_user response time",
+  "source": "Current conversation, direct ask_user responses to RA20-Q-01",
+  "formal_human_gate": false,
+  "subject": "Initial Analysis Clarification to SupportIQ Product Requirement v1.10, resulting version v1.11",
+  "decisions": [
+    {
+      "id": "RA20-Q-01a",
+      "question": "What urgency values are allowed, and are they distinct from Ticket.Priority?",
+      "answer": "Reuse the existing Ticket.Priority allowed values for urgency:  - Critical - High - Medium - Low  However, SuggestedUrgency and ReviewedUrgency must remain separate fields from the authoritative Ticket.Priority. Sharing the same allowed-value set does not imply that urgency and priority are the same business attribute. No automatic or implicit mapping to Ticket.Priority is permitted."
+    },
+    {
+      "id": "RA20-Q-01b",
+      "question": "Which roles may review, accept, or override urgency and over which tickets?",
+      "answer": "The following existing roles may review, accept, or override AI-suggested urgency:  1. Support Agent: Only tickets currently assigned to that Agent, subject to valid current tenant, primary-team, and ticket authorization. 2. Support Manager: All tickets belonging to their currently assigned teams, including team-assigned tickets without an individual Agent. 3. Tenant Admin: Any ticket within their own tenant. 4. Platform Admin: No individual tenant-ticket urgency review or access.  Revalidate current role, tenant, team, ticket, and assignment authorization on every review or override action. Do not introduce any new role, permission-grant mechanism, or exception."
+    },
+    {
+      "id": "RA20-Q-01c",
+      "question": "Does human review update authoritative Ticket.Priority?",
+      "answer": "ReviewedUrgency must remain separate review metadata and must not update the authoritative Ticket.Priority.  - On acceptance, set ReviewedUrgency equal to SuggestedUrgency. - On override, set ReviewedUrgency to the selected valid urgency value. - Preserve SuggestedUrgency unchanged in both cases. - Record ReviewedBy and ReviewedAt for every completed review. - Do not modify Ticket.Priority through the urgency review workflow, regardless of the reviewer's role.  If an authoritative Ticket.Priority change is required, it must use the existing separate Category/Priority change workflow under FR-TM-14, including its role, tenant, team, ticket-state, validation, activity-history, and audit requirements.  An urgency review must never bypass existing ticket permissions or state restrictions."
+    }
+  ],
+  "update_authorization": {
+    "source": "Current conversation ask_user response to explicit scoped initiation question",
+    "actual_supplied_value": "authorize_update=true",
+    "scope": "One new Initial Analysis Clarification Requirement Update attempt against v1.10, limited to incorporating RA20-Q-01a/b/c",
+    "formal_human_gate": false,
+    "does_not_authorize": [
+      "Requirement Analysis refresh",
+      "Requirement Analysis Verification",
+      "Human Requirement Approval",
+      "Implementation Planning",
+      "Implementation"
+    ]
+  },
+  "supersedes_analysis_open_question": "RA20-Q-01 was reported open in Requirement Analysis result 20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf; these supplied decisions are considered only by this new Update attempt."
+}

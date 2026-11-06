@@ -1,0 +1,66 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de:checkpoint-0004",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "creator":  "AI assistant using Copilot SDK in VS Code",
+    "creator_role":  "Requirement Update executor",
+    "created_at_utc":  "2026-11-06T09:15:26Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing checkpoint; not filesystem publication time",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de",
+    "checkpoint_number":  4,
+    "process":  "Requirement Update",
+    "last_confirmed_boundary":  "Immutable v1.11, source-qualified decision evidence, requirement-update evidence, and the change-summary report are published and integrity-checked. Only the terminal result remains to be published.",
+    "partial_outputs":  [
+                            "attempt.json",
+                            "checkpoint-0001.json",
+                            "checkpoint-0002.json",
+                            "checkpoint-0003.json",
+                            "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                            "report.md",
+                            "evidence/requirement-update-evidence.json",
+                            "evidence/human-decision-source-qualification.json"
+                        ],
+    "repository_effects":  [
+                               "v1.10 remains unchanged with expected hash 93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6.",
+                               "v1.11 reads back at 135602 bytes and SHA-256 56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE.",
+                               "Report SHA-256: ",
+                               "BC57A011E41B340B3E41D063C9F0CDE8C518ED9064BA93D29D892FA317BEC972",
+                               ".",
+                               "Requirement-update evidence SHA-256: ",
+                               "D0276592E5CBD9DC1DAB4CA2828D3BA2F2F03FB7F2CBED92153C50BB1F69B897",
+                               ".",
+                               "Decision-source qualification SHA-256: ",
+                               "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4",
+                               ".",
+                               "The earlier reconstructed transcript is preserved but not relied upon as verbatim; source limitation is disclosed in the report/evidence."
+                           ],
+    "observed_evidence":  {
+                              "source_preserved":  true,
+                              "source_sha256":  "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+                              "resulting_requirement_sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                              "report_sha256":  "BC57A011E41B340B3E41D063C9F0CDE8C518ED9064BA93D29D892FA317BEC972",
+                              "requirement_update_evidence_sha256":  "D0276592E5CBD9DC1DAB4CA2828D3BA2F2F03FB7F2CBED92153C50BB1F69B897",
+                              "decision_source_qualification_sha256":  "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4",
+                              "prior_analysis_question":  "RA20-Q-01",
+                              "resulting_status":  "Draft Updated Requirement; unapproved",
+                              "human_requirement_approved":  false,
+                              "tests_or_builds_run":  false,
+                              "downstream_process_started":  false
+                          },
+    "unfinished_work":  [
+                            "Publish result.json only after verifying invocation, all checkpoints, final report, and evidence identities.",
+                            "Read back and hash result.json to close the Requirement Update attempt."
+                        ],
+    "blockers":  [
+
+                 ],
+    "pending_gate":  "Requirement Update terminal record only. No Requirement Analysis refresh, Verification, approval, planning, or implementation is authorized.",
+    "safe_continuation_prerequisites":  [
+                                            "Bind report and evidence by exact path, byte count, and SHA-256.",
+                                            "Record source/result lineage, unapproved status, decision-source qualification, open §17 decisions, and next permitted process.",
+                                            "Do not alter immutable v1.10/v1.11 or perform a downstream process."
+                                        ],
+    "source_read_order":  "The invocation was published and integrity-checked before v1.10 content was reviewed in this attempt."
+}

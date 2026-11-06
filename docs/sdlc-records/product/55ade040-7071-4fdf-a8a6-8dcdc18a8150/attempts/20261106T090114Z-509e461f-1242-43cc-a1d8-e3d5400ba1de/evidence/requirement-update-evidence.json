@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "evidence_type": "requirement_update_evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de",
+  "created_at_utc": "2026-11-06T09:14:18Z",
+  "clock_basis": "PowerShell DateTime.UtcNow while preparing evidence; not filesystem publication time",
+  "process": "Requirement Update",
+  "update_context": "INITIAL ANALYSIS CLARIFICATION (PRE-APPROVAL)",
+  "scope": "Apply only the supplied RA20-Q-01 clarification decisions to a new immutable version derived from v1.10. No other product scope or downstream process is authorized.",
+  "source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.10.md",
+    "version_id": "v1.10",
+    "bytes": 130841,
+    "sha256": "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+    "lifecycle_status": "Draft Updated Requirement; unapproved",
+    "human_requirement_approved": false,
+    "source_modified": false
+  },
+  "resulting_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+    "version_id": "v1.11",
+    "bytes": 135602,
+    "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+    "lifecycle_status": "Draft Updated Requirement; unapproved",
+    "predecessor_version_id": "v1.10",
+    "predecessor_sha256": "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+    "next_sequential_version": true,
+    "human_requirement_approved": false
+  },
+  "analysis_predecessor": {
+    "attempt_id": "20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf",
+    "report": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf/report.md",
+      "sha256": "DD5B71CC68FB4C59A8DAB338DB99C885875388F4859F428C8D035CEF0E4C9A56"
+    },
+    "result": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf/result.json",
+      "sha256": "09C880079E378F678AEF8152D4F32341D056A657DAD47980754D7887BF68C2BB"
+    },
+    "question_id": "RA20-Q-01",
+    "pre_update_outcome": "ANALYSIS_COMPLETE_WITH_LIMITATIONS; RA20-Q-01_OPEN; NOT_READY_FOR_REQUIREMENT_ANALYSIS_VERIFICATION",
+    "decision_effect": "This Update incorporates the supplied clarification. The predecessor analysis record remains unchanged and correctly records the question as open at its completion."
+  },
+  "human_decision_source": {
+    "path": "evidence/human-decision-source-qualification.json",
+    "sha256": "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4",
+    "source_text": "User-provided continuation summary in the current prompt",
+    "raw_response_limitation": "The original ask_user wording was summarized and was not present verbatim in resumed context. The source qualification preserves the exact decision statements supplied in that summary.",
+    "earlier_transcription": {
+      "path": "evidence/human-decisions-verbatim.json",
+      "sha256": "74F38B7DCA1EF07CCAB6DC1DAFA8DD1DC99986C9F257A8A717755FFDFA69315C",
+      "disposition": "Preserved but not relied upon as a verbatim transcript of the original user response."
+    },
+    "formal_human_gate": false
+  },
+  "human_decisions_incorporated": [
+    {
+      "id": "RA20-Q-01a",
+      "decision": "Use Critical, High, Medium, and Low, matching Ticket.Priority's allowed values while keeping urgency a separate business attribute with no mapping."
+    },
+    {
+      "id": "RA20-Q-01b",
+      "decision": "Support Agent access is limited to currently assigned tickets; Support Manager access is limited to currently assigned teams including team-queued tickets; Tenant Admin access covers any ticket in their tenant; Platform Admin has no individual ticket urgency access."
+    },
+    {
+      "id": "RA20-Q-01c",
+      "decision": "Accept copies SuggestedUrgency to ReviewedUrgency; override stores the selected valid urgency. Preserve SuggestedUrgency and reviewer/time metadata. Urgency review never changes Ticket.Priority; any Priority change uses FR-TM-14."
+    }
+  ],
+  "affected_requirement_ids": ["FR-TK-08", "FR-TK-09", "FR-TM-14 (referenced; unchanged)"],
+  "changed_sections": [
+    "Version header and lineage",
+    "§5.3 FR-TK-08/FR-TK-09",
+    "§5.9 centralized permission catalogue and TicketAIResult role mapping",
+    "§5.10 distinction from Priority workflow",
+    "§6.14 urgency review workflow",
+    "§8 TicketAIResult entity and access metadata",
+    "§9 API contract description",
+    "§13 acceptance criteria",
+    "§14 test strategy",
+    "§18 Definition of Done"
+  ],
+  "removed_or_superseded": [
+    "The unspecified/configured urgency value set is replaced by Critical, High, Medium, and Low.",
+    "The unspecified urgency reviewer scope is replaced by the explicit existing-role and ticket-scope rules in FR-TK-09.",
+    "Any implication that urgency review changes Ticket.Priority is explicitly excluded; Priority changes remain under FR-TM-14."
+  ],
+  "scope_changes": "No unrelated scope added. No role, permission-grant mechanism, or exception added. TicketAIResult read/review is expressed through the existing centralized default-deny role/resource/action authorization mechanism.",
+  "remaining_open_questions": [
+    "§17: exact generation and embedding model deployments and region.",
+    "§17: model-specific token limits and monthly cost budget.",
+    "§17: transactional email provider, sender identity, and deployment configuration.",
+    "§17: bounded per-operation timeout and retry settings."
+  ],
+  "assumptions": [],
+  "validation": {
+    "source_hash_before": "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+    "source_hash_after": "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+    "source_bytes_after": 130841,
+    "result_readback_hash": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+    "result_readback_bytes": 135602,
+    "atomic_no_overwrite_publication": true,
+    "utf8_without_bom": true,
+    "strict_utf8_decode": true,
+    "required_decisions_present": true,
+    "stale_configured_urgency_wording_absent": true,
+    "deferred_section_17_identical_to_source": true,
+    "modified_markdown_table_rows_structurally_checked": true,
+    "reviewed_diff_scope_limited_to_decision_and_aligned_sections": true,
+    "tests_or_builds_run": false,
+    "tests_or_builds_reason": "Documentation-only requirement update; structural, lineage, preservation, and read-back checks performed instead."
+  },
+  "process_boundary": {
+    "requirement_analysis_refresh_started": false,
+    "requirement_analysis_verification_started": false,
+    "human_requirement_approval_obtained": false,
+    "implementation_planning_started": false,
+    "implementation_started": false
+  },
+  "prior_process_ordering_caveat": "Preserved from the predecessor analysis; this Update does not claim to resolve it retroactively."
+}

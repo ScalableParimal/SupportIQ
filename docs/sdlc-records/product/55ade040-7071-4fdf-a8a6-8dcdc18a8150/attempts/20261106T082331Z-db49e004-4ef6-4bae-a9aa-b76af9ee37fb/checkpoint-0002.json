@@ -1,0 +1,46 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T082331Z-db49e004-4ef6-4bae-a9aa-b76af9ee37fb",
+    "checkpoint_number":  2,
+    "created_at_utc":  "2026-11-06T08:34:10Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing checkpoint",
+    "process":  "Requirement Update",
+    "last_confirmed_boundary":  "v1.10 is the next sequential version created from verified v1.9; approved clarifications have been applied and cross-surface consistency review is complete.",
+    "partial_outputs":  [
+                            "docs/requirement/SupportIQ_Product_Requirement_v1.10.md",
+                            "evidence/human-decisions.json",
+                            "evidence/human-decisions-verbatim.json"
+                        ],
+    "repository_effects":  [
+                               "Created new v1.10 requirement; v1.9 and prior versions preserved.",
+                               "No source code, implementation plan, or tests modified."
+                           ],
+    "observed_evidence":  {
+                              "source":  "docs/requirement/SupportIQ_Product_Requirement_v1.9.md",
+                              "source_version":  "v1.9",
+                              "source_sha256":  "67C94027044E31E12EBB91E34145A2BB48FAC1ED96D934C07E2339A9EFD862A2",
+                              "source_status":  "Draft Updated Requirement; unapproved",
+                              "result":  "docs/requirement/SupportIQ_Product_Requirement_v1.10.md",
+                              "result_version":  "v1.10",
+                              "result_bytes":  130841,
+                              "result_sha256":  "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+                              "result_status":  "Draft Updated Requirement; unapproved"
+                          },
+    "unfinished_work":  [
+                            "Publish requirement-update validation evidence.",
+                            "Publish concise final report and terminal result bound to exact hashes.",
+                            "Request separate process-initiation approval before any subsequent Requirement Analysis."
+                        ],
+    "blockers":  [
+
+                 ],
+    "pending_gate":  "Requirement Update initiation is approved; this is not Human Requirement Approval and does not authorize a later process.",
+    "safe_continuation_prerequisites":  [
+                                            "Preserve v1.9 and earlier immutable versions.",
+                                            "Do not alter the published invocation, decisions, or checkpoint records.",
+                                            "Keep v1.10 unapproved and stop at this Requirement Update boundary."
+                                        ],
+    "process_ordering_caveat":  "The predecessor v1.9 Requirement Analysis report discloses a prior process-ordering caveat; preserve that disclosure and do not claim retroactive compliance."
+}

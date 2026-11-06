@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "evidence_type": "human_decision_source_qualification",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de",
+  "created_at_utc": "2026-11-06T09:12:44Z",
+  "clock_basis": "PowerShell DateTime.UtcNow while preparing evidence; not the source message time",
+  "source": "User-provided continuation summary in the current prompt",
+  "source_limitation": "The original ask_user response wording was summarized and was not present verbatim in the resumed context. The decision statements below are exact excerpts from the supplied summary, not a reconstruction of the raw response.",
+  "formal_human_gate": false,
+  "decision_text_as_supplied": [
+    {
+      "id": "RA20-Q-01a",
+      "text": "Urgency values are Critical, High, Medium, Low, matching Priority’s allowed set but remaining a separate business attribute with no mapping."
+    },
+    {
+      "id": "RA20-Q-01b",
+      "text": "Review access: Support Agent only for currently assigned tickets; Support Manager for tickets in currently assigned teams, including team-queued tickets; Tenant Admin for any ticket in their tenant; Platform Admin has no individual ticket urgency access."
+    },
+    {
+      "id": "RA20-Q-01c",
+      "text": "Acceptance sets `ReviewedUrgency = SuggestedUrgency`; override sets the selected valid urgency. Preserve `SuggestedUrgency`, record reviewer/time, and never change `Ticket.Priority` through urgency review. Priority changes use FR-TM-14."
+    }
+  ],
+  "update_authorization_as_supplied": "The user authorized only this Update—not Analysis refresh, Verification, approval, planning, or implementation.",
+  "earlier_attempt_evidence_disposition": {
+    "path": "evidence/human-decisions-verbatim.json",
+    "sha256": "74F38B7DCA1EF07CCAB6DC1DAFA8DD1DC99986C9F257A8A717755FFDFA69315C",
+    "status": "Not relied on as a verbatim transcript of the original ask_user response; preserve as immutable execution evidence of the earlier transcription.",
+    "authoritative_decision_source_for_this_attempt": "The user-supplied continuation summary identified above."
+  },
+  "decision_scope": "This one Requirement Update attempt against v1.10 only; no downstream process is authorized."
+}

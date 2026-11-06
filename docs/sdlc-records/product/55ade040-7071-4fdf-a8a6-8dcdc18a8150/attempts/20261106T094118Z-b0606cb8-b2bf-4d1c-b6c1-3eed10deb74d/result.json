@@ -1,0 +1,135 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d:result",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "creator":  "AI assistant using Copilot SDK in VS Code",
+    "creator_role":  "Requirement Analysis Verification executor",
+    "responsible_human_actor":  "int-scl-010\\parimal",
+    "created_at_utc":  "2026-11-06T09:51:05Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing terminal result; not filesystem publication time",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d",
+    "process":  "Requirement Analysis Verification",
+    "execution_status":  "COMPLETED",
+    "outcome":  "ANALYSIS VERIFIED WITH GAPS",
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d/attempt.json",
+                       "bytes":  19091,
+                       "sha256":  "DBA04CC6375DEED2B37B0CFF6B4E2B96F85C7C07A83B38906EA6EC5770EB01CD"
+                   },
+    "checkpoints":  [
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d/checkpoint-0001.json",
+                            "bytes":  4239,
+                            "sha256":  "403BBF0B36AFB4693982FBFFE1E2AABEF56C8C305C3F3822D150FF62AF80AC4C"
+                        },
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d/checkpoint-0002.json",
+                            "bytes":  3909,
+                            "sha256":  "551ADB6D1FE26E6F3D26E90F129C21B43FC1B6754498D2B58DEFB303F06FEE63"
+                        },
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d/checkpoint-0003.json",
+                            "bytes":  3785,
+                            "sha256":  "2CE3CFD6DB7E0671973239EF84BABED52333CDC9E8855068B7C84A236D23492B"
+                        }
+                    ],
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d/report.md",
+                   "bytes":  8685,
+                   "sha256":  "D2F2FD86DB70D0E8B5CCACDBCF0AAD7BFCE4363CA7ECE0497C1D2A8747788ABB"
+               },
+    "evidence":  [
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d/evidence/verification-evidence.json",
+                         "bytes":  16670,
+                         "sha256":  "A58C77B73CFCC1987A86703372BE1F85734881321314657A6D1B29D9BD8817CB"
+                     }
+                 ],
+    "repository_context":  {
+                               "repository":  "ScalableParimal/SupportIQ",
+                               "branch":  "SupportIQ-Requirement-Analysis",
+                               "head":  "6e82033850ade3c8e621b5cac5aa26f1c62f7ba2",
+                               "source_requirement":  {
+                                                          "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.10.md",
+                                                          "bytes":  130841,
+                                                          "sha256":  "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6"
+                                                      },
+                               "resulting_requirement":  {
+                                                             "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                                                             "bytes":  135602,
+                                                             "sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                                                             "status":  "DRAFT_UPDATED_UNAPPROVED"
+                                                         },
+                               "current_analysis_attempt":  "20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58"
+                           },
+    "process_initiation":  {
+                               "kind":  "fresh_process_initiation_response",
+                               "actual_supplied_wording":  "authorize_requirement_analysis_verification",
+                               "scope":  "One independent Requirement Analysis Verification of the complete current v1.11 analysis and resulting updated Requirement only",
+                               "formal_human_gate":  false,
+                               "not_authorized":  [
+                                                      "Human Requirement Approval",
+                                                      "Requirement Update",
+                                                      "Implementation Planning",
+                                                      "Implementation Plan Verification",
+                                                      "Implementation",
+                                                      "source changes",
+                                                      "tests/configuration changes",
+                                                      "commit",
+                                                      "push"
+                                                  ]
+                           },
+    "applicable_constraints":  {
+                                   "master_baseline":  "SupportIQ-Master-Baseline-001",
+                                   "current_fingerprints_match":  true,
+                                   "product_record_root_adoption":  "Verified as prospective record-root adoption only; does not itself authorize a stage",
+                                   "supporting_governance_audit_sha256":  "CF073B8E08EDF728B6AB1B1CC300C842D3FEF15F512A084C85B7A7E8EF199222"
+                               },
+    "human_decisions_considered":  {
+                                       "question_id":  "RA20-Q-01",
+                                       "qualification_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de/evidence/human-decision-source-qualification.json",
+                                       "qualification_sha256":  "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4",
+                                       "original_wording_available_verbatim":  false,
+                                       "formal_human_requirement_approval_obtained":  false
+                                   },
+    "verification":  {
+                         "result":  "ANALYSIS VERIFIED WITH GAPS",
+                         "human_requirement_approval_readiness":  "READY FOR HUMAN REQUIREMENT APPROVAL",
+                         "readiness_is_approval":  false,
+                         "finding_ids":  [
+                                             "RAV-01"
+                                         ],
+                         "material_requirement_analysis_defects":  0,
+                         "summary":  "Complete current analysis accurately represents v1.11 and the source-qualified decision set. One non-blocking evidence limitation remains because the original raw decision wording is unavailable verbatim."
+                     },
+    "validation":  {
+                       "source_and_updated_requirement_hashes_verified":  true,
+                       "bound_input_hashes_verified":  true,
+                       "bound_input_byte_counts_verified":  true,
+                       "report_readback_verified":  true,
+                       "evidence_json_validated":  true,
+                       "result_payload_schema_validated_before_publication":  true,
+                       "result_readback_verified":  true,
+                       "tests_or_builds_run":  false,
+                       "tests_or_builds_reason":  "Requirement Analysis Verification is read-only and no implementation behavior changed."
+                   },
+    "repository_effects":  {
+                               "source_requirement_modified":  false,
+                               "updated_requirement_modified":  false,
+                               "analysis_modified":  false,
+                               "source_code_modified":  false,
+                               "tests_modified":  false,
+                               "configuration_modified":  false,
+                               "only_attempt_scoped_verification_records_added":  true
+                           },
+    "next_permitted_process":  "Human Requirement Approval as a separate human gate; the approver should review v1.11 and the RAV-01 provenance limitation. Implementation Planning remains unavailable until approval and separate process authorization.",
+    "process_boundary":  {
+                             "requirement_analysis_verification_completed":  true,
+                             "human_requirement_approval_obtained":  false,
+                             "implementation_planning_started":  false,
+                             "implementation_started":  false
+                         },
+    "stop_at":  "Requirement Analysis Verification"
+}

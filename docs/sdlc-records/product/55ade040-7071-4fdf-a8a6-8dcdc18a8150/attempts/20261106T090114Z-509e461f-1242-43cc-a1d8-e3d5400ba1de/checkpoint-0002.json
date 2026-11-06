@@ -1,0 +1,68 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de:checkpoint-0002",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "creator":  "AI assistant using Copilot SDK in VS Code",
+    "creator_role":  "Requirement Update executor",
+    "created_at_utc":  "2026-11-06T09:11:07Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing checkpoint; not filesystem publication time",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de",
+    "checkpoint_number":  2,
+    "process":  "Requirement Update",
+    "last_confirmed_boundary":  "The explicit RA20-Q-01 decisions were recorded as verbatim evidence. The staged v1.11 was reviewed against v1.10, and consistency/preservation checks passed before publication.",
+    "partial_outputs":  [
+                            "attempt.json",
+                            "checkpoint-0001.json",
+                            "evidence/human-decisions-verbatim.json",
+                            "evidence/SupportIQ_Product_Requirement_v1.11.md.partial"
+                        ],
+    "repository_effects":  [
+                               "No tracked repository changes.",
+                               "v1.10 remains unchanged at 130841 bytes and SHA-256 93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6.",
+                               "v1.11 is staged only under this attempt; immutable target does not yet exist.",
+                               "Reviewed changes are limited to RA20-Q-01 values/separation, read/review role scope, acceptance/override semantics, and aligned permission, workflow, entity/API, acceptance, test, and DoD requirements."
+                           ],
+    "observed_evidence":  {
+                              "source":  "docs/requirement/SupportIQ_Product_Requirement_v1.10.md",
+                              "source_version":  "v1.10",
+                              "source_bytes":  130841,
+                              "source_sha256":  "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+                              "source_status":  "Draft Updated Requirement; unapproved",
+                              "source_preservation_verified":  true,
+                              "staged_output":  "evidence/SupportIQ_Product_Requirement_v1.11.md.partial",
+                              "staged_bytes":  135602,
+                              "staged_sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                              "verbatim_human_decisions":  "evidence/human-decisions-verbatim.json",
+                              "human_decisions_sha256":  "74F38B7DCA1EF07CCAB6DC1DAFA8DD1DC99986C9F257A8A717755FFDFA69315C",
+                              "validation":  [
+                                                 "Required decision/requirement terms present.",
+                                                 "No stale configured-urgency ambiguity remains.",
+                                                 "Deferred §17 text matches v1.10 exactly.",
+                                                 "Modified Markdown table rows structurally checked.",
+                                                 "Decision evidence parses and contains three decisions; no formal approval.",
+                                                 "No UTF-8 BOM; staged text decodes as strict UTF-8."
+                                             ],
+                              "analysis_finding":  "RA20-Q-01",
+                              "resulting_status":  "Draft Updated Requirement; unapproved",
+                              "target_absent":  true
+                          },
+    "unfinished_work":  [
+                            "Publish v1.11 with the required no-overwrite atomic operation and verify exact read-back/hash.",
+                            "Create requirement-update-evidence.json binding source/result and validation.",
+                            "Publish the change-summary report and final result binding all records and hashes.",
+                            "Perform final source preservation and record fingerprint validation."
+                        ],
+    "blockers":  [
+
+                 ],
+    "pending_gate":  "This Requirement Update remains authorized only through its output boundary. Requirement Analysis refresh, Verification, Human Requirement Approval, Planning, and Implementation are not authorized.",
+    "safe_continuation_prerequisites":  [
+                                            "Never alter v1.10 or overwrite an existing version.",
+                                            "Publish only v1.11 and this attempt own records.",
+                                            "Keep §17 model/deployment/region, token/cost, email provider/sender, and operation-specific timeout/retry decisions deferred.",
+                                            "Stop at Requirement Update; do not begin any downstream process."
+                                        ],
+    "source_read_order":  "The invocation was published and integrity-checked before v1.10 content was reviewed in this attempt."
+}

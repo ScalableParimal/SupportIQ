@@ -1,0 +1,55 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58:checkpoint-0003",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "creator":  "AI assistant using Copilot SDK in VS Code",
+    "creator_role":  "Requirement Analysis executor",
+    "created_at_utc":  "2026-11-06T09:26:14Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing checkpoint; not filesystem publication time",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58",
+    "checkpoint_number":  3,
+    "process":  "Requirement Analysis",
+    "last_confirmed_boundary":  "The analysis report and evidence are published and integrity-checked. The analysis is complete with limitations; RA20-Q-01 is addressed and v1.11 is ready for independent Verification after a separate stage-initiation approval.",
+    "partial_outputs":  [
+                            "attempt.json",
+                            "checkpoint-0001.json",
+                            "checkpoint-0002.json",
+                            "checkpoint-0003.json",
+                            "report.md",
+                            "evidence/analysis-evidence.json"
+                        ],
+    "repository_effects":  [
+                               "No source Requirement or product/implementation content was modified.",
+                               "v1.11 remains unapproved at 135602 bytes and SHA-256 ",
+                               "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                               ".",
+                               "The historical predecessor process-ordering caveat remains preserved."
+                           ],
+    "observed_evidence":  {
+                              "source":  "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                              "source_sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                              "report_sha256":  "AE2EB61BE0EB5744C9D53D33D9A801B2FE80A832FF4563D0072D44C96CB45751",
+                              "analysis_evidence_sha256":  "F3B6E51D17858C55EFC76F750FFD589FC5E213D2C1C9039835323473D8BCC60F",
+                              "analysis_outcome":  "ANALYSIS_COMPLETE_WITH_LIMITATIONS; RA20-Q-01_ADDRESSED; READY_FOR_REQUIREMENT_ANALYSIS_VERIFICATION",
+                              "unresolved_requirement_decisions":  0,
+                              "deferred_section_17_items":  4,
+                              "human_requirement_approved":  false,
+                              "tests_or_builds_run":  false
+                          },
+    "unfinished_work":  [
+                            "Publish result.json binding invocation, checkpoints, report, evidence, and exact analyzed source.",
+                            "Read back and verify result.json; stop at Requirement Analysis."
+                        ],
+    "blockers":  [
+
+                 ],
+    "pending_gate":  "Requirement Analysis terminal result only. Requirement Analysis Verification and Human Requirement Approval are not authorized.",
+    "safe_continuation_prerequisites":  [
+                                            "Preserve v1.11 unchanged and unapproved.",
+                                            "Bind every referenced record by bytes and SHA-256.",
+                                            "Do not start Verification, approval, planning, or implementation without separate initiation approval."
+                                        ],
+    "source_read_order":  "The invocation was published and integrity-checked before v1.11 content was reviewed in this attempt."
+}

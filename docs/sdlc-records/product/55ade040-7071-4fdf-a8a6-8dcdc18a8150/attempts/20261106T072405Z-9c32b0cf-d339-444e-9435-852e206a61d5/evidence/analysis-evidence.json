@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_requirement_analysis_evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5",
+  "source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.8.md",
+    "version": "v1.8",
+    "bytes": 117136,
+    "sha256": "E7FB3E982555034B098D42E258CAFBEDB651A0A05B736A99DE987DAB6355AD1B",
+    "status": "Draft Updated Requirement; unapproved",
+    "source_modified": false
+  },
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5/attempt.json",
+    "sha256": "93D170F0B61569C92434D3441ED2578046ED195038B6B8F547185A75F581B930",
+    "formal_human_gate": false,
+    "fresh_process_initiation_response": true,
+    "abandoned_empty_attempt": "20261106T063721Z-68f9bc3e-09c9-417d-9f2f-aef2a5b4e3cb",
+    "process_context_only": true
+  },
+  "checkpoint": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5/checkpoint-0001.json",
+    "sha256": "A66C94B6ACC2D9CF505140A0B69976DC30EFE46E924B56ACF1450B3E62B9EE54"
+  },
+  "governance_sources": {
+    "guideline": {
+      "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+      "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+    },
+    "prompt": {
+      "path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+      "sha256": "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"
+    },
+    "request": {
+      "path": "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+      "sha256": "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275",
+      "status": "Template; user-supplied run inputs applied"
+    },
+    "masters": [
+      {
+        "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+        "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+        "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+        "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+      }
+    ],
+    "adopted_master_baseline": "SupportIQ-Master-Baseline-001"
+  },
+  "prior_records": [
+    {
+      "process": "Requirement Update",
+      "attempt_id": "20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086",
+      "report_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086/report.md",
+      "report_sha256": "3B64242A84471A21F9C8D57FE46CDEAEEC1DFF19377B4ABB44D570D1F2DE68C3",
+      "result_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086/result.json",
+      "result_sha256": "DC1A30FE70F6E24EFA590E2014D624898E16E28118906CBAA82EBAEA05BCF80D",
+      "relevance": "v1.8 provenance, seven decision groups, unresolved §17 items, and unapproved status"
+    },
+    {
+      "process": "SDLC Portability Assessment",
+      "attempt_id": "20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20",
+      "report_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20/report.md",
+      "report_sha256": "BDC523BF0340C9FF769FA19BF540D0F9ADC690D378037FD65F770CF89992C40D",
+      "result_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20/result.json",
+      "result_sha256": "0BB889A2D6D608BAEAFF1030C9A1C9526D81B5CFA5F8A58BBEC4C5785E3DB77C",
+      "evidence_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20/evidence/assessment-evidence.json",
+      "evidence_sha256": "FFD5DF29EF0A2ECF8A4A25FF80D1A689D57B16986581995AA0C5F35BEE9EB04B",
+      "relevance": "Advisory applicability/context and no recommended possible blockers; historical HEAD differs from this invocation"
+    },
+    {
+      "process": "Requirement Analysis",
+      "attempt_id": "20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25",
+      "result_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25/result.json",
+      "result_sha256": "A1B1197CB13E302168EFBCB1AD7D6283A92DB508EE55CCAB2FA56379BC8CB6CA",
+      "relevance": "v1.7 predecessor questions and decision provenance referenced by the latest Requirement Update"
+    }
+  ],
+  "requirement_traceability": [
+    {
+      "sections": "Document control; version lineage",
+      "coverage": "v1.8 source hash, status and predecessor lineage verified"
+    },
+    {
+      "sections": "1-4",
+      "coverage": "Objective, actors, scope, and boundaries analyzed"
+    },
+    {
+      "sections": "5.1-5.15; 6.1-6.13",
+      "coverage": "Functional requirements, permissions, workflows, data, and business rules reviewed"
+    },
+    {
+      "sections": "7-11",
+      "coverage": "Architecture, illustrative entities/APIs, non-functional requirements, and guardrails reviewed"
+    },
+    {
+      "sections": "12-18; appendices",
+      "coverage": "Evaluation, acceptance, testing, risks, deferred decisions, Definition of Done, backlog, and glossary reviewed"
+    }
+  ],
+  "incorporated_human_decisions": [
+    "Customer retention with no related tickets starts at Customer.CreatedAt; related active tickets block purge, and the 365-day period restarts at the latest terminal transition after all related tickets are terminal; revalidate before deletion.",
+    "Agent Customer access is only through currently assigned tickets; revoke immediately on reassignment or loss of scope; no separate grant.",
+    "Existing Tenant Admin owns within-tenant central triage; Manager remains assigned-team scoped; no new role, permission, or grant; Platform Admin has no routine ticket-business access.",
+    "Approved permanent tenant deletion after grace and independent second-admin approval overrides deactivated-user retention; retain only minimal protected audit metadata.",
+    "Customer Search contract, fields, matching, filtering, sorting, pagination, scopes, and direct-ID enforcement are resolved.",
+    "Feedback Read scopes and returned fields are resolved; no conversation history/message content access.",
+    "Email masking applies to all roles and paths; only Tenant Admin may unmask through own-tenant Customer detail with audit."
+  ],
+  "findings": [
+    {
+      "id": "RA18-A01",
+      "type": "ambiguity",
+      "importance": "blocking",
+      "reference": "§5.10, §5.13",
+      "summary": "Agent assignment outside single primary team is allowed only by an undefined approved exception."
+    },
+    {
+      "id": "RA18-A02",
+      "type": "ambiguity",
+      "importance": "blocking",
+      "reference": "§5.10",
+      "summary": "The authorized roles/conditions for New to Open are not identified."
+    },
+    {
+      "id": "RA18-A03",
+      "type": "ambiguity",
+      "importance": "important conditional",
+      "reference": "§5.9",
+      "summary": "Separately authorized Platform Admin Customer investigations lack defined first-release scope and authorization controls."
+    },
+    {
+      "id": "RA18-A04",
+      "type": "incomplete privacy rule",
+      "importance": "important",
+      "reference": "§5.11",
+      "summary": "Post-deletion audit metadata is bounded by principle/exclusions but lacks a closed retained-field allowlist."
+    },
+    {
+      "id": "RA18-A05",
+      "type": "terminology mismatch",
+      "importance": "minor",
+      "reference": "§5.9 FR-ID-16, §8",
+      "summary": "Feedback optional reason and illustrative Comment field may or may not be the same value."
+    },
+    {
+      "id": "RA18-A06",
+      "type": "traceability gap",
+      "importance": "minor/important for planning",
+      "reference": "§5.3 FR-TK-04, §8",
+      "summary": "AI urgency suggestion is required, but the illustrative TicketAIResult entity omits urgency."
+    }
+  ],
+  "outcome": "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED; NOT_READY_FOR_REQUIREMENT_ANALYSIS_VERIFICATION",
+  "limitations": [
+    "Static requirements and process-record review only; implementation, tests, CI/deployment and runtime were not inspected or executed.",
+    "Portability Assessment is historical/advisory and records a different repository HEAD; no claim of current portability or project execution.",
+    "No Requirement approval, Requirement Analysis Verification, plan, implementation, acceptance, commit, or push.",
+    "No answers to RA18-Q-01 through RA18-Q-05 were supplied in this invocation."
+  ]
+}

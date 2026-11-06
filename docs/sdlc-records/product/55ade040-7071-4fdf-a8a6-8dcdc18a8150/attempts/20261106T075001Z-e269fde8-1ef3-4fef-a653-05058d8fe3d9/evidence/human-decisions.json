@@ -1,0 +1,24 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "evidence_type":  "human_decision_references",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T075001Z-e269fde8-1ef3-4fef-a653-05058d8fe3d9",
+    "created_at_utc":  "2026-11-06T07:52:09Z",
+    "clock_basis":  "PowerShell Get-Date converted to UTC while preparing record",
+    "source":  "Current conversation, direct ask_user responses",
+    "formal_human_gate":  false,
+    "decision_record":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T075001Z-e269fde8-1ef3-4fef-a653-05058d8fe3d9/attempt.json",
+    "decisions":  [
+                      {
+                          "id":  "RA18-Q-01",
+                          "exact_answer_in":  "attempt.json human_decisions[0].answer",
+                          "summary":  "No cross-team Agent assignments or exceptions; one primary team; Tenant Admin routing is within tenant and Agent must belong to ticket team; membership changes validated/audited and authorization loss revokes access immediately."
+                      },
+                      {
+                          "id":  "RA18-Q-02",
+                          "exact_answer_in":  "attempt.json human_decisions[1].answer",
+                          "summary":  "New to Open permitted for currently assigned, authorized Agent; assigned-team Manager including team-queued ticket; Tenant Admin for any own-tenant ticket including unassigned; not Platform Admin; creator gains no separate permission; server revalidation, default deny and audit."
+                      }
+                  ]
+}

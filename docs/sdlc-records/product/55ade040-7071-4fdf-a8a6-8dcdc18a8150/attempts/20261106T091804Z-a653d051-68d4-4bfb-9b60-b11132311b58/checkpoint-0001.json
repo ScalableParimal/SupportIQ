@@ -1,0 +1,53 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58:checkpoint-0001",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "creator":  "AI assistant using Copilot SDK in VS Code",
+    "creator_role":  "Requirement Analysis executor",
+    "created_at_utc":  "2026-11-06T09:18:59Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing checkpoint; not filesystem publication time",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58",
+    "checkpoint_number":  1,
+    "process":  "Requirement Analysis",
+    "last_confirmed_boundary":  "Current process initiation was explicitly authorized. This invocation was published and integrity-checked before reviewing v1.11 source content.",
+    "partial_outputs":  [
+                            "attempt.json",
+                            "checkpoint-0001.json"
+                        ],
+    "repository_effects":  [
+                               "No source Requirement or product content changed.",
+                               "No v1.11 content was opened in this Requirement Analysis attempt before attempt.json publication."
+                           ],
+    "observed_evidence":  {
+                              "source":  "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                              "version":  "v1.11",
+                              "bytes":  135602,
+                              "sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                              "status":  "Draft Updated Requirement; unapproved",
+                              "human_requirement_approved":  false,
+                              "invocation_sha256":  "18A69E1E522340F46881A55EAB9F6D2C32CFB6BA8B395692BE601B3A5FB360CF",
+                              "authorization":  "Current conversation ask_user response authorize_requirement_analysis",
+                              "update_predecessor_sha256":  "1AF88327D861BE5D99A5610D0661B0645CCA3B44658F7D35F705A18F07EDD527",
+                              "analysis_question":  "RA20-Q-01",
+                              "output":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58/report.md",
+                              "output_absent_at_initiation":  true
+                          },
+    "unfinished_work":  [
+                            "Inspect the v1.11 requirement after invocation publication and perform the complete fresh Requirement Analysis.",
+                            "Create the analysis report, evidence, checkpoint(s), and terminal result with source/read-back fingerprints.",
+                            "Assess the resolved RA20-Q-01 decisions and identify any remaining material gaps without silently deciding them."
+                        ],
+    "blockers":  [
+
+                 ],
+    "pending_gate":  "Requirement Analysis initiation is authorized. Requirement Analysis Verification, Human Requirement Approval, planning, and implementation are not authorized.",
+    "safe_continuation_prerequisites":  [
+                                            "Treat v1.11 as unapproved source; do not modify it.",
+                                            "Use the exact decisions captured by the source-qualification record; do not characterize them as verbatim raw answers.",
+                                            "Preserve the predecessor analysis ordering caveat without claiming retroactive resolution.",
+                                            "Stop at Requirement Analysis."
+                                        ],
+    "source_read_order":  "The invocation was published and read back before this attempt reviewed v1.11 source content."
+}

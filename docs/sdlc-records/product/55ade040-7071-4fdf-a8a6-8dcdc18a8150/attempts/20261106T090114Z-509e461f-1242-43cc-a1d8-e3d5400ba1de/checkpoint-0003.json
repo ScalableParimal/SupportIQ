@@ -1,0 +1,66 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de:checkpoint-0003",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "creator":  "AI assistant using Copilot SDK in VS Code",
+    "creator_role":  "Requirement Update executor",
+    "created_at_utc":  "2026-11-06T09:13:47Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing checkpoint; not filesystem publication time",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de",
+    "checkpoint_number":  3,
+    "process":  "Requirement Update",
+    "last_confirmed_boundary":  "The validated staged Requirement was atomically published as immutable v1.11. Read-back and source-preservation checks passed. Decision-source qualification was recorded because the original raw answer wording was unavailable in the resumed context.",
+    "partial_outputs":  [
+                            "attempt.json",
+                            "checkpoint-0001.json",
+                            "checkpoint-0002.json",
+                            "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                            "evidence/human-decisions-verbatim.json",
+                            "evidence/human-decision-source-qualification.json"
+                        ],
+    "repository_effects":  [
+                               "v1.11 is published at 135602 bytes and SHA-256 56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE.",
+                               "v1.10 remains unchanged at 130841 bytes and SHA-256 93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6.",
+                               "The validated .partial file was moved atomically; no requirement-folder partial remains.",
+                               "No tracked repository changes.",
+                               "The raw ask_user wording was not present in the resumed context; the source-qualification record identifies the user-supplied continuation summary as the exact decision text available and disavows the earlier reconstructed transcript as verbatim."
+                           ],
+    "observed_evidence":  {
+                              "source":  "docs/requirement/SupportIQ_Product_Requirement_v1.10.md",
+                              "source_bytes":  130841,
+                              "source_sha256":  "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+                              "resulting_requirement":  "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                              "result_version":  "v1.11",
+                              "result_bytes":  135602,
+                              "result_sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                              "source_preservation_verified":  true,
+                              "readback_verified":  true,
+                              "analysis_attempt":  "20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf",
+                              "analysis_question":  "RA20-Q-01",
+                              "resulting_status":  "Draft Updated Requirement; unapproved",
+                              "human_requirement_approved":  false,
+                              "decision_source_qualification":  "evidence/human-decision-source-qualification.json",
+                              "decision_source_qualification_sha256":  "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4",
+                              "update_evidence":  "evidence/requirement-update-evidence.json",
+                              "report":  "report.md",
+                              "terminal_result":  "result.json"
+                          },
+    "unfinished_work":  [
+                            "Write requirement-update-evidence.json with source/result bindings, decision-source qualification, change scope, and validation evidence.",
+                            "Publish the concise change summary report and final result after all evidence hashes are fixed.",
+                            "Verify the report/result/evidence read-backs and final terminal record hashes."
+                        ],
+    "blockers":  [
+
+                 ],
+    "pending_gate":  "Requirement Update output only. No Requirement Analysis refresh, Requirement Analysis Verification, Human Requirement Approval, planning, or implementation is authorized.",
+    "safe_continuation_prerequisites":  [
+                                            "Bind the user-supplied continuation summary as the available decision source; do not describe the reconstructed transcription as verbatim.",
+                                            "Do not alter either immutable Requirement version.",
+                                            "Keep §17 decisions deferred and identify them in the change summary.",
+                                            "Stop at Requirement Update."
+                                        ],
+    "source_read_order":  "The invocation was published and integrity-checked before v1.10 content was reviewed in this attempt."
+}

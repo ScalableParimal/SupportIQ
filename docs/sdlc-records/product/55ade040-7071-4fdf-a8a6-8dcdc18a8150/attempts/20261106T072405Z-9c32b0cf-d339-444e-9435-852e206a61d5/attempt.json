@@ -1,0 +1,54 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_invocation",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5",
+    "process":  "Requirement Analysis",
+    "repository":  "ScalableParimal/SupportIQ",
+    "branch":  "SupportIQ-Requirement-Analysis",
+    "head":  "6e82033850ade3c8e621b5cac5aa26f1c62f7ba2",
+    "actor_identity":  "int-scl-010\\parimal",
+    "created_at_utc":  "2026-11-06T07:24:06Z",
+    "authorized_record_root":  "docs/sdlc-records/product/",
+    "output_scope":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5",
+    "source":  {
+                   "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.8.md",
+                   "version":  "v1.8",
+                   "expected_sha256":  "E7FB3E982555034B098D42E258CAFBEDB651A0A05B736A99DE987DAB6355AD1B",
+                   "read_status":  "NOT_READ_BEFORE_INVOCATION_PUBLICATION"
+               },
+    "request":  {
+                    "path":  "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+                    "status":  "TEMPLATE_NOT_POPULATED",
+                    "effective_inputs":  "Current user invocation designates v1.8 and references latest Requirement Update and portability-assessment records"
+                },
+    "invocation_authorization":  {
+                                     "kind":  "fresh_process_initiation_response",
+                                     "actual_supplied_wording":  "Execute the governed Requirement Analysis process now. The human explicitly approved fresh Requirement Analysis in this conversation (initiate_requirement_analysis=true) after confirming the later empty attempt directory is abandoned.",
+                                     "formal_human_gate":  false,
+                                     "scope":  "One fresh Requirement Analysis for v1.8 only; this attempt output scope; no source or product artifact changes and no later process."
+                                 },
+    "context":  {
+                    "requirement_update_attempt":  "20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086",
+                    "portability_assessment_attempt":  "20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20",
+                    "abandoned_empty_attempt":  "20261106T063721Z-68f9bc3e-09c9-417d-9f2f-aef2a5b4e3cb",
+                    "clarification":  "Abandoned empty attempt is process context only, not a product decision."
+                },
+    "prepublication_validation":  {
+                                      "product_root":  "docs/sdlc-records/product/",
+                                      "root_adoption":  "Resolved in prior applicable portability-assessment report/evidence and bound historical adoption references",
+                                      "master_baseline":  "SupportIQ-Master-Baseline-001",
+                                      "master_fingerprints_match_adopted_baseline":  true,
+                                      "master_fingerprints":  {
+                                                                  "SDLC_GOVERNANCE":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                                                                  "SDLC_ARTIFACT_GOVERNANCE":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                                                  "SDLC_TRACEABILITY_AND_CHANGE_CONTROL":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+                                                              },
+                                      "current_principal":  "int-scl-010\\parimal",
+                                      "record_root_acl":  "BUILTIN\\Administrators:FullControl:Allow; NT AUTHORITY\\SYSTEM:FullControl:Allow; BUILTIN\\Users:ReadAndExecute, Synchronize:Allow; NT AUTHORITY\\Authenticated Users:Modify, Synchronize:Allow; NT AUTHORITY\\Authenticated Users:-536805376:Allow",
+                                      "repository_working_tree":  "clean",
+                                      "output_directory_absent":  true,
+                                      "no_overwrite_publication":  "System.IO.FileMode.CreateNew",
+                                      "source_read_before_publication":  false
+                                  }
+}

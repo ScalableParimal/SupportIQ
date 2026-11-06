@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "evidence_type": "requirement_analysis_evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261106T091804Z-a653d051-68d4-4bfb-9b60-b11132311b58",
+  "created_at_utc": "2026-11-06T09:25:08Z",
+  "clock_basis": "PowerShell DateTime.UtcNow while preparing evidence; not filesystem publication time",
+  "process": "Requirement Analysis",
+  "analysis_scope": "Fresh post-Requirement-Update analysis of v1.11. Prior complete v1.10 analysis is the baseline for unchanged content; every v1.10-to-v1.11 changed section and its affected cross-references were reviewed.",
+  "authoritative_source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+    "version_id": "v1.11",
+    "bytes": 135602,
+    "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+    "lifecycle_status": "Draft Updated Requirement; unapproved",
+    "human_requirement_approved": false
+  },
+  "process_initiation": {
+    "actual_supplied_value": "authorize_requirement_analysis",
+    "scope": "One fresh Requirement Analysis against v1.11 only.",
+    "does_not_authorize": ["Requirement Analysis Verification", "Human Requirement Approval", "Implementation Planning", "Implementation"]
+  },
+  "governing_artifacts": [
+    {"path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md", "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"},
+    {"path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md", "sha256": "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"},
+    {"path": "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md", "sha256": "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275", "status": "TEMPLATE_NOT_POPULATED; run-specific input supplied by the current user context and invocation response"}
+  ],
+  "prior_process_records": {
+    "v1_10_complete_analysis": {
+      "attempt_id": "20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf",
+      "report": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf/report.md",
+      "report_sha256": "DD5B71CC68FB4C59A8DAB338DB99C885875388F4859F428C8D035CEF0E4C9A56",
+      "result": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf/result.json",
+      "result_sha256": "09C880079E378F678AEF8152D4F32341D056A657DAD47980754D7887BF68C2BB",
+      "outcome": "ANALYSIS_COMPLETE_WITH_LIMITATIONS; RA20-Q-01_OPEN; NOT_READY_FOR_REQUIREMENT_ANALYSIS_VERIFICATION"
+    },
+    "v1_11_requirement_update": {
+      "attempt_id": "20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de",
+      "report": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de/report.md",
+      "report_sha256": "BC57A011E41B340B3E41D063C9F0CDE8C518ED9064BA93D29D892FA317BEC972",
+      "result": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de/result.json",
+      "result_sha256": "1AF88327D861BE5D99A5610D0661B0645CCA3B44658F7D35F705A18F07EDD527",
+      "requirement_sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+      "outcome": "REQUIREMENT_UPDATED; DRAFT_UPDATED_UNAPPROVED"
+    }
+  },
+  "human_decision_input": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T090114Z-509e461f-1242-43cc-a1d8-e3d5400ba1de/evidence/human-decision-source-qualification.json",
+    "sha256": "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4",
+    "source": "User-provided continuation summary in current prompt",
+    "limitation": "The original ask_user wording was summarized and is unavailable verbatim in resumed context. The source-qualified summary is used; the earlier reconstructed transcript is not treated as verbatim.",
+    "formal_human_gate": false
+  },
+  "decision_reassessment": {
+    "question_id": "RA20-Q-01",
+    "status": "ADDRESSED_IN_V1.11_FOR_THIS_ANALYSIS",
+    "decisions": [
+      "Critical, High, Medium, and Low are the urgency values; the shared set does not equate urgency with Ticket.Priority, and no mapping is allowed.",
+      "Support Agent scope is currently assigned tickets; Support Manager scope is currently assigned teams including team-queued tickets; Tenant Admin scope is own tenant; Platform Admin has no individual ticket urgency access.",
+      "Acceptance copies SuggestedUrgency to ReviewedUrgency; override stores a selected valid urgency; preserve SuggestedUrgency and reviewer/time metadata; urgency review never changes Ticket.Priority; any Priority change uses FR-TM-14."
+    ],
+    "cross_section_check": "Aligned across FR-TK-08/09, centralized default-deny TicketAIResult/Read and ReviewUrgency mapping, §5.10, §6.14, §8 entity, §9 API, §13 acceptance criteria, §14 tests, and §18 Definition of Done."
+  },
+  "reviewed_scope": [
+    "Document control, version lineage, objective, actors, and scope",
+    "The prior full v1.10 analysis baseline and all documented prior decision groups",
+    "All v1.10-to-v1.11 changed sections and linked role, ticket, analytics, audit, retention, API, acceptance, test, and DoD references",
+    "FR-TM-14 Category/Priority rules and the separate urgency review workflow",
+    "FR-AN-06 analytics boundary and the unchanged §17 deferred decisions",
+    "Prior process-ordering caveat and current invocation/read ordering"
+  ],
+  "analysis_findings": {
+    "ambiguities": [],
+    "conflicts": [],
+    "missing_blocking_information": [],
+    "assumptions": [],
+    "deferred_questions": [
+      "§17 exact generation and embedding model deployments and region.",
+      "§17 model-specific token limits and monthly cost budget.",
+      "§17 transactional email provider, sender identity, and deployment configuration.",
+      "§17 bounded per-operation timeout and retry settings."
+    ],
+    "deferred_questions_block_verification": false
+  },
+  "technical_impact": {
+    "api": "Read/review endpoints must express TicketAIResult role/ticket scopes; API contracts remain illustrative and exact endpoints/payloads are design details.",
+    "application_domain": "Keep SuggestedUrgency, ReviewedUrgency, and authoritative Ticket.Priority distinct; accept/override only updates review metadata.",
+    "database": "Persist allowed urgency values and reviewer/time metadata under the existing 90-day policy; detailed schema/indexes remain implementation planning.",
+    "frontend": "Display suggestion and reviewed urgency as distinct states and expose review controls only in the defined role/ticket scopes; this is technical impact, not an added requirement.",
+    "testing": "Cover values, accept/override, suggestion preservation, role/tenant/team/assignment enforcement, Platform Admin denial, current authorization, retention, and no Priority mutation.",
+    "security_privacy": "Default-deny authorization and current-scope revalidation apply to individual result reads/reviews; Platform Admin remains limited to existing aggregate analytics and cannot access an individual result.",
+    "performance_operations": "Existing jobs, timeout, token, rate, and concurrency rules apply; §17 provider-specific choices remain deferred."
+  },
+  "process_ordering_caveat": "The predecessor analysis recorded an earlier process-ordering caveat. This attempt published and read back its own invocation before reading v1.11; that does not retroactively resolve the predecessor caveat.",
+  "read_only_boundary": {
+    "requirement_modified": false,
+    "implementation_plan_modified": false,
+    "source_code_modified": false,
+    "tests_modified": false,
+    "configuration_modified": false,
+    "tests_or_builds_run": false
+  }
+}

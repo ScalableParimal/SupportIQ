@@ -1,0 +1,71 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "evidence_type":  "requirement_update_validation",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T075001Z-e269fde8-1ef3-4fef-a653-05058d8fe3d9",
+    "created_at_utc":  "2026-11-06T07:57:14Z",
+    "clock_basis":  "PowerShell Get-Date converted to UTC while preparing record",
+    "update_context":  "Initial Analysis Clarification (pre-approval)",
+    "source":  {
+                   "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.8.md",
+                   "version_id":  "v1.8",
+                   "bytes":  117136,
+                   "sha256":  "E7FB3E982555034B098D42E258CAFBEDB651A0A05B736A99DE987DAB6355AD1B",
+                   "status":  "Draft Updated Requirement; unapproved",
+                   "preserved":  true
+               },
+    "result":  {
+                   "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.9.md",
+                   "version_id":  "v1.9",
+                   "predecessor_version_id":  "v1.8",
+                   "predecessor_sha256":  "E7FB3E982555034B098D42E258CAFBEDB651A0A05B736A99DE987DAB6355AD1B",
+                   "bytes":  121036,
+                   "sha256":  "67C94027044E31E12EBB91E34145A2BB48FAC1ED96D934C07E2339A9EFD862A2",
+                   "status":  "Draft Updated Requirement; unapproved"
+               },
+    "decision_evidence":  {
+                              "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T075001Z-e269fde8-1ef3-4fef-a653-05058d8fe3d9/evidence/human-decisions.json",
+                              "sha256":  "1F8FC9924AD2648FC6582FB6ACA82B6DEF9D01A7AB574F9DE392C0F7CE1D4E06",
+                              "analysis_attempt":  "20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5",
+                              "questions":  [
+                                                "RA18-Q-01",
+                                                "RA18-Q-02"
+                                            ]
+                          },
+    "changed_sections":  [
+                             "Version header and lineage",
+                             "§5.10 New to Open role/condition rules",
+                             "§5.10 ticket assignment and access revocation",
+                             "§5.13 FR-TEAM-03 and FR-TEAM-05",
+                             "§13 acceptance criteria",
+                             "§14 test coverage",
+                             "§18 Definition of Done"
+                         ],
+    "validation":  {
+                       "source_sha256_before_after_match":  true,
+                       "source_bytes_unchanged":  true,
+                       "new_version_was_next_sequential_version":  true,
+                       "result_readback_sha256_matches":  true,
+                       "old_undefined_cross_team_exception_removed":  true,
+                       "New_to_Open_roles_conditions_creator_restriction_revalidation_and_audit_present":  true,
+                       "primary_team_change_access_revocation_assignment_validation_audit_present":  true,
+                       "acceptance_and_test_coverage_present":  true,
+                       "unapproved_status_retained":  true,
+                       "no_later_version_exists":  true
+                   },
+    "remaining_questions":  [
+                                "RA18-Q-03: Platform Admin Customer investigation scope and authorization",
+                                "RA18-Q-04: exact audit fields retained after permanent tenant deletion",
+                                "RA18-Q-05: feedback reason/Comment mapping and AI urgency persistence",
+                                "§17 deferred model/region/token/cost/email provider/timeouts/retries"
+                            ],
+    "material_assumptions_added":  [
+
+                                   ],
+    "limitations":  [
+                        "Static document and process-record review only; implementation, CI/deployment and runtime were not inspected or executed.",
+                        "The source requirement was read during input preflight before this attempt invocation record was published; that fact and the bounded preflight context are recorded in attempt.json. No source modification or decision application occurred before invocation publication.",
+                        "No tests or builds were run; this was a requirement-only change."
+                    ]
+}

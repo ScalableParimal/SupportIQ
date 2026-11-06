@@ -1,0 +1,95 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "evidence_type":  "requirement_analysis_evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T084517Z-d1f19117-7daa-4411-b939-b6afe24f92cf",
+    "created_at_utc":  "2026-11-06T08:52:48Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing evidence; not filesystem publication time",
+    "source":  {
+                   "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.10.md",
+                   "version":  "v1.10",
+                   "bytes":  130841,
+                   "sha256":  "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+                   "status":  "Draft Updated Requirement; unapproved",
+                   "human_requirement_approved":  false,
+                   "content_read_after_invocation_publication":  true
+               },
+    "governing_artifacts":  [
+                                {
+                                    "path":  "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+                                    "bytes":  16826,
+                                    "sha256":  "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+                                },
+                                {
+                                    "path":  "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+                                    "bytes":  2171,
+                                    "sha256":  "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"
+                                },
+                                {
+                                    "path":  "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+                                    "bytes":  322,
+                                    "sha256":  "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275",
+                                    "status":  "TEMPLATE_NOT_POPULATED; run-specific authorization and scope are bound in attempt.json"
+                                }
+                            ],
+    "method":  "Used the complete v1.9 Requirement Analysis as the baseline for unchanged material, compared the v1.9-to-v1.10 successor changes, and traced the clarified decisions across role rules, scope, workflows, data/API descriptions, acceptance criteria, tests, and Definition of Done. Rechecked the source fingerprint after analysis.",
+    "human_decision_basis":  {
+                                 "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T082331Z-db49e004-4ef6-4bae-a9aa-b76af9ee37fb/evidence/human-decisions-verbatim.json",
+                                 "bytes":  7353,
+                                 "sha256":  "BB0AE858DA2E6514B8EAC570CEDD0B6A3F35A488176FBCBA3AAA0DDF2C6974B3",
+                                 "decisions":  [
+                                                   "RA18-Q-03",
+                                                   "RA18-Q-04",
+                                                   "RA18-Q-05a",
+                                                   "RA18-Q-05b",
+                                                   "RA19-A01"
+                                               ],
+                                 "incorporation_status":  "Rechecked against v1.10; all five decisions are reflected. Urgency persistence is present, but allowed values, reviewing roles, and effect on authoritative ticket priority remain unclear."
+                             },
+    "predecessor_analysis":  {
+                                 "attempt_id":  "20261106T080211Z-ae3c0c06-e8ef-4f41-a138-3be391e14c52",
+                                 "report":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T080211Z-ae3c0c06-e8ef-4f41-a138-3be391e14c52/report.md",
+                                 "report_sha256":  "F8036C21E131E1C6F65EC3FCE1506C6B7CE822649C23BB89B88ADC89D1501BC7",
+                                 "result":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T080211Z-ae3c0c06-e8ef-4f41-a138-3be391e14c52/result.json",
+                                 "result_sha256":  "CA26951E877C5A73A3BBA30C786F80A01AA138E7D32DAFABF8DF099AA421BDEE",
+                                 "applicability":  "Complete analysis of v1.9 is the baseline for unchanged requirement content."
+                             },
+    "requirement_update":  {
+                               "attempt_id":  "20261106T082331Z-db49e004-4ef6-4bae-a9aa-b76af9ee37fb",
+                               "report":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T082331Z-db49e004-4ef6-4bae-a9aa-b76af9ee37fb/report.md",
+                               "report_sha256":  "431F2BD9F170C2D9E2D00BF17309C773E908C30D6260C7889D2E800A8D22ECDE",
+                               "result":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T082331Z-db49e004-4ef6-4bae-a9aa-b76af9ee37fb/result.json",
+                               "result_sha256":  "AC26F1F4EFC9F950C64E1C6E752CB8E5A3AF1BF44E6ABCED16B862B0D41D69CF",
+                               "outcome":  "REQUIREMENT_UPDATED; DRAFT_UPDATED_UNAPPROVED"
+                           },
+    "findings":  [
+                     {
+                         "id":  "RA20-Q-01",
+                         "classification":  "Material ambiguity; blocking to declaring urgency behavior complete and to readiness for Requirement Analysis Verification",
+                         "requirement_references":  [
+                                                        "v1.10 §5.3 FR-TK-08/09",
+                                                        "v1.10 §5.10 FR-TM-05/07/14",
+                                                        "v1.10 §8 TicketAIResult",
+                                                        "v1.10 §9 Ticket AI urgency review"
+                                                    ],
+                         "summary":  "The requirement mandates configured urgency values and human review but does not enumerate the urgency values, state whether they are the Ticket.Priority values (Critical/High/Medium/Low) or a separate set, identify the reviewing roles, or say whether ReviewedUrgency remains review metadata or updates authoritative Ticket.Priority."
+                     }
+                 ],
+    "explicit_nonblocking_deferrals":  [
+                                           "§17 exact generation/embedding model deployments and region",
+                                           "§17 model-specific token limits and monthly monetary cost budget",
+                                           "§17 transactional email provider/sender/deployment",
+                                           "§17 per-operation background timeout and retry settings"
+                                       ],
+    "process_history":  {
+                            "predecessor_ordering_caveat":  "Prior analysis records prepublication inspection and a checkpoint correction. The v1.10 Update preserved this caveat; this analysis does not claim to cure it retroactively.",
+                            "current_attempt_order":  "Invocation was published and integrity-checked before v1.10 content review."
+                        },
+    "validation":  {
+                       "source_fingerprint_rechecked":  true,
+                       "source_modified":  false,
+                       "implementation_or_tests_performed":  false,
+                       "process_boundary":  "Requirement Analysis only; no Requirement Update, Verification, planning, implementation, or approval performed."
+                   }
+}

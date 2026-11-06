@@ -1,0 +1,120 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5",
+    "process":  "Requirement Analysis",
+    "execution_status":  "COMPLETED",
+    "outcome":  "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED; NOT_READY_FOR_REQUIREMENT_ANALYSIS_VERIFICATION",
+    "created_at_utc":  "2026-11-06T07:32:58Z",
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5/attempt.json",
+                       "bytes":  4462,
+                       "sha256":  "93D170F0B61569C92434D3441ED2578046ED195038B6B8F547185A75F581B930",
+                       "publication_integrity_checked":  true
+                   },
+    "checkpoint":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5/checkpoint-0001.json",
+                       "bytes":  3598,
+                       "sha256":  "A66C94B6ACC2D9CF505140A0B69976DC30EFE46E924B56ACF1450B3E62B9EE54",
+                       "readback_integrity_checked":  true
+                   },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5/report.md",
+                   "bytes":  19700,
+                   "sha256":  "FE98F7EB87FDA6DF7253C5FE7B0F11D40A24C992B9A5868E76A48097B04EF75C"
+               },
+    "evidence":  {
+                     "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T072405Z-9c32b0cf-d339-444e-9435-852e206a61d5/evidence/analysis-evidence.json",
+                     "bytes":  9047,
+                     "sha256":  "A20EB81C964A1F01801A5FE43E909982A2F55AC8D9B627E5C06826D759007AE3"
+                 },
+    "evaluated_state":  {
+                            "repository":  "ScalableParimal/SupportIQ",
+                            "branch":  "SupportIQ-Requirement-Analysis",
+                            "head":  "6e82033850ade3c8e621b5cac5aa26f1c62f7ba2",
+                            "working_tree_clean_at_invocation":  true,
+                            "requirement_path":  "docs/requirement/SupportIQ_Product_Requirement_v1.8.md",
+                            "requirement_version":  "v1.8",
+                            "requirement_bytes":  117136,
+                            "requirement_sha256":  "E7FB3E982555034B098D42E258CAFBEDB651A0A05B736A99DE987DAB6355AD1B",
+                            "requirement_status":  "Draft Updated Requirement; unapproved"
+                        },
+    "authorization":  {
+                          "kind":  "fresh_process_initiation_response",
+                          "user_explicitly_authorized_fresh_requirement_analysis":  true,
+                          "authorization_source":  "Current conversation user message",
+                          "abandoned_empty_attempt":  "20261106T063721Z-68f9bc3e-09c9-417d-9f2f-aef2a5b4e3cb",
+                          "authorization_is_process_context_only":  true,
+                          "formal_human_gate":  false
+                      },
+    "human_decisions_incorporated":  [
+                                         "No-related-ticket Customer retention starts from Customer.CreatedAt; related active tickets block purge and the timer resets from latest terminal transition, with pre-delete revalidation.",
+                                         "Agent Customer access only through currently assigned tickets, immediately revoked on reassignment/scope loss, no separate grant.",
+                                         "Existing Tenant Admin owns within-tenant central triage; Manager remains assigned-team scoped; no new role/permission/grant; Platform Admin has no routine tenant ticket-business access.",
+                                         "Approved permanent tenant deletion after grace and independent second-admin approval overrides deactivated-user retention, leaving only minimum protected audit metadata.",
+                                         "Customer Search contract, fields/matching/filtering/sorting/pagination/scopes/direct-ID revalidation.",
+                                         "Feedback Read role scopes and fields/content limits; no conversation history/message content.",
+                                         "Email masking for all paths; own-tenant Tenant Admin detail-only unmask with audit."
+                                     ],
+    "questions":  [
+                      {
+                          "id":  "RA18-Q-01",
+                          "blocking":  true,
+                          "reference":  "§5.10, §5.13",
+                          "status":  "UNRESOLVED"
+                      },
+                      {
+                          "id":  "RA18-Q-02",
+                          "blocking":  true,
+                          "reference":  "§5.10",
+                          "status":  "UNRESOLVED"
+                      },
+                      {
+                          "id":  "RA18-Q-03",
+                          "blocking":  false,
+                          "reference":  "§5.9",
+                          "status":  "UNRESOLVED_CONDITIONAL"
+                      },
+                      {
+                          "id":  "RA18-Q-04",
+                          "blocking":  false,
+                          "reference":  "§5.11",
+                          "status":  "UNRESOLVED_IMPORTANT"
+                      },
+                      {
+                          "id":  "RA18-Q-05",
+                          "blocking":  false,
+                          "reference":  "§5.9 FR-ID-16; §5.3 FR-TK-04; §8",
+                          "status":  "LOWER_PRIORITY"
+                      }
+                  ],
+    "readiness":  {
+                      "requirement_analysis":  "COMPLETE_WITH_HUMAN_DECISIONS_REQUIRED",
+                      "requirement_analysis_verification":  "NOT_READY",
+                      "human_requirement_approved":  false,
+                      "implementation_authorized":  false,
+                      "human_acceptance_claimed":  false,
+                      "next_permitted_process":  "Human decision resolution and, if requirement changes, separately authorized Requirement Update; then fresh Requirement Analysis/refresh and independent Requirement Analysis Verification. Not started."
+                  },
+    "validation":  {
+                       "source_hash_matches_before_and_after":  true,
+                       "source_modified":  false,
+                       "source_and_product_artifacts_modified":  false,
+                       "prior_process_records_modified":  false,
+                       "abandoned_attempt_modified":  false,
+                       "other_process_started":  false,
+                       "requirement_analysis_verification_performed":  false,
+                       "implementation_plan_created_or_modified":  false,
+                       "tests_or_builds_run":  false,
+                       "commit_or_push":  false,
+                       "human_approval_or_acceptance_claimed":  false,
+                       "record_bindings_readback_checked":  true
+                   },
+    "limitations":  [
+                        "Static requirements and process-record review only; implementation, tests, CI/deployment and runtime were not inspected or executed.",
+                        "The cited Portability Assessment is advisory and historical; it records an earlier HEAD and is not current-environment validation.",
+                        "No product decision was inferred for unresolved questions or for process authorization context."
+                    ]
+}

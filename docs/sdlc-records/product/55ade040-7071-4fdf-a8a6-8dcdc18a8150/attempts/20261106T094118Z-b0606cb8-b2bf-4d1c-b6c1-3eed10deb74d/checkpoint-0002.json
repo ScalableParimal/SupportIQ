@@ -1,0 +1,48 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d:checkpoint-0002",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "creator":  "AI assistant using Copilot SDK in VS Code",
+    "creator_role":  "Requirement Analysis Verification executor",
+    "created_at_utc":  "2026-11-06T09:47:34Z",
+    "clock_basis":  "PowerShell DateTime.UtcNow while preparing checkpoint; not filesystem publication time",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d",
+    "checkpoint_number":  2,
+    "process":  "Requirement Analysis Verification",
+    "last_confirmed_boundary":  "Independent review completed for the full v1.11 requirement, v1.10 source/diff, current Requirement Analysis/report/evidence/result, prior baseline analysis, Requirement Update report, and qualified human-decision evidence. No material analysis gap or unsupported interpretation identified.",
+    "partial_outputs":  [
+                            "attempt.json",
+                            "checkpoint-0001.json",
+                            "checkpoint-0002.json"
+                        ],
+    "repository_effects":  [
+                               "No product requirement, source code, tests, configuration, or prior process record was modified.",
+                               "Verification report, evidence, and terminal result remain to be published in this attempt scope."
+                           ],
+    "observed_evidence":  {
+                              "source_requirement_sha256":  "93DB568F180A4B6BCFB10B1244730007F96EBE087ABDBC176DC41F63854C60F6",
+                              "updated_requirement_sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                              "analysis_report_sha256":  "AE2EB61BE0EB5744C9D53D33D9A801B2FE80A832FF4563D0072D44C96CB45751",
+                              "analysis_evidence_sha256":  "F3B6E51D17858C55EFC76F750FFD589FC5E213D2C1C9039835323473D8BCC60F",
+                              "analysis_result_sha256":  "3B66F5F383E3F5A9A65C1948CA883AA6149B765C61A76C85E510DCC7D44B3499",
+                              "requirement_update_report_sha256":  "BC57A011E41B340B3E41D063C9F0CDE8C518ED9064BA93D29D892FA317BEC972",
+                              "decision_source_qualification_sha256":  "0D3C47A9866A3502406B3FB6628F621FE145CEE7BC306B143B6BCA57F7CBB3E4",
+                              "outcome_established":  "ANALYSIS VERIFIED"
+                          },
+    "unfinished_work":  [
+                            "Publish the required complete Verification report and traceable evidence.",
+                            "Publish a terminal result with exact paths, byte counts, SHA-256 digests, outcome, and process boundary; read back and validate all bindings."
+                        ],
+    "blockers":  [
+
+                 ],
+    "pending_gate":  "Verification only. Human Requirement Approval, planning, and implementation have not been authorized.",
+    "safe_continuation_prerequisites":  [
+                                            "Remain read-only; do not modify the source requirement, updated requirement, analysis, code, tests, or configuration.",
+                                            "Treat decision excerpts from the resumed user summary as reported evidence and preserve the original-wording limitation.",
+                                            "Human Requirement Approval readiness is not Human Requirement Approval; stop at Verification."
+                                        ],
+    "source_read_order":  "Full independent review completed after the attempt was published; source and resulting updated requirement were assessed distinctly from the complete current analysis."
+}
