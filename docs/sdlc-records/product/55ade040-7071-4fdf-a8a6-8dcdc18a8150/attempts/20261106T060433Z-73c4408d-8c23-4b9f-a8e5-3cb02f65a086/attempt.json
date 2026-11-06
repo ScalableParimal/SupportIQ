@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_invocation",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086",
+  "process": "Requirement Update",
+  "update_context": "Initial Analysis Clarification (pre-approval)",
+  "repository": "ScalableParimal/SupportIQ",
+  "branch": "SupportIQ-Requirement-Analysis",
+  "head": "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+  "actor_identity": "INT-SCL-010\\parimal",
+  "created_at_utc": "2026-11-06T06:04:33Z",
+  "authorized_record_root": "docs/sdlc-records/product/",
+  "output_scope": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086",
+  "invocation_authorization": {
+    "kind": "fresh_process_initiation_response",
+    "actual_supplied_wording": "The user explicitly authorized one scoped Requirement Update. Execute it under the requirement-update Skill and current repository Guideline/Prompt/Request, through the SDLC Orchestrator, for Work ID 55ade040-7071-4fdf-a8a6-8dcdc18a8150. The user selected authorize for exactly ONE Requirement Update attempt.",
+    "source": "Current user message in this conversation, 2026-11-06",
+    "formal_human_gate": false,
+    "scope": "Exactly one Requirement Update attempt, in this attempt directory, using the specified v1.7 source and exactly the seven decision groups and directly affected language specified in the user message. No other process is authorized or started.",
+    "conditions": "Preserve v1.7 and all prior versions and records unchanged. Create one new sequential requirement version only after confirming no later version. Stop at Requirement Update boundary. The result remains unapproved."
+  },
+  "source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+    "version_id": "v1.7",
+    "expected_sha256": "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+    "lifecycle_status": "Draft Updated Requirement; unapproved, as recorded by predecessor Requirement Analysis and Portability Assessment",
+    "approval_evidence": "No Human Requirement Approval is recorded in the bound Requirement Analysis result; requirement_approved=false.",
+    "read_status": "NOT_READ_BEFORE_INVOCATION_PUBLICATION"
+  },
+  "predecessors": [
+    {
+      "process": "Requirement Analysis",
+      "attempt_id": "20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25",
+      "result_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25/result.json",
+      "result_sha256": "A1B1197CB13E302168EFBCB1AD7D6283A92DB508EE55CCAB2FA56379BC8CB6CA",
+      "outcome": "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED; REQUIREMENT_UPDATE_OR_REFRESH_REQUIRED",
+      "questions": ["RA17-Q-01", "RA17-Q-02", "RA17-Q-03", "RA17-Q-04"]
+    },
+    {
+      "process": "SDLC Portability Assessment",
+      "attempt_id": "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+      "result_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/result.json",
+      "result_sha256": "53E2410FBBF2131CD1CED4BF3CB0AE946CE5CCB244B23A8CB5BBC417DFE8F2E4",
+      "evidence_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/evidence/assessment-evidence.json",
+      "evidence_sha256": "F668BD2924BE75C3DEDCA1EBAF40E34C357CACB4C0EB4836EB54D72163F824B6",
+      "outcome": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "possible_blockers": 0
+    }
+  ],
+  "human_decisions_in_scope": [
+    "RA17-Q-01: 365-day no-related-ticket retention begins at Customer.CreatedAt; a newly associated ticket suspends pending cleanup/reset eligibility; after all related tickets are Closed or Cancelled, restart from the latest terminal-transition timestamp; never purge with active related tickets; revalidate relationships and eligibility before deletion.",
+    "RA17-Q-02: Support Agent Customer access only through a ticket currently assigned to that Agent; no exception or separate grant; revoke on reassignment, loss of team/tenant authorization, or scope loss; server-side on every request including direct-ID lookup; no tenant-wide browsing or access via other Agents' tickets; preserve four roles/default-deny.",
+    "RA17-Q-03: Tenant Admin owns central triage for completely unassigned tickets only within own tenant; no new role or separate permission; Managers may access/route assigned-team tickets including without Agent assignment, but not globally unassigned or other-team tickets; Agents remain scoped; Platform Admin has no routine tenant ticket-business access; enforce server-side and audit.",
+    "RA17-Q-04: Following 30-day grace and independent second Platform Admin approval, permanent tenant deletion overrides 365-day retention for deactivated-user records in that tenant; purge eligible personal and business records; preserve only minimum necessary protected security/admin audit metadata, including original or irreversible pseudonymous actor ID and applicable action/approval/tenant/resource/permission/timestamp/outcome/correlation details; exclude passwords, tokens, personal email, unnecessary personal data, and deleted business/customer content; do not restore deleted business records; retain existing independent audit policy/access controls.",
+    "Customer Search (mandatory first release): server-side Customer ID exact, Display Name partial case-insensitive, Company/Organization partial case-insensitive search; status and created-date-range filters; display-name ascending/descending and created-date newest/oldest sorting; validated configurable maximum page size, filters before pagination, total count and metadata; email not searchable; role scopes as specified by the user; enforce for search and direct IDs.",
+    "Feedback Read (mandatory first release): explicit permission in centralized versioned default-deny catalogue; Tenant Admin own-tenant feedback, Manager assigned-team feedback, Agent own submissions only, Platform Admin no routine individual feedback/comments except already-permitted aggregate analytics; fields limited to feedback ID, rating, optional reason, submitting user ID/time, associated conversation/message ID, tenant ID; no conversation history/message access; server-side enforcement and audit with sensitive-data minimization.",
+    "Customer email unmasking (mandatory first release): Platform Admin, Support Manager, Support Agent receive masked email; Tenant Admin may see full registered address only for own-tenant customers through explicitly authorized customer-detail operation; all API/search/AI tool/lookup paths enforce masking; audit every full-email access with actor, tenant, customer ID, timestamp, action, outcome, correlation ID; avoid unnecessary full-email exposure in logs, prompts, indexes, or unauthorized responses."
+  ],
+  "prepublication_validation": {
+    "persistence_root": "docs/sdlc-records/product/",
+    "root_adoption": "Resolved in bound portability assessment evidence to canonical GitHub issue 3 owner comments; https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503 and https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245; Master baseline SupportIQ-Master-Baseline-001.",
+    "current_master_fingerprints_match_adopted_baseline": true,
+    "master_fingerprints": [
+      {"path": "docs/ai/sdlc/SDLC_GOVERNANCE.md", "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"},
+      {"path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md", "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"},
+      {"path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md", "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"}
+    ],
+    "effective_principal": "INT-SCL-010\\parimal",
+    "product_root_acl": "Authenticated Users: Modify; inherited",
+    "attempt_path_collision_check": "Exact attempt directory absent immediately before publication.",
+    "publication": "Own invocation record; single-level path; no overwrite; read-back and integrity check required before source access.",
+    "source_read_before_publication": false
+  },
+  "preserved_caveat": "The predecessor Requirement Analysis report's user-identified preflight source-hash-before-invocation-publication caveat is preserved. This record neither rewrites predecessor records nor claims the caveat waived. The current attempt's own invocation is published before reading v1.7. If current governance establishes the predecessor caveat as a blocker to this Requirement Update, stop and request the specific governed decision."
+}

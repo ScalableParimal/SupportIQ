@@ -1,0 +1,105 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8:result",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8",
+    "process":  "Requirement Update",
+    "status":  "COMPLETED",
+    "outcome":  "REQUIREMENT_UPDATED; DRAFT_UNAPPROVED; FRESH_ANALYSIS_REQUIRED",
+    "created_at_utc":  "2026-11-05T11:07:12.266Z",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.5.md",
+                               "version_id":  "SupportIQ Product Requirement v1.5@sha256:FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99261,
+                               "sha256":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "version_id":  "SupportIQ Product Requirement v1.6@sha256:2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "predecessor_version_id":  "SupportIQ Product Requirement v1.5@sha256:FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99368,
+                               "sha256":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "update_context":  "Initial Analysis Clarification (pre-approval)",
+    "human_decisions_applied":  true,
+    "requirement_update_authorized":  true,
+    "record_publication_authorized":  true,
+    "human_requirement_approved":  false,
+    "implementation_authorized":  false,
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9",
+                           "outcome":  "ANALYSIS_COMPLETE; REQUIREMENT_UPDATE_REQUIRED",
+                           "analysis_item":  "RA15-A-01",
+                           "decision_reference":  "RA-A-01"
+                       },
+    "decisions":  [
+                      {
+                          "question_id":  "RA-A-01",
+                          "requirement_ids":  [
+                                                  "FR-CA-07"
+                                              ],
+                          "decision":  "owner_only",
+                          "meaning":  "Each user may read only their own conversation history; role permissions cannot grant access to another user history.",
+                          "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-001.json",
+                          "evidence_sha256":  "DD547E84BCA460FE252FF216BED7120FDF8BC3B3CAA36E1E22478F7A78F55263"
+                      }
+                  ],
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/attempt.json",
+                       "bytes":  12765,
+                       "sha256":  "6FA781C2C3D08A39B59CAA7682160233987F96FE10E731EC6C78ABCD9AD137A0"
+                   },
+    "checkpoints":  [
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/checkpoint-0001.json",
+                            "bytes":  1967,
+                            "sha256":  "E39A8662102D62F3F73DE8DA10F099B8CB0B97B766D0D0CAA52BB0896FC8F96B"
+                        },
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/checkpoint-0002.json",
+                            "bytes":  2568,
+                            "sha256":  "4542A1F54F8815AA20A2758A5B78460912DD99EC49616E9EC6222CF7A97CB983"
+                        }
+                    ],
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/report.md",
+                   "bytes":  3684,
+                   "sha256":  "B429BC77BBE9D11CA930A80B2FF929A5A92275579351D226089708882405E215"
+               },
+    "evidence":  [
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/evidence/update-evidence.json",
+                         "bytes":  6777,
+                         "sha256":  "6EA12372D2AF8A89FB1E457989B3AB2C5E4B43D699461AB613C8FDB41AE876CB"
+                     }
+                 ],
+    "validation":  {
+                       "status":  "PASS",
+                       "source_preserved":  true,
+                       "final_requirement_readback_verified":  true,
+                       "functional_requirement_ids":  97,
+                       "unique_functional_requirement_ids":  97,
+                       "markdown_table_blocks":  26,
+                       "diff_changes_limited_to_authorized_decision":  true,
+                       "owner_only_rule_aligned_across_related_sections":  true,
+                       "tenant_boundary_preserved":  true,
+                       "tests_or_builds_run":  false,
+                       "partial_files_remaining":  0
+                   },
+    "next_permitted_process":  "After separate Human Process Initiation Approval, perform fresh Requirement Analysis against v1.6; then complete independent Requirement Analysis Verification, resolve any findings or decisions, and obtain separate Human Requirement Approval.",
+    "later_process_started":  false,
+    "source_requirement_modified":  false,
+    "result_requirement_created":  true,
+    "implementation_plan_modified":  false,
+    "source_code_tests_or_configuration_modified":  false,
+    "commit_or_push":  false,
+    "limitations":  [
+                        "This Requirement Update clarified only the Section 9 History API note and did not modify the source v1.5.",
+                        "No tests or builds were run for this documentation-only update.",
+                        "v1.6 remains unapproved; no Requirement Analysis, independent verification, approval, planning, implementation, commit, or push was performed."
+                    ]
+}

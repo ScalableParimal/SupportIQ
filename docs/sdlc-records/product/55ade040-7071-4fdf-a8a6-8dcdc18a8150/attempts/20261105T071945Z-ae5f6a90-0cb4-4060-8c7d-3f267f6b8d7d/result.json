@@ -1,0 +1,93 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "process_result",
+    "record_id":  "",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T071945Z-ae5f6a90-0cb4-4060-8c7d-3f267f6b8d7d",
+    "process":  "SDLC Portability Assessment",
+    "execution_status":  "COMPLETED",
+    "outcome":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+    "created_at_utc":  "2026-11-05T07:31:48.8916233Z",
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T071945Z-ae5f6a90-0cb4-4060-8c7d-3f267f6b8d7d/attempt.json",
+                       "bytes":  4045,
+                       "sha256":  "337FFA5C6194524A53E71153ACFDBC32A8C56C7066E3544D7FF8ABCE069AA8FB"
+                   },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T071945Z-ae5f6a90-0cb4-4060-8c7d-3f267f6b8d7d/report.md",
+                   "bytes":  17106,
+                   "sha256":  "8E8C78A8D6083D398F7E1E1FB35B56DC763D40245565F60EE0449A9F362756E4"
+               },
+    "evidence":  {
+                     "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T071945Z-ae5f6a90-0cb4-4060-8c7d-3f267f6b8d7d/evidence/assessment-evidence.json",
+                     "bytes":  11422,
+                     "sha256":  "CCF8526E17C3E2BD45F91DF062411F5D21781B23F831D0AB3895895DC56957F5"
+                 },
+    "evaluated_state":  {
+                            "repository":  "ScalableParimal/SupportIQ",
+                            "branch":  "SupportIQ-Requirement-Analysis",
+                            "head":  "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+                            "requirement_path":  "docs/requirement/SupportIQ_Product_Requirement_v1.2.md",
+                            "requirement_sha256":  "D206C95AD75E0D7E1B1169144B29ADE219F3C42299FE5C3ED3C20F75DD8D99AA",
+                            "framework_files":  76,
+                            "framework_paths_changed_since_prior_assessment":  0
+                        },
+    "dimension_outcomes":  [
+                               {
+                                   "dimension":  1,
+                                   "determination":  "VERIFIED COMPATIBILITY",
+                                   "applies":  true
+                               },
+                               {
+                                   "dimension":  2,
+                                   "determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                                   "applies":  true
+                               },
+                               {
+                                   "dimension":  3,
+                                   "determination":  "VERIFIED COMPATIBILITY",
+                                   "applies":  true
+                               },
+                               {
+                                   "dimension":  4,
+                                   "determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                                   "applies":  true
+                               },
+                               {
+                                   "dimension":  5,
+                                   "determination":  "UNVERIFIED / INSUFFICIENT EVIDENCE",
+                                   "applies":  true
+                               },
+                               {
+                                   "dimension":  6,
+                                   "determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                                   "applies":  true
+                               },
+                               {
+                                   "dimension":  7,
+                                   "determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                                   "applies":  true
+                               },
+                               {
+                                   "dimension":  8,
+                                   "determination":  "UNVERIFIED / INSUFFICIENT EVIDENCE",
+                                   "applies":  true
+                               }
+                           ],
+    "recommended_possible_blockers":  [
+
+                                      ],
+    "human_blocker_authority":  "Not identified",
+    "next_permitted_process":  "Fresh Requirement Analysis against docs/requirement/SupportIQ_Product_Requirement_v1.2.md after its own explicit initiation; not started.",
+    "later_process_started":  false,
+    "requirement_approved":  false,
+    "human_acceptance_claimed":  false,
+    "project_execution":  false,
+    "source_or_target_artifacts_modified":  false,
+    "commit_or_push":  false,
+    "limitations":  [
+                        "Static assessment only; no runtime/integration validation.",
+                        "Prior PB-01 and PB-02 are reported historical human-supplied dispositions with no external message ID/time claimed.",
+                        "Current user did not identify an authority for any future possible-blocker decision."
+                    ]
+}

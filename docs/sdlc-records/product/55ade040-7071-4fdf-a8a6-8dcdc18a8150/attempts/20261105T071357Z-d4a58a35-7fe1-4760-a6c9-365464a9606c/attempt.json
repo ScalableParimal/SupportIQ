@@ -1,0 +1,82 @@
+{
+  "record_type": "sdlc_process_attempt",
+  "schema_version": "1.0",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T071357Z-d4a58a35-7fe1-4760-a6c9-365464a9606c",
+  "process": "SDLC Portability Assessment",
+  "trigger": "material_change_reassessment",
+  "created_at_utc": "2026-11-05T07:13:57Z",
+  "actor": {
+    "identity": "AI assistant using Copilot SDK in VS Code",
+    "entrypoint": "portability-assessment skill"
+  },
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "url": "https://github.com/ScalableParimal/SupportIQ",
+    "root": "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "commit": "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+    "working_tree_clean_at_invocation": true
+  },
+  "master_governance": [
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    }
+  ],
+  "source_framework": {
+    "identity": "ScalableParimal/SupportIQ SDLC Process Automation framework",
+    "revision": "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+    "authorized_read_scope": [
+      "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md",
+      "docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md",
+      "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+      ".github/skills/portability-assessment/",
+      ".github/agents/portability-assessment.agent.md",
+      "authorized process-record rules"
+    ]
+  },
+  "target_project": {
+    "identity": "SupportIQ",
+    "revision": "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+    "authorized_read_scope": [
+      "docs/requirement/SupportIQ_Product_Requirement.md",
+      "docs/requirement/SupportIQ_Product_Requirement_v1.1.md",
+      "docs/requirement/SupportIQ_Product_Requirement_v1.2.md",
+      "the prior portability report and applicable Requirement Update records",
+      "relevant project architecture, instructions, security, testing/CI, deployment, and AI-control artifacts"
+    ]
+  },
+  "trigger_and_changed_inputs": "Material change: Requirement v1.2 was created after the prior assessment and materially clarifies product scope, roles/permissions, ticket lifecycle, retention, async jobs, and authentication/recovery. Prior assessment evidence is to be evaluated for applicability; no prior evidence is reused without fingerprint and scope comparison.",
+  "human_authorization": {
+    "source": "Current conversation, structured authorization response",
+    "decision": "Authorize one fresh material-change SDLC Portability Assessment attempt.",
+    "read_scope": "Source framework: this SupportIQ checkout’s three Master Governance files and the applicable portability assessment guideline, prompt, request, skill, agent, and process-record rules. Target: this SupportIQ checkout, including the v1.0/v1.1/v1.2 requirements, the prior portability report, Requirement Update records, and relevant project architecture, instructions, security, testing/CI, deployment, and AI-control artifacts. Resolve current branch/commit at invocation. Read-only; no scripts, tests, workflows, or runtime operations.",
+    "publication_scope": "Only this assessment’s own invocation, report, result, and necessary evidence under docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T071357Z-d4a58a35-7fe1-4760-a6c9-365464a9606c/.",
+    "possible_blocker_decision_authority": "Not identified; report any possible blocker as pending and do not decide it."
+  },
+  "execution_permissions": {
+    "read_only": true,
+    "scripts_tests_workflows_runtime": "not_authorized",
+    "target_or_framework_modification": "not_authorized",
+    "other_process_invocation": "not_authorized"
+  },
+  "publication": {
+    "persistence_root": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/",
+    "attempt_record_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T071357Z-d4a58a35-7fe1-4760-a6c9-365464a9606c/attempt.json",
+    "attempt_id_collision_checked": true,
+    "attempt_record_readback_verified": false
+  },
+  "status": "invocation_record_published_pending_readback_validation"
+}

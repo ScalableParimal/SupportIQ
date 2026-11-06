@@ -1,0 +1,97 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b:result",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+    "process":  "SDLC Portability Assessment",
+    "execution_status":  "COMPLETED",
+    "outcome":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+    "created_at_utc":  "2026-11-05T14:24:03Z",
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/attempt.json",
+                       "bytes":  8772,
+                       "sha256":  "3501A4AA6CEDA7DB0020BDF53A31D7A0FAEF0602D74FF621149240057DEF3B56"
+                   },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/report.md",
+                   "bytes":  13419,
+                   "sha256":  "EAE31189EF2379CD5DC8E65310E635CFCD1C5DC6BC8599C77AE96C2855A5580D"
+               },
+    "evidence":  {
+                     "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/evidence/assessment-evidence.json",
+                     "bytes":  8025,
+                     "sha256":  "F668BD2924BE75C3DEDCA1EBAF40E34C357CACB4C0EB4836EB54D72163F824B6"
+                 },
+    "evaluated_state":  {
+                            "repository":  "ScalableParimal/SupportIQ",
+                            "branch":  "SupportIQ-Requirement-Analysis",
+                            "head":  "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+                            "working_tree_clean":  false,
+                            "requirement_path":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+                            "requirement_bytes":  101677,
+                            "requirement_sha256":  "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                            "requirement_status":  "Draft Updated Requirement; unapproved",
+                            "master_fingerprints_match_adopted_baseline":  true,
+                            "trigger":  "material_change_reassessment_after_v1.7_update"
+                        },
+    "dimension_outcomes":  [
+                               {
+                                   "applies":  true,
+                                   "dimension":  1,
+                                   "determination":  "VERIFIED COMPATIBILITY"
+                               },
+                               {
+                                   "applies":  true,
+                                   "dimension":  2,
+                                   "determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION"
+                               },
+                               {
+                                   "applies":  true,
+                                   "dimension":  3,
+                                   "determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION"
+                               },
+                               {
+                                   "applies":  true,
+                                   "dimension":  4,
+                                   "determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION"
+                               },
+                               {
+                                   "applies":  true,
+                                   "dimension":  5,
+                                   "determination":  "UNVERIFIED / INSUFFICIENT EVIDENCE"
+                               },
+                               {
+                                   "applies":  true,
+                                   "dimension":  6,
+                                   "determination":  "UNVERIFIED / INSUFFICIENT EVIDENCE"
+                               },
+                               {
+                                   "applies":  true,
+                                   "dimension":  7,
+                                   "determination":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION"
+                               },
+                               {
+                                   "applies":  true,
+                                   "dimension":  8,
+                                   "determination":  "UNVERIFIED / INSUFFICIENT EVIDENCE"
+                               }
+                           ],
+    "recommended_possible_blockers":  [
+
+                                      ],
+    "human_blocker_authority":  "ScalableParimal, repository OWNER per resolved adoption decisions; no possible blocker recommended and no blocker decision is claimed.",
+    "next_permitted_process":  "Fresh Requirement Analysis against docs/requirement/SupportIQ_Product_Requirement_v1.7.md, after its own explicit Human Process Initiation Approval; not started.",
+    "later_process_started":  false,
+    "requirement_approved":  false,
+    "human_acceptance_claimed":  false,
+    "project_execution":  false,
+    "source_or_target_artifacts_modified":  false,
+    "commit_or_push":  false,
+    "limitations":  [
+                        "Static assessment limited to authorized requirements and governed records; source code/configuration, tests, CI, deployment, and project instructions outside authorized paths were not inspected.",
+                        "No product scripts, builds, tests, workflows, runtime, or external integrations were executed.",
+                        "Security enforcement, model/provider fit, Azure availability/quota/cost, operational behavior, and retention legal/business suitability remain unverified.",
+                        "The Customer no-related-ticket retention start event remains undefined in v1.7."
+                    ]
+}

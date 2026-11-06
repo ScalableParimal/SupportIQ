@@ -1,0 +1,108 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "record_id":  "20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9:analysis-evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9",
+    "process":  "Requirement Analysis",
+    "evidence_type":  "source-analysis-and-decision-traceability",
+    "created_at_utc":  "2026-11-05T10:57:28.123Z",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.5.md",
+                               "version_id":  "SupportIQ Product Requirement v1.5@sha256:FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99261,
+                               "sha256":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "source_modified":  false
+                           },
+    "predecessor":  {
+                        "process":  "Requirement Update",
+                        "attempt_id":  "20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739",
+                        "result_path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739\\result.json",
+                        "result_sha256":  "CD51427477251270B85235C905AE04FFEB8BA2B21FE7329D67AB872182DD4240",
+                        "report_path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739\\report.md",
+                        "report_sha256":  "222FB472D51ABA95A98F44434F8A1826AD5BF3AD6F2475120A2E78ECADC7B847",
+                        "outcome":  "REQUIREMENT_UPDATED; DRAFT_UNAPPROVED; FRESH_ANALYSIS_REQUIRED"
+                    },
+    "analysis_method":  {
+                            "fresh_against_v1_5":  true,
+                            "prior_v1_4_analysis_reused_as_evidence":  false,
+                            "human_decisions_applied_as_context":  true,
+                            "scope":  "Complete v1.5 review against Requirement Analysis Guideline criteria; source/product artifacts read-only."
+                        },
+    "human_decisions":  [
+                            {
+                                "reference":  "RA-A-01",
+                                "decision":  "owner_only",
+                                "meaning":  "Each user may read only their own conversation history.",
+                                "source_path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739\\evidence\\update-evidence.json",
+                                "source_sha256":  "08A0C5156C1EAFABAFD7DC4AFF44A1A1D0C9250F5BA1C4029832CCFB1E4EDB49",
+                                "decision_record_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-001.json",
+                                "decision_record_sha256":  "DD547E84BCA460FE252FF216BED7120FDF8BC3B3CAA36E1E22478F7A78F55263"
+                            },
+                            {
+                                "reference":  "RA-A-02",
+                                "decision":  "no_tenant_content",
+                                "meaning":  "Platform Admin assistant retrieval must not access tenant business content.",
+                                "source_path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739\\evidence\\update-evidence.json",
+                                "source_sha256":  "08A0C5156C1EAFABAFD7DC4AFF44A1A1D0C9250F5BA1C4029832CCFB1E4EDB49",
+                                "decision_record_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-002.json",
+                                "decision_record_sha256":  "B004E0EAC04FA441E670B91BD66C79CB690465DD80A0278CFE46FB615C99803D"
+                            }
+                        ],
+    "analysis_items":  {
+                           "ambiguities":  [
+                                               {
+                                                   "id":  "RA15-A-01",
+                                                   "references":  [
+                                                                      "FR-CA-07",
+                                                                      "Section 5.9 Conversations (ReadOwnHistory)",
+                                                                      "Section 9 History API"
+                                                                  ],
+                                                   "source_text":  "Section 9 API note: Enforce ownership/role and tenant access.",
+                                                   "impact":  "The API contract does not explicitly state that role/tenant permissions cannot broaden access beyond the conversation owner or whether they may further restrict an owner.",
+                                                   "disposition":  "Existing RA-A-01 resolves intended owner-only scope. Clarify API wording through separate Requirement Update before verification."
+                                               }
+                                           ],
+                           "conflicts":  [
+
+                                         ],
+                           "missing_information":  [
+                                                       "RA15-M-01: feedback read/review access is not mapped; default-deny and no read surface is specified.",
+                                                       "RA15-M-03 to RA15-M-06: model/region/token/cost, email provider, operation timeout/retry, and production retention items are explicitly deferred by Section 17."
+                                                   ],
+                           "assumptions":  [
+                                               "Azure AI model and Search resources will be available in a suitable region; validate before provider-dependent work.",
+                                               "Proposed retention defaults are not legal/business commitments and require validation before production.",
+                                               "CloudDesk/example data is fictional/synthetic as explicitly required."
+                                           ]
+                       },
+    "decision_status":  {
+                            "new_human_decisions_required":  false,
+                            "prior_clarifications_resolved":  [
+                                                                  "RA-A-01",
+                                                                  "RA-A-02"
+                                                              ],
+                            "requirement_update_required":  true,
+                            "reason":  "RA15-A-01 needs the Section 9 History API contract aligned with the existing owner-only decision."
+                        },
+    "outcome":  "ANALYSIS_COMPLETE; REQUIREMENT_UPDATE_REQUIRED",
+    "ready_for_requirement_analysis_verification":  false,
+    "next_permitted_process":  "After separate Human Process Initiation Approval, perform Requirement Update to align the History API contract with the existing owner-only decision; then perform fresh Requirement Analysis against the resulting version.",
+    "report_binding":  {
+                           "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9/report.md",
+                           "sha256":  "2D9A2FD64BED46E2B8A78DC38FDDD177796C338FECABCCAD97AB3C81B0E0A2D2",
+                           "bytes":  13384
+                       },
+    "invocation_binding":  {
+                               "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9/attempt.json",
+                               "sha256":  "755E194029A2D41C78C2642EB263F32D63614989E29A7568FEB7FC6B48BD3E00"
+                           },
+    "checkpoint_binding":  {
+                               "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9/checkpoint-0001.json",
+                               "sha256":  "3801A3F54630112053D261B7D324E3DCF718E3CFF1BF138F76C1991D9FE4E99D"
+                           },
+    "tests_builds_or_runtime_executed":  false,
+    "source_or_product_artifacts_modified":  false,
+    "later_process_started":  false
+}

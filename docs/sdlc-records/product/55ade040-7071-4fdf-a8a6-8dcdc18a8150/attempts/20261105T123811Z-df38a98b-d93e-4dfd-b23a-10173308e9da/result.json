@@ -1,0 +1,126 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da:result",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da",
+    "process":  "Requirement Analysis",
+    "status":  "COMPLETED",
+    "outcome":  "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED; REQUIREMENT_UPDATE_REQUIRED",
+    "created_at_utc":  "2026-11-05T12:45:49.125Z",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "version_id":  "SupportIQ Product Requirement v1.6@sha256:2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "bytes":  99368,
+                               "sha256":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "source_modified":  false
+                           },
+    "human_decisions_considered":  [
+                                       {
+                                           "reference":  "RA-A-01",
+                                           "decision":  "owner_only",
+                                           "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-001.json",
+                                           "evidence_sha256":  "DD547E84BCA460FE252FF216BED7120FDF8BC3B3CAA36E1E22478F7A78F55263"
+                                       },
+                                       {
+                                           "reference":  "RA-A-02",
+                                           "decision":  "no_tenant_content",
+                                           "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-002.json",
+                                           "evidence_sha256":  "B004E0EAC04FA441E670B91BD66C79CB690465DD80A0278CFE46FB615C99803D"
+                                       }
+                                   ],
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/attempt.json",
+                       "bytes":  22831,
+                       "sha256":  "6C72EE1EDDF1008FEAA2D2129F39DD158A688E64D63BD2E876EF8058C7434F74"
+                   },
+    "checkpoints":  [
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/checkpoint-0001.json",
+                            "bytes":  2379,
+                            "sha256":  "23825D484AAF42D838AF33C90E648F0B13B21E4A493955F1705F2B7957AA9D0D"
+                        },
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/checkpoint-0002.json",
+                            "bytes":  2325,
+                            "sha256":  "E7828E6F9A0397495EC3959774FCB556BB95D7496143C8360690FB4746B906A8"
+                        }
+                    ],
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/report.md",
+                   "bytes":  11198,
+                   "sha256":  "0040C94646C14E9659519F78BC21D0CD3B3FC38503520CE789B61FC191773FC6",
+                   "required_sections":  10
+               },
+    "evidence":  [
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/analysis-evidence.json",
+                         "bytes":  7771,
+                         "sha256":  "B0190C578BDB3AC3E2D5AB5907DB3F9F097BC278EF79BC3B8BCE86D65565893A"
+                     }
+                 ],
+    "analysis_items":  {
+                           "ambiguities":  [
+                                               {
+                                                   "id":  "RA16-A-01",
+                                                   "description":  "Clarify whether FR-AN-06 single-tenant aggregate analytics may be exposed by Platform Admin assistant under RA-A-02."
+                                               }
+                                           ],
+                           "missing_information":  [
+                                                       {
+                                                           "id":  "RA16-M-01",
+                                                           "description":  "Explicit Customer Read/Search permission absent from default-deny catalogue."
+                                                       },
+                                                       {
+                                                           "id":  "RA16-M-02",
+                                                           "description":  "Customer retention inactive condition and 365-day clock require definition before cleanup."
+                                                       },
+                                                       {
+                                                           "id":  "RA16-M-03",
+                                                           "description":  "Feedback read/review access unspecified; no read access inferred."
+                                                       },
+                                                       {
+                                                           "id":  "RA16-M-04",
+                                                           "description":  "Section 17 model, provider, cost, timeout/retry decisions remain deferred."
+                                                       }
+                                                   ]
+                       },
+    "human_requirement_approved":  false,
+    "implementation_authorized":  false,
+    "conclusion":  {
+                       "ready_for_requirement_analysis_verification":  false,
+                       "requirement_update_required":  true,
+                       "human_decisions_required":  true,
+                       "blocking_decisions":  [
+                                                  "RA16-Q-01",
+                                                  "RA16-Q-02"
+                                              ],
+                       "additional_decision_before_cleanup":  [
+                                                                  "RA16-Q-03"
+                                                              ],
+                       "reason":  "Clarify Platform Admin assistant analytics boundary and Customer lookup permission mapping; define Customer retention behavior before cleanup implementation."
+                   },
+    "validation":  {
+                       "status":  "PASS",
+                       "source_fingerprint_matches_invocation":  true,
+                       "source_read_only":  true,
+                       "full_text_lines":  804,
+                       "functional_requirement_ids":  97,
+                       "unique_functional_requirement_ids":  97,
+                       "markdown_table_blocks":  26,
+                       "report_required_sections_present":  true,
+                       "report_and_evidence_readback_verified":  true,
+                       "tests_or_builds_run":  false
+                   },
+    "next_permitted_process":  "After explicit human decisions and separate initiation/output-scope authorization, perform the applicable Requirement Update; then fresh Requirement Analysis against the resulting version, complete independent Requirement Analysis Verification, resolve any findings/decisions, and obtain separate Human Requirement Approval.",
+    "later_process_started":  false,
+    "source_or_product_artifacts_modified":  false,
+    "implementation_plan_modified":  false,
+    "tests_configuration_or_code_modified":  false,
+    "commit_or_push":  false,
+    "limitations":  [
+                        "This is analysis only; no Requirement Update, independent verification, approval, planning, implementation, tests, build, commit, or push was performed.",
+                        "v1.6 remains unapproved."
+                    ]
+}

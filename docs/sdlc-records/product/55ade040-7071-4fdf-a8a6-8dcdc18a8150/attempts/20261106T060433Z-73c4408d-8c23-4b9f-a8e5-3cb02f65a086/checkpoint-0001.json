@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_orchestration_checkpoint",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086",
+  "checkpoint_id": "checkpoint-0001",
+  "created_at_utc": "2026-11-06T06:14:01Z",
+  "last_confirmed_boundary": "Requirement Update completed; no subsequent process started",
+  "process": "Requirement Update",
+  "execution_status": "COMPLETED",
+  "outcome": "REQUIREMENT_UPDATED; DRAFT_UPDATED_UNAPPROVED",
+  "source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+    "version_id": "v1.7",
+    "sha256": "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+    "bytes": 101677,
+    "status": "Draft Updated Requirement; unapproved",
+    "sha256_match_after_update": true,
+    "modified": false
+  },
+  "resulting_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.8.md",
+    "version_id": "v1.8",
+    "sha256": "E7FB3E982555034B098D42E258CAFBEDB651A0A05B736A99DE987DAB6355AD1B",
+    "bytes": 117136,
+    "status": "Draft Updated Requirement; unapproved",
+    "predecessor_version_id": "v1.7",
+    "predecessor_sha256": "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9"
+  },
+  "decisions_applied": [
+    "RA17-Q-01: no-ticket retention starts at Customer.CreatedAt; associated tickets suspend cleanup; active tickets prevent purge; timer resets after all related tickets are terminal; revalidate before deletion.",
+    "RA17-Q-02: Agent Customer access only through currently assigned tickets, no extra grant; immediate revocation on reassignment or loss of authorization.",
+    "RA17-Q-03: existing Tenant Admin owns within-tenant central triage for completely unassigned tickets; Managers remain within assigned teams; no new role/permission/grant; Platform Admin has no routine tenant ticket-business access.",
+    "RA17-Q-04: approved permanent tenant deletion after the 30-day grace and independent second Platform Admin approval overrides deactivated-user 365-day retention; purge eligible personal/business data; preserve minimum necessary protected audit metadata only.",
+    "Customer Search: mandatory first-release scope and exact fields, matching, filters, sorts, pagination, role scopes, direct-ID enforcement; email not searchable.",
+    "Feedback Read: mandatory first-release permission and role scopes; limited fields only; no conversation history/message content; server-side enforcement and audit.",
+    "Customer email masking/unmasking: masked for Platform Admin, Support Manager, Support Agent; own-tenant Tenant Admin full address only through explicit detail operation; all-path masking and full-access audit."
+  ],
+  "validation": {
+    "process_scope": "Only the authorized Requirement Update; no fresh Analysis, Verification, approval, planning, implementation, tests/builds, commits, or pushes.",
+    "source_identity": "User-specified SHA-256 matched before reading; post-update SHA-256 still matches.",
+    "version_sequence": "No later version than v1.7 existed at update start; v1.8 path was absent before creation.",
+    "preservation": "v1.7 and prior Requirement artifacts were not edited; prior process records were not edited.",
+    "consistency_review": "Related role, permission, search, feedback, email, retention, tenant-deletion, workflow, acceptance, test-strategy, and Definition-of-Done language was checked for alignment; no stale contradictory Agent/central-triage/no-ticket statements remained in v1.8.",
+    "readback": "Resulting v1.8 file was read back and its bytes matched the recorded SHA-256.",
+    "approval": "No Human Requirement Approval, Human Review Approval, or Human Acceptance is claimed."
+  },
+  "preserved_caveat": "The user-identified predecessor preflight source-hash-before-invocation-publication caveat remains preserved and unwaived; predecessor records were not rewritten. This invocation record was published and integrity-checked before v1.7 was read. Current governing artifacts were checked; no rule designating the predecessor caveat as a blocker to this Update was found.",
+  "pending_work": "Stop at Requirement Update boundary. Subsequent governed path: fresh Requirement Analysis against v1.8, complete independent Requirement Analysis Verification, resolve any findings/decisions, then separate Human Requirement Approval.",
+  "unfinished_work": "None within the authorized Requirement Update scope."
+}

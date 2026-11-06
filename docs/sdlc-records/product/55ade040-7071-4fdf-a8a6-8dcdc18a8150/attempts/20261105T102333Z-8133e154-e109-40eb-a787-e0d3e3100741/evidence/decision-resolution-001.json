@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "record_id": "20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741:decision-resolution-001",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741",
+  "process": "Requirement Analysis",
+  "evidence_type": "human-decision-clarification",
+  "created_at_utc": "2026-11-05T10:36:32.131Z",
+  "source": "Current conversation structured response; exact platform response timestamp unavailable.",
+  "decision": {
+    "question_id": "RA-A-01",
+    "requirement": "FR-CA-07",
+    "question": "Which users may view conversation history permitted by role?",
+    "response": "owner_only",
+    "selected_option": "Conversation owner only (recommended)",
+    "meaning": "Each user may view only their own conversation history; other roles may not read another user's history."
+  },
+  "impact": "Clarifies the history access rule for analysis. v1.4 remains unchanged; a separate authorized Requirement Update is required before this becomes part of the source requirement."
+}

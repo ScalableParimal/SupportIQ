@@ -1,0 +1,42 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8:checkpoint-0002",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8",
+    "process":  "Requirement Update",
+    "sequence":  2,
+    "created_at_utc":  "2026-11-05T11:07:12.067Z",
+    "status":  "VALIDATION_PASSED; TERMINAL_RESULT_PENDING",
+    "phase":  "Requirement Update complete; final result binding and publication pending",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.5.md",
+                               "sha256_before":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "sha256_after":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "sha256":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "bytes":  99368,
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/report.md",
+                   "sha256":  "B429BC77BBE9D11CA930A80B2FF929A5A92275579351D226089708882405E215"
+               },
+    "evidence":  {
+                     "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8dcdc18a8150/evidence/update-evidence.json",
+                     "sha256":  "6EA12372D2AF8A89FB1E457989B3AB2C5E4B43D699461AB613C8FDB41AE876CB"
+                 },
+    "validation":  {
+                       "status":  "PASS",
+                       "functional_requirement_ids_preserved":  97,
+                       "markdown_table_blocks_preserved":  26,
+                       "diff_limited_to_authorized_change":  true,
+                       "source_preserved":  true,
+                       "result_readback_verified":  true,
+                       "tests_or_builds_run":  false
+                   },
+    "downstream_process_started":  false
+}

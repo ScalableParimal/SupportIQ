@@ -1,0 +1,38 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da:checkpoint-0002",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da",
+    "process":  "Requirement Analysis",
+    "sequence":  2,
+    "created_at_utc":  "2026-11-05T12:45:49.097Z",
+    "status":  "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED",
+    "phase":  "Analysis report and evidence published; terminal result pending",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "sha256":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "bytes":  99368,
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "preserved_unchanged":  true
+                           },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/report.md",
+                   "bytes":  11198,
+                   "sha256":  "0040C94646C14E9659519F78BC21D0CD3B3FC38503520CE789B61FC191773FC6"
+               },
+    "evidence":  {
+                     "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/analysis-evidence.json",
+                     "bytes":  7771,
+                     "sha256":  "B0190C578BDB3AC3E2D5AB5907DB3F9F097BC278EF79BC3B8BCE86D65565893A"
+                 },
+    "analysis_conclusion":  {
+                                "outcome":  "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED; REQUIREMENT_UPDATE_REQUIRED",
+                                "blocking_questions":  [
+                                                           "RA16-Q-01",
+                                                           "RA16-Q-02"
+                                                       ],
+                                "requirement_analysis_verification_ready":  false
+                            },
+    "downstream_process_started":  false
+}

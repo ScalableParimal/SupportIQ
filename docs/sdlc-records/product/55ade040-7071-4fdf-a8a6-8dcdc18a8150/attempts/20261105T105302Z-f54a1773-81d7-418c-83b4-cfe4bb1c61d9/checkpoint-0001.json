@@ -1,0 +1,25 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9:checkpoint-0001",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9",
+    "process":  "Requirement Analysis",
+    "sequence":  1,
+    "created_at_utc":  "2026-11-05T10:54:26.580Z",
+    "status":  "IN_PROGRESS",
+    "phase":  "Authorized fresh source analysis started",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.5.md",
+                               "sha256":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99261,
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "analysis_boundary":  "Fresh analysis of complete v1.5 source; prior v1.4 analysis not reused as evidence; two human decisions considered as approved context.",
+    "decisions":  [
+                      "RA-A-01: owner_only; each user may read only their own conversation history.",
+                      "RA-A-02: no_tenant_content; Platform Admin assistant retrieval must not access tenant business content."
+                  ],
+    "source_modified":  false,
+    "downstream_process_started":  false
+}

@@ -1,0 +1,39 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8:checkpoint-0003",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8",
+    "process":  "Requirement Update",
+    "sequence":  3,
+    "created_at_utc":  "2026-11-05T11:08:18.376Z",
+    "status":  "POST_COMPLETION_RECORD_CORRECTION; ORIGINALS_PRESERVED",
+    "phase":  "Supplemental clarification of a malformed redundant evidence pointer in checkpoint 0002",
+    "correction":  {
+                       "type":  "linked record pointer clarification",
+                       "prior_checkpoint":  {
+                                                "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8dcdc18a8150/checkpoint-0002.json",
+                                                "sha256":  "4542A1F54F8815AA20A2758A5B78460912DD99EC49616E9EC6222CF7A97CB983",
+                                                "field":  "evidence.path",
+                                                "recorded_value":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8dcdc18a8150/evidence/update-evidence.json"
+                                            },
+                       "authoritative_evidence":  {
+                                                      "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8dcdc18a8150/evidence/update-evidence.json",
+                                                      "sha256":  "6EA12372D2AF8A89FB1E457989B3AB2C5E4B43D699461AB613C8FDB41AE876CB",
+                                                      "meaning":  "The correct evidence path is the result-bound evidence path below; checkpoint 0002 contains a malformed redundant path and is retained unchanged."
+                                                  },
+                       "terminal_result":  {
+                                               "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8dcdc18a8150/result.json",
+                                               "sha256":  "0C19DD9120D732A74491799102FF265C5377BE5B3B549FDDDBD146254D1E7BA1",
+                                               "correct_evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/evidence/update-evidence.json",
+                                               "correct_evidence_sha256":  "6EA12372D2AF8A89FB1E457989B3AB2C5E4B43D699461AB613C8FDB41AE876CB"
+                                           }
+                   },
+    "preservation":  {
+                         "checkpoint_0002_modified":  false,
+                         "result_modified":  false,
+                         "requirement_modified":  false,
+                         "terminal_result_still_binds_correct_evidence":  true
+                     },
+    "scope":  "Supplemental record only within this attempt authorized checkpoint scope; no additional Requirement or downstream process started."
+}

@@ -1,0 +1,77 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25:result",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25",
+    "process":  "Requirement Analysis",
+    "execution_status":  "COMPLETED",
+    "outcome":  "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED; REQUIREMENT_UPDATE_OR_REFRESH_REQUIRED",
+    "created_at_utc":  "2026-11-05T16:55:28Z",
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25/attempt.json",
+                       "bytes":  3842,
+                       "sha256":  "DDDF5392610A5D36A9CAB0F4F40ACBA13FEC4D5DBED1EC562FBAB51212545D64"
+                   },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25/report.md",
+                   "bytes":  18112,
+                   "sha256":  "FEB728E2F187CC39DDDA2A2DFAFB82FAC74BCFA3196406A8BB8EEF06CB4A8D1E"
+               },
+    "evidence":  {
+                     "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25/evidence/analysis-evidence.json",
+                     "bytes":  10638,
+                     "sha256":  "866C02884BFBE5364EF8266D48AE929EAB7F88FD32640C932256264756F90836"
+                 },
+    "source":  {
+                   "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+                   "version":  "v1.7",
+                   "bytes":  101677,
+                   "sha256":  "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                   "expected_sha256_match":  true,
+                   "source_or_product_artifact_modified":  false
+               },
+    "predecessor":  {
+                        "process":  "SDLC Portability Assessment",
+                        "attempt_id":  "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+                        "result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/result.json",
+                        "result_sha256":  "53E2410FBBF2131CD1CED4BF3CB0AE946CE5CCB244B23A8CB5BBC417DFE8F2E4",
+                        "outcome":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                        "possible_blockers":  0,
+                        "applicability":  "same repository/branch/HEAD; same v1.7 source SHA-256; adopted Master fingerprints match"
+                    },
+    "human_decisions_incorporated":  [
+                                         "RA16-Q-01",
+                                         "RA16-Q-02",
+                                         "RA16-Q-03",
+                                         "RA16-Q-03-followup"
+                                     ],
+    "blocking_questions":  [
+                               "RA17-Q-01"
+                           ],
+    "important_questions":  [
+                                "RA17-Q-02",
+                                "RA17-Q-03",
+                                "RA17-Q-04"
+                            ],
+    "readiness":  {
+                      "requirement_finalization":  "NOT_READY",
+                      "requirement_analysis_verification":  "NOT_READY",
+                      "reason":  "Material human decisions remain; a resulting Requirement Update and post-update analysis/refresh are required before independent verification."
+                  },
+    "next_governed_stage":  "After human decisions, separately initiated Requirement Update if v1.7 changes; then fresh Requirement Analysis/refresh; then Requirement Analysis Verification. No subsequent stage authorized or started.",
+    "requirement_approved":  false,
+    "requirement_verified":  false,
+    "implementation_authorized":  false,
+    "human_acceptance_claimed":  false,
+    "source_or_product_artifacts_modified":  false,
+    "other_process_started":  false,
+    "tests_or_builds_run":  false,
+    "commit_or_push":  false,
+    "prior_attempt_modified":  false,
+    "limitations":  [
+                        "Product code, tests, configuration, CI, deployment, runtime, and external services were not inspected or executed.",
+                        "No claim is made about current implementation enforcement, service availability, cost, or legal/regulatory retention suitability.",
+                        "Analysis is limited to the bound Requirement, applicable governance, and cited persisted evidence."
+                    ]
+}

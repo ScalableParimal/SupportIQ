@@ -1,0 +1,158 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "record_id":  "20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e:update-evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e",
+    "process":  "Requirement Update",
+    "evidence_type":  "requirement-update-lineage-and-validation",
+    "created_at_utc":  "2026-11-05T13:53:24.176Z",
+    "update_context":  "Initial Analysis Clarification (pre-approval)",
+    "authorization":  {
+                          "attempt_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e/attempt.json",
+                          "attempt_sha256":  "387E90032C19BB460CFA0394BAC51136F95FE54BBB53D81A2ACD586DEEED9146",
+                          "process_initiation_authorized":  true,
+                          "record_publication_authorized":  true,
+                          "source":  "Current conversation structured response; exact platform response timestamp unavailable",
+                          "response":  "authorize_update=true"
+                      },
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "version_id":  "SupportIQ Product Requirement v1.6@sha256:2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "bytes":  99368,
+                               "sha256_before":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "sha256_after":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "status_evidence":  [
+                                                       {
+                                                           "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/result.json",
+                                                           "sha256":  "0C19DD9120D732A74491799102FF265C5377BE5B3B549FDDDBD146254D1E7BA1"
+                                                       },
+                                                       {
+                                                           "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/result.json",
+                                                           "sha256":  "65E4A422580035D55AEA09BCAEE78AC523B8554C44DA75B69487DFAFF881C912"
+                                                       }
+                                                   ],
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+                               "version_id":  "SupportIQ Product Requirement v1.7@sha256:E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                               "predecessor_version_id":  "SupportIQ Product Requirement v1.6@sha256:2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "bytes":  101677,
+                               "sha256":  "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da",
+                           "outcome":  "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED; REQUIREMENT_UPDATE_REQUIRED",
+                           "report_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/report.md",
+                           "report_sha256":  "0040C94646C14E9659519F78BC21D0CD3B3FC38503520CE789B61FC191773FC6",
+                           "result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/result.json",
+                           "result_sha256":  "65E4A422580035D55AEA09BCAEE78AC523B8554C44DA75B69487DFAFF881C912"
+                       },
+    "human_decisions":  [
+                            {
+                                "question_id":  "RA16-Q-01",
+                                "decision":  "single_tenant_aggregates_allowed",
+                                "requirement_ids":  [
+                                                        "FR-CA-02",
+                                                        "FR-ID-09"
+                                                    ],
+                                "meaning":  "Platform Admin assistant may use only FR-AN-06 aggregate analytics for one selected authorized tenant; no tenant records or knowledge documents.",
+                                "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-001.json",
+                                "evidence_sha256":  "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6"
+                            },
+                            {
+                                "question_id":  "RA16-Q-02",
+                                "decision":  "add_customer_read_mapping",
+                                "requirement_ids":  [
+
+                                                    ],
+                                "meaning":  "Add Customer Read/Search to the default-deny catalogue using existing role scopes; keep Platform Admin separately restricted.",
+                                "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-001.json",
+                                "evidence_sha256":  "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6"
+                            },
+                            {
+                                "question_id":  "RA16-Q-03",
+                                "decision":  "no_active_related_tickets_365_days_after_last_terminal",
+                                "requirement_ids":  [
+
+                                                    ],
+                                "meaning":  "Customer inactive when no associated tickets are active; start 365-day period when last related ticket becomes terminal.",
+                                "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-001.json",
+                                "evidence_sha256":  "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6"
+                            },
+                            {
+                                "question_id":  "RA16-Q-03-followup",
+                                "decision":  "closed_or_cancelled_terminal",
+                                "requirement_ids":  [
+
+                                                    ],
+                                "meaning":  "Closed and Cancelled both count as terminal for the last-related-ticket retention trigger.",
+                                "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-002.json",
+                                "evidence_sha256":  "567B77A2892909ACF83DA89EDFE5BC1D6DD1F6B0E00910B582BDAF9135AFE50F"
+                            }
+                        ],
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e/report.md",
+                   "bytes":  5445,
+                   "sha256":  "3A6B208171AAC3251BBA18E78C6A88E1CFDB81E4D8D89F98D9F4D2F45A62CB87"
+               },
+    "changes":  {
+                    "affected_requirement_ids":  [
+                                                     "FR-CA-02",
+                                                     "FR-ID-09"
+                                                 ],
+                    "unchanged_alignment":  [
+                                                "FR-AN-06 scope remains unchanged and is referenced as the authorized aggregate-only scope."
+                                            ],
+                    "affected_sections":  [
+                                              "Version label and lineage metadata",
+                                              "Section 5.1 FR-CA-02",
+                                              "Section 5.5 role-based tool access",
+                                              "Section 5.9 FR-ID-09 and default-deny permission catalogue/mapping",
+                                              "Section 5.11 Customer-record retention",
+                                              "Section 13 Acceptance Criteria",
+                                              "Section 18 Definition of Done"
+                                          ],
+                    "added":  "Customer (Read, Search) permission and role-scope mapping; aligned acceptance criteria and Definition of Done.",
+                    "modified":  "Platform Admin assistant restriction now permits only single-selected-tenant aggregate analytics under FR-AN-06 and prohibits tenant documents/underlying records; Customer inactivity and 365-day terminal-event retention rule clarified.",
+                    "superseded":  "Blanket assistant ban on all tenant-derived content superseded only by the explicit aggregate-analytics exception; prior ambiguous Customer retention wording superseded.",
+                    "diff_summary":  "Version label/lineage, two FR entries, Section 5.5 assistant boundary, Section 5.9 permission catalogue/rules/mapping, Customer retention row, acceptance criteria, and directly related Definition of Done checks.",
+                    "other_decisions":  "No other requirement decisions or recommendations were incorporated."
+                },
+    "validation":  {
+                       "status":  "PASS",
+                       "source_hash_matches_authorization":  true,
+                       "source_preserved_before_and_after":  true,
+                       "target_hash_matches_readback":  true,
+                       "target_lineage_binds_to_v1_6":  true,
+                       "unapproved_status_preserved":  true,
+                       "assistant_aggregate_exception_aligned_across_related_sections":  true,
+                       "underlying_tenant_records_and_documents_remain_prohibited_for_platform_admin_assistant":  true,
+                       "customer_read_search_scopes_explicit":  true,
+                       "customer_retention_matches_closed_and_cancelled_decisions":  true,
+                       "functional_requirement_ids_source":  97,
+                       "functional_requirement_ids_result":  97,
+                       "functional_requirement_ids_preserved":  true,
+                       "markdown_table_blocks_source":  26,
+                       "markdown_table_blocks_result":  26,
+                       "diff_limited_to_authorized_decisions":  true,
+                       "report_readback_verified":  true,
+                       "tests_or_builds_run":  false
+                   },
+    "remaining_open_questions":  [
+                                     "Retention start for Customer records with no related tickets is undefined; no date was inferred.",
+                                     "Customer feedback read/review access remains unspecified.",
+                                     "Model/provider, token/cost, and background timeout/retry decisions remain deferred."
+                                 ],
+    "assumptions":  [
+                        "No new material assumption was introduced.",
+                        "The no-related-ticket retention case remains unresolved and is not assigned a policy."
+                    ],
+    "limitations":  [
+                        "No tests or builds were run; this was documentation-only.",
+                        "No Requirement Analysis, independent verification, Human Requirement Approval, planning, implementation, commit, or push was started."
+                    ]
+}

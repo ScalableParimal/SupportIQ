@@ -1,0 +1,61 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e:checkpoint-0002",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e",
+    "process":  "Requirement Update",
+    "checkpoint_number":  2,
+    "created_at_utc":  "2026-11-05T13:54:58.454Z",
+    "phase":  "requirement_updated_and_validated",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "version_id":  "SupportIQ Product Requirement v1.6@sha256:2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "sha256_before":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "sha256_after":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+                               "version_id":  "SupportIQ Product Requirement v1.7@sha256:E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                               "bytes":  101677,
+                               "sha256":  "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                               "status":  "Draft Updated Requirement; unapproved"
+                           },
+    "decisions_applied":  [
+                              "RA16-Q-01",
+                              "RA16-Q-02",
+                              "RA16-Q-03",
+                              "RA16-Q-03-followup"
+                          ],
+    "published_outputs":  [
+                              {
+                                  "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e/report.md",
+                                  "bytes":  5445,
+                                  "sha256":  "3A6B208171AAC3251BBA18E78C6A88E1CFDB81E4D8D89F98D9F4D2F45A62CB87"
+                              },
+                              {
+                                  "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e/evidence/update-evidence.json",
+                                  "bytes":  12916,
+                                  "sha256":  "EA7FBE55682A0995B953994A990BF0C1A94626F4782F9361370045EEBABA7667"
+                              }
+                          ],
+    "validation":  {
+                       "source_preserved":  true,
+                       "target_readback_verified":  true,
+                       "functional_requirement_ids_source":  97,
+                       "functional_requirement_ids_result":  97,
+                       "functional_requirement_id_sets_equal":  true,
+                       "markdown_table_blocks_source":  26,
+                       "markdown_table_blocks_result":  26,
+                       "unapproved_status_preserved":  true,
+                       "approved_change_scope_only":  true,
+                       "tests_or_builds_run":  false
+                   },
+    "remaining_open_questions":  [
+                                     "Retention start for Customer records with no related tickets is undefined; no date was inferred.",
+                                     "Customer feedback read/review access remains unspecified.",
+                                     "Model/provider, token/cost, and background timeout/retry decisions remain deferred."
+                                 ],
+    "next_action":  "Stop at Requirement Update. Fresh Requirement Analysis against v1.7 requires a separate Human Process Initiation Approval."
+}

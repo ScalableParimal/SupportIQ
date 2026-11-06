@@ -1,0 +1,115 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "record_id":  "20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0:update-evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0",
+    "process":  "Requirement Update",
+    "evidence_type":  "requirement-update-evidence",
+    "created_at_utc":  "2026-11-05T10:20:08.167Z",
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0/attempt.json",
+                       "bytes":  15706,
+                       "sha256":  "D86514BF5609F373C5768088A86BF7BCA43132675F07ADB43BB246D040735705"
+                   },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0/report.md",
+                   "bytes":  5163,
+                   "sha256":  "566604D3FEF5A00445284374F21DC8BB4958B146645A3EED99FFA0B45DD565A4"
+               },
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.3.md",
+                               "version_id":  "SupportIQ Product Requirement v1.3@sha256:AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+                               "bytes":  95458,
+                               "sha256":  "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.4.md",
+                               "version_id":  "SupportIQ Product Requirement v1.4@sha256:332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "bytes":  98684,
+                               "sha256":  "332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "update_context":  "Initial Analysis Clarification (pre-approval)",
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd",
+                           "outcome":  "ANALYSIS_COMPLETE_WITH_HUMAN_CLARIFICATIONS; REQUIREMENT_UPDATE_REQUIRED",
+                           "questions":  [
+                                             "RA-A-01",
+                                             "RA-A-02",
+                                             "RA-A-03"
+                                         ],
+                           "report":  {
+                                          "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/report-revision-0001.md",
+                                          "sha256":  "005777AB1BF6B5F9A1422787340D8BC5C9026AB774F8EF7BED32EF5F2CE77799"
+                                      },
+                           "result":  {
+                                          "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/result.json",
+                                          "sha256":  "4ABFD516FB0B1CF37CED2ED02B6BCC37791D7D86DBCAD2804D6906C5903BEB98"
+                                      },
+                           "evidence":  [
+                                            {
+                                                "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/evidence/analysis-evidence.json",
+                                                "sha256":  "302DA9368D77045E31A2A73125384C713784B6160570CEAC49DBC090D9698718"
+                                            },
+                                            {
+                                                "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/evidence/decision-resolution.json",
+                                                "sha256":  "992178555E4A259234CA893CB317BA345C646B5F6F0F34417B8989C35600CD6E"
+                                            }
+                                        ]
+                       },
+    "human_authorization":  {
+                                "process_initiation":  true,
+                                "record_publication":  true,
+                                "source":  "Current conversation structured response; exact response time unavailable",
+                                "scope":  "Create v1.4 with only the three recorded decisions, preserve v1.3, and publish this attempt own invocation/report/result/necessary evidence only."
+                            },
+    "decisions_applied":  {
+                              "RA_A_01":  "AI Customer Assistant restricted to Platform Admin, Tenant Admin, Support Manager, and Support Agent; no external customers.",
+                              "RA_A_02":  {
+                                              "Tenant_Admin":  "tenant-scoped",
+                                              "Support_Manager":  "assigned-team",
+                                              "Support_Agent":  "own authorized-ticket data",
+                                              "Platform_Admin":  "aggregate-only for one explicitly selected authorized tenant; no cross-tenant view or underlying tenant business records"
+                                          },
+                              "RA_A_03":  "Deactivated user cannot reset password until separately reactivated."
+                          },
+    "changed_requirement_surfaces":  [
+                                         "Sections 4.1, 5.1, 5.5-5.6, 5.9, 6.7, 13-14, and 18; FR-CA-01, FR-WF-01, FR-AN-01, FR-AN-03, new FR-AN-06, FR-ID-14."
+                                     ],
+    "validation":  {
+                       "status":  "PASS",
+                       "numbered_sections":  18,
+                       "functional_requirement_ids":  97,
+                       "markdown_table_blocks":  26,
+                       "table_columns_consistent":  true,
+                       "changes_limited_to_approved_sections":  true,
+                       "source_preserved":  true,
+                       "final_requirement_read_back_verified":  true,
+                       "lineage_and_status_verified":  true,
+                       "scope_consistent":  true,
+                       "unresolved_contradiction_identified":  false,
+                       "partial_files_remaining":  0,
+                       "tests_or_builds_run":  false
+                   },
+    "remaining_open_questions":  [
+                                     "Azure AI generation/embedding deployments, region, availability, compatibility, quota, pricing, and regional support.",
+                                     "Model-specific token limits and monthly cost budget.",
+                                     "Email provider, sender identity, and deployment configuration.",
+                                     "Per-operation background timeout and retry values.",
+                                     "Legal/business validation of proposed retention/deletion defaults before production."
+                                 ],
+    "remaining_material_assumptions":  [
+                                           "No new material assumptions introduced; existing synthetic-data, Azure resource availability, and proposed retention assumptions remain."
+                                       ],
+    "outcome":  "REQUIREMENT_UPDATED; DRAFT_UNAPPROVED; FRESH_ANALYSIS_REQUIRED",
+    "requirement_approved":  false,
+    "implementation_authorized":  false,
+    "next_permitted_process":  "After separate Human Process Initiation Approval, perform a fresh Requirement Analysis against v1.4, then complete independent Requirement Analysis Verification, resolve any findings, and obtain separate Human Requirement Approval.",
+    "tests_builds_or_runtime_executed":  false,
+    "implementation_plan_modified":  false,
+    "source_code_or_tests_modified":  false,
+    "commit_or_push":  false
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "record_id": "20261105T083247Z-98fe9ebe-16e5-462c-9e5f-15cd6f0df616:update-evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T083247Z-98fe9ebe-16e5-462c-9e5f-15cd6f0df616",
+  "process": "Requirement Update",
+  "evidence_type": "requirement-update-evidence",
+  "completed_at_utc": "2026-11-05T08:44:22Z",
+  "update_context": "Initial Analysis Clarification (pre-approval)",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T083247Z-98fe9ebe-16e5-462c-9e5f-15cd6f0df616/attempt.json",
+    "sha256": "182F28035CD2BD74C610C67AC57D4147E519DB6B4B116D483FF15A949B06FF27"
+  },
+  "authorization": {
+    "source": "Explicit human authorization in the current conversation, recorded in this attempt's invocation record",
+    "scope": "Create immutable Requirement v1.3 from v1.2 using only the clarified human decisions; preserve all prior versions; publish this attempt's own records only.",
+    "not_authorized": [
+      "Human Requirement Approval",
+      "Requirement Analysis Verification",
+      "Implementation Planning",
+      "Implementation"
+    ]
+  },
+  "source_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.2.md",
+    "version_id": "SupportIQ Product Requirement v1.2@sha256:D206C95AD75E0D7E1B1169144B29ADE219F3C42299FE5C3ED3C20F75DD8D99AA",
+    "bytes": 77893,
+    "sha256": "D206C95AD75E0D7E1B1169144B29ADE219F3C42299FE5C3ED3C20F75DD8D99AA",
+    "lifecycle_status": "Draft Updated Requirement; unapproved",
+    "preserved_unchanged": true
+  },
+  "result_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.3.md",
+    "version_id": "SupportIQ Product Requirement v1.3@sha256:AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+    "bytes": 95458,
+    "sha256": "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+    "lifecycle_status": "Draft Updated Requirement; unapproved",
+    "publication": {
+      "collision_checked": true,
+      "method": "UTF-8 partial file flushed to disk, same-filesystem move without overwrite, final file read back and fingerprinted",
+      "read_back_matches_candidate": true
+    }
+  },
+  "analysis_basis": {
+    "attempt_id": "20261105T073747Z-e68be8ab-2c65-4a76-a8a9-57fb75b90425",
+    "report_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T073747Z-e68be8ab-2c65-4a76-a8a9-57fb75b90425/report.md",
+    "report_sha256": "ED7A7F68BF5649CBEC24D5E1A177B040C91D2487CE82EF2631BD921FEDC72B9C",
+    "result_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T073747Z-e68be8ab-2c65-4a76-a8a9-57fb75b90425/result.json",
+    "result_sha256": "44D07853245E19144CFF6A8733150CF94B31F3A212459358CC5C56FB7DE7CCB9",
+    "evidence_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T073747Z-e68be8ab-2c65-4a76-a8a9-57fb75b90425/evidence/analysis-evidence.json",
+    "evidence_sha256": "547C67B367E313548518AF57B2C1DB65A1BA35123B9103DBB61F261D424F688E",
+    "outcome": "ANALYSIS_COMPLETE_WITH_CLARIFICATIONS; REQUIREMENT_UPDATE_REQUIRED"
+  },
+  "decision_traceability": [
+    {
+      "analysis_question": "RA-C-01",
+      "decision": "Include predefined read-only, tenant-scoped analytics; advanced natural-language analytics and arbitrary text-to-SQL remain out of scope.",
+      "applied_sections": ["4.1", "4.2", "5.5", "5.6", "FR-WF-01", "FR-AN-03", "13"]
+    },
+    {
+      "analysis_question": "RA-G-01",
+      "decision": "Agents directly edit only Subject and Description on accessible tickets; assignment and system-managed fields are denied; status and Category/Priority use separate authorization/workflows; unspecified actions are default-denied.",
+      "applied_sections": ["5.9 permission catalogue", "FR-TM-07", "FR-TM-13", "6.5", "13", "18"]
+    },
+    {
+      "analysis_question": "RA-G-05",
+      "decision": "Persist Category/Priority correction requests with Pending Approval, Approved, and Rejected states, mandatory reason, original value unchanged while pending, authorized Manager/Tenant Admin decisions, eligibility/concurrency controls, audit, UI, APIs, persistence, and tests.",
+      "applied_sections": ["5.9 permission catalogue", "FR-TM-04", "FR-TM-14", "5.10", "6.10", "8", "9", "13", "18"]
+    },
+    {
+      "analysis_question": "RA-G-02 and RA-C-02",
+      "decision": "Include job cancellation: Tenant Admin tenant scope; Manager assigned-team scope subject to resource authorization; Agent may cancel initiated jobs while still authorized; queued jobs cancel immediately; processing stops cooperatively; committed completion remains Completed; no partial results; audit, idempotency, concurrency, UI, and required tests.",
+      "applied_sections": ["4.1", "FR-OP-09", "5.14", "6.9", "8", "9", "13", "16", "18"]
+    },
+    {
+      "analysis_question": "RA-G-03",
+      "decision": "Persist Agent ticket-cancellation requests with Pending Approval, Approved, and Rejected states; authorized Tenant Admin/assigned-team Manager decisions; required reason/notes; unchanged ticket while pending; eligible-state rules, duplicate prevention, audit, UI, APIs, persistence, and tests.",
+      "applied_sections": ["4.1", "5.9 permission catalogue", "FR-TM-04", "FR-TM-07", "FR-TM-09", "5.10", "6.5", "6.11", "8", "9", "13", "16", "18"]
+    },
+    {
+      "analysis_question": "RA-G-04",
+      "decision": "Allow only the explicit password recovery/change, ticket, knowledge, account, and Platform Admin permission-change email events and recipients; preserve authorization, privacy, deduplication, bounded retries, audit, and truthful delivery status; no unlisted event without explicit approval.",
+      "applied_sections": ["FR-ID-12", "5.15", "6.7", "8", "9", "13", "18"]
+    },
+    {
+      "analysis_question": "Cross-cutting human decisions",
+      "decision": "Preserve default-deny authorization, tenant/team/resource checks, audit, concurrency safety, non-exposure of sensitive or partial results, and mandatory automated testing; no functional deferrals for the approved additions.",
+      "applied_sections": ["4.1", "5.9", "5.10", "5.14", "5.15", "13", "16", "18"]
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "top_level_sections": 18,
+    "functional_requirement_ids": 96,
+    "markdown_table_blocks": 26,
+    "duplicate_functional_requirement_ids": 0,
+    "table_column_consistency": "All 26 table blocks passed structural checks.",
+    "decision_presence_and_cross_reference_checks": "Passed for analytics, Agent field restrictions, correction requests, ticket cancellation, job cancellation, email allowlist, and FR-OP-09.",
+    "content_review": "Reviewed source-to-result changes; edits are limited to the authorized decision set and related scope, workflow, API/entity, audit, acceptance, test, Definition-of-Done, and glossary surfaces. No unresolved contradiction was identified in the revised behavior.",
+    "source_integrity": "v1.2 byte count and SHA-256 matched the invocation record before and after publication.",
+    "output_integrity": "v1.3 final read-back byte count and SHA-256 matched the validated candidate.",
+    "unrelated_artifacts_modified": false,
+    "tests_or_builds_run": false,
+    "tests_or_builds_note": "Documentation-only Requirement Update; no code or test artifacts were changed."
+  },
+  "remaining_open_questions": [
+    "Select Azure AI model/deployment and region after verifying availability, Search compatibility, quotas, pricing, and regional support.",
+    "Set model-specific token limits and the monthly monetary cost budget after the model, pricing, and subscription quotas are known.",
+    "Select the allowed email provider and sender identity/configuration during implementation, then verify sender-domain and environment-specific delivery controls.",
+    "Set bounded background timeout and retry values per operation/provider based on provider constraints and observed latency.",
+    "Validate the existing proposed retention/deletion defaults against legal and business requirements before production use."
+  ],
+  "material_assumptions": [
+    "No new material assumption was introduced; the existing synthetic-data learning-release context and proposed retention defaults remain unchanged."
+  ],
+  "approval_and_handoff": {
+    "human_requirement_approved": false,
+    "implementation_authorized": false,
+    "next_permitted_process": "After separate Human Process Initiation Approval, perform a fresh Requirement Analysis/refresh against v1.3, then complete independent Requirement Analysis Verification and obtain separate Human Requirement Approval."
+  }
+}

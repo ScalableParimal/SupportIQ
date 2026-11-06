@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "record_id": "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b:assessment-evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+  "process": "SDLC Portability Assessment",
+  "evidence_type": "assessment-evidence",
+  "created_at_utc": "2026-11-05T14:24:03Z",
+  "invocation": {"path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/attempt.json", "bytes": 8772, "sha256": "3501A4AA6CEDA7DB0020BDF53A31D7A0FAEF0602D74FF621149240057DEF3B56"},
+  "source_framework": {
+    "identity": "ScalableParimal/SupportIQ SDLC Process Automation framework",
+    "revision": "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+    "adopted_baseline": "SupportIQ-Master-Baseline-001",
+    "master_fingerprints": [
+      {"path": "docs/ai/sdlc/SDLC_GOVERNANCE.md", "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"},
+      {"path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md", "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"},
+      {"path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md", "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"}
+    ],
+    "assessment_artifacts": [
+      {"path": "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md", "sha256": "6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88"},
+      {"path": "docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md", "sha256": "1E4BDE2D46758989CB26B943258F0F86C138B7A4BE5E7CEE162F201C85D45C09"},
+      {"path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md", "sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208"},
+      {"path": ".github/skills/portability-assessment/SKILL.md", "sha256": "4098E4C679985E3713E9E2E8F01A7B2A664590D341D2F211F360BCDB5FF7038A"},
+      {"path": ".github/agents/portability-assessment.agent.md", "sha256": "5FB6F0F8C8331CA88A925A2192EB8D07319E62D83BF84926BA232D67483FBD26"}
+    ],
+    "adoption_evidence": [
+      {"url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503", "author": "ScalableParimal", "association": "OWNER", "body_sha256": "793837552BF522C98C0CA3A70EC8C3DF9857409213D5F24ED041307FD2DB241A", "current_resolution": "Canonical issue comment fetched during this invocation; body fingerprint and owner association match."},
+      {"url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245", "author": "ScalableParimal", "association": "OWNER", "body_sha256": "44AFFB8132E00D0318A7E08D924F7C56CFE97AB29B6CF922DD1A91B32FA3B1C0", "current_resolution": "Canonical issue comment fetched during this invocation; body fingerprint and owner association match."}
+    ]
+  },
+  "target_project": {
+    "identity": "SupportIQ product project in ScalableParimal/SupportIQ",
+    "revision": {"branch": "SupportIQ-Requirement-Analysis", "commit": "1146170be88c1f8dbb88f428efccba56bdf7c7a3", "working_tree_clean": false, "tracked_changes": []},
+    "requirements": [
+      {"path": "docs/requirement/SupportIQ_Product_Requirement_v1.3.md", "bytes": 95458, "sha256": "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496", "status": "Draft Updated Requirement; unapproved, per prior assessment"},
+      {"path": "docs/requirement/SupportIQ_Product_Requirement_v1.7.md", "bytes": 101677, "sha256": "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9", "status": "Draft Updated Requirement; unapproved, per Requirement Update result"}
+    ],
+    "authorized_scope": ["requirements v1.3 and v1.7 only", "prior v1.3 assessment and v1.7 update records including cited decision evidence", "v1.6 analysis and decisions only where directly relevant"],
+    "not_inspected": ["application source, dependency manifests, project configuration, tests, CI workflows, deployment/IaC, AI evaluation assets, runtime, external integrations"]
+  },
+  "material_change": {
+    "prior_assessment": {"attempt_id": "20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8", "report_sha256": "EB0F3EC79B01033BA1053B18A7302E7A43A912FE7FB8BF847E84AEC5866D8AA4", "result_sha256": "EFE417BF0163ECDCF14659B71FA626BAD99E2ABF83162E5CF6605752A9E8679F", "bound_requirement": "v1.3; historical evidence only"},
+    "requirement_update": {"attempt_id": "20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e", "report_sha256": "3A6B208171AAC3251BBA18E78C6A88E1CFDB81E4D8D89F98D9F4D2F45A62CB87", "evidence_sha256": "EA7FBE55682A0995B953994A990BF0C1A94626F4782F9361370045EEBABA7667", "updated_requirement": "v1.7", "human_requirement_approved": false},
+    "analysis_basis": {"attempt_id": "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da", "report_sha256": "0040C94646C14E9659519F78BC21D0CD3B3FC38503520CE789B61FC191773FC6", "decisions": [
+      {"id": "RA16-Q-01", "evidence_sha256": "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6", "decision": "FR-AN-06 aggregate analytics only for one selected authorized tenant; no tenant records or documents"},
+      {"id": "RA16-Q-02", "evidence_sha256": "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6", "decision": "Customer Read/Search using existing role scopes; Platform Admin remains separately restricted"},
+      {"id": "RA16-Q-03", "evidence_sha256": "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6", "decision": "Customer inactive without active related tickets; 365-day period begins at last related ticket closure"},
+      {"id": "RA16-Q-03-followup", "evidence_sha256": "567B77A2892909ACF83DA89EDFE5BC1D6DD1F6B0E00910B582BDAF9135AFE50F", "decision": "Closed or Cancelled are terminal"}
+    ]},
+    "changes": ["Platform Admin assistant limited to FR-AN-06 aggregate analytics for one selected tenant, no underlying records/documents", "Customer Read/Search added with defined existing role scopes; Platform Admin separately restricted", "Customer retention starts 365 days after the last related ticket terminal transition, Closed or Cancelled", "no start event defined for Customers with no related tickets"]
+  },
+  "environment_checks": {"effective_windows_principal": "INT-SCL-010\\parimal", "product_root_acl": "Authenticated Users: Modify; owner INT-SCL-010\\Parimal", "git_remote": "https://github.com/ScalableParimal/SupportIQ.git", "branch": "SupportIQ-Requirement-Analysis", "head": "1146170be88c1f8dbb88f428efccba56bdf7c7a3", "tracked_changes": [], "untracked_state": "Requirement versions v1.3-v1.7 and prior attempt directories; preserved."},
+  "evidence_classes": {"source_inspection": ["Master Governance and portability artifacts", "canonical adoption decision comments"], "target_inspection": ["v1.3 and v1.7 Requirement files", "prior v1.3 assessment", "v1.7 update report/result/evidence", "v1.6 analysis and cited human decisions"], "executed": ["non-mutating identity/status/hash checks", "canonical issue-comment reads", "attempt-path collision check", "no-overwrite invocation publication and read-back integrity check"], "reported_or_reused": ["prior assessment conclusions not reused as the current result", "Requirement Update/Analysis records used for source provenance and human-decision traceability"], "unverified": ["application enforcement", "security tests", "CI/deployment/runtime", "provider fit, quota/cost, operational behavior"]},
+  "scope_and_limits": {"authorized_reads": ["governance", "v1.3/v1.7 requirements", "prior v1.3 assessment and v1.7 update records including cited evidence", "v1.6 analysis/decisions only where directly relevant"], "not_performed": ["source/target changes", "scripts/builds/tests/workflows/runtime", "code/config/test/deployment inspection", "other governed processes", "commit/push"], "confidence": "Moderate for process applicability and requirement-record provenance within the narrow static scope; low for uninspected implementation/runtime properties."}
+}

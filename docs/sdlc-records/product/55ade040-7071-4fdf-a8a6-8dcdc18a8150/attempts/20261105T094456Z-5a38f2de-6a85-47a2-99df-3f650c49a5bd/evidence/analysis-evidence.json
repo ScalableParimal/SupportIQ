@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "record_id": "20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd:analysis-evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd",
+  "process": "Requirement Analysis",
+  "evidence_type": "requirement-analysis-evidence",
+  "created_at_utc": "2026-11-05T10:01:31Z",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/attempt.json",
+    "bytes": 8003,
+    "sha256": "8D63D7F822F5FB65D1FB2720E3E9607C484A6F18257D680219538FC3389CE968"
+  },
+  "source_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.3.md",
+    "version_id": "SupportIQ Product Requirement v1.3@sha256:AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+    "bytes": 95458,
+    "sha256": "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+    "status": "Draft Updated Requirement; unapproved"
+  },
+  "supporting_inputs": [
+    {
+      "path": "docs/requirement/SupportIQ_Product_Requirement_v1.3.md",
+      "bytes": 95458,
+      "sha256": "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T083247Z-98fe9ebe-16e5-462c-9e5f-15cd6f0df616/report.md",
+      "bytes": 5887,
+      "sha256": "CD51C33F6718ED8F9BF9864DACA494674E8A5AF6A79C8BCE0ABB3B3C3EFC2EA9"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T083247Z-98fe9ebe-16e5-462c-9e5f-15cd6f0df616/evidence/update-evidence.json",
+      "bytes": 8886,
+      "sha256": "BB179308CB0F7047991B7228EF3726B243348D430FEB9929939C1F66D3E5A4D3"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/report.md",
+      "bytes": 14425,
+      "sha256": "EB0F3EC79B01033BA1053B18A7302E7A43A912FE7FB8BF847E84AEC5866D8AA4"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/result.json",
+      "bytes": 4255,
+      "sha256": "EFE417BF0163ECDCF14659B71FA626BAD99E2ABF83162E5CF6605752A9E8679F"
+    },
+    {
+      "path": "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+      "bytes": 16826,
+      "sha256": "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F"
+    },
+    {
+      "path": "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+      "bytes": 2171,
+      "sha256": "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588"
+    },
+    {
+      "path": "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+      "bytes": 322,
+      "sha256": "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275"
+    }
+  ],
+  "human_decisions_received": {
+    "assistant_audience": {
+      "answer": "internal_roles_only",
+      "meaning": "Only Platform Admin, Tenant Admin, Support Manager, and Support Agent; no external CloudDesk customers."
+    },
+    "analytics_role_scope": {
+      "answer": [
+        "tenant_admin_tenant_scope",
+        "support_agent_own_scope",
+        "platform_admin_aggregate_only"
+      ],
+      "meaning": "Tenant Admin tenant-scoped; Support Manager assigned-team (existing requirement); Support Agent own authorized-ticket data; Platform Admin aggregate-only without tenant business records. Applies to dashboard and predefined AI analytics."
+    },
+    "deactivated_account_recovery": {
+      "answer": "deny_until_reactivated",
+      "meaning": "Do not allow password reset for a deactivated account until a separate authorized reactivation."
+    }
+  },
+  "human_decision_source": "Current conversation structured responses during this Requirement Analysis attempt; exact platform response timestamps unavailable.",
+  "prior_analysis_reuse": "No prior v1.2 Requirement Analysis finding was used as evidence. The v1.3 Requirement Update evidence was used only to identify decisions already embodied in v1.3. The immediately preceding Portability Assessment was used only as a predecessor gate and target-context input.",
+  "findings": [
+    {
+      "id": "RA-A-01",
+      "type": "ambiguity",
+      "status": "human_decision_received_requirement_update_required",
+      "source": "Sections 3, 4.1, 5.1; FR-CA-01",
+      "decision": {
+        "answer": "internal_roles_only",
+        "meaning": "Only Platform Admin, Tenant Admin, Support Manager, and Support Agent; no external CloudDesk customers."
+      }
+    },
+    {
+      "id": "RA-A-02",
+      "type": "ambiguity",
+      "status": "human_decision_received_requirement_update_required",
+      "source": "Sections 5.5-5.6; FR-ID permission catalogue; FR-AN-01 through FR-AN-04",
+      "decision": {
+        "answer": [
+          "tenant_admin_tenant_scope",
+          "support_agent_own_scope",
+          "platform_admin_aggregate_only"
+        ],
+        "meaning": "Tenant Admin tenant-scoped; Support Manager assigned-team (existing requirement); Support Agent own authorized-ticket data; Platform Admin aggregate-only without tenant business records. Applies to dashboard and predefined AI analytics."
+      }
+    },
+    {
+      "id": "RA-A-03",
+      "type": "ambiguity",
+      "status": "human_decision_received_requirement_update_required",
+      "source": "FR-ID-11 through FR-ID-14; Section 5.15",
+      "decision": {
+        "answer": "deny_until_reactivated",
+        "meaning": "Do not allow password reset for a deactivated account until a separate authorized reactivation."
+      }
+    },
+    {
+      "id": "RA-C-01",
+      "type": "apparent_conflict",
+      "status": "resolved_by_existing_explicit_human_decision",
+      "source": "FR-TK-06; FR-TM-13/14; v1.3 update evidence RA-G-01",
+      "resolution": "Suggestion editing does not authorize direct Agent Category/Priority mutation; use the separate correction-request workflow."
+    }
+  ],
+  "explicit_deferred_items": [
+    "Azure model/deployment/region/quota/cost/token limits",
+    "email provider and sender configuration",
+    "per-operation timeouts/retries",
+    "legal/business validation of retention defaults before production"
+  ],
+  "technical_impact_only": true,
+  "requirement_modified": false,
+  "implementation_plan_modified": false,
+  "source_code_or_tests_modified": false,
+  "tests_builds_or_runtime_executed": false,
+  "analysis_outcome": "ANALYSIS_COMPLETE_WITH_HUMAN_CLARIFICATIONS; REQUIREMENT_UPDATE_REQUIRED",
+  "ready_for_requirement_analysis_verification": false,
+  "report_candidate": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/report.md",
+    "bytes": 13430,
+    "sha256": "F1D8734FEF82E6493CD0D8F92CF43313B94E1930DE06A222839406CC1A580486"
+  }
+}

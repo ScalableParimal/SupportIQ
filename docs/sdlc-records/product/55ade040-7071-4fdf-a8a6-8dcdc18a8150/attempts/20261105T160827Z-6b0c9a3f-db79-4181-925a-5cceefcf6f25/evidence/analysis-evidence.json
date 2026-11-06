@@ -1,0 +1,152 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "record_id":  "20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25:analysis-evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25",
+    "process":  "Requirement Analysis",
+    "evidence_type":  "analysis-evidence",
+    "created_at_utc":  "2026-11-05T16:55:07Z",
+    "source":  {
+                   "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+                   "version":  "v1.7",
+                   "bytes":  101677,
+                   "sha256":  "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                   "initial_hash_verified":  true,
+                   "final_hash_verified":  true,
+                   "modified":  false
+               },
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25/attempt.json",
+                       "bytes":  3842,
+                       "sha256":  "DDDF5392610A5D36A9CAB0F4F40ACBA13FEC4D5DBED1EC562FBAB51212545D64",
+                       "published_before_source_read":  true,
+                       "readback_integrity_checked":  true
+                   },
+    "governing_artifacts":  [
+                                {
+                                    "path":  "docs/ai/guidelines/REQUIREMENT_ANALYSIS_GUIDELINES.md",
+                                    "sha256":  "82FCD3A6B25A2CB6BDB81D9425773AEFCDD9AEB7D088061C0679415B54479D0F",
+                                    "bytes":  16826
+                                },
+                                {
+                                    "path":  "docs/ai/prompts/REQUIREMENT_ANALYSIS_PROMPT.md",
+                                    "sha256":  "C67D4E55893F1F6BF869C229BB39DA1172565CEDA8675EE9AAA6545C91010588",
+                                    "bytes":  2171
+                                },
+                                {
+                                    "path":  "docs/ai/request/REQUIREMENT_ANALYSIS_REQUEST.md",
+                                    "sha256":  "77B5CE9804C04C02EB5759D5246C102F71540CC38F2B887D321E9AAD625CD275",
+                                    "bytes":  322
+                                },
+                                {
+                                    "path":  ".github/skills/requirement-analysis/SKILL.md",
+                                    "sha256":  "F5A40ED08CD7DFB52B906FE4A046B721BB6A84B5B2D28037BB780C48BDE143B7",
+                                    "bytes":  5662
+                                },
+                                {
+                                    "path":  ".github/agents/requirement-analysis.agent.md",
+                                    "sha256":  "EF3D141E77A44FD963A586194657EDD08BF7CD32F3018148C3A44C33065B89DF",
+                                    "bytes":  2777
+                                }
+                            ],
+    "adopted_master_fingerprints":  [
+                                        {
+                                            "match":  true,
+                                            "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                                            "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+                                        },
+                                        {
+                                            "match":  true,
+                                            "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                            "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+                                        },
+                                        {
+                                            "match":  true,
+                                            "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                                            "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+                                        }
+                                    ],
+    "predecessor":  {
+                        "attempt_id":  "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+                        "result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/result.json",
+                        "result_sha256":  "53E2410FBBF2131CD1CED4BF3CB0AE946CE5CCB244B23A8CB5BBC417DFE8F2E4",
+                        "report_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/report.md",
+                        "report_sha256":  "EAE31189EF2379CD5DC8E65310E635CFCD1C5DC6BC8599C77AE96C2855A5580D",
+                        "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/evidence/assessment-evidence.json",
+                        "evidence_sha256":  "F668BD2924BE75C3DEDCA1EBAF40E34C357CACB4C0EB4836EB54D72163F824B6",
+                        "outcome":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                        "possible_blockers":  0,
+                        "current_applicability":  "same repository, branch, HEAD, requirement hash, and adopted Master fingerprints",
+                        "reconciled_report_result_evidence":  true
+                    },
+    "human_decisions":  [
+                            {
+                                "description":  "Platform Admin assistant limited to single-selected-tenant aggregate analytics; no tenant records/documents",
+                                "id":  "RA16-Q-01",
+                                "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-001.json",
+                                "sha256":  "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6"
+                            },
+                            {
+                                "description":  "Add Customer Read/Search using stated role scopes; Platform Admin separately restricted",
+                                "id":  "RA16-Q-02",
+                                "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-001.json",
+                                "sha256":  "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6"
+                            },
+                            {
+                                "description":  "Customer inactive when no associated tickets are active; retention starts after last related ticket terminal transition",
+                                "id":  "RA16-Q-03",
+                                "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-001.json",
+                                "sha256":  "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6"
+                            },
+                            {
+                                "description":  "Closed and Cancelled both terminal",
+                                "id":  "RA16-Q-03-followup",
+                                "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-002.json",
+                                "sha256":  "567B77A2892909ACF83DA89EDFE5BC1D6DD1F6B0E00910B582BDAF9135AFE50F"
+                            }
+                        ],
+    "requirement_update":  {
+                               "attempt_id":  "20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e",
+                               "report_sha256":  "3A6B208171AAC3251BBA18E78C6A88E1CFDB81E4D8D89F98D9F4D2F45A62CB87",
+                               "result_sha256":  "78921663388BF6BE273FDBA98790ADB51105972CD7BE261EEDD51B8E27460B43",
+                               "evidence_sha256":  "EA7FBE55682A0995B953994A990BF0C1A94626F4782F9361370045EEBABA7667",
+                               "updated_requirement":  "v1.7",
+                               "human_requirement_approved":  false
+                           },
+    "findings":  [
+                     {
+                         "importance":  "blocking for affected cleanup",
+                         "id":  "RA17-A-01",
+                         "question":  "Retention start for Customer with no related tickets"
+                     },
+                     {
+                         "importance":  "important access boundary",
+                         "id":  "RA17-A-02",
+                         "question":  "Meaning and grant/revocation of Agent otherwise-permitted Customer access"
+                     },
+                     {
+                         "importance":  "important access boundary",
+                         "id":  "RA17-A-03",
+                         "question":  "Central-triage actor/permission scope for globally unassigned tickets"
+                     },
+                     {
+                         "importance":  "important retention boundary",
+                         "id":  "RA17-A-04",
+                         "question":  "Tenant deletion versus deactivated-user retention precedence"
+                     }
+                 ],
+    "prior_attempt_preservation":  {
+                                       "attempt_id":  "20261105T155753Z-7019f0b0-f274-4f3f-8c33-89eab08d9621",
+                                       "preserved":  true,
+                                       "modified":  false,
+                                       "state":  "PUBLISHED_AND_INTEGRITY_CHECKED; REQUIREMENT_SOURCE_NOT_YET_READ; ANALYSIS_NOT_STARTED"
+                                   },
+    "scope":  {
+                  "source_and_product_modifications":  false,
+                  "other_processes_started":  false,
+                  "tests_or_builds_run":  false,
+                  "source_code_or_runtime_inspected":  false,
+                  "result":  "analysis only; not approval or verification"
+              }
+}

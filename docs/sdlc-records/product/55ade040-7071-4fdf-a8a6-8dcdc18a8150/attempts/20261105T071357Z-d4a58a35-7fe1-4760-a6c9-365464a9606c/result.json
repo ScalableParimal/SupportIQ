@@ -1,0 +1,37 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "process_result",
+    "record_id":  "20261105T071357Z-d4a58a35-7fe1-4760-a6c9-365464a9606c:result",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T071357Z-d4a58a35-7fe1-4760-a6c9-365464a9606c",
+    "process":  "SDLC Portability Assessment",
+    "execution_status":  "CANNOT_COMPLETE",
+    "outcome":  "INVOCATION_PUBLICATION_METHOD_NOT_ESTABLISHED",
+    "created_at_utc":  "2026-11-05T07:18:27.2357560Z",
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T071357Z-d4a58a35-7fe1-4760-a6c9-365464a9606c/attempt.json",
+                       "bytes":  4754,
+                       "sha256":  "1D76D74733DE68479154EC471ABBC092D7B030DC287092A81AC7876D778CD98D"
+                   },
+    "failure":  {
+                    "summary":  "The invocation attempt record was created with apply_patch. Read-back and JSON integrity validation succeeded, but the actor did not establish the required validated-and-flushed .partial plus same-filesystem atomic no-overwrite publication sequence before treating the attempt as started.",
+                    "consequence":  "No portability determination, successful assessment report, or downstream process is issued. Reads of prior assessment and requirement artifacts after the attempted publication are excluded as valid assessment evidence because invocation publication compliance was not established.",
+                    "prior_agent_attempt":  "A preceding agent attempt stopped after reporting an invocation-ordering violation; it published no records."
+                },
+    "authorization":  {
+                          "human_authorized_fresh_attempt":  true,
+                          "authorized_read_scope":  "Source framework: current three Master Governance files and applicable portability-assessment artifacts/process-record rules; target: SupportIQ requirement versions v1.0-v1.2, prior portability report, Requirement Update records, and relevant project architecture/instructions/security/testing/CI/deployment/AI-control artifacts; read-only; no scripts/tests/workflows/runtime.",
+                          "own_record_scope":  "Only this assessment attempt invocation, report, result, and necessary evidence under the authorized attempt directory.",
+                          "blocker_decision_authority":  "Not identified; no possible-blocker decision was made."
+                      },
+    "validation":  {
+                       "invocation_json_parse":  "PASS",
+                       "invocation_readback":  "PASS",
+                       "invocation_sha256":  "1D76D74733DE68479154EC471ABBC092D7B030DC287092A81AC7876D778CD98D",
+                       "required_atomic_publication":  "NOT_ESTABLISHED",
+                       "assessment_conclusion":  "NOT_PRODUCED",
+                       "requirement_analysis_started":  false,
+                       "source_or_product_artifacts_modified":  false,
+                       "scripts_tests_workflows_runtime_executed":  false
+                   }
+}

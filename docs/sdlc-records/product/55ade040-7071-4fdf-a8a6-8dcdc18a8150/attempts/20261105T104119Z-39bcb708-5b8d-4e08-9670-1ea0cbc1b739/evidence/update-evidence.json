@@ -1,0 +1,104 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "record_id":  "20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739:update-evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739",
+    "process":  "Requirement Update",
+    "evidence_type":  "requirement-update-lineage-and-validation",
+    "created_at_utc":  "2026-11-05T10:49:29.967Z",
+    "update_context":  "Initial Analysis Clarification (pre-approval)",
+    "authorization":  {
+                          "attempt_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/attempt.json",
+                          "attempt_sha256":  "AE0E1E3E6A9F8FCB6550D6A7A24BCCB2EE9CE5AB3DBF2BC80D02804A353C61E3",
+                          "process_initiation_authorized":  true,
+                          "record_publication_authorized":  true,
+                          "source":  "Current conversation structured response"
+                      },
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.4.md",
+                               "version_id":  "SupportIQ Product Requirement v1.4@sha256:332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "bytes":  98684,
+                               "sha256_before":  "332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "sha256_after":  "332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.5.md",
+                               "version_id":  "SupportIQ Product Requirement v1.5@sha256:FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99261,
+                               "sha256":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741",
+                           "outcome":  "ANALYSIS_COMPLETE_WITH_HUMAN_CLARIFICATIONS; REQUIREMENT_UPDATE_REQUIRED",
+                           "report_path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741\\report.md",
+                           "report_sha256":  "B3F69553B4461E5F48C2933FF288412925E6F7171FEDBB7793DDA8BA2895ED41",
+                           "result_path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741\\result.json",
+                           "result_sha256":  "FA81A4CF7BBC406BD25417F0F4C0D1921EC8E6D3F4041D2226A7039A9E5D1158"
+                       },
+    "decisions":  [
+                      {
+                          "question_id":  "RA-A-01",
+                          "requirement_ids":  [
+                                                  "FR-CA-07"
+                                              ],
+                          "decision":  "owner_only",
+                          "meaning":  "Each user may read only their own conversation history.",
+                          "evidence_path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741\\evidence\\decision-resolution-001.json",
+                          "evidence_sha256":  "DD547E84BCA460FE252FF216BED7120FDF8BC3B3CAA36E1E22478F7A78F55263"
+                      },
+                      {
+                          "question_id":  "RA-A-02",
+                          "requirement_ids":  [
+                                                  "FR-CA-01",
+                                                  "FR-CA-02",
+                                                  "FR-ID-09"
+                                              ],
+                          "decision":  "no_tenant_content",
+                          "meaning":  "Platform Admin assistant retrieval must not access tenant business content.",
+                          "evidence_path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741\\evidence\\decision-resolution-002.json",
+                          "evidence_sha256":  "B004E0EAC04FA441E670B91BD66C79CB690465DD80A0278CFE46FB615C99803D"
+                      }
+                  ],
+    "affected_sections":  [
+                              "Version lineage",
+                              "FR-CA-02",
+                              "FR-CA-07",
+                              "FR-ID-09",
+                              "Section 5.9 centralized permission catalogue",
+                              "Acceptance criteria"
+                          ],
+    "validation":  {
+                       "status":  "PASS",
+                       "source_preserved":  true,
+                       "result_readback_sha256":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                       "v15_lineage_verified":  true,
+                       "both_decisions_present":  true,
+                       "permission_and_acceptance_aligned":  true,
+                       "functional_requirement_ids":  97,
+                       "unique_functional_requirement_ids":  97,
+                       "numbered_sections":  18,
+                       "markdown_table_blocks":  26,
+                       "diff_limited_to_authorized_decisions":  true,
+                       "tests_or_builds_run":  false
+                   },
+    "process_record_bindings":  [
+                                    {
+                                        "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/attempt.json",
+                                        "sha256":  "AE0E1E3E6A9F8FCB6550D6A7A24BCCB2EE9CE5AB3DBF2BC80D02804A353C61E3"
+                                    },
+                                    {
+                                        "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/checkpoint-0001.json",
+                                        "sha256":  "C01B77D85E35D284D172FC81DA0B348DA888840A7966D31D5A261B4033475CA4"
+                                    },
+                                    {
+                                        "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/report.md",
+                                        "sha256":  "222FB472D51ABA95A98F44434F8A1826AD5BF3AD6F2475120A2E78ECADC7B847"
+                                    }
+                                ],
+    "no_source_or_unrelated_artifact_modified":  true,
+    "no_approval_or_downstream_process_performed":  true
+}

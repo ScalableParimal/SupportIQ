@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_result",
+  "record_id": "20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8:result",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8",
+  "process": "SDLC Portability Assessment",
+  "execution_status": "COMPLETED",
+  "outcome": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+  "created_at_utc": "2026-11-05T09:21:10Z",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/attempt.json",
+    "bytes": 9695,
+    "sha256": "DFDB91B08B4142BAC4E30676D5DCE5D5C6430288AE87FB964DA0878D3A9BAF92"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/report.md",
+    "bytes": 14425,
+    "sha256": "EB0F3EC79B01033BA1053B18A7302E7A43A912FE7FB8BF847E84AEC5866D8AA4"
+  },
+  "evidence": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/evidence/assessment-evidence.json",
+    "bytes": 15993,
+    "sha256": "7C5EE26AE01E907134571754528E8F41EE20585163048DCCE1E703986A44C8B3"
+  },
+  "invocation_correction": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/evidence/invocation-correction.json",
+    "bytes": 1581,
+    "sha256": "761D401BF9A329A56E34CB55EEA4AD26F7C1B9EF814579BF709050FB61F31E9C"
+  },
+  "evaluated_state": {
+    "repository": "ScalableParimal/SupportIQ",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "head": "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+    "working_tree_clean": false,
+    "requirement_path": "docs/requirement/SupportIQ_Product_Requirement_v1.3.md",
+    "requirement_sha256": "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+    "master_fingerprints_match_adopted_baseline": true,
+    "trigger": "material_change_reassessment_after_v1.3_update"
+  },
+  "dimension_outcomes": [
+    {
+      "dimension": 1,
+      "determination": "VERIFIED COMPATIBILITY",
+      "applies": true
+    },
+    {
+      "dimension": 2,
+      "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "applies": true
+    },
+    {
+      "dimension": 3,
+      "determination": "VERIFIED COMPATIBILITY",
+      "applies": true
+    },
+    {
+      "dimension": 4,
+      "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "applies": true
+    },
+    {
+      "dimension": 5,
+      "determination": "UNVERIFIED / INSUFFICIENT EVIDENCE",
+      "applies": true
+    },
+    {
+      "dimension": 6,
+      "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "applies": true
+    },
+    {
+      "dimension": 7,
+      "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "applies": true
+    },
+    {
+      "dimension": 8,
+      "determination": "UNVERIFIED / INSUFFICIENT EVIDENCE",
+      "applies": true
+    }
+  ],
+  "recommended_possible_blockers": [],
+  "human_blocker_authority": "Not identified; no possible blocker recommended.",
+  "next_permitted_process": "Fresh Requirement Analysis against docs/requirement/SupportIQ_Product_Requirement_v1.3.md after its own explicit Human Process Initiation Approval; not started.",
+  "later_process_started": false,
+  "requirement_approved": false,
+  "human_acceptance_claimed": false,
+  "project_execution": false,
+  "source_or_target_artifacts_modified": false,
+  "commit_or_push": false,
+  "limitations": [
+    "Static assessment only; no project scripts, builds, tests, workflows, runtime, or external integrations were executed.",
+    "Security enforcement, provider fit, Azure availability/quotas/cost, operational behavior, and retention legal/business suitability remain unverified.",
+    "The unapproved v1.3 Requirement requires a fresh analysis and separate independent verification and Human Requirement Approval.",
+    "The immutable invocation record contains one clerical placeholder digest; the linked invocation-correction evidence supplies the verified prior-result SHA-256 without modifying the original record."
+  ]
+}

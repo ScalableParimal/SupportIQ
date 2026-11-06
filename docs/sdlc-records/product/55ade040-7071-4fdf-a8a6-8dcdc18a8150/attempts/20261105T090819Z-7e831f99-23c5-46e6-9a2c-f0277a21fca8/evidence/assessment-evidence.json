@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "record_id": "20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8:assessment-evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8",
+  "process": "SDLC Portability Assessment",
+  "evidence_type": "portability-assessment-evidence",
+  "created_at_utc": "2026-11-05T09:16:56Z",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/attempt.json",
+    "sha256": "DFDB91B08B4142BAC4E30676D5DCE5D5C6430288AE87FB964DA0878D3A9BAF92"
+  },
+  "invocation_correction": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/evidence/invocation-correction.json",
+    "sha256": "761D401BF9A329A56E34CB55EEA4AD26F7C1B9EF814579BF709050FB61F31E9C",
+    "corrected_prior_assessment_result_sha256": "17D9C4B39888735326D20C10C349E0FFAB9BC3EE922224D22C19761AC772E382"
+  },
+  "trigger": "material_change_reassessment",
+  "source_framework": {
+    "identity": "ScalableParimal/SupportIQ SDLC Process Automation framework",
+    "revision": "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+    "inventory": [
+      {
+        "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+        "bytes": 30926,
+        "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+        "bytes": 54243,
+        "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+      },
+      {
+        "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+        "bytes": 89025,
+        "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+      },
+      {
+        "path": "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md",
+        "bytes": 8422,
+        "sha256": "6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88"
+      },
+      {
+        "path": "docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md",
+        "bytes": 1573,
+        "sha256": "1E4BDE2D46758989CB26B943258F0F86C138B7A4BE5E7CEE162F201C85D45C09"
+      },
+      {
+        "path": "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+        "bytes": 2108,
+        "sha256": "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208"
+      },
+      {
+        "path": ".github/skills/portability-assessment/SKILL.md",
+        "bytes": 2607,
+        "sha256": "4098E4C679985E3713E9E2E8F01A7B2A664590D341D2F211F360BCDB5FF7038A"
+      },
+      {
+        "path": ".github/agents/portability-assessment.agent.md",
+        "bytes": 1875,
+        "sha256": "5FB6F0F8C8331CA88A925A2192EB8D07319E62D83BF84926BA232D67483FBD26"
+      }
+    ],
+    "framework_files_reused": 76,
+    "prior_evidence_reuse": "Prior framework inventory is reused only because current identity, adopted Masters and relevant framework path status were rechecked; no tracked or untracked changes in .github/ or docs/ai/ were reported."
+  },
+  "target_project": {
+    "identity": "SupportIQ product project, ScalableParimal/SupportIQ",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "commit": "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+    "working_tree_clean": false,
+    "target_inventory": [
+      {
+        "path": "README.md",
+        "bytes": 289,
+        "sha256": "57AAD939F394A295A881BEFAA2FEA4BFB20C04E73A798C3113ACCF8737598390"
+      },
+      {
+        "path": "docs/requirement/SupportIQ_Product_Requirement_v1.2.md",
+        "bytes": 77893,
+        "sha256": "D206C95AD75E0D7E1B1169144B29ADE219F3C42299FE5C3ED3C20F75DD8D99AA"
+      },
+      {
+        "path": "docs/requirement/SupportIQ_Product_Requirement_v1.3.md",
+        "bytes": 95458,
+        "sha256": "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496"
+      },
+      {
+        "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T071945Z-ae5f6a90-0cb4-4060-8c7d-3f267f6b8d7d/report.md",
+        "bytes": 17106,
+        "sha256": "8E8C78A8D6083D398F7E1E1FB35B56DC763D40245565F60EE0449A9F362756E4"
+      },
+      {
+        "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T071945Z-ae5f6a90-0cb4-4060-8c7d-3f267f6b8d7d/result.json",
+        "bytes": 5286,
+        "sha256": "17D9C4B39888735326D20C10C349E0FFAB9BC3EE922224D22C19761AC772E382"
+      },
+      {
+        "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T083247Z-98fe9ebe-16e5-462c-9e5f-15cd6f0df616/report.md",
+        "bytes": 5887,
+        "sha256": "CD51C33F6718ED8F9BF9864DACA494674E8A5AF6A79C8BCE0ABB3B3C3EFC2EA9"
+      },
+      {
+        "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T083247Z-98fe9ebe-16e5-462c-9e5f-15cd6f0df616/result.json",
+        "bytes": 3245,
+        "sha256": "23A49ACEC4334E788CE614C5499DE096755FB4F3B2F6710F94B114876C41D1B7"
+      },
+      {
+        "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T083247Z-98fe9ebe-16e5-462c-9e5f-15cd6f0df616/evidence/update-evidence.json",
+        "bytes": 8886,
+        "sha256": "BB179308CB0F7047991B7228EF3726B243348D430FEB9929939C1F66D3E5A4D3"
+      }
+    ],
+    "requirement_status": "v1.3 is Draft Updated Requirement; unapproved.",
+    "absent_project_assets": [
+      "application source",
+      "package/project manifests",
+      "product-specific test definitions",
+      "CI workflows",
+      "deployment/IaC",
+      "architecture document",
+      "AI evaluation assets"
+    ]
+  },
+  "human_decisions": {
+    "process_initiation": {
+      "source": "Current conversation structured response",
+      "response": true,
+      "scope": "One material-change Portability Assessment against v1.3."
+    },
+    "record_publication": {
+      "source": "Current conversation structured response",
+      "response": true,
+      "scope": "Only actor-owned invocation, report, result, and necessary evidence within this attempt directory."
+    },
+    "master_baseline_adoption": {
+      "url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503",
+      "author": "ScalableParimal",
+      "association": "OWNER",
+      "comment_id": 6583261503,
+      "body_sha256": "793837552BF522C98C0CA3A70EC8C3DF9857409213D5F24ED041307FD2DB241A",
+      "current_live_resolution": true
+    },
+    "product_root_adoption": {
+      "url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+      "author": "ScalableParimal",
+      "association": "OWNER",
+      "comment_id": 6583299245,
+      "current_live_resolution": true
+    },
+    "possible_blocker_authority": "Not identified; no possible blocker recommended."
+  },
+  "dimensions": [
+    {
+      "dimension": 1,
+      "name": "Repository/workspace configuration, roots, ownership, checkout, and cross-repository boundaries",
+      "applies": true,
+      "determination": "VERIFIED COMPATIBILITY",
+      "basis": "Same canonical repository and checkout; current branch and HEAD recorded; no tracked working-tree changes; product root and exact Master baseline were adopted and re-resolved; current Master hashes match. The existing worktree is not clean due to untracked Requirement and prior process records."
+    },
+    {
+      "dimension": 2,
+      "name": "Requirements, architecture, technology stack, constraints, and project instructions",
+      "applies": true,
+      "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "basis": "v1.3 is a bounded SupportIQ requirement with defined role, tenant/team, workflow, and AI constraints. The expanded correction/cancellation/notification and analytics scope requires planning-level persistence, authorization, concurrency, idempotency, cooperative-cancellation, and delivery adaptations. No separate product architecture implementation is present."
+    },
+    {
+      "dimension": 3,
+      "name": "Compatibility and authorized use of Agents, Skills, Prompts, Requests, scripts, and workflows",
+      "applies": true,
+      "determination": "VERIFIED COMPATIBILITY",
+      "basis": "Current portability entry artifacts are present and aligned with the loaded Skill and Guideline. The current actor published and read back its own no-overwrite invocation and correction evidence within the authorized scope. No project execution was attempted."
+    },
+    {
+      "dimension": 4,
+      "name": "Governance lifecycle, human decisions/approvals, traceability, record ownership, and persistence authorization",
+      "applies": true,
+      "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "basis": "The adopted product root, exact Master baseline, human stage-start, and attempt-specific record scope are established. v1.3 remains unapproved; fresh analysis, independent verification, and separate Human Requirement Approval remain distinct gates. The assessment does not satisfy those gates."
+    },
+    {
+      "dimension": 5,
+      "name": "Security, privacy, access controls, and project-specific risk controls",
+      "applies": true,
+      "determination": "UNVERIFIED / INSUFFICIENT EVIDENCE",
+      "basis": "v1.3 specifies default-deny role/resource authorization, tenant/team boundaries, approval workflows, audit, privacy, and safe partial-result handling. No application or product security tests/runtime are available; requirements do not prove enforcement."
+    },
+    {
+      "dimension": 6,
+      "name": "Testing/quality, CI/CD, deployment, and operational requirements",
+      "applies": true,
+      "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "basis": "The Requirement specifies test coverage for new ticket/job workflows and notification controls. No product test definitions, CI workflow, deployment/IaC, or evaluation assets were found. These are downstream planning/implementation needs, not a blocker to Requirement Analysis."
+    },
+    {
+      "dimension": 7,
+      "name": "AI-specific controls, evaluation, retrieval, and tool execution",
+      "applies": true,
+      "determination": "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+      "basis": "The Requirement limits tools to explicit typed allowlists and adds predefined read-only tenant-scoped analytics; retrieval and authorization controls are specified. Model, region, quota, cost/token limits, provider selection, and runtime enforcement remain unverified or open."
+    },
+    {
+      "dimension": 8,
+      "name": "Runtime/integration behavior that static evidence cannot establish",
+      "applies": true,
+      "determination": "UNVERIFIED / INSUFFICIENT EVIDENCE",
+      "basis": "No product runtime, Azure resource, model/search provider, email provider, or integration was inspected or executed. Static evidence cannot establish operational behavior."
+    }
+  ],
+  "material_concerns": [
+    {
+      "id": "C-01",
+      "classification": "TARGET-PROJECT ADAPTATION",
+      "title": "Preserve the complete governed lifecycle",
+      "evidence": "The prior portability report recorded PB-01 regarding the abbreviated product workflow; v1.3 remains an unapproved draft and does not replace Master lifecycle gates.",
+      "impact": "The concise product workflow could be misread as replacing required analysis, verification, approval, or acceptance gates.",
+      "recommendation": "Fresh Requirement Analysis should explicitly align the workflow to the Master lifecycle and retain all distinct gates. Prior PB-01 is historical reported evidence only, not a new or broadened human decision.",
+      "next_process": "Fresh Requirement Analysis; Human Requirement Approval remains separate."
+    },
+    {
+      "id": "C-02",
+      "classification": "TARGET REQUIREMENT / ARCHITECTURE GAP",
+      "title": "Resolve deferred model, provider, and operating values",
+      "evidence": "v1.3 update report retains open choices for Azure model/deployment and region, quotas/pricing/token and cost budgets, email provider/sender, operation-specific timeout/retry values, and production validation of retention defaults.",
+      "impact": "These choices affect later architecture, cost, provider configuration, operational safety, and production suitability.",
+      "recommendation": "Record decision owners, constraints, and required gates in analysis/planning; use Requirement Update if product behavior must change. Do not invent defaults. Not a blocker to the current analysis stage on available evidence.",
+      "next_process": "Requirement Analysis and, where needed, Implementation Planning/Requirement Update."
+    },
+    {
+      "id": "C-03",
+      "classification": "INTEGRATION / RUNTIME UNCERTAINTY",
+      "title": "Security and execution behavior are not verified",
+      "evidence": "The Requirement defines default-deny access, ticket/job cancellation, concurrency, audit, email privacy, and non-exposure of partial results, but the inspected project has no application implementation or product test/runtime evidence.",
+      "impact": "Authorization, tenant isolation, cancellation races, email delivery, and data handling cannot be assured from requirements alone.",
+      "recommendation": "Obtain separately authorized, bounded implementation/test/integration evidence before affected runtime or release boundaries. This assessment executed no such tests and does not recommend holding Requirement Analysis.",
+      "next_process": "Later implementation verification and approved integration/release gates."
+    },
+    {
+      "id": "C-04",
+      "classification": "TARGET-PROJECT ADAPTATION",
+      "title": "Plan product quality and deployment assets",
+      "evidence": "No product source, dependency manifest, product tests, CI workflow, deployment/IaC, or AI evaluation assets were found; only governance publisher self-test evidence exists under governance records.",
+      "impact": "Implementation and release readiness cannot be demonstrated until these assets and required coverage are produced.",
+      "recommendation": "Plan the mandatory new workflow tests and deployment/quality evidence in governed downstream work. Their pre-implementation absence is not a blocker to Requirement Analysis.",
+      "next_process": "Implementation Planning after Requirement approval."
+    }
+  ],
+  "possible_blockers": [],
+  "evidence_classes": {
+    "source_inspection": [
+      "current governance and portability artifacts",
+      "Requirements v1.2 and v1.3",
+      "prior portability assessment and current Requirement Update records",
+      "README and target project artifact inventory"
+    ],
+    "executed": [
+      "non-mutating Git status/identity and SHA-256 checks",
+      "live read of GitHub issue adoption comments",
+      "own-record atomic no-overwrite publication and read-back"
+    ],
+    "reported_or_reused": [
+      "prior framework inventory and PB-01/PB-02 within their recorded scope",
+      "v1.3 update report and decision evidence"
+    ],
+    "unverified": [
+      "application behavior and runtime/security enforcement",
+      "provider/region/quota/cost fit",
+      "product CI/test/deployment integration",
+      "retention legal/business suitability"
+    ]
+  },
+  "execution": {
+    "project_scripts": false,
+    "tests": false,
+    "workflows": false,
+    "runtime_or_external_integrations": false,
+    "source_or_target_modified": false,
+    "commit_or_push": false
+  },
+  "report_candidate": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T090819Z-7e831f99-23c5-46e6-9a2c-f0277a21fca8/report.md",
+    "bytes": 14425,
+    "sha256": "EB0F3EC79B01033BA1053B18A7302E7A43A912FE7FB8BF847E84AEC5866D8AA4"
+  },
+  "next_permitted_process": "Fresh Requirement Analysis against docs/requirement/SupportIQ_Product_Requirement_v1.3.md, after its own explicit Human Process Initiation Approval; not started."
+}

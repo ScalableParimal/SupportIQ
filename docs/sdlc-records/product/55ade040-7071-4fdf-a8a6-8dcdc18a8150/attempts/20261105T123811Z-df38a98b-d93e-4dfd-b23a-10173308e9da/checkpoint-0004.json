@@ -1,0 +1,27 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da:checkpoint-0004",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da",
+    "process":  "Requirement Analysis",
+    "sequence":  4,
+    "created_at_utc":  "2026-11-05T13:02:17.073Z",
+    "status":  "POST_COMPLETION_HUMAN_DECISIONS_RECORDED; ORIGINAL_RESULT_PRESERVED",
+    "phase":  "Follow-up resolved customer-retention terminal-state edge case",
+    "terminal_result":  {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/result.json",
+                            "sha256":  "65E4A422580035D55AEA09BCAEE78AC523B8554C44DA75B69487DFAFF881C912"
+                        },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/report.md",
+                   "sha256":  "0040C94646C14E9659519F78BC21D0CD3B3FC38503520CE789B61FC191773FC6"
+               },
+    "decision_evidence":  {
+                              "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-002.json",
+                              "sha256":  "567B77A2892909ACF83DA89EDFE5BC1D6DD1F6B0E00910B582BDAF9135AFE50F"
+                          },
+    "decision":  "365-day customer retention starts when the last related ticket becomes terminal, whether Closed or Cancelled.",
+    "requirement_update_authorized":  false,
+    "requirement_modified":  false
+}

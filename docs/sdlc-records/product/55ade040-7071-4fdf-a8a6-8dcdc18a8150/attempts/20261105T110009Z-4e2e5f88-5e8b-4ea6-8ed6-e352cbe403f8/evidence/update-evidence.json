@@ -1,0 +1,89 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "record_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8:update-evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8",
+    "process":  "Requirement Update",
+    "evidence_type":  "requirement-update-lineage-and-validation",
+    "created_at_utc":  "2026-11-05T11:07:12.067Z",
+    "update_context":  "Initial Analysis Clarification (pre-approval)",
+    "authorization":  {
+                          "attempt_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/attempt.json",
+                          "attempt_sha256":  "6FA781C2C3D08A39B59CAA7682160233987F96FE10E731EC6C78ABCD9AD137A0",
+                          "process_initiation_authorized":  true,
+                          "record_publication_authorized":  true,
+                          "source":  "Current conversation structured response; authorization preserved in attempt record"
+                      },
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.5.md",
+                               "version_id":  "SupportIQ Product Requirement v1.5@sha256:FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99261,
+                               "sha256_before":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "sha256_after":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "version_id":  "SupportIQ Product Requirement v1.6@sha256:2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "predecessor_version_id":  "SupportIQ Product Requirement v1.5@sha256:FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99368,
+                               "sha256":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9",
+                           "outcome":  "ANALYSIS_COMPLETE; REQUIREMENT_UPDATE_REQUIRED",
+                           "item":  "RA15-A-01",
+                           "description":  "Section 9 History API did not explicitly prevent role or tenant permissions from broadening access beyond the owner.",
+                           "report_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9/report.md",
+                           "result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9/result.json"
+                       },
+    "human_decision":  {
+                           "reference":  "RA-A-01",
+                           "requirement_id":  "FR-CA-07",
+                           "decision":  "owner_only",
+                           "meaning":  "Each user may read only their own conversation history; roles may not grant another user access.",
+                           "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-001.json",
+                           "evidence_sha256":  "DD547E84BCA460FE252FF216BED7120FDF8BC3B3CAA36E1E22478F7A78F55263"
+                       },
+    "changes":  {
+                    "affected_requirement_ids":  [
+                                                     "FR-CA-07"
+                                                 ],
+                    "affected_sections":  [
+                                              "Version label and lineage metadata",
+                                              "Section 9 History API note"
+                                          ],
+                    "modified":  "Replaced the ambiguous ownership/role API note with explicit owner-only history access, preserved tenant checks, and an explicit prohibition on role-based access to another user history.",
+                    "unchanged_alignment":  [
+                                                "FR-CA-07 at line 122",
+                                                "Section 5.9 Conversations (ReadOwnHistory) at line 279",
+                                                "Acceptance criteria at line 648"
+                                            ],
+                    "other_decisions":  "RA-A-02 and all unrelated requirement text remain unchanged.",
+                    "diff_summary":  "Three line replacements: version label, version lineage, and the authorized Section 9 API note."
+                },
+    "validation":  {
+                       "status":  "PASS",
+                       "source_hash_matches_authorization":  true,
+                       "source_preserved_before_and_after":  true,
+                       "target_hash_matches_readback":  true,
+                       "target_lineage_binds_to_v1_5":  true,
+                       "owner_only_api_rule_present":  true,
+                       "role_permissions_cannot_grant_nonowner_access":  true,
+                       "tenant_boundary_preserved":  true,
+                       "related_owner_only_statements_consistent":  true,
+                       "functional_requirement_ids_preserved":  97,
+                       "markdown_table_blocks_preserved":  26,
+                       "diff_limited_to_authorized_change":  true,
+                       "unapproved_status_preserved":  true,
+                       "report_readback_verified":  true,
+                       "tests_or_builds_run":  false
+                   },
+    "limitations":  [
+                        "No tests or builds were run; this was a documentation-only Requirement Update.",
+                        "No Requirement Analysis, independent Requirement Analysis Verification, Human Requirement Approval, planning, implementation, commit, or push was started."
+                    ]
+}

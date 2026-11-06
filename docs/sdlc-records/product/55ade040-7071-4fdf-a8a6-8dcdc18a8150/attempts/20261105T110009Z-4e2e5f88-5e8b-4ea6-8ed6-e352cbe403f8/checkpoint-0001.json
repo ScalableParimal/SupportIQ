@@ -1,0 +1,32 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8:checkpoint-0001",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8",
+    "process":  "Requirement Update",
+    "sequence":  1,
+    "created_at_utc":  "2026-11-05T11:03:40.908Z",
+    "status":  "IN_PROGRESS",
+    "phase":  "Authorized source, analysis, and owner-only decision validated; requirement edit not yet started",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.5.md",
+                               "sha256":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99261,
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T105302Z-f54a1773-81d7-418c-83b4-cfe4bb1c61d9",
+                           "item":  "RA15-A-01",
+                           "outcome":  "ANALYSIS_COMPLETE; REQUIREMENT_UPDATE_REQUIRED"
+                       },
+    "human_decision":  {
+                           "reference":  "RA-A-01",
+                           "decision":  "owner_only",
+                           "evidence_sha256":  "DD547E84BCA460FE252FF216BED7120FDF8BC3B3CAA36E1E22478F7A78F55263"
+                       },
+    "planned_target":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+    "planned_change":  "Change only Section 9 History API note to state owner-only access and prohibit role-based access to another user history; preserve tenant checks.",
+    "authorization":  "Current Human explicitly authorized process start, exact target, and only this attempt own records.",
+    "source_action_started":  false
+}

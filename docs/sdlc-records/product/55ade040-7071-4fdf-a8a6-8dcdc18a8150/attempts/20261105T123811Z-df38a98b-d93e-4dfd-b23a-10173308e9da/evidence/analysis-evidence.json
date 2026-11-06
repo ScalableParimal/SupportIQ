@@ -1,0 +1,119 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_evidence",
+    "record_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da:analysis-evidence",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da",
+    "process":  "Requirement Analysis",
+    "evidence_type":  "source-decision-trace-and-analysis-validation",
+    "created_at_utc":  "2026-11-05T12:45:49.036Z",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "version_id":  "SupportIQ Product Requirement v1.6@sha256:2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "sha256_before":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "sha256_after":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "bytes":  99368,
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "full_text_lines":  804,
+                               "read_only":  true
+                           },
+    "human_decisions":  [
+                            {
+                                "reference":  "RA-A-01",
+                                "decision":  "owner_only",
+                                "meaning":  "Each user may read only their own conversation history; roles cannot grant another user access.",
+                                "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-001.json",
+                                "sha256":  "DD547E84BCA460FE252FF216BED7120FDF8BC3B3CAA36E1E22478F7A78F55263"
+                            },
+                            {
+                                "reference":  "RA-A-02",
+                                "decision":  "no_tenant_content",
+                                "meaning":  "Platform Admin assistant retrieval must not access tenant business content.",
+                                "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-002.json",
+                                "sha256":  "B004E0EAC04FA441E670B91BD66C79CB690465DD80A0278CFE46FB615C99803D"
+                            }
+                        ],
+    "analysis_scope":  {
+                           "fresh_v1_6_review":  true,
+                           "prior_v1_5_analysis_reused_as_current_evidence":  false,
+                           "requirement_id_rows":  97,
+                           "unique_requirement_id_rows":  97,
+                           "markdown_table_blocks":  26,
+                           "numbered_top_level_sections":  18,
+                           "reference_locations":  [
+                                                       "FR-CA-01/02/07: lines 116-122",
+                                                       "FR-WF-01 and Customer Lookup: lines 174-195",
+                                                       "Role-based tool access: line 204",
+                                                       "FR-AN-06: line 215",
+                                                       "FR-ID-09 and permission catalogue: lines 271-279",
+                                                       "Customer retention: line 340",
+                                                       "Feedback API/entity: lines 547 and 571",
+                                                       "Section 17 deferred items: lines 743-746"
+                                                   ]
+                       },
+    "analysis_items":  [
+                           {
+                               "id":  "RA16-A-01",
+                               "kind":  "ambiguity",
+                               "references":  [
+                                                  "RA-A-02",
+                                                  "FR-WF-01",
+                                                  "FR-AN-06",
+                                                  "Section 5.5",
+                                                  "Section 5.9"
+                                              ],
+                               "blocking":  true
+                           },
+                           {
+                               "id":  "RA16-M-01",
+                               "kind":  "missing-permission-mapping",
+                               "references":  [
+                                                  "Customer Lookup",
+                                                  "Section 5.9 permission catalogue"
+                                              ],
+                               "blocking":  true
+                           },
+                           {
+                               "id":  "RA16-M-02",
+                               "kind":  "retention-definition",
+                               "reference":  "Section 5.11 Customer records",
+                               "importance":  "Important before cleanup implementation"
+                           },
+                           {
+                               "id":  "RA16-M-03",
+                               "kind":  "feedback-read-scope",
+                               "references":  [
+                                                  "FR-CA-06",
+                                                  "Feedback API",
+                                                  "Section 5.9 permission catalogue"
+                                              ],
+                               "importance":  "Minor; default-deny"
+                           },
+                           {
+                               "id":  "RA16-M-04",
+                               "kind":  "deferred-decisions",
+                               "references":  [
+                                                  "Section 17"
+                                              ],
+                               "importance":  "Deferred as explicitly stated"
+                           }
+                       ],
+    "previous_process_context":  {
+                                     "requirement_update_result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/result.json",
+                                     "sha256":  "0C19DD9120D732A74491799102FF265C5377BE5B3B549FDDDBD146254D1E7BA1",
+                                     "correction_checkpoint_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T110009Z-4e2e5f88-5e8b-4ea6-8ed6-e352cbe403f8/checkpoint-0004.json",
+                                     "sha256_checkpoint":  "4F58A303FE2EA63CFFD4F85FB0FA6A4CC069A5C9C9BB0B36E3FD2544E771FB36"
+                                 },
+    "validation":  {
+                       "status":  "PASS",
+                       "source_fingerprint_matches_invocation":  true,
+                       "source_preserved":  true,
+                       "required_analysis_sections":  10,
+                       "all_functional_requirement_ids_counted":  true,
+                       "report_readback_verified":  true,
+                       "tests_or_builds_run":  false,
+                       "source_or_product_artifacts_modified":  false
+                   },
+    "no_formal_finding_created":  true,
+    "no_human_requirement_approval":  true
+}

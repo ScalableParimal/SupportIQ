@@ -1,0 +1,61 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T154053Z-bc2ed20f-7a51-4653-9cb6-6c454de5f260:checkpoint-0001",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T154053Z-bc2ed20f-7a51-4653-9cb6-6c454de5f260",
+    "sequence":  1,
+    "created_at_utc":  "2026-11-05T15:47:13.6203896Z",
+    "checkpoint_type":  "pre_dispatch_preconditions_validated",
+    "invocation_record":  {
+                              "path":  "docs\\sdlc-records\\product\\55ade040-7071-4fdf-a8a6-8dcdc18a8150\\attempts\\20261105T154053Z-bc2ed20f-7a51-4653-9cb6-6c454de5f260\\attempt.json",
+                              "sha256":  "E7D223056685DE65FA835B38C7D07FFDD75CFEB43F433E5651914A70D076842B",
+                              "bytes":  14876,
+                              "read_back_integrity_checked":  true
+                          },
+    "orchestrator_agent":  {
+                               "path":  ".github/agents/sdlc-process-orchestrator.agent.md",
+                               "sha256":  "048DA0B64B162638A113D9049EF845F4530CBE9556345C0C8C7E7E202FBF23B3",
+                               "bytes":  97823,
+                               "current_repository_version_read":  true,
+                               "instruction_match":  "Applicable O1/O2/O6/O9/O11 and portability/record controls confirmed against current file.",
+                               "attempt_json_fingerprint_note":  "attempt.json lists this artifact with a null fingerprint; this checkpoint supplies the current repository fingerprint before process analysis."
+                           },
+    "process_initiation":  {
+                               "required":  true,
+                               "response":  "Start Requirement Analysis",
+                               "scope":  "Fresh Requirement Analysis only against v1.7, bound to completed portability assessment; stop at Requirement Analysis boundary.",
+                               "applicability_validated":  true,
+                               "formal_human_gate":  false
+                           },
+    "predecessor":  {
+                        "attempt_id":  "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+                        "result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/result.json",
+                        "result_sha256":  "53E2410FBBF2131CD1CED4BF3CB0AE946CE5CCB244B23A8CB5BBC417DFE8F2E4",
+                        "outcome":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                        "execution_status":  "COMPLETED",
+                        "recommended_possible_blockers":  [
+
+                                                          ],
+                        "requirement_approved":  false
+                    },
+    "current_requirement":  {
+                                "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+                                "sha256":  "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                                "bytes":  101677,
+                                "status":  "Draft Updated Requirement; unapproved"
+                            },
+    "issue":  {
+                  "unresolved":  "Customer record retention start event when there are no related tickets",
+                  "source":  "v1.7 Requirement Update report",
+                  "required_handling":  "Preserve as unresolved; do not infer a start event or modify the Requirement."
+              },
+    "publication_capability":  {
+                                   "principal":  "int-scl-010\\parimal",
+                                   "root_acl":  "Authenticated Users: Modify",
+                                   "publication_route":  "No-overwrite FileStream CreateNew with Flush(true) and SHA-256 read-back",
+                                   "attempt_dir_collision_checked":  true,
+                                   "attempt_json_published_and_validated":  true
+                               },
+    "next_action":  "Invoke only the Requirement Analysis Agent with the bounded read/output scope; its actor must publish and integrity-check its own invocation metadata before analysis."
+}

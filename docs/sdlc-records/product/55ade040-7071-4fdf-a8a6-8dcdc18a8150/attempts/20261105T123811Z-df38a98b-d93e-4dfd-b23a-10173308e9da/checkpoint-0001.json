@@ -1,0 +1,33 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da:checkpoint-0001",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da",
+    "process":  "Requirement Analysis",
+    "sequence":  1,
+    "created_at_utc":  "2026-11-05T12:45:48.844Z",
+    "status":  "SOURCE_ANALYSIS_COMPLETE; REPORT_AND_RESULT_PENDING",
+    "phase":  "Fresh full-text analysis completed; report and terminal result are being prepared",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "sha256":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "bytes":  99368,
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "analysis_summary":  {
+                             "human_decisions_considered":  [
+                                                                "RA-A-01: owner-only conversation history",
+                                                                "RA-A-02: no Platform Admin assistant access to tenant business content"
+                                                            ],
+                             "ambiguities_identified":  [
+                                                            "RA16-A-01: Platform Admin assistant access to tenant aggregate analytics",
+                                                            "RA16-A-02: Customer Lookup permissions are described but Customer Read/Search is absent from the default-deny permission catalogue"
+                                                        ],
+                             "material_gaps":  [
+                                                   "Customer-record retention uses an undefined inactive condition",
+                                                   "Feedback read/review access is not specified; no read permission is implied"
+                                               ]
+                         },
+    "next":  "Publish analysis report, evidence, validation checkpoint, and terminal result; stop before Requirement Update or Verification."
+}

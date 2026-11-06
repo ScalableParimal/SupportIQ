@@ -1,0 +1,82 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0:result",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0",
+    "process":  "Requirement Update",
+    "status":  "COMPLETED",
+    "outcome":  "REQUIREMENT_UPDATED; DRAFT_UNAPPROVED; FRESH_ANALYSIS_REQUIRED",
+    "created_at_utc":  "2026-11-05T10:21:05.091Z",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.3.md",
+                               "version_id":  "SupportIQ Product Requirement v1.3@sha256:AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+                               "bytes":  95458,
+                               "sha256":  "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.4.md",
+                               "version_id":  "SupportIQ Product Requirement v1.4@sha256:332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "bytes":  98684,
+                               "sha256":  "332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "update_context":  "Initial Analysis Clarification (pre-approval)",
+    "human_decisions_applied":  true,
+    "requirement_update_authorized":  true,
+    "record_publication_authorized":  true,
+    "human_requirement_approved":  false,
+    "implementation_authorized":  false,
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd",
+                           "outcome":  "ANALYSIS_COMPLETE_WITH_HUMAN_CLARIFICATIONS; REQUIREMENT_UPDATE_REQUIRED",
+                           "decision_questions":  [
+                                                      "RA-A-01",
+                                                      "RA-A-02",
+                                                      "RA-A-03"
+                                                  ],
+                           "report_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/report-revision-0001.md",
+                           "report_sha256":  "005777AB1BF6B5F9A1422787340D8BC5C9026AB774F8EF7BED32EF5F2CE77799",
+                           "result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/result.json",
+                           "result_sha256":  "4ABFD516FB0B1CF37CED2ED02B6BCC37791D7D86DBCAD2804D6906C5903BEB98"
+                       },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0/report.md",
+                   "bytes":  5163,
+                   "sha256":  "566604D3FEF5A00445284374F21DC8BB4958B146645A3EED99FFA0B45DD565A4"
+               },
+    "evidence":  [
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0/evidence/update-evidence.json",
+                         "bytes":  8668,
+                         "sha256":  "322B77432980EAD4EA572C1A303841F3DF4C353A09A691663CE3FE5064302B30"
+                     }
+                 ],
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T100539Z-d2467ce6-2ee0-44bc-9974-47b2442fc8a0/attempt.json",
+                       "bytes":  15706,
+                       "sha256":  "D86514BF5609F373C5768088A86BF7BCA43132675F07ADB43BB246D040735705"
+                   },
+    "validation":  {
+                       "status":  "PASS",
+                       "numbered_sections":  18,
+                       "functional_requirement_ids":  97,
+                       "markdown_table_blocks":  26,
+                       "table_columns_consistent":  true,
+                       "source_preserved":  true,
+                       "final_requirement_read_back_verified":  true,
+                       "diff_changes_limited_to_approved_sections":  true,
+                       "no_unresolved_contradiction_identified":  true,
+                       "tests_or_builds_run":  false,
+                       "partial_files_remaining":  0
+                   },
+    "next_permitted_process":  "After separate Human Process Initiation Approval, perform a fresh Requirement Analysis against v1.4, then complete independent Requirement Analysis Verification, resolve any findings, and obtain separate Human Requirement Approval.",
+    "limitations":  [
+                        "Requirement Update only; no Requirement Analysis Verification or Human Requirement Approval was performed.",
+                        "No implementation plan, source code, tests, configuration, or implementation artifact was changed.",
+                        "No tests or builds were run because this was a documentation-only Requirement Update.",
+                        "Technical/provider/retention questions remain open as listed in the report."
+                    ]
+}

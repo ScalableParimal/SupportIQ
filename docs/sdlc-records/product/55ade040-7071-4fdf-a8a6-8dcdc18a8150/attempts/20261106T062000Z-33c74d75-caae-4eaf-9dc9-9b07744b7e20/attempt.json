@@ -1,0 +1,132 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_invocation",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20",
+    "process":  "SDLC Portability Assessment",
+    "assessment_type":  "material_change_reassessment",
+    "created_at_utc":  "2026-11-06T06:20:00Z",
+    "actor":  {
+                  "identity":  "int-scl-010\\parimal",
+                  "role":  "SDLC Portability Assessment Agent",
+                  "entrypoint":  ".github/agents/portability-assessment.agent.md via .github/skills/portability-assessment/SKILL.md"
+              },
+    "repository":  {
+                       "canonical":  "ScalableParimal/SupportIQ",
+                       "url":  "https://github.com/ScalableParimal/SupportIQ",
+                       "root":  "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+                       "branch":  "SupportIQ-Requirement-Analysis",
+                       "commit":  "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+                       "working_tree_note":  "Existing untracked requirement versions v1.3-v1.8 and product attempt directories observed; left unchanged."
+                   },
+    "source_framework":  {
+                             "identity":  "ScalableParimal/SupportIQ SDLC Process Automation framework",
+                             "root":  "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+                             "revision":  "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+                             "baseline_id":  "SupportIQ-Master-Baseline-001",
+                             "master_governance":  [
+                                                       {
+                                                           "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                                                           "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+                                                       },
+                                                       {
+                                                           "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                                           "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+                                                       },
+                                                       {
+                                                           "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                                                           "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+                                                       }
+                                                   ],
+                             "authorized_read_scope":  [
+                                                           "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                                                           "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                                           "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                                                           "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md",
+                                                           "docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md",
+                                                           "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                                                           ".github/skills/portability-assessment/",
+                                                           ".github/agents/portability-assessment.agent.md",
+                                                           "authorized process-record rules"
+                                                       ]
+                         },
+    "target_project":  {
+                           "identity":  "SupportIQ",
+                           "canonical":  "ScalableParimal/SupportIQ",
+                           "root":  "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+                           "revision":  "docs/requirement/SupportIQ_Product_Requirement_v1.8.md SHA-256 E7FB3E982555034B098D42E258CAFBEDB651A0A05B736A99DE987DAB6355AD1B (provided in authorized request; not opened before this attempt publication)",
+                           "prior_revision":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md SHA-256 E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A",
+                           "authorized_read_scope":  [
+                                                         "governance",
+                                                         "requirements",
+                                                         "records",
+                                                         "related_analysis"
+                                                     ]
+                       },
+    "trigger":  {
+                    "type":  "material_change_reassessment",
+                    "changed_inputs":  [
+                                           "Customer retention",
+                                           "Agent Customer access",
+                                           "central triage",
+                                           "tenant-deletion retention",
+                                           "Customer Search",
+                                           "Feedback Read",
+                                           "email visibility"
+                                       ],
+                    "prior_assessment":  {
+                                             "attempt_id":  "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+                                             "target":  "v1.7",
+                                             "user_reported_outcome":  "did not recommend blockers",
+                                             "evidence_reuse":  "not assumed; applicability to be verified after this invocation is published"
+                                         },
+                    "current_requirement_update_attempt":  "20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086",
+                    "fresh_v1_7_requirement_analysis_attempt":  "20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25"
+                },
+    "authorization":  {
+                          "source":  "Current user message, 2026-11-06",
+                          "decision":  "User explicitly selected authorize and confirmed one SDLC Portability Assessment",
+                          "read_scope":  [
+                                             "governance",
+                                             "requirements",
+                                             "records",
+                                             "related_analysis"
+                                         ],
+                          "write_scope":  "new_attempt only, actor-owned invocation/report/result/evidence",
+                          "exclusions":  [
+                                             "no source/target changes",
+                                             "no scripts/tests/workflows/runtime",
+                                             "no other processes",
+                                             "no commit/push",
+                                             "do not start Requirement Analysis"
+                                         ],
+                          "additional_execution":  "none",
+                          "blocker_decision_authority":  "Not identified in supplied request; any recommended blocker remains pending for an authorized target-project human."
+                      },
+    "persistence":  {
+                        "authorized_root":  "docs/sdlc-records/product/",
+                        "work_id_root":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/",
+                        "output_scope":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20",
+                        "publication_scope":  "Only this Agent invocation/report/result/evidence in this fresh attempt directory",
+                        "attempt_id_collision_checked":  true,
+                        "publication_route":  "System.IO.FileMode.CreateNew; single-level attempt directory",
+                        "prior_attempts_not_reused":  true
+                    },
+    "prepublication_validation":  {
+                                      "source_commit":  "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+                                      "master_fingerprints_match_adopted":  "Current fingerprints match the three hashes in the current Requirement Update invocation record",
+                                      "master_baseline_adoption_reference":  "SupportIQ-Master-Baseline-001 cited in current Requirement Update prepublication record; no prior portability report/evidence opened for this validation",
+                                      "product_root_adoption_reference":  "Current Requirement Update prepublication record resolves adoption to canonical GitHub issue 3 owner comments https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503 and https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+                                      "current_record_reference":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T060433Z-73c4408d-8c23-4b9f-a8e5-3cb02f65a086/attempt.json",
+                                      "current_record_sha256":  "0D7CC542FCB8B917F99165618D7CD456FD94502513EA540F980428E1E2E417F6",
+                                      "effective_identity":  "int-scl-010\\parimal",
+                                      "acl_owner":  "INT-SCL-010\\Parimal",
+                                      "publication_acl":  "BUILTIN\\Administrators: FullControl Allow; NT AUTHORITY\\SYSTEM: FullControl Allow; BUILTIN\\Users: ReadAndExecute, Synchronize Allow; NT AUTHORITY\\Authenticated Users: Modify, Synchronize Allow; NT AUTHORITY\\Authenticated Users: -536805376 Allow",
+                                      "current_capability":  "Current identity, read access, PowerShell and no-overwrite publication route established; actual CreateNew publication is the capability check",
+                                      "failed_prior_attempt":  {
+                                                                   "attempt_id":  "20261106T061948Z-546c549b-56ef-4969-ae29-2468158f2574",
+                                                                   "reason":  "post-publication validator incorrectly expected output_scope at top level; no target requirements or prior assessment evidence read; record left unchanged and not reused"
+                                                               }
+                                  },
+    "status":  "invocation_record_published_pending_readback_validation"
+}

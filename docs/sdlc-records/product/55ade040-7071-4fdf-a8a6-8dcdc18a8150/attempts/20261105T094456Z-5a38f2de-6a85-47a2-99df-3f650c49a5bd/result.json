@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "record_type": "process_result",
+  "record_id": "20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd:result",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd",
+  "process": "Requirement Analysis",
+  "execution_status": "COMPLETED",
+  "outcome": "ANALYSIS_COMPLETE_WITH_HUMAN_CLARIFICATIONS; REQUIREMENT_UPDATE_REQUIRED",
+  "created_at_utc": "2026-11-05T10:05:01Z",
+  "invocation": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/attempt.json",
+    "bytes": 8003,
+    "sha256": "8D63D7F822F5FB65D1FB2720E3E9607C484A6F18257D680219538FC3389CE968"
+  },
+  "report": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/report-revision-0001.md",
+    "bytes": 13716,
+    "sha256": "005777AB1BF6B5F9A1422787340D8BC5C9026AB774F8EF7BED32EF5F2CE77799"
+  },
+  "original_report_preserved": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/report.md",
+    "bytes": 13430,
+    "sha256": "F1D8734FEF82E6493CD0D8F92CF43313B94E1930DE06A222839406CC1A580486"
+  },
+  "evidence": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/evidence/analysis-evidence.json",
+      "bytes": 6965,
+      "sha256": "302DA9368D77045E31A2A73125384C713784B6160570CEAC49DBC090D9698718"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T094456Z-5a38f2de-6a85-47a2-99df-3f650c49a5bd/evidence/decision-resolution.json",
+      "bytes": 1621,
+      "sha256": "992178555E4A259234CA893CB317BA345C646B5F6F0F34417B8989C35600CD6E"
+    }
+  ],
+  "source_requirement": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.3.md",
+    "bytes": 95458,
+    "sha256": "AC40CB29AF795253B5C1C11AA200757C04CE460650FDC5799E69B9276491C496"
+  },
+  "human_decisions": {
+    "assistant_audience": "Internal roles only: Platform Admin, Tenant Admin, Support Manager, Support Agent; no external customers.",
+    "analytics_role_scope": {
+      "Tenant Admin": "tenant-scoped",
+      "Support Manager": "assigned-team",
+      "Support Agent": "own authorized-ticket data",
+      "Platform Admin": "aggregate-only for one explicitly selected authorized tenant; no cross-tenant view or underlying tenant business records"
+    },
+    "deactivated_account_recovery": "Password reset denied until account is separately reactivated."
+  },
+  "pending_human_decisions": [],
+  "explicitly_deferred_items": [
+    "Azure model/deployment/region/quota/cost/token limits",
+    "email provider and sender configuration",
+    "per-operation timeouts/retries",
+    "legal/business validation of retention defaults before production"
+  ],
+  "analysis_findings": {
+    "requirement_update_required": true,
+    "ready_for_requirement_analysis_verification": false,
+    "reason": "The three new human decisions are not yet expressed in v1.3. A separately authorized immutable Requirement Update and fresh post-update analysis are required before independent verification.",
+    "implementation_authorized": false,
+    "requirement_approved": false
+  },
+  "next_permitted_process": "Requirement Update to create a new immutable Requirement version incorporating only the human decisions recorded here, after separate explicit Human Process Initiation Approval and exact output-scope authorization; not started.",
+  "later_process_started": false,
+  "source_or_target_artifacts_modified": false,
+  "tests_builds_or_runtime_executed": false,
+  "implementation_plan_modified": false,
+  "commit_or_push": false,
+  "limitations": [
+    "Read-only analysis of v1.3 at the recorded fingerprint.",
+    "Technical/provider/retention questions remain explicitly deferred as described in the Requirement.",
+    "Analysis report revision 0001 adds the final Platform Admin analytics scope clarification; original report is preserved."
+  ]
+}

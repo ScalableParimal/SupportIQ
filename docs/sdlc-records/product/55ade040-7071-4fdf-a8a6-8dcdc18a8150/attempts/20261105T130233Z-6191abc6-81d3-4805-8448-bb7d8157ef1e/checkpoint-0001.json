@@ -1,0 +1,50 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e:checkpoint-0001",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e",
+    "process":  "Requirement Update",
+    "checkpoint_number":  1,
+    "created_at_utc":  "2026-11-05T13:09:24.260Z",
+    "phase":  "pre_update_validation",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.6.md",
+                               "version_id":  "SupportIQ Product Requirement v1.6@sha256:2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "sha256_before":  "2CD66B9C6A20949E3983B37D5DCD91D122F768E55BF63E0C6A85C5B519B4A73F",
+                               "bytes":  99368,
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved"
+                           },
+    "authorization":  {
+                          "attempt_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T130233Z-6191abc6-81d3-4805-8448-bb7d8157ef1e/attempt.json",
+                          "attempt_sha256":  "387E90032C19BB460CFA0394BAC51136F95FE54BBB53D81A2ACD586DEEED9146",
+                          "process_initiation_authorized":  true,
+                          "record_publication_authorized":  true
+                      },
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da",
+                           "outcome":  "ANALYSIS_COMPLETE; HUMAN_DECISIONS_REQUIRED; REQUIREMENT_UPDATE_REQUIRED",
+                           "questions":  [
+                                             "RA16-Q-01",
+                                             "RA16-Q-02",
+                                             "RA16-Q-03",
+                                             "RA16-Q-03-followup"
+                                         ]
+                       },
+    "decisions_ready":  [
+                            "Platform Admin assistant may use only FR-AN-06 single-tenant aggregate analytics and no tenant records/documents.",
+                            "Add Customers (Read, Search) to the default-deny catalogue using existing role scopes; keep Platform Admin separately restricted.",
+                            "Customer inactivity and 365-day retention timing: no associated active tickets; start at the last related ticket terminal transition, Closed or Cancelled."
+                        ],
+    "verification":  {
+                         "attempt_published_and_readback_verified":  true,
+                         "source_hash_matches":  true,
+                         "target_v1_7_absent":  true,
+                         "attempt_path_collision_checked":  true,
+                         "tracked_worktree_changes":  [
+
+                                                      ],
+                         "preexisting_untracked_artifacts_preserved":  true
+                     },
+    "next_action":  "Apply only the authorized decisions to a new v1.7 artifact; do not modify v1.6 or start a downstream process."
+}

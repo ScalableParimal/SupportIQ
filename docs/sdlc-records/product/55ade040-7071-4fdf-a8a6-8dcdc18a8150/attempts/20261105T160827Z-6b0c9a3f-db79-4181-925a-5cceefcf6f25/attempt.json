@@ -1,0 +1,48 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_invocation",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25",
+    "process":  "Requirement Analysis",
+    "repository":  "ScalableParimal/SupportIQ",
+    "branch":  "SupportIQ-Requirement-Analysis",
+    "head":  "1146170be88c1f8dbb88f428efccba56bdf7c7a3",
+    "actor_identity":  "INT-SCL-010\\Parimal",
+    "created_at_utc":  "2026-11-05T16:45:02Z",
+    "authorized_record_root":  "docs/sdlc-records/product/",
+    "output_scope":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T160827Z-6b0c9a3f-db79-4181-925a-5cceefcf6f25",
+    "source":  {
+                   "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md",
+                   "version":  "v1.7",
+                   "expected_sha256":  "E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                   "read_status":  "NOT_READ_BEFORE_INVOCATION_PUBLICATION"
+               },
+    "predecessor":  {
+                        "process":  "SDLC Portability Assessment",
+                        "attempt_id":  "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+                        "result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b/result.json",
+                        "outcome":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                        "possible_blockers":  0
+                    },
+    "invocation_authorization":  {
+                                     "kind":  "fresh_process_initiation_response",
+                                     "actual_supplied_wording":  "Fresh Process Initiation Approval: the user\u0027s current message explicitly authorizes ONE NEW Requirement Analysis attempt only, says prior stage-start approval was consumed, and specifies the source, attempt scope, predecessor, findings to preserve, and process boundary. Record the actual supplied wording as invocation-authorization metadata for this exact attempt, not as a formal Human Gate. No further user question is required for this process.",
+                                     "formal_human_gate":  false,
+                                     "scope":  "ONE NEW Requirement Analysis attempt only; this output directory only; source requirement named above; analyze using current governing artifacts; preserve unresolved no-related-ticket retention start event; no other process"
+                                 },
+    "prior_attempt_preservation":  {
+                                       "attempt_id":  "20261105T155753Z-7019f0b0-f274-4f3f-8c33-89eab08d9621",
+                                       "record_state":  "PUBLISHED_AND_INTEGRITY_CHECKED; REQUIREMENT_SOURCE_NOT_YET_READ; ANALYSIS_NOT_STARTED",
+                                       "modified":  false
+                                   },
+    "prepublication_validation":  {
+                                      "product_root":  "docs/sdlc-records/product/",
+                                      "adoption":  "Resolved in bound portability predecessor report/evidence and current canonical repository state",
+                                      "master_fingerprints_match":  true,
+                                      "current_principal":  "INT-SCL-010\\Parimal",
+                                      "product_root_acl":  "Authenticated Users: Modify; inherited",
+                                      "output_directory_absent":  true,
+                                      "no_overwrite_publication":  "System.IO.FileMode.CreateNew",
+                                      "source_read_before_publication":  false
+                                  }
+}

@@ -1,0 +1,125 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739:result",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739",
+    "process":  "Requirement Update",
+    "status":  "COMPLETED",
+    "outcome":  "REQUIREMENT_UPDATED; DRAFT_UNAPPROVED; FRESH_ANALYSIS_REQUIRED",
+    "created_at_utc":  "2026-11-05T10:51:06.793Z",
+    "source_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.4.md",
+                               "version_id":  "SupportIQ Product Requirement v1.4@sha256:332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "bytes":  98684,
+                               "sha256":  "332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "preserved_unchanged":  true
+                           },
+    "result_requirement":  {
+                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.5.md",
+                               "version_id":  "SupportIQ Product Requirement v1.5@sha256:FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "bytes":  99261,
+                               "sha256":  "FD2DCCF97D6B6A9D3F8E72F58AA162409163C4557BFF9D90F6F9FB7A8C7AEE82",
+                               "lifecycle_status":  "Draft Updated Requirement; unapproved",
+                               "predecessor_version_id":  "SupportIQ Product Requirement v1.4@sha256:332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F"
+                           },
+    "update_context":  "Initial Analysis Clarification (pre-approval)",
+    "human_decisions_applied":  true,
+    "requirement_update_authorized":  true,
+    "record_publication_authorized":  true,
+    "human_requirement_approved":  false,
+    "implementation_authorized":  false,
+    "analysis_basis":  {
+                           "attempt_id":  "20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741",
+                           "outcome":  "ANALYSIS_COMPLETE_WITH_HUMAN_CLARIFICATIONS; REQUIREMENT_UPDATE_REQUIRED",
+                           "decision_questions":  [
+                                                      "RA-A-01",
+                                                      "RA-A-02"
+                                                  ],
+                           "report_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/report.md",
+                           "report_sha256":  "B3F69553B4461E5F48C2933FF288412925E6F7171FEDBB7793DDA8BA2895ED41",
+                           "result_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/result.json",
+                           "result_sha256":  "FA81A4CF7BBC406BD25417F0F4C0D1921EC8E6D3F4041D2226A7039A9E5D1158"
+                       },
+    "decisions":  [
+                      {
+                          "question_id":  "RA-A-01",
+                          "requirement_ids":  [
+                                                  "FR-CA-07"
+                                              ],
+                          "decision":  "owner_only",
+                          "meaning":  "Each user may read only their own conversation history.",
+                          "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-001.json",
+                          "evidence_sha256":  "DD547E84BCA460FE252FF216BED7120FDF8BC3B3CAA36E1E22478F7A78F55263"
+                      },
+                      {
+                          "question_id":  "RA-A-02",
+                          "requirement_ids":  [
+                                                  "FR-CA-01",
+                                                  "FR-CA-02",
+                                                  "FR-ID-09"
+                                              ],
+                          "decision":  "no_tenant_content",
+                          "meaning":  "Platform Admin assistant retrieval must not access tenant business content.",
+                          "evidence_path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741/evidence/decision-resolution-002.json",
+                          "evidence_sha256":  "B004E0EAC04FA441E670B91BD66C79CB690465DD80A0278CFE46FB615C99803D"
+                      }
+                  ],
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/attempt.json",
+                       "bytes":  13661,
+                       "sha256":  "AE0E1E3E6A9F8FCB6550D6A7A24BCCB2EE9CE5AB3DBF2BC80D02804A353C61E3"
+                   },
+    "checkpoints":  [
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/checkpoint-0001.json",
+                            "bytes":  1794,
+                            "sha256":  "C01B77D85E35D284D172FC81DA0B348DA888840A7966D31D5A261B4033475CA4"
+                        },
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/checkpoint-0002.json",
+                            "bytes":  2637,
+                            "sha256":  "801F1F4F08B164FF1FACA54758174E138D10A5677440FCA1FC2459C092A9CD14"
+                        }
+                    ],
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/report.md",
+                   "bytes":  5045,
+                   "sha256":  "222FB472D51ABA95A98F44434F8A1826AD5BF3AD6F2475120A2E78ECADC7B847"
+               },
+    "evidence":  [
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T104119Z-39bcb708-5b8d-4e08-9670-1ea0cbc1b739/evidence/update-evidence.json",
+                         "bytes":  7526,
+                         "sha256":  "08A0C5156C1EAFABAFD7DC4AFF44A1A1D0C9250F5BA1C4029832CCFB1E4EDB49"
+                     }
+                 ],
+    "validation":  {
+                       "status":  "PASS",
+                       "numbered_sections":  18,
+                       "functional_requirement_ids":  97,
+                       "unique_functional_requirement_ids":  97,
+                       "markdown_table_blocks":  26,
+                       "source_preserved":  true,
+                       "final_requirement_read_back_verified":  true,
+                       "diff_changes_limited_to_approved_decisions":  true,
+                       "no_unresolved_contradiction_identified":  true,
+                       "tests_or_builds_run":  false,
+                       "partial_files_remaining":  0
+                   },
+    "next_permitted_process":  "After separate Human Process Initiation Approval, perform fresh Requirement Analysis against v1.5; then complete independent Requirement Analysis Verification, resolve any findings or decisions, and obtain separate Human Requirement Approval.",
+    "later_process_started":  false,
+    "source_requirement_modified":  false,
+    "result_requirement_created":  true,
+    "implementation_plan_modified":  false,
+    "source_code_tests_or_configuration_modified":  false,
+    "commit_or_push":  false,
+    "limitations":  [
+                        "Requirement Update only; no Requirement Analysis, Requirement Analysis Verification, or Human Requirement Approval was performed.",
+                        "v1.5 remains an unapproved draft.",
+                        "No implementation plan, source code, tests, configuration, or unrelated product artifact was changed.",
+                        "No tests or builds were run because this was a documentation-only Requirement Update.",
+                        "Provider, cost/quota, per-operation timeout/retry, feedback-read, and production-retention questions remain open as listed in the report."
+                    ]
+}

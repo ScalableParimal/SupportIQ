@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence",
+  "record_id": "20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741:analysis-evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261105T102333Z-8133e154-e109-40eb-a787-e0d3e3100741",
+  "process": "Requirement Analysis",
+  "evidence_type": "source-analysis",
+  "created_at_utc": "2026-11-05T10:36:32.131Z",
+  "authoritative_source": {
+    "path": "docs/requirement/SupportIQ_Product_Requirement_v1.4.md",
+    "bytes": 98684,
+    "sha256": "332EEE3EC6C2D2A145EEF6C26BC567D9FD73B95DD118FB86C63DCB848ABFBF5F",
+    "status": "Draft Updated Requirement; unapproved",
+    "source_of_truth_for_this_analysis": true
+  },
+  "analysis_boundary": {
+    "fresh_analysis_of_v1_4": true,
+    "prior_v1_3_analysis_findings_used_as_evidence": false,
+    "prior_analysis_used_only_as_traceability_context": true,
+    "requirement_or_product_artifacts_modified": false,
+    "implementation_plan_modified": false,
+    "tests_builds_or_runtime_executed": false
+  },
+  "source_observations": [
+    {
+      "id": "RA-O-01",
+      "source": "Sections 1-4, 17-18",
+      "observation": "SupportIQ is a fictional CloudDesk B2B support portal for a demonstrable learning release, not a production-readiness commitment; the source defines synthetic data and a mandatory first-release scope with explicit deferrals."
+    },
+    {
+      "id": "RA-O-02",
+      "source": "Sections 3, 5.1, 5.5, 5.9, FR-AN-06",
+      "observation": "The four predefined roles are Platform Admin, Tenant Admin, Support Manager, and Support Agent. The assistant is listed for these internal roles; retrieval and analytics are subject to tenant/team/role scope, default-deny authorization, and minimized Platform Admin access."
+    },
+    {
+      "id": "RA-O-03",
+      "source": "Sections 5.2-5.8, 11-14",
+      "observation": "Knowledge retrieval is approval- and version-gated; AI outputs are assistive, grounded, validated, allowlisted, and non-mutating; evaluation targets are measurement targets, while unauthorized access is a mandatory failure."
+    },
+    {
+      "id": "RA-O-04",
+      "source": "Sections 5.9-5.15, 6, 8-10, 13-14",
+      "observation": "The source defines local identity, role/resource/action permissions, independent approval of privileged Platform Admin changes, tenant/team ticket workflows, correction/cancellation requests, persisted asynchronous jobs, restricted transactional email, audit, retention, test, and deployment expectations."
+    },
+    {
+      "id": "RA-O-05",
+      "source": "Sections 5.11, 17",
+      "observation": "Exact AI deployment/region, model-specific token and monetary budgets, email provider/sender, and per-operation background timeout/retry values are explicitly open/deferred. Retention values are proposed configurable defaults and are not legal or regulatory commitments."
+    },
+    {
+      "id": "RA-O-06",
+      "source": "FR-CA-07; Sections 5.9, 9; current conversation clarification",
+      "observation": "The conversation-history role mapping is not in v1.4. The human selected owner-only history access; this decision is analysis context and must be incorporated through a separate Requirement Update."
+    },
+    {
+      "id": "RA-O-07",
+      "source": "FR-CA-01, FR-CA-02, FR-ID-09, Sections 5.5 and 5.9; current conversation clarification",
+      "observation": "Platform Admin is listed as an assistant user, but routine access to tenant business content is restricted and no Platform Admin tenant-knowledge retrieval scope is stated. The human selected no tenant-content retrieval through the assistant; this decision is not yet incorporated into v1.4."
+    },
+    {
+      "id": "RA-O-08",
+      "source": "Section 9 Feedback API; Sections 5.9 and 13",
+      "observation": "Feedback submission is specified, but no feedback-read endpoint or permission mapping is defined. The default-deny policy prevents adding a read surface without a separate requirement; this is not a current blocking decision."
+    }
+  ],
+  "human_decision_evidence": [
+    "evidence/decision-resolution-001.json",
+    "evidence/decision-resolution-002.json"
+  ],
+  "assessment": {
+    "unresolved_conflicts": [],
+    "pending_human_decisions": [],
+    "requirement_update_required": true,
+    "ready_for_requirement_analysis_verification": false,
+    "reason": "Both required access-scope clarifications were received, but neither is present in the authoritative v1.4 source. The decisions must be incorporated through an authorized immutable Requirement Update, followed by a fresh post-update analysis before independent verification."
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T154053Z-bc2ed20f-7a51-4653-9cb6-6c454de5f260:checkpoint-0003",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T154053Z-bc2ed20f-7a51-4653-9cb6-6c454de5f260",
+    "sequence":  3,
+    "created_at_utc":  "2026-11-05T16:07:05.5789253Z",
+    "checkpoint_type":  "fresh_process_initiation_request_pending",
+    "process_initiation_request":  {
+                                       "request_id":  "requirement-analysis-retry-001",
+                                       "status":  "PROCESS_INITIATION_APPROVAL_PENDING",
+                                       "feature":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+                                       "current_process":  "Requirement Analysis Agent attempt failed before source read due to declared output path mismatch",
+                                       "current_state":  "BLOCKED_PENDING_FRESH_PROCESS_INITIATION_RESPONSE",
+                                       "proposed_next_process":  "Retry Requirement Analysis",
+                                       "requirement":  "docs/requirement/SupportIQ_Product_Requirement_v1.7.md@sha256:E38812289F69CD4338217EDDC6439B76F8749DE68F054C6707D089324A4093A9",
+                                       "plan":  null,
+                                       "predecessor_result":  {
+                                                                  "attempt_id":  "20261105T142403Z-138c401d-bdfa-4688-81e2-3c8d464c959b",
+                                                                  "sha256":  "53E2410FBBF2131CD1CED4BF3CB0AE946CE5CCB244B23A8CB5BBC417DFE8F2E4",
+                                                                  "outcome":  "COMPATIBILITY WITH IDENTIFIED ADAPTATION",
+                                                                  "possible_blockers":  [
+
+                                                                                        ]
+                                                              },
+                                       "reason":  "The prior human response authorized one exact invocation and is consumed. Its RA Agent attempt record declared a duplicated attempt-id output directory, so the Agent stopped before reading/analyzing v1.7. No analysis report/result exists.",
+                                       "required_preconditions":  [
+                                                                      "Preserve the failed attempt unchanged.",
+                                                                      "Create a new unique RA attempt only after this fresh response.",
+                                                                      "Use exactly docs/sdlc-records/product/\u003cWork-ID\u003e/attempts/\u003cnew-attempt-id\u003e/; do not duplicate the attempt ID.",
+                                                                      "Independently establish current actor identity, permissions, source hash, and no-overwrite publication before analysis."
+                                                                  ],
+                                       "relevant_open_item":  "Customer-with-no-related-tickets retention start event remains unresolved; do not infer.",
+                                       "conditions":  "Only a new Requirement Analysis retry against v1.7; bind the completed Portability Assessment; stop at Requirement Analysis boundary. This does not approve v1.7 or authorize any later process.",
+                                       "action":  "Explicitly approve or reject only initiation of this new Requirement Analysis retry.",
+                                       "response":  null
+                                   },
+    "human_gate_record_created":  false,
+    "approval_alarm_integration_present":  false,
+    "next_step":  "Stop and wait for fresh explicit response; do not start a process."
+}

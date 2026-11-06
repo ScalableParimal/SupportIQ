@@ -1,0 +1,33 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da:checkpoint-0003",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da",
+    "process":  "Requirement Analysis",
+    "sequence":  3,
+    "created_at_utc":  "2026-11-05T12:56:20.186Z",
+    "status":  "POST_COMPLETION_HUMAN_DECISIONS_RECORDED; ORIGINAL_RESULT_PRESERVED",
+    "phase":  "Human clarification responses received after terminal analysis result",
+    "terminal_result":  {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/result.json",
+                            "sha256":  "65E4A422580035D55AEA09BCAEE78AC523B8554C44DA75B69487DFAFF881C912"
+                        },
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/report.md",
+                   "sha256":  "0040C94646C14E9659519F78BC21D0CD3B3FC38503520CE789B61FC191773FC6"
+               },
+    "decision_evidence":  {
+                              "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261105T123811Z-df38a98b-d93e-4dfd-b23a-10173308e9da/evidence/human-decisions-001.json",
+                              "sha256":  "172284B5AEB54317A92587FA9DAE5FCE161FC1087B3752F92580DA19906D8FE6"
+                          },
+    "decisions":  [
+                      "RA16-Q-01: selected single-tenant aggregate analytics exception only",
+                      "RA16-Q-02: add Customer Read/Search with existing scopes; Platform Admin separately restricted",
+                      "RA16-Q-03: inactive means no active tickets; 365 days from last related ticket closure"
+                  ],
+    "result_modified":  false,
+    "requirement_modified":  false,
+    "requirement_update_authorized":  false,
+    "next_gate":  "Fresh Human Process Initiation Approval and exact output-scope authorization are required for Requirement Update."
+}
