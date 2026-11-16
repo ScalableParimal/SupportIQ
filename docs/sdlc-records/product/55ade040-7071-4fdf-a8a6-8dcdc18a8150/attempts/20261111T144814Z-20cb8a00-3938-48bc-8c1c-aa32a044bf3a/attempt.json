@@ -1,0 +1,334 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_invocation",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a",
+  "process": "Implementation Planning",
+  "operation": "Apply the exact human-approved V-01 Plan-only amendment to immutable candidate v0.2 and create Draft Candidate v0.3; no V-02 correction.",
+  "created_at_utc": "2026-11-11T15:08:53.153679Z",
+  "actor": {
+    "agent": ".github/agents/implementation-planning.agent.md",
+    "skill": ".github/skills/implementation-planning/SKILL.md",
+    "operator_identity": "int-scl-010\\parimal",
+    "independence_note": "This Planning actor did not author candidate v0.2, V-01 Verification, Finding Investigation, prior CCDs, or the approved amendment proposal."
+  },
+  "human_initiation": {
+    "channel": "Interactive VS Code session (ask_user form)",
+    "response": true,
+    "response_scope": "Fresh Implementation Planning invocation now; exact scope recorded below.",
+    "response_timestamp": "The interface did not expose a timestamp; response was received before attempt publication.",
+    "formal_approval_reference": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6798353351",
+    "approved": true,
+    "execution_permission": "Create candidate v0.3 and this Planning attempt own records only; stop at Planning boundary."
+  },
+  "human_approval": {
+    "type": "Exact Plan amendment approval",
+    "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6798353351",
+    "author": "ScalableParimal",
+    "author_association": "OWNER",
+    "created_at": "2026-11-11T14:22:11Z",
+    "body_sha256": "F89998D435D3012B4B990FD49DD105D56289C345BA0201791BAFFFBD2863175E",
+    "proposal_sha256": "D6F0F264CC8BA9AEEA1437F3D9508E971FC9112A8BE77BBDBE3D37518B4663AC",
+    "base_candidate_sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7",
+    "scope": "V-01 only; preserve approved Requirement v1.11 Section 7; no Requirement change; V-02 unresolved; authorize a separately initiated Planning process to create v0.3 from immutable v0.2 applying only 14 exact replacements and controlled attempt ID substitution.",
+    "not_authorized": [
+      "Human Plan Approval",
+      "Implementation",
+      "V-02 correction",
+      "Requirement change"
+    ]
+  },
+  "root_adoption": {
+    "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+    "author": "ScalableParimal",
+    "author_association": "OWNER",
+    "created_at": "2026-11-02T17:08:13Z",
+    "body_sha256": "44AFFB8132E00D0318A7E08D924F7C56CFE97AB29B6CF922DD1A91B32FA3B1C0",
+    "adopted_root": "docs/sdlc-records/product/",
+    "scope": "Durable product SDLC records under each Work ID/Attempt ID; future actors independently resolve and verify current applicability."
+  },
+  "planning_request": {
+    "subject": "Governed Planning revision applying the exact human-approved V-01 amendment to create candidate v0.3.",
+    "current_approved_requirement": {
+      "path": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+      "version": "1.11",
+      "status": "Human approved exact bytes",
+      "bytes": 135602,
+      "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+      "approval_record": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/human-gates/human-requirement-approval-v1.11/decisions/6685628908.json",
+      "approval_comment": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6685628908"
+    },
+    "previous_plan": {
+      "identity": "supportiq-product-implementation-plan",
+      "version": "0.2",
+      "status": "Draft Candidate; not Human Plan Approved; not superseded at invocation",
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+      "bytes": 52650,
+      "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7",
+      "must_remain_unchanged": true
+    },
+    "earlier_candidate": {
+      "version": "0.1",
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/attachments/implementation-plan-supportiq-v1.11-v0.1.md",
+      "sha256": "66AB32440BC49F9FFFD4038310B790E37E56F5AFA8A2DA4D54F5DA4155F8C71D",
+      "must_remain_unchanged": true
+    },
+    "approved_change": {
+      "finding": "V-01",
+      "proposal_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/attachments/proposed-plan-amendment-v01-persistence-boundary.md",
+      "proposal_sha256": "D6F0F264CC8BA9AEEA1437F3D9508E971FC9112A8BE77BBDBE3D37518B4663AC",
+      "human_approval": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6798353351",
+      "application": "Only the 14 exact replacements in the approved proposal; substitute this attempt ID for placeholder."
+    },
+    "excluded_finding": "V-02 remains unresolved; its inaccurate Section 2 repository-state statement is not to be edited in this attempt.",
+    "change_impact": "No tasks added/removed; IP-01/IP-02 wording and Section 2/6/8 architecture verification are clarified; candidate identity/status, validation result, amendment basis, and handoff updated exactly per proposal.",
+    "related_records": [
+      "V-01 Plan Verification 20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84",
+      "V-01 Finding Investigation 20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf",
+      "Prior V-01 CCD 20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa",
+      "Follow-up V-01 CCD 20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb",
+      "Human amendment approval comment 6798353351",
+      "Human process-initiation response captured in this invocation"
+    ]
+  },
+  "repository_context": {
+    "repository": "ScalableParimal/SupportIQ",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+    "root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ",
+    "head": "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "git_status_short": [
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261110T040128Z-66ad4071-1c2d-42da-aead-bd59bd7dee55/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T052943Z-22085ae6-3b40-4731-b8c3-a4c14bdebc78/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/",
+      "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/"
+    ],
+    "tracked_changes": "none observed at invocation",
+    "current_identity_check": "int-scl-010\\parimal",
+    "publication_root": "C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ\\docs\\sdlc-records\\product",
+    "attempt_collision_check": "new attempt directory and v0.3 output path absent immediately before publication",
+    "current_publication_capability": "Successful no-overwrite creation and readback of this attempt record will establish current write capability; product root and actor scope are bound above.",
+    "related_work_concurrency": "External active work UNKNOWN/UNASSESSED. v0.2 requires shared-checkout implementation writes to be serialized by one Orchestrator; no concurrency safety is inferred from absent dependency declarations."
+  },
+  "source_bindings": [
+    {
+      "path": "docs/ai/guidelines/IMPLEMENTATION_PLANNING_GUIDELINES.md",
+      "bytes": 18111,
+      "sha256": "34D70CBF5CC9969BDC07859AC0916DBB7BB741C07A322464DE12F244FB3F926F"
+    },
+    {
+      "path": "docs/ai/prompts/IMPLEMENTATION_PLANNING_PROMPT.md",
+      "bytes": 2273,
+      "sha256": "0B59816CE459EFE1A2BDDC7E22E43264F1DA19DA991F2750ADC3E8020359BAF7"
+    },
+    {
+      "path": "docs/ai/request/IMPLEMENTATION_PLANNING_REQUEST.md",
+      "bytes": 2168,
+      "sha256": "1144F2D29334F8ED659B1BDA5420E3E60C99E7E52735449F8B5651E146C278EE"
+    },
+    {
+      "path": ".github/agents/implementation-planning.agent.md",
+      "bytes": 3989,
+      "sha256": "D3E7912AC5AF6468CC45B46B767547A75BAECBB548EA32FA14D83D5E5BBACCE5"
+    },
+    {
+      "path": ".github/skills/implementation-planning/SKILL.md",
+      "bytes": 8217,
+      "sha256": "4BC61C58EA01D8DAB1914FE30C4B83B6BA04E4DD71050B3017A42C07D7971F94"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+      "bytes": 30926,
+      "sha256": "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+      "bytes": 54243,
+      "sha256": "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"
+    },
+    {
+      "path": "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+      "bytes": 89025,
+      "sha256": "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"
+    },
+    {
+      "path": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+      "bytes": 135602,
+      "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/human-gates/human-requirement-approval-v1.11/decisions/6685628908.json",
+      "bytes": 11043,
+      "sha256": "A9CFB6CAC885BDFE9FD4660B0BEEF1027628094163916FE8AF927044E2FE421D"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/attachments/implementation-plan-supportiq-v1.11-v0.1.md",
+      "bytes": 49325,
+      "sha256": "66AB32440BC49F9FFFD4038310B790E37E56F5AFA8A2DA4D54F5DA4155F8C71D"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attempt.json",
+      "bytes": 12376,
+      "sha256": "C6F138D01388DE89DA5D3D991FDB11049DAAAD28086ADC1555DB7EF5364B327C"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/report.md",
+      "bytes": 5149,
+      "sha256": "2373190ABA63C1BC225873929A498AC731B8E177DE4FD9B21E4B001A9E3D54ED"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/result.json",
+      "bytes": 9304,
+      "sha256": "A7129DC0801E0CE037BD62B67BC446D26331C2886FB282434317957AAFD733C7"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+      "bytes": 52650,
+      "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/report.md",
+      "bytes": 18664,
+      "sha256": "E0C8EED1FDB39CE7C666BA9C2EA5B3CBFDD5ABCCBD70691762A739E668C43D68"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/result.json",
+      "bytes": 10332,
+      "sha256": "62C77665EA7A196555BE5A2DEAC6801C26D17D2CF7FCD437FA80B4EA4D472FF3"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/report.md",
+      "bytes": 14375,
+      "sha256": "48008DD976B0741DA26CF341F03C86D0620043FB5DE84B936B526B4BE85D8EE2"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/result.json",
+      "bytes": 9872,
+      "sha256": "5F3C5689DB1E0E0164AFDEA4149657DA467236DD3D0E38467C965E783C48AD72"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/report.md",
+      "bytes": 13690,
+      "sha256": "656A45548F96A79DDFE435E8111EB55CD6A50A52FCB3BC5C0FF3E3B2CBA3002E"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/result.json",
+      "bytes": 6164,
+      "sha256": "774026F2B9B456C34FF0959C2F1A722949A8E57DADA03FBC1E8E3254BA23152F"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/attempt.json",
+      "bytes": 9640,
+      "sha256": "52CEEA7CA19B68EC0A0B7A4D56178DDB468F76BAE33DE673107A69952AA9C20D"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/report.md",
+      "bytes": 5671,
+      "sha256": "1FD7B7E541C24976199434C43F11C8941F053483640578EE14D36DB40D6F5DCD"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/result.json",
+      "bytes": 7381,
+      "sha256": "078E5627FB21DED6FE792998D68001BB3BDB5EE64087CD7AC05E2650716BE7E6"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/evidence/decision-evidence.json",
+      "bytes": 7548,
+      "sha256": "2A5F8925DEFF2472C0EC25A574A032B65B8453F1D977AB8BB74B1F8408D1753B"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/attachments/proposed-plan-amendment-v01-persistence-boundary.md",
+      "bytes": 13648,
+      "sha256": "D6F0F264CC8BA9AEEA1437F3D9508E971FC9112A8BE77BBDBE3D37518B4663AC"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/attachments/proposed-plan-amendment-ipv-01.md",
+      "bytes": 8767,
+      "sha256": "8FCC73D5DA66661180ECEDCAF7596687D584D80EC28C73E81A44A8A5C668E2C6"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909/report.md",
+      "bytes": 12628,
+      "sha256": "92B140840DB20AEB9EF169344F8579106CB04E2DEF31816723A3D5BE2C6B7161"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909/result.json",
+      "bytes": 5767,
+      "sha256": "7B2F7CCAC85187E66D07FC00C60DEC2EC2A24013A4BAA5406828AB766C6E8920"
+    }
+  ],
+  "evidence_references": {
+    "root_adoption": {
+      "issue_url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+      "comment_id": 6583299245,
+      "author": "ScalableParimal",
+      "author_association": "OWNER",
+      "created_at": "2026-11-02T17:08:13Z",
+      "body_sha256": "44AFFB8132E00D0318A7E08D924F7C56CFE97AB29B6CF922DD1A91B32FA3B1C0",
+      "body": "I, Parimal Shere (ScalableParimal), separately and explicitly adopt the exact repository-relative product persistence root docs/sdlc-records/product/ for ScalableParimal/SupportIQ at C:\\PARIMAL_SHERE\\SCALABLE_SOLUTIONS\\SupportIQ. Target state: branch sdlc-framework-onboarding, HEAD 57ed3afe8a14a41bdbe38d4df621a99c836a0f4c plus the assessed working-tree governance source state bound by the CONSISTENT Audit in governance Work ID 0061148a-1b62-4d25-adff-e7f2318dbfad, attempt 20261102T160240Z-5022506a-f881-4681-af13-e4acf3bb6935 (result SHA-256 CF073B8E08EDF728B6AB1B1CC300C842D3FEF15F512A084C85B7A7E8EF199222). The applicable prospective Master baseline is SupportIQ-Master-Baseline-001 adopted at https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503.\n\nPurpose and scope: durable product-subject SDLC execution records, including a separately initiated SupportIQ Portability Assessment. Applicable actor-owned publication scope is docs/sdlc-records/product/<Work-ID>/attempts/<Attempt-ID>/, with each stable Work ID reserved under the governing convention and each qualified process actor publishing only its own authorized invocation, checkpoints, report, result and permitted evidence or gate records after a fresh explicit Human stage-start. No shared or other actor's final records may be overwritten. This adoption is effective prospectively from publication of this Human decision; future actors must independently resolve it and recheck current applicability.\n\nThis decision adopts the root only. It does not start Portability Assessment, the SDLC Orchestrator or any product lifecycle stage; does not approve any Requirement, Plan, implementation or Human Acceptance; and does not authorize product/source changes, alarm integration, staging, Commit or Push. Those require their separate applicable authorizations. It does not retroactively cure earlier blocked or failed invocations."
+    },
+    "requirement_approval": {
+      "issue_url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6685628908",
+      "comment_id": 6685628908,
+      "author": "ScalableParimal",
+      "author_association": "OWNER",
+      "created_at": "2026-11-06T13:12:29Z",
+      "body_sha256": "5790E138FF6DA99038052B9039D2C24B77FB0D32E2EE19FA7D8DADBD0FD92D18",
+      "body": "## SupportIQ \u2014 Human Requirement Approval: Product Requirement v1.11\n\n**Approver:** @ScalableParimal (repository OWNER)\n\n### Artifact approved\n- Path: `docs/requirement/SupportIQ_Product_Requirement_v1.11.md`\n- Bytes: 135602\n- SHA-256: `56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE`\n- Work ID: `55ade040-7071-4fdf-a8a6-8dcdc18a8150`\n- Verification basis: attempt `20261106T094118Z-b0606cb8-b2bf-4d1c-b6c1-3eed10deb74d` \u2014 outcome `ANALYSIS VERIFIED WITH GAPS`, readiness `READY FOR HUMAN REQUIREMENT APPROVAL`\n\n### RA20-Q-01 decisions \u2014 re-affirmed by me directly (resolves RAV-01)\nThis comment is the original, verbatim record of these decisions. It replaces the earlier summarized source.\n\n1. **Urgency values:** Critical, High, Medium, Low. They match the Ticket.Priority allowed values but are a separate business attribute. No automatic or implicit mapping between urgency and priority.\n2. **Read/review scope:**\n   - Support Agent: only tickets currently assigned to them.\n   - Support Manager: tickets in their currently assigned teams, including team-queued tickets with no individual Agent.\n   - Tenant Admin: any ticket in their own tenant.\n   - Platform Admin: no individual ticket urgency access or review.\n   - Authorization is revalidated on every read, review, accept, or override.\n3. **Review behavior:**\n   - Accept sets `ReviewedUrgency = SuggestedUrgency`; override sets `ReviewedUrgency` to the selected allowed value.\n   - `SuggestedUrgency` is preserved unchanged, and ReviewedBy/ReviewedAt are recorded.\n   - Urgency review never changes `Ticket.Priority`; any Priority change uses FR-TM-14.\n\nI confirm that v1.11 at the SHA-256 above reflects these decisions accurately.\n\n### Approval decision\nI approve SupportIQ Product Requirement v1.11 at the exact SHA-256 above.\n\nScope: this approves only the requirement. It does **not** start Implementation Planning. Planning needs its own explicit process initiation. Section 17 items (model/region, token/cost limits, email provider, timeout/retry) remain deferred, as stated in v1.11."
+    },
+    "plan_amendment_approval": {
+      "issue_url": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6798353351",
+      "comment_id": 6798353351,
+      "author": "ScalableParimal",
+      "author_association": "OWNER",
+      "created_at": "2026-11-11T14:22:11Z",
+      "body_sha256": "F89998D435D3012B4B990FD49DD105D56289C345BA0201791BAFFFBD2863175E",
+      "body": "Human Approval \u2014 V-01 Plan Amendment\n\nI approve the exact proposed V-01 amendment at:\ndocs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/attachments/proposed-plan-amendment-v01-persistence-boundary.md\nSHA-256: D6F0F264CC8BA9AEEA1437F3D9508E971FC9112A8BE77BBDBE3D37518B4663AC\nBound candidate v0.2 SHA-256: 77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7\n\nScope approved: V-01 only; preserve approved Requirement v1.11 Section 7; no Requirement change; V-02 remains unresolved and is not addressed.\n\nI authorize a separately initiated Implementation Planning process to create Draft Candidate v0.3 from immutable v0.2 and apply only the 14 exact replacements and controlled Planning-attempt ID substitution in the approved proposal. Preserve v0.1 and v0.2 unchanged.\n\nThis approval does not approve v0.3, grant Human Plan Approval, or authorize implementation. Complete independent Implementation Plan Verification remains required."
+    },
+    "prior_attempt_root_recheck": "20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attempt.json records the adopted product root and prior publication capability."
+  },
+  "planning_output_context": {
+    "candidate_identity": "supportiq-product-implementation-plan",
+    "candidate_version": "0.3",
+    "designated_output": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a/attachments/implementation-plan-supportiq-v1.11-v0.3.md",
+    "base_candidate": "v0.2 exact fingerprint above",
+    "previous_approved_plan": "NONE ESTABLISHED",
+    "task_impact": "Apply only exact amendment proposal; no tasks added or removed; preserve prior candidates; V-02 out of scope.",
+    "candidate_status": "Draft Candidate; not independently verified, not Ready for Human Review Approval, not Human Plan Approved, and not authorized for implementation."
+  },
+  "approved_read_scope": "Current Planning Guideline/Prompt/Request/Agent/Skill and three Masters; approved Requirement and approval evidence; candidate v0.2 and immutable v0.1 comparator; exact approved amendment and GitHub OWNER approval; V-01 Verification, Investigation, prior CCD and follow-up CCD evidence; existing Planning records; current repository context within this feature and proposal scope.",
+  "approved_write_scope": "Create a new candidate v0.3 applying only the 14 exact approved proposal replacements and controlled attempt ID substitution; publish only this Planning actor own invocation, checkpoints, report, evidence, result and candidate in the new attempt directory. Preserve v0.1/v0.2 and all upstream records byte-for-byte.",
+  "boundaries": [
+    "No Requirement or prior Plan edits.",
+    "No product code, tests, configuration, migration, schema, runtime or deployment changes.",
+    "No V-02 correction or decision.",
+    "No Implementation Plan Verification, Finding Investigation, Human Review Approval, Human Plan Approval, implementation, commit, or push in this attempt.",
+    "Stop at candidate v0.3 and hand off to independent Implementation Plan Verification."
+  ],
+  "publication_context": {
+    "adopted_root": "docs/sdlc-records/product/",
+    "attempt_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a/",
+    "candidate_plan_output": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a/attachments/implementation-plan-supportiq-v1.11-v0.3.md",
+    "planned_records": [
+      "attempt.json",
+      "checkpoint-0001.json",
+      "attachments/implementation-plan-supportiq-v1.11-v0.3.md",
+      "evidence/planning-evidence.json",
+      "report.md",
+      "checkpoint-0002.json",
+      "result.json"
+    ],
+    "no_overwrite": "Required for every published record; result.json terminal and last.",
+    "immutability": "v0.1 and v0.2 remain unchanged; published final records are not edited in place."
+  },
+  "prepublication_qualification": "Before this invocation record, checks were limited to governing Planning artifacts, the applicable root-adoption and process/plan approvals, repository identity/head/branch/status, collision and source fingerprints, and current publication capability context. No v0.2 candidate content was inspected for this Planning attempt; no v0.3 content was produced before publication."
+}

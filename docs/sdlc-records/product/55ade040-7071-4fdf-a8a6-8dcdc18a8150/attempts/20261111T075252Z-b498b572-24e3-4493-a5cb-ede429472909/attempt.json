@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_invocation",
+  "record_id": "20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909:attempt",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909",
+  "process": "SDLC Portability Assessment",
+  "assessment_type": "material_change_reassessment",
+  "created_at_utc": "2026-11-11T07:52:52.7208632Z",
+  "actor": {
+    "effective_identity": "int-scl-010\\parimal",
+    "entrypoint": ".github/agents/portability-assessment.agent.md via .github/skills/portability-assessment/SKILL.md",
+    "delegation": "none",
+    "role": "SDLC Portability Assessment Agent"
+  },
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "origin": "https://github.com/ScalableParimal/SupportIQ.git",
+    "root": "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "head": "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+    "same_repository_source_and_target": true,
+    "tracked_changes": "none observed",
+    "preinvocation_untracked_attempt_folders": [
+      "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/",
+      "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4/",
+      "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/",
+      "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261110T040128Z-66ad4071-1c2d-42da-aead-bd59bd7dee55/",
+      "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T052943Z-22085ae6-3b40-4731-b8c3-a4c14bdebc78/",
+      "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a/",
+      "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/"
+    ]
+  },
+  "source_framework": {
+    "baseline_id": "SupportIQ-Master-Baseline-001",
+    "root_adoption_evidence": {
+      "master_baseline": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503",
+      "product_record_root": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+      "basis": "Adoption sources and hashes were documented in the immediately preceding Portability Assessment for this Work ID; the current exact Master bytes match that assessment. The adoption comments were not separately re-fetched under this invocation's bounded scope."
+    },
+    "fingerprints": [
+      {"path":"docs/ai/sdlc/SDLC_GOVERNANCE.md","bytes":30926,"sha256":"79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B"},
+      {"path":"docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md","bytes":54243,"sha256":"6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860"},
+      {"path":"docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md","bytes":89025,"sha256":"08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C"},
+      {"path":"docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md","bytes":8422,"sha256":"6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88"},
+      {"path":"docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md","bytes":1573,"sha256":"1E4BDE2D46758989CB26B943258F0F86C138B7A4BE5E7CEE162F201C85D45C09"},
+      {"path":"docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md","bytes":2108,"sha256":"A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208"},
+      {"path":".github/agents/portability-assessment.agent.md","bytes":1875,"sha256":"5FB6F0F8C8331CA88A925A2192EB8D07319E62D83BF84926BA232D67483FBD26"},
+      {"path":".github/skills/portability-assessment/SKILL.md","bytes":2607,"sha256":"4098E4C679985E3713E9E2E8F01A7B2A664590D341D2F211F360BCDB5FF7038A"},
+      {"path":"docs/ai/guidelines/IMPLEMENTATION_PLANNING_GUIDELINES.md","bytes":18111,"sha256":"34D70CBF5CC9969BDC07859AC0916DBB7BB741C07A322464DE12F244FB3F926F"},
+      {"path":"docs/ai/prompts/IMPLEMENTATION_PLANNING_PROMPT.md","bytes":2273,"sha256":"0B59816CE459EFE1A2BDDC7E22E43264F1DA19DA991F2750ADC3E8020359BAF7"},
+      {"path":"docs/ai/request/IMPLEMENTATION_PLANNING_REQUEST.md","bytes":2168,"sha256":"1144F2D29334F8ED659B1BDA5420E3E60C99E7E52735449F8B5651E146C278EE"},
+      {"path":".github/agents/implementation-planning.agent.md","bytes":3989,"sha256":"D3E7912AC5AF6468CC45B46B767547A75BAECBB548EA32FA14D83D5E5BBACCE5"},
+      {"path":".github/skills/implementation-planning/SKILL.md","bytes":8217,"sha256":"4BC61C58EA01D8DAB1914FE30C4B83B6BA04E4DD71050B3017A42C07D7971F94"}
+    ]
+  },
+  "target_project": {
+    "identity": "SupportIQ",
+    "repository": "ScalableParimal/SupportIQ",
+    "root": "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "head": "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+    "scope": "Static applicability of the adopted SupportIQ SDLC framework to the approved Option A Implementation Planning revision for IPV-01, producing candidate Plan v0.2; not the planning revision itself, Plan approval, implementation, or runtime readiness.",
+    "inputs": [
+      {"role":"approved_requirement","path":"docs/requirement/SupportIQ_Product_Requirement_v1.11.md","version":"1.11","status":"human approved","bytes":135602,"sha256":"56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE"},
+      {"role":"affected_plan","path":"docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/attachments/implementation-plan-supportiq-v1.11-v0.1.md","version":"0.1","status":"draft candidate; not Human Plan Approved","bytes":49325,"sha256":"66AB32440BC49F9FFFD4038310B790E37E56F5AFA8A2DA4D54F5DA4155F8C71D"},
+      {"role":"plan_verification","attempt_id":"20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75","report_sha256":"B7867FC16F24A9AEEB59117978F7A31FA18E62A6B50B5BF493AA08474079D101","result_sha256":"6C1964A04BEA50CEABC8B9DCE007EFECBD18361EAE36B02676413B6988E984D8"},
+      {"role":"finding_investigation","attempt_id":"20261111T052943Z-22085ae6-3b40-4731-b8c3-a4c14bdebc78","report_sha256":"3A1668FD6333DE6A641E089AD7963D3604864598ED58CAAFF60904A55769DDAA","result_sha256":"5145488AE5FA92AB094581AEEFDC25F1DA9ECAF85AE72CBA644C95A9E25CC6F2"},
+      {"role":"prior_portability_assessment","attempt_id":"20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a","report_sha256":"A637478CF7FE2F4740DFB379654D759E2A65EB811EA50472C3FB7278D922D888","result_sha256":"BB000893BB0767D92A0CFF201DC1867B9851E1663F32097828FA49D273568397"},
+      {"role":"corrective_change_decision","attempt_id":"20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017","report_sha256":"4D8E53B239E24AB2FCA59666D017924F79BA8BD03BACB7E3ABDA93CEBFB8F03A","result_sha256":"5B577CEC02D50547760EFDF7B4CCDE617AA41E2F4CA1010BBFBC84B64FFA81F8"},
+      {"role":"approved_amendment","path":"docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/attachments/proposed-plan-amendment-ipv-01.md","bytes":8767,"sha256":"8FCC73D5DA66661180ECEDCAF7596687D584D80EC28C73E81A44A8A5C668E2C6"},
+      {"role":"requirement_approval_record","path":"docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/human-gates/human-requirement-approval-v1.11/decisions/6685628908.json","bytes":11043,"sha256":"A9CFB6CAC885BDFE9FD4660B0BEEF1027628094163916FE8AF927044E2FE421D"}
+    ],
+    "human_decision_for_corrective_change": {
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6790246131",
+      "comment_id": 6790246131,
+      "author": "ScalableParimal",
+      "author_association": "OWNER",
+      "created_at": "2026-11-11T07:47:13Z",
+      "updated_at": "2026-11-11T07:47:13Z",
+      "status": "individually fetched and verified unchanged; exact decision approved, C-02 confirmed, Option A selected, amendment approved by exact SHA-256, Implementation Planning revision designated; v0.1 must remain unchanged",
+      "scope_note": "This is Human Approval of the Corrective Change Decision/amendment, not Human Review Approval, Human Plan Approval, or Implementation Planning stage-start."
+    },
+    "finding": {"id":"IPV-01","formal_classification":"Cannot Determine (inherited)","investigation_outcome":"CORRECTIVE DIRECTION IDENTIFIED","corrective_decision":"FINDING ACCEPTED — PLAN CHANGE REQUIRED"}
+  },
+  "trigger": {
+    "type": "material-change reassessment",
+    "changed_inputs": "The next affected activity changed from Corrective Change Decision & Plan Update (the prior portability scope) to a governed Implementation Planning revision. Human Approval of the exact Option A amendment and designation of the application route are new target decisions. The prior assessment conclusion is not reused for this changed stage.",
+    "prior_assessment": "20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a"
+  },
+  "invocation_authorization": {
+    "human_initiation": "User: \"I have recorded the human approval on https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6790246131 now you can start the next step\"; interactive form explicitly approved starting this Portability Assessment.",
+    "approved_read_scope": "Current Portability source artifacts, all three Masters, Implementation Planning Guideline/Prompt/Request/Agent/Skill, current repository metadata, approved Requirement and approval record, candidate Plan v0.1, IPV/Finding Investigation/Portability/Corrective Change records and the exact amendment, plus issue comment 6790246131.",
+    "approved_output_scope": "Only this actor's new attempt metadata, checkpoints, report, result, and necessary evidence in this new attempt directory under the adopted product root.",
+    "execution_permission": "none",
+    "restrictions": ["No scripts, tests, workflows, runtime operations, or production calls.","No source/target or upstream record changes beyond this actor's own attempt records.","No Plan or Requirement change, no other process start, no Orchestrator activation, no commit or push."]
+  },
+  "publication_context": {
+    "record_root": "docs/sdlc-records/product/",
+    "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909/",
+    "collision_check": "Attempt path did not exist before publication; checked immediately before invocation.",
+    "capability_check": "Current identity int-scl-010\\parimal; Windows ACL includes Authenticated Users Modify on the product attempts parent; authorized no-overwrite publish.ps1 helper is available in session state.",
+    "method": "CreateNew .partial, strict UTF-8 without BOM, flush, exact byte comparison, move without overwrite, read back, parse JSON, SHA-256.",
+    "planned_records": ["attempt.json","checkpoint-0001.json","evidence/assessment-evidence.json","report.md","checkpoint-0002.json","result.json"],
+    "immutability": "Published final records are never edited in place; corrections require linked new records."
+  },
+  "prepublication_qualification": "Before this record, reads and fingerprinting were limited to establishing the approved source/target identities, revisions, authorized input scope, approval provenance, prior assessment scope, repository context, and attempt/publication viability. No formal determinations or concern classifications have been published."
+}

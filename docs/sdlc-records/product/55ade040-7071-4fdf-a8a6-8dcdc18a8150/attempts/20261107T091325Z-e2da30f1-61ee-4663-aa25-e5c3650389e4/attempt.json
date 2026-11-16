@@ -1,0 +1,154 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_invocation",
+    "record_id":  "20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4:attempt",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4",
+    "process":  "SDLC Portability Assessment",
+    "assessment_type":  "material_change_reassessment",
+    "created_at_utc":  "2026-11-07T09:14:46.6461758Z",
+    "actor":  {
+                  "effective_identity":  "INT-SCL-010\\Parimal",
+                  "entrypoint":  ".github/agents/portability-assessment.agent.md via .github/skills/portability-assessment/SKILL.md",
+                  "delegation":  "none",
+                  "role":  "SDLC Portability Assessment Agent"
+              },
+    "repository":  {
+                       "preinvocation_status":  [
+                                                    "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/"
+                                                ],
+                       "branch":  "SupportIQ-Requirement-Analysis",
+                       "root":  "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+                       "canonical":  "ScalableParimal/SupportIQ",
+                       "head":  "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+                       "same_repository_source_and_target":  true,
+                       "origin":  "https://github.com/ScalableParimal/SupportIQ.git"
+                   },
+    "source_framework":  {
+                             "baseline_id":  "SupportIQ-Master-Baseline-001",
+                             "manifest":  [
+                                              {
+                                                  "path":  "docs/ai/sdlc/SDLC_GOVERNANCE.md",
+                                                  "sha256":  "79A3F15E5032AC1AB018B74DCEE772801E6F0AA883CA67BD51D64EF5ECA25A8B",
+                                                  "bytes":  30926
+                                              },
+                                              {
+                                                  "path":  "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+                                                  "sha256":  "6CD023559372065329EFCAE6481345663887B9EC01F7A5E884962A1D74DCD860",
+                                                  "bytes":  54243
+                                              },
+                                              {
+                                                  "path":  "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+                                                  "sha256":  "08F33FFDB36D875AC05CD15362CDCCC119CFD63FB40D44D21E761C364A23AC7C",
+                                                  "bytes":  89025
+                                              },
+                                              {
+                                                  "path":  "docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md",
+                                                  "sha256":  "6BC8096DAF7F03BB328CBD543CDB7D541EF29B9B97426CCD4AD0E1EAAF813D88",
+                                                  "bytes":  8422
+                                              },
+                                              {
+                                                  "path":  "docs/ai/prompts/PORTABILITY_ASSESSMENT_PROMPT.md",
+                                                  "sha256":  "1E4BDE2D46758989CB26B943258F0F86C138B7A4BE5E7CEE162F201C85D45C09",
+                                                  "bytes":  1573
+                                              },
+                                              {
+                                                  "path":  "docs/ai/request/PORTABILITY_ASSESSMENT_REQUEST.md",
+                                                  "sha256":  "A0D0C5E8826305937A3E82DD2B39A805D329740D95C3068E913BB986F3697208",
+                                                  "bytes":  2108
+                                              },
+                                              {
+                                                  "path":  ".github/agents/portability-assessment.agent.md",
+                                                  "sha256":  "5FB6F0F8C8331CA88A925A2192EB8D07319E62D83BF84926BA232D67483FBD26",
+                                                  "bytes":  1875
+                                              },
+                                              {
+                                                  "path":  ".github/skills/portability-assessment/SKILL.md",
+                                                  "sha256":  "4098E4C679985E3713E9E2E8F01A7B2A664590D341D2F211F360BCDB5FF7038A",
+                                                  "bytes":  2607
+                                              }
+                                          ],
+                             "baseline_adoption":  {
+                                                       "author":  "ScalableParimal",
+                                                       "created_at_utc":  "2026-11-02T17:06:37Z",
+                                                       "audit_status":  "Qualifying CONSISTENT Audit and integrity binding stated in independently resolved owner decision; underlying governance Audit records not accessed (permission limited to collision checking).",
+                                                       "exact_master_hashes_match":  true,
+                                                       "independently_resolved_current_invocation":  true,
+                                                       "url":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583261503",
+                                                       "updated_at_utc":  "2026-11-02T17:06:37Z",
+                                                       "author_association":  "OWNER"
+                                                   }
+                         },
+    "target_project":  {
+                           "planning":  "User-reported candidate Plan v0.1, 27 tasks/self-validation pass; independent Plan Verification paused; Planning inputs not authorized assessment targets and will not be opened.",
+                           "identity":  "SupportIQ",
+                           "root":  "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+                           "requirement":  {
+                                               "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                                               "sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                                               "bytes":  135602
+                                           },
+                           "head":  "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+                           "approval_evidence_class":  "Reported by user as durable Human Requirement Approval binding this exact hash; not independently verified here; document header reported draft/unapproved"
+                       },
+    "trigger":  {
+                    "prior_assessment":  {
+                                             "reuse_rule":  "All eight dimensions will be assessed afresh; prior target conclusions not reused.",
+                                             "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20/result.json",
+                                             "attempt_id":  "20261106T062000Z-33c74d75-caae-4eaf-9dc9-9b07744b7e20",
+                                             "sha256":  "0BB889A2D6D608BAEAFF1030C9A1C9526D81B5CFA5F8A58BBEC4C5785E3DB77C"
+                                         },
+                    "type":  "material-change reassessment",
+                    "changed_inputs":  "v1.8 to v1.11: AI urgency suggestion/review fields, model metadata, role/action clarifications"
+                },
+    "authorization":  {
+                          "blocker_decision_authority_verbatim":  "ScalableParimal - Repo Owner",
+                          "read_permission_verbatim":  "Yes i confirm - source framework docs/ai/sdlc/, portability guideline/prompt/request, and target SupportIQ v1.11 requirement plus relevant project instructions, architecture/configuration, and affected code paths needed for the eight assessment dimensions. Exclude unrelated files.",
+                          "reported_initiation_response":  "approval=approve",
+                          "execution_permission":  "None beyond non-mutating qualification/hash/identity/permission checks; no project scripts/tests/workflows/runtime",
+                          "fresh_stage_start":  "Execute the user-authorized material-change reassessment for SupportIQ v1.11 through your controlled Agent/Skill entrypoint.",
+                          "additional_read":  "Read-only own Work ID product records for root adoption, prior assessment and metadata; governance records for stable Work ID collision status only.",
+                          "source":  "Current user request dated 2026-11-07T14:42:37.200+05:30; supplied prior ask_user decisions attributed to user, not tool events from this invocation",
+                          "selected_entrypoint_mechanics_included":  true,
+                          "publication_response":  "Confirmed",
+                          "blocker_decision":  "No actual blocker applicability decision supplied",
+                          "prohibitions":  [
+                                               "No source/target product writes",
+                                               "No other actor record changes",
+                                               "No other Agent/process or Orchestrator",
+                                               "No commit/push",
+                                               "No Requirement/Plan approval or Acceptance"
+                                           ],
+                          "reported_initiation_subject":  "The latest plan is Plan v0.1, but the portability assessment only covers requirement v1.8; the current approved requirement is v1.11 with material scope changes... Do you approve starting that reassessment now?",
+                          "output_scope":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4"
+                      },
+    "persistence":  {
+                        "work_id_root":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/",
+                        "publication_route":  "Native System.IO.FileStream FileMode.CreateNew FileAccess.Write FileShare.None; UTF-8 JSON; no overwrite; byte-for-byte readback plus SHA256 and field checks before consequential work",
+                        "output_scope":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4",
+                        "root":  "docs/sdlc-records/product/",
+                        "product_root_adoption":  {
+                                                      "author":  "ScalableParimal",
+                                                      "independently_resolved_current_invocation":  true,
+                                                      "created_at_utc":  "2026-11-02T17:08:13Z",
+                                                      "updated_at_utc":  "2026-11-02T17:08:13Z",
+                                                      "author_association":  "OWNER",
+                                                      "url":  "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6583299245",
+                                                      "scope":  "Prospective actor-owned attempts after fresh stage-start; canonical root and exact baseline match"
+                                                  },
+                        "reservation":  "Continue unchanged authorized same-work reservation from prior attempt.json; allocation permission does not replace existing Work ID",
+                        "collision_checks":  "Existing product reservation matches supplied work; no complete ID in governance directory names or JSON metadata; fresh attempt absent"
+                    },
+    "current_qualification":  {
+                                  "publication_api":  "FileStream CreateNew constructor is available in current process; actual own invocation publication proves permitted route before consequential work",
+                                  "canonical_identity_verified":  true,
+                                  "actor_identity_current":  true,
+                                  "preflight_transparency":  "This actor read rules/mechanics, adoption evidence and own prior invocation/result metadata only for qualification. Requirement only fingerprinted here; no substantive assessment performed before own attempt readback. Parent preflight reads described by user are not current execution evidence.",
+                                  "read_capability":  "Current governed files, selected mechanics, own predecessor metadata successfully read",
+                                  "role_capabilities":  "Read-only static assessment and bounded actor-owned records; no independent verification role, runtime, or implementation authority",
+                                  "required_predecessors":  "Root and Master adoption resolved from actual OWNER comments; same-work reservation verified; reassessment does not require prior Plan Verification or fabricated Requirement approval",
+                                  "source_state_and_hashes_verified":  true,
+                                  "permission_capability":  "Current Windows token includes enabled Authenticated Users, ACL allows Modify; no deny ACE observed; all destination ancestors inspected and have no reparse point"
+                              },
+    "status":  "PUBLISHED_PENDING_READBACK_VALIDATION"
+}

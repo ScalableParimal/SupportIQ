@@ -1,0 +1,163 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_result",
+    "record_id":  "20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75:result",
+    "feature":  "SupportIQ Product Requirement v1.11",
+    "creator":  "AI assistant using Copilot SDK in VS Code",
+    "creator_role":  "Implementation Plan Verification executor",
+    "responsible_human_actor":  "Current caller; requirement approver independently evidenced as ScalableParimal (OWNER)",
+    "created_at_utc":  "2026-11-07T13:39:33.4189497Z",
+    "clock_basis":  "PowerShell UTC clock sampled while preparing terminal result; not filesystem publication time",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75",
+    "process":  "Implementation Plan Verification",
+    "execution_status":  "COMPLETED",
+    "outcome":  "CHANGES REQUIRED",
+    "invocation":  {
+                       "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/attempt.json",
+                       "sha256":  "B0B4A43B73722F53940A90F80047C35284E447AE33D2C1EB27DA92995ECD4851",
+                       "bytes":  9259
+                   },
+    "checkpoints":  [
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/checkpoint-0001.json",
+                            "sha256":  "677F2D19BED0DFE837450BA9417E08BB2BC616B5F2A2C6C2DE594C73D6EB1B11",
+                            "bytes":  2204
+                        },
+                        {
+                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/checkpoint-0002.json",
+                            "sha256":  "EBF87E6BEC82EF8486D5CCBC8C0A6EC77D2D60293E5B8D0263610DD6225DE7BB",
+                            "bytes":  3219
+                        }
+                    ],
+    "report":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/report.md",
+                   "sha256":  "B7867FC16F24A9AEEB59117978F7A31FA18E62A6B50B5BF493AA08474079D101",
+                   "bytes":  13859
+               },
+    "evidence":  [
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/evidence/verification-evidence.json",
+                         "sha256":  "B21996681BE3489FB6A507805CD8837CA9CC97348492842D32408BE7AA661D42",
+                         "bytes":  8414
+                     },
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/evidence/verification-evidence-addendum.json",
+                         "sha256":  "16539E9902DBB80DF53AA1AC831AA4662C615D0DEFEF039EDAB1B4081E1378AC",
+                         "bytes":  1610
+                     }
+                 ],
+    "produced_artifacts":  [
+
+                           ],
+    "repository_context":  {
+                               "git_status_short":  [
+                                                        "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/",
+                                                        "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4/",
+                                                        "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/"
+                                                    ],
+                               "branch":  "SupportIQ-Requirement-Analysis",
+                               "implementation_state":  "No product source/project/test/deployment files observed in checkout; no product changes made; own verification records are the only new output under this attempt.",
+                               "candidate_plan":  {
+                                                      "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/attachments/implementation-plan-supportiq-v1.11-v0.1.md",
+                                                      "sha256":  "66AB32440BC49F9FFFD4038310B790E37E56F5AFA8A2DA4D54F5DA4155F8C71D",
+                                                      "bytes":  49325
+                                                  },
+                               "requirement_approval":  {
+                                                            "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/human-gates/human-requirement-approval-v1.11/decisions/6685628908.json",
+                                                            "sha256":  "A9CFB6CAC885BDFE9FD4660B0BEEF1027628094163916FE8AF927044E2FE421D",
+                                                            "bytes":  11043
+                                                        },
+                               "source_requirement":  {
+                                                          "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                                                          "sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                                                          "bytes":  135602
+                                                      },
+                               "repository":  "ScalableParimal/SupportIQ",
+                               "head":  "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+                               "previous_approved_plan":  "NONE located; NOT APPLICABLE"
+                           },
+    "process_initiation":  {
+                               "scope":  "Complete current candidate Implementation Plan v0.1 for approved SupportIQ Requirement v1.11",
+                               "actual_supplied_wording":  "true",
+                               "not_an_approval":  "This process initiation is not Human Review Approval, Human Plan Approval, or implementation authorization.",
+                               "source":  "Current user response to Implementation Plan Verification initiation approval form",
+                               "kind":  "Explicit Human process initiation supplied by current user"
+                           },
+    "verification":  {
+                         "all_tasks_have_completion_criteria":  true,
+                         "changes_applied":  0,
+                         "dependency_cycles":  0,
+                         "task_count":  27,
+                         "severity_summary":  {
+                                                  "medium":  1
+                                              },
+                         "verification_outcome":  "CHANGES REQUIRED",
+                         "human_review_approval_readiness":  "NOT READY FOR HUMAN REVIEW APPROVAL",
+                         "requirement_functional_ids":  95,
+                         "finding_count":  1,
+                         "complete_scope_reviewed":  true,
+                         "target":  "Complete current candidate Plan; not a partial task subset",
+                         "resolvable_task_prerequisites":  90,
+                         "finding_ids":  [
+                                             "IPV-01"
+                                         ],
+                         "unique_task_ids":  true,
+                         "uncovered_requirement_ids":  [
+
+                                                       ]
+                     },
+    "open_decisions":  [
+                           {
+                               "gate":  "Affected model/index/deployment work",
+                               "id":  "D-01",
+                               "decision":  "Exact Azure AI generation/embedding deployments and region"
+                           },
+                           {
+                               "gate":  "Model-call and cost configuration",
+                               "id":  "D-02",
+                               "decision":  "Model-specific token limits and monthly cost budget"
+                           },
+                           {
+                               "gate":  "Real email integration/delivery",
+                               "id":  "D-03",
+                               "decision":  "Email provider, sender identity/domain, and deployment configuration"
+                           },
+                           {
+                               "gate":  "Final worker/provider configuration",
+                               "id":  "D-04",
+                               "decision":  "Bounded per-operation worker timeout/retry settings"
+                           }
+                       ],
+    "known_record_limitations":  [
+                                     "Related active work outside checkout remains UNKNOWN/UNASSESSED; the plan requires serialization in the shared checkout.",
+                                     "No product build/tests/runtime/cloud/deployment evidence exists; no build or test was run.",
+                                     "User-reported Orchestrator state IMPLEMENTATION_PLAN_VERIFICATION_PENDING was not independently loaded."
+                                 ],
+    "validation":  {
+                       "evidence_and_checkpoint_readback":  "PASS",
+                       "no_upstream_artifact_modified":  true,
+                       "result_readback":  "PENDING_CURRENT_PUBLICATION",
+                       "source_hashes_match_requested_bindings":  true,
+                       "attempt_record_integrity":  "PASS",
+                       "report_readback":  "PASS"
+                   },
+    "repository_effects":  {
+                               "new_files":  [
+                                                 "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/attempt.json",
+                                                 "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/checkpoint-0001.json",
+                                                 "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/checkpoint-0002.json",
+                                                 "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/report.md",
+                                                 "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/evidence/verification-evidence.json",
+                                                 "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/evidence/verification-evidence-addendum.json",
+                                                 "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/result.json"
+                                             ],
+                               "no_commit_or_push":  true,
+                               "tracked_product_files_changed":  [
+
+                                                                 ]
+                           },
+    "next_permitted_process":  "Finding Investigation, followed by Corrective Change Decision \u0026 Plan Update if approved; complete current-plan re-verification after any plan change. Not invoked in this attempt.",
+    "process_boundary":  "Implementation Plan Verification only; read-only with respect to Requirement, candidate Plan, source, tests, architecture, and upstream artifacts.",
+    "stop_at":  "Verification result and governed handoff; no approval or implementation authorization."
+}

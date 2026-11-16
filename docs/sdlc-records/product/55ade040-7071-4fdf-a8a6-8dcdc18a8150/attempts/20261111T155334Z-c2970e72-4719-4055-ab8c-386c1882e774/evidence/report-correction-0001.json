@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_evidence_correction",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T155334Z-c2970e72-4719-4055-ab8c-386c1882e774",
+  "process": "Corrective Change Decision & Plan Update",
+  "created_at_utc": "2026-11-11T16:08:56.104397Z",
+  "corrects": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T155334Z-c2970e72-4719-4055-ab8c-386c1882e774/report.md",
+    "sha256": "2F361AF56BC82C052259D4341096131912F89C24B47D789257E025336773D82F",
+    "field": "Section 3 supplemental proposal byte count",
+    "recorded_value": 3158
+  },
+  "correct_value": 4397,
+  "basis": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T155334Z-c2970e72-4719-4055-ab8c-386c1882e774/attachments/proposed-pb01-correction-to-amendment-proposal.md",
+    "bytes": 4397,
+    "sha256": "90F9D2FFF4F14729BECEF3937B6F92BEB3C31DF90881DEAB9350CAEACC6CEFFB"
+  },
+  "scope": "Clerical byte-count correction only. The report remains immutable. Proposal contents, proposal SHA-256, decision, scope, and application boundary are unchanged."
+}

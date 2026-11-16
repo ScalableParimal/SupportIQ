@@ -1,0 +1,47 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75:checkpoint-0002",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75",
+    "process":  "Implementation Plan Verification",
+    "created_at_utc":  "2026-11-07T13:39:14.6709573Z",
+    "status":  "REPORT_COMPLETE_RESULT_READY",
+    "bindings":  [
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/report.md",
+                         "sha256":  "B7867FC16F24A9AEEB59117978F7A31FA18E62A6B50B5BF493AA08474079D101",
+                         "bytes":  13859
+                     },
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/evidence/verification-evidence.json",
+                         "sha256":  "B21996681BE3489FB6A507805CD8837CA9CC97348492842D32408BE7AA661D42",
+                         "bytes":  8414
+                     },
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/evidence/verification-evidence-addendum.json",
+                         "sha256":  "16539E9902DBB80DF53AA1AC831AA4662C615D0DEFEF039EDAB1B4081E1378AC",
+                         "bytes":  1610
+                     },
+                     {
+                         "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/attachments/implementation-plan-supportiq-v1.11-v0.1.md",
+                         "sha256":  "66AB32440BC49F9FFFD4038310B790E37E56F5AFA8A2DA4D54F5DA4155F8C71D",
+                         "bytes":  49325
+                     },
+                     {
+                         "path":  "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+                         "sha256":  "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+                         "bytes":  135602
+                     }
+                 ],
+    "checks":  [
+                   "Complete report satisfies all required sections and binds exact current Requirement and candidate Plan",
+                   "Candidate Plan and Requirement hashes rechecked after complete review; both match supplied bindings",
+                   "Finding IPV-01 and proposed action documented; no upstream artifact modified",
+                   "Outcome CHANGES REQUIRED; Human Review Approval readiness NOT READY",
+                   "Decision gates D-01–D-04 preserved without selecting values",
+                   "Evidence classification and repository limitations disclosed",
+                   "No downstream process invoked; process boundary observed"
+               ],
+    "termination":  "Verification analysis complete; publish and integrity-check terminal result, then stop."
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_id": "20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a:checkpoint-0002",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a",
+  "process": "Implementation Planning",
+  "sequence": 2,
+  "created_at_utc": "2026-11-11T15:13:07.999264Z",
+  "state": "BLOCKED_BEFORE_CANDIDATE_PUBLICATION",
+  "blocker_id": "PB-01 (local Planning blocker; not a formal finding)",
+  "finding": "The approved V-01 amendment changes plan version to 0.3 but leaves two current task-reference qualifiers at @0.2 (candidate Section 4 line 57 and Section 8 line 194); Guideline Section 6 requires plan references qualified by identity and version.",
+  "approved_scope": "Only 14 exact replacements and controlled Planning-attempt ID substitution are approved. Updating two additional qualifiers would exceed that approval.",
+  "simulation": {
+    "replacement_count": 14,
+    "actual_attempt_id_substituted": true,
+    "remaining_stale_reference_lines": [
+      57,
+      194
+    ],
+    "bytes": 54455,
+    "sha256": "CB545D6799E1F711889862499A6981D75C3DF098D7CA64149BA139AF94AC1CFF",
+    "in_memory_only": true
+  },
+  "candidate_v0_3_created": false,
+  "candidate_v0_2_modified": false,
+  "requirement_modified": false,
+  "source_bindings": [
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a/attempt.json",
+      "bytes": 25910,
+      "sha256": "902E1DD0FCF4F0F08AE9D098F87AFFF86FF5B0C89D60213668C4471F6C546E17"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a/checkpoint-0001.json",
+      "bytes": 9583,
+      "sha256": "2944478A1A7F3D75FFED7CE78887C7197EBAB6C14672D441F5A7DAF695F51AB2"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a/evidence/planning-evidence.json",
+      "bytes": 5173,
+      "sha256": "E72A90CDDA9417325667D5C8FCE2C6920DE351D114B1FADFCD72512C6FE0FE1E"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T144814Z-20cb8a00-3938-48bc-8c1c-aa32a044bf3a/report.md",
+      "bytes": 3971,
+      "sha256": "0CC9587D6EFE20EB958C694FBF4BDBC29D4630FA01B03B026300D92D0A19916C"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+      "bytes": 52650,
+      "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/attachments/proposed-plan-amendment-v01-persistence-boundary.md",
+      "bytes": 13648,
+      "sha256": "D6F0F264CC8BA9AEEA1437F3D9508E971FC9112A8BE77BBDBE3D37518B4663AC"
+    }
+  ],
+  "next_activity": "Publish the terminal blocked result; pause for separate human initiation of a governed process to classify and decide the amendment-completeness blocker."
+}

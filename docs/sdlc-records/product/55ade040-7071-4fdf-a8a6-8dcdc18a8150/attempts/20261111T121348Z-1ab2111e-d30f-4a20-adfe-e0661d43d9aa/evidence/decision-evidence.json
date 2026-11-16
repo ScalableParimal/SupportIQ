@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence_manifest",
+  "record_id": "20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa:evidence:decision",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa",
+  "subject": {
+    "type": "FINDING",
+    "id": "V-01",
+    "source": "Implementation Plan Verification attempt 20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84",
+    "investigation": "Finding Investigation attempt 20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf",
+    "affected_artifact": "Candidate Implementation Plan v0.2; not approved"
+  },
+  "decision": {
+    "status": "FINDING ACCEPTED — PLAN CHANGE REQUIRED",
+    "plan_interpretation": "Candidate v0.2 is the affected artifact for this pre-approval Plan Verification finding, following Portability C-02; no Human Plan Approved Implementation Plan has been established.",
+    "conditional_proposal": "The report contains mutually exclusive, unselected conditional paths. Option A is only if the human confirms the architecture; Option B routes through Requirement Update if the intended design contradicts Requirement §7. No apply-ready patch is prepared."
+  },
+  "source_inspection_evidence": [
+    {
+      "source": "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md",
+      "sha256": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203",
+      "scope": "Decision taxonomy, plan-change criteria, options/human approval, evidence classes, report schema, and next-process gates."
+    },
+    {
+      "source": "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md",
+      "sha256": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7",
+      "scope": "Required sources, scope, decision fields, and evidence boundaries."
+    },
+    {
+      "source": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+      "sha256": "A947610DC0BE33DCFF0F9CDFD794273B1BC90561CEF7EDA25CCF5AE417A37810",
+      "scope": "Current request template; finding-specific fields applied."
+    },
+    {
+      "sources": [
+        "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md §33.1",
+        "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md §30.1"
+      ],
+      "scope": "Current-invocation evidence, own-record publication/order, adopted product records root, durable execution records, and no-overwrite/final-record boundaries."
+    },
+    {
+      "source": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+      "bytes": 135602,
+      "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+      "scope": "Requirement §§7–9. §7 assigns persistence responsibility to the .NET Web API and identifies Azure SQL as the relational data store; it does not prescribe project layout, repository pattern, or exact storage-code boundary."
+    },
+    {
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/human-gates/human-requirement-approval-v1.11/decisions/6685628908.json",
+      "bytes": 11043,
+      "sha256": "A9CFB6CAC885BDFE9FD4660B0BEEF1027628094163916FE8AF927044E2FE421D",
+      "scope": "Directly parsed local decision: APPROVED; binds exact Requirement bytes."
+    },
+    {
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+      "bytes": 52650,
+      "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7",
+      "scope": "Direct candidate inspection: §2 contradictory ownership statements; §6 separate logical Web API and persistence boundaries; IP-01/IP-02 and relevant context; candidate status is Draft Candidate."
+    },
+    {
+      "sources": [
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/report.md",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/evidence/verification-evidence.json",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/result.json"
+      ],
+      "integrity": {
+        "report_sha256": "E0C8EED1FDB39CE7C666BA9C2EA5B3CBFDD5ABCCBD70691762A739E668C43D68",
+        "verification_evidence_sha256": "298639E08AD0C51982850C6668B7F6438BF58983FA9CE69A5CD7BA6034A1F6CA",
+        "result_sha256": "62C77665EA7A196555BE5A2DEAC6801C26D17D2CF7FCD437FA80B4EA4D472FF3"
+      },
+      "observation": "The report/result say CHANGES REQUIRED and identify V-01 as a High Architecture Conflict / Plan Defect. The source verifier disclosed late first publication."
+    },
+    {
+      "sources": [
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/report.md",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/evidence/investigation-evidence.json",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/result.json"
+      ],
+      "integrity": {
+        "report_sha256": "48008DD976B0741DA26CF341F03C86D0620043FB5DE84B936B526B4BE85D8EE2",
+        "result_sha256": "5F3C5689DB1E0E0164AFDEA4149657DA467236DD3D0E38467C965E783C48AD72"
+      },
+      "observation": "The report/result confirm the candidate-text contradiction and investigation outcome REQUIREMENT OR PLAN CLARIFICATION REQUIRED; formal taxonomy Cannot Determine because no approved Plan/implementation is established; intent and project dependency direction are unknown; alternatives are advisory and unselected. The investigator disclosed late first publication."
+    },
+    {
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/attachments/proposed-plan-amendment-ipv-01.md",
+      "sha256": "8FCC73D5DA66661180ECEDCAF7596687D584D80EC28C73E81A44A8A5C668E2C6",
+      "scope": "Prior IPV-01 Option A amendment; its limited purpose is distinct and it does not select or approve a V-01 architecture."
+    },
+    {
+      "sources": [
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/report.md",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/report.md"
+      ],
+      "scope": "Prior decision and Planning record; v0.2 carries the approved IPV-01 amendment but remains an unapproved candidate."
+    },
+    {
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a/report.md",
+      "scope": "Portability C-02 interpretation for pre-approval Plan findings: report against the candidate while explicitly stating no Plan is approved and requiring human confirmation."
+    }
+  ],
+  "executed_evidence": [
+    {
+      "operation": "PowerShell identity, Git repository root, HEAD, branch, status, ACL, input byte counts, SHA-256, JSON parsing, and record integrity checks.",
+      "observations": {
+        "identity": "INT-SCL-010\\Parimal",
+        "repository": "ScalableParimal/SupportIQ",
+        "branch": "SupportIQ-Requirement-Analysis",
+        "head": "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+        "working_tree": "Pre-existing untracked governed-attempt folders were present and preserved. Only this CCD's attempt records were added by this attempt; no source or evaluated artifact write was made."
+      }
+    },
+    {
+      "operation": "First attempt record readback, JSON parse, and SHA-256 check.",
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/attempt.json",
+      "bytes": 5201,
+      "sha256": "8D265552968B557FE08BCCCA85886FE278899A03BE6B08ACFADD1D8BA68AE8DA",
+      "result": "JSON parsed; content hash matched the recorded readback check."
+    },
+    {
+      "operation": "No product build, test, source execution, or runtime check.",
+      "result": "Not run; not needed or authorized for this decision."
+    }
+  ],
+  "reported_evidence": [
+    "Fresh Human Process Initiation Approval and scope are supplied in the current user instruction.",
+    "User states no current Human Plan Approved Implementation Plan has been established.",
+    "Verification and Investigation process-order deviations are reported by their own reports/results and are not independently reclassified as V-01.",
+    "Prior IPV-01 Option A approval and its application are referenced by local records; that approval is limited to IPV-01."
+  ],
+  "unverified_information": [
+    "Original authorial intent and exact API/application-to-persistence dependency direction.",
+    "Product implementation/runtime behavior; no implementation or product tests are established.",
+    "Any external Human Plan Approval beyond the local records scope was not searched or established."
+  ],
+  "process_limitations": [
+    "The CCD actor published attempt.json after initial source inspection, contrary to SDLC_ARTIFACT_GOVERNANCE.md §33.1. This CCD attempt records and preserves that separate process deviation."
+  ],
+  "owned_output": {
+    "report": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/report.md",
+      "bytes": 13690,
+      "sha256": "656A45548F96A79DDFE435E8111EB55CD6A50A52FCB3BC5C0FF3E3B2CBA3002E"
+    },
+    "attempt_record": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/attempt.json",
+      "bytes": 5201,
+      "sha256": "8D265552968B557FE08BCCCA85886FE278899A03BE6B08ACFADD1D8BA68AE8DA"
+    }
+  }
+}

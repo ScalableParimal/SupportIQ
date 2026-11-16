@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_result",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject": {
+    "type": "FINDING",
+    "id": "V-01",
+    "source_attempt_id": "20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84",
+    "investigation_attempt_id": "20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf",
+    "affected_artifact": "Candidate Implementation Plan v0.2; not approved"
+  },
+  "execution_status": "COMPLETED_WITH_PROCESS_LIMITATION",
+  "outcome": "FINDING ACCEPTED — PLAN CHANGE REQUIRED",
+  "decision_summary": {
+    "finding_disposition": "V-01 accepted as a contradiction in the candidate Plan text only; not characterized as an approved-Plan, implementation, or runtime defect.",
+    "plan_interpretation": "Plan fields are reported against candidate v0.2 for this pre-approval Plan Verification finding, consistent with related Portability C-02; human confirmation is required. No current Human Plan Approved Implementation Plan has been established.",
+    "candidate_plan_validity": "Not valid as an unambiguous basis for further plan approval or implementation until the material persistence responsibility/boundary is resolved.",
+    "plan_change_required": true,
+    "architecture_option_selected": false,
+    "requirement_change": "Not established as required unless the human-selected architecture contradicts Requirement §7; if so, use the governed Requirement/architecture process before Plan reconciliation.",
+    "human_approval_required": true,
+    "human_approval_granted": false,
+    "implementation_authorized": false
+  },
+  "investigation": {
+    "reported_outcome": "REQUIREMENT OR PLAN CLARIFICATION REQUIRED",
+    "formal_taxonomy": "Cannot Determine because the Investigation taxonomy's Plan Problem category assumes an approved Plan and implementation. This does not negate the candidate-text contradiction.",
+    "authorial_intent": "Unresolved",
+    "exact_dependency_direction": "Unresolved",
+    "options": "Advisory path A and Requirement/architecture path B remain mutually exclusive and unselected."
+  },
+  "human_gates": {
+    "required_next_decision": "Human confirmation of the pre-approval candidate interpretation and selection of the intended architecture path.",
+    "plan_amendment_approval": "Required for exact controlled Plan changes before application.",
+    "requirement_approval": "Required if a separate Requirement change is made.",
+    "human_review_approval": "Required after complete Plan Verification and finding resolution where applicable.",
+    "human_plan_approval": "Separate later gate; not granted."
+  },
+  "implementation_readiness": {
+    "status": "WAITING FOR PLAN APPROVAL",
+    "outstanding": [
+      "Human architecture decision",
+      "Exact approved Requirement and/or Plan amendment as applicable",
+      "Governed application of approved artifact changes",
+      "Complete Implementation Plan Verification",
+      "Resolution of remaining findings",
+      "Human Review Approval",
+      "Separate Human Plan Approval"
+    ],
+    "safe_boundary": "No implementation until the above gates are completed and a current approved Implementation Plan exists."
+  },
+  "next_governed_handoff": "Stop at this CCD process boundary. Await a separate human decision/approval. Depending on that decision, a separately initiated plan-update route or Requirement Update route may follow. No next process was started.",
+  "scope_exclusions_preserved": [
+    "V-02 not decided",
+    "No Requirement or candidate Plan modification",
+    "No source, test, configuration, migration, or implementation change",
+    "No Requirement Update, Planning, Plan Verification, Finding Investigation, Implementation, or later gate was initiated"
+  ],
+  "evidence": {
+    "report": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/report.md",
+      "bytes": 13690,
+      "sha256": "656A45548F96A79DDFE435E8111EB55CD6A50A52FCB3BC5C0FF3E3B2CBA3002E"
+    },
+    "manifest": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/evidence/decision-evidence.json",
+      "bytes": 10182,
+      "sha256": "26A7BC0CC85991BC8FC05857252CCCC4E65A0B57A65207D4C2B11BE84C054A92"
+    },
+    "checkpoints": [
+      {
+        "path": "checkpoint-0001.json",
+        "sha256": "8BC5AAB4983455B8126A51E4564979CD1152BD56CBC1D5045C96140C341B82B2"
+      },
+      {
+        "path": "checkpoint-0002.json",
+        "sha256": "4104306F7EE2F508B6DEFBFDCC6B3FA7802922F3C16212E60701D5C3464B2B7E"
+      }
+    ]
+  },
+  "process_limitations": [
+    {
+      "classification": "CCD actor publication-order deviation",
+      "detail": "This attempt's attempt.json was published after initial inspection of governing and input artifacts, contrary to SDLC_ARTIFACT_GOVERNANCE.md §33.1."
+    },
+    {
+      "classification": "Reported source-verifier deviation",
+      "detail": "The source verifier disclosed late attempt-record publication in its own report/result; not independently reclassified as V-01."
+    },
+    {
+      "classification": "Reported Finding Investigation deviation",
+      "detail": "The investigator disclosed late attempt-record publication in its own report/result; not independently reclassified as V-01."
+    }
+  ],
+  "integrity": {
+    "attempt_record_json_parse": "PASS",
+    "attempt_record_readback_sha256": "8D265552968B557FE08BCCCA85886FE278899A03BE6B08ACFADD1D8BA68AE8DA",
+    "checkpoint_json_parse": "PASS",
+    "evidence_manifest_json_parse": "PASS",
+    "requirement_sha256_rechecked": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+    "candidate_plan_sha256_rechecked": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7",
+    "tracked_input_diff": "NONE"
+  },
+  "completed_at_utc": "2026-11-11T12:19:00Z"
+}

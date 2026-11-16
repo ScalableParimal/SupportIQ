@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_id": "20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb:checkpoint-0001",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb",
+  "process": "Corrective Change Decision & Plan Update",
+  "sequence": 1,
+  "created_at_utc": "2026-11-11T13:27:18.804089Z",
+  "state": "INPUTS_BOUND_HUMAN_DIRECTION_CAPTURED",
+  "attempt_binding": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T132411Z-045ed15e-1809-4bb7-a389-8c7a3369dabb/attempt.json",
+    "bytes": 9640,
+    "sha256": "52CEEA7CA19B68EC0A0B7A4D56178DDB468F76BAE33DE673107A69952AA9C20D"
+  },
+  "human_direction": {
+    "value": "plan_clarification",
+    "source": "current interactive form response",
+    "scope": "V-01 candidate Plan v0.2 clarification preserving Requirement ?7",
+    "not_approved_or_authorized_to_apply": true
+  },
+  "verified_preconditions": [
+    "Fresh human initiation and exact own-record/proposal output scope captured before attempt publication.",
+    "Invocation attempt record published first for this follow-up attempt.",
+    "Approved Requirement and exact approval evidence bound.",
+    "Candidate v0.2 fingerprint and status bound; it remains a Draft Candidate and is immutable.",
+    "V-01 Verification, Investigation, and prior CCD outcomes and limitations are bound as reported/source evidence.",
+    "No current Human Plan Approved Implementation Plan established."
+  ],
+  "source_bindings": [
+    {
+      "path": "docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md",
+      "bytes": 28121,
+      "sha256": "F27DD117E77C08E8477A097A402034725C61DB0B1997B6A47F491A28F7548203"
+    },
+    {
+      "path": "docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md",
+      "bytes": 3873,
+      "sha256": "88A6829A67692AF4E8D62C7D6F4104FE4911BB056734CEE47D5AC2A47BF285E7"
+    },
+    {
+      "path": "docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md",
+      "bytes": 4629,
+      "sha256": "A947610DC0BE33DCFF0F9CDFD794273B1BC90561CEF7EDA25CCF5AE417A37810"
+    },
+    {
+      "path": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+      "bytes": 135602,
+      "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+      "bytes": 52650,
+      "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/report.md",
+      "bytes": 18664,
+      "sha256": "E0C8EED1FDB39CE7C666BA9C2EA5B3CBFDD5ABCCBD70691762A739E668C43D68"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/result.json",
+      "bytes": 10332,
+      "sha256": "62C77665EA7A196555BE5A2DEAC6801C26D17D2CF7FCD437FA80B4EA4D472FF3"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/report.md",
+      "bytes": 14375,
+      "sha256": "48008DD976B0741DA26CF341F03C86D0620043FB5DE84B936B526B4BE85D8EE2"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/result.json",
+      "bytes": 9872,
+      "sha256": "5F3C5689DB1E0E0164AFDEA4149657DA467236DD3D0E38467C965E783C48AD72"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/report.md",
+      "bytes": 13690,
+      "sha256": "656A45548F96A79DDFE435E8111EB55CD6A50A52FCB3BC5C0FF3E3B2CBA3002E"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/result.json",
+      "bytes": 6164,
+      "sha256": "774026F2B9B456C34FF0959C2F1A722949A8E57DADA03FBC1E8E3254BA23152F"
+    },
+    {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/attachments/proposed-plan-amendment-ipv-01.md",
+      "bytes": 8767,
+      "sha256": "8FCC73D5DA66661180ECEDCAF7596687D584D80EC28C73E81A44A8A5C668E2C6"
+    }
+  ],
+  "next_activity": "Review the complete relevant v0.2 architecture, task, and traceability context; prepare a precise, conditional amendment proposal without modifying the candidate."
+}

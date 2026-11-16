@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_id": "20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c:checkpoint-0001",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c",
+  "process": "Implementation Planning",
+  "sequence": 1,
+  "created_at_utc": "2026-11-11T08:01:48.2711600Z",
+  "state": "ATTEMPT_PUBLISHED_PLANNING_STARTING",
+  "attempt_binding": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attempt.json",
+    "bytes": 12376,
+    "sha256": "C6F138D01388DE89DA5D3D991FDB11049DAAAD28086ADC1555DB7EF5364B327C",
+    "readback": "Exact byte comparison, JSON parse, and SHA-256 passed after no-overwrite publication."
+  },
+  "verified_preconditions": [
+    "Fresh Human Process Initiation Approval, read scope, candidate Plan v0.2 write scope and own-record publication scope were supplied interactively.",
+    "Human Approval comment 6790246131 binds the exact Option A amendment hash and Planning revision route.",
+    "Requirement v1.11 is approved; candidate Plan v0.1 is draft, not superseded, and its hash matches the approved amendment's basis.",
+    "Current repository HEAD matches the candidate Plan; bounded repository inspection confirms no product source, project manifest or product test convention to reuse.",
+    "The attempt and candidate output paths were rechecked as absent immediately before publication."
+  ],
+  "next_activity": "Apply the approved Option A amendment exactly to a new candidate v0.2, preserve v0.1, then validate the candidate against the Planning Guideline."
+}

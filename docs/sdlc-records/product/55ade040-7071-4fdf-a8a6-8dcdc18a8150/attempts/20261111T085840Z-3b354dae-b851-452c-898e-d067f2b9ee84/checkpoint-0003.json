@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "record_type": "implementation_plan_verification_checkpoint",
+  "record_id": "20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84:checkpoint-0003",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84",
+  "created_at_utc": "2026-11-11T09:19:03Z",
+  "stage": "verification_complete",
+  "status": "terminal_result_ready",
+  "summary": "The complete candidate v0.2 assessment, evidence manifest, and required report are complete. Terminal status is CHANGES REQUIRED and Human Review Approval readiness is NOT READY.",
+  "conclusion": {
+    "verification_outcome": "CHANGES REQUIRED",
+    "human_review_approval_readiness": "NOT READY FOR HUMAN REVIEW APPROVAL",
+    "findings": [
+      {
+        "id": "V-01",
+        "classification": "Plan Defect / Architecture Conflict",
+        "severity": "High",
+        "summary": "Candidate §§2 and 6 are inconsistent about API and persistence ownership; align the responsibility and implementation boundary."
+      },
+      {
+        "id": "V-02",
+        "classification": "Plan Defect",
+        "severity": "Medium",
+        "summary": "Candidate §2's clean-tree/only-own-records statement contradicts the Planning invocation's eight pre-invocation untracked folders and current repository evidence."
+      }
+    ],
+    "previous_finding_status": "The approved Option A change for IPV-01 is present and structurally resolves the prior missing API contract readiness owner; complete Plan verification found the two additional defects above."
+  },
+  "published_outputs": {
+    "report": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/report.md",
+      "bytes": 18664,
+      "sha256": "E0C8EED1FDB39CE7C666BA9C2EA5B3CBFDD5ABCCBD70691762A739E668C43D68"
+    },
+    "evidence": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/evidence/verification-evidence.json",
+      "bytes": 17365,
+      "sha256": "298639E08AD0C51982850C6668B7F6438BF58983FA9CE69A5CD7BA6034A1F6CA"
+    },
+    "checkpoint_0001_sha256": "EB1A4F9D8B46C3A50B0CB6D1B852244E34AD21769F5BB8C29E3EAFD2D5FECB8D",
+    "checkpoint_0002_sha256": "73E73B28100CDA7A464915B812FF3088DA8FBB00B543EC9F760BE04EFC62E8EB"
+  },
+  "process_limitation": "Attempt metadata publication followed initial read-only inspection. The report and terminal result disclose that §33.1 publication-order deviation; no input changes were made.",
+  "termination": {
+    "established": true,
+    "stop_boundary": "Implementation Plan Verification",
+    "not_started": [
+      "Finding Investigation",
+      "Corrective Change Decision & Plan Update",
+      "Implementation Planning or Requirement Update",
+      "Implementation",
+      "Human Review Approval",
+      "Human Plan Approval"
+    ]
+  }
+}

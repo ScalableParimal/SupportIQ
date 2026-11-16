@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_id": "20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c:checkpoint-0002",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c",
+  "process": "Implementation Planning",
+  "sequence": 2,
+  "created_at_utc": "2026-11-11T08:47:28Z",
+  "state": "CANDIDATE_PUBLISHED_WITH_VALIDATION_LIMITATION",
+  "attempt_binding": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attempt.json",
+    "bytes": 12376,
+    "sha256": "C6F138D01388DE89DA5D3D991FDB11049DAAAD28086ADC1555DB7EF5364B327C"
+  },
+  "candidate_binding": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+    "bytes": 52650,
+    "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7"
+  },
+  "report_binding": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/report.md",
+    "bytes": 5149,
+    "sha256": "2373190ABA63C1BC225873929A498AC731B8E177DE4FD9B21E4B001A9E3D54ED"
+  },
+  "evidence_binding": {
+    "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/evidence/planning-evidence.json",
+    "bytes": 5090,
+    "sha256": "6839B77D9CB2205542F05EB9704E52CEC6815ABA1E4080355D5D562D256D60C2"
+  },
+  "verified_activity": [
+    "Published candidate v0.2 without modifying v0.1.",
+    "Rechecked task IDs, completion criteria, per-slice prerequisites, prerequisite graph ordering, amendment binding and plan references.",
+    "Found candidate section 2 repository-state statement inconsistent with invocation metadata and current git status.",
+    "Current user selected to finish with an explicit validation limitation; no plan amendment beyond approved Option A was authorized."
+  ],
+  "next_activity": "Publish the terminal result with the validation limitation and next-process handoff. Do not edit v0.2 or run Implementation Plan Verification in this attempt."
+}

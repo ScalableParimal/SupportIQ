@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_portability_assessment_evidence",
+  "record_id": "20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a:evidence:assessment-evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a",
+  "attempt_binding": {"path":"docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a/attempt.json","bytes":11399,"sha256":"A9E89EB630B82B6D7A1016AFEC7D2E56C102B8526C27D69740816AEA523A39B3"},
+  "source_framework_inventory": {
+    "baseline_id": "SupportIQ-Master-Baseline-001",
+    "fingerprints": "Identical to attempt.json source_framework.manifest (13 files); recomputed at HEAD d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0 during this invocation.",
+    "inspected_locations": [
+      {"path":"docs/ai/sdlc/SDLC_GOVERNANCE.md","locations":"lines 78-110 (lifecycle: Implementation Plan Verification -> Resolve Plan Verification Findings / Decisions -> Human Review Package -> Human Review Approval -> Human Plan Approval)","class":"source_inspection"},
+      {"path":"docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md","locations":"lines 390-418 (governed plan-change path; updated plan becomes current Approved Plan only after approval); lines 585-601 (section 17: Current Approved Implementation Plan 'where applicable')","class":"source_inspection"},
+      {"path":"docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md","locations":"line 168 (Corrective Change Decision is a governed AI recommendation subject to Human Approval); line 466","class":"source_inspection (grep context)"},
+      {"path":"docs/ai/guidelines/PORTABILITY_ASSESSMENT_GUIDELINES.md","locations":"sections 1-9","class":"source_inspection"},
+      {"path":"docs/ai/guidelines/CORRECTIVE_CHANGE_GUIDELINES.md","locations":"sections 1-18 (lines 1-680): source order, inputs, Plan Verification Finding path (lines 160-175), decision statuses, plan-change criteria, section 9 normal path for IPV findings, section 11 approval gates, section 14 proposal-only mode, section 17 report fields","class":"source_inspection"},
+      {"path":".github/agents/corrective-change-decision.agent.md","locations":"full file","class":"source_inspection"},
+      {"path":".github/skills/corrective-change-decision/SKILL.md","locations":"sections 1-5","class":"source_inspection"},
+      {"path":"docs/ai/prompts/CORRECTIVE_CHANGE_PROMPT.md and docs/ai/request/CORRECTIVE_CHANGE_REQUEST.md","locations":"full files, read earlier in this session before initiation and unchanged (fingerprints match)","class":"source_inspection"}
+    ]
+  },
+  "target_project_inventory": {
+    "fingerprints": "Identical to attempt.json target_project.inputs (8 files).",
+    "observations": [
+      {"id":"T-01","statement":"Requirement v1.11 is the applicable approved Requirement.","class":"reported","basis":"Finding Investigation attempt 20261111T052943Z-22085ae6-3b40-4731-b8c3-a4c14bdebc78 read owner decision comment 6685628908 under separate approval; not re-fetched here."},
+      {"id":"T-02","statement":"Implementation Plan v0.1 is a draft candidate; no approved Implementation Plan exists for this Work ID.","class":"reported","basis":"Plan Verification report/result and Finding Investigation report; plan file fingerprint rechecked here."},
+      {"id":"T-03","statement":"IPV-01 was CONFIRMED by Finding Investigation with outcome CORRECTIVE DIRECTION IDENTIFIED; formal classification recorded as Cannot Determine; advisory Option A, acceptable Option B, Option C not recommended; next process Corrective Change Decision & Plan Update.","class":"reported","basis":"Finding Investigation report/result (fingerprinted)."},
+      {"id":"T-04","statement":"No tracked changes at HEAD d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0; five pre-existing untracked Work ID attempt folders preserved.","class":"executed","basis":"git status/log in this invocation."}
+    ]
+  },
+  "prior_assessment_comparison": {
+    "attempt_id": "20261110T040128Z-66ad4071-1c2d-42da-aead-bd59bd7dee55",
+    "report_sha256": "AEE56BE0B3FA410305046A8D2B823FB5864020B8C0280C08153F29A4A9B151E6",
+    "result_sha256": "1F38ABD1AF4D5898DB0338DC8383398A692E7092A3BB19A99C7713F783C0CF41",
+    "match": "Source baseline, Masters, Portability artifacts, target HEAD and Requirement hash match.",
+    "differences": "Stage scope changed to Corrective Change Decision; Corrective Change artifacts and Finding Investigation records are new inputs. Prior conclusion not reused."
+  },
+  "concern_evidence": [
+    {"id":"C-01","classification":"TARGET-PROJECT ADAPTATION","evidence":["CORRECTIVE_CHANGE_REQUEST.md is a template","Agent Process Boundary forbids automatic continuation"]},
+    {"id":"C-02","classification":"FRAMEWORK GOVERNANCE DEFECT CANDIDATE","evidence":["CORRECTIVE_CHANGE_GUIDELINES.md section 7.5 and section 17 status text refer to 'the approved Implementation Plan'","CORRECTIVE_CHANGE_GUIDELINES.md section 17 sentence: 'Mark Plan Change Required, Plan Impact, and Proposed Plan Amendment not applicable unless an applicable approved Implementation Plan is established' (placed in the enhancement paragraph; scope of application ambiguous)","CORRECTIVE_CHANGE_GUIDELINES.md lines 160-175 and section 9 route Plan Verification findings to a plan update before Human Plan Approval","SDLC_GOVERNANCE.md lines 90-98 and SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 17 ('where applicable')","Finding Investigation recorded formal classification Cannot Determine for the same pre-approval reason"]},
+    {"id":"C-03","classification":"INSUFFICIENT EVIDENCE / UNRESOLVED HUMAN DECISION","evidence":["SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md lines 404-405 and CORRECTIVE_CHANGE_GUIDELINES.md line 658 require 'Apply Approved Plan Update' through 'the governed plan-update process' without naming the applying actor within the inspected scope"]}
+  ],
+  "executed_operations": ["git log/rev-parse/status (non-mutating)","Get-FileHash over 21 in-scope inputs","attempt ID collision check under docs/sdlc-records","own-record no-overwrite publication and readback"],
+  "not_executed": "No product scripts, tests, workflows, builds, deployment, runtime, or GitHub API calls."
+}

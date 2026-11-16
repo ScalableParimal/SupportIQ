@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_evidence_manifest",
+  "record_id": "20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf:evidence:investigation",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf",
+  "subject": {
+    "type": "FINDING",
+    "id": "V-01",
+    "source": "Implementation Plan Verification attempt 20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84",
+    "affected_artifact": "Candidate Implementation Plan v0.2; not approved"
+  },
+  "evidence_classification": {
+    "source_inspection": [
+      {
+        "id": "SI-01",
+        "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+        "bytes": 52650,
+        "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7",
+        "scope_inspected": [
+          "§1 candidate status and approval boundary",
+          "§2 repository/architecture context and conflicting persistence statements",
+          "§3 deferred architecture choices",
+          "IP-01 and IP-02 task targets, prerequisites, and completion criteria",
+          "§5 dependency ordering",
+          "§6 affected planned logical targets",
+          "§7 persistence/integration testing strategy",
+          "§8 requirements-to-task traceability",
+          "§9 risks/dependencies, §10 exclusions, and §11 validation/handoff context"
+        ],
+        "observations": [
+          "§2 says the API owns validation, authentication/authorization, scope, orchestration, contracts, job submission, and persistence.",
+          "The same §2 says API/presentation must not own persistence, worker, Azure, provider, or secret-management concerns.",
+          "§6 lists a .NET Web API/application logical target separately from a domain/application and persistence boundary, without defining how those responsibilities relate or where storage-specific implementation is owned.",
+          "IP-01 establishes the API solution/quality baseline; IP-02 establishes .NET domain/application contracts, a persistence boundary, Azure SQL schema and migrations. Neither task resolves the conflicting wording.",
+          "§5 places IP-02 after IP-01 and identifies persistence contracts as cross-cutting prerequisites; §7 contemplates SQL repositories and persistence integration testing but does not resolve architecture ownership.",
+          "§1 states v0.2 is a Draft Candidate, not Human Plan Approved, and not authorized for implementation."
+        ],
+        "classification": "Direct source inspection; not product execution."
+      },
+      {
+        "id": "SI-02",
+        "source": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+        "bytes": 135602,
+        "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+        "scope_inspected": [
+          "§7 High-Level Architecture",
+          "§8 illustrative logical data entities",
+          "§9 API and Integration Requirements and final-contract language"
+        ],
+        "observations": [
+          "§7 assigns the .NET 8 Web API persistence responsibility and separately identifies Azure SQL as the relational data store.",
+          "§8 says entities are logical and not a finalized schema; indexes, foreign keys, retention and tenant-aware uniqueness are design-time implementation matters.",
+          "§9 says endpoint names are examples and final schemas, validation, status/error behavior, needed idempotency, and OpenAPI documentation are to be defined."
+        ],
+        "classification": "Direct source inspection."
+      },
+      {
+        "id": "SI-03",
+        "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/human-gates/human-requirement-approval-v1.11/decisions/6685628908.json",
+        "bytes": 11043,
+        "sha256": "A9CFB6CAC885BDFE9FD4660B0BEEF1027628094163916FE8AF927044E2FE421D",
+        "observation": "The local gate record identifies the decision as APPROVED and binds exact Requirement v1.11 bytes to SHA-256 56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE. The Requirement's stale draft/unapproved control-table text is an inconsistency; the exact-byte decision is the approval evidence used here.",
+        "classification": "Direct source inspection of local approval evidence; no new Human decision is made."
+      },
+      {
+        "id": "SI-04",
+        "source_records": [
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/report.md",
+            "bytes": 18664,
+            "sha256": "E0C8EED1FDB39CE7C666BA9C2EA5B3CBFDD5ABCCBD70691762A739E668C43D68"
+          },
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/evidence/verification-evidence.json",
+            "bytes": 17365,
+            "sha256": "298639E08AD0C51982850C6668B7F6438BF58983FA9CE69A5CD7BA6034A1F6CA"
+          },
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/result.json",
+            "bytes": 10332,
+            "sha256": "62C77665EA7A196555BE5A2DEAC6801C26D17D2CF7FCD437FA80B4EA4D472FF3"
+          }
+        ],
+        "observations": [
+          "The Verification result reports CHANGES REQUIRED and V-01 as severity High with Architecture Conflict / Plan Defect labels.",
+          "The Verification report/evidence cite the same conflicting §2 statements, the distinct §6 targets, and Requirement §7.",
+          "The Verification report/result/evidence disclose that the verifier published its attempt metadata after initial read-only inspection. This is the verifier's reported process limitation; no independent chronology reconstruction was performed here."
+        ],
+        "classification": "Source inspection of the report, evidence, and result. The verifier's own process-order assertion is preserved as reported evidence and is not conflated with technical validation."
+      },
+      {
+        "id": "SI-05",
+        "source_records": [
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/report.md",
+            "bytes": 8288,
+            "sha256": "4D8E53B239E24AB2FCA59666D017924F79BA8BD03BACB7E3ABDA93CEBFB8F03A"
+          },
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/evidence/decision-evidence.json",
+            "bytes": 5189,
+            "sha256": "93B0C7F1A0FB0D1A1ADFAD1F3884B844BA2727C015F21D004662CFA6F39832E0"
+          },
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/attachments/proposed-plan-amendment-ipv-01.md",
+            "bytes": 8767,
+            "sha256": "8FCC73D5DA66661180ECEDCAF7596687D584D80EC28C73E81A44A8A5C668E2C6"
+          }
+        ],
+        "observation": "This Corrective Change Decision and approved Option A concern prior finding IPV-01. The proposal's A5 explicitly leaves architecture unchanged; Option A adds API-contract readiness ownership (IP-19A) and does not resolve or authorize correction of V-01. The external approval is referenced at issue comment 6790246131 in the related records; it was not re-fetched during this investigation.",
+        "classification": "Direct source inspection of local records; the external approval content is reported by those records and the user's request."
+      },
+      {
+        "id": "SI-06",
+        "source_records": [
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/report.md",
+            "bytes": 5149,
+            "sha256": "2373190ABA63C1BC225873929A498AC731B8E177DE4FD9B21E4B001A9E3D54ED"
+          },
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/evidence/planning-evidence.json",
+            "bytes": 5090,
+            "sha256": "6839B77D9CB2205542F05EB9704E52CEC6815ABA1E4080355D5D562D256D60C2"
+          }
+        ],
+        "observation": "Planning records bind the v0.2 candidate hash and identify it as a Draft Candidate, not an approved Plan. They report the approved IPV-01 Option A amendment was applied. The separate repository-state limitation V-02 is not investigated here."
+      },
+      {
+        "id": "SI-07",
+        "source_records": [
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909/report.md",
+            "bytes": 12628,
+            "sha256": "92B140840DB20AEB9EF169344F8579106CB04E2DEF31816723A3D5BE2C6B7161"
+          },
+          {
+            "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909/evidence/assessment-evidence.json",
+            "bytes": 9998,
+            "sha256": "DDEC1CC5F841D34A91F956C7335114E4D662D0E0D64F1CEE57C5851C28C2D043"
+          }
+        ],
+        "observation": "The Portability report identifies docs/sdlc-records/product/ as adopted, but its evidence says the original root-adoption comment was carried forward and not re-fetched in that assessment. Prior same-Work-ID metadata cites issue comment 6583299245 as product-root adoption; the current user also directs use of the adopted product root. This report does not independently resolve that external comment."
+      },
+      {
+        "id": "SI-08",
+        "source": "docs/ai/guidelines/FINDING_INVESTIGATION_GUIDELINES.md §§2, 5–15; docs/ai/prompts/FINDING_INVESTIGATION_PROMPT.md; docs/ai/request/FINDING_INVESTIGATION_REQUEST.md; docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md §33.1; docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md §30.1",
+        "observation": "The finding classifications, human decision triggers, reporting requirements, permitted outcome values, required next-process routing, evidence distinction, publication permission, and record boundary were inspected and followed subject to the disclosed invocation-order limitation.",
+        "classification": "Source inspection."
+      }
+    ],
+    "executed": [
+      {
+        "id": "EX-01",
+        "operation": "PowerShell SHA-256 and file-size checks for candidate Plan and Requirement",
+        "result": "The current bytes match the expected supplied fingerprints: Plan 52650 bytes / 77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7; Requirement 135602 bytes / 56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE."
+      },
+      {
+        "id": "EX-02",
+        "operation": "Git branch, HEAD, origin and status; Windows identity; product-root ACL; attempt-ID collision check in both persistence roots",
+        "result": "Branch SupportIQ-Requirement-Analysis; HEAD d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0; origin https://github.com/ScalableParimal/SupportIQ.git; current pre-publication status had the listed pre-existing untracked process-record folders and no modified tracked files; identity INT-SCL-010\\Parimal; product root ACL includes Authenticated Users Modify; no collision for this attempt ID in docs/sdlc-records/governance/ or docs/sdlc-records/product/."
+      },
+      {
+        "id": "EX-03",
+        "operation": "Read-back parse and SHA-256 of the first own attempt.json publication",
+        "result": "Valid JSON; Work ID and subject V-01 match; authorized read/write scopes and collision result read back; 8349 bytes; SHA-256 C74F93D99F2C3C57B65DE04AA45E50188F4C4E095F5E7B3502D884616D4FD9FF."
+      },
+      {
+        "id": "EX-04",
+        "operation": "No product test, build, deployment, runtime command, or product-code execution",
+        "result": "Not performed. The Finding Investigation Request authorizes no execution, and the subject is a plan-text architecture conflict."
+      }
+    ],
+    "reported": [
+      {
+        "id": "RE-01",
+        "source": "Current user's explicit task instruction",
+        "observation": "Fresh Human Process Initiation Approval selected V-01 and authorized the exact read scope plus only this actor's own attempt metadata, checkpoints, report, evidence, and result."
+      },
+      {
+        "id": "RE-02",
+        "source": "Current user instruction and related Planning/Portability records",
+        "observation": "Product record root is asserted as adopted; the related Portability record identifies it as adopted but notes the original external adoption comment was carried forward rather than re-fetched."
+      },
+      {
+        "id": "RE-03",
+        "source": "Implementation Plan Verification report/result/evidence",
+        "observation": "The verifier reports V-01 as High, Plan Defect / Architecture Conflict, and reports its own attempt-metadata publication-order deviation."
+      },
+      {
+        "id": "RE-04",
+        "source": "Corrective Change Decision report and user's provided context",
+        "observation": "Option A for IPV-01 was approved at issue comment 6790246131. This was for the prior API-contract-readiness finding, not V-01. The comment was not independently fetched during this investigation."
+      }
+    ],
+    "unverified": [
+      {
+        "id": "UV-01",
+        "item": "Original plan author's precise intended meaning of API/presentation ownership and actual planned project dependency direction.",
+        "required_evidence": "A human-selected architecture clarification or decision sufficient to revise the candidate Plan."
+      },
+      {
+        "id": "UV-02",
+        "item": "Any product implementation, runtime behavior, persistence code, production impact, and product test result.",
+        "required_evidence": "A separately authorized implementation and verification stage after applicable Plan approval; none is part of this investigation."
+      },
+      {
+        "id": "UV-03",
+        "item": "The precise external GitHub approval content for the prior Option A amendment and original product-root adoption comment.",
+        "required_evidence": "If future governance requires it, resolve the exact cited comments through an authorized source; this investigation uses the local linked records and current user instruction as reported evidence."
+      }
+    ]
+  },
+  "investigator_execution_limitation": {
+    "classification": "Own attempt publication after intake inspection",
+    "detail": "Before publishing the first attempt.json, the investigator read the applicable investigation governance, source Verification report/evidence, and candidate Plan / related record context. This does not satisfy the required publication-before-consequential-inspection order. The limitation is disclosed in attempt.json and the final report/result. No evaluated source or upstream record was changed.",
+    "impact_on_conclusion": "The timing deviation is not treated as technical evidence for or against V-01; the Plan/Requirement textual comparison is independently documented in this investigation's source-inspection evidence."
+  },
+  "scope_exclusions": [
+    "Finding V-02.",
+    "Any correction, plan update, requirement update, decision, approval, test, build, implementation, commit, or push."
+  ]
+}

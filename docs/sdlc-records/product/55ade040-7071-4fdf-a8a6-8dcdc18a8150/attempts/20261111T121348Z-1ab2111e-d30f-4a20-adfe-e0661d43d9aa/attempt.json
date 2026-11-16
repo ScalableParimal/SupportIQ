@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_attempt",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa",
+  "process": "Corrective Change Decision & Plan Update",
+  "subject_type": "FINDING",
+  "subject_id": "V-01",
+  "created_at_utc": "2026-11-11T12:13:48Z",
+  "actor": {
+    "type": "AI process agent",
+    "agent": ".github/agents/corrective-change-decision.agent.md",
+    "agent_sha256": "9CCC6DD6758F22B558116B1E4B32AC404BCF4164574EF9D591FD02AB6E3C6B7D",
+    "skill": ".github/skills/corrective-change-decision/SKILL.md",
+    "skill_sha256": "795164E58AF028F97ECBA133BC6845B1D9D76699A27239BD663BDD681A89B7C3",
+    "operator_id": "INT-SCL-010\\Parimal",
+    "runtime_identity_source": "PowerShell whoami",
+    "runtime_identity_observation": "int-scl-010\\parimal"
+  },
+  "repository": {
+    "canonical": "ScalableParimal/SupportIQ",
+    "root": "C:/PARIMAL_SHERE/SCALABLE_SOLUTIONS/SupportIQ",
+    "branch": "SupportIQ-Requirement-Analysis",
+    "head": "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+    "working_tree": "Tracked tree clean; prior product-process attempt records are untracked and preserved."
+  },
+  "persistence": {
+    "root": "docs/sdlc-records/product/",
+    "work_scope": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T121348Z-1ab2111e-d30f-4a20-adfe-e0661d43d9aa/",
+    "authority": "Current user explicitly states the product records root is adopted and authorizes this CCD attempt's own records within this exact scope.",
+    "collision_check": "New attempt path did not exist immediately before publication.",
+    "publication_route": "Repository apply_patch tool; actor-owned attempt.json.",
+    "permission_evidence": "Get-Acl on attempts directory: owner INT-SCL-010\\Parimal; inherited Authenticated Users Modify; current operator identity is INT-SCL-010\\Parimal.",
+    "readback_integrity": "Pending immediate post-publication readback/hash validation."
+  },
+  "authorization": {
+    "stage_start": "Fresh interactive user instruction: execute governed CCD for Finding V-01 only; stop at this process boundary.",
+    "source": "Current user message in this session, 2026-11-11T17:41:20.671+05:30",
+    "authorized_read_scope": [
+      "approved Requirement",
+      "candidate Plan v0.2",
+      "V-01 Verification and Finding Investigation reports/evidence/results",
+      "prior IPV-01 corrective decision/amendment",
+      "related Planning and Portability records",
+      "applicable CCD governance",
+      "current repository state"
+    ],
+    "authorized_output_scope": "Only this CCD actor's own attempt metadata, checkpoints, report/evidence/result, and any exact proposed amendment in this new attempt under the adopted product records root.",
+    "explicit_exclusions": [
+      "No Requirement or Plan modification",
+      "No implementation",
+      "No approval or plan approval",
+      "No V-02 scope",
+      "No Requirement Update, Planning, Verification, Investigation, Implementation, or later gates"
+    ]
+  },
+  "input_bindings": {
+    "requirement": {
+      "path": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+      "bytes": 135602,
+      "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+      "approval_status": "Reported approved; exact approval record has not yet been independently located in this attempt."
+    },
+    "candidate_plan": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+      "bytes": 52650,
+      "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7",
+      "status": "Draft Candidate; not an approved Implementation Plan."
+    },
+    "verification": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84/",
+    "investigation": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T092500Z-1e1dfb89-85d5-4db4-bf98-3cbe1b1f73cf/",
+    "prior_ipv01_decision": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/",
+    "planning": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/",
+    "portability": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T065701Z-e3823732-cd82-41b0-a663-8280f777608a/"
+  },
+  "process_limitations": [
+    "This attempt record was published after initial inspection of governing CCD artifacts, the V-01 Verification and Investigation reports, candidate Plan v0.2, prior IPV-01 records, and related Portability/Planning records. This violates the required first-publication-before-consequential-work ordering in SDLC_ARTIFACT_GOVERNANCE.md §33.1. The deviation is disclosed and is not reclassified as V-01."
+  ],
+  "state": "IN_PROGRESS_WITH_PUBLICATION_ORDER_DEVIATION",
+  "result": null
+}

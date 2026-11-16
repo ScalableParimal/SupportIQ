@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "record_type": "implementation_plan_verification_evidence",
+  "record_id": "20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84:verification-evidence",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261111T085840Z-3b354dae-b851-452c-898e-d067f2b9ee84",
+  "created_at_utc": "2026-11-11T09:16:26Z",
+  "feature": "SupportIQ Product Requirement v1.11",
+  "classification_key": {
+    "source_inspection": "Information obtained by reading a source artifact or repository content.",
+    "executed": "Information produced by a command, script, or direct remote retrieval executed during this verification.",
+    "reported": "Information supplied by the user or recorded by another process, not independently established at the original event time.",
+    "unverified": "Information not independently confirmed."
+  },
+  "source_inspection_evidence": [
+    {
+      "id": "SI-01",
+      "source": "docs/ai/guidelines/IMPLEMENTATION_PLAN_VERIFICATION_GUIDELINES.md",
+      "scope": "Complete applicable verification requirements and report schema, including scope, findings, evidence classes, outcomes, and human-readiness boundary."
+    },
+    {
+      "id": "SI-02",
+      "sources": [
+        "docs/ai/prompts/IMPLEMENTATION_PLAN_VERIFICATION_PROMPT.md",
+        "docs/ai/request/IMPLEMENTATION_PLAN_VERIFICATION_REQUEST.md",
+        ".github/skills/implementation-plan-verification/SKILL.md"
+      ],
+      "scope": "Invocation requirements, complete-plan verification, controlled scope, and read-only boundary."
+    },
+    {
+      "id": "SI-03",
+      "sources": [
+        "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md §33.1",
+        "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md §30.1"
+      ],
+      "scope": "Actor-owned record publication, current invocation qualification, adopted product persistence root, immutable final records, evidence traceability, and publication-order requirement."
+    },
+    {
+      "id": "SI-04",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attachments/implementation-plan-supportiq-v1.11-v0.2.md",
+      "identity": "supportiq-product-implementation-plan v0.2; Draft Candidate",
+      "bytes": 52650,
+      "sha256": "77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7",
+      "scope": "Complete candidate Plan sections 1–12, all task descriptions, prerequisites, completion criteria, architecture, test strategy, traceability, risks, and handoff."
+    },
+    {
+      "id": "SI-05",
+      "source": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+      "identity": "Requirement v1.11",
+      "bytes": 135602,
+      "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE",
+      "scope": "Complete approved Requirement, including scope/exclusions; all FR families and workflows; architecture, data/API contracts, NFRs, operational/security rules, evaluation, acceptance, tests, open decisions, and Definition of Done."
+    },
+    {
+      "id": "SI-06",
+      "sources": [
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/human-gates/human-requirement-approval-v1.11/decisions/6685628908.json",
+        "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6685628908"
+      ],
+      "scope": "Exact approved Requirement bytes and urgency decisions. The GitHub REST API response for this exact comment identified ScalableParimal, author_association OWNER, comment ID 6685628908, and an approval limited to the exact Requirement hash."
+    },
+    {
+      "id": "SI-07",
+      "sources": [
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/report.md",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T133205Z-58d4f444-0acf-4ebf-b31b-d66dedca6e75/result.json"
+      ],
+      "scope": "Prior IPV-01 report: CHANGES REQUIRED for an unowned/unmeasurable API contract readiness prerequisite in candidate v0.1. Used as history and comparator, not as evidence that v0.2 is correct."
+    },
+    {
+      "id": "SI-08",
+      "sources": [
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T052943Z-22085ae6-3b40-4731-b8c3-a4c14bdebc78/report.md",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T052943Z-22085ae6-3b40-4731-b8c3-a4c14bdebc78/evidence/investigation-evidence.json"
+      ],
+      "scope": "IPV-01 investigation confirmed the candidate-plan gap; formal classification limitation was recorded. No investigation conclusion was treated as approval."
+    },
+    {
+      "id": "SI-09",
+      "sources": [
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/report.md",
+        "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/result.json"
+      ],
+      "scope": "Corrective decision accepted IPV-01 and required a candidate plan change; the process did not select an option itself."
+    },
+    {
+      "id": "SI-10",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T072125Z-4ca95993-a4f2-4313-8c2c-06572696b017/attachments/proposed-plan-amendment-ipv-01.md",
+      "identity": "Proposed Option A amendment",
+      "bytes": 8767,
+      "sha256": "8FCC73D5DA66661180ECEDCAF7596687D584D80EC28C73E81A44A8A5C668E2C6",
+      "scope": "Option A insertion, UI-slice prerequisites, IP-26 dependency clarification, and associated traceability/handoff changes."
+    },
+    {
+      "id": "SI-11",
+      "source": "https://github.com/ScalableParimal/SupportIQ/issues/3#issuecomment-6790246131",
+      "scope": "Exact GitHub REST API retrieval by comment ID 6790246131: ScalableParimal, author_association OWNER, timestamp 2026-11-11T07:47:13Z; approves Option A exact hash and a governed planning revision creating candidate v0.2, preserving v0.1; explicitly not Human Review Approval, Human Plan Approval, or implementation authorization."
+    },
+    {
+      "id": "SI-12",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/attempt.json",
+      "scope": "Planning invocation context, including eight pre-invocation untracked attempt folders, approved amendment binding, requirement source, repository HEAD/branch, and explicit limitation on the candidate repository-state claim."
+    },
+    {
+      "id": "SI-13",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/evidence/planning-evidence.json",
+      "scope": "Planning actor's exact fingerprints, pre-invocation/current status paths, declared structural checks, and explicit false results for repository-state accuracy and overall self-validation. These are source-inspected reports of the planning run, not substituted for independent verification."
+    },
+    {
+      "id": "SI-14",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T080022Z-6bcfff1e-cee4-4d86-ac38-a9cec718008c/report.md",
+      "scope": "Planning summary, recorded self-validation limitation, no product implementation changes, and no later process authorization."
+    },
+    {
+      "id": "SI-15",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261111T075252Z-b498b572-24e3-4493-a5cb-ede429472909/report.md",
+      "scope": "Relevant Portability Assessment: COMPATIBILITY WITH IDENTIFIED ADAPTATION; adopted product records root and need for separate planning stage-start; static scope only, no execution authorization."
+    },
+    {
+      "id": "SI-16",
+      "sources": [
+        "docs/ai/sdlc/SDLC_ARTIFACT_GOVERNANCE.md",
+        "docs/ai/sdlc/SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md",
+        "docs/requirement/SupportIQ_Product_Requirement_v1.11.md §7",
+        "candidate Plan v0.2 §§2, 6"
+      ],
+      "scope": "Persistence responsibility/boundary comparison supporting finding V-01."
+    },
+    {
+      "id": "SI-17",
+      "sources": [
+        "candidate Plan v0.2 §2",
+        "Planning attempt.json repository_context.preinvocation_untracked_attempt_folders",
+        "Planning evidence repository.git_status_short"
+      ],
+      "scope": "Repository-state claim comparison supporting finding V-02; historical pre-invocation count is reported by the contemporaneous Planning actor, while extant untracked paths are independently confirmed by executed Git status."
+    },
+    {
+      "id": "SI-18",
+      "source": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/attachments/implementation-plan-supportiq-v1.11-v0.1.md",
+      "identity": "Candidate v0.1 comparator only",
+      "bytes": 49325,
+      "sha256": "66AB32440BC49F9FFFD4038310B790E37E56F5AFA8A2DA4D54F5DA4155F8C71D",
+      "scope": "Task-impact comparison only; not treated as an approved baseline or verification target."
+    }
+  ],
+  "executed_evidence": [
+    {
+      "id": "EX-01",
+      "operation": "git rev-parse HEAD; git branch --show-current",
+      "result": "HEAD d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0; branch SupportIQ-Requirement-Analysis."
+    },
+    {
+      "id": "EX-02",
+      "operation": "Get-FileHash SHA256 and file-size checks",
+      "result": "Candidate v0.2 is 52650 bytes / 77E762C718ABABE40848F2E3C9C78C580DA4C60BF12A464BD0B6D7EECE033BA7; approved Requirement is 135602 bytes / 56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE; Option A amendment is 8FCC73D5DA66661180ECEDCAF7596687D584D80EC28C73E81A44A8A5C668E2C6; v0.1 is 49325 bytes / 66AB32440BC49F9FFFD4038310B790E37E56F5AFA8A2DA4D54F5DA4155F8C71D. Bindings remained unchanged in final pre-report checks."
+    },
+    {
+      "id": "EX-03",
+      "operation": "git status --short before publishing this verifier's own attempt records",
+      "result": "Nine untracked product attempt folders: eight earlier attempts plus the current Planning attempt; no tracked source changes were shown."
+    },
+    {
+      "id": "EX-04",
+      "operation": "git status --short after publishing this verifier's own attempt records",
+      "result": "Ten untracked product attempt folders: the nine above plus this verifier's own attempt. This own output is within the approved record scope; it is not evidence that the earlier candidate was clean."
+    },
+    {
+      "id": "EX-05",
+      "operation": "git diff --stat and git ls-files inventory",
+      "result": "No tracked diff; 757 tracked files under .github/, docs/, and README.md. No product application source, project/package manifest, product test project, or product CI/deployment convention was identified. README is product-description text."
+    },
+    {
+      "id": "EX-06",
+      "operation": "Read-only Python structural parse of candidate Plan v0.2 task blocks and prerequisites",
+      "result": "28 task IDs, all unique (IP-01 through IP-27 plus IP-19A); completion markers present for all 28 tasks; 96 direct prerequisite identifiers extracted; no unknown or non-backward task prerequisite identifiers. IP-26's IP-01 through IP-25 range is also prior to IP-26. Structural parse does not substitute for qualitative task review."
+    },
+    {
+      "id": "EX-07",
+      "operation": "Read-only task block comparison of v0.1 and v0.2",
+      "result": "v0.1 has 27 task blocks; v0.2 has 28. Added IP-19A; no task removed; only existing task blocks changed are IP-20 through IP-24 and IP-26, consistent with the Option A proposal. Reviewed the companion §2, §5, traceability, version/status, and handoff edits against the exact approved amendment."
+    },
+    {
+      "id": "EX-08",
+      "operation": "Exact GitHub REST API retrievals for comment IDs 6790246131 and 6685628908",
+      "result": "Fetched only the two exact approval comments. Both identify ScalableParimal with author_association OWNER. The first approves Option A and its exact hash but explicitly excludes later gates/implementation; the second approves only the exact Requirement v1.11 hash and records the urgency decisions."
+    },
+    {
+      "id": "EX-09",
+      "operation": "JSON parsing and SHA-256 readback of this verifier's attempt and checkpoints",
+      "result": "Attempt and checkpoint JSON records parse successfully; the attempt metadata was integrity-checked after publication."
+    }
+  ],
+  "reported_evidence": [
+    {
+      "id": "RE-01",
+      "source": "Current user invocation",
+      "content": "Fresh separate Implementation Plan Verification initiation approval was answered true; exact input/output scope and exact candidate/Requirement/amendment bindings were supplied."
+    },
+    {
+      "id": "RE-02",
+      "source": "Current user invocation and Planning attempt records",
+      "content": "Eight attempt folders existed as untracked before the Planning invocation; retained as reported historical state, corroborated by the extant paths and current Git status."
+    },
+    {
+      "id": "RE-03",
+      "source": "Current user invocation",
+      "content": "The product persistence root was already adopted and only this verifier actor's records may be published there. The Portability report also describes this root as adopted."
+    }
+  ],
+  "unverified_information": [
+    {
+      "id": "UV-01",
+      "content": "Other active features, external work, or separate worktrees remain UNKNOWN/UNASSESSED; the candidate correctly does not infer concurrency safety from absence of a dependency declaration."
+    },
+    {
+      "id": "UV-02",
+      "content": "No product runtime, build, test, cloud-resource, quota, or deployment evidence exists in the inspected checkout; no such behavior is asserted."
+    },
+    {
+      "id": "UV-03",
+      "content": "The exact historical Git status at the Planning actor's pre-invocation moment is not independently recreated; eight pre-invocation paths are recorded by its contemporaneous attempt metadata and remain untracked in the current repository."
+    }
+  ],
+  "assessment_findings": [
+    {
+      "id": "V-01",
+      "classification": [
+        "Plan Defect",
+        "Architecture Conflict"
+      ],
+      "severity": "High",
+      "confidence": "High",
+      "evidence": [
+        "Candidate Plan v0.2 §2: API owns persistence.",
+        "Candidate Plan v0.2 §2: API/presentation must not own persistence concerns.",
+        "Candidate Plan v0.2 §6: API/application and domain/application/persistence are split into distinct planned logical targets.",
+        "Approved Requirement v1.11 §7: .NET 8 Web API responsibility includes persistence."
+      ],
+      "impact": "The proposed layer ownership is internally inconsistent and leaves a core cross-cutting implementation boundary unclear. This can lead to incompatible project decomposition, direct storage coupling, or responsibility gaps across IP-01/IP-02 and their consumers."
+    },
+    {
+      "id": "V-02",
+      "classification": "Plan Defect",
+      "severity": "Medium",
+      "confidence": "High for the contradiction; historical pre-invocation state is source-reported",
+      "evidence": [
+        "Candidate Plan v0.2 §2 says the tree was clean before the Planning attempt and only its own records were untracked afterward.",
+        "Planning attempt.json records eight pre-invocation untracked attempt folders.",
+        "Planning evidence records the nine current untracked attempt directories, including prior attempts and the Planning attempt.",
+        "Verifier's pre-own-publication Git status showed those nine untracked folders; current status additionally includes this verifier's own attempt."
+      ],
+      "impact": "The candidate's repository-context statement and associated self-validation are factually inaccurate. This weakens the reliability of the Plan's repository baseline, though the untracked paths are process records and no product source changes were observed; it does not establish that earlier work was concurrently active."
+    }
+  ],
+  "process_execution_limitation": {
+    "classification": "publication-order deviation",
+    "detail": "The attempt metadata was published after initial read-only inspection of the candidate and related records, rather than before the first consequential plan inspection as required by SDLC_ARTIFACT_GOVERNANCE.md §33.1.",
+    "handling": "Disclose in the report and terminal result. No input artifacts were modified. The technical outcome is presented with this limitation; this invocation does not claim fully compliant pre-work record publication."
+  },
+  "test_or_build_execution": {
+    "performed": false,
+    "reason": "No product source, build/project manifests, or product test projects are present in the tracked checkout.",
+    "classification": "Not applicable; no product execution evidence claimed."
+  }
+}

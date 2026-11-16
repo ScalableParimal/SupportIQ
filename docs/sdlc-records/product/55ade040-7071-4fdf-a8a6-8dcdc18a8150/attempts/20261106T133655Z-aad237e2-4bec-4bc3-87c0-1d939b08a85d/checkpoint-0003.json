@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "record_type": "sdlc_process_checkpoint",
+  "record_id": "20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d:checkpoint-0003",
+  "feature": "SupportIQ Product Requirement v1.11",
+  "creator": "AI assistant using Copilot SDK in VS Code",
+  "creator_role": "Implementation Planning executor",
+  "created_at_utc": "2026-11-06T14:06:17Z",
+  "clock_basis": "Python UTC clock sampled while preparing checkpoint; not filesystem publication time",
+  "work_id": "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+  "attempt_id": "20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d",
+  "checkpoint_number": 3,
+  "process": "Implementation Planning",
+  "last_confirmed_boundary": "Candidate plan drafted and guideline self-validation completed. Plan file and source hash rechecked; all task IDs, completion fields, prerequisite references, acyclic ordering, and functional requirement ID coverage validated. Required report and terminal result have not yet been published.",
+  "observed_evidence": {
+    "source_requirement": {
+      "path": "docs/requirement/SupportIQ_Product_Requirement_v1.11.md",
+      "bytes": 135602,
+      "sha256": "56C9DC9CE23E73C7D23FB1EF52046C3DB007801F3589E7D7029C294D5F79ABBE"
+    },
+    "candidate_plan": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/attachments/implementation-plan-supportiq-v1.11-v0.1.md",
+      "bytes": 49325,
+      "sha256": "66AB32440BC49F9FFFD4038310B790E37E56F5AFA8A2DA4D54F5DA4155F8C71D"
+    },
+    "plan_validation_evidence": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/evidence/plan-validation.json",
+      "bytes": 3700,
+      "sha256": "D5282960AD52F7C1348A0523CF67175B1957A02ADBE9D9CB2486387F9902DEA0"
+    },
+    "invocation_transcription_reconciliation": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/evidence/invocation-transcription-reconciliation.json",
+      "bytes": 1680,
+      "sha256": "615F6699EBE481A9927954B00B888724FA5BC6BCE7D0B546BB525EDFAD54F248"
+    },
+    "invocation_record": {
+      "path": "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/attempt.json",
+      "bytes": 12243,
+      "sha256": "6E1C8016D9D413791324DB519C5358D54714FCAAAD3868BF9CB8A12CEBDBD0C4"
+    },
+    "repository": {
+      "repository": "ScalableParimal/SupportIQ",
+      "branch": "SupportIQ-Requirement-Analysis",
+      "head": "d9dd1685bbdc6d8a4ce21d2b21ee0bae491d6ef0",
+      "worktree_changes": [
+        "?? docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261106T133655Z-aad237e2-4bec-4bc3-87c0-1d939b08a85d/"
+      ]
+    }
+  },
+  "plan_status": "Draft Candidate ? self-validation complete; independent Implementation Plan Verification not performed; no human plan approval or implementation authorization.",
+  "validation_summary": {
+    "task_count": 27,
+    "unique_task_ids": 27,
+    "task_ids_sequential": true,
+    "functional_requirement_ids": 101,
+    "covered_functional_requirement_ids": 101,
+    "prerequisite_graph_acyclic": true,
+    "tests_or_builds_run": false
+  },
+  "unfinished_work": [
+    "Publish report.md bound to the candidate plan and validation evidence.",
+    "Publish result.json only after report/evidence readback and integrity validation."
+  ],
+  "blockers": [],
+  "pending_gate": "Independent Implementation Plan Verification; all required human gates remain later and separate.",
+  "no_implementation": "No product source, tests, configuration, migration, schema, build, or runtime changes were performed."
+}

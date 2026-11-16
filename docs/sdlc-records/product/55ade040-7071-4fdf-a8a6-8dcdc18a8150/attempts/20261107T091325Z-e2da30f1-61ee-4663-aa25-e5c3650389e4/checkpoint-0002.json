@@ -1,0 +1,25 @@
+{
+    "schema_version":  "1.0",
+    "record_type":  "sdlc_process_checkpoint",
+    "record_id":  "20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4:checkpoint-0002",
+    "work_id":  "55ade040-7071-4fdf-a8a6-8dcdc18a8150",
+    "attempt_id":  "20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4",
+    "process":  "SDLC Portability Assessment",
+    "created_at_utc":  "2026-11-07T09:24:53.2537709Z",
+    "status":  "FINAL_PUBLICATION_INTEGRITY_PASS",
+    "result":  {
+                   "path":  "docs/sdlc-records/product/55ade040-7071-4fdf-a8a6-8dcdc18a8150/attempts/20261107T091325Z-e2da30f1-61ee-4663-aa25-e5c3650389e4/result.json",
+                   "sha256":  "8C5E0463C3CB56E22EFF3B6DA081A9E8D0AF78B96368E00704C4C15A0862217D",
+                   "bytes":  10563
+               },
+    "checks":  [
+                   "Fresh tool-call result JSON readback and exact known result SHA256",
+                   "Canonical report/evidence/invocation/checkpoint byte lengths and hashes match result",
+                   "All eight applicable dimensions present; no blocker decision invented; next process not started",
+                   "Predecessor four records still match evidence fingerprints",
+                   "Manifested source, current Requirement and HEAD/branch unchanged",
+                   "Git status equals preinvocation status plus only own fresh attempt",
+                   "Existing Planning untracked directory still present; no tracked product/source changes"
+               ],
+    "handoff":  "Assessment COMPLETED, COMPATIBILITY WITH IDENTIFIED ADAPTATION; stop. Independent Plan Verification requires fresh Human Process Initiation Approval and independently validated exact upstream gates."
+}
