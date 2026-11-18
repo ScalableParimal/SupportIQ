@@ -394,6 +394,9 @@ reported evidence.
 
 ---
 
+## Work Item References and Post-Acceptance Issues
+
+For a product investigation, carry the canonical Work Item IDs and types for the affected Requirement, Feature, Task, and Bug/Issue where known, alongside the originating report and original Finding ID. Do not replace a Finding ID or narrow the complete relevant investigation scope with Work Item IDs. A post-acceptance Bug/Issue intake is unvalidated context; investigate it through the ordinary Finding process and preserve the accepted implementation reference. Missing identity must be stated, not invented.
 ## 15. Recommended Next Process
 
 Based on the investigation outcome:

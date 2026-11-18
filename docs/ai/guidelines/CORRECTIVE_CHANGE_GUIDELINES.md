@@ -681,6 +681,9 @@ For a human-requested governance enhancement: (1) preserve it as a non-finding a
 
 ---
 
+## Work Item Traceability for Corrective Decisions
+
+For a product corrective decision, identify the canonical Work Item IDs and types affected, preserve any originating Finding ID and its report reference, and link each proposed correction to the applicable Requirement version, Plan-local task IDs, accepted or current implementation identity, and verification/review records. A Bug/Issue Work Item does not itself establish a Finding or authorize a correction. Do not renumber historical IDs or treat an ID as approval. Apply the post-acceptance intake route in SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 38.1.
 ## 19. Critical Rule
 
 A corrective implementation must always be performed against the current approved implementation plan.

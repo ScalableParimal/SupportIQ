@@ -316,6 +316,9 @@ Human Plan Approval as Required
 
 Requirement Analysis Verification is separate from Human Requirement Approval. The updated Requirement becomes the approved source of truth only after explicit Human Requirement Approval. After Requirement Approval, Plan Impact Evaluation is required. Follow the applicable Implementation Planning / Plan Update, Implementation Plan Verification, Human Review Approval, and Human Plan Approval processes as required. After required plan verification and resolution of findings and decisions, Human Review Approval is the required gate that precedes separate Human Plan Approval and authorizes only progression to it.
 
+## Work Item Identity Preservation
+
+When creating a new immutable Requirement version, preserve every existing Work Item ID and Requirement ID whose logical item remains, record explicit mappings for splits, merges, removals, and replacements, and allocate IDs only for genuinely new items under SDLC_ARTIFACT_GOVERNANCE.md section 8.5. Never edit or renumber a prior version's derived Markdown files. Bind the new version's derived files to its exact version ID and SHA-256 and include affected Work Item IDs in the existing update record. Human decisions about new Epic/Feature groupings remain explicit; do not infer them from text changes.
 ## Final Principle
 
 > **AI may incorporate and clarify approved human decisions, but must not invent, silently decide, or broaden the requirement.**

@@ -76,3 +76,7 @@ Clearly distinguish:
 Return the complete verification report defined by:
 
 `docs/ai/guidelines/IMPLEMENTATION_PLAN_VERIFICATION_GUIDELINES.md`
+
+
+Product Work Item Traceability
+For product work, use the canonical Work Item IDs, types, parent/related IDs, and exact Requirement version references required by the governing Guidelines and request. Carry applicable IDs into this process's report and existing records. Preserve existing Plan-local Task IDs and report-local Finding IDs as references; do not substitute or renumber them. IDs do not imply approval, completion, or acceptance and must not narrow complete-scope verification or review.

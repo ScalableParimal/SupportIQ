@@ -49,3 +49,12 @@ Apply section 30.1 of SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md. This context does
 Implementation Review Target Binding
 Complete implementation-state manifest: [Exact target reference]
 Implementation Verification report and target binding: [Reference and applicability to this target]
+
+## Work Item Context (product work)
+
+- Canonical Work Item IDs and types: [IDs/types, or NOT APPLICABLE]
+- Parent and related Work Item IDs: [IDs, or NONE established]
+- Source Requirement version ID and SHA-256: [identity/fingerprint, or NOT APPLICABLE]
+- Existing Requirement IDs, Feature IDs, Plan-local Task IDs, and Finding IDs with mappings: [references, or NOT APPLICABLE]
+
+Use only identities established by the applicable upstream artifact or existing record; identify missing or unresolved mappings rather than inventing IDs. Work Item IDs are traceability context; they do not establish approval or restrict any required complete-scope verification or review. Follow the governing Work Item ID rules.

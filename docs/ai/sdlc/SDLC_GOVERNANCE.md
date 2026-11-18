@@ -699,6 +699,9 @@ Where findings occur, traceability must additionally capture:
 
 ---
 
+### 23.1 Stable Work Item References
+
+For product work, identify the applicable Epic, Feature, Requirement, Task, Bug, or Issue with its canonical Work Item ID and type. Each lifecycle artifact must carry the IDs it concerns and references to its applicable parent and related items. The same Work Item ID follows the same logical item through Requirement Analysis, approved Requirement, Plan, implementation, verification, review, findings or bugs, and Human Acceptance. An ID establishes identity and traceability only; it does not establish approval, completion, verification, or acceptance. Apply SDLC_ARTIFACT_GOVERNANCE.md section 8.5 and SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 28.1. Preserve existing identifiers as aliases; do not renumber historical work.
 ## 24. Detailed Governance Documents
 
 The detailed governance rules for each governed activity are maintained separately.

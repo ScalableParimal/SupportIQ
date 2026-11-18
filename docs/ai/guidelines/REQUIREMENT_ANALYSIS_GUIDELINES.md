@@ -540,6 +540,9 @@ Unless the human requests another format, structure the analysis as:
 
 ---
 
+### 18.1 Structured Work-Item Decomposition
+
+For product Requirements, include a draft decomposition into Epic, Feature, and Requirement work items in the analysis output. Once the required human grouping decisions and source identity are established, produce the version-bound Markdown file for each item; until then, report pending decisions and do not present candidate files as final. Each item must use the canonical ID and metadata rules in SDLC_ARTIFACT_GOVERNANCE.md section 8.5, bind to the exact source Requirement version and SHA-256, preserve existing Requirement IDs, and identify parent/related items. The generated Markdown files are derived views only and are required once source identity and human grouping decisions are established. Do not change the source Requirement or infer business grouping: obtain the authorized human decision for Epic/Feature classification. Mark unresolved assignments pending; do not present candidate IDs or decomposition as approved. Do not generate or publish files for a Requirement whose identity or source bytes cannot be established.
 ## 19. Final Principle
 
 The objective of requirement analysis is not to make the requirement look complete by filling gaps with AI assumptions.

@@ -31,3 +31,12 @@ Observed Evidence:
 Additional Context:
 [Any additional information relevant to the decision]
 The Finding fields above are not applicable to a non-finding enhancement. Never substitute enhancement provenance or proposal authorization for Human Approval of the exact change.
+
+## Work Item Context (product work)
+
+- Canonical Work Item IDs and types: [IDs/types, or NOT APPLICABLE]
+- Parent and related Work Item IDs: [IDs, or NONE established]
+- Source Requirement version ID and SHA-256: [identity/fingerprint, or NOT APPLICABLE]
+- Existing Requirement IDs, Feature IDs, Plan-local Task IDs, and Finding IDs with mappings: [references, or NOT APPLICABLE]
+
+Use only identities established by the applicable upstream artifact or existing record; identify missing or unresolved mappings rather than inventing IDs. Work Item IDs are traceability context; they do not establish approval or restrict any required complete-scope verification or review. Follow the governing Work Item ID rules.

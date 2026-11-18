@@ -35,3 +35,7 @@ At the end, state:
 5. Recommended corrective direction, if appropriate
 6. Whether human decision/approval is required
 7. Recommended next process
+
+
+Product Work Item Traceability
+For product work, use the canonical Work Item IDs, types, parent/related IDs, and exact Requirement version references required by the governing Guidelines and request. Carry applicable IDs into this process's report and existing records. Preserve existing Plan-local Task IDs and report-local Finding IDs as references; do not substitute or renumber them. IDs do not imply approval, completion, or acceptance and must not narrow complete-scope verification or review.

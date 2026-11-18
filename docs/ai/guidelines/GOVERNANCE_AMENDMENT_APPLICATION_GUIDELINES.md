@@ -12,6 +12,8 @@ Before writing, hash every target and compare every base fingerprint. Validate t
 ## Evidence and result
 Automatically bind the approval and proposal report; record repository identity, HEAD, branch, initial status, approved and actual path lists, before/after byte counts and SHA-256 values, exact applied-content identity, tool outcomes, and any partial failure. Publish only this actor's records within its attempt scope. Successful application means only that the authorized bytes were applied; it is not verification, review, audit, effectiveness, baseline adoption, Human Acceptance, commit, or push.
 
+Before publishing a completed result.json, durably publish and read back this Application attempt's canonical report and required evidence. The result must bind that final report by repository-relative path, stable record identity, and SHA-256 of its exact published bytes, and must resolve and integrity-check the required evidence references. A binding to the approved proposal report is not a binding to the Application report. Validate these references before terminal publication; if a report, identity, fingerprint, or required evidence reference is missing or mismatched, stop CANNOT COMPLETE and do not publish a completed result. Preserve published final records; any later correction or supersession requires linked new records under the applicable governed process, not an in-place edit.
+
 ## Next gates
 After successful application, hand off to a distinct independent Verification actor, then a distinct Review actor, then the full Governance Audit. Do not declare effectiveness. A Master change additionally requires separate prospective-baseline adoption after every gate passes.
 

@@ -837,6 +837,11 @@ Executed Plan tasks must have unique, stable Plan-local identifiers qualified by
 
 ---
 
+### 28.1 Canonical Work Item IDs and Cross-Stage References
+
+For product work, use `WI-<lowercase UUIDv4>` as the canonical ID format for each Epic, Feature, Requirement, Task, Bug, or Issue. Type, title, parent Work Item IDs, related Work Item IDs, and Requirement IDs are separate fields; the ID is stable and is not changed when a title, parent grouping, Requirement version, or Plan changes. Generate IDs with a cryptographically secure UUIDv4 source, collision-check both persistence roots and the applicable work-item files, and stop on a conflicting identity. Preserve existing Requirement IDs, feature/work slugs, Plan-local Task IDs, and report-local Finding IDs as historical aliases; record mappings without renumbering or rewriting prior records. A Plan task must retain its unique Plan-local ID qualified by Plan identity/version and additionally reference its canonical Work Item ID.
+
+Every Requirement Analysis, Requirement version, Implementation Plan, implementation, verification, review, Finding Investigation, Corrective Change, and Human Acceptance record must identify the applicable canonical Work Item IDs and the exact upstream artifact identities/fingerprints needed to resolve the chain. For a Finding, preserve the originating report and original Finding ID and add related Work Item IDs; the Work Item ID does not replace the Finding ID. IDs are context and do not narrow complete-scope verification or establish approval, status, or acceptance. Structured Markdown and generated traceability reports follow SDLC_ARTIFACT_GOVERNANCE.md section 8.5; they are not a separate registry.
 ## 29. Complete-Scope Verification Principle
 
 For activities defined as complete-scope verification:
@@ -1392,6 +1397,9 @@ This allows the repository history and governance records to explain:
 
 ---
 
+### 38.1 Post-Acceptance Bug and Issue Intake
+
+A reported defect or issue discovered after Human Acceptance may be recorded as a `Bug` or `Issue` Work Item using the canonical ID format in section 28.1 and linked to affected Requirements, Features, Tasks, and the accepted implementation identity where known. This intake record is not by itself a validated Finding, a change request, or authority to alter accepted artifacts. When investigation is needed, submit it to Finding Investigation with source `HUMAN`, the Bug/Issue Work Item ID, affected Work Item IDs, observed evidence, and accepted-state references. Continue through the existing Finding Investigation and Corrective Change Decision processes; use Requirement Update if a Requirement change is determined. Preserve acceptance history and do not reopen or replace it implicitly.
 ## 39. Governance Shortcuts That Are Not Permitted
 
 The following shortcuts are prohibited:

@@ -40,3 +40,7 @@ At the end, state:
 2. Human decisions incorporated
 3. Blocking decisions, if any
 4. Whether the requirement is ready for Requirement Analysis Verification
+
+
+Product Work Item Traceability
+For product work, use the canonical Work Item IDs, types, parent/related IDs, and exact Requirement version references required by the governing Guidelines and request. Carry applicable IDs into this process's report and existing records. For Requirement Analysis, prepare candidate Work Item IDs/decomposition only under the Requirement Analysis Guideline; business grouping remains a human decision. IDs do not imply approval, completion, or acceptance and must not narrow complete-scope verification or review.

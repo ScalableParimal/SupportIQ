@@ -557,6 +557,9 @@ The output is the implementation plan.
 
 ---
 
+## Work Item Identity in Plans
+
+Every Plan task must retain its unique Plan-local Task ID qualified by Plan identity/version and include its canonical Work Item ID with type `Task`, parent Work Item IDs, and Requirement/Feature Work Item IDs it implements. Keep these identities distinct: the canonical Work Item ID is stable across Plans; the Plan-local Task ID identifies the versioned execution task. Include Work Item IDs in task-impact mappings and the Requirement-to-Plan traceability table. Neither ID changes plan authority or verification scope.
 ## Final Principle
 
 > **The implementation plan translates an approved requirement into traceable, repository-aligned implementation work. It must not redefine the requirement or silently introduce architecture, scope, or technical decisions that have not been approved.**

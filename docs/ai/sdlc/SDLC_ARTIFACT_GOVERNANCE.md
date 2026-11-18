@@ -366,6 +366,15 @@ For each new version, the existing records must bind: a unique immutable version
 
 ---
 
+### 8.5 Derived Structured Work-Item Markdown
+
+For each product Requirement version, once required human grouping decisions are obtained and source identity is established, the Requirement Analysis process must produce one UTF-8 Markdown file per Epic, Feature, or Requirement under `docs/requirement/work-items/<requirement-version-id>/<work-item-id>.md`. Before then, its analysis report must contain the candidate decomposition and unresolved decisions, and no files with unapproved grouping may be presented as final. These files are version-bound derived views, not replacements for or amendments to the immutable Requirement. Their YAML front matter must contain `schema_version`, `work_item_id`, `type`, `title`, `parent_work_item_ids`, `source_requirement_version_id`, `source_requirement_sha256`, and `source_requirement_ids`. The permitted types are `Epic`, `Feature`, `Requirement`, `Task`, `Bug`, and `Issue`. A Task is additionally defined and approved through its Implementation Plan; Bug and Issue items are recorded through the applicable existing process records.
+
+The canonical Work Item ID format is `WI-<lowercase UUIDv4>` for every type. Allocate it using a cryptographically secure UUIDv4 source; collision-check existing product and governance records and work-item files before first publication. A collision or conflicting identity blocks publication and requires a new candidate ID. The type and parent relationships are metadata, not encoded into the ID. Preserve existing FR-* Requirement IDs, feature IDs, Plan-local task IDs, and report-local Finding IDs as aliases/references; never renumber or rewrite historical records. Bind any mapping to source identity and fingerprints.
+
+A human-authorized Product Owner or delegated Requirement Decision Authority decides Epic/Feature grouping and any business classification. AI may prepare candidate decomposition only; unresolved grouping remains pending and must not be silently decided. Human Requirement Approval applies to the Requirement and the explicitly presented decomposition, but does not make derived files independent business sources. Before approval they remain draft views. On each Requirement version, preserve prior files and generate a new version-bound set; never edit a prior set in place. Status, approval, and acceptance remain in existing governed records; do not add a separate status registry.
+
+The Requirement Analysis process must generate a traceability report for the resulting decomposition, and each later governed process must update or regenerate it at its handoff when the required source records exist. It is a non-authoritative view: bind its inputs by identity, version, and SHA-256; publish it only within an existing process attempt's authorized report/evidence scope; do not create a separate registry or status store. Conflicts or missing links must be reported, not inferred.
 ## 9. Implementation Plan
 
 ### 9.1 Purpose
