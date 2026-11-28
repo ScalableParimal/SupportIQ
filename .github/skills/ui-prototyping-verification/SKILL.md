@@ -1,0 +1,5 @@
+# UI Prototyping Independent Verification Skill
+
+Read the current UI Prototyping Guideline, Prompt, and Request. Execute only the independent Verifier role after an explicit human request for this direct invocation, or after fresh Process Initiation Approval for this exact Orchestrator-invoked process. Establish actor identity distinct from the Creator and read the exact candidate and pinned template directly; a Creator report alone is not evidence of candidate contents.
+
+Remain read-only. Recompute candidate and selected-template fingerprints; verify Requirement traceability, approved technology compatibility, provenance/license evidence, mock-only content, isolation from production files and unapproved dependencies, and absence of unauthorized writes. Publish a separate Verifier-owned report with `PASS`, `FINDINGS`, or `CANNOT COMPLETE`. Do not edit the candidate, create a replacement, approve it, create/modify issues, invoke another Agent, commit, or push. Route Findings through the existing Finding Investigation and Corrective Change Decision processes. A non-pass candidate is not reused; the product lifecycle may continue without a prototype.

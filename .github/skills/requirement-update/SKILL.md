@@ -1,0 +1,155 @@
+---
+name: requirement-update
+description: Executes the governed Requirement Update process using the repository Requirement Update Guideline, Prompt, and Request.
+---
+
+# Requirement Update Skill
+
+## 1. Purpose
+
+Execute the repository's governed Requirement Update process.
+
+This Skill provides the reusable execution procedure for applying explicitly approved human decisions to an existing Requirement. It does not replace or duplicate the normative rules defined by the Requirement Update Guideline.
+
+## 2. Governing Artifacts
+
+Before execution, load and follow:
+
+- `docs/ai/guidelines/REQUIREMENT_UPDATE_GUIDELINES.md`
+- `docs/ai/prompts/REQUIREMENT_UPDATE_PROMPT.md`
+- `docs/ai/request/REQUIREMENT_UPDATE_REQUEST.md`
+
+The Guideline is the normative authority for the Requirement Update process.
+
+The Prompt defines the controlled invocation requirements.
+
+The Request supplies run-specific inputs.
+
+Do not duplicate, reinterpret, or override their instructions in this Skill.
+
+## 3. Execution Preconditions
+
+Before updating:
+
+Assess applicable Repository Baseline Setup transition and refresh checks for
+this product scope under `docs/ai/guidelines/REPOSITORY_BASELINE_SETUP_GUIDELINES.md`
+section 9. Stop when an applicable gate is unmet; present the human-invoked
+Setup entry point without invoking it. Do not require Phase 2 merely to create
+or verify a candidate Plan.
+
+1. Load the governing Guideline, Prompt, and Request.
+2. Establish the update context and source lifecycle path under Guideline section 2; resolve the source Requirement path, immutable version ID, SHA-256, lifecycle status, and applicable approval evidence. Use the identified unapproved source only for initial analysis clarification before first formal approval; retain the current approved source for an approved-source change.
+3. For Initial Analysis Clarification, resolve the initial analysis questions, explicit human answers/decisions, and explicit update request; do not invent a Finding or formal Requirement Approval. For an approved-source human-requested non-finding amendment, resolve the existing request details, scope, responsible human decision, disposition, and rationale under SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md section 8.
+4. Resolve the relevant analysis findings/questions, where applicable.
+5. Resolve the explicit human decisions.
+6. Resolve recommendations explicitly approved by the human.
+7. Confirm that the decisions required for the requested update are sufficiently clear.
+8. If a material decision remains unresolved or ambiguous, stop and request clarification.
+
+Only explicitly approved human decisions may drive the Requirement Update.
+
+## 4. Execution Procedure
+
+Execute the following sequence:
+
+1. Establish the lifecycle-qualified immutable source under Guideline section 2 and record its path, version ID, SHA-256, status, and applicable approval evidence; stop if that source status cannot be established.
+2. Establish whether the update is Initial Analysis Clarification (pre-approval), Finding-led, or an approved-source human-requested non-finding amendment. Preserve the initial result as unapproved through the downstream gates in section 8; approved clarification decisions do not constitute Human Requirement Approval.
+3. Establish the analysis findings/questions addressed by the update, where applicable.
+4. Establish the explicit human decisions and approved recommendations.
+5. Apply only those approved decisions to a new Requirement version artifact under `docs/requirement/`; never edit, overwrite, or remove the source version.
+6. Inspect related sections affected by each decision and preserve valid unrelated Requirement content in the new version.
+7. Record source/result version IDs and SHA-256 values, required traceability, status, actor/role, and change summary in existing process records.
+8. Perform the consistency and validation activities required by the governing Guideline, including preservation/read-back verification before handoff.
+9. Produce the required change summary.
+10. Identify remaining open questions and material assumptions.
+11. Clearly state the resulting approval status in the existing process record; do not mutate Requirement bytes to change status.
+12. Stop at the Requirement Update process boundary.
+
+The detailed rules for applying decisions, preserving requirements, controlling scope, and validating consistency remain defined by the Guideline.
+
+## 5. Artifact Modification Boundary
+
+Requirement Update is the governed process that creates a new immutable Requirement version under `docs/requirement/` when the execution context explicitly requests an approved update.
+
+Never modify, overwrite, or remove the source or any previously created Requirement version. Create only the new version required by the explicitly approved update. Own-output record publication does not authorize additional substantive artifact changes.
+
+Do not modify:
+
+- source code;
+- tests;
+- implementation plans;
+- database schema;
+- configuration;
+- unrelated documentation;
+- AI Guidelines;
+- Prompts;
+- Requests.
+
+Do not create implementation artifacts as part of Requirement Update.
+
+The restrictions in this section do not prohibit publication of this process's own governed output records. Follow section 33.1 of SDLC_ARTIFACT_GOVERNANCE.md and section 30.1 of SDLC_TRACEABILITY_AND_CHANGE_CONTROL.md within the explicitly designated record scope. This limited permission covers the process's own invocation metadata, checkpoints, required report, result bindings, and permitted evidence or gate records; it does not permit changes to approved upstream artifacts, another process's records, or substantive human decisions. Published final records must not be edited in place. Establish required execution context before starting and publish the terminal record only when its recorded termination or completion is established. All other write, process, independence, approval, and acceptance restrictions remain in force.
+
+## 6. Decision Boundary
+
+The Skill may apply decisions that have already been explicitly made by the human.
+
+It must not:
+
+- invent requirements;
+- make unresolved business decisions;
+- silently interpret an ambiguous human decision;
+- convert an AI recommendation into a requirement without explicit approval;
+- broaden the Requirement;
+- introduce unrelated implementation details.
+
+If clarification is required, stop rather than deciding silently.
+
+## 7. Approval Boundary
+
+The output of Requirement Update is an updated Requirement that remains subject to the subsequent governed processes.
+
+Requirement Update does not constitute:
+
+- Requirement Analysis;
+- Requirement Analysis Verification;
+- Human Requirement Approval;
+- Plan Impact Evaluation;
+- Implementation Planning;
+- Implementation Plan Verification;
+- Human Plan Approval;
+- implementation authorization.
+
+The updated Requirement becomes the approved source of truth only after the required Human Requirement Approval.
+
+## 8. Downstream Handoff
+
+After Requirement Update, the governed downstream process is:
+
+Requirement Analysis
+→ Complete Requirement Analysis Verification
+→ Resolve Findings / Decisions
+→ Human Requirement Approval
+
+After Human Requirement Approval, follow the applicable Plan Impact Evaluation and implementation-planning path.
+
+Do not perform those downstream processes as part of Requirement Update.
+
+## 9. Completion
+
+Return:
+
+- the updated Requirement;
+- the required change summary;
+- remaining open questions;
+- remaining material assumptions;
+- the resulting approval status.
+
+Follow the output requirements defined by the governing Guideline and Prompt.
+
+Do not mark the Requirement as approved.
+
+The Skill ends after the Requirement Update output and handoff to Requirement Analysis.
+
+### direct-entry Portability reassessment gate
+
+Before consequential work in a directly invoked product-subject process, apply the Portability reassessment gate in the governing Guideline. Determine whether the current explicit/material-change reassessment contains a possible blocker in this process's scope using the affected-stage criteria in SDLC_GOVERNANCE.md Section 3. Bind the report and each in-scope Human disposition in this invocation's evidence. If the assessment/disposition is missing, stale, unresolved, unresolvable, or ambiguous about this stage, stop before consequential work and request the missing evidence or Human decision. Follow explicit Human conditions/hold directions; do not make or infer the decision and do not invoke Portability Assessment automatically. Record `NOT APPLICABLE` and why when no applicable reassessment/blocker exists. Governance-only work is excluded.

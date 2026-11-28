@@ -1,0 +1,17 @@
+Read and follow `docs/ai/prompts/UI_PROTOTYPING_PROMPT.md`.
+
+Work ID: [existing canonical Work ID]
+Actor role: [CREATOR / INDEPENDENT VERIFIER]
+Repository applicability decision and evidence: [enabled / disabled / absent; record identity]
+Current approved Requirement: [identity, version, SHA-256, approval evidence]
+Per-Requirement choice: [PROTOTYPE / SKIP; attributable human response and record]
+Approved frontend technology baseline: [source, version, SHA-256]
+Adopted product persistence root: [identity and adoption evidence]
+Template source: [human-supplied repository URL, full commit SHA, optional subpath]
+Template evidence: [selected-file manifest SHA-256, provenance/license evidence, compatibility decision]
+Creator input/output: [Creator attempt/report/result; candidate identity and SHA-256]
+Verifier input/output: [Verifier attempt/report/result; exact candidate and source fingerprints]
+Human Prototype Approval: [GitHub issue comment permalink/identity, author attribution, timestamp, exact body and SHA-256; or NOT APPROVED]
+Revision input: [FINDING with existing investigation/decision references, or HUMAN SUGGESTION with attributable source, or NONE]
+Result: [NOT OPTED IN / SKIPPED / VERIFIED - PENDING HUMAN APPROVAL / APPROVED FOR PLAN REFERENCE / FINDINGS / CANNOT COMPLETE]
+Limitations and next permitted process: [state explicitly]
